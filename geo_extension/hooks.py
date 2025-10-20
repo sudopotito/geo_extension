@@ -82,8 +82,15 @@ app_license = "mit"
 # Installation
 # ------------
 
-# before_install = "geo_extension.install.before_install"
-# after_install = "geo_extension.install.after_install"
+before_install = "geo_extension.install.before_install"
+after_install = "geo_extension.install.after_install"
+
+
+# Migration
+# ------------
+
+after_migrate = "geo_extension.install.after_install"
+
 
 # Uninstallation
 # ------------
@@ -241,4 +248,3 @@ app_license = "mit"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
-
