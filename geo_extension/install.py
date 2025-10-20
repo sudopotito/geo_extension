@@ -1,15 +1,9 @@
-# geo_extension/install.py
 import frappe
 from frappe.custom.doctype.custom_field.custom_field import create_custom_fields
 from frappe.custom.doctype.property_setter.property_setter import make_property_setter
 
 ADDRESS = "Address"
-AC_FIELDS = [
-    "city",
-    "county",
-    "state",
-    "barangay",
-]
+AC_FIELDS = ["city", "county", "state", "barangay"]
 
 
 def before_install():
@@ -23,7 +17,7 @@ def after_install(force: bool = False):
 
 
 def setup_custom_fields(force: bool = False):
-    """Create system-generated custom fields"""
+    """Create Barangay as Autocomplete after City (idempotent)."""
     custom_fields = {
         ADDRESS: [
             {
@@ -38,32 +32,26 @@ def setup_custom_fields(force: bool = False):
 
 
 def setup_property_setters():
+    """Force target fields to Autocomplete using Property Setters only."""
     for fieldname in AC_FIELDS:
         _set_fieldtype_autocomplete(ADDRESS, fieldname)
 
 
 def _set_fieldtype_autocomplete(doctype: str, fieldname: str):
-    # Avoid duplicate PS entries for fieldtype
+    # Idempotently ensure a fieldtype Property Setter exists and is "Autocomplete"
     ps = frappe.get_all(
         "Property Setter",
-        filters={
-            "doc_type": doctype,
-            "field_name": fieldname,
-            "property": "fieldtype",
-        },
+        filters={"doc_type": doctype, "field_name": fieldname, "property": "fieldtype"},
         fields=["name", "value"],
         limit=1,
     )
-
     if ps:
-        # Update existing if needed
         if ps[0].value != "Autocomplete":
             doc = frappe.get_doc("Property Setter", ps[0].name)
             doc.value = "Autocomplete"
             doc.save(ignore_permissions=True)
         return
 
-    # Create/overwrite property: property_type='Data' is correct for fieldtype props
     make_property_setter(
         doctype=doctype,
         fieldname=fieldname,

@@ -3,9 +3,13 @@
 const LEVEL_FIELDS = ["state", "county", "city", "barangay"];
 
 /**
- * We display labels only (e.g., "Quezon City") but still need codes for filtering the next level.
- * Keep a per-field label->code map in frm._geo.map[fieldname] so we can look up the code
- * from the chosen label when cascading.
+ * Production behavior:
+ * - If a manifest exists for the selected country, we:
+ *   * Show only the target fields listed there
+ *   * Reorder those target fields (top→bottom) immediately AFTER address_line2
+ *   * Feed Autocomplete with LABELS ONLY (e.g., "Quezon City"), but keep a label->code map
+ *     so cascading uses the correct parent_code.
+ * - If no manifest exists, we keep the default form ordering and leave all fields visible.
  */
 frappe.ui.form.on("Address", {
 	async onload_post_render(frm) {
@@ -21,11 +25,11 @@ frappe.ui.form.on("Address", {
 	},
 
 	async country(frm) {
-		// Start in freeform: show all and clear stale suggestions
+		// Default: show everything and clear stale options; no reordering yet
 		await set_mode_freeform(frm);
 		if (!frm.doc.country) return;
 
-		// Load manifest; if none, stay freeform (users can type)
+		// Load manifest; if none → keep default ordering and freeform typing
 		let levels = [];
 		try {
 			levels =
@@ -39,17 +43,18 @@ frappe.ui.form.on("Address", {
 
 		frm._geo = { mode: "guided", levels, _init: true, map: {} };
 
-		// Show only fields present in manifest; hide the rest
+		// Show only fields present in manifest; clear options for used fields
 		const used = new Set(levels.map((l) => l.target_field));
 		for (const f of LEVEL_FIELDS) {
 			if (!frm.fields_dict[f]) continue;
 			frm.toggle_display(f, used.has(f));
-			if (used.has(f)) {
-				set_ac_options(frm, f, []); // empty to clear
-			}
+			if (used.has(f)) set_ac_options(frm, f, []); // clear
 		}
 
-		// Populate level 1
+		// Reorder the used fields to appear after address_line2, in manifest order
+		reorder_fields_by_manifest(frm, levels);
+
+		// Populate level 1 options
 		const firstField = levels[0].target_field;
 		const root = await call("geo_extension.geo_extension.locations.get_level_options", {
 			country: frm.doc.country,
@@ -90,7 +95,7 @@ async function next_level(frm, changed_field) {
 	const nxt = levels[idx + 1];
 	if (!nxt) return;
 
-	// Get the parent code by looking up the label in our map
+	// Convert the selected label to its code using our per-field map
 	const label = frm.doc[changed_field] || "";
 	const parent_code = lookup_code(frm, changed_field, label);
 	if (!parent_code) return;
@@ -113,34 +118,58 @@ async function set_mode_freeform(frm) {
 }
 
 /**
- * Feed Autocomplete with labels only, while caching label->code mapping per field.
+ * Reorder the target fields according to manifest order,
+ * placing them immediately AFTER the 'address_line2' field.
+ * This is a UI-only change (DOM move), does not affect schema.
+ */
+function reorder_fields_by_manifest(frm, levels) {
+	const order = levels
+		.map((l) => l.target_field)
+		.filter(
+			(f) =>
+				frm.fields_dict[f] &&
+				frm.fields_dict[f].$wrapper &&
+				frm.fields_dict["address_line2"]
+		);
+
+	if (!order.length || !frm.fields_dict["address_line2"]) return;
+
+	const anchor = frm.fields_dict["address_line2"].$wrapper;
+	let last = anchor;
+	for (const f of order) {
+		const wrap = frm.fields_dict[f].$wrapper;
+		try {
+			wrap.insertAfter(last);
+			last = wrap;
+		} catch (_) {
+			// if insertAfter fails in a particular layout, skip gracefully
+		}
+	}
+}
+
+/**
+ * Feed Autocomplete with LABELS ONLY and cache label->code per field.
  * rows: [{label, value}] from the server.
  */
 function set_ac_options(frm, fieldname, rows) {
 	const ctrl = frm.fields_dict[fieldname];
 	if (!ctrl) return;
 
-	// Build label-only list + cache map
-	const list = (rows || []).map((r) => r.label);
+	const list = (rows || []).map((r) => r.label); // labels only in UI
 	const map = Object.create(null);
-	for (const r of rows || []) {
-		map[r.label] = r.value;
-	}
+	for (const r of rows || []) map[r.label] = r.value;
+
 	if (!frm._geo.map) frm._geo.map = {};
 	frm._geo.map[fieldname] = map;
 
-	// Preferred: ControlAutocomplete API
 	if (typeof ctrl.set_data === "function") {
 		ctrl.set_data(list);
 	} else if (ctrl.$input && ctrl.$input[0] && ctrl.$input[0].awesomplete) {
-		// Direct Awesomplete fallback
 		ctrl.$input[0].awesomplete.list = list;
 	} else {
-		// Last-ditch df.options fallback (some builds still read this)
 		ctrl.df.options = list;
 		frm.set_df_property(fieldname, "options", list);
 	}
-
 	frm.refresh_field(fieldname);
 }
 
