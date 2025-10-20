@@ -1,5 +1,3 @@
-// public/js/address_filters.js
-
 const LEVEL_FIELDS = ["state", "county", "city", "barangay"];
 
 /**
