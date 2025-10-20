@@ -8,6 +8,8 @@ const LEVEL_FIELDS = ["state", "county", "city", "barangay"];
  *   * Maintain a label->code map per field so cascading uses correct parent_code
  * - If no manifest exists:
  *   * Keep default layout/order and show all fields (freeform typing)
+ * - On COUNTRY CHANGE (or clear):
+ *   * Clear BOTH values and options of all level fields, and reset the map
  */
 frappe.ui.form.on("Address", {
 	async onload_post_render(frm) {
@@ -23,9 +25,11 @@ frappe.ui.form.on("Address", {
 	},
 
 	async country(frm) {
-		// Default: freeform (all visible), clear stale suggestions
-		await set_mode_freeform(frm);
-		if (!frm.doc.country) return;
+		// Country changed/cleared → nuke downstream values and options, reset map
+		clear_levels(frm); // <-- clears values + options + map
+		await set_mode_freeform(frm); // <-- shows all; empty suggestions
+
+		if (!frm.doc.country) return; // if cleared, stop here (freeform blank)
 
 		// Try to load manifest; if none, stay freeform
 		let levels = [];
@@ -46,7 +50,7 @@ frappe.ui.form.on("Address", {
 		for (const f of LEVEL_FIELDS) {
 			if (!frm.fields_dict[f]) continue;
 			frm.toggle_display(f, used.has(f));
-			if (used.has(f)) set_ac_options(frm, f, []); // clear to start
+			if (used.has(f)) set_ac_options(frm, f, []); // start fresh
 		}
 
 		// Populate level 1 options
@@ -103,12 +107,26 @@ async function next_level(frm, changed_field) {
 	set_ac_options(frm, nxt.target_field, rows);
 }
 
+/** Show all fields and clear suggestions (free typing still allowed). */
 async function set_mode_freeform(frm) {
-	frm._geo = { mode: "freeform", levels: [], _init: true, map: {} };
+	frm._geo = { ...(frm._geo || {}), mode: "freeform", map: {} };
 	for (const f of LEVEL_FIELDS) {
 		if (!frm.fields_dict[f]) continue;
 		frm.toggle_display(f, true);
-		set_ac_options(frm, f, []); // Autocomplete with empty list still allows typing
+		set_ac_options(frm, f, []); // Autocomplete empty list
+	}
+}
+
+/** Hard clear: values + suggestions + map (used on country change). */
+function clear_levels(frm) {
+	// wipe map so old label->code doesn’t leak across countries
+	if (frm._geo) frm._geo.map = {};
+	for (const f of LEVEL_FIELDS) {
+		if (!frm.fields_dict[f]) continue;
+		// clear value
+		frm.set_value(f, "");
+		// clear suggestions
+		set_ac_options(frm, f, []);
 	}
 }
 
@@ -120,23 +138,19 @@ function set_ac_options(frm, fieldname, rows) {
 	const ctrl = frm.fields_dict[fieldname];
 	if (!ctrl) return;
 
-	const list = (rows || []).map((r) => r.label); // show labels only
+	const list = (rows || []).map((r) => r.label); // labels only
 	const map = Object.create(null);
 	for (const r of rows || []) map[r.label] = r.value;
 
+	if (!frm._geo) frm._geo = {};
 	if (!frm._geo.map) frm._geo.map = {};
 	frm._geo.map[fieldname] = map;
 
-	// Preferred: ControlAutocomplete API
 	if (typeof ctrl.set_data === "function") {
 		ctrl.set_data(list);
-	}
-	// Fallback: direct Awesomplete
-	else if (ctrl.$input && ctrl.$input[0] && ctrl.$input[0].awesomplete) {
+	} else if (ctrl.$input && ctrl.$input[0] && ctrl.$input[0].awesomplete) {
 		ctrl.$input[0].awesomplete.list = list;
-	}
-	// Last resort: df.options (some builds still read this)
-	else {
+	} else {
 		ctrl.df.options = list;
 		frm.set_df_property(fieldname, "options", list);
 	}
