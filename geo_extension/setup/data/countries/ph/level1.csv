@@ -1,4 +1,89 @@
-﻿code,name
-PH-ILI,Iloilo
-PH-CEB,Cebu
-PH-NCR,Metro Manila
+code,name
+0128,Ilocos Norte
+0129,Ilocos Sur
+0133,La Union
+0155,Pangasinan
+0209,Batanes
+0215,Cagayan
+0231,Isabela
+0250,Nueva Vizcaya
+0257,Quirino
+0308,Bataan
+0314,Bulacan
+0349,Nueva Ecija
+0354,Pampanga
+0369,Tarlac
+0371,Zambales
+0377,Aurora
+0410,Batangas
+0421,Cavite
+0434,Laguna
+0456,Quezon
+0458,Rizal
+1740,Marinduque
+1751,Occidental Mindoro
+1752,Oriental Mindoro
+1753,Palawan
+1759,Romblon
+0505,Albay
+0516,Camarines Norte
+0517,Camarines Sur
+0520,Catanduanes
+0541,Masbate
+0562,Sorsogon
+0604,Aklan
+0606,Antique
+0619,Capiz
+0630,Iloilo
+0645,Negros Occidental
+0679,Guimaras
+0712,Bohol
+0722,Cebu
+0746,Negros Oriental
+0761,Siquijor
+0826,Eastern Samar
+0837,Leyte
+0848,Northern Samar
+0860,Samar (Western Samar)
+0864,Southern Leyte
+0878,Biliran
+0972,Zamboanga Del Norte
+0973,Zamboanga Del Sur
+0983,Zamboanga Sibugay
+0997,City Of Isabela
+1013,Bukidnon
+1018,Camiguin
+1035,Lanao Del Norte
+1042,Misamis Occidental
+1043,Misamis Oriental
+1123,Davao Del Norte
+1124,Davao Del Sur
+1125,Davao Oriental
+1182,Compostela Valley
+1186,Davao Occidental
+1247,Cotabato (North Cotabato)
+1263,South Cotabato
+1265,Sultan Kudarat
+1280,Sarangani
+1298,Cotabato City
+1339,"Ncr, City Of Manila, First District"
+1339,City Of Manila
+1374,"Ncr, Second District"
+1375,"Ncr, Third District"
+1376,"Ncr, Fourth District"
+1401,Abra
+1411,Benguet
+1427,Ifugao
+1432,Kalinga
+1444,Mountain Province
+1481,Apayao
+1507,Basilan
+1536,Lanao Del Sur
+1538,Maguindanao
+1566,Sulu
+1570,Tawi-tawi
+1602,Agusan Del Norte
+1603,Agusan Del Sur
+1667,Surigao Del Norte
+1668,Surigao Del Sur
+1685,Dinagat Islands

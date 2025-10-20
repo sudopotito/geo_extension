@@ -1,15 +1,15 @@
-// public/js/address_filters.js
-
 const LEVEL_FIELDS = ["state", "county", "city", "barangay"];
 
 /**
- * Production behavior:
- * - If a manifest exists for the selected country, we:
+ * Behavior:
+ * - If a manifest exists for the selected country:
  *   * Show only the target fields listed there
- *   * Reorder those target fields (top→bottom) immediately AFTER address_line2
- *   * Feed Autocomplete with LABELS ONLY (e.g., "Quezon City"), but keep a label->code map
- *     so cascading uses the correct parent_code.
- * - If no manifest exists, we keep the default form ordering and leave all fields visible.
+ *   * Feed Autocomplete with LABELS ONLY (e.g., "Quezon City")
+ *   * Maintain a label->code map per field so cascading uses correct parent_code
+ * - If no manifest exists:
+ *   * Keep default layout/order and show all fields (freeform typing)
+ * - On COUNTRY CHANGE (or clear):
+ *   * Clear BOTH values and options of all level fields, and reset the map
  */
 frappe.ui.form.on("Address", {
 	async onload_post_render(frm) {
@@ -25,11 +25,13 @@ frappe.ui.form.on("Address", {
 	},
 
 	async country(frm) {
-		// Default: show everything and clear stale options; no reordering yet
-		await set_mode_freeform(frm);
-		if (!frm.doc.country) return;
+		// Country changed/cleared → nuke downstream values and options, reset map
+		clear_levels(frm); // <-- clears values + options + map
+		await set_mode_freeform(frm); // <-- shows all; empty suggestions
 
-		// Load manifest; if none → keep default ordering and freeform typing
+		if (!frm.doc.country) return; // if cleared, stop here (freeform blank)
+
+		// Try to load manifest; if none, stay freeform
 		let levels = [];
 		try {
 			levels =
@@ -48,11 +50,8 @@ frappe.ui.form.on("Address", {
 		for (const f of LEVEL_FIELDS) {
 			if (!frm.fields_dict[f]) continue;
 			frm.toggle_display(f, used.has(f));
-			if (used.has(f)) set_ac_options(frm, f, []); // clear
+			if (used.has(f)) set_ac_options(frm, f, []); // start fresh
 		}
-
-		// Reorder the used fields to appear after address_line2, in manifest order
-		reorder_fields_by_manifest(frm, levels);
 
 		// Populate level 1 options
 		const firstField = levels[0].target_field;
@@ -95,55 +94,39 @@ async function next_level(frm, changed_field) {
 	const nxt = levels[idx + 1];
 	if (!nxt) return;
 
-	// Convert the selected label to its code using our per-field map
+	// Find the code for the chosen label from our per-field map
 	const label = frm.doc[changed_field] || "";
 	const parent_code = lookup_code(frm, changed_field, label);
 	if (!parent_code) return;
 
 	const rows = await call("geo_extension.geo_extension.locations.get_level_options", {
 		country: frm.doc.country,
-		level_index: idx + 2, // 1-based
+		level_index: idx + 2, // API is 1-based
 		parent_code,
 	});
 	set_ac_options(frm, nxt.target_field, rows);
 }
 
+/** Show all fields and clear suggestions (free typing still allowed). */
 async function set_mode_freeform(frm) {
-	frm._geo = { mode: "freeform", levels: [], _init: true, map: {} };
+	frm._geo = { ...(frm._geo || {}), mode: "freeform", map: {} };
 	for (const f of LEVEL_FIELDS) {
 		if (!frm.fields_dict[f]) continue;
 		frm.toggle_display(f, true);
-		set_ac_options(frm, f, []);
+		set_ac_options(frm, f, []); // Autocomplete empty list
 	}
 }
 
-/**
- * Reorder the target fields according to manifest order,
- * placing them immediately AFTER the 'address_line2' field.
- * This is a UI-only change (DOM move), does not affect schema.
- */
-function reorder_fields_by_manifest(frm, levels) {
-	const order = levels
-		.map((l) => l.target_field)
-		.filter(
-			(f) =>
-				frm.fields_dict[f] &&
-				frm.fields_dict[f].$wrapper &&
-				frm.fields_dict["address_line2"]
-		);
-
-	if (!order.length || !frm.fields_dict["address_line2"]) return;
-
-	const anchor = frm.fields_dict["address_line2"].$wrapper;
-	let last = anchor;
-	for (const f of order) {
-		const wrap = frm.fields_dict[f].$wrapper;
-		try {
-			wrap.insertAfter(last);
-			last = wrap;
-		} catch (_) {
-			// if insertAfter fails in a particular layout, skip gracefully
-		}
+/** Hard clear: values + suggestions + map (used on country change). */
+function clear_levels(frm) {
+	// wipe map so old label->code doesn’t leak across countries
+	if (frm._geo) frm._geo.map = {};
+	for (const f of LEVEL_FIELDS) {
+		if (!frm.fields_dict[f]) continue;
+		// clear value
+		frm.set_value(f, "");
+		// clear suggestions
+		set_ac_options(frm, f, []);
 	}
 }
 
@@ -155,10 +138,11 @@ function set_ac_options(frm, fieldname, rows) {
 	const ctrl = frm.fields_dict[fieldname];
 	if (!ctrl) return;
 
-	const list = (rows || []).map((r) => r.label); // labels only in UI
+	const list = (rows || []).map((r) => r.label); // labels only
 	const map = Object.create(null);
 	for (const r of rows || []) map[r.label] = r.value;
 
+	if (!frm._geo) frm._geo = {};
 	if (!frm._geo.map) frm._geo.map = {};
 	frm._geo.map[fieldname] = map;
 
@@ -170,10 +154,11 @@ function set_ac_options(frm, fieldname, rows) {
 		ctrl.df.options = list;
 		frm.set_df_property(fieldname, "options", list);
 	}
+
 	frm.refresh_field(fieldname);
 }
 
-/** Find code from label for a given field; fallback to raw when not found. */
+/** Map label -> code for the given fieldname; fallback to raw label if unknown. */
 function lookup_code(frm, fieldname, label) {
 	const map = frm._geo?.map?.[fieldname] || {};
 	return map[label] || (label || "").trim();
