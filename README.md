@@ -22,25 +22,12 @@ This project was also a personal challenge: to build something useful and sharea
 
 ### Key Features
 
-Core — the file manager
-
-Dynamic Address Hierarchy
-- Automatically adapts field labels and filters (e.g., Province → City → Barangay) based on the selected country’s configuration.
-
-Manifest-Driven Location Levels
-- Country-specific manifest.json files define how address hierarchies load and map to Frappe fields.
-
-Autocomplete Field Enhancement
-- Converts static Data fields like state, city, and barangay into Autocomplete fields for faster, error-free entry.
-
-Flexible Fallback Behavior
-- If no manifest exists for the selected country, the app gracefully falls back to standard Data input — keeping the form usable by default.
-
-Reference Data Support
-- Supports location datasets in CSV format with hierarchical linkage across levels (Province → City → Barangay).
-
-Seamless Integration
-- Works directly with the existing Frappe Address Doctype — no new doctypes or dependencies required.
+- Dynamic Address Hierarchy. Automatically adapts field labels and filters (e.g., Province → City → Barangay) based on the selected country’s configuration.
+- Manifest-Driven Location Levels. Country-specific manifest.json files define how address hierarchies load and map to Frappe fields.
+- Autocomplete Field Enhancement. Converts static Data fields like state, city, and barangay into Autocomplete fields for faster, error-free entry.
+- Flexible Fallback Behavior. If no manifest exists for the selected country, the app gracefully falls back to standard Data input — keeping the form usable by default.
+- Reference Data Support. Supports location datasets in CSV format with hierarchical linkage across levels (Province → City → Barangay).
+- Seamless Integration. Works directly with the existing Frappe Address Doctype — no new doctypes or dependencies required.
 
 
 <details>
@@ -57,22 +44,21 @@ Seamless Integration
 </details>
 
 ### Supported Countries
+
 🇵🇭 Philippines
+
 Want to add your country? See how to contribute below.
-
-
 
 
 ## Production setup
 
 ### Managed Hosting
-
-You can try [Frappe Cloud](https://frappecloud.com), a simple, user-friendly and sophisticated [open-source](https://github.com/frappe/press) platform to host Frappe applications.
+You can try [Frappe Cloud](https://frappecloud.com), a simple, user-friendly and sophisticated [open-source](https://github.com/frappe/press) platform to host Frappe applications with peace of mind.
 
 It takes care of installation, setup, upgrades, monitoring, maintenance and support of your Frappe deployments. It is a fully featured developer platform with an ability to manage and control multiple Frappe deployments.
 
 <div>
-	<a href="https://frappecloud.com/drive/signup" target="_blank">
+	<a href="https://frappecloud.com/dashboard/signup?product=geo_extension" target="_blank">
 		<picture>
 			<source media="(prefers-color-scheme: dark)" srcset="https://frappe.io/files/try-on-fc-white.png">
 			<img src="https://frappe.io/files/try-on-fc-black.png" alt="Try on Frappe Cloud" height="28" />
@@ -80,9 +66,9 @@ It takes care of installation, setup, upgrades, monitoring, maintenance and supp
 	</a>
 </div>
 
-### Self hosting
+### Self Hosting
 
-Follow these steps to set up Frappe Drive in production:
+Follow these steps to set up Geo Extension in production:
 
 **Step 1**: Download the easy install script
 
@@ -94,101 +80,72 @@ wget https://frappe.io/easy-install.py
 
 ```bash
 python3 ./easy-install.py deploy \
-    --project=drive_prod_setup \
-    --email=email@example.com \
-    --image=ghcr.io/frappe/drive \
+    --project=geo_extension_prod_setup \
+    --email=your_email.example.com \
+    --image=ghcr.io/sudopotito/geo_extension \
     --version=stable \
-    --app=drive \
+    --app=geo_extension \
     --sitename subdomain.domain.tld
 ```
 
 Replace the following parameters with your values:
+- `your_email.example.com`: Your email address
+- `subdomain.domain.tld`: Your domain name where Geo Extension will be hosted
 
-- `email@example.com`: Your email address
-- `subdomain.domain.tld`: Your domain name where Drive will be hosted
+The script will set up a production-ready instance of Geo Extension with all the necessary configurations in about 5 minutes.
 
-The script will set up a production-ready instance of Frappe Drive with all the necessary configurations.
-
-### Installation
-
-To set up the repository locally, follow the steps mentioned below:
 
 ## Development Setup
 
 ### Docker
 
-The quickest way to set up Frappe Drive and take it for a test _drive_.
-
-Frappe framework is multi-tenant and supports multiple apps by default. This docker compose is just a standalone version with Frappe Drive pre-installed. Just put it behind your desired reverse-proxy if needed, and you're good to go.
-
-If you wish to use multiple Frappe apps or need multi-tenancy. I suggest moving over to our production ready self-hosted workflow, or join us on Frappe Cloud to get first party support and hassle-free hosting.
+You need Docker, docker-compose and git setup on your machine. Refer [Docker documentation](https://docs.docker.com/). After that, follow below steps:
 
 **Step 1**: Setup folder and download the required files
 
-```
-mkdir frappe-drive
-cd frappe-drive
-```
+    mkdir geo_extension
+    cd geo_extension
 
-**Step 2**: Download the required files
+    # Download the docker-compose file
+    wget -O docker-compose.yml https://raw.githubusercontent.com/sudopotito/geo_extension/develop/docker/docker-compose.yml
 
-Docker Compose File:
+    # Download the setup script
+    wget -O init.sh https://raw.githubusercontent.com/sudopotito/geo_extension/develop/docker/init.sh
 
-```
-wget -O docker-compose.yml https://raw.githubusercontent.com/frappe/drive/main/docker/docker-compose.yml
-```
+**Step 2**: Run the container and daemonize it
 
-Frappe Drive Bench Setup Script
+    docker compose up -d
 
-```
-wget -O init.sh https://raw.githubusercontent.com/frappe/drive/main/docker/init.sh
-```
+**Step 3**: The site [http://geo_extension.localhost:8000](http://geo_extension.localhost:8000) should now be available. The default credentials are:
+- Username: Administrator
+- Password: admin
 
-**Step 3**: Run the container and daemonize it
+### Local
 
-```
-docker compose up -d
-```
+To setup the repository locally follow the steps mentioned below:
 
-### Bare Metal
-
-Install bench and set up a `frappe-bench` directory by following the [installation steps](https://frappeframework.com/docs/user/en/installation).
-
-**Step 1**: [Install Bench.](https://frappeframework.com/docs/user/en/installation)
-
-**Step 2**: Provided bench is all set up you can proceed to install Frappe Drive
-
-```sh
-bench get-app drive --branch main
-```
-
-**Step 3**: Install some Drive specific system packages
-
-Ubuntu/Debian (apt based distros)
-
-```sh
-sudo apt install ffmpeg libmagic
-```
-
-MacOs
-
-```sh
-brew install libmagic ffmpeg
-```
-
-**Step 4**: Install drive once it's downloaded
-
-```
-bench install-app drive
-```
-
-**Step 5**: Start bench if it's not already running
-
-```
+1. Install bench and setup a `frappe-bench` directory by following the [Installation Steps](https://frappeframework.com/docs/user/en/installation)
+2. Start the server by running 
+```bash
 bench start
 ```
-
-Frappe Drive should be accessible at `localhost:8000` or `sitename:8000`
+3. In a separate terminal window, create a new site by running 
+```bash
+bench new-site geo_extension.localhost
+```
+4. Map your site to localhost with the command 
+```bash
+bench --site geo_extension.localhost add-to-hosts
+```
+5. Download the app. Run 
+```bash
+bench get-app https://github.com/sudopotito/geo_extension
+```
+6. Install the app on the site 
+```bash
+bench --site geo_extension.localhost install-app geo_extension
+```
+7. Now open the URL `http://geo_extension.localhost:8000` in your browser, you should see the app running
 
 ## Contribute
 
