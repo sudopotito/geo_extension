@@ -16,9 +16,15 @@ def after_install(force: bool = False):
     setup_custom_fields(force)
     setup_property_setters()
     frappe.db.commit()
+    # Optional: snap layout without reload
+    # frappe.clear_cache(doctype=ADDRESS)
 
 
 def setup_custom_fields(force: bool = False):
+    """
+    Ensure our extra field(s) exist. Keep it minimal: we only add 'barangay'.
+    Fieldtype is Autocomplete so it's ready for your manifest-fed options.
+    """
     custom_fields = {
         ADDRESS: [
             {
