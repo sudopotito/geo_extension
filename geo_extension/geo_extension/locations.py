@@ -3,10 +3,10 @@ import frappe
 
 _COUNTRIES_DIR = ("geo_extension", "setup", "data", "countries")
 
-# --- internals ---
+# ---------------- internals ----------------
+
 
 def _country_code_for(country_name: str) -> str:
-    """Use Country.code exactly as-is (no case changes)."""
     if not country_name:
         frappe.throw("country is required")
     code = frappe.db.get_value("Country", country_name, "code")
@@ -14,21 +14,18 @@ def _country_code_for(country_name: str) -> str:
         frappe.throw(f"No Country.code found for '{country_name}'")
     return code
 
+
 def _country_base_path(code: str) -> str:
-    """
-    Case-insensitive lookup: try exact, lower, upper.
-    Allows folders like .../countries/PH or .../countries/ph.
-    """
-    candidates = [code, code.lower(), code.upper()]
-    for c in candidates:
+    """Case-insensitive lookup: try exact, lower, upper."""
+    for c in (code, code.lower(), code.upper()):
         p = frappe.get_app_path(*_COUNTRIES_DIR, c)
         if os.path.isdir(p):
             return p
-    # Fallback to exact; callers soft-fail if not found
+    # fallback (callers soft-fail)
     return frappe.get_app_path(*_COUNTRIES_DIR, code)
 
+
 def _load_manifest(base_path: str):
-    """Return dict or None (soft-fail if manifest not found / invalid)."""
     mf = os.path.join(base_path, "manifest.json")
     if not os.path.exists(mf):
         return None
@@ -38,8 +35,8 @@ def _load_manifest(base_path: str):
     except Exception:
         return None
 
+
 def _read_csv(path: str):
-    """Return list[dict] or [] (soft-fail if file missing or unreadable)."""
     if not os.path.exists(path):
         return []
     try:
@@ -48,25 +45,24 @@ def _read_csv(path: str):
     except Exception:
         return []
 
+
 def _has_headers(rows, required: tuple[str, ...]) -> bool:
     if not rows:
         return False
     headers = {(k or "").strip() for k in rows[0].keys()}
     return all(h in headers for h in required)
 
+
 def _eq(a: str, b: str) -> bool:
-    """Whitespace-safe equality for string fields."""
     return (a or "").strip() == (b or "").strip()
 
-# --- API ---
+
+# ---------------- API ----------------
+
 
 @frappe.whitelist(allow_guest=True)
 def get_levels(country: str):
-    """
-    Return manifest levels as:
-    [{index, label, target_field, parent_level, file}, ...]
-    Soft-fail: return [] when not available.
-    """
+    """Return [{index,label,target_field,parent_level,file}, ...] or [] on soft-fail."""
     try:
         code = _country_code_for(country)
         base = _country_base_path(code)
@@ -88,16 +84,15 @@ def get_levels(country: str):
             if lvl.get("label") and lvl.get("target_field") and lvl.get("file")
         ]
     except Exception:
-        # Any unexpected backend hiccup → guided mode unavailable
         return []
+
 
 @frappe.whitelist(allow_guest=True)
 def get_level_options(country: str, level_index: int, parent_code: str = None):
     """
-    Level 1 CSV headers: code,name
-    Level >=2 CSV headers: parent_code,code,name
+    level_index=1: CSV requires code,name
+    level_index>=2: CSV requires parent_code,code,name
     Returns: [{"label": name, "value": code}, ...]
-    Soft-fail: return [] when not available / invalid.
     """
     try:
         code = _country_code_for(country)
@@ -119,12 +114,10 @@ def get_level_options(country: str, level_index: int, parent_code: str = None):
         rows = _read_csv(csv_path)
 
         if idx == 0:
-            # Expect code,name
             if not _has_headers(rows, ("code", "name")):
                 return []
             filtered = rows
         else:
-            # Expect parent_code,code,name
             if not _has_headers(rows, ("parent_code", "code", "name")):
                 return []
             if not parent_code:

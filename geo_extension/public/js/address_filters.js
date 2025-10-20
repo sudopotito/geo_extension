@@ -2,66 +2,50 @@
 
 const LEVEL_FIELDS = ["state", "county", "city", "barangay"];
 
-function log(...a) {
-	try {
-		console.log("[geo]", ...a);
-	} catch (_) {}
-}
-
+/**
+ * We display labels only (e.g., "Quezon City") but still need codes for filtering the next level.
+ * Keep a per-field label->code map in frm._geo.map[fieldname] so we can look up the code
+ * from the chosen label when cascading.
+ */
 frappe.ui.form.on("Address", {
 	async onload_post_render(frm) {
-		// Full form only; quick-entry dialogs won't bind this script
-		if (!frm.wrapper || !frm.fields_dict) return;
-
-		frm._geo = { mode: "freeform", levels: [], _init: false };
-		log("onload_post_render; country =", frm.doc.country);
+		frm._geo = { mode: "freeform", levels: [], _init: false, map: {} };
 		await frm.trigger("country");
 	},
 
 	async refresh(frm) {
 		if (!frm._geo?._init && frm.doc.country) {
 			frm._geo._init = true;
-			log("refresh init; country =", frm.doc.country);
 			await frm.trigger("country");
 		}
 	},
 
 	async country(frm) {
-		log("country() start", frm.doc.country);
-		// Show all fields (we'll hide unused after manifest) + clear any stale lists
-		for (const f of LEVEL_FIELDS) {
-			if (!frm.fields_dict[f]) continue;
-			frm.toggle_display(f, true);
-			set_ac_options(frm, f, []); // empty list still allows free typing
-		}
+		// Start in freeform: show all and clear stale suggestions
+		await set_mode_freeform(frm);
 		if (!frm.doc.country) return;
 
+		// Load manifest; if none, stay freeform (users can type)
 		let levels = [];
 		try {
 			levels =
 				(await call("geo_extension.geo_extension.locations.get_levels", {
 					country: frm.doc.country,
 				})) || [];
-			log("levels:", levels);
-		} catch (e) {
-			console.error("[geo] get_levels error", e);
+		} catch {
 			return;
 		}
-		if (!levels.length) {
-			log("no levels -> freeform");
-			return;
-		}
+		if (!levels.length) return;
 
-		frm._geo = { mode: "guided", levels, _init: true };
+		frm._geo = { mode: "guided", levels, _init: true, map: {} };
 
-		// Hide fields that are NOT in manifest; prepare used fields
+		// Show only fields present in manifest; hide the rest
 		const used = new Set(levels.map((l) => l.target_field));
 		for (const f of LEVEL_FIELDS) {
-			const ctrl = frm.fields_dict[f];
-			if (!ctrl) continue;
+			if (!frm.fields_dict[f]) continue;
 			frm.toggle_display(f, used.has(f));
 			if (used.has(f)) {
-				set_ac_options(frm, f, []); // start empty
+				set_ac_options(frm, f, []); // empty to clear
 			}
 		}
 
@@ -71,7 +55,6 @@ frappe.ui.form.on("Address", {
 			country: frm.doc.country,
 			level_index: 1,
 		});
-		log("level1 options for", firstField, root);
 		set_ac_options(frm, firstField, root);
 	},
 
@@ -89,14 +72,14 @@ frappe.ui.form.on("Address", {
 	},
 });
 
-// ---- helpers ----
+// -------- helpers --------
 
 async function next_level(frm, changed_field) {
 	const levels = frm._geo.levels || [];
 	const idx = levels.findIndex((l) => l.target_field === changed_field);
 	if (idx === -1) return;
 
-	// Clear downstream
+	// Clear downstream values/options
 	for (let i = idx + 1; i < levels.length; i++) {
 		const f = levels[i].target_field;
 		if (!frm.fields_dict[f]) continue;
@@ -107,8 +90,9 @@ async function next_level(frm, changed_field) {
 	const nxt = levels[idx + 1];
 	if (!nxt) return;
 
-	const parent_code = extract_code(frm.doc[changed_field]);
-	log("next_level parent_code for", changed_field, "=", parent_code);
+	// Get the parent code by looking up the label in our map
+	const label = frm.doc[changed_field] || "";
+	const parent_code = lookup_code(frm, changed_field, label);
 	if (!parent_code) return;
 
 	const rows = await call("geo_extension.geo_extension.locations.get_level_options", {
@@ -116,42 +100,54 @@ async function next_level(frm, changed_field) {
 		level_index: idx + 2, // 1-based
 		parent_code,
 	});
-	log("options for", nxt.target_field, rows);
 	set_ac_options(frm, nxt.target_field, rows);
 }
 
+async function set_mode_freeform(frm) {
+	frm._geo = { mode: "freeform", levels: [], _init: true, map: {} };
+	for (const f of LEVEL_FIELDS) {
+		if (!frm.fields_dict[f]) continue;
+		frm.toggle_display(f, true);
+		set_ac_options(frm, f, []);
+	}
+}
+
+/**
+ * Feed Autocomplete with labels only, while caching label->code mapping per field.
+ * rows: [{label, value}] from the server.
+ */
 function set_ac_options(frm, fieldname, rows) {
 	const ctrl = frm.fields_dict[fieldname];
 	if (!ctrl) return;
 
-	// Convert rows -> "Name (CODE)" list
-	const list = (rows || []).map((r) => `${r.label} (${r.value})`);
+	// Build label-only list + cache map
+	const list = (rows || []).map((r) => r.label);
+	const map = Object.create(null);
+	for (const r of rows || []) {
+		map[r.label] = r.value;
+	}
+	if (!frm._geo.map) frm._geo.map = {};
+	frm._geo.map[fieldname] = map;
 
-	// 1) Preferred: ControlAutocomplete API
+	// Preferred: ControlAutocomplete API
 	if (typeof ctrl.set_data === "function") {
 		ctrl.set_data(list);
-		log("set_data()", fieldname, list.length);
-	}
-	// 2) Direct Awesomplete (works on most builds)
-	else if (ctrl.$input && ctrl.$input[0] && ctrl.$input[0].awesomplete) {
+	} else if (ctrl.$input && ctrl.$input[0] && ctrl.$input[0].awesomplete) {
+		// Direct Awesomplete fallback
 		ctrl.$input[0].awesomplete.list = list;
-		log("awesomplete.list =", fieldname, list.length);
-	}
-	// 3) Fallback: df.options (some builds read this)
-	else {
+	} else {
+		// Last-ditch df.options fallback (some builds still read this)
 		ctrl.df.options = list;
 		frm.set_df_property(fieldname, "options", list);
-		log("df.options[]", fieldname, list.length);
 	}
 
-	// Refresh to ensure UI picks it up
 	frm.refresh_field(fieldname);
 }
 
-function extract_code(val) {
-	if (!val) return "";
-	const m = String(val).match(/\(([^)]+)\)\s*$/);
-	return m ? m[1] : String(val).trim();
+/** Find code from label for a given field; fallback to raw when not found. */
+function lookup_code(frm, fieldname, label) {
+	const map = frm._geo?.map?.[fieldname] || {};
+	return map[label] || (label || "").trim();
 }
 
 function call(method, args) {
