@@ -1,49 +1,60 @@
 // public/js/address_filters.js
+
+const LEVEL_FIELDS = ["state", "county", "city", "barangay"];
+
 frappe.ui.form.on("Address", {
-	async setup(frm) {
-		frm._geo = { mode: "freeform", levels: [] }; // 'freeform' | 'guided'
-		frm.trigger("country");
+	async onload_post_render(frm) {
+		// Initialize once widgets exist (so default Country is present)
+		frm._geo = { mode: "freeform", levels: [], _init: false };
+		await frm.trigger("country");
+	},
+
+	async refresh(frm) {
+		// Apply once when the form is reopened and country already has a value
+		if (!frm._geo?._init && frm.doc.country) {
+			frm._geo._init = true;
+			await frm.trigger("country");
+		}
 	},
 
 	async country(frm) {
-		// reset first
+		// Start in freeform: show everything and clear stale suggestions
 		await set_mode_freeform(frm);
-
 		if (!frm.doc.country) return;
 
-		// Try to load manifest/levels; if fails, stay in freeform (Data inputs)
+		// Load manifest; if none → freeform (users can type)
 		let levels = [];
 		try {
 			levels = await call("geo_extension.geo_extension.locations.get_levels", {
 				country: frm.doc.country,
 			});
-		} catch (e) {
-			// no manifest / bad config → keep freeform
+		} catch {
 			return;
 		}
-
 		if (!levels || !levels.length) return;
 
-		frm._geo = { mode: "guided", levels };
+		frm._geo = { mode: "guided", levels, _init: true };
 
-		// Show only the fields used by this country; do NOT change labels
+		// Show fields defined by manifest; hide the rest
 		const used = new Set(levels.map((l) => l.target_field));
-		for (const f of ["state", "county", "city", "barangay"]) {
-			if (!frm.fields_dict[f]) continue;
+		for (const f of LEVEL_FIELDS) {
+			const ctrl = frm.fields_dict[f];
+			if (!ctrl) continue;
 			frm.toggle_display(f, used.has(f));
-			// flip to Select for used fields, keep Data for unused (hidden anyway)
-			if (used.has(f)) await ensure_fieldtype(frm, f, "Select");
-			frm.set_df_property(f, "options", "\n");
-			if (!frm.is_new()) frm.refresh_field(f);
+			if (used.has(f)) {
+				// Autocomplete expects array options; start empty
+				frm.set_df_property(f, "options", []);
+				frm.refresh_field(f);
+			}
 		}
 
-		// Load level 1 options
+		// Populate level 1 (index 1 in API, first level in manifest)
+		const firstField = levels[0].target_field;
 		const root = await call("geo_extension.geo_extension.locations.get_level_options", {
 			country: frm.doc.country,
 			level_index: 1,
 		});
-		const firstField = levels[0].target_field;
-		set_select_options(frm, firstField, root);
+		set_ac_options(frm, firstField, root);
 	},
 
 	async state(frm) {
@@ -56,7 +67,7 @@ frappe.ui.form.on("Address", {
 		if (frm._geo.mode === "guided") await next_level(frm, "city");
 	},
 	async barangay(frm) {
-		/* last level, nothing to load */
+		/* last level, nothing further to load */
 	},
 });
 
@@ -67,57 +78,45 @@ async function next_level(frm, changed_field) {
 	const idx = levels.findIndex((l) => l.target_field === changed_field);
 	if (idx === -1) return;
 
-	// clear downstream
+	// Clear downstream values/options
 	for (let i = idx + 1; i < levels.length; i++) {
 		const f = levels[i].target_field;
-		if (frm.fields_dict[f]) {
-			frm.set_value(f, "");
-			frm.set_df_property(f, "options", "\n");
-			await ensure_fieldtype(frm, f, "Select");
-			frm.refresh_field(f);
-		}
+		if (!frm.fields_dict[f]) continue;
+		frm.set_value(f, "");
+		frm.set_df_property(f, "options", []); // Autocomplete → array
+		frm.refresh_field(f);
 	}
 
-	const next = levels[idx + 1];
-	if (!next) return;
+	const nxt = levels[idx + 1];
+	if (!nxt) return;
 
 	const parent_code = extract_code(frm.doc[changed_field]);
 	if (!parent_code) return;
 
 	const rows = await call("geo_extension.geo_extension.locations.get_level_options", {
 		country: frm.doc.country,
-		level_index: idx + 2, // 1-based
+		level_index: idx + 2, // API is 1-based; next level = idx+2
 		parent_code,
 	});
-	set_select_options(frm, next.target_field, rows);
+	set_ac_options(frm, nxt.target_field, rows);
 }
 
 async function set_mode_freeform(frm) {
-	// Show all fields as Data and clear Select options
-	frm._geo = { mode: "freeform", levels: [] };
-	for (const f of ["state", "county", "city", "barangay"]) {
+	// All fields visible with empty suggestions; Autocomplete still allows free typing
+	frm._geo = { mode: "freeform", levels: [], _init: true };
+	for (const f of LEVEL_FIELDS) {
 		if (!frm.fields_dict[f]) continue;
 		frm.toggle_display(f, true);
-		await ensure_fieldtype(frm, f, "Data");
-		frm.set_df_property(f, "options", ""); // irrelevant for Data, just cleaning
-		// DO NOT clear user values here to let them keep typing
+		frm.set_df_property(f, "options", []); // clear any leftover suggestions
 		frm.refresh_field(f);
 	}
 }
 
-function set_select_options(frm, fieldname, rows) {
-	// Display "Name (CODE)" so it’s clear; underlying stored value is that string
-	const opts = [""].concat(rows.map((r) => `${r.label} (${r.value})`)).join("\n");
+function set_ac_options(frm, fieldname, rows) {
+	// Display "Name (CODE)" while storing that full string; extract_code() can parse CODE later
+	const opts = (rows || []).map((r) => `${r.label} (${r.value})`);
 	frm.set_df_property(fieldname, "options", opts);
 	frm.refresh_field(fieldname);
-
-	// If the user already typed something (freeform → guided), keep it by appending
-	const current = frm.doc[fieldname];
-	if (current && !opts.includes(current)) {
-		const appended = opts + "\n" + current;
-		frm.set_df_property(fieldname, "options", appended);
-		frm.refresh_field(fieldname);
-	}
 }
 
 function extract_code(val) {
@@ -126,15 +125,13 @@ function extract_code(val) {
 	return m ? m[1] : String(val).trim();
 }
 
-async function ensure_fieldtype(frm, fieldname, targetType) {
-	const df = frm.fields_dict[fieldname]?.df;
-	if (!df || df.fieldtype === targetType) return;
-	// Client-side switch: affects UI only; DB schema remains the same field
-	frm.set_df_property(fieldname, "fieldtype", targetType);
-}
-
 function call(method, args) {
 	return new Promise((resolve, reject) => {
-		frappe.call({ method, args, callback: (r) => resolve(r.message || []), error: reject });
+		frappe.call({
+			method,
+			args,
+			callback: (r) => resolve(r.message || []),
+			error: reject,
+		});
 	});
 }
