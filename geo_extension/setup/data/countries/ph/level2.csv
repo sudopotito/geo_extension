@@ -1,6 +1,1648 @@
-﻿parent_code,code,name
-PH-ILI,6301900,Iloilo City
-PH-ILI,6302200,Passi City
-PH-CEB,7221700,Cebu City
-PH-NCR,1339000,Quezon City
-PH-NCR,1374000,Makati City
+parent_code,code,name
+0128,012801,Adams
+0128,012802,Bacarra
+0128,012803,Badoc
+0128,012804,Bangui
+0128,012805,City Of Batac
+0128,012806,Burgos
+0128,012807,Carasi
+0128,012808,Currimao
+0128,012809,Dingras
+0128,012810,Dumalneg
+0128,012811,Banna (Espiritu)
+0128,012812,Laoag City (Capital)
+0128,012813,Marcos
+0128,012814,Nueva Era
+0128,012815,Pagudpud
+0128,012816,Paoay
+0128,012817,Pasuquin
+0128,012818,Piddig
+0128,012819,Pinili
+0128,012820,San Nicolas
+0128,012821,Sarrat
+0128,012822,Solsona
+0128,012823,Vintar
+0129,012901,Alilem
+0129,012902,Banayoyo
+0129,012903,Bantay
+0129,012904,Burgos
+0129,012905,Cabugao
+0129,012906,City Of Candon
+0129,012907,Caoayan
+0129,012908,Cervantes
+0129,012909,Galimuyod
+0129,012910,Gregorio Del Pilar (Concepcion)
+0129,012911,Lidlidda
+0129,012912,Magsingal
+0129,012913,Nagbukel
+0129,012914,Narvacan
+0129,012915,Quirino (Angkaki)
+0129,012916,Salcedo (Baugen)
+0129,012917,San Emilio
+0129,012918,San Esteban
+0129,012919,San Ildefonso
+0129,012920,San Juan (Lapog)
+0129,012921,San Vicente
+0129,012922,Santa
+0129,012923,Santa Catalina
+0129,012924,Santa Cruz
+0129,012925,Santa Lucia
+0129,012926,Santa Maria
+0129,012927,Santiago
+0129,012928,Santo Domingo
+0129,012929,Sigay
+0129,012930,Sinait
+0129,012931,Sugpon
+0129,012932,Suyo
+0129,012933,Tagudin
+0129,012934,City Of Vigan (Capital)
+0133,013301,Agoo
+0133,013302,Aringay
+0133,013303,Bacnotan
+0133,013304,Bagulin
+0133,013305,Balaoan
+0133,013306,Bangar
+0133,013307,Bauang
+0133,013308,Burgos
+0133,013309,Caba
+0133,013310,Luna
+0133,013311,Naguilian
+0133,013312,Pugo
+0133,013313,Rosario
+0133,013314,City Of San Fernando (Capital)
+0133,013315,San Gabriel
+0133,013316,San Juan
+0133,013317,Santo Tomas
+0133,013318,Santol
+0133,013319,Sudipen
+0133,013320,Tubao
+0155,015501,Agno
+0155,015502,Aguilar
+0155,015503,City Of Alaminos
+0155,015504,Alcala
+0155,015505,Anda
+0155,015506,Asingan
+0155,015507,Balungao
+0155,015508,Bani
+0155,015509,Basista
+0155,015510,Bautista
+0155,015511,Bayambang
+0155,015512,Binalonan
+0155,015513,Binmaley
+0155,015514,Bolinao
+0155,015515,Bugallon
+0155,015516,Burgos
+0155,015517,Calasiao
+0155,015518,Dagupan City
+0155,015519,Dasol
+0155,015520,Infanta
+0155,015521,Labrador
+0155,015522,Lingayen (Capital)
+0155,015523,Mabini
+0155,015524,Malasiqui
+0155,015525,Manaoag
+0155,015526,Mangaldan
+0155,015527,Mangatarem
+0155,015528,Mapandan
+0155,015529,Natividad
+0155,015530,Pozorrubio
+0155,015531,Rosales
+0155,015532,San Carlos City
+0155,015533,San Fabian
+0155,015534,San Jacinto
+0155,015535,San Manuel
+0155,015536,San Nicolas
+0155,015537,San Quintin
+0155,015538,Santa Barbara
+0155,015539,Santa Maria
+0155,015540,Santo Tomas
+0155,015541,Sison
+0155,015542,Sual
+0155,015543,Tayug
+0155,015544,Umingan
+0155,015545,Urbiztondo
+0155,015546,City Of Urdaneta
+0155,015547,Villasis
+0155,015548,Laoac
+0209,020901,Basco (Capital)
+0209,020902,Itbayat
+0209,020903,Ivana
+0209,020904,Mahatao
+0209,020905,Sabtang
+0209,020906,Uyugan
+0215,021501,Abulug
+0215,021502,Alcala
+0215,021503,Allacapan
+0215,021504,Amulung
+0215,021505,Aparri
+0215,021506,Baggao
+0215,021507,Ballesteros
+0215,021508,Buguey
+0215,021509,Calayan
+0215,021510,Camalaniugan
+0215,021511,Claveria
+0215,021512,Enrile
+0215,021513,Gattaran
+0215,021514,Gonzaga
+0215,021515,Iguig
+0215,021516,Lal-lo
+0215,021517,Lasam
+0215,021518,Pamplona
+0215,021519,Peñablanca
+0215,021520,Piat
+0215,021521,Rizal
+0215,021522,Sanchez-mira
+0215,021523,Santa Ana
+0215,021524,Santa Praxedes
+0215,021525,Santa Teresita
+0215,021526,Santo Niño (Faire)
+0215,021527,Solana
+0215,021528,Tuao
+0215,021529,Tuguegarao City (Capital)
+0231,023101,Alicia
+0231,023102,Angadanan
+0231,023103,Aurora
+0231,023104,Benito Soliven
+0231,023105,Burgos
+0231,023106,Cabagan
+0231,023107,Cabatuan
+0231,023108,City Of Cauayan
+0231,023109,Cordon
+0231,023110,Dinapigue
+0231,023111,Divilacan
+0231,023112,Echague
+0231,023113,Gamu
+0231,023114,Ilagan City (Capital)
+0231,023115,Jones
+0231,023116,Luna
+0231,023117,Maconacon
+0231,023118,Delfin Albano (Magsaysay)
+0231,023119,Mallig
+0231,023120,Naguilian
+0231,023121,Palanan
+0231,023122,Quezon
+0231,023123,Quirino
+0231,023124,Ramon
+0231,023125,Reina Mercedes
+0231,023126,Roxas
+0231,023127,San Agustin
+0231,023128,San Guillermo
+0231,023129,San Isidro
+0231,023130,San Manuel
+0231,023131,San Mariano
+0231,023132,San Mateo
+0231,023133,San Pablo
+0231,023134,Santa Maria
+0231,023135,City Of Santiago
+0231,023136,Santo Tomas
+0231,023137,Tumauini
+0250,025001,Ambaguio
+0250,025002,Aritao
+0250,025003,Bagabag
+0250,025004,Bambang
+0250,025005,Bayombong (Capital)
+0250,025006,Diadi
+0250,025007,Dupax Del Norte
+0250,025008,Dupax Del Sur
+0250,025009,Kasibu
+0250,025010,Kayapa
+0250,025011,Quezon
+0250,025012,Santa Fe
+0250,025013,Solano
+0250,025014,Villaverde
+0250,025015,Alfonso Castaneda
+0257,025701,Aglipay
+0257,025702,Cabarroguis (Capital)
+0257,025703,Diffun
+0257,025704,Maddela
+0257,025705,Saguday
+0257,025706,Nagtipunan
+0308,030801,Abucay
+0308,030802,Bagac
+0308,030803,City Of Balanga (Capital)
+0308,030804,Dinalupihan
+0308,030805,Hermosa
+0308,030806,Limay
+0308,030807,Mariveles
+0308,030808,Morong
+0308,030809,Orani
+0308,030810,Orion
+0308,030811,Pilar
+0308,030812,Samal
+0314,031401,Angat
+0314,031402,Balagtas (Bigaa)
+0314,031403,Baliuag
+0314,031404,Bocaue
+0314,031405,Bulacan
+0314,031406,Bustos
+0314,031407,Calumpit
+0314,031408,Guiguinto
+0314,031409,Hagonoy
+0314,031410,City Of Malolos (Capital)
+0314,031411,Marilao
+0314,031412,City Of Meycauayan
+0314,031413,Norzagaray
+0314,031414,Obando
+0314,031415,Pandi
+0314,031416,Paombong
+0314,031417,Plaridel
+0314,031418,Pulilan
+0314,031419,San Ildefonso
+0314,031420,City Of San Jose Del Monte
+0314,031421,San Miguel
+0314,031422,San Rafael
+0314,031423,Santa Maria
+0314,031424,Doña Remedios Trinidad
+0349,034901,Aliaga
+0349,034902,Bongabon
+0349,034903,Cabanatuan City
+0349,034904,Cabiao
+0349,034905,Carranglan
+0349,034906,Cuyapo
+0349,034907,Gabaldon (Bitulok & Sabani)
+0349,034908,City Of Gapan
+0349,034909,General Mamerto Natividad
+0349,034910,General Tinio (Papaya)
+0349,034911,Guimba
+0349,034912,Jaen
+0349,034913,Laur
+0349,034914,Licab
+0349,034915,Llanera
+0349,034916,Lupao
+0349,034917,Science City Of Muñoz
+0349,034918,Nampicuan
+0349,034919,Palayan City (Capital)
+0349,034920,Pantabangan
+0349,034921,Peñaranda
+0349,034922,Quezon
+0349,034923,Rizal
+0349,034924,San Antonio
+0349,034925,San Isidro
+0349,034926,San Jose City
+0349,034927,San Leonardo
+0349,034928,Santa Rosa
+0349,034929,Santo Domingo
+0349,034930,Talavera
+0349,034931,Talugtug
+0349,034932,Zaragoza
+0354,035401,Angeles City
+0354,035402,Apalit
+0354,035403,Arayat
+0354,035404,Bacolor
+0354,035405,Candaba
+0354,035406,Floridablanca
+0354,035407,Guagua
+0354,035408,Lubao
+0354,035409,Mabalacat City
+0354,035410,Macabebe
+0354,035411,Magalang
+0354,035412,Masantol
+0354,035413,Mexico
+0354,035414,Minalin
+0354,035415,Porac
+0354,035416,City Of San Fernando (Capital)
+0354,035417,San Luis
+0354,035418,San Simon
+0354,035419,Santa Ana
+0354,035420,Santa Rita
+0354,035421,Santo Tomas
+0354,035422,Sasmuan (Sexmoan)
+0369,036901,Anao
+0369,036902,Bamban
+0369,036903,Camiling
+0369,036904,Capas
+0369,036905,Concepcion
+0369,036906,Gerona
+0369,036907,La Paz
+0369,036908,Mayantoc
+0369,036909,Moncada
+0369,036910,Paniqui
+0369,036911,Pura
+0369,036912,Ramos
+0369,036913,San Clemente
+0369,036914,San Manuel
+0369,036915,Santa Ignacia
+0369,036916,City Of Tarlac (Capital)
+0369,036917,Victoria
+0369,036918,San Jose
+0371,037101,Botolan
+0371,037102,Cabangan
+0371,037103,Candelaria
+0371,037104,Castillejos
+0371,037105,Iba (Capital)
+0371,037106,Masinloc
+0371,037107,Olongapo City
+0371,037108,Palauig
+0371,037109,San Antonio
+0371,037110,San Felipe
+0371,037111,San Marcelino
+0371,037112,San Narciso
+0371,037113,Santa Cruz
+0371,037114,Subic
+0377,037701,Baler (Capital)
+0377,037702,Casiguran
+0377,037703,Dilasag
+0377,037704,Dinalungan
+0377,037705,Dingalan
+0377,037706,Dipaculao
+0377,037707,Maria Aurora
+0377,037708,San Luis
+0410,041001,Agoncillo
+0410,041002,Alitagtag
+0410,041003,Balayan
+0410,041004,Balete
+0410,041005,Batangas City (Capital)
+0410,041006,Bauan
+0410,041007,Calaca
+0410,041008,Calatagan
+0410,041009,Cuenca
+0410,041010,Ibaan
+0410,041011,Laurel
+0410,041012,Lemery
+0410,041013,Lian
+0410,041014,Lipa City
+0410,041015,Lobo
+0410,041016,Mabini
+0410,041017,Malvar
+0410,041018,Mataasnakahoy
+0410,041019,Nasugbu
+0410,041020,Padre Garcia
+0410,041021,Rosario
+0410,041022,San Jose
+0410,041023,San Juan
+0410,041024,San Luis
+0410,041025,San Nicolas
+0410,041026,San Pascual
+0410,041027,Santa Teresita
+0410,041028,Santo Tomas
+0410,041029,Taal
+0410,041030,Talisay
+0410,041031,City Of Tanauan
+0410,041032,Taysan
+0410,041033,Tingloy
+0410,041034,Tuy
+0421,042101,Alfonso
+0421,042102,Amadeo
+0421,042103,Bacoor City
+0421,042104,Carmona
+0421,042105,Cavite City
+0421,042106,City Of Dasmariñas
+0421,042107,General Emilio Aguinaldo
+0421,042108,General Trias
+0421,042109,Imus City
+0421,042110,Indang
+0421,042111,Kawit
+0421,042112,Magallanes
+0421,042113,Maragondon
+0421,042114,Mendez (Mendez-nuñez)
+0421,042115,Naic
+0421,042116,Noveleta
+0421,042117,Rosario
+0421,042118,Silang
+0421,042119,Tagaytay City
+0421,042120,Tanza
+0421,042121,Ternate
+0421,042122,Trece Martires City (Capital)
+0421,042123,Gen. Mariano Alvarez
+0434,043401,Alaminos
+0434,043402,Bay
+0434,043403,City Of Biñan
+0434,043404,Cabuyao City
+0434,043405,City Of Calamba
+0434,043406,Calauan
+0434,043407,Cavinti
+0434,043408,Famy
+0434,043409,Kalayaan
+0434,043410,Liliw
+0434,043411,Los Baños
+0434,043412,Luisiana
+0434,043413,Lumban
+0434,043414,Mabitac
+0434,043415,Magdalena
+0434,043416,Majayjay
+0434,043417,Nagcarlan
+0434,043418,Paete
+0434,043419,Pagsanjan
+0434,043420,Pakil
+0434,043421,Pangil
+0434,043422,Pila
+0434,043423,Rizal
+0434,043424,San Pablo City
+0434,043425,City Of San Pedro
+0434,043426,Santa Cruz (Capital)
+0434,043427,Santa Maria
+0434,043428,City Of Santa Rosa
+0434,043429,Siniloan
+0434,043430,Victoria
+0456,045601,Agdangan
+0456,045602,Alabat
+0456,045603,Atimonan
+0456,045605,Buenavista
+0456,045606,Burdeos
+0456,045607,Calauag
+0456,045608,Candelaria
+0456,045610,Catanauan
+0456,045615,Dolores
+0456,045616,General Luna
+0456,045617,General Nakar
+0456,045618,Guinayangan
+0456,045619,Gumaca
+0456,045620,Infanta
+0456,045621,Jomalig
+0456,045622,Lopez
+0456,045623,Lucban
+0456,045624,Lucena City (Capital)
+0456,045625,Macalelon
+0456,045627,Mauban
+0456,045628,Mulanay
+0456,045629,Padre Burgos
+0456,045630,Pagbilao
+0456,045631,Panukulan
+0456,045632,Patnanungan
+0456,045633,Perez
+0456,045634,Pitogo
+0456,045635,Plaridel
+0456,045636,Polillo
+0456,045637,Quezon
+0456,045638,Real
+0456,045639,Sampaloc
+0456,045640,San Andres
+0456,045641,San Antonio
+0456,045642,San Francisco (Aurora)
+0456,045644,San Narciso
+0456,045645,Sariaya
+0456,045646,Tagkawayan
+0456,045647,City Of Tayabas
+0456,045648,Tiaong
+0456,045649,Unisan
+0458,045801,Angono
+0458,045802,City Of Antipolo
+0458,045803,Baras
+0458,045804,Binangonan
+0458,045805,Cainta
+0458,045806,Cardona
+0458,045807,Jala-jala
+0458,045808,Rodriguez (Montalban)
+0458,045809,Morong
+0458,045810,Pililla
+0458,045811,San Mateo
+0458,045812,Tanay
+0458,045813,Taytay
+0458,045814,Teresa
+1740,174001,Boac (Capital)
+1740,174002,Buenavista
+1740,174003,Gasan
+1740,174004,Mogpog
+1740,174005,Santa Cruz
+1740,174006,Torrijos
+1751,175101,Abra De Ilog
+1751,175102,Calintaan
+1751,175103,Looc
+1751,175104,Lubang
+1751,175105,Magsaysay
+1751,175106,Mamburao (Capital)
+1751,175107,Paluan
+1751,175108,Rizal
+1751,175109,Sablayan
+1751,175110,San Jose
+1751,175111,Santa Cruz
+1752,175201,Baco
+1752,175202,Bansud
+1752,175203,Bongabong
+1752,175204,Bulalacao (San Pedro)
+1752,175205,City Of Calapan (Capital)
+1752,175206,Gloria
+1752,175207,Mansalay
+1752,175208,Naujan
+1752,175209,Pinamalayan
+1752,175210,Pola
+1752,175211,Puerto Galera
+1752,175212,Roxas
+1752,175213,San Teodoro
+1752,175214,Socorro
+1752,175215,Victoria
+1753,175301,Aborlan
+1753,175302,Agutaya
+1753,175303,Araceli
+1753,175304,Balabac
+1753,175305,Bataraza
+1753,175306,Brooke's Point
+1753,175307,Busuanga
+1753,175308,Cagayancillo
+1753,175309,Coron
+1753,175310,Cuyo
+1753,175311,Dumaran
+1753,175312,El Nido (Bacuit)
+1753,175313,Linapacan
+1753,175314,Magsaysay
+1753,175315,Narra
+1753,175316,Puerto Princesa City (Capital)
+1753,175317,Quezon
+1753,175318,Roxas
+1753,175319,San Vicente
+1753,175320,Taytay
+1753,175321,Kalayaan
+1753,175322,Culion
+1753,175323,Rizal (Marcos)
+1753,175324,Sofronio Española
+1759,175901,Alcantara
+1759,175902,Banton
+1759,175903,Cajidiocan
+1759,175904,Calatrava
+1759,175905,Concepcion
+1759,175906,Corcuera
+1759,175907,Looc
+1759,175908,Magdiwang
+1759,175909,Odiongan
+1759,175910,Romblon (Capital)
+1759,175911,San Agustin
+1759,175912,San Andres
+1759,175913,San Fernando
+1759,175914,San Jose
+1759,175915,Santa Fe
+1759,175916,Ferrol
+1759,175917,Santa Maria (Imelda)
+0505,050501,Bacacay
+0505,050502,Camalig
+0505,050503,Daraga (Locsin)
+0505,050504,Guinobatan
+0505,050505,Jovellar
+0505,050506,Legazpi City (Capital)
+0505,050507,Libon
+0505,050508,City Of Ligao
+0505,050509,Malilipot
+0505,050510,Malinao
+0505,050511,Manito
+0505,050512,Oas
+0505,050513,Pio Duran
+0505,050514,Polangui
+0505,050515,Rapu-rapu
+0505,050516,Santo Domingo (Libog)
+0505,050517,City Of Tabaco
+0505,050518,Tiwi
+0516,051601,Basud
+0516,051602,Capalonga
+0516,051603,Daet (Capital)
+0516,051604,San Lorenzo Ruiz (Imelda)
+0516,051605,Jose Panganiban
+0516,051606,Labo
+0516,051607,Mercedes
+0516,051608,Paracale
+0516,051609,San Vicente
+0516,051610,Santa Elena
+0516,051611,Talisay
+0516,051612,Vinzons
+0517,051701,Baao
+0517,051702,Balatan
+0517,051703,Bato
+0517,051704,Bombon
+0517,051705,Buhi
+0517,051706,Bula
+0517,051707,Cabusao
+0517,051708,Calabanga
+0517,051709,Camaligan
+0517,051710,Canaman
+0517,051711,Caramoan
+0517,051712,Del Gallego
+0517,051713,Gainza
+0517,051714,Garchitorena
+0517,051715,Goa
+0517,051716,Iriga City
+0517,051717,Lagonoy
+0517,051718,Libmanan
+0517,051719,Lupi
+0517,051720,Magarao
+0517,051721,Milaor
+0517,051722,Minalabac
+0517,051723,Nabua
+0517,051724,Naga City
+0517,051725,Ocampo
+0517,051726,Pamplona
+0517,051727,Pasacao
+0517,051728,Pili (Capital)
+0517,051729,Presentacion (Parubcan)
+0517,051730,Ragay
+0517,051731,Sagñay
+0517,051732,San Fernando
+0517,051733,San Jose
+0517,051734,Sipocot
+0517,051735,Siruma
+0517,051736,Tigaon
+0517,051737,Tinambac
+0520,052001,Bagamanoc
+0520,052002,Baras
+0520,052003,Bato
+0520,052004,Caramoran
+0520,052005,Gigmoto
+0520,052006,Pandan
+0520,052007,Panganiban
+0520,052008,San Andres
+0520,052009,San Miguel
+0520,052010,Viga
+0520,052011,Virac
+0541,054101,Aroroy
+0541,054102,Baleno
+0541,054103,Balud
+0541,054104,Batuan
+0541,054105,Cataingan
+0541,054106,Cawayan
+0541,054107,Claveria
+0541,054108,Dimasalang
+0541,054109,Esperanza
+0541,054110,Mandaon
+0541,054111,City Of Masbate (Capital)
+0541,054112,Milagros
+0541,054113,Mobo
+0541,054114,Monreal
+0541,054115,Palanas
+0541,054116,Pio V. Corpuz (Limbuhan)
+0541,054117,Placer
+0541,054118,San Fernando
+0541,054119,San Jacinto
+0541,054120,San Pascual
+0541,054121,Uson
+0562,056202,Barcelona
+0562,056203,Bulan
+0562,056204,Bulusan
+0562,056205,Casiguran
+0562,056206,Castilla
+0562,056207,Donsol
+0562,056208,Gubat
+0562,056209,Irosin
+0562,056210,Juban
+0562,056211,Magallanes
+0562,056212,Matnog
+0562,056213,Pilar
+0562,056214,Prieto Diaz
+0562,056215,Santa Magdalena
+0562,056216,City Of Sorsogon (Capital)
+0604,060401,Altavas
+0604,060402,Balete
+0604,060403,Banga
+0604,060404,Batan
+0604,060405,Buruanga
+0604,060406,Ibajay
+0604,060407,Kalibo (Capital)
+0604,060408,Lezo
+0604,060409,Libacao
+0604,060410,Madalag
+0604,060411,Makato
+0604,060412,Malay
+0604,060413,Malinao
+0604,060414,Nabas
+0604,060415,New Washington
+0604,060416,Numancia
+0604,060417,Tangalan
+0606,060601,Anini-y
+0606,060602,Barbaza
+0606,060603,Belison
+0606,060604,Bugasong
+0606,060605,Caluya
+0606,060606,Culasi
+0606,060607,Tobias Fornier (Dao)
+0606,060608,Hamtic
+0606,060609,Laua-an
+0606,060610,Libertad
+0606,060611,Pandan
+0606,060612,Patnongon
+0606,060613,San Jose (Capital)
+0606,060614,San Remigio
+0606,060615,Sebaste
+0606,060616,Sibalom
+0606,060617,Tibiao
+0606,060618,Valderrama
+0619,061901,Cuartero
+0619,061902,Dao
+0619,061903,Dumalag
+0619,061904,Dumarao
+0619,061905,Ivisan
+0619,061906,Jamindan
+0619,061907,Ma-ayon
+0619,061908,Mambusao
+0619,061909,Panay
+0619,061910,Panitan
+0619,061911,Pilar
+0619,061912,Pontevedra
+0619,061913,President Roxas
+0619,061914,Roxas City (Capital)
+0619,061915,Sapi-an
+0619,061916,Sigma
+0619,061917,Tapaz
+0630,063001,Ajuy
+0630,063002,Alimodian
+0630,063003,Anilao
+0630,063004,Badiangan
+0630,063005,Balasan
+0630,063006,Banate
+0630,063007,Barotac Nuevo
+0630,063008,Barotac Viejo
+0630,063009,Batad
+0630,063010,Bingawan
+0630,063012,Cabatuan
+0630,063013,Calinog
+0630,063014,Carles
+0630,063015,Concepcion
+0630,063016,Dingle
+0630,063017,Dueñas
+0630,063018,Dumangas
+0630,063019,Estancia
+0630,063020,Guimbal
+0630,063021,Igbaras
+0630,063022,Iloilo City (Capital)
+0630,063023,Janiuay
+0630,063025,Lambunao
+0630,063026,Leganes
+0630,063027,Lemery
+0630,063028,Leon
+0630,063029,Maasin
+0630,063030,Miagao
+0630,063031,Mina
+0630,063032,New Lucena
+0630,063034,Oton
+0630,063035,City Of Passi
+0630,063036,Pavia
+0630,063037,Pototan
+0630,063038,San Dionisio
+0630,063039,San Enrique
+0630,063040,San Joaquin
+0630,063041,San Miguel
+0630,063042,San Rafael
+0630,063043,Santa Barbara
+0630,063044,Sara
+0630,063045,Tigbauan
+0630,063046,Tubungan
+0630,063047,Zarraga
+0645,064501,Bacolod City (Capital)
+0645,064502,Bago City
+0645,064503,Binalbagan
+0645,064504,Cadiz City
+0645,064505,Calatrava
+0645,064506,Candoni
+0645,064507,Cauayan
+0645,064508,Enrique B. Magalona (Saravia)
+0645,064509,City Of Escalante
+0645,064510,City Of Himamaylan
+0645,064511,Hinigaran
+0645,064512,Hinoba-an (Asia)
+0645,064513,Ilog
+0645,064514,Isabela
+0645,064515,City Of Kabankalan
+0645,064516,La Carlota City
+0645,064517,La Castellana
+0645,064518,Manapla
+0645,064519,Moises Padilla (Magallon)
+0645,064520,Murcia
+0645,064521,Pontevedra
+0645,064522,Pulupandan
+0645,064523,Sagay City
+0645,064524,San Carlos City
+0645,064525,San Enrique
+0645,064526,Silay City
+0645,064527,City Of Sipalay
+0645,064528,City Of Talisay
+0645,064529,Toboso
+0645,064530,Valladolid
+0645,064531,City Of Victorias
+0645,064532,Salvador Benedicto
+0679,067901,Buenavista
+0679,067902,Jordan (Capital)
+0679,067903,Nueva Valencia
+0679,067904,San Lorenzo
+0679,067905,Sibunag
+0712,071201,Alburquerque
+0712,071202,Alicia
+0712,071203,Anda
+0712,071204,Antequera
+0712,071205,Baclayon
+0712,071206,Balilihan
+0712,071207,Batuan
+0712,071208,Bilar
+0712,071209,Buenavista
+0712,071210,Calape
+0712,071211,Candijay
+0712,071212,Carmen
+0712,071213,Catigbian
+0712,071214,Clarin
+0712,071215,Corella
+0712,071216,Cortes
+0712,071217,Dagohoy
+0712,071218,Danao
+0712,071219,Dauis
+0712,071220,Dimiao
+0712,071221,Duero
+0712,071222,Garcia Hernandez
+0712,071223,Guindulman
+0712,071224,Inabanga
+0712,071225,Jagna
+0712,071226,Jetafe
+0712,071227,Lila
+0712,071228,Loay
+0712,071229,Loboc
+0712,071230,Loon
+0712,071231,Mabini
+0712,071232,Maribojoc
+0712,071233,Panglao
+0712,071234,Pilar
+0712,071235,Pres. Carlos P. Garcia (Pitogo)
+0712,071236,Sagbayan (Borja)
+0712,071237,San Isidro
+0712,071238,San Miguel
+0712,071239,Sevilla
+0712,071240,Sierra Bullones
+0712,071241,Sikatuna
+0712,071242,Tagbilaran City (Capital)
+0712,071243,Talibon
+0712,071244,Trinidad
+0712,071245,Tubigon
+0712,071246,Ubay
+0712,071247,Valencia
+0712,071248,Bien Unido
+0722,072201,Alcantara
+0722,072202,Alcoy
+0722,072203,Alegria
+0722,072204,Aloguinsan
+0722,072205,Argao
+0722,072206,Asturias
+0722,072207,Badian
+0722,072208,Balamban
+0722,072209,Bantayan
+0722,072210,Barili
+0722,072211,City Of Bogo
+0722,072212,Boljoon
+0722,072213,Borbon
+0722,072214,City Of Carcar
+0722,072215,Carmen
+0722,072216,Catmon
+0722,072217,Cebu City (Capital)
+0722,072218,Compostela
+0722,072219,Consolacion
+0722,072220,Cordova
+0722,072221,Daanbantayan
+0722,072222,Dalaguete
+0722,072223,Danao City
+0722,072224,Dumanjug
+0722,072225,Ginatilan
+0722,072226,Lapu-lapu City (Opon)
+0722,072227,Liloan
+0722,072228,Madridejos
+0722,072229,Malabuyoc
+0722,072230,Mandaue City
+0722,072231,Medellin
+0722,072232,Minglanilla
+0722,072233,Moalboal
+0722,072234,City Of Naga
+0722,072235,Oslob
+0722,072236,Pilar
+0722,072237,Pinamungahan
+0722,072238,Poro
+0722,072239,Ronda
+0722,072240,Samboan
+0722,072241,San Fernando
+0722,072242,San Francisco
+0722,072243,San Remigio
+0722,072244,Santa Fe
+0722,072245,Santander
+0722,072246,Sibonga
+0722,072247,Sogod
+0722,072248,Tabogon
+0722,072249,Tabuelan
+0722,072250,City Of Talisay
+0722,072251,Toledo City
+0722,072252,Tuburan
+0722,072253,Tudela
+0746,074601,Amlan (Ayuquitan)
+0746,074602,Ayungon
+0746,074603,Bacong
+0746,074604,Bais City
+0746,074605,Basay
+0746,074606,City Of Bayawan (Tulong)
+0746,074607,Bindoy (Payabon)
+0746,074608,Canlaon City
+0746,074609,Dauin
+0746,074610,Dumaguete City (Capital)
+0746,074611,City Of Guihulngan
+0746,074612,Jimalalud
+0746,074613,La Libertad
+0746,074614,Mabinay
+0746,074615,Manjuyod
+0746,074616,Pamplona
+0746,074617,San Jose
+0746,074618,Santa Catalina
+0746,074619,Siaton
+0746,074620,Sibulan
+0746,074621,City Of Tanjay
+0746,074622,Tayasan
+0746,074623,Valencia (Luzurriaga)
+0746,074624,Vallehermoso
+0746,074625,Zamboanguita
+0761,076101,Enrique Villanueva
+0761,076102,Larena
+0761,076103,Lazi
+0761,076104,Maria
+0761,076105,San Juan
+0761,076106,Siquijor (Capital)
+0826,082601,Arteche
+0826,082602,Balangiga
+0826,082603,Balangkayan
+0826,082604,City Of Borongan (Capital)
+0826,082605,Can-avid
+0826,082606,Dolores
+0826,082607,General Macarthur
+0826,082608,Giporlos
+0826,082609,Guiuan
+0826,082610,Hernani
+0826,082611,Jipapad
+0826,082612,Lawaan
+0826,082613,Llorente
+0826,082614,Maslog
+0826,082615,Maydolong
+0826,082616,Mercedes
+0826,082617,Oras
+0826,082618,Quinapondan
+0826,082619,Salcedo
+0826,082620,San Julian
+0826,082621,San Policarpo
+0826,082622,Sulat
+0826,082623,Taft
+0837,083701,Abuyog
+0837,083702,Alangalang
+0837,083703,Albuera
+0837,083705,Babatngon
+0837,083706,Barugo
+0837,083707,Bato
+0837,083708,City Of Baybay
+0837,083710,Burauen
+0837,083713,Calubian
+0837,083714,Capoocan
+0837,083715,Carigara
+0837,083717,Dagami
+0837,083718,Dulag
+0837,083719,Hilongos
+0837,083720,Hindang
+0837,083721,Inopacan
+0837,083722,Isabel
+0837,083723,Jaro
+0837,083724,Javier (Bugho)
+0837,083725,Julita
+0837,083726,Kananga
+0837,083728,La Paz
+0837,083729,Leyte
+0837,083730,Macarthur
+0837,083731,Mahaplag
+0837,083733,Matag-ob
+0837,083734,Matalom
+0837,083735,Mayorga
+0837,083736,Merida
+0837,083738,Ormoc City
+0837,083739,Palo
+0837,083740,Palompon
+0837,083741,Pastrana
+0837,083742,San Isidro
+0837,083743,San Miguel
+0837,083744,Santa Fe
+0837,083745,Tabango
+0837,083746,Tabontabon
+0837,083747,Tacloban City (Capital)
+0837,083748,Tanauan
+0837,083749,Tolosa
+0837,083750,Tunga
+0837,083751,Villaba
+0848,084801,Allen
+0848,084802,Biri
+0848,084803,Bobon
+0848,084804,Capul
+0848,084805,Catarman (Capital)
+0848,084806,Catubig
+0848,084807,Gamay
+0848,084808,Laoang
+0848,084809,Lapinig
+0848,084810,Las Navas
+0848,084811,Lavezares
+0848,084812,Mapanas
+0848,084813,Mondragon
+0848,084814,Palapag
+0848,084815,Pambujan
+0848,084816,Rosario
+0848,084817,San Antonio
+0848,084818,San Isidro
+0848,084819,San Jose
+0848,084820,San Roque
+0848,084821,San Vicente
+0848,084822,Silvino Lobos
+0848,084823,Victoria
+0848,084824,Lope De Vega
+0860,086001,Almagro
+0860,086002,Basey
+0860,086003,Calbayog City
+0860,086004,Calbiga
+0860,086005,City Of Catbalogan (Capital)
+0860,086006,Daram
+0860,086007,Gandara
+0860,086008,Hinabangan
+0860,086009,Jiabong
+0860,086010,Marabut
+0860,086011,Matuguinao
+0860,086012,Motiong
+0860,086013,Pinabacdao
+0860,086014,San Jose De Buan
+0860,086015,San Sebastian
+0860,086016,Santa Margarita
+0860,086017,Santa Rita
+0860,086018,Santo Niño
+0860,086019,Talalora
+0860,086020,Tarangnan
+0860,086021,Villareal
+0860,086022,Paranas (Wright)
+0860,086023,Zumarraga
+0860,086024,Tagapul-an
+0860,086025,San Jorge
+0860,086026,Pagsanghan
+0864,086401,Anahawan
+0864,086402,Bontoc
+0864,086403,Hinunangan
+0864,086404,Hinundayan
+0864,086405,Libagon
+0864,086406,Liloan
+0864,086407,City Of Maasin (Capital)
+0864,086408,Macrohon
+0864,086409,Malitbog
+0864,086410,Padre Burgos
+0864,086411,Pintuyan
+0864,086412,Saint Bernard
+0864,086413,San Francisco
+0864,086414,San Juan (Cabalian)
+0864,086415,San Ricardo
+0864,086416,Silago
+0864,086417,Sogod
+0864,086418,Tomas Oppus
+0864,086419,Limasawa
+0878,087801,Almeria
+0878,087802,Biliran
+0878,087803,Cabucgayan
+0878,087804,Caibiran
+0878,087805,Culaba
+0878,087806,Kawayan
+0878,087807,Maripipi
+0878,087808,Naval (Capital)
+0972,097201,Dapitan City
+0972,097202,Dipolog City (Capital)
+0972,097203,Katipunan
+0972,097204,La Libertad
+0972,097205,Labason
+0972,097206,Liloy
+0972,097207,Manukan
+0972,097208,Mutia
+0972,097209,Piñan (New Piñan)
+0972,097210,Polanco
+0972,097211,Pres. Manuel A. Roxas
+0972,097212,Rizal
+0972,097213,Salug
+0972,097214,Sergio Osmeña Sr.
+0972,097215,Siayan
+0972,097216,Sibuco
+0972,097217,Sibutad
+0972,097218,Sindangan
+0972,097219,Siocon
+0972,097220,Sirawai
+0972,097221,Tampilisan
+0972,097222,Jose Dalman (Ponot)
+0972,097223,Gutalac
+0972,097224,Baliguian
+0972,097225,Godod
+0972,097226,Bacungan (Leon T. Postigo)
+0972,097227,Kalawit
+0973,097302,Aurora
+0973,097303,Bayog
+0973,097305,Dimataling
+0973,097306,Dinas
+0973,097307,Dumalinao
+0973,097308,Dumingag
+0973,097311,Kumalarang
+0973,097312,Labangan
+0973,097313,Lapuyan
+0973,097315,Mahayag
+0973,097317,Margosatubig
+0973,097318,Midsalip
+0973,097319,Molave
+0973,097322,Pagadian City (Capital)
+0973,097323,Ramon Magsaysay (Liargo)
+0973,097324,San Miguel
+0973,097325,San Pablo
+0973,097327,Tabina
+0973,097328,Tambulig
+0973,097330,Tukuran
+0973,097332,Zamboanga City
+0973,097333,Lakewood
+0973,097337,Josefina
+0973,097338,Pitogo
+0973,097340,Sominot (Don Mariano Marcos)
+0973,097341,Vincenzo A. Sagun
+0973,097343,Guipos
+0973,097344,Tigbao
+0983,098301,Alicia
+0983,098302,Buug
+0983,098303,Diplahan
+0983,098304,Imelda
+0983,098305,Ipil (Capital)
+0983,098306,Kabasalan
+0983,098307,Mabuhay
+0983,098308,Malangas
+0983,098309,Naga
+0983,098310,Olutanga
+0983,098311,Payao
+0983,098312,Roseller Lim
+0983,098313,Siay
+0983,098314,Talusan
+0983,098315,Titay
+0983,098316,Tungawan
+0997,099701,City Of Isabela
+1013,101301,Baungon
+1013,101302,Damulog
+1013,101303,Dangcagan
+1013,101304,Don Carlos
+1013,101305,Impasug-ong
+1013,101306,Kadingilan
+1013,101307,Kalilangan
+1013,101308,Kibawe
+1013,101309,Kitaotao
+1013,101310,Lantapan
+1013,101311,Libona
+1013,101312,City Of Malaybalay (Capital)
+1013,101313,Malitbog
+1013,101314,Manolo Fortich
+1013,101315,Maramag
+1013,101316,Pangantucan
+1013,101317,Quezon
+1013,101318,San Fernando
+1013,101319,Sumilao
+1013,101320,Talakag
+1013,101321,City Of Valencia
+1013,101322,Cabanglasan
+1018,101801,Catarman
+1018,101802,Guinsiliban
+1018,101803,Mahinog
+1018,101804,Mambajao (Capital)
+1018,101805,Sagay
+1035,103501,Bacolod
+1035,103502,Baloi
+1035,103503,Baroy
+1035,103504,Iligan City
+1035,103505,Kapatagan
+1035,103506,Sultan Naga Dimaporo (Karomatan)
+1035,103507,Kauswagan
+1035,103508,Kolambugan
+1035,103509,Lala
+1035,103510,Linamon
+1035,103511,Magsaysay
+1035,103512,Maigo
+1035,103513,Matungao
+1035,103514,Munai
+1035,103515,Nunungan
+1035,103516,Pantao Ragat
+1035,103517,Poona Piagapo
+1035,103518,Salvador
+1035,103519,Sapad
+1035,103520,Tagoloan
+1035,103521,Tangcal
+1035,103522,Tubod (Capital)
+1035,103523,Pantar
+1042,104201,Aloran
+1042,104202,Baliangao
+1042,104203,Bonifacio
+1042,104204,Calamba
+1042,104205,Clarin
+1042,104206,Concepcion
+1042,104207,Jimenez
+1042,104208,Lopez Jaena
+1042,104209,Oroquieta City (Capital)
+1042,104210,Ozamis City
+1042,104211,Panaon
+1042,104212,Plaridel
+1042,104213,Sapang Dalaga
+1042,104214,Sinacaban
+1042,104215,Tangub City
+1042,104216,Tudela
+1042,104217,Don Victoriano Chiongbian  (Don Mariano Marcos)
+1043,104301,Alubijid
+1043,104302,Balingasag
+1043,104303,Balingoan
+1043,104304,Binuangan
+1043,104305,Cagayan De Oro City (Capital)
+1043,104306,Claveria
+1043,104307,City Of El Salvador
+1043,104308,Gingoog City
+1043,104309,Gitagum
+1043,104310,Initao
+1043,104311,Jasaan
+1043,104312,Kinoguitan
+1043,104313,Lagonglong
+1043,104314,Laguindingan
+1043,104315,Libertad
+1043,104316,Lugait
+1043,104317,Magsaysay (Linugos)
+1043,104318,Manticao
+1043,104319,Medina
+1043,104320,Naawan
+1043,104321,Opol
+1043,104322,Salay
+1043,104323,Sugbongcogon
+1043,104324,Tagoloan
+1043,104325,Talisayan
+1043,104326,Villanueva
+1123,112301,Asuncion (Saug)
+1123,112303,Carmen
+1123,112305,Kapalong
+1123,112314,New Corella
+1123,112315,City Of Panabo
+1123,112317,Island Garden City Of Samal
+1123,112318,Santo Tomas
+1123,112319,City Of Tagum (Capital)
+1123,112322,Talaingod
+1123,112323,Braulio E. Dujali
+1123,112324,San Isidro
+1124,112401,Bansalan
+1124,112402,Davao City
+1124,112403,City Of Digos (Capital)
+1124,112404,Hagonoy
+1124,112406,Kiblawan
+1124,112407,Magsaysay
+1124,112408,Malalag
+1124,112410,Matanao
+1124,112411,Padada
+1124,112412,Santa Cruz
+1124,112414,Sulop
+1125,112501,Baganga
+1125,112502,Banaybanay
+1125,112503,Boston
+1125,112504,Caraga
+1125,112505,Cateel
+1125,112506,Governor Generoso
+1125,112507,Lupon
+1125,112508,Manay
+1125,112509,City Of Mati (Capital)
+1125,112510,San Isidro
+1125,112511,Tarragona
+1182,118201,Compostela
+1182,118202,Laak (San Vicente)
+1182,118203,Mabini (Doña Alicia)
+1182,118204,Maco
+1182,118205,Maragusan (San Mariano)
+1182,118206,Mawab
+1182,118207,Monkayo
+1182,118208,Montevista
+1182,118209,Nabunturan (Capital)
+1182,118210,New Bataan
+1182,118211,Pantukan
+1186,118601,Don Marcelino
+1186,118602,Jose Abad Santos (Trinidad)
+1186,118603,Malita
+1186,118604,Santa Maria
+1186,118605,Sarangani
+1247,124701,Alamada
+1247,124702,Carmen
+1247,124703,Kabacan
+1247,124704,City Of Kidapawan (Capital)
+1247,124705,Libungan
+1247,124706,Magpet
+1247,124707,Makilala
+1247,124708,Matalam
+1247,124709,Midsayap
+1247,124710,M'lang
+1247,124711,Pigkawayan
+1247,124712,Pikit
+1247,124713,President Roxas
+1247,124714,Tulunan
+1247,124715,Antipas
+1247,124716,Banisilan
+1247,124717,Aleosan
+1247,124718,Arakan
+1263,126302,Banga
+1263,126303,General Santos City (Dadiangas)
+1263,126306,City Of Koronadal (Capital)
+1263,126311,Norala
+1263,126312,Polomolok
+1263,126313,Surallah
+1263,126314,Tampakan
+1263,126315,Tantangan
+1263,126316,T'boli
+1263,126317,Tupi
+1263,126318,Santo Niño
+1263,126319,Lake Sebu
+1265,126501,Bagumbayan
+1265,126502,Columbio
+1265,126503,Esperanza
+1265,126504,Isulan (Capital)
+1265,126505,Kalamansig
+1265,126506,Lebak
+1265,126507,Lutayan
+1265,126508,Lambayong (Mariano Marcos)
+1265,126509,Palimbang
+1265,126510,President Quirino
+1265,126511,City Of Tacurong
+1265,126512,Sen. Ninoy Aquino
+1280,128001,Alabel (Capital)
+1280,128002,Glan
+1280,128003,Kiamba
+1280,128004,Maasim
+1280,128005,Maitum
+1280,128006,Malapatan
+1280,128007,Malungon
+1298,129804,Cotabato City
+1339,133901,Tondo I / Ii
+1339,133902,Binondo
+1339,133903,Quiapo
+1339,133904,San Nicolas
+1339,133905,Santa Cruz
+1339,133906,Sampaloc
+1339,133907,San Miguel
+1339,133908,Ermita
+1339,133909,Intramuros
+1339,133910,Malate
+1339,133911,Paco
+1339,133912,Pandacan
+1339,133913,Port Area
+1339,133914,Santa Ana
+1374,137401,City Of Mandaluyong
+1374,137402,City Of Marikina
+1374,137403,City Of Pasig
+1374,137404,Quezon City
+1374,137405,City Of San Juan
+1375,137501,Caloocan City
+1375,137502,City Of Malabon
+1375,137503,City Of Navotas
+1375,137504,City Of Valenzuela
+1376,137601,City Of Las Piñas
+1376,137602,City Of Makati
+1376,137603,City Of Muntinlupa
+1376,137604,City Of Parañaque
+1376,137605,Pasay City
+1376,137606,Pateros
+1376,137607,Taguig City
+1401,140101,Bangued (Capital)
+1401,140102,Boliney
+1401,140103,Bucay
+1401,140104,Bucloc
+1401,140105,Daguioman
+1401,140106,Danglas
+1401,140107,Dolores
+1401,140108,La Paz
+1401,140109,Lacub
+1401,140110,Lagangilang
+1401,140111,Lagayan
+1401,140112,Langiden
+1401,140113,Licuan-baay (Licuan)
+1401,140114,Luba
+1401,140115,Malibcong
+1401,140116,Manabo
+1401,140117,Peñarrubia
+1401,140118,Pidigan
+1401,140119,Pilar
+1401,140120,Sallapadan
+1401,140121,San Isidro
+1401,140122,San Juan
+1401,140123,San Quintin
+1401,140124,Tayum
+1401,140125,Tineg
+1401,140126,Tubo
+1401,140127,Villaviciosa
+1411,141101,Atok
+1411,141102,Baguio City
+1411,141103,Bakun
+1411,141104,Bokod
+1411,141105,Buguias
+1411,141106,Itogon
+1411,141107,Kabayan
+1411,141108,Kapangan
+1411,141109,Kibungan
+1411,141110,La Trinidad (Capital)
+1411,141111,Mankayan
+1411,141112,Sablan
+1411,141113,Tuba
+1411,141114,Tublay
+1427,142701,Banaue
+1427,142702,Hungduan
+1427,142703,Kiangan
+1427,142704,Lagawe (Capital)
+1427,142705,Lamut
+1427,142706,Mayoyao
+1427,142707,Alfonso Lista (Potia)
+1427,142708,Aguinaldo
+1427,142709,Hingyon
+1427,142710,Tinoc
+1427,142711,Asipulo
+1432,143201,Balbalan
+1432,143206,Lubuagan
+1432,143208,Pasil
+1432,143209,Pinukpuk
+1432,143211,Rizal (Liwan)
+1432,143213,City Of Tabuk (Capital)
+1432,143214,Tanudan
+1432,143215,Tinglayan
+1444,144401,Barlig
+1444,144402,Bauko
+1444,144403,Besao
+1444,144404,Bontoc (Capital)
+1444,144405,Natonin
+1444,144406,Paracelis
+1444,144407,Sabangan
+1444,144408,Sadanga
+1444,144409,Sagada
+1444,144410,Tadian
+1481,148101,Calanasan (Bayag)
+1481,148102,Conner
+1481,148103,Flora
+1481,148104,Kabugao (Capital)
+1481,148105,Luna
+1481,148106,Pudtol
+1481,148107,Santa Marcela
+1507,150702,City Of Lamitan
+1507,150703,Lantawan
+1507,150704,Maluso
+1507,150705,Sumisip
+1507,150706,Tipo-tipo
+1507,150707,Tuburan
+1507,150708,Akbar
+1507,150709,Al-barka
+1507,150710,Hadji Mohammad Ajul
+1507,150711,Ungkaya Pukan
+1507,150712,Hadji Muhtamad
+1507,150713,Tabuan-lasa
+1536,153601,Bacolod-kalawi (Bacolod Grande)
+1536,153602,Balabagan
+1536,153603,Balindong (Watu)
+1536,153604,Bayang
+1536,153605,Binidayan
+1536,153606,Bubong
+1536,153607,Butig
+1536,153609,Ganassi
+1536,153610,Kapai
+1536,153611,Lumba-bayabao (Maguing)
+1536,153612,Lumbatan
+1536,153613,Madalum
+1536,153614,Madamba
+1536,153615,Malabang
+1536,153616,Marantao
+1536,153617,Marawi City (Capital)
+1536,153618,Masiu
+1536,153619,Mulondo
+1536,153620,Pagayawan (Tatarikan)
+1536,153621,Piagapo
+1536,153622,Poona Bayabao (Gata)
+1536,153623,Pualas
+1536,153624,Ditsaan-ramain
+1536,153625,Saguiaran
+1536,153626,Tamparan
+1536,153627,Taraka
+1536,153628,Tubaran
+1536,153629,Tugaya
+1536,153630,Wao
+1536,153631,Marogong
+1536,153632,Calanogas
+1536,153633,Buadiposo-buntong
+1536,153634,Maguing
+1536,153635,Picong (Sultan Gumander)
+1536,153636,Lumbayanague
+1536,153637,Bumbaran
+1536,153638,Tagoloan Ii
+1536,153639,Kapatagan
+1536,153640,Sultan Dumalondong
+1536,153641,Lumbaca-unayan
+1538,153801,Ampatuan
+1538,153802,Buldon
+1538,153803,Buluan
+1538,153805,Datu Paglas
+1538,153806,Datu Piang
+1538,153807,Datu Odin Sinsuat (Dinaig)
+1538,153808,Shariff Aguak (Maganoy) (Capital)
+1538,153809,Matanog
+1538,153810,Pagalungan
+1538,153811,Parang
+1538,153812,Sultan Kudarat (Nuling)
+1538,153813,Sultan Sa Barongis (Lambayong)
+1538,153814,Kabuntalan (Tumbao)
+1538,153815,Upi
+1538,153816,Talayan
+1538,153817,South Upi
+1538,153818,Barira
+1538,153819,Gen. S. K. Pendatun
+1538,153820,Mamasapano
+1538,153821,Talitay
+1538,153822,Pagagawan
+1538,153823,Paglat
+1538,153824,Sultan Mastura
+1538,153825,Guindulungan
+1538,153826,Datu Saudi-ampatuan
+1538,153827,Datu Unsay
+1538,153828,Datu Abdullah Sangki
+1538,153829,Rajah Buayan
+1538,153830,Datu Blah T. Sinsuat
+1538,153831,Datu Anggal Midtimbang
+1538,153832,Mangudadatu
+1538,153833,Pandag
+1538,153834,Northern Kabuntalan
+1538,153835,Datu Hoffer Ampatuan
+1538,153836,Datu Salibo
+1538,153837,Shariff Saydona Mustapha
+1566,156601,Indanan
+1566,156602,Jolo (Capital)
+1566,156603,Kalingalan Caluang
+1566,156604,Luuk
+1566,156605,Maimbung
+1566,156606,Hadji Panglima Tahil (Marunggas)
+1566,156607,Old Panamao
+1566,156608,Pangutaran
+1566,156609,Parang
+1566,156610,Pata
+1566,156611,Patikul
+1566,156612,Siasi
+1566,156613,Talipao
+1566,156614,Tapul
+1566,156615,Tongkil
+1566,156616,Panglima Estino (New Panamao)
+1566,156617,Lugus
+1566,156618,Pandami
+1566,156619,Omar
+1570,157001,Panglima Sugala (Balimbing)
+1570,157002,Bongao (Capital)
+1570,157003,Mapun (Cagayan De Tawi-tawi)
+1570,157004,Simunul
+1570,157005,Sitangkai
+1570,157006,South Ubian
+1570,157007,Tandubas
+1570,157008,Turtle Islands
+1570,157009,Languyan
+1570,157010,Sapa-sapa
+1570,157011,Sibutu
+1602,160201,Buenavista
+1602,160202,Butuan City (Capital)
+1602,160203,City Of Cabadbaran
+1602,160204,Carmen
+1602,160205,Jabonga
+1602,160206,Kitcharao
+1602,160207,Las Nieves
+1602,160208,Magallanes
+1602,160209,Nasipit
+1602,160210,Santiago
+1602,160211,Tubay
+1602,160212,Remedios T. Romualdez
+1603,160301,City Of Bayugan
+1603,160302,Bunawan
+1603,160303,Esperanza
+1603,160304,La Paz
+1603,160305,Loreto
+1603,160306,Prosperidad (Capital)
+1603,160307,Rosario
+1603,160308,San Francisco
+1603,160309,San Luis
+1603,160310,Santa Josefa
+1603,160311,Talacogon
+1603,160312,Trento
+1603,160313,Veruela
+1603,160314,Sibagat
+1667,166701,Alegria
+1667,166702,Bacuag
+1667,166704,Burgos
+1667,166706,Claver
+1667,166707,Dapa
+1667,166708,Del Carmen
+1667,166710,General Luna
+1667,166711,Gigaquit
+1667,166714,Mainit
+1667,166715,Malimono
+1667,166716,Pilar
+1667,166717,Placer
+1667,166718,San Benito
+1667,166719,San Francisco (Anao-aon)
+1667,166720,San Isidro
+1667,166721,Santa Monica (Sapao)
+1667,166722,Sison
+1667,166723,Socorro
+1667,166724,Surigao City (Capital)
+1667,166725,Tagana-an
+1667,166727,Tubod
+1668,166801,Barobo
+1668,166802,Bayabas
+1668,166803,City Of Bislig
+1668,166804,Cagwait
+1668,166805,Cantilan
+1668,166806,Carmen
+1668,166807,Carrascal
+1668,166808,Cortes
+1668,166809,Hinatuan
+1668,166810,Lanuza
+1668,166811,Lianga
+1668,166812,Lingig
+1668,166813,Madrid
+1668,166814,Marihatag
+1668,166815,San Agustin
+1668,166816,San Miguel
+1668,166817,Tagbina
+1668,166818,Tago
+1668,166819,City Of Tandag (Capital)
+1685,168501,Basilisa (Rizal)
+1685,168502,Cagdianao
+1685,168503,Dinagat
+1685,168504,Libjo (Albor)
+1685,168505,Loreto
+1685,168506,San Jose (Capital)
+1685,168507,Tubajon
