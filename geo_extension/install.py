@@ -16,15 +16,9 @@ def after_install(force: bool = False):
     setup_custom_fields(force)
     setup_property_setters()
     frappe.db.commit()
-    # Optional: snap layout without reload
-    # frappe.clear_cache(doctype=ADDRESS)
 
 
 def setup_custom_fields(force: bool = False):
-    """
-    Ensure our extra field(s) exist. Keep it minimal: we only add 'barangay'.
-    Fieldtype is Autocomplete so it's ready for your manifest-fed options.
-    """
     custom_fields = {
         ADDRESS: [
             {
@@ -50,7 +44,7 @@ def setup_property_setters():
             ADDRESS, fieldname, "fieldtype", "Autocomplete", "Data"
         )
 
-    # 2) Re-order the five fields between address_line2 and pincode
+    # 2) Re-order
     _ensure_field_order_slice(
         doctype=ADDRESS,
         segment_start="address_line2",
@@ -89,7 +83,6 @@ def _ensure_property_if_exists(
         property=prop,
         value=value,
         property_type=property_type,
-        # This is a field-level property setter
         for_doctype=False,
     )
 
@@ -191,12 +184,11 @@ def _set_doctype_field_order(doctype: str, order: list[str]):
             doc.value = value
             doc.save(ignore_permissions=True)
     else:
-        # Use helper; mark as DocType-level with for_doctype=True
         make_property_setter(
             doctype=doctype,
-            fieldname=None,  # DocType-level
+            fieldname=None,
             property="field_order",
             value=value,
-            property_type="Text",  # JSON blob
+            property_type="Text",
             for_doctype=True,
         )
