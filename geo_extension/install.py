@@ -31,27 +31,33 @@ def setup_custom_fields(force: bool = False):
 
 
 def setup_property_setters():
-    """Force fieldtypes to Autocomplete and set Re-ordering."""
-    # 1) Fieldtypes → Autocomplete
+    """Force fieldtypes to Autocomplete where applicable and set ordering."""
+    # 1) Fieldtypes → Autocomplete (only touch fields that exist)
     for fieldname in AC_FIELDS:
-        _ensure_property(ADDRESS, fieldname, "fieldtype", "Autocomplete", "Data")
+        _ensure_property_if_exists(
+            ADDRESS, fieldname, "fieldtype", "Autocomplete", "Data"
+        )
 
     # 2) Re-ordering
-    _ensure_property(ADDRESS, "state", "insert_after", "address_line2", "Data")
-    _ensure_property(ADDRESS, "county", "insert_after", "state", "Data")
-    _ensure_property(ADDRESS, "city", "insert_after", "county", "Data")
-    _ensure_property(ADDRESS, "barangay", "insert_after", "city", "Data")
+    _ensure_property_if_exists(
+        ADDRESS, "state", "insert_after", "address_line2", "Data"
+    )
+    _ensure_property_if_exists(ADDRESS, "county", "insert_after", "state", "Data")
+    _ensure_property_if_exists(ADDRESS, "city", "insert_after", "county", "Data")
+    _ensure_property_if_exists(ADDRESS, "barangay", "insert_after", "city", "Data")
+    _ensure_property_if_exists(
+        ADDRESS,
+        "country",
+        "insert_after",
+        "barangay",
+        "Data",
+    )
 
 
-def _ensure_property(
+def _ensure_property_if_exists(
     doctype: str, fieldname: str, prop: str, value: str, property_type: str
 ):
-    """
-    Idempotently ensure a Property Setter (for a field) exists with the desired value.
-    If one exists with a different value, update it.
-    Skips creation if the field doesn't exist (standard or custom) to avoid junk setters.
-    """
-    # Verify field exists either as standard DocField or Custom Field
+    """Create/update a Property Setter only if the target field exists."""
     if not _docfield_exists(doctype, fieldname):
         return
 
@@ -80,12 +86,11 @@ def _ensure_property(
 
 def _docfield_exists(doctype: str, fieldname: str) -> bool:
     """Return True if the field exists as a standard DocField or Custom Field."""
-    if frappe.get_all(
-        "DocField", filters={"parent": doctype, "fieldname": fieldname}, limit=1
-    ):
-        return True
-    if frappe.get_all(
-        "Custom Field", filters={"dt": doctype, "fieldname": fieldname}, limit=1
-    ):
-        return True
-    return False
+    return bool(
+        frappe.get_all(
+            "DocField", filters={"parent": doctype, "fieldname": fieldname}, limit=1
+        )
+        or frappe.get_all(
+            "Custom Field", filters={"dt": doctype, "fieldname": fieldname}, limit=1
+        )
+    )
