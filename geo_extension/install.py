@@ -89,6 +89,7 @@ def _ensure_property_if_exists(
         property=prop,
         value=value,
         property_type=property_type,
+        # This is a field-level property setter
         for_doctype=False,
     )
 
@@ -166,25 +167,36 @@ def _ensure_field_order_slice(
 def _set_doctype_field_order(doctype: str, order: list[str]):
     """
     Upsert a doctype-level field_order property setter with the given order.
+    Detect DocType-level PS by field_name IS NULL or '' (no DB column 'for_doctype').
     """
     value = json.dumps(order)
-    ps = frappe.get_all(
-        "Property Setter",
-        filters={"doc_type": doctype, "property": "field_order", "for_doctype": 1},
-        fields=["name", "value"],
-        limit=1,
+
+    # Look for an existing DocType-level property setter (field_name NULL or '')
+    ps = frappe.db.sql(
+        """
+        SELECT name, value
+        FROM `tabProperty Setter`
+        WHERE doc_type = %s
+          AND property = 'field_order'
+          AND (field_name IS NULL OR field_name = '')
+        LIMIT 1
+        """,
+        (doctype,),
+        as_dict=True,
     )
+
     if ps:
-        if ps[0].value != value:
-            doc = frappe.get_doc("Property Setter", ps[0].name)
+        if ps[0]["value"] != value:
+            doc = frappe.get_doc("Property Setter", ps[0]["name"])
             doc.value = value
             doc.save(ignore_permissions=True)
     else:
+        # Use helper; mark as DocType-level with for_doctype=True
         make_property_setter(
             doctype=doctype,
-            fieldname=None,
+            fieldname=None,  # DocType-level
             property="field_order",
             value=value,
-            property_type="Text",  # field_order is stored as JSON text
+            property_type="Text",  # JSON blob
             for_doctype=True,
         )
