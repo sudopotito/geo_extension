@@ -1,5 +1,9 @@
 {
   "country_code": "ph",
+  "author": "David Webb Espiritu <davidwebbespiritu@gmail.com> | https://www.linkedin.com/in/davidwebbespiritu",
+  "version": "1.0.0",
+  "description": "Cities and Municipalities of the Philippines - 146 Cities & 1,488 Municipalities",
+  "source": "https://psa.gov.ph/classification/psgc",
   "levels": [
     { "file": "level1.csv", "label": "Province", "target_field": "state" },
     {
