@@ -89,7 +89,7 @@ after_install = "geo_extension.install.after_install"
 # Migration
 # ------------
 
-after_migrate = "geo_extension.install.after_install"
+# after_migrate = "geo_extension.install.after_install"
 
 
 # Uninstallation
