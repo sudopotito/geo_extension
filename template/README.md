@@ -5,6 +5,16 @@ This guide will walk you through how to structure and submit your country’s ad
 
 ---
 
+## 🔎 Before You Start
+
+Before creating a new country folder, check if your country is already supported here:  
+👉 [Supported Countries](https://github.com/sudopotito/geo_extension?tab=readme-ov-file#supported-countries)
+
+If your country already exists, **you can still contribute** — by submitting **improvements, updates, or new levels** through a Pull Request (PR).  
+Every contribution helps make the global address data more complete and accurate.
+
+---
+
 ## 1. Folder Setup and Structure
 
 All country data is stored under:
@@ -223,4 +233,5 @@ We’ll verify:
 
 Thank you for contributing to Geo Extension! 🌐  
 Every country you add helps make addresses easier, cleaner, and more accurate for users worldwide.  
+Even if your country is already supported, your updates and improvements are always welcome.  
 Your effort makes a global difference — one CSV at a time.
