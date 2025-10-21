@@ -1,28 +1,29 @@
-# Contributing New Countries to Geo Extension
+# 🌍 Contributing New Countries to Geo Extension
 
-You can help make Geo Extension support more countries by adding your country’s administrative divisions. Follow these simple steps to contribute properly and ensure your data integrates smoothly.
+Geo Extension grows stronger when contributors like you add support for more countries.  
+This guide will walk you through how to structure and submit your country’s administrative data — so users everywhere can enjoy cleaner, smarter address inputs.
 
 ---
 
-## 1. Folder and Structure
+## 1. Folder Setup and Structure
 
-Country data is stored here:
+All country data is stored under:
 
 ```
 geo_extension/setup/data/countries/<xx>/
 ```
 
-- `xx` = the **country code** (2-letter ISO code used in Frappe’s Country Doctype).
-- You can check this code inside Frappe → _Country List_ → open your country → _Code_.
+Where `xx` is your **two-letter country code** (based on Frappe’s Country Doctype).  
+You can find it inside Frappe → _Country List_ → open your country → _Code_.
 
-To start, copy the folder from:
+Start by copying the template folder:
 
 ```
 template/xx/
 ```
 
-Rename it to your country code (e.g., `ph` for the Philippines).  
-Your new folder will contain:
+Rename it to your country code (for example, `ph` for the Philippines).  
+Your new folder should contain these files:
 
 ```
 countries/
@@ -33,26 +34,28 @@ countries/
     level3.csv
 ```
 
-You can add more levels if needed (e.g., `level4.csv`).
+You can add more levels (e.g., `level4.csv`) depending on your country’s administrative depth.
 
 ---
 
 ## 2. Understanding the Hierarchy
 
-The CSV levels represent the geographic hierarchy of your country.
+Each CSV file represents one level of your country’s geographic structure.
 
-- **Level 1** – top level (e.g., State, Region, or Province)
-- **Level 2** – next level (e.g., City or Municipality)
-- **Level 3** – lower level (e.g., Barangay, District, or Ward)
+| Level   | Description | Example                  |
+| ------- | ----------- | ------------------------ |
+| Level 1 | Top level   | Province, Region, State  |
+| Level 2 | Sub-level   | City, Municipality       |
+| Level 3 | Lower level | Barangay, District, Ward |
 
-Each lower level must reference the parent level through the `parent_code` field.  
-You can define as many levels as your country’s geography requires.
+Every lower level must reference the **parent level** through a `parent_code` column.  
+You can define as many levels as necessary to represent your country’s administrative divisions.
 
 ---
 
 ## 3. The `manifest.json` File
 
-This file defines your country’s metadata and how each level connects to Frappe’s Address fields.
+This file connects your CSV levels with Frappe’s Address fields and describes your dataset.
 
 Example:
 
@@ -84,19 +87,21 @@ Example:
 ### Field Notes
 
 - **`country_code`**: Must match the folder name and Frappe Country code.
-- **`author`**: Use your full name, email, and link (same format shown).
+- **`author`**: Use the format `Name <email> | link`. This lets us credit you properly.
 - **`version`**: Start with `1.0.0`.
-- **`description`**: Include the total count or short description of your dataset.
-- **`source`**: Provide an official reference (e.g., national statistics, open data portal).
-- **`levels`**: Define your hierarchy and how each file maps to Frappe Address fields.
+- **`description`**: Add a clear summary (e.g., number of divisions).
+- **`source`**: Always cite an official or verifiable data source.
+- **`levels`**: Defines the order, label, and field mapping for each CSV.
 
 ---
 
 ## 4. CSV File Format
 
+Each level file represents one hierarchy layer. Keep your formatting **simple and consistent**.
+
 ### Level 1 (Top Level)
 
-`level1.csv` should only have:
+**Headers:**
 
 ```
 code,name
@@ -113,7 +118,7 @@ Example:
 
 ### Level 2 and Below
 
-From level 2 onward, use:
+**Headers:**
 
 ```
 parent_code,code,name
@@ -128,18 +133,22 @@ parent_code,code,name
 0155,015503000,Alaminos City
 ```
 
-**Rules:**
+### Recommended Editing
+
+It’s best to **use Google Sheets** for editing your CSVs, since Excel often auto-formats or removes leading zeros.  
+If you still prefer Excel, make sure **auto-formatting is disabled**, and double-check that `code` and `name` columns remain exact.
+
+**Guidelines:**
 
 - Each `parent_code` must exist in the parent CSV.
-- `code` should be unique.
-- Use official government codes if available.
+- Codes must be **unique and stable** (use official codes if available).
+- Save files as **UTF-8 without BOM**.
 
 ---
 
-## 5. Custom Address Fields
+## 5. Custom Address Fields (If Needed)
 
-Some countries need extra Address fields like _District_ or _Barangay_.  
-If your country needs one, you can define it in the app setup script.
+If your country uses a division not found in Frappe’s default fields (`state`, `county`, `city`), you can define your own.
 
 Example (`install.py`):
 
@@ -159,51 +168,59 @@ def after_install(force: bool = False):
     }, ignore_validate=True, update=True)
 ```
 
-Then, in your `manifest.json`, set `"target_field": "barangay"` for that level.
+Then, reference it in `manifest.json` with `"target_field": "barangay"`.
 
-If you add a custom field, mention it clearly in your pull request so it can be reviewed.
+If you add new fields, mention them clearly in your Pull Request for review.
 
 ---
 
 ## 6. Testing Your Data
 
-Before submitting your contribution, verify it works in Frappe:
+Before submitting, make sure your contribution works inside Frappe:
 
-1. Install the app with your new data.
-2. Create a new Address and select your country.
-3. Check that:
-   - Levels appear correctly and in the right order.
-   - Selecting a value in one field filters the next level.
-   - Any new field you added works as expected.
+1. Install your updated Geo Extension app.
+2. Create a new Address record.
+3. Set **Country** to your new country.
+4. Verify that:
+   - Level fields appear correctly in order.
+   - Selecting one field filters the next level properly.
+   - Any custom field you added shows and works.
 
 ---
 
-## 7. Submitting a Pull Request
+## 7. Submitting Your Pull Request
 
-When your data is ready, create a Pull Request with the following title and details:
+When your country data is ready, submit a PR with:
 
 **Title:**  
 `feat(country): add <Country Name> (<code>) administrative divisions`
 
-**Include in the PR description:**
+**Description:**
 
-- Summary of added levels and fields.
+- Summary of your contribution.
+- Levels and target fields used.
 - Source link.
 - Author information.
-- Note if you added a custom field.
+- Mention if any custom fields were added.
+
+Your PR helps improve the experience for users around the world — and you’ll be credited as a contributor in the project.
 
 ---
 
-## 8. Review Guidelines
+## 8. Review Process
 
-Maintainers will verify:
+We’ll verify:
 
-- Folder and country code match.
-- Proper hierarchy and parent relationships.
-- CSV structure and encoding (UTF-8).
-- Source credibility and completeness.
-- Custom fields, if any, are correctly defined.
+- Folder and `country_code` correctness.
+- Hierarchy and parent relationships.
+- CSV formatting and encoding.
+- Valid and verifiable data source.
+- Custom field additions (if any).
 
 ---
 
-Once approved, your country will be added to Geo Extension — helping users get structured, accurate, and easy-to-use address data worldwide.
+## 9. Final Words
+
+Thank you for contributing to Geo Extension! 🌐  
+Every country you add helps make addresses easier, cleaner, and more accurate for users worldwide.  
+Your effort makes a global difference — one CSV at a time.
