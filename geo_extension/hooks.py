@@ -1,9 +1,9 @@
 app_name = "geo_extension"
 app_title = "Geo Extension"
 app_publisher = "sudo potito"
-app_description = "Fee"
+app_description = "Enhancing the Address Experience in Frappe"
 app_email = "sudopotito@gmail.com"
-app_license = "mit"
+app_license = "AGPLv3"
 
 # Apps
 # ------------------
