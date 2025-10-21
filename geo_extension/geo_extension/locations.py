@@ -1,4 +1,9 @@
+# Copyright (c) 2025, sudo potito and contributors
+# For license information, please see license.txt
+
+
 import os, json, csv
+import unicodedata  # <-- added
 import frappe
 
 _COUNTRIES_DIR = ("geo_extension", "setup", "data", "countries")
@@ -57,6 +62,17 @@ def _eq(a: str, b: str) -> bool:
     return (a or "").strip() == (b or "").strip()
 
 
+def _sort_key(label: str) -> str:
+    """
+    Normalize accents and case-fold for stable A→Z sorting.
+    Example: 'Ñuñoa' ~ 'Nunoa'
+    """
+    s = label or ""
+    nfkd = unicodedata.normalize("NFKD", s)
+    no_marks = "".join(ch for ch in nfkd if not unicodedata.combining(ch))
+    return no_marks.casefold()
+
+
 # ---------------- API ----------------
 
 
@@ -92,7 +108,7 @@ def get_level_options(country: str, level_index: int, parent_code: str = None):
     """
     level_index=1: CSV requires code,name
     level_index>=2: CSV requires parent_code,code,name
-    Returns: [{"label": name, "value": code}, ...]
+    Returns: [{"label": name, "value": code}, ...] sorted A→Z by label.
     """
     try:
         code = _country_code_for(country)
@@ -124,10 +140,15 @@ def get_level_options(country: str, level_index: int, parent_code: str = None):
                 return []
             filtered = [r for r in rows if _eq(r.get("parent_code"), parent_code)]
 
+        # Sort A→Z on 'name' (label), Unicode-aware and case-insensitive
+        filtered_sorted = sorted(
+            (r for r in filtered if r.get("name") and r.get("code")),
+            key=lambda r: _sort_key(r.get("name", "")),
+        )
+
         return [
             {"label": r.get("name", ""), "value": r.get("code", "")}
-            for r in filtered
-            if r.get("name") and r.get("code")
+            for r in filtered_sorted
         ]
     except Exception:
         return []
