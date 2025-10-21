@@ -8,7 +8,8 @@
 
   <img src=".github/hero.gif" alt="Geo Extension Hero" width="100%" />
 
-  <br><br>
+<br><br>
+
 </div>
 
 ---
@@ -16,7 +17,7 @@
 ## Overview
 
 **Geo Extension** is a lightweight **Frappe app** that enhances the default Geo module by improving how users encode and manage address information.  
-It extends the **Address Doctype** to make primary address keys (like *State, City, and County*) filterable and interactive — turning tedious address input into a smooth, guided process.
+It extends the **Address Doctype** to make primary address keys (like _State, City, and County_) filterable and interactive — turning tedious address input into a smooth, guided process.
 
 With country-specific manifests and hierarchical data levels, users can select from real administrative divisions instead of typing free-form text, drastically reducing data entry errors.
 
@@ -34,19 +35,19 @@ This project was also a personal challenge: to build something useful and sharea
 ## Key Features
 
 - **Dynamic Address Hierarchy**  
-  Automatically adapts field labels and filters (e.g., *Province → City → Barangay*) based on the selected country’s configuration.
+  Automatically adapts field labels and filters (e.g., _Province → City → Barangay_) based on the selected country’s configuration.
 
 - **Manifest-Driven Location Levels**  
   Country-specific `manifest.json` files define how address hierarchies load and map to Frappe fields.
 
 - **Autocomplete Field Enhancement**  
-  Converts static *Data* fields (like state, city, and barangay) into **Autocomplete fields** for faster, error-free entry.
+  Converts static _Data_ fields (like state, city, and barangay) into **Autocomplete fields** for faster, error-free entry.
 
 - **Flexible Fallback Behavior**  
   If no manifest exists for the selected country, the app gracefully falls back to standard Data input — keeping the form usable by default.
 
 - **Reference Data Support**  
-  Supports location datasets in CSV format with hierarchical linkage across levels (*Province → City → Barangay*).
+  Supports location datasets in CSV format with hierarchical linkage across levels (_Province → City → Barangay_).
 
 - **Seamless Integration**  
   Works directly with the existing **Frappe Address Doctype** — no new doctypes or dependencies required.
@@ -56,12 +57,14 @@ This project was also a personal challenge: to build something useful and sharea
 <details>
   <summary><b>🖼️ More Screenshots</b></summary>
 
-  ![Image Preview](https://github.com/user-attachments/assets/993cbd87-a96c-4e5c-8737-0c03c9222723)
+![Image Preview](https://github.com/user-attachments/assets/993cbd87-a96c-4e5c-8737-0c03c9222723)
+
 </details>
 
 ---
 
 ## Supported Countries
+
 🇵🇭 Philippines
 
 > Want to add your country? See the [Contribute](#-contribute) section below.
@@ -105,7 +108,7 @@ python3 ./easy-install.py deploy     --project=geo_extension_prod_setup     --em
 
 Replace the following parameters with your own:
 
-- `your_email.example.com`: Your email address  
+- `your_email.example.com`: Your email address
 - `subdomain.domain.tld`: Your target domain
 
 The script will spin up a production-ready instance of Geo Extension with all configurations in about **5 minutes**.
@@ -143,6 +146,7 @@ docker compose up -d
 Visit: [http://geo_extension.localhost:8000](http://geo_extension.localhost:8000)
 
 Default credentials:
+
 ```
 Username: Administrator
 Password: admin
@@ -179,28 +183,24 @@ Password: admin
 
 ---
 
-## Contribute
+## 🤝 Contribute
 
 We welcome contributions from the community!  
-If your country isn’t supported yet, you can easily help extend the list.
+Whether you’re adding support for a new country or fixing something small — your help makes Geo Extension better for everyone.
 
-### How to Contribute
+### 🗺️ Adding a New Country
 
-1. **Fork** this repository.  
-2. Create a new folder in:  
-   `geo_extension/geo_extension/locations/data/<country_code>`  
-3. Add your country’s location data as CSV files:  
-   `level1.csv`, `level2.csv`, `level3.csv`, etc.  
-4. Create a `manifest.json` describing hierarchy and mapping to Frappe fields.  
-5. Include metadata:
-   - author  
-   - version  
-   - description  
-   - source  
-6. Submit a **pull request**, briefly describing your country’s hierarchy  
-   (e.g., *Province → City → District*).
+If you want to contribute support for a new country, follow this guide:  
+👉 [How to Add a New Country](https://github.com/sudopotito/geo_extension/blob/develop/template/README.md)
 
-Your contribution helps users encode addresses accurately and intuitively — making the Frappe ecosystem even more global.
+Even if your country already exists, you can still contribute updates, corrections, or extended datasets via a Pull Request (PR).
+
+### 🧩 General Fixes or Improvements
+
+For general bug fixes, optimizations, or documentation updates —  
+you can directly **open a PR**. All contributions are reviewed and appreciated!
+
+Your contribution helps make address encoding smoother and more reliable across the Frappe ecosystem.
 
 ---
 
