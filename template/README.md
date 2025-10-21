@@ -1,11 +1,9 @@
-# 🌍 Contributing New Countries to Geo Extension
+# Contributing New Countries to Geo Extension
 
 Geo Extension grows stronger when contributors like you add support for more countries.  
 This guide will walk you through how to structure and submit your country’s administrative data — so users everywhere can enjoy cleaner, smarter address inputs.
 
----
-
-## 🔎 Before You Start
+## Before You Start
 
 Before creating a new country folder, check if your country is already supported here:  
 👉 [Supported Countries](https://github.com/sudopotito/geo_extension?tab=readme-ov-file#supported-countries)
@@ -23,7 +21,7 @@ All country data is stored under:
 geo_extension/setup/data/countries/<xx>/
 ```
 
-Where `xx` is your **two-letter country code** (based on Frappe’s Country Doctype).  
+Where `xx` is your **country code** (based on Frappe’s Country Doctype).  
 You can find it inside Frappe → _Country List_ → open your country → _Code_.
 
 Start by copying the template folder:
@@ -72,12 +70,16 @@ Example:
 ```json
 {
   "country_code": "ph",
-  "author": "David Webb Espiritu <davidwebbespiritu@gmail.com> | https://www.linkedin.com/in/davidwebbespiritu",
+  "author": "sudo potito <sudopotito@gmail.com> | https://github.com/sudopotito/geo_extension",
   "version": "1.0.0",
-  "description": "Cities and Municipalities of the Philippines - 146 Cities & 1,488 Municipalities",
+  "description": "Philippine Standard Geographic Hierarchy - 81 Provinces, 146 Cities & 1,488 Municipalities and 42,004 Barangay",
   "source": "https://psa.gov.ph/classification/psgc",
   "levels": [
-    { "file": "level1.csv", "label": "Province", "target_field": "state" },
+    {
+      "file": "level1.csv",
+      "label": "Province",
+      "target_field": "state"
+    },
     {
       "file": "level2.csv",
       "label": "City/Municipality",
@@ -151,16 +153,16 @@ If you still prefer Excel, make sure **auto-formatting is disabled**, and double
 **Guidelines:**
 
 - Each `parent_code` must exist in the parent CSV.
-- Codes must be **unique and stable** (use official codes if available).
+- Codes must be **unique and stable** (use government/official codes if available).
 - Save files as **UTF-8 without BOM**.
 
 ---
 
 ## 5. Custom Address Fields (If Needed)
 
-If your country uses a division not found in Frappe’s default fields (`state`, `county`, `city`), you can define your own.
+If your country uses a division not found in Frappe’s default fields (`state`, `county`, `city`), you can define your own in.
 
-Example (`install.py`):
+`install.py` Example:
 
 ```python
 from frappe.custom.doctype.custom_field.custom_field import create_custom_fields
@@ -203,7 +205,7 @@ Before submitting, make sure your contribution works inside Frappe:
 When your country data is ready, submit a PR with:
 
 **Title:**  
-`feat(country): add <Country Name> (<code>) administrative divisions`
+`feat: New Country <Country Name> (<code>) administrative divisions`
 
 **Description:**
 
@@ -213,7 +215,7 @@ When your country data is ready, submit a PR with:
 - Author information.
 - Mention if any custom fields were added.
 
-Your PR helps improve the experience for users around the world — and you’ll be credited as a contributor in the project.
+Your PR helps improve the experience for frappe users around the world — and you’ll be credited as a contributor in the project.
 
 ---
 
@@ -231,7 +233,7 @@ We’ll verify:
 
 ## 9. Final Words
 
-Thank you for contributing to Geo Extension! 🌐  
+Thank you in advance for contributing to Geo Extension!
 Every country you add helps make addresses easier, cleaner, and more accurate for users worldwide.  
 Even if your country is already supported, your updates and improvements are always welcome.  
 Your effort makes a global difference — one CSV at a time.
