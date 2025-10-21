@@ -58,7 +58,7 @@ This project was also a personal challenge: to build something useful and sharea
 
 🇵🇭 Philippines
 
-Want to add your country? See the [Contribute](#-contribute) section below.
+Want to add your country? See the [Contribute](#contribute) section below.
 
 ---
 
