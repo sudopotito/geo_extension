@@ -44,34 +44,38 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: "3.10"
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: "18"
           check-latest: true
 
       - name: Cache bench folder
         uses: actions/cache@v4
         with:
           path: ~/bench-cache
-          key: ${{ runner.os }}-bench-cache-v1
+          key: ${{ runner.os }}-bench-cache-v2
 
-      - name: Install bench
+      - name: Install bench CLI
         run: |
-          pip install --upgrade pip
+          python -m pip install --upgrade pip
           pip install frappe-bench
           bench --version
 
       - name: bench init (reuse cache if present)
         run: |
+          set -eux
           if [ -f "$HOME/bench-cache/bench.tgz" ]; then
             (cd && tar xzf "$HOME/bench-cache/bench.tgz")
+            bench --version
+            bench setup env --python "$(which python)"
           else
             bench init "$HOME/frappe-bench" \
               --skip-redis-config-generation \
               --skip-assets \
+              --frappe-branch version-15 \
               --python "$(which python)"
             mkdir -p "$HOME/bench-cache"
             (cd && tar czf "$HOME/bench-cache/bench.tgz" frappe-bench)

@@ -1,13 +1,22 @@
 name: Generate Semantic Release
+
 on:
   workflow_dispatch:
   push:
     branches:
       - main
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
+    # Avoid looping when the bot pushes the version bump
+    if: "!startsWith(github.event.head_commit.message, 'chore(release)')"
+
     steps:
       - name: Checkout Entire Repository
         uses: actions/checkout@v4
