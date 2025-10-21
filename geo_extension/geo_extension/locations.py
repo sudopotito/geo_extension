@@ -1,3 +1,7 @@
+# Copyright (c) 2025, sudo potito and contributors
+# For license information, please see license.txt
+
+
 import os, json, csv
 import unicodedata  # <-- added
 import frappe

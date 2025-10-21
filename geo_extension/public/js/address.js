@@ -1,3 +1,6 @@
+// Copyright (c) 2025, sudo potito and contributors
+// For license information, please see license.txt
+
 const LEVEL_FIELDS = ["state", "county", "city", "barangay"];
 
 /**

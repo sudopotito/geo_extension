@@ -1,3 +1,7 @@
+# Copyright (c) 2025, sudo potito and contributors
+# For license information, please see license.txt
+
+
 import json
 import frappe
 from frappe.custom.doctype.custom_field.custom_field import create_custom_fields
