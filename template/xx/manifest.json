@@ -1,11 +1,15 @@
 {
   "country_code": "ph",
-  "author": "David Webb Espiritu <davidwebbespiritu@gmail.com> | https://www.linkedin.com/in/davidwebbespiritu",
+  "author": "sudo potito <sudopotito@gmail.com> | https://github.com/sudopotito/geo_extension",
   "version": "1.0.0",
-  "description": "Cities and Municipalities of the Philippines - 146 Cities & 1,488 Municipalities",
+  "description": "Philippine Standard Geographic Hierarchy - 81 Provinces, 146 Cities & 1,488 Municipalities and 42,004 Barangay",
   "source": "https://psa.gov.ph/classification/psgc",
   "levels": [
-    { "file": "level1.csv", "label": "Province", "target_field": "state" },
+    {
+      "file": "level1.csv",
+      "label": "Province",
+      "target_field": "state"
+    },
     {
       "file": "level2.csv",
       "label": "City/Municipality",
