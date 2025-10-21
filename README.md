@@ -4,7 +4,7 @@
   </a>
 
   <h1>Geo Extension</h1>
-  <h3>Enhancing the Address Experience in Frappe</h3>
+  <h4>Enhancing the Address Experience in Frappe</h4>
 
   <img src=".github/hero.gif" alt="Geo Extension Hero" width="100%" />
 
@@ -16,7 +16,7 @@
 
 ## Overview
 
-**Geo Extension** is a lightweight **Frappe app** that enhances the default Geo module by improving how users encode and manage address information.  
+**Geo Extension** is a lightweight **Frappe app** that enhances the frappe Geo module by improving how users encode and manage address information.  
 It extends the **Address Doctype** to make primary address keys (like _State, City, and County_) filterable and interactive — turning tedious address input into a smooth, guided process.
 
 With country-specific manifests and hierarchical data levels, users can select from real administrative divisions instead of typing free-form text, drastically reducing data entry errors.
@@ -54,20 +54,11 @@ This project was also a personal challenge: to build something useful and sharea
 
 ---
 
-<details>
-  <summary><b>🖼️ More Screenshots</b></summary>
-
-![Image Preview](https://github.com/user-attachments/assets/993cbd87-a96c-4e5c-8737-0c03c9222723)
-
-</details>
-
----
-
 ## Supported Countries
 
 🇵🇭 Philippines
 
-> Want to add your country? See the [Contribute](#-contribute) section below.
+Want to add your country? See the [Contribute](#-contribute) section below.
 
 ---
 
@@ -79,7 +70,7 @@ You can try **[Frappe Cloud](https://frappecloud.com)** — a simple, open-sourc
 
 It handles **installation, setup, upgrades, monitoring, maintenance,** and **support** of your deployments. It’s a fully featured developer platform for managing multiple Frappe instances.
 
-<div align="center">
+<div align="left">
 	<a href="https://frappecloud.com/dashboard/signup?product=geo_extension" target="_blank">
 		<picture>
 			<source media="(prefers-color-scheme: dark)" srcset="https://frappe.io/files/try-on-fc-white.png">
@@ -103,7 +94,13 @@ wget https://frappe.io/easy-install.py
 #### Step 2: Run the deployment command
 
 ```bash
-python3 ./easy-install.py deploy     --project=geo_extension_prod_setup     --email=your_email.example.com     --image=ghcr.io/sudopotito/geo_extension     --version=stable     --app=geo_extension     --sitename subdomain.domain.tld
+python3 ./easy-install.py deploy \
+    --project=geo_extension_prod_setup \
+    --email=your_email.example.com \
+    --image=ghcr.io/sudopotito/geo_extension\
+    --version=stable \
+    --app=geo_extension \
+    --sitename subdomain.domain.tld
 ```
 
 Replace the following parameters with your own:
@@ -111,7 +108,7 @@ Replace the following parameters with your own:
 - `your_email.example.com`: Your email address
 - `subdomain.domain.tld`: Your target domain
 
-The script will spin up a production-ready instance of Geo Extension with all configurations in about **5 minutes**.
+The script will spin up a production-ready instance of Geo Extension with all configurations.
 
 ---
 
@@ -154,7 +151,7 @@ Password: admin
 
 ---
 
-### Local Setup (Manual)
+### Bare Metal
 
 1. Install bench and set up a `frappe-bench` directory  
    → [Installation Steps](https://frappeframework.com/docs/user/en/installation)
@@ -183,31 +180,24 @@ Password: admin
 
 ---
 
-## 🤝 Contribute
+## Contribute
 
 We welcome contributions from the community!  
 Whether you’re adding support for a new country or fixing something small — your help makes Geo Extension better for everyone.
 
-### 🗺️ Adding a New Country
+### Adding a New Country
 
 If you want to contribute support for a new country, follow this guide:  
 👉 [How to Add a New Country](https://github.com/sudopotito/geo_extension/blob/develop/template/README.md)
 
 Even if your country already exists, you can still contribute updates, corrections, or extended datasets via a Pull Request (PR).
 
-### 🧩 General Fixes or Improvements
+### General Fixes or Improvements
 
 For general bug fixes, optimizations, or documentation updates —  
 you can directly **open a PR**. All contributions are reviewed and appreciated!
 
 Your contribution helps make address encoding smoother and more reliable across the Frappe ecosystem.
-
----
-
-## Community
-
-Contributions, suggestions, and discussions are always welcome.  
-Feel free to fork, explore, or share improvements that make address data entry even more intuitive.
 
 ---
 
