@@ -4,11 +4,18 @@ on:
   push:
     branches:
       - main
-  pull_request: {}
+  pull_request:
+
+concurrency:
+  group: main-geo_extension-${{ github.event.number }}
+  cancel-in-progress: true
 
 jobs:
   tests:
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+    name: Server
 
     services:
       redis-cache:
@@ -19,106 +26,82 @@ jobs:
         image: redis:alpine
         ports:
           - 11000:6379
-      redis-socketio:
-        image: redis:alpine
-        ports:
-          - 12000:6379
       mariadb:
         image: mariadb:10.6
-        ports:
-          - 3306:3306
         env:
           MYSQL_ROOT_PASSWORD: root
-          MYSQL_DATABASE: _tmp
-          MYSQL_USER: root
-        options: >-
-          --health-cmd="mysqladmin ping -proot"
-          --health-interval=5s
-          --health-timeout=2s
-          --health-retries=5
+        ports:
+          - 3306:3306
+        options: --health-cmd="mariadb-admin ping" --health-interval=5s --health-timeout=2s --health-retries=3
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - name: Clone
+        uses: actions/checkout@v3
+
+      - name: Find tests
+        run: |
+          echo "Finding tests"
+          grep -rn "def test" > /dev/null
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
           python-version: "3.10"
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v3
         with:
-          node-version: "18"
+          node-version: 18
           check-latest: true
 
-      - name: Cache bench folder
+      - name: Cache pip
         uses: actions/cache@v4
         with:
-          path: ~/bench-cache
-          key: ${{ runner.os }}-bench-cache-v2
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/*requirements.txt', '**/pyproject.toml', '**/setup.py', '**/setup.cfg') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+            ${{ runner.os }}-
 
-      - name: Install bench CLI
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: 'echo "dir=$(yarn cache dir)" >> $GITHUB_OUTPUT'
+
+      - uses: actions/cache@v4
+        id: yarn-cache
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+
+      - name: Install MariaDB Client
         run: |
-          python -m pip install --upgrade pip
+          sudo apt update
+          sudo apt-get install -y mariadb-client
+
+      - name: Setup
+        run: |
           pip install frappe-bench
-          bench --version
+          bench init --skip-redis-config-generation --skip-assets --python "$(which python)" ~/frappe-bench
+          mariadb --host 127.0.0.1 --port 3306 -u root -proot -e "SET GLOBAL character_set_server = 'utf8mb4'"
+          mariadb --host 127.0.0.1 --port 3306 -u root -proot -e "SET GLOBAL collation_server = 'utf8mb4_unicode_ci'"
 
-      - name: bench init (reuse cache if present)
+      - name: Install
+        working-directory: /home/runner/frappe-bench
         run: |
-          set -eux
-          if [ -f "$HOME/bench-cache/bench.tgz" ]; then
-            (cd && tar xzf "$HOME/bench-cache/bench.tgz")
-            bench --version
-            bench setup env --python "$(which python)"
-          else
-            bench init "$HOME/frappe-bench" \
-              --skip-redis-config-generation \
-              --skip-assets \
-              --frappe-branch version-15 \
-              --python "$(which python)"
-            mkdir -p "$HOME/bench-cache"
-            (cd && tar czf "$HOME/bench-cache/bench.tgz" frappe-bench)
-          fi
-
-      - name: Add geo_extension app to bench
-        working-directory: /home/runner/frappe-bench
+          bench get-app geo_extension $GITHUB_WORKSPACE
+          bench setup requirements --dev
+          bench new-site --db-root-password root --admin-password admin test_site
+          bench --site test_site install-app geo_extension
+          bench build
         env:
-          GIT_DISCOVERY_ACROSS_FILESYSTEM: 1
+          CI: "Yes"
+
+      - name: Run Tests
+        working-directory: /home/runner/frappe-bench
         run: |
-          # Use the checked-out workspace as the app source
-          bench get-app geo_extension "$GITHUB_WORKSPACE"
-
-      - name: Create bench site
-        working-directory: /home/runner/frappe-bench
+          bench --site test_site set-config allow_tests true
+          bench --site test_site run-tests --app geo_extension
         env:
-          DB_HOST: 127.0.0.1
-          MYSQL_ROOT_PASSWORD: root
-        run: |
-          bench new-site frappe.local \
-            --db-host 127.0.0.1 \
-            --mariadb-root-password root \
-            --admin-password admin \
-            --no-mariadb-socket
-
-      - name: Install geo_extension app
-        working-directory: /home/runner/frappe-bench
-        run: bench --site frappe.local install-app geo_extension
-
-      - name: Setup requirements (dev)
-        working-directory: /home/runner/frappe-bench
-        run: bench setup requirements --dev
-
-      - name: Allow tests
-        working-directory: /home/runner/frappe-bench
-        run: bench --site frappe.local set-config allow_tests true
-
-      - name: Build assets (site)
-        working-directory: /home/runner/frappe-bench
-        run: bench --site frappe.local build
-
-      - name: Run tests
-        working-directory: /home/runner/frappe-bench
-        env:
-          CI: "1"
-        run: bench --site frappe.local run-tests --app geo_extension
+          TYPE: server
