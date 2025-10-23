@@ -104,7 +104,11 @@ def get_levels(country: str):
 
 
 @frappe.whitelist(allow_guest=True)
-def get_level_options(country: str, level_index: int, parent_code: str = None):
+def get_level_options(
+    country: str,
+    level_index: int,
+    parent_code: str | None = None,
+) -> list[dict[str, str]]:
     """
     level_index=1: CSV requires code,name
     level_index>=2: CSV requires parent_code,code,name
