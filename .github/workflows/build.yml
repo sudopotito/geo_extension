@@ -1,11 +1,10 @@
 name: Build Container Image
 
 on:
-  workflow_dispatch:
   push:
-    branches: [main, develop]
-    tags:
-      - "*"
+    branches: [main]          # only build on pushes/merges to main
+  pull_request:
+    branches: [main]          # run checks on PRs targeting main
 
 permissions:
   contents: read
@@ -24,34 +23,31 @@ jobs:
           echo "REPO_LOWER=$(echo '${{ github.repository }}' | tr '[:upper:]' '[:lower:]')" >> $GITHUB_ENV
           echo "OWNER_LOWER=$(echo '${{ github.repository_owner }}' | tr '[:upper:]' '[:lower:]')" >> $GITHUB_ENV
 
-      - name: Set branch & app build args
+      - name: Set branches, tags & apps.json (ERPNext + geo_extension)
         env:
           REF_NAME: ${{ github.ref_name }}
-          REF_TYPE: ${{ github.ref_type }}
           REPOSITORY: ${{ github.repository }}
         run: |
-          # APPS_JSON -> base64 for frappe_docker layered build
-          APPS_JSON="[ { \"url\": \"https://github.com/${REPOSITORY}\", \"branch\": \"${REF_NAME}\" } ]"
+          set -e
+
+          # Production: always build on Frappe / ERPNext v15
+          FRAPPE_BRANCH="version-15"
+          IMAGE_TAG="v15"
+          STABLE_TAG="stable"
+
+          # apps.json: ERPNext + this repo (geo_extension)
+          APPS_JSON=$(cat <<EOF
+[
+  { "url": "https://github.com/frappe/erpnext", "branch": "${FRAPPE_BRANCH}" },
+  { "url": "https://github.com/${REPOSITORY}", "branch": "${REF_NAME}" }
+]
+EOF
+)
+
+          echo "FRAPPE_BRANCH=${FRAPPE_BRANCH}" >> $GITHUB_ENV
+          echo "IMAGE_TAG=${IMAGE_TAG}" >> $GITHUB_ENV
+          echo "STABLE_TAG=${STABLE_TAG}" >> $GITHUB_ENV
           echo "APPS_JSON_BASE64=$(printf '%s' "$APPS_JSON" | base64 -w 0)" >> $GITHUB_ENV
-
-          # Choose FRAPPE branch: tags and main -> version-15, develop -> develop
-          if [[ "$REF_TYPE" == "tag" || "$REF_NAME" == "main" ]]; then
-            echo "FRAPPE_BRANCH=version-15" >> $GITHUB_ENV
-          else
-            echo "FRAPPE_BRANCH=develop" >> $GITHUB_ENV
-          fi
-
-          # Human-facing tags:
-          # - Always tag with the ref name (branch or tag)
-          # - develop -> latest & nightly
-          # - main or any tag -> v15 & stable
-          if [[ "$REF_NAME" == "develop" ]]; then
-            echo "IMAGE_TAG=latest" >> $GITHUB_ENV
-            echo "STABLE_TAG=nightly" >> $GITHUB_ENV
-          else
-            echo "IMAGE_TAG=v15" >> $GITHUB_ENV
-            echo "STABLE_TAG=stable" >> $GITHUB_ENV
-          fi
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
@@ -78,7 +74,10 @@ jobs:
           context: builds
           file: builds/images/layered/Containerfile
           platforms: linux/amd64,linux/arm64
-          push: true
+
+          # Only push images when this is a push to main.
+          push: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+
           cache-from: type=gha
           cache-to: type=gha,mode=max
           build-args: |
