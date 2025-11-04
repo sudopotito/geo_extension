@@ -2,9 +2,9 @@ name: Build Container Image
 
 on:
   push:
-    branches: [main]          # only build on pushes/merges to main
+    branches: [main]          # only build/push on main
   pull_request:
-    branches: [main]          # run checks on PRs into main
+    branches: [main]          # build on PRs into main (no push)
 
 permissions:
   contents: read
@@ -25,12 +25,13 @@ jobs:
 
       - name: Set branches, tags & apps.json (ERPNext + geo_extension)
         env:
-          REF_NAME: ${{ github.ref_name }}
+          # For PRs, use head_ref (the source branch); for pushes, ref_name (main)
+          REF_NAME: ${{ github.head_ref || github.ref_name }}
           REPOSITORY: ${{ github.repository }}
         run: |
           set -e
 
-          # Production: always build on Frappe / ERPNext v15
+          # Production: always build on ERPNext / Frappe v15
           FRAPPE_BRANCH="version-15"
           IMAGE_TAG="v15"
           STABLE_TAG="stable"
@@ -72,7 +73,7 @@ jobs:
           file: builds/images/layered/Containerfile
           platforms: linux/amd64,linux/arm64
 
-          # Only push images when this is a push to main (NOT for PRs)
+          # Only push images on push to main; PRs just build
           push: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
 
           cache-from: type=gha
@@ -81,6 +82,6 @@ jobs:
             FRAPPE_BRANCH=${{ env.FRAPPE_BRANCH }}
             APPS_JSON_BASE64=${{ env.APPS_JSON_BASE64 }}
           tags: |
-            ghcr.io/${{ env.REPO_LOWER }}:${{ github.ref_name }}   # ghcr.io/owner/repo:main
-            ghcr.io/${{ env.REPO_LOWER }}:${{ env.IMAGE_TAG }}     # ghcr.io/owner/repo:v15
-            ghcr.io/${{ env.REPO_LOWER }}:${{ env.STABLE_TAG }}    # ghcr.io/owner/repo:stable
+            ghcr.io/${{ env.REPO_LOWER }}:${{ env.IMAGE_TAG }}
+            ghcr.io/${{ env.REPO_LOWER }}:${{ env.STABLE_TAG }}
+            ghcr.io/${{ env.REPO_LOWER }}:ci-${{ github.run_number }}
