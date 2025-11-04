@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]          # only build on pushes/merges to main
   pull_request:
-    branches: [main]          # run checks on PRs targeting main
+    branches: [main]          # run checks on PRs into main
 
 permissions:
   contents: read
@@ -36,13 +36,10 @@ jobs:
           STABLE_TAG="stable"
 
           # apps.json: ERPNext + this repo (geo_extension)
-          APPS_JSON=$(cat <<EOF
-[
-  { "url": "https://github.com/frappe/erpnext", "branch": "${FRAPPE_BRANCH}" },
-  { "url": "https://github.com/${REPOSITORY}", "branch": "${REF_NAME}" }
-]
-EOF
-)
+          APPS_JSON=$(printf '[{"url":"https://github.com/frappe/erpnext","branch":"%s"},{"url":"https://github.com/%s","branch":"%s"}]' \
+            "$FRAPPE_BRANCH" \
+            "$REPOSITORY" \
+            "$REF_NAME")
 
           echo "FRAPPE_BRANCH=${FRAPPE_BRANCH}" >> $GITHUB_ENV
           echo "IMAGE_TAG=${IMAGE_TAG}" >> $GITHUB_ENV
@@ -75,7 +72,7 @@ EOF
           file: builds/images/layered/Containerfile
           platforms: linux/amd64,linux/arm64
 
-          # Only push images when this is a push to main.
+          # Only push images when this is a push to main (NOT for PRs)
           push: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
 
           cache-from: type=gha
@@ -84,6 +81,6 @@ EOF
             FRAPPE_BRANCH=${{ env.FRAPPE_BRANCH }}
             APPS_JSON_BASE64=${{ env.APPS_JSON_BASE64 }}
           tags: |
-            ghcr.io/${{ env.REPO_LOWER }}:${{ github.ref_name }}
-            ghcr.io/${{ env.REPO_LOWER }}:${{ env.IMAGE_TAG }}
-            ghcr.io/${{ env.REPO_LOWER }}:${{ env.STABLE_TAG }}
+            ghcr.io/${{ env.REPO_LOWER }}:${{ github.ref_name }}   # ghcr.io/owner/repo:main
+            ghcr.io/${{ env.REPO_LOWER }}:${{ env.IMAGE_TAG }}     # ghcr.io/owner/repo:v15
+            ghcr.io/${{ env.REPO_LOWER }}:${{ env.STABLE_TAG }}    # ghcr.io/owner/repo:stable
