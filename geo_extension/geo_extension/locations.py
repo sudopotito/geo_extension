@@ -11,6 +11,7 @@ import frappe
 
 _COUNTRIES_DIR = ("geo_extension", "setup", "data", "countries")
 
+# Increased limits for compatibility with official government datasets
 _MAX_TEXT_LEN = 512
 _MAX_CODE_LEN = 128
 _CODE_RE = re.compile(r"^[A-Za-z0-9._-]+$")
@@ -129,7 +130,6 @@ def _safe_join(base: str, filename: str | None) -> str | None:
 	if not filename:
 		return None
 
-	# Disallow absolute paths
 	if os.path.isabs(filename):
 		return None
 
@@ -173,11 +173,9 @@ def get_levels(country: str):
 			file_name = _clean_text(lvl.get("file"), max_len=128)
 
 			if not label or not target_field or not file_name:
-				# Skip incomplete or obviously bad entries
 				continue
 
 			if _safe_join(base, file_name) is None:
-				# Path traversal or invalid path, skip this level
 				continue
 
 			levels.append(
@@ -207,10 +205,6 @@ def get_level_options(
 
 	Returns sanitized:
 	[{"label": name, "value": code}, ...] sorted A→Z by label.
-
-	CSV-agnostic in spirit:
-	- We don't assume anything about the content beyond the headers we read.
-	- Everything we expose (code/name) is cleaned and bounded.
 	"""
 	try:
 		code = _country_code_for(country)
@@ -235,22 +229,18 @@ def get_level_options(
 		rows = _read_csv(csv_path)
 
 		if idx == 0:
-			# Top level: code,name
 			if not _has_headers(rows, ("code", "name")):
 				return []
 			filtered = rows
 			parent_code_clean = None
 		else:
-			# Sub-levels: parent_code,code,name
 			if not _has_headers(rows, ("parent_code", "code", "name")):
 				return []
 			if not parent_code:
 				return []
-
 			parent_code_clean = _clean_code(parent_code)
 			if not parent_code_clean:
 				return []
-
 			filtered = [r for r in rows if _eq(r.get("parent_code"), parent_code)]
 
 		safe_rows = []
@@ -264,7 +254,6 @@ def get_level_options(
 			if not name or not code_val:
 				continue
 
-			# For sub-levels, re-check parent_code using cleaned code
 			if idx > 0:
 				raw_parent = r.get("parent_code")
 				parent_val = _clean_code(raw_parent)
@@ -273,7 +262,6 @@ def get_level_options(
 
 			safe_rows.append({"name": name, "code": code_val})
 
-		# Sort A→Z on 'name' (label), Unicode-aware and case-insensitive
 		safe_rows_sorted = sorted(
 			safe_rows,
 			key=lambda r: _sort_key(r.get("name", "")),
