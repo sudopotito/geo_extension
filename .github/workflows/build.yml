@@ -2,9 +2,7 @@ name: Build Container Image
 
 on:
   push:
-    branches: [main]          # only build/push on main
-  pull_request:
-    branches: [main]          # build on PRs into main (no push)
+    branches: [main]          # only run AFTER changes land in main (e.g. Merge PR)
 
 permissions:
   contents: read
@@ -25,25 +23,27 @@ jobs:
 
       - name: Set branches, tags & apps.json (ERPNext + geo_extension)
         env:
-          # For PRs, use head_ref (the source branch); for pushes, ref_name (main)
-          REF_NAME: ${{ github.head_ref || github.ref_name }}
+          # On push to main, this will be "main"
+          REF_NAME: ${{ github.ref_name }}
           REPOSITORY: ${{ github.repository }}
         run: |
           set -e
 
           # Production: always build on ERPNext / Frappe v15
           FRAPPE_BRANCH="version-15"
-          IMAGE_TAG="v15"
+
+          # Image tags: we want "main" + "stable"
+          IMAGE_MAIN_TAG="main"
           STABLE_TAG="stable"
 
-          # apps.json: ERPNext + this repo (geo_extension)
+          # apps.json: ERPNext + this repo (geo_extension), using main branch
           APPS_JSON=$(printf '[{"url":"https://github.com/frappe/erpnext","branch":"%s"},{"url":"https://github.com/%s","branch":"%s"}]' \
             "$FRAPPE_BRANCH" \
             "$REPOSITORY" \
             "$REF_NAME")
 
           echo "FRAPPE_BRANCH=${FRAPPE_BRANCH}" >> $GITHUB_ENV
-          echo "IMAGE_TAG=${IMAGE_TAG}" >> $GITHUB_ENV
+          echo "IMAGE_MAIN_TAG=${IMAGE_MAIN_TAG}" >> $GITHUB_ENV
           echo "STABLE_TAG=${STABLE_TAG}" >> $GITHUB_ENV
           echo "APPS_JSON_BASE64=$(printf '%s' "$APPS_JSON" | base64 -w 0)" >> $GITHUB_ENV
 
@@ -73,7 +73,7 @@ jobs:
           file: builds/images/layered/Containerfile
           platforms: linux/amd64,linux/arm64
 
-          # Only push images on push to main; PRs just build
+          # We only have push->main events now, but keep this guard for safety
           push: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
 
           cache-from: type=gha
@@ -82,6 +82,5 @@ jobs:
             FRAPPE_BRANCH=${{ env.FRAPPE_BRANCH }}
             APPS_JSON_BASE64=${{ env.APPS_JSON_BASE64 }}
           tags: |
-            ghcr.io/${{ env.REPO_LOWER }}:${{ env.IMAGE_TAG }}
+            ghcr.io/${{ env.REPO_LOWER }}:${{ env.IMAGE_MAIN_TAG }}
             ghcr.io/${{ env.REPO_LOWER }}:${{ env.STABLE_TAG }}
-            ghcr.io/${{ env.REPO_LOWER }}:ci-${{ github.run_number }}
