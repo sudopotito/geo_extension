@@ -1,7 +1,7 @@
 // Copyright (c) 2025, sudo potito and contributors
 // For license information, please see license.txt
 
-const LEVEL_FIELDS = ["state", "county", "city", "barangay"];
+const LEVEL_FIELDS = ["state", "county", "city", "village"];
 
 /**
  * Behavior:
@@ -74,7 +74,7 @@ frappe.ui.form.on("Address", {
 	async city(frm) {
 		if (frm._geo.mode === "guided") await next_level(frm, "city");
 	},
-	async barangay(frm) {
+	async village(frm) {
 		/* last level */
 	},
 });

@@ -5,7 +5,7 @@
 import csv
 import json
 import os
-import unicodedata  # <-- added
+import unicodedata
 
 import frappe
 
