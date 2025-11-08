@@ -89,7 +89,7 @@ Example:
     {
       "file": "level3.csv",
       "label": "Barangay",
-      "target_field": "barangay",
+      "target_field": "village",
       "parent_level": 2
     }
   ]
@@ -171,8 +171,8 @@ def after_install(force: bool = False):
     create_custom_fields({
         "Address": [
             {
-                "fieldname": "barangay",
-                "label": "Barangay",
+                "fieldname": "village",
+                "label": "Village/Ward/Barangay",
                 "fieldtype": "Autocomplete",
                 "insert_after": "city",
             }
@@ -180,7 +180,7 @@ def after_install(force: bool = False):
     }, ignore_validate=True, update=True)
 ```
 
-Then, reference it in `manifest.json` with `"target_field": "barangay"`.
+Then, reference it in `manifest.json` with `"target_field": "village"`.
 
 If you add new fields, mention them clearly in your Pull Request for review.
 
