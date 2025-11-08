@@ -3,11 +3,11 @@ name: Server Tests
 on:
   push:
     branches:
-      - main
+      - develop
   pull_request:
 
 concurrency:
-  group: main-geo_extension-${{ github.event.number }}
+  group: develop-geo_extension-${{ github.event.number }}
   cancel-in-progress: true
 
 jobs:
