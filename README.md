@@ -35,7 +35,7 @@ This project was also a personal challenge: to build something useful and sharea
 ## Key Features
 
 - **Dynamic Address Hierarchy**  
-  Automatically adapts field labels and filters (e.g., _Province → City → Village_) based on the selected country’s configuration.
+  Automatically adapts field labels and filters (e.g., _Province → City → County_) based on the selected country’s configuration.
 
 - **Manifest-Driven Location Levels**  
   Country-specific `manifest.json` files define how address hierarchies load and map to Frappe fields.
@@ -47,7 +47,7 @@ This project was also a personal challenge: to build something useful and sharea
   If no manifest exists for the selected country, the app gracefully falls back to standard Data input — keeping the form usable by default.
 
 - **Reference Data Support**  
-  Supports location datasets in CSV format with hierarchical linkage across levels (_Province → City → Village_).
+  Supports location datasets in CSV format with hierarchical linkage across levels (_Province → City → County_).
 
 - **Seamless Integration**  
   Works directly with the existing **Frappe Address Doctype** — no new doctypes or dependencies required.
