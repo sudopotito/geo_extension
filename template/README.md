@@ -42,7 +42,7 @@ countries/
     level3.csv
 ```
 
-You can add more levels (e.g., `level4.csv`) depending on your country’s administrative depth.
+All countries currently supported use a maximum of 3 levels. Please restrict your contribution to `level1.csv`, `level2.csv`, and `level3.csv`.
 
 ---
 
@@ -54,10 +54,10 @@ Each CSV file represents one level of your country’s geographic structure.
 | ------- | ----------- | ------------------------ |
 | Level 1 | Top level   | Province, Region, State  |
 | Level 2 | Sub-level   | City, Municipality       |
-| Level 3 | Lower level | Barangay, District, Ward |
+| Level 3 | Lower level | District, Ward, County |
 
 Every lower level must reference the **parent level** through a `parent_code` column.  
-You can define as many levels as necessary to represent your country’s administrative divisions.
+This Geo Extension supports a maximum of 3 administrative levels (State, City, County) which map to the default Frappe Address fields.
 
 ---
 
@@ -72,7 +72,7 @@ Example:
   "country_code": "ph",
   "author": "sudo potito <sudopotito@gmail.com> | https://github.com/sudopotito/geo_extension",
   "version": "1.0.0",
-  "description": "Philippine Standard Geographic Hierarchy - 81 Provinces, 146 Cities & 1,488 Municipalities and 42,004 Barangay",
+  "description": "Philippine Standard Geographic Hierarchy - 81 Provinces, 146 Cities & 1,488 Municipalities and 42,004 Counties",
   "source": "https://psa.gov.ph/classification/psgc",
   "levels": [
     {
@@ -88,8 +88,8 @@ Example:
     },
     {
       "file": "level3.csv",
-      "label": "Barangay",
-      "target_field": "village",
+      "label": "County",
+      "target_field": "county",
       "parent_level": 2
     }
   ]
@@ -158,35 +158,7 @@ If you still prefer Excel, make sure **auto-formatting is disabled**, and double
 
 ---
 
-## 5. Custom Address Fields (If Needed)
-
-If your country uses a division not found in Frappe’s default fields (`state`, `county`, `city`), you can define your own in.
-
-`install.py` Example:
-
-```python
-from frappe.custom.doctype.custom_field.custom_field import create_custom_fields
-
-def after_install(force: bool = False):
-    create_custom_fields({
-        "Address": [
-            {
-                "fieldname": "village",
-                "label": "Village/Ward/Barangay",
-                "fieldtype": "Autocomplete",
-                "insert_after": "city",
-            }
-        ]
-    }, ignore_validate=True, update=True)
-```
-
-Then, reference it in `manifest.json` with `"target_field": "village"`.
-
-If you add new fields, mention them clearly in your Pull Request for review.
-
----
-
-## 6. Testing Your Data
+## 5. Testing Your Data
 
 Before submitting, make sure your contribution works inside Frappe:
 
@@ -196,11 +168,10 @@ Before submitting, make sure your contribution works inside Frappe:
 4. Verify that:
    - Level fields appear correctly in order.
    - Selecting one field filters the next level properly.
-   - Any custom field you added shows and works.
 
 ---
 
-## 7. Submitting Your Pull Request
+## 6. Submitting Your Pull Request
 
 When your country data is ready, submit a PR with:
 
@@ -213,13 +184,12 @@ When your country data is ready, submit a PR with:
 - Levels and target fields used.
 - Source link.
 - Author information.
-- Mention if any custom fields were added.
 
 Your PR helps improve the experience for frappe users around the world — and you’ll be credited as a contributor in the project.
 
 ---
 
-## 8. Review Process
+## 7. Review Process
 
 We’ll verify:
 
@@ -227,7 +197,6 @@ We’ll verify:
 - Hierarchy and parent relationships.
 - CSV formatting and encoding.
 - Valid and verifiable data source.
-- Custom field additions (if any).
 
 ---
 

@@ -15,7 +15,7 @@
     {
       "file": "level3.csv",
       "label": "Barangay",
-      "target_field": "village",
+      "target_field": "county",
       "parent_level": 2
     }
   ]

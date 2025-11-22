@@ -5,12 +5,11 @@
 import json
 
 import frappe
-from frappe.custom.doctype.custom_field.custom_field import create_custom_fields
 from frappe.custom.doctype.property_setter.property_setter import make_property_setter
 
 ADDRESS = "Address"
-AC_FIELDS = ["state", "county", "city", "village"]
-SEGMENT_FIELDS = ["state", "county", "city", "village", "country"]
+AC_FIELDS = ["state", "city", "county"]
+SEGMENT_FIELDS = ["state", "city", "county", "country"]
 
 
 def before_install():
@@ -18,23 +17,8 @@ def before_install():
 
 
 def after_install(force: bool = False):
-	setup_custom_fields(force)
 	setup_property_setters()
 	frappe.db.commit()
-
-
-def setup_custom_fields(force: bool = False):
-	custom_fields = {
-		ADDRESS: [
-			{
-				"fieldname": "village",
-				"label": "Village/Ward/Barangay",
-				"fieldtype": "Autocomplete",
-				"insert_after": "city",
-			}
-		]
-	}
-	create_custom_fields(custom_fields, ignore_validate=True, update=True)
 
 
 def setup_property_setters():

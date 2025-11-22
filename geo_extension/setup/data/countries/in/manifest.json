@@ -1,9 +1,9 @@
 {
-  "country_code": "ph",
+  "country_code": "in",
   "author": "sudo potito <sudopotito@gmail.com> | https://github.com/sudopotito/geo_extension",
   "version": "1.0.0",
-  "description": "Philippine Standard Geographic Hierarchy - 81 Provinces, 146 Cities & 1,488 Municipalities and 42,004 Barangay",
-  "source": "https://psa.gov.ph/classification/psgc",
+  "description": "",
+  "source": "",
   "levels": [
     {
       "file": "level1.csv",
@@ -15,12 +15,6 @@
       "label": "City/Municipality",
       "target_field": "city",
       "parent_level": 1
-    },
-    {
-      "file": "level3.csv",
-      "label": "Barangay",
-      "target_field": "county",
-      "parent_level": 2
     }
   ]
 }
