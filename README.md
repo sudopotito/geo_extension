@@ -34,29 +34,22 @@ This project was also a personal challenge: to build something useful and sharea
 
 ## Key Features
 
-- **Dynamic Address Hierarchy**  
-  Automatically adapts field labels and filters (e.g., _Province → City → Village_) based on the selected country’s configuration.
+🔍 **Smart Address Fields**
+- Auto-adapting fields (State/City/County) based on country
+- Turns free-text fields into searchable dropdowns
+- Uses real administrative divisions encoded and validated by the community
 
-- **Manifest-Driven Location Levels**  
-  Country-specific `manifest.json` files define how address hierarchies load and map to Frappe fields.
-
-- **Autocomplete Field Enhancement**  
-  Converts static _Data_ fields (like state, city, and county) into **Autocomplete fields** for faster, error-free entry.
-
-- **Flexible Fallback Behavior**  
-  If no manifest exists for the selected country, the app gracefully falls back to standard Data input — keeping the form usable by default.
-
-- **Reference Data Support**  
-  Supports location datasets in CSV format with hierarchical linkage across levels (_Province → City → Village_).
-
-- **Seamless Integration**  
-  Works directly with the existing **Frappe Address Doctype** — no new doctypes or dependencies required.
+⚙️ **Zero-Friction Setup**
+- Country configurations via simple JSON manifests
+- Works with existing Frappe Address doctype
+- Automatic fallback to standard fields if no country data
 
 ---
 
 ## Supported Countries
 
-🇵🇭 Philippines
+* 🇮🇳 India
+* 🇵🇭 Philippines
 
 Want to add your country? See the [Contribute](#contribute) section below.
 
