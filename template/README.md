@@ -57,7 +57,7 @@ Each CSV file represents one level of your country’s geographic structure.
 | Level 3 | Lower level | District, Ward, County |
 
 Every lower level must reference the **parent level** through a `parent_code` column.  
-This Geo Extension supports a maximum of 3 administrative levels (State, City, County/District) which map to the default Frappe Address fields.
+This Geo Extension supports a maximum of 3 administrative levels (State, City, County) which map to the default Frappe Address fields.
 
 ---
 
