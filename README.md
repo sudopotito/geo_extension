@@ -48,8 +48,8 @@ This project was also a personal challenge: to build something useful and sharea
 
 ## Supported Countries
 
-🇮🇳 India
-🇵🇭 Philippines
+* 🇮🇳 India
+* 🇵🇭 Philippines
 
 Want to add your country? See the [Contribute](#contribute) section below.
 
