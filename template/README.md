@@ -42,7 +42,7 @@ countries/
     level3.csv
 ```
 
-You can add more levels (e.g., `level4.csv`) depending on your country’s administrative depth.
+All countries currently supported use a maximum of 3 levels. Please restrict your contribution to `level1.csv`, `level2.csv`, and `level3.csv`.
 
 ---
 
@@ -57,7 +57,7 @@ Each CSV file represents one level of your country’s geographic structure.
 | Level 3 | Lower level | District, Ward, County |
 
 Every lower level must reference the **parent level** through a `parent_code` column.  
-You can define as many levels as necessary to represent your country’s administrative divisions.
+This Geo Extension supports a maximum of 3 administrative levels (State, City, County/District) which map to the default Frappe Address fields.
 
 ---
 
@@ -168,7 +168,6 @@ Before submitting, make sure your contribution works inside Frappe:
 4. Verify that:
    - Level fields appear correctly in order.
    - Selecting one field filters the next level properly.
-   - Any custom field you added shows and works.
 
 ---
 
@@ -185,7 +184,6 @@ When your country data is ready, submit a PR with:
 - Levels and target fields used.
 - Source link.
 - Author information.
-- Mention if any custom fields were added.
 
 Your PR helps improve the experience for frappe users around the world — and you’ll be credited as a contributor in the project.
 
@@ -199,7 +197,6 @@ We’ll verify:
 - Hierarchy and parent relationships.
 - CSV formatting and encoding.
 - Valid and verifiable data source.
-- Custom field additions (if any).
 
 ---
 
