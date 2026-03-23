@@ -1,0 +1,131 @@
+code,name
+ENG01,Bedfordshire
+ENG02,Berkshire
+ENG03,Bristol
+ENG04,Buckinghamshire
+ENG05,Cambridgeshire
+ENG06,Cheshire
+ENG07,Cornwall
+ENG08,Cumbria
+ENG09,Derbyshire
+ENG10,Devon
+ENG11,Dorset
+ENG12,Durham
+ENG13,East Riding of Yorkshire
+ENG14,East Sussex
+ENG15,Essex
+ENG16,Gloucestershire
+ENG17,Greater London
+ENG18,Greater Manchester
+ENG19,Hampshire
+ENG20,Herefordshire
+ENG21,Hertfordshire
+ENG22,Isle of Wight
+ENG23,Kent
+ENG24,Lancashire
+ENG25,Leicestershire
+ENG25,Lincolnshire
+ENG26,Merseyside
+ENG27,Norfolk
+ENG28,North Yorkshire
+ENG29,Northamptonshire
+ENG30,Northumberland
+ENG31,Nottinghamshire
+ENG32,Oxfordshire
+ENG33,Rutland
+ENG34,Shropshire
+ENG35,Somerset
+ENG36,South Yorkshire
+ENG37,Staffordshire
+ENG38,Suffolk
+ENG39,Surrey
+ENG40,Tyne and Wear
+ENG41,Warwickshire
+ENG42,West Midlands
+ENG43,West Sussex
+ENG44,West Yorkshire
+ENG45,Wiltshire
+ENG46,Worcestershire
+SCT01,Aberdeenshire
+SCT02,Angus
+SCT03,Argyll and Bute
+SCT04,Ayrshire
+SCT05,Banffshire
+SCT06,Berwickshire
+SCT07,Caithness
+SCT08,Clackmannanshire
+SCT09,Dumfries and Galloway
+SCT10,Dundee
+SCT11,East Ayrshire
+SCT12,East Dunbartonshire
+SCT13,East Lothian
+SCT14,East Renfrewshire
+SCT15,Edinburgh
+SCT16,Falkirk
+SCT17,Fife
+SCT18,Glasgow
+SCT19,Highland
+SCT20,Inverclyde
+SCT21,Midlothian
+SCT22,Moray
+SCT23,Na h-Eileanan Siar
+SCT24,North Ayrshire
+SCT25,North Lanarkshire
+SCT26,Orkney Islands
+SCT27,Perth and Kinross
+SCT28,Renfrewshire
+SCT29,Scottish Borders
+SCT30,Shetland Islands
+SCT31,South Ayrshire
+SCT32,South Lanarkshire
+SCT33,Stirling
+SCT34,West Dunbartonshire
+SCT35,West Lothian
+WAL01,Blaenau Gwent
+WAL02,Bridgend
+WAL03,Caerphilly
+WAL04,Cardiff
+WAL05,Carmarthenshire
+WAL06,Ceredigion
+WAL07,Conwy
+WAL08,Denbighshire
+WAL09,Flintshire
+WAL10,Gwynedd
+WAL11,Isle of Anglesey
+WAL12,Merthyr Tydfil
+WAL13,Monmouthshire
+WAL14,Neath Port Talbot
+WAL15,Newport
+WAL16,Pembrokeshire
+WAL17,Powys
+WAL18,Rhondda Cynon Taf
+WAL19,Swansea
+WAL20,Torfaen
+WAL21,Vale of Glamorgan
+WAL22,Wrexham
+NIR01,Antrim
+NIR02,Ards
+NIR03,Armagh
+NIR04,Ballymena
+NIR05,Ballymoney
+NIR06,Banbridge
+NIR07,Belfast
+NIR08,Carrickfergus
+NIR09,Castlereagh
+NIR10,Coleraine
+NIR11,Cookstown
+NIR12,Craigavon
+NIR13,Derry
+NIR14,Down
+NIR15,Dungannon
+NIR16,Fermanagh
+NIR17,Larne
+NIR18,Limavady
+NIR19,Lisburn
+NIR20,Magherafelt
+NIR21,Moyle
+NIR22,Newry and Mourne
+NIR23,Newtownabbey
+NIR24,North Down
+NIR25,Omagh
+NIR26,Strabane

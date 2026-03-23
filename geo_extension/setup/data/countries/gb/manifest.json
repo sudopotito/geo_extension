@@ -1,0 +1,20 @@
+{
+  "country_code": "gb",
+  "author": "CLU Assistant <clu@sudopotito.com>",
+  "version": "1.0.0",
+  "description": "United Kingdom Counties and Major Cities - England, Scotland, Wales, Northern Ireland",
+  "source": "https://www.ons.gov.uk",
+  "levels": [
+    {
+      "file": "level1.csv",
+      "label": "County/Region",
+      "target_field": "county"
+    },
+    {
+      "file": "level2.csv",
+      "label": "City/Town",
+      "target_field": "city",
+      "parent_level": 1
+    }
+  ]
+}

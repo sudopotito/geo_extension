@@ -1,0 +1,78 @@
+parent_code,code,name
+ID11,ID1101,Banda Aceh
+ID12,ID1201,Medan
+ID12,ID1202,Pematangsiantar
+ID12,ID1203,Binjai
+ID13,ID1301,Padang
+ID13,ID1302,Bukittinggi
+ID14,ID1401,Pekanbaru
+ID14,ID1402,Dumai
+ID15,ID1501,Jambi
+ID16,ID1601,Palembang
+ID16,ID1602,Prabumulih
+ID17,ID1701,Bengkulu
+ID18,ID1801,Bandar Lampung
+ID18,ID1802,Metro
+ID19,ID1901,Pangkal Pinang
+ID21,ID2101,Tanjung Pinang
+ID21,ID2102,Batam
+ID31,ID3101,Central Jakarta
+ID31,ID3102,North Jakarta
+ID31,ID3103,South Jakarta
+ID31,ID3104,East Jakarta
+ID31,ID3105,West Jakarta
+ID32,ID3201,Bandung
+ID32,ID3202,Bekasi
+ID32,ID3203,Depok
+ID32,ID3204,Cimahi
+ID32,ID3205,Tasikmalaya
+ID32,ID3206,Bogor
+ID32,ID3207,Sukabumi
+ID32,ID3208,Cirebon
+ID33,ID3301,Semarang
+ID33,ID3302,Surakarta
+ID33,ID3303,Pekalongan
+ID33,ID3304,Tegal
+ID33,ID3305,Salatiga
+ID33,ID3306,Magelang
+ID34,ID3401,Yogyakarta
+ID35,ID3501,Surabaya
+ID35,ID3502,Malang
+ID35,ID3503,Mojokerto
+ID35,ID3504,Madiun
+ID35,ID3505,Kediri
+ID35,ID3506,Blitar
+ID35,ID3507,Pasuruan
+ID35,ID3508,Probolinggo
+ID35,ID3509,Batu
+ID36,ID3601,Serang
+ID36,ID3602,Tangerang
+ID36,ID3603,Cilegon
+ID36,ID3604,Tangerang Selatan
+ID51,ID5101,Denpasar
+ID52,ID5201,Mataram
+ID52,ID5202,Bima
+ID53,ID5301,Kupang
+ID61,ID6101,Pontianak
+ID61,ID6102,Singkawang
+ID62,ID6201,Palangka Raya
+ID63,ID6301,Banjarmasin
+ID63,ID6302,Banjarmasin Barat
+ID64,ID6401,Samarinda
+ID64,ID6402,Balikpapan
+ID64,ID6403,Bontang
+ID65,ID6501,Tanjung Selor
+ID71,ID7101,Manado
+ID71,ID7102,Bitung
+ID71,ID7103,Tomohon
+ID72,ID7201,Palu
+ID73,ID7301,Makassar
+ID73,ID7302,Parepare
+ID74,ID7401,Kendari
+ID75,ID7501,Gorontalo
+ID76,ID7601,Mamuju
+ID81,ID8101,Ambon
+ID82,ID8201,Ternate
+ID82,ID8202,Tidore Kepulauan
+ID91,ID9101,Sorong
+ID94,ID9401,Jayapura

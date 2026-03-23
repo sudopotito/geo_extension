@@ -1,0 +1,14 @@
+{
+  "country_code": "sg",
+  "author": "CLU Assistant <clu@sudopotito.com>",
+  "version": "1.0.0",
+  "description": "Singapore Planning Areas and Major Districts",
+  "source": "https://www.ura.gov.sg",
+  "levels": [
+    {
+      "file": "level1.csv",
+      "label": "Planning Area",
+      "target_field": "city"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+parent_code,code,name
+AL,AL001,Birmingham
+AL,AL002,Montgomery
+AL,AL003,Mobile
+AL,AL004,Huntsville
+AK,AK001,Anchorage
+AK,AK002,Fairbanks
+AK,AK003,Juneau
+AZ,AZ001,Phoenix
+AZ,AZ002,Tucson
+AZ,AZ003,Mesa
+AZ,AZ004,Chandler
+AZ,AZ005,Scottsdale
+AR,AR001,Little Rock
+AR,AR002,Fort Smith
+AR,AR003,Fayetteville
+CA,CA001,Los Angeles
+CA,CA002,San Diego
+CA,CA003,San Jose
+CA,CA004,San Francisco
+CA,CA005,Fresno
+CA,CA006,Sacramento
+CA,CA007,Long Beach
+CA,CA008,Oakland
+CO,CO001,Denver
+CO,CO002,Colorado Springs
+CO,CO003,Aurora
+CT,CT001,Bridgeport
+CT,CT002,New Haven
+CT,CT003,Hartford
+CT,CT004,Stamford
+DE,DE001,Wilmington
+DE,DE002,Dover
+FL,FL001,Jacksonville
+FL,FL002,Miami
+FL,FL003,Tampa
+FL,FL004,Orlando
+FL,FL005,St. Petersburg
+GA,GA001,Atlanta
+GA,GA002,Augusta
+GA,GA003,Columbus
+GA,GA004,Savannah
+HI,HI001,Honolulu
+HI,HI002,Hilo
+ID,ID001,Boise
+ID,ID002,Idaho Falls
+IL,IL001,Chicago
+IL,IL002,Aurora
+IL,IL003,Rockford
+IL,IL004,Joliet
+IN,IN001,Indianapolis
+IN,IN002,Fort Wayne
+IN,IN003,Evansville
+IA,IA001,Des Moines
+IA,IA002,Cedar Rapids
+IA,IA003,Davenport
+KS,KS001,Wichita
+KS,KS002,Overland Park
+KS,KS003,Kansas City
+KY,KY001,Louisville
+KY,KY002,Lexington
+KY,KY003,Bowling Green
+LA,LA001,New Orleans
+LA,LA002,Baton Rouge
+LA,LA003,Shreveport
+ME,ME001,Portland
+ME,ME002,Lewiston
+MD,MD001,Baltimore
+MD,MD002,Rockville
+MD,MD003,Gaithersburg
+MA,MA001,Boston
+MA,MA002,Worcester
+MA,MA003,Springfield
+MI,MI001,Detroit
+MI,MI002,Grand Rapids
+MI,MI003,Warren
+MN,MN001,Minneapolis
+MN,MN002,Saint Paul
+MN,MN003,Rochester
+MS,MS001,Jackson
+MS,MS002,Gulfport
+MS,MS003,Hattiesburg
+MO,MO001,Kansas City
+MO,MO002,Saint Louis
+MO,MO003,Springfield
+MT,MT001,Billings
+MT,MT002,Missoula
+MT,MT003,Great Falls
+NE,NE001,Omaha
+NE,NE002,Lincoln
+NE,NE003,Bellevue
+NV,NV001,Las Vegas
+NV,NV002,Henderson
+NV,NV003,Reno
+NH,NH001,Manchester
+NH,NH002,Nashua
+NH,NH003,Concord
+NJ,NJ001,Newark
+NJ,NJ002,Jersey City
+NJ,NJ003,Paterson
+NM,NM001,Albuquerque
+NM,NM002,Las Cruces
+NM,NM003,Rio Rancho
+NY,NY001,New York City
+NY,NY002,Buffalo
+NY,NY003,Rochester
+NY,NY004,Yonkers
+NC,NC001,Charlotte
+NC,NC002,Raleigh
+NC,NC003,Greensboro
+ND,ND001,Fargo
+ND,ND002,Bismarck
+ND,ND003,Grand Forks
+OH,OH001,Columbus
+OH,OH002,Cleveland
+OH,OH003,Cincinnati
+OH,OH004,Toledo
+OK,OK001,Oklahoma City
+OK,OK002,Tulsa
+OK,OK003,Norman
+OR,OR001,Portland
+OR,OR002,Salem
+OR,OR003,Eugene
+PA,PA001,Philadelphia
+PA,PA002,Pittsburgh
+PA,PA003,Allentown
+RI,RI001,Providence
+RI,RI002,Warwick
+RI,RI003,Cranston
+SC,SC001,Columbia
+SC,SC002,Charleston
+SC,SC003,North Charleston
+SD,SD001,Sioux Falls
+SD,SD002,Rapid City
+SD,SD003,Aberdeen
+TN,TN001,Memphis
+TN,TN002,Nashville
+TN,TN003,Knoxville
+TX,TX001,Houston
+TX,TX002,San Antonio
+TX,TX003,Dallas
+TX,TX004,Austin
+TX,TX005,Fort Worth
+UT,UT001,Salt Lake City
+UT,UT002,West Valley City
+UT,UT003,Provo
+VT,VT001,Burlington
+VT,VT002,Rutland
+VA,VA001,Virginia Beach
+VA,VA002,Norfolk
+VA,VA003,Chesapeake
+VA,VA004,Richmond
+WA,WA001,Seattle
+WA,WA002,Spokane
+WA,WA003,Tacoma
+WA,WA004,Vancouver
+WV,WV001,Charleston
+WV,WV002,Huntington
+WV,WV003,Morgantown
+WI,WI001,Milwaukee
+WI,WI002,Madison
+WI,WI003,Green Bay
+WY,WY001,Cheyenne
+WY,WY002,Casper
+WY,WY003,Laramie
+DC,DC001,Washington
