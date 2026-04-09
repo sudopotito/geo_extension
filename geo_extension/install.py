@@ -29,16 +29,16 @@ def setup_country_field_position():
 	"""
 	meta = frappe.get_meta(ADDRESS)
 	current_order = [df.fieldname for df in meta.fields if df.fieldname]
-	
+
 	# Target order: address_type -> country -> address_line1 -> address_line2 -> [dynamic] -> pincode
 	if "address_type" in current_order and "country" in current_order:
 		# Remove country from current position
 		order = [f for f in current_order if f != "country"]
-		
+
 		# Find address_type position and insert country after it
 		idx = order.index("address_type")
 		order.insert(idx + 1, "country")
-		
+
 		if order != current_order:
 			_set_doctype_field_order(ADDRESS, order)
 

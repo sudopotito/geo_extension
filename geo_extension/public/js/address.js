@@ -8,7 +8,7 @@ const DEFAULT_LEVEL_ORDER = ["city", "county", "state"];
 
 /**
  * Geo Extension - Address Enhancement
- * 
+ *
  * Behavior:
  * - Country field always appears immediately after address_type (via install.py)
  * - When country is selected with manifest support:
@@ -51,9 +51,10 @@ frappe.ui.form.on("Address", {
 
 		let levels = [];
 		try {
-			levels = (await call("geo_extension.geo_extension.locations.get_levels", {
-				country: frm.doc.country,
-			})) || [];
+			levels =
+				(await call("geo_extension.geo_extension.locations.get_levels", {
+					country: frm.doc.country,
+				})) || [];
 		} catch {
 			levels = [];
 		}
@@ -74,8 +75,10 @@ frappe.ui.form.on("Address", {
 		frm._geo.map = {};
 
 		// Get the desired field order from manifest
-		const levelFieldOrder = levels.map(l => l.target_field).filter(f => LEVEL_FIELDS.includes(f));
-		
+		const levelFieldOrder = levels
+			.map((l) => l.target_field)
+			.filter((f) => LEVEL_FIELDS.includes(f));
+
 		// Add any missing fields at the end
 		for (const f of LEVEL_FIELDS) {
 			if (!levelFieldOrder.includes(f)) levelFieldOrder.push(f);
@@ -129,13 +132,13 @@ function arrange_level_fields(frm, desiredOrder) {
 
 	// Apply flexbox ordering
 	// We use CSS order property: lower values appear first
-	container.css('display', 'flex');
-	container.css('flex-direction', 'column');
+	container.css("display", "flex");
+	container.css("flex-direction", "column");
 
 	desiredOrder.forEach((fieldname, index) => {
 		const $wrapper = levelWrappers[fieldname];
 		if ($wrapper && $wrapper.length) {
-			$wrapper.css('order', index);
+			$wrapper.css("order", index);
 		}
 	});
 }
@@ -146,7 +149,7 @@ function arrange_level_fields(frm, desiredOrder) {
 function update_field_labels(frm, levels) {
 	// Reset all to defaults first
 	reset_field_labels(frm);
-	
+
 	// Then update based on manifest
 	for (const level of levels) {
 		const field = frm.fields_dict[level.target_field];
@@ -158,7 +161,7 @@ function update_field_labels(frm, levels) {
 			if (!frm._geo.original_labels[level.target_field]) {
 				frm._geo.original_labels[level.target_field] = field.df.label;
 			}
-			
+
 			// Update label to show country-specific term
 			field.df.label = level.label;
 			frm.refresh_field(level.target_field);
@@ -173,9 +176,9 @@ function reset_field_labels(frm) {
 	const defaultLabels = {
 		state: "State/Province",
 		city: "City/Town",
-		county: "County"
+		county: "County",
 	};
-	
+
 	for (const [fieldname, defaultLabel] of Object.entries(defaultLabels)) {
 		const field = frm.fields_dict[fieldname];
 		if (field && field.df) {
@@ -205,7 +208,8 @@ async function setup_geo_for_existing_doc(frm) {
 
 	let levels = [];
 	try {
-		levels = (await call("geo_extension.geo_extension.locations.get_levels", { country })) || [];
+		levels =
+			(await call("geo_extension.geo_extension.locations.get_levels", { country })) || [];
 	} catch {
 		levels = [];
 	}
@@ -225,7 +229,9 @@ async function setup_geo_for_existing_doc(frm) {
 	frm._geo.map = {};
 
 	// Get field order from manifest
-	const levelFieldOrder = levels.map(l => l.target_field).filter(f => LEVEL_FIELDS.includes(f));
+	const levelFieldOrder = levels
+		.map((l) => l.target_field)
+		.filter((f) => LEVEL_FIELDS.includes(f));
 	for (const f of LEVEL_FIELDS) {
 		if (!levelFieldOrder.includes(f)) levelFieldOrder.push(f);
 	}
@@ -348,6 +354,11 @@ function lookup_code(frm, fieldname, label) {
 
 function call(method, args) {
 	return new Promise((resolve, reject) => {
-		frappe.call({ method, args, callback: (r) => resolve(r.message || []), error: (e) => reject(e) });
+		frappe.call({
+			method,
+			args,
+			callback: (r) => resolve(r.message || []),
+			error: (e) => reject(e),
+		});
 	});
 }
