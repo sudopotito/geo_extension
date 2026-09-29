@@ -114,6 +114,23 @@ function dataset_responses() {
 		],
 		"3:C2": [{ value: "D3", label: "Centre" }],
 	};
+	// like the server: `parent` may be the direct parent or any ancestor
+	const level_of = (code) => {
+		for (const key of Object.keys(options)) {
+			if ((options[key] || []).some((o) => o.value === code))
+				return Number(key.split(":")[0]);
+		}
+		return 0;
+	};
+	const options_under = (level, parent) => {
+		if (level === 1) return options["1:"] || [];
+		if (!parent) return [];
+		let rows = [{ value: parent }];
+		for (let lvl = level_of(parent) + 1; lvl <= level; lvl++) {
+			rows = rows.flatMap((u) => options[`${lvl}:${u.value}`] || []);
+		}
+		return rows;
+	};
 	const postal = {
 		"2:C1": ["1000"],
 		"3:D1": ["1000"],
@@ -123,23 +140,23 @@ function dataset_responses() {
 	return {
 		"geo_extension.api.get_hierarchy": ({ country }) =>
 			country === "Testland" ? hierarchy : { supported: false, levels: [] },
-		"geo_extension.api.get_options": ({ level, parent }) =>
-			options[`${level}:${parent || ""}`] || [],
+		"geo_extension.api.get_options": ({ level, parent }) => options_under(level, parent),
 		"geo_extension.api.get_postal_codes": ({ level, code }) => ({
 			codes: postal[`${level}:${code}`] || [],
 			level,
 		}),
-		"geo_extension.api.resolve": ({ names }) => {
+		"geo_extension.api.resolve": ({ names, levels }) => {
 			const list = JSON.parse(names);
+			const lvls = levels ? JSON.parse(levels) : list.map((_, i) => i + 1);
 			const chain = [];
 			let parent = "";
 			for (let i = 0; i < list.length; i++) {
 				if (!list[i]) break;
-				const hit = (options[`${i + 1}:${parent}`] || []).find(
+				const hit = options_under(lvls[i], parent).find(
 					(o) => o.label.toLowerCase() === list[i].toLowerCase()
 				);
 				if (!hit) break;
-				chain.push({ level: i + 1, value: hit.value, label: hit.label });
+				chain.push({ level: lvls[i], value: hit.value, label: hit.label });
 				parent = hit.value;
 			}
 			return chain;

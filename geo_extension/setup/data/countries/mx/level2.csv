@@ -189,7 +189,6 @@ parent_code,code,name,aliases
 3514780,8583725,Ixhuatlán del Café,
 3514780,8583727,Ixhuatlán del Sureste,
 3514780,8583726,Ixhuatlancillo,
-3514780,8583729,Ixmatlahuacan,
 3514780,8583730,Ixtaczoquitlán,
 3514780,8583731,Jalacingo,
 3514780,8583733,Jalcomulco,
@@ -221,6 +220,12 @@ parent_code,code,name,aliases
 3514780,8583754,Misantla,
 3514780,8583755,Mixtla de Altamirano,
 3514780,8583756,Moloacán,
+3514780,8583729,Municipio de Ixmatlahuacan,Ixmatlahuacan
+3514780,8583785,Municipio de Saltabarranca,Saltabarranca
+3514780,8583858,Municipio de Santiago Sochiapan,Santiago Sochiapan
+3514780,8583829,Municipio de Tlapacoyan,Tlapacoyan
+3514780,8583853,Municipio de Tres Valles,Tres Valles
+3514780,8583836,Municipio de Tuxtilla,Tuxtilla
 3514780,8583852,Nanchital de Lázaro Cárdenas del Río,
 3514780,8583757,Naolinco,
 3514780,8583758,Naranjal,
@@ -247,12 +252,10 @@ parent_code,code,name,aliases
 3514780,8583781,Rafael Delgado,
 3514780,8583782,Rafael Lucio,
 3514780,8583784,Río Blanco,
-3514780,8583785,Saltabarranca,
 3514780,8583786,San Andrés Tenejapan,
 3514780,8583787,San Andrés Tuxtla,
 3514780,8583788,San Juan Evangelista,
 3514780,8583857,San Rafael,
-3514780,8583858,Santiago Sochiapan,
 3514780,8583789,Santiago Tuxtla,
 3514780,8583790,Sayula de Alemán,
 3514780,8583792,Sochiapa,
@@ -292,15 +295,12 @@ parent_code,code,name,aliases
 3514780,8583827,Tlalixcoyan,
 3514780,8583828,Tlalnelhuayocan,
 3514780,8583573,Tlaltetela,
-3514780,8583829,Tlapacoyan,
 3514780,8583830,Tlaquilpa,
 3514780,8583831,Tlilapan,
 3514780,8583832,Tomatlán,
 3514780,8583833,Tonayán,
 3514780,8583834,Totutla,
-3514780,8583853,Tres Valles,
 3514780,8583835,Tuxpan,
-3514780,8583836,Tuxtilla,
 3514780,8583837,Ursulo Galván,
 3514780,8583856,Uxpanapa,
 3514780,8583838,Vega de Alatorre,
@@ -445,7 +445,7 @@ parent_code,code,name,aliases
 3520887,8583284,José María Morelos,
 3520887,8583285,Lázaro Cárdenas,
 3520887,8583283,Othón P. Blanco,
-3520887,11789146,Puerto Morelos,
+3520887,11789146,Puerto Morelos,Municipio de Puerto Morelos
 3520887,8583286,Solidaridad,
 3520887,8583287,Tulum,
 3520914,8583262,Amealco de Bonfil,
@@ -478,7 +478,6 @@ parent_code,code,name,aliases
 3521082,8583056,Ajalpan,
 3521082,8583057,Albino Zertuche,
 3521082,8583058,Aljojuca,
-3521082,8583059,Altepexi,
 3521082,8583060,Amixtlán,
 3521082,8583061,Amozoc,
 3521082,8583062,Aquixtla,
@@ -567,6 +566,7 @@ parent_code,code,name,aliases
 3521082,8583140,Mazapiltepec de Juárez,
 3521082,8583141,Mixtla,
 3521082,8583142,Molcaxac,
+3521082,8583059,Municipio de Altepexi,Altepexi
 3521082,8583144,Naupan,
 3521082,8583145,Nauzontla,
 3521082,8583146,Nealtican,
@@ -581,7 +581,7 @@ parent_code,code,name,aliases
 3521082,8583156,Pantepec,
 3521082,8583157,Petlalcingo,
 3521082,8583158,Piaxtla,
-3521082,8583159,Puebla,
+3521082,8583159,Puebla de Zaragoza,Puebla
 3521082,8583160,Quecholac,
 3521082,8583161,Quimixtlán,
 3521082,8583162,Rafael Lara Grajales,
@@ -619,7 +619,7 @@ parent_code,code,name,aliases
 3521082,8583197,Santo Tomás Hueyotlipan,
 3521082,8583198,Soltepec,
 3521082,8583199,Tecali de Herrera,
-3521082,8583200,Tecamachalco,
+3521082,8583200,Tecamachalco puebla,Tecamachalco
 3521082,8583201,Tecomatlán,
 3521082,8583202,Tehuacán,
 3521082,8583203,Tehuitzingo,
@@ -692,7 +692,6 @@ parent_code,code,name,aliases
 3522509,8582477,Asunción Nochixtlán,
 3522509,8582478,Asunción Ocotlán,
 3522509,8582479,Asunción Tlacolulita,
-3522509,8582873,Ayoquezco de Aldama,
 3522509,8582480,Ayotzintepec,
 3522509,8582482,Calihualá,
 3522509,8582483,Candelaria Loxicha,
@@ -751,6 +750,24 @@ parent_code,code,name,aliases
 3522509,8582530,Miahuatlán de Porfirio Díaz,
 3522509,8582531,Mixistlán de la Reforma,
 3522509,8582532,Monjas,
+3522509,8582873,Municipio de Ayoquezco de Aldama,Ayoquezco de Aldama
+3522509,8582745,Municipio de San Miguel Mixtepec,San Miguel Mixtepec
+3522509,8582748,Municipio de San Miguel Piedras,San Miguel Piedras
+3522509,8582749,Municipio de San Miguel Quetzaltepec,San Miguel Quetzaltepec
+3522509,8582760,Municipio de San Miguel Tlacotepec,San Miguel Tlacotepec
+3522509,8582767,Municipio de San Pablo Etla,San Pablo Etla
+3522509,8582769,Municipio de San Pablo Huixtepec,San Pablo Huixtepec
+3522509,8582787,Municipio de San Pedro Jocotipac,San Pedro Jocotipac
+3522509,8582796,Municipio de San Pedro Ocopetatillo,San Pedro Ocopetatillo
+3522509,8582806,Municipio de San Pedro Topiltepec,San Pedro Topiltepec
+3522509,8582933,Municipio de Santiago Comaltepec,Santiago Comaltepec
+3522509,8582940,Municipio de Santiago Ixcuintepec,Santiago Ixcuintepec
+3522509,8582962,Municipio de Santiago Tenango,Santiago Tenango
+3522509,8582968,Municipio de Santiago Tillo,Santiago Tillo
+3522509,8582973,Municipio de Santiago Yaveo,Santiago Yaveo
+3522509,8582992,Municipio de Santo Domingo Tepuxtepec,Santo Domingo Tepuxtepec
+3522509,8582999,Municipio de Santo Domingo Yodohino,Santo Domingo Yodohino
+3522509,8583031,Municipio de Trinidad Zaáchila,Trinidad Zaachila
 3522509,8582533,Natividad,
 3522509,8582534,Nazareno Etla,
 3522509,8582535,Nejapa de Madero,
@@ -957,11 +974,8 @@ parent_code,code,name,aliases
 3522509,8582742,San Miguel Ejutla,
 3522509,8582743,San Miguel el Grande,
 3522509,8582744,San Miguel Huautla,
-3522509,8582745,San Miguel Mixtepec,
 3522509,8582746,San Miguel Panixtlahuaca,
 3522509,8582747,San Miguel Peras,
-3522509,8582748,San Miguel Piedras,
-3522509,8582749,San Miguel Quetzaltepec,
 3522509,8582750,San Miguel Santa Flor,
 3522509,8582752,San Miguel Soyaltepec,
 3522509,8582753,San Miguel Suchixtepec,
@@ -970,16 +984,13 @@ parent_code,code,name,aliases
 3522509,8582757,San Miguel Tequixtepec,
 3522509,8582758,San Miguel Tilquiápam,
 3522509,8582759,San Miguel Tlacamama,
-3522509,8582760,San Miguel Tlacotepec,
 3522509,8582761,San Miguel Tulancingo,
 3522509,8582762,San Miguel Yotao,
 3522509,8582763,San Nicolás,
 3522509,8582764,San Nicolás Hidalgo,
 3522509,8582765,San Pablo Coatlán,
 3522509,8582766,San Pablo Cuatro Venados,
-3522509,8582767,San Pablo Etla,
 3522509,8582768,San Pablo Huitzo,
-3522509,8582769,San Pablo Huixtepec,
 3522509,8582770,San Pablo Macuiltianguis,
 3522509,8582771,San Pablo Tijaltepec,
 3522509,8582772,San Pablo Villa de Mitla,
@@ -997,7 +1008,6 @@ parent_code,code,name,aliases
 3522509,8582784,San Pedro Ixtlahuaca,
 3522509,8582785,San Pedro Jaltepetongo,
 3522509,8582786,San Pedro Jicayán,
-3522509,8582787,San Pedro Jocotipac,
 3522509,8582788,San Pedro Juchatengo,
 3522509,8582789,San Pedro Mártir,
 3522509,8582790,San Pedro Mártir Quiechapa,
@@ -1006,7 +1016,6 @@ parent_code,code,name,aliases
 3522509,8582793,San Pedro Mixtepec -Dto. 26 -,
 3522509,8582794,San Pedro Molinos,
 3522509,8582795,San Pedro Nopala,
-3522509,8582796,San Pedro Ocopetatillo,
 3522509,8582797,San Pedro Ocotepec,
 3522509,8582798,San Pedro Pochutla,
 3522509,8582799,San Pedro Quiatoni,
@@ -1016,7 +1025,6 @@ parent_code,code,name,aliases
 3522509,8582803,San Pedro Teozacoalco,
 3522509,8582804,San Pedro Teutila,
 3522509,8582805,San Pedro Tidaá,
-3522509,8582806,San Pedro Topiltepec,
 3522509,8582807,San Pedro Totolápam,
 3522509,8582811,San Pedro y San Pablo Ayutla,
 3522509,8582813,San Pedro y San Pablo Teposcolula,
@@ -1145,12 +1153,10 @@ parent_code,code,name,aliases
 3522509,8582932,Santiago Camotlán,
 3522509,8582934,Santiago Chazumba,
 3522509,8582935,Santiago Choápam,
-3522509,8582933,Santiago Comaltepec,
 3522509,8582936,Santiago del Río,
 3522509,8582937,Santiago Huajolotitlán,
 3522509,8582938,Santiago Huauclilla,
 3522509,8582939,Santiago Ihuitlán Plumas,
-3522509,8582940,Santiago Ixcuintepec,
 3522509,8582941,Santiago Ixtayutla,
 3522509,8582942,Santiago Jamiltepec,
 3522509,8582943,Santiago Jocotepec,
@@ -1172,18 +1178,15 @@ parent_code,code,name,aliases
 3522509,8582958,Santiago Suchilquitongo,
 3522509,8582959,Santiago Tamazola,
 3522509,8582960,Santiago Tapextla,
-3522509,8582962,Santiago Tenango,
 3522509,8582963,Santiago Tepetlapa,
 3522509,8582964,Santiago Tetepec,
 3522509,8582965,Santiago Texcalcingo,
 3522509,8582966,Santiago Textitlán,
 3522509,8582967,Santiago Tilantongo,
-3522509,8582968,Santiago Tillo,
 3522509,8582969,Santiago Tlazoyaltepec,
 3522509,8582970,Santiago Xanica,
 3522509,8582971,Santiago Xiacuí,
 3522509,8582972,Santiago Yaitepec,
-3522509,8582973,Santiago Yaveo,
 3522509,8582974,Santiago Yolomécatl,
 3522509,8582975,Santiago Yosondúa,
 3522509,8582976,Santiago Yucuyachi,
@@ -1201,14 +1204,12 @@ parent_code,code,name,aliases
 3522509,8582989,Santo Domingo Roayaga,
 3522509,8582990,Santo Domingo Tehuantepec,
 3522509,8582991,Santo Domingo Teojomulco,
-3522509,8582992,Santo Domingo Tepuxtepec,
 3522509,8582993,Santo Domingo Tlatayápam,
 3522509,8582994,Santo Domingo Tomaltepec,
 3522509,8582995,Santo Domingo Tonalá,
 3522509,8582996,Santo Domingo Tonaltepec,
 3522509,8582997,Santo Domingo Xagacía,
 3522509,8582998,Santo Domingo Yanhuitlán,
-3522509,8582999,Santo Domingo Yodohino,
 3522509,8583000,Santo Domingo Zanatepec,
 3522509,8583005,Santo Tomás Jalieza,
 3522509,8583006,Santo Tomás Mazaltepec,
@@ -1234,7 +1235,6 @@ parent_code,code,name,aliases
 3522509,8583028,Tlacotepec Plumas,
 3522509,8583029,Tlalixtac de Cabrera,
 3522509,8583030,Totontepec Villa de Morelos,
-3522509,8583031,Trinidad Zaachila,
 3522509,8583033,Unión Hidalgo,
 3522509,8583034,Valerio Trujano,
 3522509,8582880,Villa de Chilapa de Díaz,
@@ -1257,13 +1257,13 @@ parent_code,code,name,aliases
 3522542,8582423,Agualeguas,
 3522542,8582425,Allende,
 3522542,8582426,Anáhuac,
-3522542,8582427,Apodaca,
 3522542,8582428,Aramberri,
 3522542,8582429,Bustamante,
 3522542,8582430,Cadereyta Jiménez,
 3522542,8582432,Cerralvo,
 3522542,8582434,China,
 3522542,8582433,Ciénega de Flores,
+3522542,8582427,Ciudad Apodaca,Apodaca
 3522542,8582435,Doctor Arroyo,
 3522542,8582436,Doctor Coss,
 3522542,8582437,Doctor González,
@@ -1308,7 +1308,7 @@ parent_code,code,name,aliases
 3522961,8582371,Atlatlahucan,
 3522961,8582372,Axochiapan,
 3522961,8582373,Ayala,
-3522961,12514812,Coatetelco,
+3522961,12514812,Coatetelco,Municipio de Coatetelco
 3522961,8582374,Coatlán del Río,
 3522961,8582375,Cuautla,
 3522961,8582376,Cuernavaca,
@@ -1320,7 +1320,7 @@ parent_code,code,name,aliases
 3522961,8582382,Jonacatepec,
 3522961,8582383,Mazatepec,
 3522961,8582384,Miacatlán,
-3522961,12514813,Municipio de Hueyapan,
+3522961,12514813,Municipio de Hueyapan,Hueyapan
 3522961,8582385,Ocuituco,
 3522961,6951543,Puente de Ixtla,
 3522961,8582386,Temixco,
@@ -1335,7 +1335,7 @@ parent_code,code,name,aliases
 3522961,8582394,Tlayacapan,
 3522961,8582395,Totolapan,
 3522961,8582396,Xochitepec,
-3522961,12514814,Xoxocotla,
+3522961,12514814,Xoxocotla,Municipio de Xoxocotla
 3522961,8582397,Yautepec,
 3522961,8582398,Yecapixtla,
 3522961,8582399,Zacatepec,
@@ -1344,7 +1344,6 @@ parent_code,code,name,aliases
 3523272,8379113,Acolman de Nezahualcóyotl,
 3523272,8583659,Aculco,
 3523272,8583660,Almoloya de Alquisiras,
-3523272,8583661,Almoloya de Juárez,
 3523272,8583662,Almoloya del Río,
 3523272,8583663,Amanalco,
 3523272,8583664,Amatepec,
@@ -1366,8 +1365,9 @@ parent_code,code,name,aliases
 3523272,8379364,Chicoloapan,
 3523272,8379365,Chiconcuac,
 3523272,8379366,Chimalhuacán,
+3523272,8379485,Ciudad de Tlalnepantla,Tlalnepantla de Baz
 3523272,8379463,Ciudad Nezahualcóyotl,
-3523272,8379367,Coacalco,
+3523272,8379367,Coacalco de Berriozábal,Coacalco
 3523272,8583669,Coatepec Harinas,
 3523272,8379368,Cocotitlán,
 3523272,8379370,Coyotepec,
@@ -1375,11 +1375,11 @@ parent_code,code,name,aliases
 3523272,8379380,Cuautitlán Izcalli,
 3523272,8583672,Donato Guerra,
 3523272,8133398,Ecatepec de Morelos,
-3523272,8379375,Ecatzingo,
+3523272,8379375,Ecatzingo de Hidalgo,Ecatzingo
 3523272,8582225,El Oro,
 3523272,8379377,Huehuetoca,
 3523272,8379378,Hueypoxtla,
-3523272,8379379,Huixquilucan,
+3523272,8379379,Huixquilucan de Degollado,Huixquilucan
 3523272,8583673,Isidro Fabela,
 3523272,8379381,Ixtapaluca,
 3523272,8583674,Ixtapan de la Sal,
@@ -1400,10 +1400,12 @@ parent_code,code,name,aliases
 3523272,8583685,Metepec,
 3523272,8583686,Mexicaltzingo,
 3523272,8582222,Morelos,
+3523272,8583661,Municipio de Almoloya de Juárez,Almoloya de Juárez
+3523272,8379470,Municipio de Tecámac,Tecámac
+3523272,8379484,municipio de Tezoyuca,Tezoyuca
 3523272,7828734,Naucalpan de Juárez,
 3523272,8379462,Nextlalpan,
 3523272,8379464,Nicolás Romero,
-3523272,8379465,Nopaltepec,
 3523272,8582223,Ocoyoacac,
 3523272,8582224,Ocuilan,
 3523272,8379466,Otumba,
@@ -1419,10 +1421,10 @@ parent_code,code,name,aliases
 3523272,8379469,San Martín de las Pirámides,
 3523272,8582232,San Mateo Atenco,
 3523272,8582233,San Simón de Guerrero,
+3523272,8379465,Santa María de Nopaltepec,Nopaltepec
 3523272,8582234,Santo Tomás,
 3523272,8582235,Soyaniquilpan de Juárez,
 3523272,8582236,Sultepec,
-3523272,8379470,Tecámac,
 3523272,8582237,Tejupilco,
 3523272,8379471,Temamatla,
 3523272,8379472,Temascalapa,
@@ -1441,17 +1443,15 @@ parent_code,code,name,aliases
 3523272,8582243,Texcaltitlán,
 3523272,8582244,Texcalyacac,
 3523272,8379483,Texcoco,
-3523272,8379484,Tezoyuca,
 3523272,8582245,Tianguistenco,
 3523272,8582246,Timilpan,
 3523272,8582247,Tlalmanalco,
-3523272,8379485,Tlalnepantla de Baz,
 3523272,8582248,Tlatlaya,
-3523272,8583687,Toluca,
+3523272,8583687,Toluca de Lerdo,Toluca
 3523272,8582257,Tonanitla,
 3523272,8583688,Tonatico,
 3523272,8379486,Tultepec,
-3523272,8379488,Tultitlán,
+3523272,8379488,Tultitlán de Mariano Escobedo,Tultitlán
 3523272,8583689,Valle de Bravo,
 3523272,8379489,Valle de Chalco Solidaridad,
 3523272,8583690,Villa de Allende,
@@ -1468,86 +1468,86 @@ parent_code,code,name,aliases
 3527115,8582021,Acatlán,
 3527115,8582022,Acaxochitlán,
 3527115,8582023,Actopan,
-3527115,8582024,Agua Blanca de Iturbide,
-3527115,8582025,Ajacuba,
-3527115,8582026,Alfajayucan,
-3527115,8582027,Almoloya,
-3527115,8582028,Apan,
 3527115,8582030,Atitalaquia,
-3527115,8582031,Atlapexco,
-3527115,8582033,Atotonilco de Tula,
-3527115,8582032,Atotonilco el Grande,
-3527115,8582034,Calnali,
-3527115,8582035,Cardonal,
-3527115,8582037,Chapantongo,
 3527115,8582038,Chapulhuacán,
-3527115,8582039,Chilcuautla,
 3527115,8582036,Cuautepec de Hinojosa,
-3527115,8582029,El Arenal,
 3527115,8582040,Eloxochitlán,
-3527115,8582041,Emiliano Zapata,
-3527115,8582042,Epazoyucan,
-3527115,8582043,Francisco I. Madero,
-3527115,8582044,Huasca de Ocampo,
 3527115,8582045,Huautla,
-3527115,8582046,Huazalingo,
 3527115,8582047,Huehuetla,
-3527115,8582048,Huejutla de Reyes,
-3527115,8582049,Huichapan,
-3527115,8582050,Ixmiquilpan,
 3527115,8582051,Jacala de Ledezma,
-3527115,8582052,Jaltocán,
 3527115,8582053,Juárez Hidalgo,
 3527115,8582060,La Misión,
-3527115,8582054,Lolotla,
 3527115,8582055,Metepec,
 3527115,8582057,Metztitlán,
-3527115,8582070,Mineral de la Reforma,
-3527115,8582058,Mineral del Chico,
-3527115,8582059,Mineral del Monte,
 3527115,8582061,Mixquiahuala de Juárez,
-3527115,8582062,Molango de Escamilla,
+3527115,8582024,Municipio de Agua Blanca de Iturbide,Agua Blanca de Iturbide
+3527115,8582025,Municipio de Ajacuba,Ajacuba
+3527115,8582026,Municipio de Alfajayucan,Alfajayucan
+3527115,8582027,Municipio de Almoloya,Almoloya
+3527115,8582028,Municipio de Apan,Apan
+3527115,8582031,Municipio de Atlapexco,Atlapexco
+3527115,8582033,Municipio de Atotonilco de Tula,Atotonilco de Tula
+3527115,8582032,Municipio de Atotonilco el Grande,Atotonilco el Grande
+3527115,8582034,Municipio de Calnali,Calnali
+3527115,8582035,Municipio de Cardonal,Cardonal
+3527115,8582037,Municipio de Chapantongo,Chapantongo
+3527115,8582039,Municipio de Chilcuautla,Chilcuautla
+3527115,8582029,Municipio de El Arenal,El Arenal
+3527115,8582041,Municipio de Emiliano Zapata,Emiliano Zapata
+3527115,8582042,Municipio de Epazoyucan,Epazoyucan
+3527115,8582043,Municipio de Francisco I. Madero,Francisco I. Madero
+3527115,8582044,Municipio de Huasca de Ocampo,Huasca de Ocampo
+3527115,8582046,Municipio de Huazalingo,Huazalingo
+3527115,8582048,Municipio de Huejutla de Reyes,Huejutla de Reyes
+3527115,8582049,Municipio de Huichapan,Huichapan
+3527115,8582050,Municipio de Ixmiquilpan,Ixmiquilpan
+3527115,8582052,Municipio de Jaltocán,Jaltocán
+3527115,8582054,Municipio de Lolotla,Lolotla
+3527115,8582070,Municipio de Mineral de la Reforma,Mineral de la Reforma
+3527115,8582058,Municipio de Mineral del Chico,Mineral del Chico
+3527115,8582059,Municipio de Mineral del Monte,Mineral del Monte
+3527115,8582062,Municipio de Molango de Escamilla,Molango de Escamilla
+3527115,8581962,Municipio de Pacula,Pacula
+3527115,8582068,Municipio de Pisaflores,Pisaflores
+3527115,8582072,Municipio de San Bartolo Tutotepec,San Bartolo Tutotepec
+3527115,8582073,Municipio de San Salvador,San Salvador
+3527115,8582074,Municipio de Santiago de Anaya,Santiago de Anaya
+3527115,8582076,Municipio de Singuilucan,Singuilucan
+3527115,8582077,Municipio de Tasquillo,Tasquillo
+3527115,8582079,Municipio de Tenango de Doria,Tenango de Doria
+3527115,8582080,Municipio de Tepeapulco,Tepeapulco
+3527115,8582084,Municipio de Tetepango,Tetepango
+3527115,8582086,Municipio de Tezontepec de Aldama,Tezontepec de Aldama
+3527115,8582087,Municipio de Tianguistengo,Tianguistengo
+3527115,8379477,Municipio de Tizayuca,Tizayuca
+3527115,8582089,Municipio de Tlahuiltepa,Tlahuiltepa
+3527115,8582091,Municipio de Tlanchinol,Tlanchinol
+3527115,8582092,Municipio de Tlaxcoapan,Tlaxcoapan
+3527115,8582093,Municipio de Tolcayuca,Tolcayuca
+3527115,8582096,Municipio de Xochiatipan,Xochiatipan
+3527115,8582101,Municipio de Zempoala,Zempoala
 3527115,8582063,Nicolás Flores,
 3527115,8582064,Nopala de Villagrán,
 3527115,8582065,Omitlán de Juárez,
 3527115,8582067,Pachuca de Soto,
-3527115,8581962,Pacula,
-3527115,8582068,Pisaflores,
 3527115,8582069,Progreso de Obregón,
 3527115,8582056,San Agustín Metzquititlán,
 3527115,8582071,San Agustín Tlaxiaca,
-3527115,8582072,San Bartolo Tutotepec,
 3527115,8582066,San Felipe Orizatlán,
-3527115,8582073,San Salvador,
-3527115,8582074,Santiago de Anaya,
 3527115,8582075,Santiago Tulantepec de Lugo Guerrero,
-3527115,8582076,Singuilucan,
-3527115,8582077,Tasquillo,
 3527115,8582078,Tecozautla,
-3527115,8582079,Tenango de Doria,
-3527115,8582080,Tepeapulco,
 3527115,8582081,Tepehuacán de Guerrero,
 3527115,8582082,Tepeji del Río de Ocampo,
 3527115,8582083,Tepetitlán,
-3527115,8582084,Tetepango,
-3527115,8582086,Tezontepec de Aldama,
-3527115,8582087,Tianguistengo,
-3527115,8379477,Tizayuca,
 3527115,8582088,Tlahuelilpan,
-3527115,8582089,Tlahuiltepa,
 3527115,8582090,Tlanalapa,
-3527115,8582091,Tlanchinol,
-3527115,8582092,Tlaxcoapan,
-3527115,8582093,Tolcayuca,
 3527115,8582094,Tula de Allende,
 3527115,8582095,Tulancingo de Bravo,
 3527115,8582085,Villa de Tezontepec,
-3527115,8582096,Xochiatipan,
 3527115,8582097,Xochicoatlán,
 3527115,8582098,Yahualica,
 3527115,8582099,Zacualtipán de Ángeles,
 3527115,8582100,Zapotlán de Juárez,
-3527115,8582101,Zempoala,
 3527115,8582102,Zimapán,
 3527213,8581941,Acapulco de Juárez,
 3527213,8582016,Acatepec,
@@ -1630,22 +1630,22 @@ parent_code,code,name,aliases
 3527213,8581978,Zihuatanejo de Azueta,
 3527213,8582013,Zirándaro,
 3527213,8582014,Zitlala,
-3527646,8379114,Álvaro Obregón,
-3527646,8379132,Azcapotzalco,
-3527646,8379133,Benito Juárez,
-3527646,8379369,Coyoacán,
-3527646,8379371,Cuajimalpa de Morelos,
-3527646,8379372,Cuauhtémoc,
-3527646,8379376,Gustavo A. Madero,
-3527646,8379454,Iztacalco,
-3527646,8379455,Iztapalapa,
-3527646,8379458,Magdalena Contreras,
-3527646,8379460,Miguel Hidalgo,
-3527646,8379461,Milpa Alta,
-3527646,8379478,Tláhuac,
-3527646,8379479,Tlalpan,
-3527646,8379480,Venustiano Carranza,
-3527646,8379481,Xochimilco,
+3527646,8379478,Delegaciñon Tláhuac,Tláhuac
+3527646,8379114,Delegación Álvaro Obregón,Álvaro Obregón
+3527646,8379132,Delegación Azcapotzalco,Azcapotzalco
+3527646,8379133,Delegación Benito Juárez,Benito Juárez
+3527646,8379369,Delegación Coyoacán,Coyoacán
+3527646,8379371,Delegación Cuajimalpa de Morelos,Cuajimalpa de Morelos
+3527646,8379372,Delegación Cuauhtémoc,Cuauhtémoc
+3527646,8379376,Delegación Gustavo A. Madero,Gustavo A. Madero
+3527646,8379454,Delegación Iztacalco,Iztacalco
+3527646,8379455,Delegación Iztapalapa,Iztapalapa
+3527646,8379460,Delegación Miguel Hidalgo,Miguel Hidalgo
+3527646,8379461,Delegación Milpa Alta,Milpa Alta
+3527646,8379479,Delegación Tlalpan,Tlalpan
+3527646,8379480,Delegación Venustiano Carranza,Venustiano Carranza
+3527646,8379481,Delegación Xochimilco,Xochimilco
+3527646,8379458,Magdalena Contreras,Delegación Magdalena Contrera|La Magdalena Contreras
 3531011,6955066,Acacoyagua,
 3531011,6955067,Acala,
 3531011,6955068,Acapetahua,
@@ -1675,16 +1675,16 @@ parent_code,code,name,aliases
 3531011,6955093,Chilón,
 3531011,6955094,Cintalapa,
 3531011,6955095,Coapilla,
-3531011,6955096,Comitán Municipality,
+3531011,6955096,Comitán Municipality,Municipio de Comitán de Domínguez|Comitán de Domínguez
 3531011,6955098,Copainalá,
 3531011,6955081,El Bosque,
-3531011,12514805,El Parral,
+3531011,12514805,El Parral,Municipio de El Parral
 3531011,8581756,El Porvenir,
 3531011,6955099,Escuintla,
 3531011,6955100,Francisco León,
 3531011,8583641,Frontera Comalapa,
 3531011,8581720,Frontera Hidalgo,
-3531011,12514807,Honduras de la Sierra,
+3531011,12514807,Honduras de la Sierra,Municipio de Honduras de la Sierra
 3531011,8581722,Huehuetán,
 3531011,8581724,Huitiupán,
 3531011,8581723,Huixtán,
@@ -1710,12 +1710,12 @@ parent_code,code,name,aliases
 3531011,8581739,Mazapa de Madero,
 3531011,8581740,Mazatán,
 3531011,8581741,Metapa,
-3531011,12514802,Mezcalapa,
+3531011,12514802,Mezcalapa,Municipio de Mezcalapa
 3531011,8581742,Mitontic,
 3531011,8581797,Montecristo de Guerrero,
 3531011,8581743,Motozintla,
-3531011,12514806,Municipio de Capitán Luis Ángel Vidal,
-3531011,12514804,Municipio de Emiliano Zapata,
+3531011,12514806,Municipio de Capitán Luis Ángel Vidal,Capitán Luis Ángel Vidal
+3531011,12514804,Municipio de Emiliano Zapata,Emiliano Zapata
 3531011,8581744,Nicolás Ruíz,
 3531011,8581745,Ocosingo,
 3531011,8581746,Ocotepec,
@@ -1731,7 +1731,7 @@ parent_code,code,name,aliases
 3531011,8581758,Pueblo Nuevo Solistahuacán,
 3531011,8581759,Rayón,
 3531011,8581760,Reforma,
-3531011,12514803,Rincón Chamula San Pedro,
+3531011,12514803,Rincón Chamula San Pedro,Municipio de Rincón Chamula San Pedro
 3531011,8581762,Sabanilla,
 3531011,8581763,Salto de Agua,
 3531011,8581798,San Andrés Duraznal,
@@ -1772,16 +1772,16 @@ parent_code,code,name,aliases
 3531011,8581793,Zinacantán,
 3531730,6942866,Calakmul,
 3531730,6942857,Calkiní,
-3531730,6942858,Campeche,
 3531730,6942867,Candelaria,
 3531730,6942859,Carmen,
 3531730,6942860,Champotón,
 3531730,6942865,Escárcega,
 3531730,6942861,Hecelchakán,
 3531730,8583595,Hopelchén,
-3531730,12514811,Municipio de Dzitbalché,
+3531730,12514811,Municipio de Dzitbalché,Dzitbalché
 3531730,6942863,Palizada,
-3531730,12514810,Seybaplaya,
+3531730,6942858,San Francisco de Campeche,Campeche
+3531730,12514810,Seybaplaya,Municipio de Seybaplaya
 3531730,6942864,Tenabo,
 3979840,8583963,Apozol,
 3979840,8583964,Apulco,
@@ -1846,8 +1846,7 @@ parent_code,code,name,aliases
 3982846,8583367,Alamos,
 3982846,8583368,Altar,
 3982846,8583369,Arivechi,
-3982846,8583370,Arizpe,
-3982846,8583371,Atil,
+3982846,8583370,Arizpe,Municipio de Arizpe
 3982846,8583372,Bacadéhuachi,
 3982846,8583373,Bacanora,
 3982846,8583374,Bacerac,
@@ -1880,7 +1879,10 @@ parent_code,code,name,aliases
 3982846,8583385,La Colorada,
 3982846,8583400,Magdalena,
 3982846,8583401,Mazatán,
-3982846,8583402,Moctezuma municipality,
+3982846,8583402,Moctezuma,Moctezuma municipality
+3982846,8583371,Municipio de Átil,Atil
+3982846,8583423,Municipio de Santa Cruz,Santa Cruz Municipality|Santa Cruz
+3982846,8583430,Municipio de Ures,Ures municipality
 3982846,8583403,Naco,
 3982846,8583404,Nácori Chico,
 3982846,8583405,Nacozari de García,
@@ -1902,18 +1904,15 @@ parent_code,code,name,aliases
 3982846,8583420,San Miguel de Horcasitas,
 3982846,8583421,San Pedro de la Cueva,
 3982846,8583422,Santa Ana,
-3982846,8583423,Santa Cruz Municipality,
 3982846,8583424,Sáric,
 3982846,8583425,Soyopa,
 3982846,8583426,Suaqui Grande,
 3982846,8583427,Tepache,
 3982846,8583428,Trincheras,
 3982846,8583429,Tubutama,
-3982846,8583430,Ures municipality,
 3982846,8583431,Villa Hidalgo,
 3982846,8583432,Villa Pesqueira,
 3982846,8583433,Yécora,
-3983035,8583348,Ahome,
 3983035,8583349,Angostura,
 3983035,8583350,Badiraguato,
 3983035,8583354,Choix,
@@ -1926,6 +1925,7 @@ parent_code,code,name,aliases
 3983035,8582651,Guasave,
 3983035,8583358,Mazatlán,
 3983035,8583359,Mocorito,
+3983035,8583348,Municipio de Ahome,Ahome
 3983035,8583364,Navolato,
 3983035,8583360,Rosario,
 3983035,8583361,Salvador Alvarado,
@@ -1995,10 +1995,10 @@ parent_code,code,name,aliases
 3995012,8582421,Bahía de Banderas,
 3995012,8582405,Compostela,
 3995012,8582410,Del Nayar,
-3995012,8582406,Huajicori,
 3995012,8582407,Ixtlán del Río,
-3995012,8582408,Jala,
 3995012,8582420,La Yesca,
+3995012,8582406,Municipio de Huajicori,Huajicori
+3995012,8582408,Municipio de Jala,Jala
 3995012,8582411,Rosamorada,
 3995012,8582412,Ruíz,
 3995012,8582413,San Blas,
@@ -2029,7 +2029,6 @@ parent_code,code,name,aliases
 3995955,8582281,Chilchota,
 3995955,8582282,Chinicuila,
 3995955,8582283,Chucándiro,
-3995955,8582284,Churintzio,
 3995955,8582285,Churumuco,
 3995955,8582270,Coahuayana,
 3995955,8582271,Coalcomán de Vázquez Pallares,
@@ -2039,7 +2038,6 @@ parent_code,code,name,aliases
 3995955,8582274,Copándaro,
 3995955,8582275,Cotija,
 3995955,8582276,Cuitzeo,
-3995955,8582286,Ecuandureo,
 3995955,8582287,Epitacio Huerta,
 3995955,8582288,Erongarícuaro,
 3995955,8582289,Gabriel Zamora,
@@ -2051,7 +2049,7 @@ parent_code,code,name,aliases
 3995955,8582297,Indaparapeo,
 3995955,8582298,Irimbo,
 3995955,8582299,Ixtlán,
-3995955,8582300,Jacona,
+3995955,8582300,Jacona de Plancarte,Jacona
 3995955,8582301,Jiménez,
 3995955,8582302,Jiquilpan,
 3995955,8582369,José Sixto Verduzco,
@@ -2068,7 +2066,10 @@ parent_code,code,name,aliases
 3995955,8582310,Morelia,
 3995955,8582311,Morelos,
 3995955,8582312,Múgica,
-3995955,8582313,Nahuatzen,
+3995955,8582284,Municipio de Churintzio,Churintzio
+3995955,8582286,Municipio de Ecuandureo,Ecuandureo
+3995955,8582313,Municipio de Nahuatzen,Nahuatzen
+3995955,8582346,Municipio de Tepalcatepec,Tepalcatepec
 3995955,8582314,Nocupétaro,
 3995955,8582315,Nuevo Parangaricutiro,
 3995955,8582316,Nuevo Urecho,
@@ -2098,7 +2099,6 @@ parent_code,code,name,aliases
 3995955,8582343,Tanhuato,
 3995955,8582344,Taretan,
 3995955,8582345,Tarímbaro,
-3995955,8582346,Tepalcatepec,
 3995955,8582347,Tingambato,
 3995955,8582349,Tingüindín,Tingueindin
 3995955,8582350,Tiquicheo de Nicolás Romero,
@@ -2171,7 +2171,6 @@ parent_code,code,name,aliases
 4004156,8582148,Jamay,
 4004156,8581718,Jesús María,
 4004156,8582149,Jilotlán de los Dolores,
-4004156,8582150,Jocotepec,
 4004156,8582151,Juanacatlán,
 4004156,8582152,Juchitlán,
 4004156,8582119,La Barca,
@@ -2184,6 +2183,7 @@ parent_code,code,name,aliases
 4004156,8582160,Mexticacán,
 4004156,8582161,Mezquitic,
 4004156,8582162,Mixtlán,
+4004156,8582150,Municipio de Jocotepec,Jocotepec
 4004156,8582163,Ocotlán,
 4004156,8582164,Ojuelos de Jalisco,
 4004156,8582165,Pihuamo,
@@ -2455,8 +2455,8 @@ parent_code,code,name,aliases
 4017700,6942830,Ensenada,
 4017700,6942831,Mexicali,
 4017700,6942834,Playas de Rosarito,
-4017700,12514808,San Felipe,
-4017700,12514809,San Quintín,
+4017700,12514808,San Felipe,Municipio de San Felipe
+4017700,12514809,San Quintín,Municipio de San Quintín
 4017700,6942832,Tecate,
 4017700,6942833,Tijuana,
 4019231,6942835,Aguascalientes,

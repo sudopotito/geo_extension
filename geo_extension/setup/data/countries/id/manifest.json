@@ -2,12 +2,12 @@
   "country_code": "id",
   "name": "Indonesia",
   "description": "Indonesia: Province > City/Regency from GeoNames (38, 514 records). Populated places with population >= 500 plus administrative seats.",
-  "version": "2026.09.29",
+  "version": "2026.09.30",
   "source": "https://www.geonames.org/ (GeoNames gazetteer and postal code dumps)",
   "source_url": "https://download.geonames.org/export/dump/ID.zip",
   "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/) - data (c) GeoNames.org",
   "author": "geo_extension maintainers (generated with tools/geonames/build_dataset.py)",
-  "updated": "2026-09-29",
+  "updated": "2026-09-30",
   "levels": [
     {
       "file": "level1.csv",

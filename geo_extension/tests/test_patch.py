@@ -69,7 +69,14 @@ class TestLegacyCleanupPatch(IntegrationTestCase):
 		# recreate what geo_extension <= 1.4 used to install
 		for fieldname in ("state", "city", "county"):
 			make_property_setter("Address", fieldname, "fieldtype", "Autocomplete", "Data", for_doctype=False)
-		make_property_setter("Address", None, "field_order", '["address_title"]', "Text", for_doctype=True)
+		make_property_setter(
+			"Address",
+			None,
+			"field_order",
+			'["address_title", "address_line1", "address_line2", "state", "city", "county", "country", "pincode"]',
+			"Text",
+			for_doctype=True,
+		)
 		create_custom_fields(
 			{
 				"Address": [
@@ -113,7 +120,12 @@ class TestLegacyCleanupPatch(IntegrationTestCase):
 
 	def test_foreign_property_setters_are_kept(self):
 		make_property_setter("Address", "fax", "hidden", "1", "Check", for_doctype=False)
+		# a field order set by the site (no 1.x signature) survives too
+		make_property_setter(
+			"Address", None, "field_order", '["address_title", "pincode", "city"]', "Text", for_doctype=True
+		)
 		patch.remove_legacy_customizations()
+		self.assertTrue(frappe.db.exists("Property Setter", "Address-main-field_order"))
 		self.assertTrue(
 			frappe.db.exists(
 				"Property Setter", {"doc_type": "Address", "field_name": "fax", "property": "hidden"}

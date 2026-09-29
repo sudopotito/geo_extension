@@ -1,39 +1,39 @@
 code,name,aliases
-1923045,Banten,
-12503511,Central Papua,
-1621176,Daerah Istimewa Yogyakarta,
-1642907,Daerah Khusus Ibukota Jakarta,
-1633791,East Nusa Tenggara,
-12503512,Highland Papua,
-1642672,Jawa Barat,
-1642668,Jawa Timur,
-1923047,Kepulauan Bangka Belitung,
-1215638,Nanggroe Aceh Darussalam Province,
-8604684,North Kalimantan,
-1958070,North Maluku,
-1213642,North Sumatra,
+1642907,Daerah Khusus Ibukota Jakarta,Jakarta
+1633791,East Nusa Tenggara,Daerah Tingkat I Nusa Tenggara Timur|Provinsi Nusa Tenggara Timur
+1642672,Jawa Barat,Provinsi Jawa Barat
+1642668,Jawa Timur,Provinsi Jawa Timur
+8604684,Kalimantan Utara,North Kalimantan
+1923047,Kepulauan Bangka Belitung,Provinsi Kepulauan Bangka Belitung
+1996551,Kepulauan Riau,Provinsi Kepulauan Riau
+1215638,Nanggroe Aceh Darussalam Province,Provinsi Nanggroe Aceh Darussalam|Aceh
+1958070,North Maluku,Provinsi Maluku Utara|Maluku Utara
+1213642,North Sumatra,Daerah Tingkat I Sumatera Utara|Propinsi Sumatra Utara|Sumatera Utara|Provinsi Sumatera Utara
+1643012,Papua,Provinsi Papua
+12503510,Papua Barat Daya,Southwest Papua
+12503512,Papua Pegunungan,Highland Papua
 1649147,Propinsi Bengkulu,
-1650535,Provinsi Bali,
-1923046,Provinsi Gorontalo,
-1642856,Provinsi Jambi,
-1642669,Provinsi Jawa Tengah,
-1641900,Provinsi Kalimantan Barat,
-1641899,Provinsi Kalimantan Selatan,
-1641898,Provinsi Kalimantan Tengah,
-1641897,Provinsi Kalimantan Timur,
-1996551,Provinsi Kepulauan Riau,
-1638535,Provinsi Lampung,
+1923046,Propinsi Gorontalo,Provinsi Gorontalo
+1650535,Provinsi Bali,Bali|Pulau Bali
+1923045,Provinsi Banten,Banten
+1642856,Provinsi Jambi,Jambi
+1642669,Provinsi Jawa Tengah,Jawa Tengah
+1641900,Provinsi Kalimantan Barat,Kalimantan Barat
+1641899,Provinsi Kalimantan Selatan,Kalimantan Selatan
+1641898,Provinsi Kalimantan Tengah,Kalimantan Tengah
+1641897,Provinsi Kalimantan Timur,Kalimantan Timur
+1638535,Provinsi Lampung,Lampung
 1636627,Provinsi Maluku,
-1643012,Provinsi Papua,
 1996549,Provinsi Papua Barat,
-1629652,Provinsi Riau,
+12503511,Provinsi Papua Tengah,Central Papua
 1996550,Provinsi Sulawesi Barat,
-1626232,Provinsi Sulawesi Selatan,
-1626197,Provinsi Sumatera Barat,
-12503513,South Papua,
-12503510,Southwest Papua,
-1626231,Sulawesi Tengah,
-1626230,Sulawesi Tenggara,
-1626229,Sulawesi Utara,
-1626196,Sumatera Selatan,
-1633792,West Nusa Tenggara,
+1626230,Provinsi Sulawesi Tenggara,Sulawesi Tenggara
+1626197,Provinsi Sumatera Barat,Sumatera Barat|Sumatra Barat
+1629652,Riau,Provinsi Riau
+12503513,South Papua,Provinsi Papua Selatan|Papua Selatan
+1626232,Sulawesi Selatan,Provinsi Sulawesi Selatan
+1626231,Sulawesi Tengah,Provinsi Sulawesi Tengah
+1626229,Sulawesi Utara,Provinsi Sulawesi Utara
+1626196,Sumatera Selatan,Sumatra Selatan|Provinsi Sumatera Selatan
+1633792,West Nusa Tenggara,Propinsi Nusa Tenggara Barat|Provinsi Nusa Tenggara Barat
+1621176,Yogyakarta,Daerah Istimewa Yogyakarta

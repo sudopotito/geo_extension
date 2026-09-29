@@ -15,7 +15,7 @@ parent_code,code,name,aliases
 2803460,2840555,Schalksmühle,Schalksmuehle
 2803460,2810919,Werdohl,
 2803461,2959475,Adenstedt,
-2803461,2958533,Alfeld,
+2803461,2958533,Alfeld (Leine),Alfeld
 2803461,2958509,Algermissen,
 2803461,2958211,Almstedt,
 2803461,2953362,Bad Salzdetfurth,
@@ -93,7 +93,7 @@ parent_code,code,name,aliases
 2803558,2890659,Kirchberg,
 2803558,2881154,Langenbernsdorf,
 2803558,2878387,Leubnitz,
-2803558,2878037,Lichtenstein,
+2803558,2878037,Lichtenstein-Callnberg,Lichtenstein
 2803558,2878027,Lichtentanne,
 2803558,2877673,Limbach-Oberfrohna,
 2803558,2872519,Meerane,
@@ -141,6 +141,7 @@ parent_code,code,name,aliases
 2807345,2887599,Klöden,Kloeden
 2807345,2883570,Kropstädt,Kropstaedt
 2807345,2877605,Linda,
+2807345,7303020,Lutherstadt Wittenberg,Wittenberg
 2807345,2871454,Meuro,
 2807345,2870303,Mochau,
 2807345,2870190,Möhlau,Moehlau
@@ -165,7 +166,6 @@ parent_code,code,name,aliases
 2807345,2821437,Trebitz,
 2807345,2817080,Vockerode,
 2807345,2813930,Wartenburg,
-2807345,7303020,Wittenberg,
 2807345,2806162,Wörlitz,Woerlitz
 2807345,2805313,Zahna,
 2807345,2803879,Zörnigall,Zoernigall
@@ -277,10 +277,10 @@ parent_code,code,name,aliases
 2816883,2917850,Grebenhain,
 2816883,2906175,Herbstein,
 2816883,2900799,Höingen,Hoeingen
-2816883,2899479,Homberg,
+2816883,2899479,Homberg (Ohm),Homberg|Homberg an der Ohm
 2816883,12519391,Ilbeshausen-Hochwaldhausen,
 2816883,2890222,Kirtorf,
-2816883,2879929,Lauterbach,
+2816883,2879929,Lauterbach / Hessen,Lauterbach
 2816883,2879870,Lautertal,
 2816883,2845268,Romrod,
 2816883,2838459,Schlitz,
@@ -292,17 +292,17 @@ parent_code,code,name,aliases
 2817598,2935491,Dörverden,
 2817598,2930417,Emtinghausen,
 2817598,2890420,Kirchlinteln,
-2817598,2880547,Langwedel,
+2817598,2880547,Langwedel Flecken,Langwedel
 2817598,2869147,Morsum,
-2817598,2856014,Ottersberg,
+2817598,2856014,Ottersberg Flecken,Ottersberg
 2817598,2855794,Oyten,
 2817598,2847271,Riede,
 2817598,2840288,Scharnhorst,
 2817598,2822930,Thedinghausen,
-2817598,2817599,Verden,
+2817598,2817599,Verden,Verden (Aller)
 2820086,2950344,Bergkamen,
 2820086,2946478,Bönen,
-2820086,2924206,Fröndenberg,Froendenberg
+2820086,2924206,Fröndenberg,Froendenberg|Fröndenberg/Ruhr
 2820086,2899538,Holzwickede,
 2820086,2893438,Kamen,
 2820086,2875107,Lünen,Luenen
@@ -313,7 +313,7 @@ parent_code,code,name,aliases
 2820086,2810109,Westhofen,
 2820859,2947172,Bodelshausen,
 2820859,2937919,Dettenhausen,
-2820859,2934235,Dusslingen,
+2820859,2934235,Dußlingen,
 2820859,2919146,Gomaringen,
 2820859,2903817,Hirrlingen,
 2820859,2890527,Kirchentellinsfurt,
@@ -357,7 +357,7 @@ parent_code,code,name,aliases
 2821160,2893175,Kanzem,
 2821160,2892571,Kasel,
 2821160,2892484,Kastel-Staadt,
-2821160,2891831,Kell,
+2821160,2891831,Kell am See,Kell
 2821160,7144088,Kell am See,
 2821160,2891605,Kenn,
 2821160,2890324,Kirf,
@@ -487,7 +487,7 @@ parent_code,code,name,aliases
 2825001,2958696,Albersweiler,
 2825001,2958026,Altdorf,
 2825001,2955951,Annweiler am Trifels,
-2825001,2953549,Bad Bergzabern,
+2825001,2953549,Bad Bergzabern,Bergzabern
 2825001,2952844,Barbelroth,
 2825001,3272462,Billigheim-Ingenheim,
 2825001,2948552,Birkenhördt,
@@ -563,11 +563,11 @@ parent_code,code,name,aliases
 2827478,2953428,Badingen,
 2827478,2951473,Behrendorf,
 2827478,2949548,Beuster,
-2827478,2948229,Bismark,
+2827478,2948229,Bismark (Altmark),Bismark
 2827478,2948154,Bittkau,
 2827478,2944206,Bretsch,
 2827478,2939432,Dahlen,
-2827478,2932067,Eichstedt,
+2827478,2932067,Eichstedt (Altmark),Eichstedt
 2827478,2929244,Erxleben,
 2827478,2926578,Fischbeck,
 2827478,2926252,Flessau,
@@ -589,24 +589,24 @@ parent_code,code,name,aliases
 2827478,2883476,Krüden,Krueden
 2827478,2875467,Lückstedt,Lueckstedt
 2827478,2875445,Lüderitz,Luederitz
-2827478,2871638,Meßdorf,
+2827478,2871638,Messdorf,
 2827478,2915245,Möringen,Moeringen
-2827478,2856639,Osterburg,
+2827478,2856639,Osterburg,Hansestadt Osterburg|Osterburg (Altmark)|Hansestadt Osterburg (Altmark)
 2827478,2846267,Rochau,
 2827478,2842033,Sandau,
 2827478,2837155,Schollene,
 2827478,2836948,Schönberg,Schoenberg
 2827478,2836587,Schönhausen,Schoenhausen
-2827478,2833800,Seehausen,
+2827478,2833800,Seehausen,Hansestadt Seehausen|Seehausen (Altmark)|Hansestadt Seehausen (Altmark)
 2827478,2827479,Stendal,
 2827478,2824255,Tangerhütte,Tangerhuette
 2827478,2824254,Tangermünde,Tangermuende
 2827478,2820529,Uchtspringe,
 2827478,2820452,Uenglingen,
-2827478,2810983,Werben,
+2827478,2810983,Werben,Hansestadt Werben|Hansestadt Werben (Elbe)|Werben (Elbe)
 2827478,2805567,Wust,
 2829456,2956253,Andechs,
-2829456,2950767,Berg,
+2829456,2950767,Berg am Starnberger See,Berg
 2829456,2927464,Feldafing,
 2829456,2922230,Gauting,
 2829456,2920433,Gilching,
@@ -677,12 +677,12 @@ parent_code,code,name,aliases
 2831402,2810801,Werningshausen,
 2831402,2807300,Witterda,
 2831402,2805793,Wundersleben,
-2831482,2959237,Ahlden,
+2831482,2959237,Ahlden,Ahlden (Aller)|Ahlden (Aller) Flecken|Ahlden Flecken (Aller)|Ahlden Flecken
 2831482,2927871,Bad Fallingbostel,
 2831482,2948222,Bispingen,
 2831482,2946952,Böhme,
 2831482,2946524,Bomlitz,
-2831482,2942360,Buchholz,
+2831482,2942360,Buchholz (Aller),Buchholz
 2831482,2932024,Eickeloh,
 2831482,2928821,Essel,
 2831482,2925611,Frankenfeld,
@@ -694,7 +694,7 @@ parent_code,code,name,aliases
 2831482,2877104,Lindwedel,
 2831482,2867542,Munster,
 2831482,2865637,Neuenkirchen,
-2831482,2848051,Rethem,
+2831482,2848051,Rethem (Aller),Rethem
 2831482,2837291,Schneverdingen,
 2831482,2835220,Schwarmstedt,
 2831482,2831486,Soltau,
@@ -706,15 +706,15 @@ parent_code,code,name,aliases
 2834685,2945051,Bräunlingen,
 2834685,2938740,Dauchingen,
 2834685,2936267,Donaueschingen,
-2834685,2923521,Furtwangen,
+2834685,2923521,Furtwangen im Schwarzwald,Furtwangen
 2834685,2913414,Gütenbach,Guetenbach
 2834685,2898028,Hüfingen,
-2834685,2885888,Königsfeld im Schwarzwald,
+2834685,2885888,Königsfeld im Schwarzwald,Königsfeld
 2834685,2869808,Mönchweiler,Moenchweiler
 2834685,2863457,Niedereschach,
 2834685,2841619,Sankt Georgen im Schwarzwald,
 2834685,2837096,Schonach im Schwarzwald,
-2834685,2836451,Schönwald,
+2834685,2836451,Schönwald im Schwarzwald,Schönwald
 2834685,2821216,Triberg,
 2834685,2820786,Tuningen,
 2834685,2819248,Unterkirnach,
@@ -747,7 +747,7 @@ parent_code,code,name,aliases
 2838633,2925134,Freienwill,
 2838633,2921444,Gelting,
 2838633,2921437,Geltorf,
-2838633,2919765,Glücksburg,Gluecksburg
+2838633,2919765,Glücksburg,Gluecksburg|Glücksburg (Ostsee)
 2838633,2919170,Goltoft,
 2838633,2917190,Grödersby,
 2838633,2915143,Groß Rheide,
@@ -772,7 +772,7 @@ parent_code,code,name,aliases
 2838633,2895000,Jerrishoe,
 2838633,2894699,Jörl,Joerl
 2838633,2894644,Jübek,Juebek
-2838633,2893023,Kappeln,
+2838633,2893023,Kappeln / Schleswig-Holst.,Kappeln
 2838633,2890066,Klappholz,
 2838633,2889746,Klein Bennebek,
 2838633,2888333,Klein Rheide,
@@ -898,25 +898,25 @@ parent_code,code,name,aliases
 2841464,2858807,Oberthal,
 2841464,2841463,Sankt Wendel,
 2841464,2822713,Tholey,
-2842111,2955816,Apenburg,
 2842111,2952968,Bandau,
 2842111,2951522,Beetzendorf,
 2842111,2950661,Berge,
 2842111,2943278,Brunau,
 2842111,2941891,Bühne,Buehne
 2842111,2939365,Dähre,Daehre
-2842111,2937238,Diesdorf,
 2842111,2916638,Engersen,
+2842111,2955816,Flecken Apenburg,Apenburg
+2842111,2937238,Flecken Diesdorf,Diesdorf
 2842111,2926317,Fleetmark,
 2842111,2922580,Gardelegen,
-2842111,2842112,Hansestadt Salzwedel,
+2842111,2842112,Hansestadt Salzwedel,Salzwedel
 2842111,2906323,Henningen,
 2842111,2896303,Immekath,
 2842111,2895269,Jahrstedt,
 2842111,2895117,Jävenitz,Jaevenitz
 2842111,2894646,Jübar,Juebar
 2842111,2893953,Kakerbeck,
-2842111,2893939,Kalbe,
+2842111,2893939,Kalbe (Milde),Kalbe
 2842111,2889784,Kleinau,
 2842111,2887432,Kloster Neuendorf,
 2842111,2887380,Klötze,Kloetze
@@ -1033,7 +1033,7 @@ parent_code,code,name,aliases
 2843324,2957516,Altenpleen,
 2843324,2953327,Bad Sülze,Bad Suelze
 2843324,2952372,Barth,
-2843324,2950620,Bergen auf Rügen,Bergen auf Ruegen
+2843324,2950620,Bergen auf Rügen,Bergen auf Ruegen|Bergen|Bergen bei Rügen
 2843324,2946176,Born,
 2843324,2945209,Brandshagen,
 2843324,2944869,Breege,
@@ -1066,7 +1066,7 @@ parent_code,code,name,aliases
 2843324,2856199,Ostseebad Baabe,
 2843324,2856198,Ostseebad Binz,
 2843324,2856196,Ostseebad Dierhagen,
-2843324,2856195,Ostseebad Göhren,Ostseebad Goehren
+2843324,2856195,Ostseebad Göhren,Ostseebad Goehren|Göhren|Göhren (Rügen)
 2843324,2856191,Ostseebad Prerow,
 2843324,2855565,Pantelitz,
 2843324,2855436,Parchtitz,
@@ -1136,7 +1136,7 @@ parent_code,code,name,aliases
 2843774,2805006,Zeilarn,
 2844587,2844588,Rostock,
 2847553,2954723,Aubstadt,
-2847553,2885829,Bad Königshofen im Grabfeld,
+2847553,2885829,Bad Königshofen,Bad Königshofen im Grabfeld
 2847553,2953389,Bad Neustadt an der Saale,
 2847553,2952238,Bastheim,
 2847553,2948287,Bischofsheim in der Rhön,Bischofsheim in der Rhoen
@@ -1155,9 +1155,9 @@ parent_code,code,name,aliases
 2847553,2863178,Niederlauer,
 2847553,2860932,Oberelsbach,
 2847553,2858874,Oberstreu,
-2847553,2856284,Ostheim,
+2847553,2856284,Ostheim v.d. Rhön,Ostheim
 2847553,2846089,Rödelmaier,Roedelmaier
-2847553,2842720,Saal an der Saale,
+2847553,2842720,Saal a. d. Saale,Saal an der Saale
 2847553,2842203,Salz,
 2847553,2841935,Sandberg,
 2847553,2837042,Schönau an der Brend,Schoenau an der Brend
@@ -1189,9 +1189,9 @@ parent_code,code,name,aliases
 2847604,2855148,Pech,
 2847604,2847666,Rheinbach,
 2847604,2842960,Ruppichteroth,
-2847604,2841648,Sankt Augustin,
 2847604,2834086,Sechtem,
 2847604,2832521,Siegburg,
+2847604,2841648,St. Augustin,Sankt Augustin
 2847604,2826359,Stoßdorf,
 2847604,2821029,Troisdorf,
 2847604,2820525,Uckerath,
@@ -1244,7 +1244,7 @@ parent_code,code,name,aliases
 2847614,2831872,Sinsheim,
 2847614,2830761,Spechbach,
 2847614,2815328,Waibstadt,
-2847614,2814670,Walldorf,
+2847614,2814670,Walldorf,Walldorf / Baden-Württemb.
 2847614,2812174,Weinheim,
 2847614,2809277,Wiesenbach,
 2847614,2809138,Wiesloch,
@@ -1254,7 +1254,7 @@ parent_code,code,name,aliases
 2849645,2938784,Datteln,
 2849645,2935530,Dorsten,
 2849645,2920236,Gladbeck,
-2849645,2911395,Haltern am See,
+2849645,2911395,Haltern in Westfalen,Haltern am See
 2849645,2905560,Herten,
 2849645,2873263,Marl,
 2849645,2857904,Oer-Erkenschwick,
@@ -1268,7 +1268,7 @@ parent_code,code,name,aliases
 2852456,2946214,Borkheide,
 2852456,2946203,Borkwalde,
 2852456,2943516,Brück,Brueck
-2852456,2926941,Fichtenwalde,
+2852456,2926941,Fichtenwalde,Beelitz Ortsteil Fichtenwalde|Beelitz (Mark) OT Fichtenwalde
 2852456,2919156,Golzow,
 2852456,2918896,Görzke,Goerzke
 2852456,2918463,Gräben,
@@ -1487,9 +1487,9 @@ parent_code,code,name,aliases
 2857455,2922731,Ganderkesee,
 2857455,2915459,Groß Ippener,
 2857455,2916611,Großenkneten,
-2857455,2910344,Harpstedt,
+2857455,2910344,Harpstedt Flecken,Harpstedt
 2857455,2909268,Hatten,
-2857455,2898079,Hude,
+2857455,2898079,Hude (Oldenburg),Hude
 2857455,2890382,Kirchseelte,
 2857455,2852013,Prinzhöfte,
 2857455,2814146,Wardenburg,
@@ -1501,7 +1501,7 @@ parent_code,code,name,aliases
 2861443,2948114,Blaichach,
 2861443,2946583,Bolsterlang,
 2861443,2942566,Buchenberg,
-2861443,2941422,Burgberg,
+2861443,2941422,Burgberg im Allgäu,Burgberg
 2861443,2937077,Dietmannsried,
 2861443,2934509,Durach,
 2861443,2911580,Haldenwang,
@@ -1525,7 +1525,7 @@ parent_code,code,name,aliases
 2861979,2954069,Auleben,
 2861979,2947837,Bleicherode,
 2861979,2942372,Buchholz,
-2861979,2930900,Ellrich,
+2861979,2930900,Ellrich / Thüringen,Ellrich
 2861979,2918942,Görsbach,
 2861979,2909926,Harzungen,
 2861979,2906087,Heringen,
@@ -1547,8 +1547,8 @@ parent_code,code,name,aliases
 2861979,2808253,Windehausen,
 2862622,2953100,Balge,
 2862622,2948810,Binnen,
-2862622,2942154,Bücken,Buecken
-2862622,2937333,Diepenau,
+2862622,2942154,Bücken Flecken,Bücken|Buecken
+2862622,2937333,Diepenau Flecken,Diepenau
 2862622,2935341,Drakenburg,
 2862622,2928712,Estorf,
 2862622,2928239,Eystrup,
@@ -1556,7 +1556,7 @@ parent_code,code,name,aliases
 2862622,2911519,Halle,
 2862622,2911275,Hämelhausen,
 2862622,2909460,Haßbergen,
-2862622,2909442,Hassel,
+2862622,2909442,Hassel (Weser),Hassel
 2862622,2908324,Heemsen,
 2862622,2904748,Hilgermissen,
 2862622,2898316,Hoya,
@@ -1567,22 +1567,22 @@ parent_code,code,name,aliases
 2862622,2877979,Liebenau,
 2862622,2877011,Linsburg,
 2862622,2873343,Marklohe,
-2862622,2862620,Nienburg,
+2862622,2862620,Nienburg,Nienburg/Weser|Nienburg (Weser)
 2862622,2854947,Pennigsehl,
 2862622,2851096,Raddestorf,
 2862622,2849371,Rehburg-Loccum,
 2862622,2845540,Rohrsen,
 2862622,2834275,Schweringen,
 2862622,2828993,Steimbke,
-2862622,2827166,Steyerberg,
+2862622,2827166,Steyerberg Flecken,Steyerberg
 2862622,2826681,Stöckse,
 2862622,2826503,Stolzenau,
-2862622,2820537,Uchte,
+2862622,2820537,Uchte Flecken,Uchte
 2862622,2814066,Warmsen,
 2862622,2814031,Warpe,
 2862622,2809089,Wietzen,
 2864548,2950882,Berching,
-2864548,8714308,Berg bei Neumarkt in der Oberpfalz,
+2864548,8714308,Berg b.Neumarkt i.d.OPf.,Berg bei Neumarkt in der Oberpfalz
 2864548,2950037,Berngau,
 2864548,2938441,Deining,
 2864548,2937110,Dietfurt,
@@ -1631,7 +1631,7 @@ parent_code,code,name,aliases
 2871034,2850887,Rahden,
 2871673,2951679,Beckingen,
 2871673,2944031,Britten,
-2871673,2875831,Losheim,
+2871673,2875831,Losheim am See,Losheim
 2871673,2871675,Merzig,
 2871673,2871538,Mettlach,
 2871673,2857044,Orscholz,
@@ -1647,7 +1647,7 @@ parent_code,code,name,aliases
 2872153,2887645,Klipphausen,
 2872153,2881682,Lampertswalde,
 2872153,2876009,Lommatzsch,
-2872153,2872155,Meissen,
+2872153,2872155,Meißen,
 2872153,2869244,Moritzburg,
 2872153,2866834,Nauwalde,
 2872153,2863643,Niederau,
@@ -1677,7 +1677,7 @@ parent_code,code,name,aliases
 2873758,2920229,Gladenbach,
 2873758,2890504,Kirchhain,
 2873758,2876144,Lohra,
-2873758,2873759,Marburg an der Lahn,
+2873758,2873759,Marburg,Marburg an der Lahn
 2873758,2867673,Münchhausen,Muenchhausen
 2873758,2864091,Neustadt (Hessen),
 2873758,2863210,Niederklein,
@@ -1688,7 +1688,7 @@ parent_code,code,name,aliases
 2874229,2953339,Bad Soden am Taunus,
 2874229,2929817,Eppstein,
 2874229,2929134,Eschborn,
-2874229,2926120,Flörsheim,Floersheim
+2874229,2926120,Flörsheim am Main,Flörsheim|Floersheim
 2874229,2909240,Hattersheim,
 2874229,2903175,Hochheim am Main,
 2874229,2902533,Hofheim am Taunus,
@@ -1708,15 +1708,15 @@ parent_code,code,name,aliases
 2874242,2915372,Großkrotzenburg,
 2874242,2911825,Hain-Gründau,Hain-Gruendau
 2874242,2911099,Hammersbach,
-2874242,2911007,Hanau am Main,
+2874242,2911007,Hanau,Hanau am Main
 2874242,2894667,Jossa,
 2874242,2880913,Langenselbold,
 2874242,2877904,Lieblos,
 2874242,2874230,Maintal,
-2874242,2870718,Mittel-Gründau,Mittel-Gruendau
+2874242,2870718,Mittelgründau,Mittel-Gründau|Mittel-Gruendau
 2874242,2863712,Nidderau,
-2874242,2863393,Nieder-Gründau,Nieder-Gruendau
 2874242,2863517,Niederdorfelden,
+2874242,2863393,Niedergründau,Nieder-Gründau|Nieder-Gruendau
 2874242,2846063,Rodenbach,
 2874242,2844080,Rothenbergen,
 2874242,2838201,Schlüchtern,Schluechtern
@@ -1799,7 +1799,7 @@ parent_code,code,name,aliases
 2885678,2959946,Aach,
 2885678,2958429,Allensbach,
 2885678,3205645,Bodman-Ludwigshafen,
-2885678,2940715,Büsingen,
+2885678,2940715,Büsingen am Hochrhein,Büsingen
 2885678,2937905,Dettingen,
 2885678,2936934,Dingelsdorf,
 2885678,2933177,Egg,
@@ -1811,14 +1811,14 @@ parent_code,code,name,aliases
 2885678,2918612,Gottmadingen,
 2885678,2904591,Hilzingen,
 2885678,2885679,Konstanz,
-2885678,2876790,Litzelstetten,
+2885678,2876790,Konstanz-Litzelstetten,Litzelstetten
 2885678,2869542,Moos,
 2885678,3205682,Mühlhausen-Ehingen,
 2885678,2867953,Mühlingen,
 2885678,2865114,Neuhausen,
 2885678,2857610,Öhningen,
 2885678,2857037,Orsingen-Nenzingen,
-2885678,2850954,Radolfzell,
+2885678,2850954,Radolfzell am Bodensee,Radolfzell
 2885678,3209418,Reichenau,
 2885678,2847003,Rielasingen-Worblingen,
 2885678,2831924,Singen,
@@ -1851,7 +1851,7 @@ parent_code,code,name,aliases
 2892514,2843848,Rothwesten,
 2892514,2832000,Simmershausen,
 2892514,2821336,Trendelburg,
-2892514,2820500,Udenhausen,
+2892514,2820500,Udenhausen (Grebenstein),Udenhausen
 2892514,3207197,Vellmar,
 2892514,2815376,Wahnhausen,
 2892514,2808722,Wilhelmshausen,
@@ -1862,7 +1862,7 @@ parent_code,code,name,aliases
 2892791,2934369,Dürrenbüchig,Duerrenbuechig
 2892791,2933101,Eggenstein-Leopoldshafen,
 2892791,2928615,Ettlingen,
-2892791,2925848,Forst,
+2892791,2925848,Forst (Baden-Württemberg),Forst
 2892791,2919123,Gondelsheim,
 2892791,3272459,Graben-Neudorf,
 2892791,2911308,Hambrücken,
@@ -2099,8 +2099,8 @@ parent_code,code,name,aliases
 2905434,2821605,Tramm,
 2905434,2814707,Walksfelde,
 2905434,2814292,Wangelau,
+2905434,2811031,Wentorf,Wentorf bei Hamburg
 2905434,2811034,Wentorf,
-2905434,2811031,Wentorf bei Hamburg,
 2905434,2809395,Wiershop,
 2905434,2807194,Witzeeze,
 2905434,2807025,Wohltorf,
@@ -2152,7 +2152,7 @@ parent_code,code,name,aliases
 2910684,3209070,Marschacht,
 2910684,2873087,Marxen,
 2910684,2870110,Moisburg,
-2910684,2863795,Neu Wulmstorf,
+2910684,2863795,Neu Wulmstorf,Neu-Wulmstorf
 2910684,2856061,Otter,
 2910684,2849467,Regesbostel,
 2910684,2842144,Salzhausen,
@@ -2165,10 +2165,10 @@ parent_code,code,name,aliases
 2910684,2817346,Vierhöfen,
 2910684,2811537,Welle,
 2910684,2811011,Wenzendorf,
-2910684,2807845,Winsen,
+2910684,2807845,Winsen (Luhe),Winsen
 2910684,2807411,Wistedt,
 2910684,2805891,Wulfsen,
-2911516,2911522,Halle (Saale),
+2911516,2911522,Halle (Saale),Halle|Halle / Sachsen-Anhalt
 2911664,2959885,Abbenrode,
 2911664,2958268,Allrode,
 2911664,2955071,Aspenstedt,
@@ -2189,7 +2189,6 @@ parent_code,code,name,aliases
 2911664,2924628,Friedrichsbrunn,
 2911664,2920999,Gernrode,
 2911664,2915164,Groß Quenstedt,
-2911664,2913600,Güntersberge,Guentersberge
 2911664,2911665,Halberstadt,
 2911664,2910275,Harsleben,
 2911664,2909944,Harzgerode,
@@ -2217,6 +2216,7 @@ parent_code,code,name,aliases
 2911664,2839398,Schierke,
 2911664,2835292,Schwanebeck,
 2911664,2831834,Siptenfelde,
+2911664,2913600,Stadt Güntersberge,Güntersberge|Guentersberge
 2911664,2829513,Stapelburg,
 2911664,2829237,Stecklenberg,
 2911664,2827108,Stiege,
@@ -2319,6 +2319,7 @@ parent_code,code,name,aliases
 2918364,2814880,Waldkirchen,
 2918364,2804764,Zenting,
 2918750,2955787,Apfelstädt,Apfelstaedt
+2918750,2824437,Bad Tabarz,Tabarz
 2918750,2953038,Ballstädt,Ballstaedt
 2918750,2949130,Bienstädt,
 2918750,2943322,Brüheim,Brueheim
@@ -2334,7 +2335,7 @@ parent_code,code,name,aliases
 2918750,2924437,Friedrichswerth,
 2918750,2924412,Friemar,
 2918750,2922737,Gamstädt,Gamstaedt
-2918750,2921261,Georgenthal,
+2918750,2921261,Georgenthal,Georgenthal/Thüringer Wald
 2918750,2920581,Gierstädt,
 2918750,2919437,Goldbach,
 2918750,2918752,Gotha,
@@ -2360,7 +2361,6 @@ parent_code,code,name,aliases
 2918750,2835494,Schwabhausen,
 2918750,2833934,Seebergen,
 2918750,2831242,Sonneborn,
-2918750,2824437,Tabarz,
 2918750,2824285,Tambach-Dietharz,
 2918750,2821066,Tröchtelborn,
 2918750,2820694,Tüttleben,Tuettleben
@@ -2375,7 +2375,7 @@ parent_code,code,name,aliases
 2918985,2951397,Beiersdorf,
 2918985,2949949,Bernstadt,
 2918985,6548670,Bertsdorf-Hörnitz,Bertsdorf-Hoernitz
-2918985,2945698,Boxberg,
+2918985,2945698,Boxberg/O.L.,Boxberg
 2918985,2934324,Dürrhennersdorf,Duerrhennersdorf
 2918985,2933965,Ebersbach,
 2918985,2933721,Eckartsberg,
@@ -2397,7 +2397,6 @@ parent_code,code,name,aliases
 2918985,2885863,Königshain,
 2918985,2884656,Krauschwitz,
 2918985,2882334,Kurort Jonsdorf,
-2918985,2882331,Kurort Oybin,
 2918985,2879846,Lawalde,
 2918985,2878290,Leutersdorf,
 2918985,2876755,Löbau,Loebau
@@ -2412,12 +2411,13 @@ parent_code,code,name,aliases
 2918985,2857481,Olbersdorf,
 2918985,2857182,Oppach,
 2918985,2856205,Ostritz,
+2918985,2882331,Oybin,Kurort Oybin
 2918985,2849145,Reichenbach,
 2918985,2846806,Rietschen,
 2918985,2844062,Rothenburg,
 2918985,2838793,Schlegel,
 2918985,2838725,Schleife,
-2918985,2837041,Schönau-Berzdorf,Schoenau-Berzdorf
+2918985,2837041,Schönau-Berzdorf auf dem Eigen,Schönau-Berzdorf|Schoenau-Berzdorf
 2918985,2837022,Schönbach,
 2918985,2833365,Seifhennersdorf,
 2918985,2831684,Sohland am Rotstein,
@@ -2425,7 +2425,7 @@ parent_code,code,name,aliases
 2918985,2821450,Trebendorf,
 2918985,2820314,Uhyst,
 2918985,2811713,Weißkeißel,
-2918985,2811698,Weißwasser,
+2918985,2811698,Weißwasser,Weißwasser/Oberlausitz
 2918985,2804008,Zittau,
 2919053,2959553,Adelberg,
 2919053,2958956,Aichelberg,
@@ -2440,7 +2440,7 @@ parent_code,code,name,aliases
 2919053,2936186,Donzdorf,
 2919053,2934452,Dürnau,
 2919053,2933959,Ebersbach an der Fils,
-2919053,2931414,Eislingen,
+2919053,2931414,Eislingen/Fils,Eislingen
 2919053,2929091,Eschenbach,
 2919053,2922753,Gammelshausen,
 2919053,2921653,Geislingen an der Steige,
@@ -2470,7 +2470,7 @@ parent_code,code,name,aliases
 2920479,2951733,Bechtsbüttel,Bechtsbuettel
 2920479,2950556,Bergfeld,
 2920479,2946765,Bokensdorf,
-2920479,2943795,Brome,
+2920479,2943795,Brome Flecken,Brome
 2920479,2940416,Calberlah,
 2920479,2938619,Dedelstorf,
 2920479,2937641,Didderse,
@@ -2484,7 +2484,7 @@ parent_code,code,name,aliases
 2920479,2879275,Leiferde,
 2920479,2872255,Meine,
 2920479,2872244,Meinersen,
-2920479,2868861,Müden,
+2920479,2868861,Müden,Müden (Aller)
 2920479,3208615,Obernholz,
 2920479,2856888,Osloß,
 2920479,2855390,Parsau,
@@ -2538,7 +2538,7 @@ parent_code,code,name,aliases
 2922531,2847017,Riegsee,
 2922531,2841124,Saulgrub,
 2922531,2835416,Schwaigen,
-2922531,2833795,Seehausen am Staffelsee,
+2922531,2833795,Seehausen a. Staffelsee,Seehausen am Staffelsee
 2922531,2830768,Spatzenhausen,
 2922531,2820419,Uffing,
 2922531,2820020,Unterammergau,
@@ -2601,7 +2601,7 @@ parent_code,code,name,aliases
 2925190,2929557,Erlau,
 2925190,2928047,Falkenau,
 2925190,2926147,Flöha,Floeha
-2925190,2925630,Frankenberg,
+2925190,2925630,Frankenberg/Sa.,Frankenberg
 2925190,2925557,Frankenstein,
 2925190,2925306,Frauenstein,
 2925190,2925192,Freiberg,
@@ -2644,7 +2644,7 @@ parent_code,code,name,aliases
 2925190,2814956,Waldheim,
 2925190,2813524,Wechselburg,
 2925190,2804674,Zettlitz,
-2925534,2925535,Frankfurt (Oder),
+2925534,2925535,Frankfurt (Oder),Frankfurt an der Oder|Frankfurt|Frankfurt/Oder
 2925546,2925550,Frankenthal,
 2926272,2926271,Flensburg,
 2928748,2958085,Altbach,
@@ -2658,7 +2658,7 @@ parent_code,code,name,aliases
 2928748,2938253,Denkendorf,
 2928748,2937896,Dettingen unter Teck,
 2928748,2929614,Erkenbrechtsweiler,
-2928748,2928751,Esslingen,
+2928748,2928751,Esslingen am Neckar,Esslingen
 2928748,3336891,Filderstadt,
 2928748,2924837,Frickenhausen,
 2928748,2916972,Großbettlingen,
@@ -2695,7 +2695,7 @@ parent_code,code,name,aliases
 2929716,2947316,Bockhorn,
 2929716,2942810,Buch am Buchrain,
 2929716,2936103,Dorfen,
-2929716,2932286,Eichenried,
+2929716,2932286,Eichenried bei Erding,Eichenried
 2929716,2931357,Eitting,
 2929716,2929715,Erding,
 2929716,2926703,Finsing,
@@ -2709,7 +2709,7 @@ parent_code,code,name,aliases
 2929716,2878881,Lengdorf,
 2929716,2869361,Moosinning,
 2929716,2861096,Oberding,
-2929716,2856085,Ottenhofen,
+2929716,2856085,Ottenhofen (Erding),Ottenhofen
 2929716,2855293,Pastetten,
 2929716,2841457,Sankt Wolfgang,
 2929716,2829581,Stammham,
@@ -2962,7 +2962,7 @@ parent_code,code,name,aliases
 2936260,2806847,Wolferstadt,
 2936975,2958813,Aislingen,
 2936975,2953662,Bachhagel,
-2936975,2953636,Bächingen an der Brenz,
+2936975,2953636,Bächingen,Bächingen an der Brenz
 2936975,2948750,Binswangen,
 2936975,2948204,Bissingen,
 2936975,2947713,Blindheim,
@@ -2986,7 +2986,7 @@ parent_code,code,name,aliases
 2936975,2804283,Ziertheim,
 2936975,2803874,Zöschingen,Zoeschingen
 2936975,2803667,Zusamaltheim,
-2937956,2937959,Dessau,
+2937956,2937959,Dessau,Dessau-Roßlau
 2937956,2845914,Rodleben,
 2939657,2955538,Armstorf,
 2939657,2951147,Belum,
@@ -3024,7 +3024,7 @@ parent_code,code,name,aliases
 2939657,2870549,Mittelstenahe,
 2939657,2867748,Mulsum,
 2939657,2865632,Neuenkirchen,
-2939657,2865130,Neuhaus an der Oste,
+2939657,2865130,Neuhaus an der Oste,Neuhaus (Oste) Flecken|Neuhaus (Oste)
 2939657,2861939,Nordholz,
 2939657,2861919,Nordleda,
 2939657,2859600,Oberndorf,
@@ -3083,7 +3083,7 @@ parent_code,code,name,aliases
 2940202,2871287,Michelsneukirchen,
 2940202,2871082,Miltach,
 2940202,2864759,Neukirchen,
-2940202,2864728,Neukirchen beim Heiligen Blut,
+2940202,2864728,Neukirchen beim Heiligen Blut,Neukirchen b.Hl.Blut|Neukirchen
 2940202,2854974,Pemfling,
 2940202,2852535,Pösing,
 2940202,2849170,Reichenbach,
@@ -3109,7 +3109,7 @@ parent_code,code,name,aliases
 2940212,2959538,Adelheidsdorf,
 2940212,2959150,Ahnsbeck,
 2940212,2951616,Beedenbostel,
-2940212,2950622,Bergen,
+2940212,2950622,Bergen (Niedersachsen),Bergen
 2940212,2943998,Bröckel,Broeckel
 2940212,2940213,Celle,
 2940212,2931985,Eicklingen,
@@ -3129,14 +3129,14 @@ parent_code,code,name,aliases
 2940212,2813660,Wathlingen,
 2940212,2809444,Wienhausen,
 2940212,2809092,Wietze,
-2940212,2807846,Winsen,
+2940212,2807846,Winsen,Winsen (Aller)
 2940212,2863818,Winsen (Aller),
 2940384,2957459,Altensteig,
 2940384,2957133,Althengstett,
 2940384,2953440,Bad Herrenalb,
 2940384,2953407,Bad Liebenzell,
 2940384,3206153,Bad Teinach-Zavelstein,
-2940384,2809025,Bad Wildbad,
+2940384,2809025,Bad Wildbad im Schwarzwald,Bad Wildbad
 2940384,2940383,Calw,
 2940384,2936667,Dobel,
 2940384,2933857,Ebhausen,
@@ -3157,7 +3157,7 @@ parent_code,code,name,aliases
 2940384,2831992,Simmozheim,
 2940384,2818889,Unterreichenbach,
 2940384,2809013,Wildberg,
-2944796,2954803,Au,
+2944796,2954803,Au bei Freiburg,Au
 2944796,2954197,Auggen,
 2944796,2953414,Bad Krozingen,
 2944796,2953482,Badenweiler,
@@ -3190,22 +3190,22 @@ parent_code,code,name,aliases
 2944796,2871680,Merzhausen,
 2944796,2867770,Müllheim,
 2944796,2927443,Müllheim-Feldberg,Muellheim-Feldberg
-2944796,6559224,Münstertal/Schwarzwald,Muenstertal/Schwarzwald
+2944796,6559224,Münstertal,Münstertal/Schwarzwald|Muenstertal/Schwarzwald
 2944796,2865813,Neuenburg am Rhein,
 2944796,2859302,Oberried,
 2944796,3209260,Oberrotweil,
 2944796,2854325,Pfaffenweiler,
-2944796,2841521,Sankt Märgen,
 2944796,2841488,Sankt Peter,
 2944796,2840526,Schallstadt,
 2944796,2838208,Schluchsee,
 2944796,2831594,Sölden,
+2944796,2841521,St. Märgen,Sankt Märgen
 2944796,11951569,St. Peter,
 2944796,2829130,Stegen,
 2944796,2824776,Sulzburg,
 2944796,2822083,Titisee-Neustadt,
 2944796,2820190,Umkirch,
-2944796,3209420,Vogtsburg,
+2944796,3209420,Vogtsburg im Kaiserstuhl,Vogtsburg
 2944796,2807215,Wittnau,
 2945354,2945358,Brandenburg an der Havel,
 2947109,2950130,Bermatingen,
@@ -3241,7 +3241,7 @@ parent_code,code,name,aliases
 2947443,2905826,Herrenberg,
 2947443,2904784,Hildrizhausen,
 2947443,2899880,Holzgerlingen,
-2947443,2878695,Leonberg,
+2947443,2878695,Leonberg,Leonberg / Baden-Württemb.
 2947443,2874509,Magstadt,
 2947443,2868967,Mötzingen,
 2947443,2861690,Nufringen,
@@ -3318,7 +3318,7 @@ parent_code,code,name,aliases
 2948163,2806919,Wolfen,
 2948163,2805945,Wulfen,
 2948163,2805357,Zabitz,
-2948163,2804748,Zerbst,
+2948163,2804748,Zerbst/Anhalt,Zerbst
 2948163,2803891,Zörbig,Zoerbig
 2948163,2803823,Zscherndorf,
 2948589,2959841,Abentheuer,
@@ -3418,7 +3418,7 @@ parent_code,code,name,aliases
 2950072,2958121,Alsleben,
 2950072,2956546,Amesdorf,
 2950072,2955168,Aschersleben,
-2950072,2954874,Atzendorf,
+2950072,2954874,Atzendorf (Staßfurt),Atzendorf
 2950072,2953810,Baalberge,
 2950072,3205000,Barby,
 2950072,2951532,Beesenlaublingen,
@@ -3429,14 +3429,14 @@ parent_code,code,name,aliases
 2950072,2946137,Borne,
 2950072,2944598,Breitenhagen,
 2950072,2943292,Brumby,
-2950072,2940419,Calbe,
+2950072,2940419,Calbe,Calbe an der Saale
 2950072,2939946,Cochstedt,
 2950072,2939848,Cörmigk,Coermigk
 2950072,2934892,Drohndorf,
 2950072,2933343,Edlau,
 2950072,2933256,Egeln,
 2950072,2933064,Eggersdorf,
-2950072,2932012,Eickendorf,
+2950072,2932012,Eickendorf,Eickendorf (Bördeland)
 2950072,2928700,Etgersleben,
 2950072,2925902,Förderstedt,Foerderstedt
 2950072,2925245,Freckleben,
@@ -3462,7 +3462,7 @@ parent_code,code,name,aliases
 2950072,2867245,Nachterstedt,
 2950072,2865300,Neugattersleben,
 2950072,2864455,Neundorf,
-2950072,2862621,Nienburg/Saale,
+2950072,2862621,Nienburg (Saale),Nienburg/Saale
 2950072,2855031,Peißen,
 2950072,2853114,Plötzkau,
 2950072,2853113,Plötzky,Ploetzky
@@ -3473,7 +3473,7 @@ parent_code,code,name,aliases
 2950072,3207095,Rathmannsdorf,
 2950072,2840882,Schadeleben,
 2950072,2837385,Schneidlingen,
-2950072,2836809,Schönebeck,Schoenebeck
+2950072,2836809,Schönebeck (Elbe),Schönebeck|Schoenebeck
 2950072,2829422,Staßfurt,
 2950072,2823973,Tarthun,
 2950072,2821777,Tornitz,
@@ -3492,7 +3492,7 @@ parent_code,code,name,aliases
 2950257,2931753,Einhausen,
 2950257,2923543,Fürth,
 2950257,2915128,Groß-Rohrheim,
-2950257,2906268,Heppenheim an der Bergstrasse,
+2950257,2906268,Heppenheim (Bergstraße),Heppenheim an der Bergstrasse
 2950257,2903625,Hirschhorn,
 2950257,2881695,Lampertheim,
 2950257,2877315,Lindenfels,
@@ -3505,13 +3505,13 @@ parent_code,code,name,aliases
 2950257,2814853,Wald-Michelbach,
 2950257,2803515,Zwingenberg,
 2950877,2958831,Ainring,
-2950877,2956119,Anger,
+2950877,2956119,Anger (Berchtesgadener Land),Anger
 2950877,2953371,Bad Reichenhall,
 2950877,2951843,Bayerisch Gmain,
 2950877,2950881,Berchtesgaden,
 2950877,2948265,Bischofswiesen,
 2950877,2925080,Freilassing,
-2950877,2880129,Laufen,
+2950877,2880129,Laufen (Salzach),Laufen
 2950877,2873287,Marktschellenberg,
 2950877,2853855,Piding,
 2950877,2850608,Ramsau,
@@ -3532,6 +3532,7 @@ parent_code,code,name,aliases
 2951880,2930672,Elstra,
 2951880,11102926,Feldschlößchen,Feldschloesschen
 2951880,2925548,Frankenthal,
+2951880,2922233,Gaußig,Huska
 2951880,2919609,Göda,Goeda
 2951880,2916839,Großdubrau,
 2951880,2915552,Großharthau,
@@ -3545,7 +3546,6 @@ parent_code,code,name,aliases
 2951880,2902855,Höckendorf,Hoeckendorf
 2951880,2899013,Horka,
 2951880,2898304,Hoyerswerda,
-2951880,2922233,Huska,
 2951880,2893437,Kamenz,
 2951880,2890273,Kirschau,
 2951880,2887259,Knappenrode,
@@ -3678,7 +3678,7 @@ parent_code,code,name,aliases
 2953415,2861830,Norheim,
 2953415,2861615,Nußbaum,
 2953415,2858875,Oberstreit,
-2953415,2858073,Odernheim,
+2953415,2858073,Odernheim am Glan,Odernheim
 2953415,2855898,Otzweiler,
 2953415,2854346,Pfaffen-Schwabenheim,
 2953415,2853244,Pleitersheim,
@@ -3740,7 +3740,7 @@ parent_code,code,name,aliases
 2953423,3208006,Riedenberg,
 2953423,2836817,Schondra,
 2953423,2824710,Sulzthal,
-2953423,2822571,Thundorf in Unterfranken,
+2953423,2822571,Thundorf i. Unterfranken,Thundorf in Unterfranken|Thundorf i. Ufr.
 2953423,2813888,Wartmannsroth,
 2953423,2808871,Wildflecken,
 2953423,2804925,Zeitlofs,
@@ -3748,7 +3748,7 @@ parent_code,code,name,aliases
 2953523,2953522,Bad Dürkheim,Bad Duerkheim
 2953523,2948206,Bissersheim,
 2953523,2947466,Bobenheim am Berg,
-2953523,2947355,Bockenheim,
+2953523,2947355,Bockenheim an der Weinstraße,Bockenheim
 2953523,2940309,Carlsberg,
 2953523,2939508,Dackenheim,
 2953523,2938465,Deidesheim,
@@ -3788,7 +3788,7 @@ parent_code,code,name,aliases
 2953523,2846066,Rodenbach,
 2953523,2842981,Ruppertsberg,
 2953523,2822323,Tiefenthal,
-2953523,2815739,Wachenheim,
+2953523,2815739,Wachenheim an der Weinstraße,Wachenheim
 2953523,2813638,Wattenheim,
 2953523,2812954,Weidenthal,
 2953523,2812085,Weisenheim am Berg,
@@ -3935,7 +3935,7 @@ parent_code,code,name,aliases
 2957763,2808143,Windischleuba,
 2957763,2807696,Wintersdorf,
 2957763,2804549,Ziegelheim,
-3214107,2925177,Freiburg,
+3214107,2925177,Freiburg im Breisgau,Freiburg
 3214108,2958801,Aitern,
 3214108,2953553,Bad Bellingen,
 3214108,2948746,Binzen,
@@ -3943,7 +3943,7 @@ parent_code,code,name,aliases
 3214108,2933274,Efringen-Kirchen,
 3214108,2931827,Eimeldingen,
 3214108,2926486,Fischingen,
-3214108,2920953,Gersbach (Schopfheim),
+3214108,2920953,Gersbach (Schopfheim),Gersbach|Gersbach im Schwarzwald
 3214108,2917698,Grenzach-Wyhlen,
 3214108,2909892,Hasel,
 3214108,2908913,Hausen,
@@ -3955,7 +3955,7 @@ parent_code,code,name,aliases
 3214108,2843099,Rümmingen,Ruemmingen
 3214108,2840552,Schallbach,
 3214108,2838534,Schliengen,
-3214108,2837074,Schönau im Schwarzwald,Schoenau im Schwarzwald
+3214108,2837074,Schönau im Schwarzwald,Schoenau im Schwarzwald|Schönau
 3214108,2836725,Schönenberg,
 3214108,2836413,Schopfheim,
 3214108,2834129,Schwörstadt,
@@ -3975,7 +3975,7 @@ parent_code,code,name,aliases
 3214109,2955722,Appenweier,
 3214109,3206151,Bad Peterstal-Griesbach,
 3214109,2950492,Berghaupten,
-3214109,2949427,Biberach,
+3214109,2949427,"Biberach, Baden",Biberach
 3214109,2934505,Durbach,
 3214109,2928659,Ettenheim,
 3214109,2926557,Fischerbach,
@@ -3993,7 +3993,7 @@ parent_code,code,name,aliases
 3214109,2891951,Kehl,
 3214109,2890795,Kippenheim,
 3214109,2885483,Kork,
-3214109,2881885,Lahr,
+3214109,2881885,Lahr/Schwarzwald,Lahr
 3214109,2880150,Lauf,
 3214109,2879989,Lautenbach,
 3214109,2874486,Mahlberg,
@@ -4156,7 +4156,7 @@ parent_code,code,name,aliases
 3220725,2876462,Loffenau,
 3220725,2868807,Muggensturm,
 3220725,2856162,Ötigheim,
-3220725,2856086,Ottenhofen,
+3220725,2856086,Ottenhöfen im Schwarzwald,Ottenhofen
 3220725,2855984,Ottersweier,
 3220725,2850257,Rastatt,
 3220725,3209426,Rheinmünster,Rheinmuenster
@@ -4172,7 +4172,7 @@ parent_code,code,name,aliases
 3220738,2907851,Heidenheim an der Brenz,
 3220738,2906194,Herbrechtingen,
 3220738,2905954,Hermaringen,
-3220738,2885912,Königsbronn,
+3220738,2885912,Königsbronn,Kloster Königsbronn
 3220738,2866942,Nattheim,
 3220738,2862825,Niederstotzingen,
 3220738,2831091,Sontheim an der Brenz,
@@ -4265,7 +4265,7 @@ parent_code,code,name,aliases
 3220752,2906531,Hemmingen,
 3220752,2905298,Hessigheim,
 3220752,2890482,Kirchheim am Neckar,
-3220752,2885412,Korntal,
+3220752,2885412,Korntal-Münchingen,Korntal
 3220752,2885408,Kornwestheim,
 3220752,2876604,Löchgau,
 3220752,2875392,Ludwigsburg,
@@ -4376,7 +4376,7 @@ parent_code,code,name,aliases
 3220786,2937904,Dettingen,
 3220786,2937164,Dietenheim,
 3220786,2935647,Dornstadt,
-3220786,2932924,Ehingen,
+3220786,2932924,Ehingen an der Donau,Ehingen
 3220786,2930581,Emeringen,
 3220786,2930579,Emerkingen,
 3220786,2929804,Erbach,
@@ -4487,10 +4487,10 @@ parent_code,code,name,aliases
 3220791,2913847,Guggenhausen,
 3220791,2899040,Horgenzell,
 3220791,2898458,Hoßkirch,
-3220791,2895638,Isny,
+3220791,2895638,Isny im Allgäu,Isny
 3220791,2890199,Kißlegg,
 3220791,2885892,Königseggwald,
-3220791,2878270,Leutkirch,
+3220791,2878270,Leutkirch im Allgäu,Leutkirch
 3220791,2862759,Niederwangen,
 3220791,2849802,Ravensburg,
 3220791,2847156,Riedhausen,
@@ -4498,7 +4498,7 @@ parent_code,code,name,aliases
 3220791,2818471,Unterwaldhausen,
 3220791,2816796,Vogt,
 3220791,2815128,Waldburg,
-3220791,2814270,Wangen,
+3220791,2814270,Wangen im Allgäu,Wangen
 3220791,2812204,Weingarten,
 3220791,2808746,Wilhelmsdorf,
 3220791,2806923,Wolfegg,
@@ -4506,7 +4506,7 @@ parent_code,code,name,aliases
 3220792,3206149,Altes Lager,
 3220792,2818246,Bad Urach,
 3220792,2937898,Dettingen an der Erms,
-3220792,2930080,Eningen unter Achalm,
+3220792,2930080,Eningen,Eningen unter Achalm
 3220792,2919147,Gomadingen,
 3220792,2918431,Grabenstetten,
 3220792,2908575,Hayingen,
@@ -4580,7 +4580,7 @@ parent_code,code,name,aliases
 3220795,2955936,Ansbach,
 3220796,2959502,Adelshofen,
 3220796,2955697,Arberg,
-3220796,2954022,Aurach,
+3220796,2954022,Aurach (Bayern),Aurach
 3220796,2943500,Bruckberg,
 3220796,2942806,Buch am Wald,
 3220796,2941179,Burgoberbach,
@@ -4671,7 +4671,7 @@ parent_code,code,name,aliases
 3220799,2905878,Heroldsberg,
 3220799,2905457,Herzogenaurach,
 3220799,2905372,Heßdorf,
-3220799,2903016,Höchstadt an der Aisch,Hoechstadt an der Aisch
+3220799,2903016,Höchstadt,Höchstadt an der Aisch|Hoechstadt an der Aisch
 3220799,2893881,Kalchreuth,
 3220799,2875983,Lonnerstadt,
 3220799,2873251,Marloffstein,
@@ -4738,9 +4738,9 @@ parent_code,code,name,aliases
 3220802,2820423,Uffenheim,
 3220802,2812854,Weigenheim,
 3220802,2808745,Wilhelmsdorf,
-3220803,2861650,Nuremberg,
+3220803,2861650,Nürnberg,Nuremberg
 3220804,2958534,Alfeld,
-3220804,2958024,Altdorf bei Nürnberg,Altdorf bei Nuernberg
+3220804,2958024,Altdorf bei Nürnberg,Altdorf bei Nuernberg|Altdorf
 3220804,2941090,Burgthann,
 3220804,2930205,Engelthal,
 3220804,2927054,Feucht,
@@ -4760,7 +4760,7 @@ parent_code,code,name,aliases
 3220804,2844126,Röthenbach an der Pegnitz,
 3220804,2843497,Rückersdorf,
 3220804,2837572,Schnaittach,
-3220804,2835421,Schwaig,
+3220804,2835421,Schwaig bei Nürnberg,Schwaig
 3220804,2834955,Schwarzenbruck,
 3220804,2832025,Simmelsdorf,
 3220804,2817717,Velden,
@@ -4785,7 +4785,7 @@ parent_code,code,name,aliases
 3220807,2959142,Aholming,
 3220807,2954608,Auerbach,
 3220807,2953932,Außernzell,
-3220807,2949975,Bernried,
+3220807,2949975,Bernried / Bayer. Wald,Bernried
 3220807,2947439,Böbrach,
 3220807,2942420,Buchhofen,
 3220807,2938540,Deggendorf,
@@ -4890,7 +4890,7 @@ parent_code,code,name,aliases
 3220813,2958908,Aidenbach,
 3220813,2958577,Aldersbach,
 3220813,2923500,Bad Füssing,
-3220813,2917461,Bad Griesbach,
+3220813,2917461,Bad Griesbach im Rottal,Bad Griesbach
 3220813,2949538,Beutelsbach,
 3220813,2944657,Breitenberg,
 3220813,2942290,Büchlberg,Buechlberg
@@ -4904,7 +4904,7 @@ parent_code,code,name,aliases
 3220813,2890499,Kirchham,
 3220813,2885302,Kößlarn,
 3220813,2874127,Malching,
-3220813,2866075,Neuburg,
+3220813,2866075,Neuburg am Inn,Neuburg
 3220813,2865134,Neuhaus am Inn,
 3220813,2864723,Neukirchen vorm Wald,
 3220813,2859512,Obernzell,
@@ -4919,7 +4919,7 @@ parent_code,code,name,aliases
 3220813,2822442,Tiefenbach,
 3220813,2822076,Tittling,
 3220813,2819497,Untergriesbach,
-3220813,2817202,Vilshofen,
+3220813,2817202,Vilshofen an der Donau,Vilshofen
 3220813,2813344,Wegscheid,
 3220813,2807154,Witzmannsberg,
 3220814,2959660,Achslach,
@@ -4967,7 +4967,7 @@ parent_code,code,name,aliases
 3220816,3206682,Mallersdorf-Pfaffenberg,
 3220816,2873667,Mariaposching,
 3220816,2870435,Mitterfels,
-3220816,2864761,Neukirchen,
+3220816,2864761,Neukirchen-Haggn,Neukirchen
 3220816,2862713,Niederwinkling,
 3220816,2859129,Oberschneiding,
 3220816,2855414,Parkstetten,
@@ -4977,8 +4977,8 @@ parent_code,code,name,aliases
 3220816,2850153,Rattenberg,
 3220816,2850141,Rattiszell,
 3220816,2842315,Salching,
-3220816,2930109,Sankt Englmar,
 3220816,2835184,Schwarzach,
+3220816,2930109,St. Englmar,Sankt Englmar
 3220816,2829602,Stallwang,
 3220816,2828911,Steinach,
 3220816,2826120,Straßkirchen,
@@ -4994,8 +4994,8 @@ parent_code,code,name,aliases
 3220817,2911443,Halsbach,
 3220817,2892461,Kastl,
 3220817,2890336,Kirchweidach,
-3220817,2873298,Marktl,
-3220817,2872377,Mehring,
+3220817,2873298,Marktl am Inn,Marktl
+3220817,2872377,Mehring (Oberbayern),Mehring
 3220817,2864387,Neuötting,
 3220817,2854892,Perach,
 3220817,2853253,Pleiskirchen,
@@ -5056,7 +5056,7 @@ parent_code,code,name,aliases
 3220832,2911530,Hallbergmoos,
 3220832,2901670,Hohenkammer,
 3220832,2899033,Hörgertshausen,
-3220832,2890615,Kirchdorf,
+3220832,2890615,Kirchdorf an der Amper,Kirchdorf
 3220832,2884739,Kranzberg,
 3220832,2881244,Langenbach,
 3220832,2873056,Marzling,
@@ -5094,7 +5094,7 @@ parent_code,code,name,aliases
 3220834,2834196,Schwifting,
 3220834,2823214,Thaining,
 3220834,2819825,Unterdießen,
-3220834,2818014,Utting am Ammersee,
+3220834,2818014,Utting am Ammersee,Utting
 3220834,2817239,Vilgertshofen,
 3220834,2812644,Weil,
 3220834,2808306,Windach,
@@ -5149,24 +5149,24 @@ parent_code,code,name,aliases
 3220836,2818879,Unterreit,
 3220836,2814874,Waldkraiburg,
 3220836,2805261,Zangberg,
-3220837,2867714,Munich,
+3220837,2867714,München,Munich|Muenchen
 3220838,2955159,Aschheim,
 3220838,2953829,Aying,
 3220838,2953213,Baierbrunn,
 3220838,2943074,Brunnthal,
-3220838,2935801,Dornach,
-3220838,2927347,Feldkirchen,
-3220838,2922582,Garching,
+3220838,2935801,Dornach bei München,Dornach
+3220838,2927347,Feldkirchen / Münch. Uml.,Feldkirchen
+3220838,2922582,Garching bei München,Garching
 3220838,2918368,Gräfelfing,
 3220838,2918037,Grasbrunn,
 3220838,2914064,Grünwald,
-3220838,2913192,Haar,
+3220838,2913192,Haar bei München,Haar
 3220838,2901872,Hohenbrunn,
 3220838,3205535,Höhenkirchen-Siegertsbrunn,
 3220838,2895643,Ismaning,
 3220838,2866174,Neubiberg,
 3220838,2864303,Neuried,
-3220838,2860525,Oberhaching,
+3220838,2860525,Oberhaching bei München,Oberhaching
 3220838,2859147,Oberschleißheim,
 3220838,2855935,Ottobrunn bei München,Ottobrunn bei Muenchen
 3220838,2853463,Planegg,
@@ -5208,10 +5208,10 @@ parent_code,code,name,aliases
 3220840,2891175,Kiefersfelden,
 3220840,2886446,Kolbermoor,
 3220840,2866175,Neubeuern,
-3220840,2861599,Nußdorf am Inn,
+3220840,2861599,Nußdorf a. Inn,Nußdorf am Inn
 3220840,2861374,Oberaudorf,
 3220840,2854310,Pfaffing,
-3220840,2852101,Prien am Chiemsee,
+3220840,2852101,Prien am Chiemsee,Prien
 3220840,2851801,Prutting,
 3220840,2850705,Ramerberg,
 3220840,2850085,Raubling,
@@ -5240,7 +5240,7 @@ parent_code,code,name,aliases
 3220841,2891069,Kienberg,
 3220841,2890770,Kirchanschöring,
 3220841,2873220,Marquartstein,
-3220841,2861603,Nußdorf,
+3220841,2861603,Nußdorf (Chiemgau),Nußdorf
 3220841,2858424,Obing,
 3220841,2855665,Palling,
 3220841,2854561,Petting,
@@ -5255,7 +5255,7 @@ parent_code,code,name,aliases
 3220841,2829375,Staudach-Egerndach,
 3220841,2824593,Surberg,
 3220841,2824420,Tacherting,
-3220841,2824419,Taching am See,
+3220841,2824419,Taching a. See,Taching am See
 3220841,2822075,Tittmoning,
 3220841,2821517,Traunreut,
 3220841,2821515,Traunstein,
@@ -5267,7 +5267,7 @@ parent_code,code,name,aliases
 3220842,2957469,Altenstadt,
 3220842,2955914,Antdorf,
 3220842,2950078,Bernbeuren,
-3220842,2949976,Bernried,
+3220842,2949976,Bernried am Starnberger See,Bernried
 3220842,2947450,Böbing,Boebing
 3220842,2941319,Burggen,
 3220842,3205523,Eglfing,
@@ -5369,7 +5369,7 @@ parent_code,code,name,aliases
 3220848,2933287,Effeltrich,
 3220848,2933019,Eggolsheim,
 3220848,2932987,Egloffstein,
-3220848,2925910,Forchheim,
+3220848,2925910,Forchheim,Forchheim / Bayern
 3220848,2918767,Gößweinstein,Goessweinstein
 3220848,2918350,Gräfenberg,
 3220848,2911491,Hallerndorf,
@@ -5411,7 +5411,7 @@ parent_code,code,name,aliases
 3220850,2860510,Oberhaid,
 3220850,2860021,Oberkotzau,
 3220850,2849455,Regnitzlosau,
-3220850,2849446,Rehau,
+3220850,2849446,Rehau,Rehau (Raum Hof)
 3220850,2840179,Schauenstein,
 3220850,2835018,Schwarzenbach an der Saale,
 3220850,2833269,Selbitz,
@@ -5453,7 +5453,7 @@ parent_code,code,name,aliases
 3220852,2941207,Burgkunstadt,
 3220852,2934033,Ebensfeld,
 3220852,2903013,Hochstadt am Main,
-3220852,2878074,Lichtenfels,
+3220852,2878074,Lichtenfels / Bayern,Lichtenfels
 3220852,2873302,Marktgraitz,
 3220852,2873278,Marktzeuln,
 3220852,2871367,Michelau,
@@ -5461,7 +5461,6 @@ parent_code,code,name,aliases
 3220852,2812067,Weismain,
 3220853,2955368,Arzberg,
 3220853,2958545,Bad Alexandersbad,
-3220853,2811852,Bad Weißenstadt,
 3220853,2914661,Grub,
 3220853,2903011,Höchstädt im Fichtelgebirge,Hoechstaedt im Fichtelgebirge
 3220853,2901906,Hohenberg an der Eger,
@@ -5471,11 +5470,12 @@ parent_code,code,name,aliases
 3220853,2867198,Nagel,
 3220853,3207412,Röslau,
 3220853,2839066,Schirnding,
-3220853,2836450,Schönwald,Schoenwald
+3220853,2836450,Schönwald in Bayern,Schönwald|Schoenwald
 3220853,2833296,Selb,
 3220853,2822737,Thiersheim,
 3220853,2822736,Thierstein,
 3220853,2820967,Tröstau,Troestau
+3220853,2811852,Weißenstadt,Bad Weißenstadt
 3220853,2805762,Wunsiedel,
 3220854,2956656,Amberg,
 3220855,2958092,Ammerthal,
@@ -5494,7 +5494,7 @@ parent_code,code,name,aliases
 3220855,2901849,Hohenburg,
 3220855,2896523,Illschwang,
 3220855,2892460,Kastl,
-3220855,2885765,Königstein,Koenigstein
+3220855,2885765,Königstein (Oberpfalz),Königstein|Koenigstein
 3220855,2882529,Kümmersbruck,
 3220855,2852637,Poppenricht,
 3220855,2847242,Rieden,
@@ -5585,7 +5585,7 @@ parent_code,code,name,aliases
 3220859,2957735,Altendorf,
 3220859,2953712,Bach,
 3220859,2947090,Bodenwöhr,Bodenwoehr
-3220859,2943425,Bruck,
+3220859,2943425,Bruck i.d. OPf.,Bruck
 3220859,2943217,Brunn,
 3220859,2941190,Burglengenfeld,
 3220859,2937115,Dieterskirchen,
@@ -5619,7 +5619,7 @@ parent_code,code,name,aliases
 3220859,2810840,Wernberg-Köblitz,
 3220859,2807916,Winklarn,
 3220860,2813040,Weiden,
-3220868,2954172,Augsburg,
+3220868,2954172,Augsburg,Augsburg-Innenstadt
 3220871,2959498,Adelsried,
 3220871,2958309,Allmannshofen,
 3220871,2957528,Altenmünster,
@@ -5648,7 +5648,7 @@ parent_code,code,name,aliases
 3220871,2882192,Kutzenhausen,
 3220871,2880965,Langenneufnach,
 3220871,2880758,Langerringen,
-3220871,2880539,Langweid,
+3220871,2880539,Langweid am Lech,Langweid
 3220871,2872126,Meitingen,
 3220871,2871266,Mickhausen,
 3220871,2870628,Mittelneufnach,
@@ -5703,7 +5703,7 @@ parent_code,code,name,aliases
 3220874,2807827,Winterbach,
 3220874,2804313,Ziemetshausen,
 3220883,2892080,Kaufbeuren,
-3220884,2891621,Kempten (Allgäu),Kempten (Allgaeu)
+3220884,2891621,Kempten,Kempten (Allgäu)|Kempten (Allgaeu)
 3220885,2947067,Bodolz,
 3220885,2920796,Gestratz,
 3220885,2914279,Grünenbach,Gruenenbach
@@ -5711,16 +5711,16 @@ parent_code,code,name,aliases
 3220885,2906115,Hergatz,
 3220885,2906110,Hergensweiler,
 3220885,2877550,Lindau,
-3220885,2877336,Lindenberg,
+3220885,2877336,Lindenberg im Allgäu,Lindenberg
 3220885,2874319,Maierhöfen,
 3220885,2862202,Nonnenhorn,
 3220885,2859325,Oberreute,
 3220885,2857205,Opfenbach,
-3220885,2844148,Röthenbach,
+3220885,2844148,Röthenbach (Allgäu),Röthenbach
 3220885,2839980,Scheidegg,
 3220885,2832228,Sigmarszell,
 3220885,2829080,Stiefenhofen,
-3220885,2813756,Wasserburg,
+3220885,2813756,Wasserburg (Bodensee),Wasserburg
 3220885,3205641,Weiler-Simmerberg,
 3220885,2811865,Weißensberg,
 3220886,2956572,Amendingen,
@@ -5836,7 +5836,7 @@ parent_code,code,name,aliases
 3220889,2807718,Winterrieden,
 3220889,2806831,Wolfertschwenden,
 3220889,2806173,Woringen,
-3220890,2955272,Aschaffenburg,
+3220890,2955272,Aschaffenburg,Aschaffenburg / Bayern
 3220892,2959749,Abtswind,
 3220892,2958653,Albertshofen,
 3220892,2949276,Biebelried,
@@ -5892,7 +5892,7 @@ parent_code,code,name,aliases
 3220893,2870567,Mittelsinn,
 3220893,2865795,Neuendorf,
 3220893,2864826,Neuhütten,
-3220893,2864060,Neustadt am Main,
+3220893,2864060,Neustadt a. Main,Neustadt am Main
 3220893,2859010,Obersinn,
 3220893,2855370,Partenstein,
 3220893,2849710,Rechtenbach,
@@ -6019,7 +6019,7 @@ parent_code,code,name,aliases
 3220898,2807757,Winterhausen,
 3220898,2804865,Zell am Main,
 3220905,2944388,Bremen,
-3220906,2944368,Bremerhaven,
+3220906,2944368,Bremerhaven,Kreisfreie Stadt Bremerhaven
 3220962,2938913,Darmstadt,
 3220962,2807141,Wixhausen,
 3220966,3272934,Alsbach-Hähnlein,
@@ -6047,7 +6047,7 @@ parent_code,code,name,aliases
 3220966,2837309,Schneppenhausen,
 3220966,3337504,Seeheim-Jugenheim,
 3220966,2811644,Weiterstadt,
-3220968,2925533,Frankfurt am Main,
+3220968,2925533,Frankfurt am Main,Frankfurt/Main|Frankfurt
 3220969,2954976,Astheim,
 3220969,2950206,Berkach,
 3220969,2949240,Biebesheim,
@@ -6067,7 +6067,7 @@ parent_code,code,name,aliases
 3220969,2879701,Leeheim,
 3220969,3272460,Mörfelden-Walldorf,Moerfelden-Walldorf
 3220969,2866917,Nauheim,
-3220969,2849913,Raunheim,
+3220969,2849913,Raunheim bei Frankfurt,Raunheim
 3220969,3272941,Riedstadt,
 3220969,2842884,Rüsselsheim am Main,Ruesselsheim am Main
 3220969,2826671,Stockstadt am Rhein,
@@ -6079,13 +6079,13 @@ parent_code,code,name,aliases
 3220970,2920085,Glashütten,
 3220970,2917868,Grävenwiesbach,
 3220970,2885760,Königstein im Taunus,Koenigstein im Taunus
-3220970,2883754,Kronberg,
+3220970,2883754,Kronberg im Taunus,Kronberg
 3220970,12035575,Kronberg Tal,
 3220970,2866280,Neu-Anspach,
 3220970,2860917,Oberems,
 3220970,2858738,Oberursel,
 3220970,2837706,Schmitten,
-3220970,2828737,Steinbach am Taunus,
+3220970,2828737,Steinbach,Steinbach am Taunus
 3220970,2818097,Usingen,
 3220970,2813216,Wehrheim,
 3220971,2953419,Bad König,Bad Koenig
@@ -6101,13 +6101,13 @@ parent_code,code,name,aliases
 3220971,2849198,Reichelsheim,
 3220971,2844089,Rothenberg,
 3220971,2811666,Weiten-Gesäß,Weiten-Gesaess
-3220975,2857807,Offenbach,
+3220975,2857807,Offenbach am Main,Offenbach|Frankfurt-Offenbach
 3220978,2937040,Dietzenbach,
 3220978,2935220,Dreieich,
 3220978,2933246,Egelsbach,
 3220978,2904992,Heusenstamm,
 3220978,2881279,Langen,
-3220978,2867985,Mühlheim am Main,Muehlheim am Main
+3220978,2867985,Mühlheim,Mühlheim am Main|Muehlheim am Main
 3220978,2864820,Neu-Isenburg,
 3220978,2858763,Obertshausen,
 3220978,3336893,Rodgau,
@@ -6117,7 +6117,7 @@ parent_code,code,name,aliases
 3220989,2954060,Aulhausen,
 3220989,2953348,Bad Schwalbach,
 3220989,3209911,Burg Hohenstein,
-3220989,2930646,Eltville,
+3220989,2930646,Eltville am Rhein,Eltville
 3220989,2921707,Geisenheim,
 3220989,2896736,Idstein,
 3220989,2891205,Kiedrich,
@@ -6201,7 +6201,7 @@ parent_code,code,name,aliases
 3220993,2897436,Hünfeld,Huenfeld
 3220993,6544447,Kalbach,
 3220993,2882440,Künzell,
-3220993,2864936,Neuhof,
+3220993,2864936,Neuhof (bei Fulda),Neuhof
 3220993,2810706,Petersberg,
 3220993,2852656,Poppenhausen,
 3220993,2850293,Rasdorf,
@@ -6213,7 +6213,7 @@ parent_code,code,name,aliases
 3220994,2939847,Cornberg,
 3220994,2924703,Friedewald,
 3220994,2906088,Heringen,
-3220994,2890485,Kirchheim,
+3220994,2890485,Kirchheim (Hessen),Kirchheim
 3220994,2866511,Nentershausen,
 3220994,2863638,Niederaula,
 3220994,2853900,Philippsthal,
@@ -6228,7 +6228,7 @@ parent_code,code,name,aliases
 3220996,2920389,Gilserberg,
 3220996,2913890,Gudensberg,
 3220996,2913286,Guxhagen,
-3220996,2899478,Homberg,
+3220996,2899478,Homberg (Efze),Homberg
 3220996,2894982,Jesberg,
 3220996,2885479,Körle,
 3220996,2874039,Malsfeld,
@@ -6268,7 +6268,7 @@ parent_code,code,name,aliases
 3220997,2816769,Vöhl,
 3220997,2816616,Volkmarsen,
 3220997,2815101,Waldeck,
-3220997,2808544,Willingen,
+3220997,2808544,Willingen (Upland),Willingen
 3220999,2953336,Bad Sooden-Allendorf,
 3220999,2928967,Eschwege,
 3220999,2917053,Großalmerode,
@@ -6304,7 +6304,7 @@ parent_code,code,name,aliases
 3221011,2815488,Waggum,
 3221011,2813681,Watenbüttel,Watenbuettel
 3221011,2811277,Wenden,
-3221012,2956781,Alt Wallmoden,
+3221012,2956781,Alt Wallmoden,Alt Wallmoden (Wallmoden)
 3221012,2957880,Altenau,
 3221012,2953449,Bad Harzburg,
 3221012,2945055,Braunlage,
@@ -6313,14 +6313,14 @@ parent_code,code,name,aliases
 3221012,2881291,Langelsheim,
 3221012,2877969,Liebenburg,
 3221012,2874832,Lutter am Barenberge,
-3221012,2841672,Sankt Andreasberg,
-3221012,3207078,Schulenberg im Oberharz,
+3221012,3207078,Schulenberg im Oberharz,Schulenberg
 3221012,2833592,Seesen,
+3221012,2841672,St. Andreasberg,Sankt Andreasberg
 3221012,2817394,Vienenburg,
 3221012,2808987,Wildemann,
 3221013,2959548,Adelebsen,
 3221013,2953451,Bad Grund,
-3221013,2953410,Bad Lauterberg im Harz,
+3221013,2953410,Bad Lauterberg,Bad Lauterberg im Harz
 3221013,2953364,Bad Sachsa,
 3221013,2953493,Badenhausen,
 3221013,2948895,Bilshausen,
@@ -6337,10 +6337,10 @@ parent_code,code,name,aliases
 3221013,2920645,Gieboldehausen,
 3221013,2920268,Gittelde,
 3221013,2918632,Göttingen,Goettingen
-3221013,2867613,Hannoversch Münden,Hannoversch Muenden
+3221013,2867613,Hann. Münden,Hannoversch Münden|Hannoversch Muenden
 3221013,2909226,Hattorf,
 3221013,2905496,Herzberg am Harz,
-3221013,2899066,Hörden,Hoerden
+3221013,2899066,Hörden am Harz,Hörden|Hoerden
 3221013,2894576,Jühnde,Juehnde
 3221013,2884597,Krebeck,
 3221013,2881526,Landolfshausen,
@@ -6453,7 +6453,7 @@ parent_code,code,name,aliases
 3221024,2959341,Affinghausen,
 3221024,2955127,Asendorf,
 3221024,2953240,Bahrenborstel,
-3221024,2952767,Barenburg,
+3221024,2952767,Barenburg Flecken,Barenburg
 3221024,2952452,Barnstorf,
 3221024,2952330,Barver,
 3221024,2952252,Bassum,
@@ -6473,7 +6473,7 @@ parent_code,code,name,aliases
 3221024,2898081,Hüde,
 3221024,2890609,Kirchdorf,
 3221024,2878946,Lembruch,
-3221024,2878944,Lemförde,Lemfoerde
+3221024,2878944,Lemförde,Lemfoerde|Lemförde Flecken
 3221024,2874665,Maasen,
 3221024,2873262,Marl,
 3221024,2873153,Martfeld,
@@ -6498,7 +6498,7 @@ parent_code,code,name,aliases
 3221024,2813246,Wehrbleck,
 3221024,2810014,Wetschen,
 3221027,2959374,Aerzen,
-3221027,2953400,Bad Münder am Deister,Bad Muender am Deister
+3221027,2953400,Bad Münder,Bad Münder am Deister|Bad Muender am Deister
 3221027,2953379,Bad Pyrmont,
 3221027,2939862,Coppenbrügge,Coppenbruegge
 3221027,2911271,Hameln,
@@ -6510,20 +6510,20 @@ parent_code,code,name,aliases
 3221033,2952406,Barsinghausen,
 3221033,2945798,Bothfeld,
 3221033,11608801,Burg,
-3221033,2941405,Burgdorf,
+3221033,2941405,Burgdorf,Burgdorf (Region Hannover)
 3221033,2936385,Dollbergen,
-3221033,2933188,Egestorf,
-3221033,2930622,Elze,
+3221033,2933188,Egestorf (Deister),Egestorf
+3221033,2930622,Elze,Wedemark-Elze|Elze (Wedemark)
 3221033,2922586,Garbsen,
-3221033,2922008,Gehrden,
+3221033,2922008,Gehrden bei Hannover,Gehrden
 3221033,2915241,Groß Munzel,
 3221033,2915592,Großgoltern,
-3221033,2910875,Hänigsen,Haenigsen
+3221033,2910875,Hänigsen,Haenigsen|Uetze-Hänigsen
 3221033,2910831,Hannover,
 3221033,11608987,Heideviertel,
 3221033,2906530,Hemmingen,
+3221033,3206434,Isernhagen,Isernhagen-Süd|Isernhagen-Sued
 3221033,2895664,Isernhagen Farster Bauerschaft,
-3221033,3206434,Isernhagen-Süd,Isernhagen-Sued
 3221033,2882087,Laatzen,
 3221033,2881920,Lahe,
 3221033,2881062,Langenhagen,
@@ -6556,7 +6556,6 @@ parent_code,code,name,aliases
 3221036,2938132,Derental,
 3221036,2937399,Dielmissen,
 3221036,2931825,Eimen,
-3221036,2929008,Eschershausen,
 3221036,2923638,Fürstenberg,
 3221036,2919197,Golmbach,
 3221036,2911521,Halle,
@@ -6574,11 +6573,12 @@ parent_code,code,name,aliases
 3221036,2856070,Ottenstein,
 3221036,2855066,Pegestorf,
 3221036,2852858,Polle,
+3221036,2929008,Raabestadt Eschershausen,Eschershausen
 3221036,2829753,Stadtoldendorf,
 3221036,2817951,Vahlbruch,
 3221036,2814288,Wangelnstedt,
 3221038,2950621,Bergen an der Dumme,
-3221038,2939983,Clenze,
+3221038,2939983,Clenze Flecken,Clenze
 3221038,2939093,Damnatz,
 3221038,2938991,Dannenberg,
 3221038,2922438,Gartow,
@@ -6592,8 +6592,8 @@ parent_code,code,name,aliases
 3221038,2882243,Küsten,Kuesten
 3221038,2881106,Langendorf,
 3221038,2875603,Lübbow,
-3221038,2875542,Lüchow,Luechow
-3221038,2875508,Luckau,
+3221038,2875542,Lüchow,Luechow|Lüchow (Wendland)
+3221038,2875508,Luckau (Wendland),Luckau
 3221038,2866046,Neu Darchau,
 3221038,2852135,Prezelle,
 3221038,2837601,Schnackenburg,
@@ -6615,13 +6615,13 @@ parent_code,code,name,aliases
 3221040,2946830,Boitze,
 3221040,2944093,Brietlingen,
 3221040,2939441,Dahlem,
-3221040,2939426,Dahlenburg,
+3221040,2939426,Dahlenburg,Dahlenburg (Flecken)|Dahlenburg Flecken
 3221040,2937809,Deutsch Evern,
 3221040,2933808,Echem,
 3221040,2930602,Embsen,
 3221040,2910973,Handorf,
 3221040,2903480,Hittbergen,
-3221040,2900839,Hohnstorf,
+3221040,2900839,Hohnstorf (Elbe),Hohnstorf
 3221040,2890511,Kirchgellersen,
 3221040,2875438,Lüdersburg,
 3221040,2875115,Lüneburg,Lueneburg
@@ -6629,7 +6629,7 @@ parent_code,code,name,aliases
 3221040,2872117,Melbeck,
 3221040,2867146,Nahrendorf,
 3221040,2866682,Neetze,
-3221040,2857438,Oldendorf,
+3221040,2857438,Oldendorf (Luhe),Oldendorf
 3221040,2851100,Radbruch,
 3221040,2849296,Rehlingen,
 3221040,2848689,Reinstorf,
@@ -6696,9 +6696,9 @@ parent_code,code,name,aliases
 3221044,2856611,Ostereistedt,
 3221044,2849528,Reeßum,
 3221044,2847708,Rhade,
-3221044,2844437,Rotenburg,
+3221044,2844437,Rotenburg,Rotenburg an der Wümme|Rotenburg (Wümme)
 3221044,2841910,Sandbostel,
-3221044,2840070,Scheeßel,
+3221044,2840070,Scheessel,
 3221044,2833884,Seedorf,
 3221044,2833154,Selsingen,
 3221044,2831802,Sittensen,
@@ -6733,12 +6733,12 @@ parent_code,code,name,aliases
 3221046,2930237,Engelschoff,
 3221046,2928711,Estorf,
 3221046,13529692,Fredenbeck,
-3221046,2925181,Freiburg (Elbe) Flecken,
+3221046,2925181,Freiburg (Elbe) Flecken,Freiburg/Elbe
 3221046,2916567,Großenwörden,
 3221046,2914263,Grünendeich,
 3221046,2913888,Guderhandviertel,
 3221046,2911230,Hammah,
-3221046,2829901,Hansestadt Stade,
+3221046,2829901,Hansestadt Stade,Stade
 3221046,2910280,Harsefeld,
 3221046,2907343,Heinbockel,
 3221046,2904543,Himmelpforten,
@@ -6757,9 +6757,9 @@ parent_code,code,name,aliases
 3221046,2807484,Wischhafen,
 3221049,2957538,Altenmedingen,
 3221049,2949511,Bad Bevensen,
+3221049,2947100,Bad Bodenteich,Bodenteich|Bodenteich [< a. 1998]
 3221049,2952340,Barum,
 3221049,2949150,Bienenbüttel,
-3221049,2947100,Bodenteich,
 3221049,2933817,Ebstorf,
 3221049,2931818,Eimke,
 3221049,2930521,Emmendorf,
@@ -6818,14 +6818,14 @@ parent_code,code,name,aliases
 3221064,2952398,Barßel,
 3221064,2945907,Bösel,
 3221064,2941877,Bühren,Buehren
-3221064,2940317,Cappeln,
+3221064,2940317,Cappeln (Oldenburg),Cappeln
 3221064,2939969,Cloppenburg,
 3221064,2930426,Emstek,
-3221064,2928809,Essen,
+3221064,2928809,Essen (Oldenburg),Essen
 3221064,2924360,Friesoythe,
 3221064,2922511,Garrel,
 3221064,2880357,Lastrup,
-3221064,2877216,Lindern,
+3221064,2877216,Lindern (Oldenburg),Lindern
 3221064,2875987,Löningen,Loeningen
 3221064,2870094,Molbergen,
 3221066,2938323,Delmenhorst,
@@ -6847,7 +6847,7 @@ parent_code,code,name,aliases
 3221073,2920914,Gersten,
 3221073,2916974,Groß Berßen,
 3221073,2910971,Handrup,
-3221073,2910514,Haren,
+3221073,2910514,Haren (Ems),Haren
 3221073,2909761,Haselünne,Haseluenne
 3221073,2908350,Heede,
 3221073,2905466,Herzlake,
@@ -6861,7 +6861,7 @@ parent_code,code,name,aliases
 3221073,2880351,Lathen,
 3221073,2879621,Lehe,
 3221073,2878838,Lengerich,
-3221073,2877088,Lingen,
+3221073,2877088,Lingen,Lingen (Ems)
 3221073,2875870,Lorup,
 3221073,3208438,Lünne,Luenne
 3221073,2871845,Meppen,
@@ -6874,7 +6874,7 @@ parent_code,code,name,aliases
 3221073,2855525,Papenburg,
 3221073,2850254,Rastdorf,
 3221073,2848207,Renkenberge,
-3221073,2847688,Rhede,
+3221073,2847688,Rhede (Ems),Rhede
 3221073,2842175,Salzbergen,
 3221073,2840419,Schapen,
 3221073,2831699,Sögel,
@@ -6916,7 +6916,7 @@ parent_code,code,name,aliases
 3221094,2946206,Borkum,
 3221094,2944038,Brinkum,
 3221094,2941693,Bunde,
-3221094,2937944,Detern,
+3221094,2937944,Detern Flecken,Detern
 3221094,2926858,Filsum,
 3221094,2926658,Firrel,
 3221094,2905421,Hesel,
@@ -6930,16 +6930,16 @@ parent_code,code,name,aliases
 3221094,2834271,Schwerinsdorf,
 3221094,2817793,Veenhusen,
 3221094,2813433,Weener,
-3221095,2857458,Oldenburg,
+3221095,2857458,Oldenburg,Oldenburg (Oldenburg)
 3221096,2856883,Osnabrück,Osnabrueck
 3221097,2953136,Bakum,
 3221097,2939167,Damme,
 3221097,2936881,Dinklage,
 3221097,2919310,Goldenstedt,
 3221097,2900740,Holdorf,
-3221097,2876185,Lohne,
+3221097,2876185,Lohne (Oldenburg),Lohne
 3221097,2865639,Neuenkirchen,
-3221097,2828136,Steinfeld,
+3221097,2828136,Steinfeld (Oldenburg),Steinfeld
 3221097,2817812,Vechta,
 3221097,2817139,Visbek,
 3221098,2958523,Alfhausen,
@@ -6962,7 +6962,7 @@ parent_code,code,name,aliases
 3221098,2922012,Gehrde,
 3221098,2921242,Georgsmarienhütte,Georgsmarienhuette
 3221098,2920205,Glandorf,
-3221098,2912618,Hagen,
+3221098,2912618,Hagen am Teutoburger Wald,Hagen|Hagen-Beckerode|Hagen a.T.W.
 3221098,2909915,Hasbergen,
 3221098,2904607,Hilter,
 3221098,2891310,Kettenkamp,
@@ -6978,7 +6978,7 @@ parent_code,code,name,aliases
 3221098,11979289,Rüsfort,Ruesfort
 3221098,2816527,Voltlage,
 3221098,2814632,Wallenhorst,
-3221099,2945545,Brake (Unterweser),
+3221099,2945545,Brake (Unterweser),Brake
 3221099,3336894,Butjadingen,
 3221099,2930726,Elsfleth,
 3221099,13192010,Lemwerder,
@@ -7016,11 +7016,11 @@ parent_code,code,name,aliases
 3221114,2905891,Herne,
 3221121,2957798,Altenbüren,Altenbueren
 3221121,2955471,Arnsberg,
-3221121,2925240,Bad Fredeburg,
 3221121,2949773,Bestwig,
 3221121,2947175,Bödefeld,Boedefeld
 3221121,2944079,Brilon,
 3221121,2928890,Eslohe,
+3221121,2925240,Fredeburg,Bad Fredeburg
 3221121,2911514,Hallenberg,
 3221121,2873211,Marsberg,
 3221121,2872557,Medebach,
@@ -7079,7 +7079,7 @@ parent_code,code,name,aliases
 3221127,2946270,Borgholzhausen,
 3221127,2924621,Friedrichsdorf,
 3221127,2913366,Gütersloh,Guetersloh
-3221127,2911520,Halle,
+3221127,2911520,Halle,Halle (Westfalen)|Halle (Westf.)
 3221127,2910278,Harsewinkel,
 3221127,2881175,Langenberg,
 3221127,2847690,Rheda-Wiedenbrück,Rheda-Wiedenbrueck
@@ -7121,7 +7121,7 @@ parent_code,code,name,aliases
 3231901,2934691,Duisburg,
 3231903,2934246,Düsseldorf,Duesseldorf
 3231904,2928810,Essen,
-3231905,2930509,Emmerich,
+3231905,2930509,Emmerich,Emmerich am Rhein
 3231905,2921528,Geldern,
 3231905,2919625,Goch,
 3231905,2895617,Issum,
@@ -7178,7 +7178,7 @@ parent_code,code,name,aliases
 3247436,2817311,Viersen,
 3247436,2808559,Willich,
 3247437,2860410,Oberhausen,
-3247438,2867838,Mülheim,Muelheim
+3247438,2867838,Mülheim (Ruhr),Mülheim|Muelheim|Mülheim an der Ruhr|Muelheim an der Ruhr
 3247439,2921466,Gelsenkirchen,
 3247440,2945756,Bottrop,
 3247440,3205858,Grafenwald,
@@ -7203,7 +7203,7 @@ parent_code,code,name,aliases
 3247441,2824998,Südlohn,
 3247441,2817704,Velen,
 3247441,2815824,Vreden,
-3247442,2867543,Münster,Muenster
+3247442,2867543,Münster,Muenster|Münster / Nordrhein-Westf.
 3247442,2862632,Nienberge,
 3247443,2957829,Altenberge,
 3247443,2948717,Birgte,
@@ -7213,7 +7213,7 @@ parent_code,code,name,aliases
 3247443,2899135,Hopsten,
 3247443,2898603,Hörstel,Hoerstel
 3247443,2898541,Horstmar,
-3247443,2896817,Ibbenbueren,
+3247443,2896817,Ibbenbüren,Ibbenbueren
 3247443,2881991,Ladbergen,
 3247443,2881973,Laer,
 3247443,2878840,Lengerich,
@@ -7267,7 +7267,7 @@ parent_code,code,name,aliases
 3247446,2810855,Wermelskirchen,
 3247447,2878234,Leverkusen,
 3247447,2857185,Opladen,
-3247448,3247449,Aachen,
+3247448,3247449,Aachen,Kreisfreie Stadt Aachen
 3247448,2958141,Alsdorf,
 3247448,2953302,Baesweiler,
 3247448,2944803,Breinigerberg,
@@ -7278,7 +7278,7 @@ parent_code,code,name,aliases
 3247448,2844277,Roetgen,
 3247448,2842944,Rurberg,
 3247448,2832023,Simmerath,
-3247448,2826595,Stolberg,
+3247448,2826595,"Stolberg, Rheinland",Stolberg
 3247448,2814746,Walheim - Hahn,
 3247448,2805644,Würselen,Wuerselen
 3247450,2946447,Bonn,
@@ -8056,7 +8056,7 @@ parent_code,code,name,aliases
 3247463,2892986,Karbach,
 3247463,2892485,Kastellaun,
 3247463,2891889,Keidelheim,
-3247463,2890660,Kirchberg,
+3247463,2890660,Kirchberg (Hunsrück),Kirchberg
 3247463,2890208,Kisselbach,
 3247463,2887453,Klosterkumbd,
 3247463,2887355,Kludenbach,
@@ -8111,17 +8111,17 @@ parent_code,code,name,aliases
 3247463,2846093,Rödelhausen,
 3247463,2845982,Rödern,
 3247463,2845704,Rohrbach,
-3247463,2841611,Sankt Goar,
 3247463,2841417,Sargenroth,
 3247463,2838504,Schlierschied,
 3247463,2837265,Schnorbach,
 3247463,2836914,Schönborn,
 3247463,2835356,Schwall,
 3247463,2835058,Schwarzen,
-3247463,2832013,Simmern,
+3247463,2832013,Simmern/Hunsrück,Simmern
 3247463,2831634,Sohren,
 3247463,2831626,Sohrschied,
 3247463,2830593,Spesenroth,
+3247463,2841611,St. Goar,Sankt Goar
 3247463,2828806,Steinbach,
 3247463,2822637,Thörlingen,
 3247463,2822432,Tiefenbach,
@@ -8217,7 +8217,7 @@ parent_code,code,name,aliases
 3247464,2820249,Ulmen,
 3247464,2818186,Urmersbach,
 3247464,2818164,Urschmitt,
-3247464,2817894,Valwig,
+3247464,2817894,Valwig bei Cochem,Valwig
 3247464,2815513,Wagenhausen,
 3247464,2814748,Walhausen,
 3247464,2812582,Weiler,
@@ -8273,11 +8273,11 @@ parent_code,code,name,aliases
 3247466,2860372,Oberheimbach,
 3247466,2858239,Ockenheim,
 3247466,2857167,Oppenheim,
-3247466,2841574,Sankt Johann,
 3247466,2835512,Schwabenheim,
 3247466,2833129,Selzen,
 3247466,2830959,Sörgenloch,
 3247466,2830080,Sprendlingen,
+3247466,2841574,St. Johann / Rheinhessen,Sankt Johann
 3247466,3272454,Stadecken-Elsheim,
 3247466,2821408,Trechtingshausen,
 3247466,2820457,Uelversheim,
@@ -8474,7 +8474,7 @@ parent_code,code,name,aliases
 3247904,2807824,Winterbach,
 3247905,2881646,Landau in der Pfalz,
 3247906,8642861,Lachen-Speyerdorf,
-3247906,2864054,Neustadt an der Weinstraße,
+3247906,2864054,Neustadt an der Weinstraße,Neustadt
 3247907,2951206,Bellheim,
 3247907,2950731,Berg,
 3247907,2929507,Erlenbach,
@@ -8609,7 +8609,7 @@ parent_code,code,name,aliases
 3247912,2871016,Minheim,
 3247912,2869734,Monzelfeld,
 3247912,2869306,Morbach,
-3247912,2867844,Mülheim,Muelheim
+3247912,2867844,Mülheim,Muelheim|Mülheim an der Mosel
 3247912,2867341,Musweiler,
 3247912,2865508,Neuerburg,
 3247912,3207532,Neumagen-Dhron,
@@ -9018,7 +9018,7 @@ parent_code,code,name,aliases
 3249068,2847033,Riegelsberg,
 3249068,11002721,Röchling-Höhe,Roechling-Hoehe
 3249068,2842647,Saarbrücken,Saarbruecken
-3249068,2824841,Sulzbach,
+3249068,2824841,Sulzbach/Saar,Sulzbach
 3249068,2816630,Völklingen,Voelklingen
 3249069,2958710,Albersdorf,
 3249069,2955592,Arkebek,
@@ -9099,7 +9099,7 @@ parent_code,code,name,aliases
 3249069,2849273,Rehm-Flehde-Bargen,
 3249069,2848729,Reinsbüttel,Reinsbuettel
 3249069,2841663,Sankt Annen,
-3249069,2841509,Sankt Michaelisdonn,
+3249069,2841509,Sankt Michaelisdonn,St. Michaelisdonn
 3249069,2841383,Sarzbüttel,
 3249069,2840643,Schafstedt,
 3249069,2840566,Schalkholz,
@@ -9208,7 +9208,7 @@ parent_code,code,name,aliases
 3249073,2881019,Langenhorn,
 3249073,2879758,Leck,
 3249073,2878204,Lexgaard,
-3249073,2876837,List,
+3249073,2876837,List auf Sylt,List
 3249073,2875659,Löwenstedt,Loewenstedt
 3249073,2874911,Lütjenholm,Luetjenholm
 3249073,2871243,Midlum,
@@ -9225,7 +9225,7 @@ parent_code,code,name,aliases
 3249073,2857410,Oldenswort,
 3249073,2857407,Oldersbek,
 3249073,2857399,Olderup,
-3249073,3208561,Oldsum,
+3249073,3208561,Oldsum auf Föhr,Oldsum
 3249073,2856765,Ostenfeld,
 3249073,2856398,Oster-Ohrstedt,
 3249073,2856548,Osterhever,
@@ -9272,13 +9272,13 @@ parent_code,code,name,aliases
 3249073,2810058,Westre,
 3249073,2807864,Winnert,
 3249073,2807497,Wisch,
-3249073,2807395,Witsum,
+3249073,2807395,Witsum auf Föhr,Witsum
 3249073,2807388,Wittbek,
 3249073,2807381,Wittdün,
 3249073,2807143,Witzwort,
 3249073,2807136,Wobbenbüll,
 3249073,2805992,Wrixum,
-3249073,2805396,Wyk auf Föhr,Wyk auf Foehr
+3249073,2805396,Wyk auf Föhr,Wyk auf Foehr|Wyck
 3249074,2959084,Ahrensbök,
 3249074,2957557,Altenkrempe,
 3249074,2953347,Bad Schwartau,
@@ -9291,7 +9291,7 @@ parent_code,code,name,aliases
 3249074,2919514,Göhl,Goehl
 3249074,2917724,Gremersdorf,
 3249074,2917150,Grömitz,
-3249074,2916655,Grossenbrode,
+3249074,2916655,Großenbrode,
 3249074,2914642,Grube,
 3249074,2910390,Harmsdorf,
 3249074,2907589,Heiligenhafen,
@@ -9300,7 +9300,7 @@ parent_code,code,name,aliases
 3249074,2892520,Kasseedorf,
 3249074,2891814,Kellenhusen,
 3249074,2878773,Lensahn,
-3249074,2874111,Malente,
+3249074,2874111,Malente,Bad Malente|Malente / Schleswig-Holst.
 3249074,2873929,Manhagen,
 3249074,2864738,Neukirchen,
 3249074,2864034,Neustadt in Holstein,
@@ -9436,8 +9436,8 @@ parent_code,code,name,aliases
 3249075,2855747,Padenstedt,
 3249075,2852019,Prinzenmoor,
 3249075,2851502,Quarnbek,
-3249075,2851085,Rade,
 3249075,2851086,Rade bei Hohenwestedt,
+3249075,2851085,Rade bei Rendsburg,Rade
 3249075,2849541,Reesdorf,
 3249075,2848302,Remmels,
 3249075,2848245,Rendsburg,
@@ -9620,7 +9620,7 @@ parent_code,code,name,aliases
 3249077,2894048,Kaisborstel,
 3249077,2891750,Kellinghusen,
 3249077,2891212,Kiebitzreihe,
-3249077,2887834,Kleve (Steinburg),
+3249077,2887834,Kleve,Kleve (Steinburg)
 3249077,2886303,Kollmar,
 3249077,2886292,Kollmoor,
 3249077,3208304,Krempdorf,
@@ -9689,7 +9689,7 @@ parent_code,code,name,aliases
 3249078,2952633,Bargteheide,
 3249078,3213673,Barnitz,
 3249078,2952415,Barsbüttel,Barsbuettel
-3249078,2945668,Braak,
+3249078,2945668,Braak bei Hamburg,Braak
 3249078,2938379,Delingsdorf,
 3249078,2930852,Elmenhorst,
 3249078,2919880,Glinde,
@@ -9716,7 +9716,7 @@ parent_code,code,name,aliases
 3249078,2852877,Pölitz,Poelitz
 3249078,2849854,Rausdorf,
 3249078,2849320,Rehhorst,
-3249078,2848845,Reinbek,
+3249078,2848845,Reinbek bei Hamburg,Reinbek
 3249078,2848811,Reinfeld,
 3249078,2843094,Rümpel,
 3249078,2832406,Siek,
@@ -9732,7 +9732,7 @@ parent_code,code,name,aliases
 3249078,2805198,Zarpen,
 3249079,2959072,Ahrensfelde,
 3249079,2957103,Althüttendorf,
-3249079,2950096,Bernau bei Berlin,
+3249079,2950096,Bernau,Bernau bei Berlin
 3249079,2949046,Biesenthal,
 3249079,2944028,Britz,
 3249079,2940119,Chorin,
@@ -9761,7 +9761,7 @@ parent_code,code,name,aliases
 3249080,2892570,Kasel-Golzig,
 3249080,2885732,Königs Wusterhausen,Koenigs Wusterhausen
 3249080,2877932,Lieberose,
-3249080,2875625,Lubin,
+3249080,2875625,Lübben,Lubin
 3249080,2875509,Luckau,
 3249080,2873359,Märkisch Buchholz,Maerkisch Buchholz
 3249080,2870481,Mittenwalde,
@@ -9783,14 +9783,14 @@ parent_code,code,name,aliases
 3249081,2926670,Finsterwalde,
 3249081,2917194,Gröden,
 3249081,2914950,Großthiemig,
-3249081,2905504,Herzberg,
+3249081,2905504,Herzberg (Elster),Herzberg
 3249081,2903659,Hirschfeld,
 3249081,2901861,Hohenbucko,
 3249081,2901638,Hohenleipisch,
 3249081,2879794,Lebusa,
 3249081,2878022,Lichterfeld,
 3249081,2871696,Merzdorf,
-3249081,2868531,Mühlberg,Muehlberg
+3249081,2868531,Mühlberg/Elbe,Mühlberg|Muehlberg
 3249081,2853231,Plessa,
 3249081,2843493,Rückersdorf,Rueckersdorf
 3249081,2842258,Sallgast,
@@ -9801,14 +9801,14 @@ parent_code,code,name,aliases
 3249081,2836219,Schraden,
 3249081,2831121,Sonnewalde,
 3249081,2821071,Tröbitz,
-3249081,2820474,Uebigau,
+3249081,2820474,Übigau,Uebigau
 3249082,2944126,Brieselang,
 3249082,6547590,Dallgow-Döberitz,Dallgow-Doeberitz
 3249082,2927930,Falkensee,
 3249082,2924406,Friesack,
 3249082,2916864,Großderschau,
 3249082,2895293,Jahnberge,
-3249082,2891282,Ketzin,
+3249082,2891282,Ketzin/Havel,Ketzin
 3249082,2885097,Kotzen,
 3249082,2866930,Nauen,
 3249082,2866523,Nennhausen,
@@ -9852,7 +9852,7 @@ parent_code,code,name,aliases
 3249083,2805999,Wriezen,
 3249083,2805119,Zechin,
 3249084,2948503,Birkenwerder,
-3249084,2923637,Fürstenberg,Fuerstenberg
+3249084,2923637,Fürstenberg/Havel,Fürstenberg|Fuerstenberg
 3249084,2919908,Glienicke,
 3249084,2918088,Gransee,
 3249084,2914828,Großwoltersdorf,
@@ -9868,6 +9868,7 @@ parent_code,code,name,aliases
 3249084,2805075,Zehdenick,
 3249085,2958036,Altdöbern,
 3249085,2943779,Bronkow,
+3249085,2940424,Calau,Kalawa
 3249085,2925391,Frauendorf,
 3249085,2915410,Großkmehlen,
 3249085,2915157,Großräschen,Grossraeschen
@@ -9875,11 +9876,10 @@ parent_code,code,name,aliases
 3249085,2913421,Guteborn,
 3249085,2905907,Hermsdorf,
 3249085,2901895,Hohenbocka,
-3249085,2940424,Kalawa,
 3249085,2883583,Kroppen,
 3249085,2880221,Lauchhammer,
 3249085,2877425,Lindenau,
-3249085,2875623,Lubnjow,
+3249085,2875623,Lübbenau,Lubnjow|Lübbenau/Spreewald
 3249085,2864377,Neupetershain,
 3249085,2856975,Ortrand,
 3249085,2843256,Ruhland,
@@ -9888,7 +9888,7 @@ parent_code,code,name,aliases
 3249085,2834740,Schwarzheide,
 3249085,2833073,Senftenberg,
 3249085,2823393,Tettau,
-3249085,2817517,Vetschau,
+3249085,2817517,Vetschau/Spreewald,Vetschau
 3249086,2953366,Bad Saarow,
 3249086,2951528,Beeskow,
 3249086,2950196,Berkenbrück,
@@ -9898,7 +9898,7 @@ parent_code,code,name,aliases
 3249086,2931481,Eisenhüttenstadt,Eisenhuettenstadt
 3249086,2929602,Erkner,
 3249086,2924680,Friedland,
-3249086,2923588,Fürstenwalde,Fuerstenwalde
+3249086,2923588,Fürstenwalde,Fuerstenwalde|Fürstenwalde/Spree
 3249086,2915321,Groß Lindow,
 3249086,2914177,Grünheide,Gruenheide
 3249086,2895248,Jacobsdorf,
@@ -9934,7 +9934,7 @@ parent_code,code,name,aliases
 3249087,2814465,Walsleben,
 3249087,2807201,Wittstock,
 3249087,2805483,Wusterhausen,
-3249088,2953316,Bad Wilsnack,
+3249088,2953316,Bahnhof Bad Wilsnack,Bad Wilsnack
 3249088,2950657,Berge,
 3249088,2944865,Breese,
 3249088,2939693,Cumlosen,
@@ -9955,11 +9955,11 @@ parent_code,code,name,aliases
 3249088,2812095,Weisen,
 3249088,2807344,Wittenberge,
 3249089,2944123,Briesen,
-3249089,2941502,Burg,
+3249089,2941502,Burg (Spreewald),Burg
 3249089,2935386,Drachhausen,
 3249089,2935298,Drebkau,
 3249089,2935248,Drehnow,
-3249089,2925832,Forst,
+3249089,2925832,Forst (Lausitz),Forst
 3249089,2916859,Groß Döbbern,Gross Doebbern
 3249089,2915198,Groß Oßnig,
 3249089,2913922,Guben,
@@ -9978,8 +9978,8 @@ parent_code,code,name,aliases
 3249089,2811348,Welzow,
 3249089,2810985,Werben,
 3249090,2952335,Baruth,
-3249090,2948065,Blankenfelde,
 3249090,13526830,Blankenfelde-Mahlow,
+3249090,2948065,Blankenfelde-Mahlow,Blankenfelde
 3249090,2939417,Dahlewitz,
 3249090,2939388,Dahme,
 3249090,2916996,Großbeeren,
@@ -10011,7 +10011,7 @@ parent_code,code,name,aliases
 3249091,2852218,Prenzlau,
 3249091,2839751,Schenkenberg,
 3249091,2836791,Schöneberg,Schoeneberg
-3249091,2834629,Schwedt (Oder),
+3249091,2834629,Schwedt (Oder),Stadt Schwedt/Oder|Schwedt
 3249091,2824020,Tantow,
 3249091,2823533,Templin,
 3249091,2813895,Wartin,
@@ -10057,7 +10057,7 @@ parent_code,code,name,aliases
 3302143,2868222,Mühlen Eichsen,Muehlen Eichsen
 3302143,2866071,Neuburg,
 3302143,2864705,Neukloster,
-3302143,2856197,Ostseebad Boltenhagen,
+3302143,2856197,Ostseebad Boltenhagen,Boltenhagen
 3302143,2853668,Pingelshagen,
 3302143,2853093,Plüschow,Plueschow
 3302143,2852914,Pokrent,
@@ -10085,7 +10085,7 @@ parent_code,code,name,aliases
 3302155,2956339,Amsdorf,
 3302155,2955989,Annarode,
 3302155,2955437,Arnstedt,
-3302155,2954168,Augsdorf,
+3302155,2954168,Augsdorf,Augsdorf (Gerbstedt)
 3302155,2951046,Benndorf,
 3302155,2950998,Bennungen,
 3302155,2950696,Berga,
@@ -10099,7 +10099,6 @@ parent_code,code,name,aliases
 3302155,2944439,Breitungen,
 3302155,2943485,Brücken,Bruecken
 3302155,2933372,Edersleben,
-3302155,7284571,Eisleben Lutherstadt,
 3302155,2930444,Emseloh,
 3302155,3204998,Erdeborn,
 3302155,2924789,Friedeburg,
@@ -10107,7 +10106,7 @@ parent_code,code,name,aliases
 3302155,2919115,Gonna,
 3302155,2915201,Großörner,Grossoerner
 3302155,2908571,Hayn,
-3302155,2908374,Hedersleben,
+3302155,2908374,Hedersleben,Hedersleben (Eisleben)|Hedersleben (Mansfelder Land)
 3302155,2907533,Heiligenthal,
 3302155,2907018,Helbra,
 3302155,2906098,Hergisdorf,
@@ -10115,8 +10114,9 @@ parent_code,code,name,aliases
 3302155,2900759,Holdenstedt,
 3302155,2891844,Kelbra,
 3302155,2887444,Klostermansfeld,
+3302155,7284571,Lutherstadt Eisleben,Eisleben Lutherstadt|Eisleben
 3302155,2874867,Lüttchendorf,Luettchendorf
-3302155,2873852,Mansfeld,
+3302155,2873852,Mansfeld,Mansfeld-Lutherstadt
 3302155,2870700,Mittelhausen,
 3302155,2859277,Oberröblingen,Oberroeblingen
 3302155,2859056,Obersdorf,
@@ -10142,9 +10142,9 @@ parent_code,code,name,aliases
 3302155,2820413,Uftrungen,
 3302155,2817816,Vatterode,
 3302155,2816596,Volkstedt,
-3302155,2815255,Walbeck,
-3302155,2814570,Wallhausen,
-3302155,2814187,Wansleben,
+3302155,2815255,Walbeck,Walbeck (Mansfelder Land)|Walbeck (Hettstedt)
+3302155,2814570,Wallhausen (Helme),Wallhausen
+3302155,2814187,Wansleben am See,Wansleben
 3302155,2811584,Welbsleben,
 3302155,2810000,Wettelrode,
 3302155,2809567,Wiederstedt,
@@ -10165,7 +10165,7 @@ parent_code,code,name,aliases
 3302156,2934852,Droßdorf,
 3302156,2934835,Droyßig,
 3302156,2933720,Eckartsberga,
-3302156,2924862,Freyburg,
+3302156,2924862,Freyburg (Unstrut),Freyburg
 3302156,3209197,Geußnitz,
 3302156,2919979,Gleina,
 3302156,2918941,Görschen,Goerschen
@@ -10185,7 +10185,7 @@ parent_code,code,name,aliases
 3302156,2884657,Krauschwitz,
 3302156,2884308,Kretzschau,
 3302156,2881107,Langendorf,
-3302156,2880228,Laucha,
+3302156,2880228,Laucha an der Unstrut,Laucha
 3302156,2879106,Leißling,
 3302156,2878876,Lengefeld,
 3302156,2875822,Lossa,
@@ -10299,7 +10299,7 @@ parent_code,code,name,aliases
 3302159,2913384,Gutenswegen,
 3302159,2912782,Hadmersleben,
 3302159,2911700,Hakenstedt,
-3302159,2911584,Haldensleben I,
+3302159,2911584,Haldensleben,Haldensleben I
 3302159,2911259,Hamersleben,
 3302159,2910694,Harbke,
 3302159,2905905,Hermsdorf,
@@ -10314,7 +10314,7 @@ parent_code,code,name,aliases
 3302159,2894996,Jersleben,
 3302159,2889801,Klein Ammensleben,
 3302159,2888317,Klein Rodensleben,
-3302159,2888047,Klein Wanzleben,
+3302159,2888047,Klein Wanzleben,Zuckerdorf Klein Wanzleben
 3302159,2883580,Kroppenstedt,
 3302159,2876048,Loitsche,
 3302159,2874446,Mahlwinkel,
@@ -10332,7 +10332,7 @@ parent_code,code,name,aliases
 3302159,2842060,Samswegen,
 3302159,2840902,Schackensleben,
 3302159,2839672,Schermcke,
-3302159,2833801,Seehausen,
+3302159,2833801,Seehausen (Börde),Seehausen
 3302159,2831344,Sommersdorf,
 3302159,2824609,Süplingen,Sueplingen
 3302159,2820178,Ummendorf,
@@ -10356,7 +10356,7 @@ parent_code,code,name,aliases
 3302169,2949364,Bibra,
 3302169,2948345,Birx,
 3302169,2944710,Breitenbach,
-3302169,2944440,Breitungen,
+3302169,2944440,Breitungen/Werra,Breitungen
 3302169,2943697,Brotterode,
 3302169,2940097,Christes,
 3302169,2936966,Dillstädt,
@@ -10407,7 +10407,7 @@ parent_code,code,name,aliases
 3302169,2817325,Viernau,
 3302169,2815373,Wahns,
 3302169,2814685,Wallbach,
-3302169,2814668,Walldorf,
+3302169,2814668,Walldorf,Walldorf (Meiningen)|Walldorf (Werra)
 3302169,2813685,Wasungen,
 3302169,2810775,Wernshausen,
 3302169,2806856,Wölfershausen,Woelfershausen
@@ -10432,6 +10432,7 @@ parent_code,code,name,aliases
 3305808,2932738,Eibenstock,
 3305808,2930662,Elterlein,
 3305808,2929593,Erlabrunn,
+3305808,2890657,Erlbach-Kirchberg,Kirchberg
 3305808,2921522,Gelenau,
 3305808,2920728,Geyer,
 3305808,2918970,Gornau,
@@ -10446,10 +10447,9 @@ parent_code,code,name,aliases
 3305808,2895284,Jahnsdorf,
 3305808,2894814,Johanngeorgenstadt,
 3305808,2894737,Jöhstadt,Joehstadt
-3305808,2890657,Kirchberg,
 3305808,2885746,Königswalde,
-3305808,2882332,Kurort Oberwiesenthal,
-3305808,2879964,Lauter,
+3305808,2882329,Kurort Seiffen/Erzgeb.,Seiffen|Seiffen/Erzgeb.
+3305808,2879964,Lauter-Bernsbach,Lauter
 3305808,2878878,Lengefeld,
 3305808,2875799,Lößnitz,Loessnitz
 3305808,2875286,Lugau,
@@ -10458,6 +10458,7 @@ parent_code,code,name,aliases
 3305808,2871142,Mildenau,
 3305808,2864750,Neukirchen,
 3305808,2863523,Niederdorf,
+3305808,2882332,Oberwiesenthal,Kurort Oberwiesenthal
 3305808,2857918,Oelsnitz,
 3305808,2857484,Olbernhau,
 3305808,2854299,Pfaffroda,
@@ -10471,17 +10472,16 @@ parent_code,code,name,aliases
 3305808,2838628,Schlettau,
 3305808,2837470,Schneeberg,
 3305808,2836581,Schönheide,Schoenheide
-3305808,2834978,Schwarzenberg,
-3305808,2882329,Seiffen,
+3305808,2834978,Schwarzenberg/Erzgeb.,Schwarzenberg
 3305808,2830912,Sosa,
-3305808,2826584,Stollberg,
+3305808,2826584,Stollberg/Erzgeb.,Stollberg
 3305808,2825275,Stützengrün,
 3305808,2824152,Tannenberg,
 3305808,2823081,Thalheim,
 3305808,2822840,Thermalbad Wiesenbad,
 3305808,2822595,Thum,
 3305808,2817616,Venusberg,
-3305808,2814877,Waldkirchen,
+3305808,2814877,Waldkirchen/Erzgeb.,Waldkirchen
 3305808,2809367,Wiesa,
 3305808,2806474,Wolkenstein,
 3305808,2803972,Zöblitz,Zoeblitz
@@ -10509,7 +10509,7 @@ parent_code,code,name,aliases
 3305812,2882335,Kurort Gohrisch,
 3305812,2877891,Liebstadt,
 3305812,2876212,Lohmen,
-3305812,2864089,Neustadt in Sachsen,
+3305812,2864089,Neustadt i. Sa.,Neustadt in Sachsen
 3305812,2861136,Obercunnersdorf,
 3305812,2853572,Pirna,
 3305812,2852591,Porschdorf,
@@ -10527,11 +10527,12 @@ parent_code,code,name,aliases
 3305827,2958436,Allendorf an der Lahn,
 3305827,2958434,Allendorf an der Lumda,
 3305827,2957761,Alten Buseck,
+3305827,2916650,Buseck,Großen Buseck
 3305827,2920512,Gießen,
-3305827,2916650,Großen Buseck,
 3305827,2914432,Grünberg,Gruenberg
 3305827,2905070,Heuchelheim,
 3305827,2897431,Hungen,
+3305827,2827991,Hungen-Steinheim,Steinheim
 3305827,2880672,Langgöns,
 3305827,2880308,Laubach,
 3305827,2878166,Lich,
@@ -10539,7 +10540,6 @@ parent_code,code,name,aliases
 3305827,7576812,Rabenau,
 3305827,2848543,Reiskirchen,
 3305827,2829322,Staufenberg,
-3305827,2827991,Steinheim,
 3305827,2821033,Trohe,
 6547383,2950159,Berlin,
 6547384,2959390,Adorf,
@@ -10552,7 +10552,7 @@ parent_code,code,name,aliases
 6547384,2931097,Ellefeld,
 6547384,2930687,Elsterberg,
 6547384,2929541,Erlbach,
-6547384,2927913,Falkenstein,
+6547384,2927913,Falkenstein/Vogtland,Falkenstein
 6547384,2914457,Grünbach,Gruenbach
 6547384,2911145,Hammerbrücke,Hammerbruecke
 6547384,2887713,Klingenthal,
@@ -10567,12 +10567,12 @@ parent_code,code,name,aliases
 6547384,2866304,Netzschkau,
 6547384,2865575,Neuensalz,
 6547384,2864558,Neumark,
-6547384,2864098,Neustadt Vogtland,
-6547384,2857919,Oelsnitz,
+6547384,2864098,Neustadt/Vogtl.,Neustadt Vogtland|Neustadt Vogtl.|Neustadt/Vogtland
+6547384,2857919,Oelsnitz im Vogtland,Oelsnitz|Oelsnitz/Vogtl.
 6547384,2855175,Pausa,
 6547384,2853292,Plauen,
 6547384,2852994,Pöhl,
-6547384,2849156,Reichenbach/Vogtland,
+6547384,2849156,Reichenbach/Vogtland,Reichenbach|Reichenbach im Vogtland
 6547384,2847765,Reuth,
 6547384,2845953,Rodewisch,
 6547384,2836772,Schöneck,Schoeneck
@@ -10589,7 +10589,7 @@ parent_code,code,name,aliases
 6547387,2955633,Arenshausen,
 6547387,2950139,Berlingerode,
 6547387,2948588,Birkenfelde,
-6547387,2948305,Bischofferode,
+6547387,2948305,Bischofferode (Am Ohmberg),Bischofferode
 6547387,2946117,Bornhagen,
 6547387,2944834,Brehme,
 6547387,2944516,Breitenworbis,
@@ -10613,7 +10613,7 @@ parent_code,code,name,aliases
 6547387,2920873,Gerterode,
 6547387,2920161,Glasehausen,
 6547387,2917002,Großbartloff,
-6547387,2916949,Großbodungen,
+6547387,2916949,Großbodungen (Am Ohmberg),Großbodungen
 6547387,2908863,Hausen,
 6547387,2908565,Haynrode,
 6547387,2907545,Heilbad Heiligenstadt,
@@ -10635,7 +10635,7 @@ parent_code,code,name,aliases
 6547387,2874842,Lutter,
 6547387,2874615,Mackenrode,
 6547387,2873150,Marth,
-6547387,2864088,Neustadt,
+6547387,2864088,Neustadt,Neustadt (Eichsfeld)|Neustadt (Am Ohmberg)
 6547387,2863012,Niederorschel,
 6547387,2854296,Pfaffschwende,
 6547387,2848757,Reinholterode,
@@ -10647,7 +10647,7 @@ parent_code,code,name,aliases
 6547387,2834146,Schwobfeld,
 6547387,2832772,Sickerode,
 6547387,2832371,Siemerode,
-6547387,2828788,Steinbach,
+6547387,2828788,Steinbach (Eichsfeld),Steinbach
 6547387,2827983,Steinheuterode,
 6547387,2827702,Steinrode,
 6547387,2823951,Tastungen,
@@ -10734,7 +10734,7 @@ parent_code,code,name,aliases
 6547389,2873227,Marolterode,
 6547389,2871884,Menteroda,
 6547389,2870565,Mittelsömmern,
-6547389,2867996,Mühlhausen,Muehlhausen
+6547389,2867996,Mühlhausen,Muehlhausen|Mühlhausen/Thüringen
 6547389,2863516,Niederdorla,
 6547389,2861059,Oberdorla,
 6547389,2859800,Obermehler,
@@ -10748,8 +10748,8 @@ parent_code,code,name,aliases
 6547389,2818243,Urbach,
 6547389,3207142,Urleben,
 6547390,2959773,Abtsbessingen,
-6547390,2955394,Artern,
-6547390,2953459,Bad Frankenhausen,
+6547390,2955394,Artern/Unstrut,Artern
+6547390,2953459,Bad Frankenhausen/Kyffhäuser,Bad Frankenhausen
 6547390,2953377,Badra,
 6547390,2951177,Bellstedt,
 6547390,2951120,Bendeleben,
@@ -10852,7 +10852,7 @@ parent_code,code,name,aliases
 6547392,2871441,Meuselbach,
 6547392,2866900,Naundorf,
 6547392,2860505,Oberhain,
-6547392,2858586,Oberweißbach,
+6547392,2858586,Oberweißbach,Oberweißbach/Thüringer Wald
 6547392,2851928,Probstzella,
 6547392,2849155,Reichenbach,
 6547392,2848994,Reichmannsdorf,
@@ -10860,7 +10860,7 @@ parent_code,code,name,aliases
 6547392,2843738,Rottenbach,
 6547392,2843496,Rückersdorf,Rueckersdorf
 6547392,2843355,Rudolstadt,
-6547392,2842688,Saalfeld,
+6547392,2842688,Saalfeld,Saalfeld/Saale
 6547392,2837780,Schmiedefeld,
 6547392,2835105,Schwarzburg,
 6547392,2831787,Sitzendorf,
@@ -11093,8 +11093,8 @@ parent_code,code,name,aliases
 8648342,2870926,Mistorf,
 8648342,2869882,Mönchhagen,Moenchhagen
 8648342,2867929,Mühl Rosin,Muehl Rosin
-8648342,2856193,Ostseebad Kühlungsborn,Ostseebad Kuehlungsborn
-8648342,2856192,Ostseebad Nienhagen,
+8648342,2856193,Ostseebad Kühlungsborn,Ostseebad Kuehlungsborn|Kühlungsborn
+8648342,2856192,Ostseebad Nienhagen,Nienhagen
 8648342,2855623,Pampow,
 8648342,2855518,Papendorf,
 8648342,2853494,Plaaz,
@@ -11135,7 +11135,7 @@ parent_code,code,name,aliases
 8648412,2952857,Banzkow,
 8648412,2949802,Besitz,
 8648412,2947733,Blievenstorf,
-8648412,2946821,Boizenburg,
+8648412,2946821,Boizenburg/Elbe,Boizenburg
 8648412,2946210,Borkow,
 8648412,2945565,Brahlstorf,
 8648412,2944228,Bresegard bei Eldena,
@@ -11321,7 +11321,7 @@ parent_code,code,name,aliases
 8648413,2818099,Userin,
 8648413,2817404,Vielist,
 8648413,2816548,Vollrathsruhe,
-8648413,2814131,Waren,
+8648413,2814131,Waren (Müritz),Waren
 8648413,2814010,Warsow,
 8648413,2810662,Wesenberg,
 8648413,2809009,Wildberg,
@@ -11368,7 +11368,7 @@ parent_code,code,name,aliases
 8648415,2891653,Kemnitz,
 8648415,2889642,Klein Bünzow,Klein Buenzow
 8648415,2885386,Korswandt,
-8648415,2885338,Koserow,
+8648415,2885338,Koserow/Insel Usedom,Koserow
 8648415,2885027,Krackow,
 8648415,2883942,Krien,
 8648415,2883560,Kröslin,Kroeslin
@@ -11389,10 +11389,10 @@ parent_code,code,name,aliases
 8648415,2866677,Neetzow,
 8648415,2866152,Neu Boltenhagen,
 8648415,2864679,Neu Kosenow,
-8648415,2833987,Osteseebad Karlshagen,
+8648415,2833987,Osteseebad Karlshagen,Karlshagen
 8648415,2804109,Ostseebad Zinnowitz,
 8648415,2855337,Pasewalk,
-8648415,2854957,Penkun,
+8648415,2854957,Penkun,Stadt Penkun
 8648415,2850468,Rankwitz,
 8648415,2845383,Rollwitz,
 8648415,2843535,Rubkow,
@@ -11400,14 +11400,14 @@ parent_code,code,name,aliases
 8648415,2836442,Schönwalde,Schoenwalde
 8648415,2804787,Seebad Zempin,
 8648415,2830807,Spantekow,
+8648415,2818107,Stadt Usedom,Usedom
 8648415,2826537,Stolpe,
-8648415,2826258,Strasburg,
+8648415,2826258,Strasburg (Uckermark),Strasburg
 8648415,2821802,Torgelow,
 8648415,2821546,Trassenheide,
 8648415,2820704,Tutow,
 8648415,2820471,Ueckermünde,Ueckermuende
-8648415,2917788,Universitäts- und Hansestadt Greifswald,
-8648415,2818107,Usedom,
+8648415,2917788,Universitäts- und Hansestadt Greifswald,Greifswald|Greifswald / Vorpommern
 8648415,2817375,Viereck,
 8648415,2816531,Völschow,Voelschow
 8648415,2811665,Weitenhagen,

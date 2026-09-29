@@ -1,23 +1,23 @@
 parent_code,code,name,aliases
-2523119,2525763,Agrigento,
+2523119,2525763,Agrigento,Libero Consorzio Comunale di Agrigento
 2523119,2525447,Caltanissetta,Provincia di Caltanissetta
-2523119,2525065,Catania,
-2523119,2524818,Enna,
-2523119,2524169,Messina,
-2523119,2523918,Palermo,
-2523119,2523649,Ragusa,
+2523119,2525065,Catania,Provincia di Catania|Città Metropolitana di Catania
+2523119,2524818,Enna,Provincia di Enna|Libero Consorzio Comunale di Enna
+2523119,2523649,Libero Consorzio Comunale di Ragusa,Ragusa
+2523119,2524169,Messina,Provincia di Messina|Città Metropolitana di Messina
+2523119,2523918,Palermo,Provincia di Palermo|Città Metropolitana di Palermo
 2523119,2523082,Siracusa,Provincia di Siracusa
-2523119,2522875,Trapani,
+2523119,2522875,Trapani,Libero Consorzio Comunale di Trapani
 2523228,2525471,Cagliari,Provincia di Cagliari
 2523228,3172153,Nuoro,Provincia di Nuoro
 2523228,2523962,Oristano,Provincia di Oristano
-2523228,11550038,Provincia del Sud Sardegna,
+2523228,11550038,Provincia del Sud Sardegna,Sud Sardegna
 2523228,3167094,Sassari,Provincia di Sassari
 2525468,2525058,Catanzaro,Provincia di Catanzaro
 2525468,2524906,Cosenza,Provincia di Cosenza
 2525468,6458615,Crotone,Provincia di Crotone
 2525468,2523629,Reggio Calabria,Provincia di Reggio Calabria
-2525468,6457405,Vibo-Valentia,Provincia di Vibo-Valentia
+2525468,6457405,Vibo Valentia,Provincia di Vibo-Valentia|Provincia di Vibo Valentia
 3164604,3182209,Belluno,Provincia di Belluno
 3164604,3171727,Padova,Provincia di Padova
 3164604,3168842,Rovigo,Provincia di Rovigo
@@ -25,23 +25,23 @@ parent_code,code,name,aliases
 3164604,3164600,Venezia,Provincia di Venezia
 3164604,3164526,Verona,Provincia di Verona
 3164604,3164418,Vicenza,Provincia di Vicenza
-3164857,3182996,Valle d'Aosta,
+3164857,3182996,Aosta,Valle d'Aosta|Provincia di Aosta
 3165048,3171179,Perugia,Provincia di Perugia
 3165048,3165770,Terni,Provincia di Terni
-3165244,3181912,Bolzano,
-3165244,3165241,Provincia autonoma di Trento,
+3165244,3181912,Bolzano,Alto Adige|Provincia di Bolzano|Provincia Autonoma di Bolzano
+3165244,3165241,Trento,Provincia autonoma di Trento|Provincia di Trento
+3165361,3182882,Arezzo,Province of Arezzo|Provincia di Arezzo
+3165361,3176958,Firenze,Province of Florence|Provincia di Firenze
 3165361,3175784,Grosseto,Provincia di Grosseto
 3165361,3174658,Livorno,Provincia di Livorno
 3165361,3174529,Lucca,Provincia di Lucca
 3165361,3173767,Massa-Carrara,Provincia di Massa-Carrara
+3165361,3170646,Pisa,Province of Pisa|Provincia di Pisa
 3165361,3170620,Pistoia,Provincia di Pistoia
 3165361,6458618,Prato,Provincia di Prato
-3165361,3182882,Province of Arezzo,
-3165361,3176958,Province of Florence,
-3165361,3170646,Province of Pisa,
 3165361,3166546,Siena,Provincia di Siena
-3169778,3182350,Bari,
-3169778,6955699,Barletta - Andria - Trani,Provincia di Barletta - Andria - Trani
+3169778,3182350,Bari,Città Metropolitana di Bari
+3169778,6955699,Barletta - Andria - Trani,Provincia di Barletta - Andria - Trani|Barletta-Andria-Trani
 3169778,3181526,Brindisi,Provincia di Brindisi
 3169778,3176884,Foggia,Provincia di Foggia
 3169778,3174952,Lecce,Provincia di Lecce
@@ -51,16 +51,16 @@ parent_code,code,name,aliases
 3170831,6457397,Biella,Provincia di Biella
 3170831,3177699,Cuneo,Provincia di Cuneo
 3170831,3172188,Novara,Provincia di Novara
-3170831,3164567,Provincia Verbano-Cusio-Ossola,
-3170831,3165523,Torino,
+3170831,3165523,Torino,Provincia di Torino|Città Metropolitana di Torino
+3170831,3164567,Verbano-Cusio-Ossola,Provincia Verbano-Cusio-Ossola|Verbania|VCO|Provincia del Verbano-Cusio-Ossola
 3170831,3164564,Vercelli,Provincia di Vercelli
 3173222,3180990,Campobasso,Provincia di Campobasso
 3173222,3175444,Isernia,Provincia di Isernia
 3174004,3183087,Ancona,Provincia di Ancona
 3174004,3182748,Ascoli Piceno,Provincia di Ascoli Piceno
+3174004,6955471,Fermo,Province of Fermo|Provincia di Fermo
 3174004,3174379,Macerata,Provincia di Macerata
 3174004,3171172,Pesaro e Urbino,Provincia di Pesaro e Urbino
-3174004,6955471,Province of Fermo,
 3174618,3182163,Bergamo,Provincia di Bergamo
 3174618,3181553,Brescia,Provincia di Brescia
 3174618,3178227,Como,Provincia di Como
@@ -68,8 +68,8 @@ parent_code,code,name,aliases
 3174618,6458616,Lecco,Provincia di Lecco
 3174618,6458617,Lodi,Provincia di Lodi
 3174618,3174050,Mantova,Provincia di Mantova
-3174618,3173434,Milano,Città metropolitana di Milano
-3174618,6955700,Monza e della Brianza,Provincia di Monza e della Brianza
+3174618,3173434,Milano,Città metropolitana di Milano|Provincia di Milano
+3174618,6955700,Monza e Brianza,Provincia di Monza e della Brianza|Provincia di Monza|Monza Brianza|Provincia di Monza e Brianza|Monza e della Brianza
 3174618,3171364,Pavia,Provincia di Pavia
 3174618,3166396,Sondrio,Provincia di Sondrio
 3174618,3164697,Varese,Provincia di Varese
@@ -80,15 +80,15 @@ parent_code,code,name,aliases
 3174976,3176513,Frosinone,Provincia di Frosinone
 3174976,3175057,Latina,Provincia di Latina
 3174976,3169411,Rieti,Provincia di Rieti
-3174976,3169069,Roma Capitale,Città metropolitana di Roma Capitale
+3174976,3169069,Roma,Città metropolitana di Roma Capitale|Provincia di Roma
 3174976,3164038,Viterbo,Provincia di Viterbo
-3176525,3175985,Gorizia,
-3176525,3170146,Pordenone,
-3176525,3165184,Trieste,
-3176525,3165071,Udine,
-3177401,3181927,Bologna,
+3176525,3175985,Gorizia,Provincia di Gorizia|Ente di Decentramento Regionale di Gorizia
+3176525,3170146,Pordenone,Provincia di Pordenone|Ente di Decentramento Regionale di Pordenone
+3176525,3165184,Trieste,Provincia di Trieste|Ente di Decentramento Regionale di Trieste
+3176525,3165071,Udine,Provincia di Udine|Ente di Decentramento Regionale di Udine
+3177401,3181927,Città Metropolitana di Bologna,Bologna
 3177401,3177088,Ferrara,Provincia di Ferrara
-3177401,3176745,Forlì-Cesena,Provincia di Forlì-Cesena
+3177401,3176745,Forlì-Cesena,Provincia di Forlì-Cesena|Provincia di Cesena
 3177401,3173330,Modena,Provincia di Modena
 3177401,3171456,Parma,Provincia di Parma
 3177401,3171057,Piacenza,Provincia di Piacenza
@@ -98,11 +98,11 @@ parent_code,code,name,aliases
 3181042,3182649,Avellino,Provincia di Avellino
 3181042,3182178,Benevento,Provincia di Benevento
 3181042,3179865,Caserta,Provincia di Caserta
-3181042,3172391,Napoli,
+3181042,3172391,Napoli,Provincia di Napoli|Città Metropolitana di Napoli
 3181042,3168670,Salerno,Provincia di Salerno
 3182306,3173718,Matera,Provincia di Matera
 3182306,3170025,Potenza,Provincia di Potenza
 3183560,3178795,Chieti,Provincia di Chieti
 3183560,3171163,Pescara,Provincia di Pescara
-3183560,3175120,Provincia dell' Aquila,
+3183560,3175120,Provincia dell’Aquila,Provincia dell' Aquila|L'Aquila
 3183560,3165802,Teramo,Provincia di Teramo

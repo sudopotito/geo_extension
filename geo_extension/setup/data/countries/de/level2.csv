@@ -1,6 +1,5 @@
 parent_code,code,name,aliases
 2822542,2957763,Altenburger Land,
-2822542,6547387,Eichsfeld,
 2822542,6547391,Ilm-Kreis,
 2822542,2929668,Kreisfreie Stadt Erfurt,
 2822542,2921230,Kreisfreie Stadt Gera,
@@ -8,19 +7,20 @@ parent_code,code,name,aliases
 2822542,2824945,Kreisfreie Stadt Suhl,
 2822542,2812479,Kreisfreie Stadt Weimar,
 2822542,6547390,Kyffhäuserkreis,Kyffhaeuserkreis
+2822542,6547387,Landkreis Eichsfeld,Eichsfeld
 2822542,2918750,Landkreis Gotha,
 2822542,2917735,Landkreis Greiz,
 2822542,2904803,Landkreis Hildburghausen,
 2822542,2861979,Landkreis Nordhausen,
+2822542,6547392,Landkreis Saalfeld-Rudolstadt,Saalfeld-Rudolstadt
 2822542,3302169,Landkreis Schmalkalden-Meiningen,
 2822542,2831402,Landkreis Sömmerda,Landkreis Soemmerda
 2822542,2831245,Landkreis Sonneberg,
+2822542,2812480,Landkreis Weimarer Land,Weimarer Land
 2822542,6547393,Saale-Holzland-Kreis,
 2822542,6547394,Saale-Orla-Kreis,
-2822542,6547392,Saalfeld-Rudolstadt,
 2822542,6547389,Unstrut-Hainich-Kreis,
-2822542,6547388,Wartburgkreis,
-2822542,2812480,Weimarer Land,
+2822542,6547388,Wartburgkreis,Bad Salzungen
 2838632,3249069,Kreis Dithmarschen,
 2838632,2905434,Kreis Herzogtum Lauenburg,
 2838632,3249073,Kreis Nordfriesland,
@@ -37,17 +37,17 @@ parent_code,code,name,aliases
 2838632,3249071,Kreisfreie Stadt Lübeck,Kreisfreie Stadt Luebeck
 2838632,3249072,Kreisfreie Stadt Neumünster,Kreisfreie Stadt Neumuenster
 2842565,2842111,Altmarkkreis Salzwedel,
-2842565,2948163,Anhalt-Bitterfeld,
-2842565,3302159,Börde,Boerde
 2842565,3302156,Burgenlandkreis,
 2842565,2937956,Dessau-Roßlau,
-2842565,3302158,Jerichower Land,
 2842565,2911516,Kreisfreie Stadt Halle,
-2842565,2874544,Landeshauptstadt Magdeburg,
+2842565,2948163,Landkreis Anhalt-Bitterfeld,Anhalt-Bitterfeld|Kreis Anhalt-Bitterfeld
+2842565,3302159,Landkreis Börde,Börde|Boerde
 2842565,2911664,Landkreis Harz,
+2842565,3302158,Landkreis Jerichower Land,Jerichower Land
+2842565,3302155,Landkreis Mansfeld-Südharz,Mansfeld-Südharz|Mansfeld-Suedharz|Kreis Mansfeld-Südharz
 2842565,2827478,Landkreis Stendal,
 2842565,2807345,Landkreis Wittenberg,
-2842565,3302155,Mansfeld-Südharz,Mansfeld-Suedharz
+2842565,2874544,Magdeburg,Landeshauptstadt Magdeburg
 2842565,2842671,Saalekreis,
 2842565,2950072,Salzlandkreis,
 2842566,3305808,Erzgebirgskreis,
@@ -60,7 +60,7 @@ parent_code,code,name,aliases
 2842566,2872153,Landkreis Meißen,
 2842566,2925190,Landkreis Mittelsachsen,
 2842566,2821806,Landkreis Nordsachsen,
-2842566,3305812,Landkreis Sächsische Schweiz,Landkreis Saechsische Schweiz
+2842566,3305812,Landkreis Sächsische Schweiz-Osterzgebirge,Landkreis Sächsische Schweiz|Landkreis Saechsische Schweiz
 2842566,6547384,Vogtlandkreis,
 2842566,2803558,Zwickau,
 2842635,2871673,Landkreis Merzig-Wadern,
@@ -99,11 +99,11 @@ parent_code,code,name,aliases
 2847618,3247458,Landkreis Neuwied,
 2847618,2825001,Landkreis Südliche Weinstraße,Landkreis Suedliche Weinstrasse
 2847618,2821160,Landkreis Trier-Saarburg,
+2847618,3247914,Landkreis Vulkaneifel,Vulkaneifel
 2847618,3247463,Rhein-Hunsrück-Kreis,Rhein-Hunsrueck-Kreis
 2847618,3247462,Rhein-Lahn-Kreis,
 2847618,3247909,Rhein-Pfalz-Kreis,
 2847618,3247904,Südwestpfalz,Suedwestpfalz
-2847618,3247914,Vulkaneifel,
 2847618,3247457,Westerwaldkreis,
 2861876,2930044,Ennepe-Ruhr-Kreis,
 2861876,3221121,Hochsauerlandkreis,
@@ -161,11 +161,10 @@ parent_code,code,name,aliases
 2862926,3221066,Delmenhorst,
 2862926,3221011,Kreisfreie Stadt Braunschweig,
 2862926,3221070,Kreisfreie Stadt Emden,
-2862926,3221095,Kreisfreie Stadt Oldenburg,
+2862926,3221095,Kreisfreie Stadt Oldenburg (Oldenburg),Kreisfreie Stadt Oldenburg
 2862926,3221096,Kreisfreie Stadt Osnabrück,Kreisfreie Stadt Osnabrueck
 2862926,3221018,Kreisfreie Stadt Salzgitter,
 2862926,3221100,Kreisfreie Stadt Wilhelmshaven,
-2862926,3221023,Kreisfreie Stadt Wolfsburg,
 2862926,3221058,Landkreis Ammerland,
 2862926,3221059,Landkreis Aurich,
 2862926,2940212,Landkreis Celle,
@@ -203,30 +202,31 @@ parent_code,code,name,aliases
 2862926,3221020,Landkreis Wolfenbüttel,Landkreis Wolfenbuettel
 2862926,3221033,Region Hannover,
 2862926,3221044,Rotenburg (Wümme),Rotenburg (Wuemme)
-2872567,2844587,Kreisfreie Stadt Rostock,
+2862926,3221023,Stadt Wolfsburg,Kreisfreie Stadt Wolfsburg
+2872567,2844587,Hanse- und Universitätsstadt Rostock,Kreisfreie Stadt Rostock
 2872567,2834281,Kreisfreie Stadt Schwerin,
 2872567,8648342,Landkreis Rostock,
 2872567,8648412,Ludwigslust-Parchim,
 2872567,8648413,Mecklenburgische Seenplatte,
 2872567,3302143,Nordwestmecklenburg,
 2872567,8648415,Vorpommern-Greifswald,
-2872567,2843324,Vorpommern-Rügen,Vorpommern-Ruegen
-2905330,3220968,Frankfurt am Main,
+2872567,2843324,Vorpommern-Rügen,Vorpommern-Ruegen|Landkreis Vorpommern-Rügen
+2905330,3220968,Frankfurt am Main,Kreisfreie Stadt Frankfurt am Main|Frankfurt
 2905330,3220970,Hochtaunuskreis,
+2905330,3220969,Kreis Groß-Gerau,Landkreis Groß-Gerau
 2905330,3220962,Kreisfreie Stadt Darmstadt,
 2905330,3220995,Kreisfreie Stadt Kassel,
-2905330,3220975,Kreisfreie Stadt Offenbach am Main,
 2905330,3220990,Kreisfreie Stadt Wiesbaden,
 2905330,3220991,Lahn-Dill-Kreis,
-2905330,2950257,Landkreis Bergstraße,
+2905330,2950257,Landkreis Bergstraße,Kreis Bergstraße
 2905330,3220966,Landkreis Darmstadt-Dieburg,
 2905330,3220993,Landkreis Fulda,
 2905330,3305827,Landkreis Gießen,
-2905330,3220969,Landkreis Groß-Gerau,
 2905330,3220994,Landkreis Hersfeld-Rotenburg,
 2905330,2892514,Landkreis Kassel,
 2905330,3220992,Landkreis Limburg-Weilburg,
 2905330,2873758,Landkreis Marburg-Biedenkopf,
+2905330,3220975,Landkreis Offenbach,Kreisfreie Stadt Offenbach am Main
 2905330,3220978,Landkreis Offenbach,
 2905330,3220997,Landkreis Waldeck-Frankenberg,
 2905330,2874242,Main-Kinzig-Kreis,
@@ -238,8 +238,8 @@ parent_code,code,name,aliases
 2905330,3220999,Werra-Meißner-Kreis,
 2905330,2809976,Wetteraukreis,
 2911297,6547395,"Hamburg, Freie und Hansestadt",
-2944387,3220905,Kreisfreie Stadt Bremen,
 2944387,3220906,Kreisfreie Stadt Bremerhaven,
+2944387,3220905,Stadtgemeinde Bremen,Kreisfreie Stadt Bremen
 2945356,2925534,Frankfurt (Oder),
 2945356,2945354,Kreisfreie Stadt Brandenburg an der Havel,
 2945356,2939810,Kreisfreie Stadt Cottbus,
@@ -249,42 +249,39 @@ parent_code,code,name,aliases
 2945356,3249081,Landkreis Elbe-Elster,
 2945356,3249082,Landkreis Havelland,
 2945356,3249083,Landkreis Märkisch-Oderland,Landkreis Maerkisch-Oderland
-2945356,3249084,Landkreis Oberhavel,
 2945356,3249085,Landkreis Oberspreewald-Lausitz,
 2945356,3249086,Landkreis Oder-Spree,
 2945356,3249087,Landkreis Ostprignitz-Ruppin,
-2945356,2852456,Landkreis Potsdam-Mittelmark,
+2945356,2852456,Landkreis Potsdam-Mittelmark,Potsdam-Mittelmark|PM
 2945356,3249088,Landkreis Prignitz,
+2945356,3249089,Landkreis Spree-Neiße,Wokrejs Sprjewja-Nysa
 2945356,3249090,Landkreis Teltow-Fläming,Landkreis Teltow-Flaeming
 2945356,3249091,Landkreis Uckermark,
-2945356,3249089,Wokrejs Sprjewja-Nysa,
+2945356,3249084,Oberhavel,Landkreis Oberhavel
 2950157,6547383,"Berlin, Stadt",
-2951839,2950877,Berchtesgadener Land,
+2951839,3220847,Coburg,Kreisfreie Stadt Coburg
+2951839,3220884,Kempten,Kreisfreie Stadt Kempten
 2951839,3220854,Kreisfreie Stadt Amberg,
 2951839,3220795,Kreisfreie Stadt Ansbach,
 2951839,3220890,Kreisfreie Stadt Aschaffenburg,
 2951839,3220868,Kreisfreie Stadt Augsburg,
 2951839,3220843,Kreisfreie Stadt Bamberg,
 2951839,3220845,Kreisfreie Stadt Bayreuth,
-2951839,3220847,Kreisfreie Stadt Coburg,
 2951839,3220798,Kreisfreie Stadt Erlangen,
 2951839,3220800,Kreisfreie Stadt Fürth,Kreisfreie Stadt Fuerth
 2951839,3220849,Kreisfreie Stadt Hof,
 2951839,3220833,Kreisfreie Stadt Ingolstadt,
 2951839,3220883,Kreisfreie Stadt Kaufbeuren,
-2951839,3220884,Kreisfreie Stadt Kempten,
 2951839,3220810,Kreisfreie Stadt Landshut,
 2951839,3220886,Kreisfreie Stadt Memmingen,
-2951839,3220837,Kreisfreie Stadt München,Kreisfreie Stadt Muenchen
+2951839,3220837,Kreisfreie Stadt München,Kreisfreie Stadt Muenchen|München
 2951839,3220803,Kreisfreie Stadt Nürnberg,Kreisfreie Stadt Nuernberg
 2951839,3220812,Kreisfreie Stadt Passau,
-2951839,3220857,Kreisfreie Stadt Regensburg,
 2951839,3220839,Kreisfreie Stadt Rosenheim,
 2951839,3220806,Kreisfreie Stadt Schwabach,
 2951839,3220895,Kreisfreie Stadt Schweinfurt,
 2951839,3220815,Kreisfreie Stadt Straubing,
 2951839,3220860,Kreisfreie Stadt Weiden in der Oberpfalz,
-2951839,3220897,Kreisfreie Stadt Würzburg,Kreisfreie Stadt Wuerzburg
 2951839,2803463,Landkreis Aichach-Friedberg,
 2951839,3220817,Landkreis Altötting,Landkreis Altoetting
 2951839,3220855,Landkreis Amberg-Sulzbach,
@@ -295,6 +292,7 @@ parent_code,code,name,aliases
 2951839,2953323,Landkreis Bad Tölz-Wolfratshausen,Landkreis Bad Toelz-Wolfratshausen
 2951839,3220844,Landkreis Bamberg,
 2951839,3220846,Landkreis Bayreuth,
+2951839,2950877,Landkreis Berchtesgadener Land,Berchtesgadener Land
 2951839,2940202,Landkreis Cham,
 2951839,2939950,Landkreis Coburg,
 2951839,3220818,Landkreis Dachau,
@@ -327,7 +325,7 @@ parent_code,code,name,aliases
 2951839,3220835,Landkreis Miesbach,
 2951839,3220894,Landkreis Miltenberg,
 2951839,3220836,Landkreis Mühldorf am Inn,Landkreis Muehldorf am Inn
-2951839,3220838,Landkreis München,Landkreis Muenchen
+2951839,3220838,Landkreis München,Landkreis Muenchen|München
 2951839,3220887,Landkreis Neu-Ulm,
 2951839,2866064,Landkreis Neuburg-Schrobenhausen,
 2951839,2864548,Landkreis Neumarkt in der Oberpfalz,
@@ -355,9 +353,12 @@ parent_code,code,name,aliases
 2951839,3220853,Landkreis Wunsiedel im Fichtelgebirge,
 2951839,3220898,Landkreis Würzburg,Landkreis Wuerzburg
 2951839,3220804,Nürnberger Land,Nuernberger Land
+2951839,3220857,Regensburg,Kreisfreie Stadt Regensburg
+2951839,3220897,Würzburg,Kreisfreie Stadt Würzburg|Kreisfreie Stadt Wuerzburg
 2953481,3220786,Alb-Donau-Kreis,
 2953481,2947109,Bodenseekreis,
 2953481,2929889,Enzkreis,
+2953481,3214107,Freiburg im Breisgau,Stadtkreis Freiburg im Breisgau|Freiburg
 2953481,3220748,Hohenlohekreis,
 2953481,3220790,Landkreis Biberach,
 2953481,2947443,Landkreis Böblingen,Landkreis Boeblingen
@@ -390,7 +391,6 @@ parent_code,code,name,aliases
 2953481,2847614,Rhein-Neckar-Kreis,
 2953481,2834685,Schwarzwald-Baar-Kreis,
 2953481,3214113,Stadtkreis Baden-Baden,
-2953481,3214107,Stadtkreis Freiburg im Breisgau,
 2953481,3220720,Stadtkreis Heidelberg,
 2953481,3220740,Stadtkreis Heilbronn,
 2953481,3220721,Stadtkreis Karlsruhe,

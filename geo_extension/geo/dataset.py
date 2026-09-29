@@ -233,7 +233,6 @@ class CountryDataset:
 	children: list[dict[str | None, list[Unit]]] = field(default_factory=list)  # per level: parent -> [Unit]
 	postal: dict[tuple[int, str], list[str]] = field(default_factory=dict)
 	postal_pattern: re.Pattern | None = None
-	has_postal_file: bool = False
 	warnings: list[str] = field(default_factory=list)
 
 	def __repr__(self) -> str:
@@ -269,16 +268,37 @@ class CountryDataset:
 			cur = self.get_parent(cur)
 		return chain
 
+	def find_ancestor(self, level: int, code: str) -> Unit | None:
+		"""The unit with ``code`` at any level above ``level`` (nearest level first)."""
+		for lvl in range(level - 1, 0, -1):
+			unit = self.units[lvl - 1].get(code)
+			if unit is not None:
+				return unit
+		return None
+
+	def units_under(self, level: int, ancestor: Unit) -> list[Unit]:
+		"""All units at ``level`` below ``ancestor`` (any number of levels down), sorted A→Z."""
+		rows = [ancestor]
+		for lvl in range(ancestor.level + 1, level + 1):
+			rows = [child for unit in rows for child in self.children[lvl - 1].get(unit.code, [])]
+		if ancestor.level < level - 1:
+			rows.sort(key=lambda u: (u.keys[0], u.name))
+		return rows
+
 	def options(
 		self,
 		level: int,
 		parent: str | None = None,
 		txt: str | None = None,
 		limit: int | None = None,
+		parent_level: int | None = None,
 	) -> list[Unit]:
 		"""
-		Children of ``parent`` at ``level`` (roots when level == 1), sorted A→Z.
-		``txt`` filters by accent/case-insensitive substring.
+		Units at ``level`` below ``parent`` (roots when level == 1), sorted A→Z.
+		``parent`` is normally the direct parent but may be any ancestor, so a form
+		that lacks the field for a middle level can still list the level below it;
+		``parent_level`` pins down which level the code belongs to.
+		``txt`` filters by accent/case-insensitive substring of a name or alias.
 		"""
 		if not (1 <= level <= len(self.levels)):
 			return []
@@ -287,10 +307,16 @@ class CountryDataset:
 		else:
 			if not parent:
 				return []
-			rows = self.children[level - 1].get(parent, [])
+			if parent_level:
+				ancestor = self.get_unit(parent_level, parent) if parent_level < level else None
+			else:
+				ancestor = self.find_ancestor(level, parent)
+			if ancestor is None:
+				return []
+			rows = self.units_under(level, ancestor)
 		if txt:
 			needle = normalize_name(txt)
-			rows = [u for u in rows if needle in normalize_name(u.name)]
+			rows = [u for u in rows if any(needle in key for key in u.keys)]
 		if limit is not None and limit >= 0:
 			rows = rows[:limit]
 		return list(rows)
@@ -342,21 +368,27 @@ class CountryDataset:
 		scored.sort(key=lambda t: t[:3])
 		return [t[3] for t in scored[: max(limit, 0)]]
 
-	def resolve(self, names: list[str | None]) -> list[Unit]:
+	def resolve(self, names: list[str | None], levels: list[int] | None = None) -> list[Unit]:
 		"""
-		Resolve an ordered list of names (one per level, top first) into units.
-		Stops at the first level that cannot be matched.
+		Resolve an ordered list of names (top first) into units, stopping at the
+		first name that cannot be matched. ``levels`` gives the level of each name
+		(default ``1, 2, 3, ...``); it may skip levels, in which case a name is
+		matched among all units at its level below the previously matched unit.
 		"""
+		if levels is None:
+			levels = list(range(1, len(names) + 1))
 		chain: list[Unit] = []
 		parent: str | None = None
-		for i, name in enumerate(names[: len(self.levels)]):
-			if not name:
+		previous_level = 0
+		for name, level in zip(names, levels, strict=False):
+			if not name or not (previous_level < level <= len(self.levels)):
 				break
-			unit = self.find_by_name(i + 1, name, parent)
+			unit = self.find_by_name(level, name, parent)
 			if unit is None:
 				break
 			chain.append(unit)
 			parent = unit.code
+			previous_level = level
 		return chain
 
 	# -- postal codes ------------------------------------------------------
@@ -504,7 +536,6 @@ def _load_level_units(ds: CountryDataset, level: Level) -> None:
 def _load_postal_codes(ds: CountryDataset, file_name: str | None) -> None:
 	if not file_name:
 		return
-	ds.has_postal_file = True
 	path = safe_join(ds.path, file_name)
 	if not path or not os.path.isfile(path):
 		ds.warnings.append(f"postal codes: file '{file_name}' not found")

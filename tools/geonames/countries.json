@@ -80,7 +80,21 @@
         "P",
         "ADM3"
       ]
-    }
+    },
+    "names": {
+      "2951839": "Bayern",
+      "2911297": "Hamburg",
+      "2950157": "Berlin",
+      "2862926": "Niedersachsen",
+      "2872567": "Mecklenburg-Vorpommern",
+      "2842566": "Sachsen",
+      "2842565": "Sachsen-Anhalt",
+      "2822542": "Thüringen"
+    },
+    "alias_languages": [
+      "de"
+    ],
+    "prefer_language": "de"
   },
   "id": {
     "name": "Indonesia",
@@ -102,7 +116,11 @@
       "attach_to": [
         "ADM2"
       ]
-    }
+    },
+    "alias_languages": [
+      "id"
+    ],
+    "prefer_language": "id"
   },
   "in": {
     "name": "India",
@@ -133,7 +151,10 @@
         "P",
         "ADM2"
       ]
-    }
+    },
+    "alias_languages": [
+      "hi"
+    ]
   },
   "pk": {
     "name": "Pakistan",
@@ -165,7 +186,10 @@
     },
     "postal_codes": {
       "enabled": false
-    }
+    },
+    "alias_languages": [
+      "ur"
+    ]
   },
   "bd": {
     "name": "Bangladesh",
@@ -199,7 +223,10 @@
         "P",
         "ADM2"
       ]
-    }
+    },
+    "alias_languages": [
+      "bn"
+    ]
   },
   "ae": {
     "name": "United Arab Emirates",
@@ -223,7 +250,10 @@
     },
     "postal_codes": {
       "enabled": false
-    }
+    },
+    "alias_languages": [
+      "ar"
+    ]
   },
   "sa": {
     "name": "Saudi Arabia",
@@ -247,7 +277,10 @@
     },
     "postal_codes": {
       "enabled": false
-    }
+    },
+    "alias_languages": [
+      "ar"
+    ]
   },
   "eg": {
     "name": "Egypt",
@@ -289,7 +322,10 @@
       "352603": "Matrouh",
       "350546": "Qena",
       "347794": "Sohag"
-    }
+    },
+    "alias_languages": [
+      "ar"
+    ]
   },
   "ng": {
     "name": "Nigeria",
@@ -410,7 +446,11 @@
       "attach_to": [
         "P"
       ]
-    }
+    },
+    "alias_languages": [
+      "ms"
+    ],
+    "prefer_language": "ms"
   },
   "br": {
     "name": "Brazil",
@@ -428,7 +468,11 @@
     ],
     "postal_codes": {
       "enabled": false
-    }
+    },
+    "alias_languages": [
+      "pt"
+    ],
+    "prefer_language": "pt"
   },
   "ca": {
     "name": "Canada",
@@ -515,7 +559,11 @@
       "attach_to": [
         "ADM2"
       ]
-    }
+    },
+    "alias_languages": [
+      "tr"
+    ],
+    "prefer_language": "tr"
   },
   "mx": {
     "name": "Mexico",
@@ -544,7 +592,11 @@
     },
     "postal_codes": {
       "enabled": false
-    }
+    },
+    "alias_languages": [
+      "es"
+    ],
+    "prefer_language": "es"
   },
   "th": {
     "name": "Thailand",
@@ -583,7 +635,10 @@
         "ADM3",
         "ADM2"
       ]
-    }
+    },
+    "alias_languages": [
+      "th"
+    ]
   },
   "fr": {
     "name": "France",
@@ -613,7 +668,11 @@
       "attach_to": [
         "P"
       ]
-    }
+    },
+    "alias_languages": [
+      "fr"
+    ],
+    "prefer_language": "fr"
   },
   "it": {
     "name": "Italy",
@@ -644,7 +703,14 @@
       "attach_to": [
         "ADM3"
       ]
-    }
+    },
+    "names": {
+      "3164857": "Valle d'Aosta"
+    },
+    "alias_languages": [
+      "it"
+    ],
+    "prefer_language": "it"
   },
   "es": {
     "name": "Spain",
@@ -675,7 +741,22 @@
       "attach_to": [
         "ADM3"
       ]
-    }
+    },
+    "names": {
+      "2593109": "Andalucía",
+      "3336899": "Aragón",
+      "2593110": "Canarias",
+      "2521383": "Illes Balears",
+      "3336903": "País Vasco",
+      "3114710": "Asturias"
+    },
+    "alias_languages": [
+      "es",
+      "ca",
+      "eu",
+      "gl"
+    ],
+    "prefer_language": "es"
   },
   "nl": {
     "name": "Netherlands",
@@ -699,7 +780,11 @@
     },
     "postal_codes": {
       "enabled": false
-    }
+    },
+    "alias_languages": [
+      "nl"
+    ],
+    "prefer_language": "nl"
   },
   "ch": {
     "name": "Switzerland",
@@ -727,7 +812,15 @@
       "attach_to": [
         "ADM3"
       ]
-    }
+    },
+    "names": {
+      "2661551": "Bern"
+    },
+    "alias_languages": [
+      "de",
+      "fr",
+      "it"
+    ]
   },
   "np": {
     "name": "Nepal",
@@ -753,7 +846,10 @@
     },
     "postal_codes": {
       "enabled": false
-    }
+    },
+    "alias_languages": [
+      "ne"
+    ]
   },
   "lk": {
     "name": "Sri Lanka",
@@ -791,7 +887,11 @@
         "P",
         "ADM2"
       ]
-    }
+    },
+    "alias_languages": [
+      "si",
+      "ta"
+    ]
   },
   "nz": {
     "name": "New Zealand",

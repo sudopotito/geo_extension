@@ -96,7 +96,7 @@ parent_code,code,name,aliases
 3390290,6320194,Parazinho,
 3390290,6320195,Parelhas,
 3390290,6320143,Parnamirim,
-3390290,6320197,Passa e Fica,
+3390290,6320197,Passa-e-Fica,Passa e Fica
 3390290,6320198,Passagem,
 3390290,6319041,Patu,
 3390290,6320200,Pau dos Ferros,
@@ -996,7 +996,6 @@ parent_code,code,name,aliases
 3395443,6319680,Caxias,
 3395443,6319681,Cedral,
 3395443,6319682,Central do Maranhão,
-3395443,6319683,Centro do Guilherme,
 3395443,6319684,Centro Novo do Maranhão,
 3395443,6319008,Chapadinha,
 3395443,6319685,Cidelândia,
@@ -1026,6 +1025,7 @@ parent_code,code,name,aliases
 3395443,6319707,Governador Nunes Freire,
 3395443,6319708,Graça Aranha,
 3395443,6319709,Grajaú,
+3395443,6319683,Guilherme,Centro do Guilherme
 3395443,6319710,Guimarães,
 3395443,6319711,Humberto de Campos,
 3395443,6319712,Icatu,
@@ -1033,7 +1033,7 @@ parent_code,code,name,aliases
 3395443,6319714,Igarapé Grande,
 3395443,6319715,Imperatriz,
 3395443,6319716,Itaipava do Grajaú,
-3395443,6319717,Itapecuru Mirim,
+3395443,6319717,Itapecuru-Mirim,Itapecuru Mirim
 3395443,6319718,Itinga do Maranhão,
 3395443,6319719,Jatobá,
 3395443,6319720,Jenipapo dos Vieiras,
@@ -1345,12 +1345,12 @@ parent_code,code,name,aliases
 3402362,3385105,Viçosa do Ceará,
 3407762,6319493,Amapá,
 3407762,6319494,Calçoene,
-3407762,6319495,Cutias,
 3407762,6324186,Ferreira Gomes,
 3407762,6319496,Itaubal,
 3407762,6324188,Laranjal do Jari,
 3407762,6319498,Macapá,
 3407762,6319499,Mazagão,
+3407762,6319495,Município de Cutias do Araguari,Cutias
 3407762,6319500,Oiapoque,
 3407762,6324185,Pedra Branca do Amapari,
 3407762,6324187,Porto Grande,
@@ -1484,7 +1484,7 @@ parent_code,code,name,aliases
 3447799,3462943,Frei Paulo,
 3447799,3462581,Gararu,
 3447799,6320693,General Maynard,
-3447799,6324316,Gracho Cardoso,
+3447799,6324316,Graccho Cardoso,Gracho Cardoso
 3447799,6320694,Ilha das Flores,
 3447799,6320695,Indiaroba,
 3447799,6320696,Itabaiana,
@@ -1589,6 +1589,7 @@ parent_code,code,name,aliases
 3448433,6322117,Avanhandava,
 3448433,6322118,Avaré,
 3448433,6322119,Bady Bassitt,
+3448433,6322566,Baixada Santista,Santos
 3448433,6322120,Balbinos,
 3448433,6322121,Bálsamo,
 3448433,6322122,Bananal,
@@ -1600,7 +1601,6 @@ parent_code,code,name,aliases
 3448433,6322127,Barra do Turvo,
 3448433,6322128,Barretos,
 3448433,6322129,Barrinha,
-3448433,6322130,Barueri,
 3448433,6322131,Bastos,
 3448433,6322132,Batatais,
 3448433,6322133,Bauru,
@@ -1610,7 +1610,7 @@ parent_code,code,name,aliases
 3448433,6322137,Bertioga,
 3448433,6322138,Bilac,
 3448433,6322139,Birigui,
-3448433,6322140,Biritiba-Mirim,
+3448433,6322140,Biritiba Mirim,Biritiba-Mirim
 3448433,6322141,Boa Esperança do Sul,
 3448433,6322142,Bocaina,
 3448433,6322143,Bofete,
@@ -1644,7 +1644,7 @@ parent_code,code,name,aliases
 3448433,6322171,Cajobi,
 3448433,6322172,Cajuru,
 3448433,6322173,Campina do Monte Alegre,
-3448433,6324332,Campinas,
+3448433,6324332,Campinas,Campinas e Região|Região de Campinas
 3448433,3467719,Campo Limpo Paulista,
 3448433,6322174,Campos do Jordão,
 3448433,6322175,Campos Novos Paulista,
@@ -1704,7 +1704,7 @@ parent_code,code,name,aliases
 3448433,6322223,Elias Fausto,
 3448433,6322224,Elisiário,
 3448433,6322225,Embaúba,
-3448433,6322226,Embu das Artes,
+3448433,6322226,Embu das Artes,Embu Artes
 3448433,6322227,Embu-Guaçu,
 3448433,6322228,Emilianópolis,
 3448433,6322229,Engenheiro Coelho,
@@ -1734,6 +1734,7 @@ parent_code,code,name,aliases
 3448433,6322250,General Salgado,
 3448433,6322251,Getulina,
 3448433,6322252,Glicério,
+3448433,6322268,GRU,Guarulhos
 3448433,6322253,Guaiçara,
 3448433,6322254,Guaimbê,
 3448433,6322255,Guaíra,
@@ -1750,7 +1751,6 @@ parent_code,code,name,aliases
 3448433,6322265,Guareí,
 3448433,6322266,Guariba,
 3448433,6322267,Guarujá,
-3448433,6322268,Guarulhos,
 3448433,6322269,Guatapará,
 3448433,6322270,Guzolândia,
 3448433,6322271,Herculândia,
@@ -2051,7 +2051,6 @@ parent_code,code,name,aliases
 3448433,6322535,Sandovalina,
 3448433,6322536,Santa Adélia,
 3448433,6322537,Santa Albertina,
-3448433,6322538,Santa Bárbara d'Oeste,
 3448433,6322539,Santa Branca,
 3448433,6322540,Santa Clara d'Oeste,
 3448433,6324355,Santa Cruz da Conceição,
@@ -2080,9 +2079,8 @@ parent_code,code,name,aliases
 3448433,6322563,Santo Antônio do Pinhal,
 3448433,6322564,Santo Expedito,
 3448433,6322565,Santópolis do Aguapeí,
-3448433,6322566,Santos,
 3448433,6322567,São Bento do Sapucaí,
-3448433,6324356,São Bernardo do Campo,
+3448433,6324356,São Bernardo do Campo,SBCampo|São Bernardo
 3448433,6322568,São Caetano do Sul,
 3448433,6322569,São Carlos,
 3448433,6324239,São Francisco,
@@ -2095,7 +2093,7 @@ parent_code,code,name,aliases
 3448433,6322575,São José do Barreiro,
 3448433,6322576,São José do Rio Pardo,
 3448433,6322577,São José do Rio Preto,
-3448433,6322578,São José dos Campos,
+3448433,6322578,São José dos Campos,SJCampos|sjc|Vale do Paraíba
 3448433,6322579,São Lourenço da Serra,
 3448433,6322580,São Luiz do Paraitinga,
 3448433,6322581,São Manuel,
@@ -2110,6 +2108,7 @@ parent_code,code,name,aliases
 3448433,3448130,São Vicente,
 3448433,6322588,Sarapuí,
 3448433,6322589,Sarutaiá,
+3448433,6322538,Sata Bárbara DOeste,Santa Bárbara d'Oeste
 3448433,6322590,Sebastianópolis do Sul,
 3448433,6322591,Serra Azul,
 3448433,6322593,Serra Negra,
@@ -2132,6 +2131,7 @@ parent_code,code,name,aliases
 3448433,6322608,Taiaçu,
 3448433,6322609,Taiúva,
 3448433,6322610,Tambaú,
+3448433,6322130,Tamboré,Barueri
 3448433,6322611,Tanabi,
 3448433,6322612,Tapiraí,
 3448433,6322613,Tapiratiba,
@@ -2270,7 +2270,7 @@ parent_code,code,name,aliases
 3450387,6323118,Erval Velho,
 3450387,6323119,Faxinal dos Guedes,
 3450387,6323120,Flor do Sertão,
-3450387,6323121,Florianópolis,
+3450387,6323121,Florianópolis,fpolis|Floripa
 3450387,6323122,Formosa do Sul,
 3450387,6323123,Forquilhinha,
 3450387,6323124,Fraiburgo,
@@ -3040,7 +3040,7 @@ parent_code,code,name,aliases
 3451189,6322057,Rio Claro,
 3451189,6322058,Rio das Flores,
 3451189,6322059,Rio das Ostras,
-3451189,6322060,Rio de Janeiro,
+3451189,6322060,Rio de Janeiro,Rio
 3451189,6322061,Santa Maria Madalena,
 3451189,6322062,Santo Antônio de Pádua,
 3451189,6322064,São Fidélis,
@@ -3061,10 +3061,10 @@ parent_code,code,name,aliases
 3451189,6322078,Teresópolis,
 3451189,6322079,Trajano de Moraes,
 3451189,6322080,Três Rios,
+3451189,6322084,V Redonda,Volta Redonda
 3451189,6322081,Valença,
 3451189,6322082,Varre-Sai,
 3451189,6322083,Vassouras,
-3451189,6322084,Volta Redonda,
 3455077,6322659,Abatiá,
 3455077,6322660,Adrianópolis,
 3455077,6322661,Agudos do Sul,
@@ -3507,7 +3507,6 @@ parent_code,code,name,aliases
 3457153,6321139,Araporã,
 3457153,6321140,Arapuá,
 3457153,6321141,Araújos,
-3457153,6321142,Araxá,
 3457153,6321143,Arceburgo,
 3457153,6321144,Arcos,
 3457153,6321145,Areado,
@@ -3529,7 +3528,7 @@ parent_code,code,name,aliases
 3457153,6321160,Barroso,
 3457153,6321161,Bela Vista de Minas,
 3457153,6324328,Belmiro Braga,
-3457153,6321162,Belo Horizonte,
+3457153,6321162,Belo Hte,Belo Horizonte
 3457153,6321163,Belo Oriente,
 3457153,6321164,Belo Vale,
 3457153,6321165,Berilo,
@@ -3541,7 +3540,7 @@ parent_code,code,name,aliases
 3457153,6321171,Biquinhas,
 3457153,6321172,Boa Esperança,
 3457153,6321173,Bocaina de Minas,
-3457153,6321174,Bocaiúva,
+3457153,6321174,Bocaiuva,
 3457153,6321175,Bom Despacho,
 3457153,6321176,Bom Jardim de Minas,
 3457153,6321177,Bom Jesus da Penha,
@@ -3778,7 +3777,7 @@ parent_code,code,name,aliases
 3457153,6321403,Gonçalves,
 3457153,6321404,Gonzaga,
 3457153,6324231,Gouveia,Gouvea
-3457153,6321405,Governador Valadares,
+3457153,6321405,Governador Valadares,Valadares|Gov. Valadaresq
 3457153,6321406,Grão Mogol,
 3457153,6321407,Grupiara,
 3457153,6321408,Guanhães,
@@ -3970,6 +3969,7 @@ parent_code,code,name,aliases
 3457153,6321586,Morro da Garça,
 3457153,6321587,Morro do Pilar,
 3457153,6321588,Munhoz,
+3457153,6321882,Municipio Tiradentes,Tiradentes
 3457153,6321589,Muriaé,
 3457153,6321590,Mutum,
 3457153,6321591,Muzambinho,
@@ -4003,6 +4003,7 @@ parent_code,code,name,aliases
 3457153,6321618,Orizânia,
 3457153,6321619,Ouro Branco,
 3457153,3455679,Ouro Fino,
+3457153,6321142,Ouro Minas Araxá,Araxá
 3457153,6321620,Ouro Preto,
 3457153,6321621,Ouro Verde de Minas,
 3457153,6321622,Padre Carvalho,
@@ -4271,7 +4272,6 @@ parent_code,code,name,aliases
 3457153,6321879,Teixeiras,
 3457153,6321880,Teófilo Otoni,
 3457153,6321881,Timóteo,
-3457153,6321882,Tiradentes,
 3457153,6321883,Tiros,
 3457153,6321884,Tocantins,
 3457153,6321885,Tocos do Moji,
@@ -4420,7 +4420,7 @@ parent_code,code,name,aliases
 3457419,6323808,Campo Novo do Parecis,
 3457419,6323809,Campo Verde,
 3457419,6323810,Campos de Júlio,
-3457419,6323811,CanaBrava do Norte,Cana Brava Do Norte
+3457419,6323811,Canabrava do Norte,Cana Brava Do Norte
 3457419,6323812,Canarana,
 3457419,6324366,Carlinda,
 3457419,6323813,Castanheira,
@@ -4702,7 +4702,7 @@ parent_code,code,name,aliases
 3462372,6324039,Nova Iguaçu de Goiás,
 3462372,6324040,Nova Roma,
 3462372,6324041,Nova Veneza,
-3462372,6324042,Novo Brazil,
+3462372,6324042,Novo Brasil,Novo Brazil
 3462372,6324043,Novo Gama,
 3462372,6324044,Novo Planalto,
 3462372,6324045,Orizona,

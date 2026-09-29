@@ -5,8 +5,8 @@ parent_code,code,name,aliases
 1213642,1215200,Kabupaten Deli Serdang,
 1213642,9162086,Kabupaten Humbang Hasundutan,
 1213642,1214929,Kabupaten Karo,
+1213642,8611929,Kabupaten Labuanbatu,Kabupaten Labuhan Batu Selatan
 1213642,1214801,Kabupaten Labuhan Batu,
-1213642,8611929,Kabupaten Labuhan Batu Selatan,
 1213642,9821913,Kabupaten Labuhan Batu Utara,
 1213642,1214728,Kabupaten Langkat,
 1213642,9161518,Kabupaten Mandailing Natal,
@@ -20,6 +20,7 @@ parent_code,code,name,aliases
 1213642,9162842,Kabupaten Samosir,
 1213642,6715130,Kabupaten Serdang Bedagai,
 1213642,1213765,Kabupaten Simalungun,
+1213642,1213519,Kabupaten Tapanuli Selatan,South Tapanuli Regency
 1213642,1213518,Kabupaten Tapanuli Tengah,
 1213642,6726149,Kabupaten Tapanuli Utara,
 1213642,9165769,Kabupaten Toba Samosir,
@@ -27,15 +28,13 @@ parent_code,code,name,aliases
 1213642,9846663,Kota Gunungsitoli,
 1213642,1214519,Kota Medan,
 1213642,9843575,Kota Padangsidimpuan,
-1213642,1214203,Kota Pematang Siantar,
+1213642,1214203,Kota Pematang Siantar,Kotamadya Pematangsiantar
 1213642,1213854,Kota Sibolga,
 1213642,1213546,Kota Tanjung Balai,
-1213642,1213498,Kota Tebing Tinggi,
-1213642,1213519,South Tapanuli Regency,
+1213642,1213498,Kota Tebing Tinggi,Kota Tebingtinggi
 1215638,1215636,Kabupaten Aceh Barat,
 1215638,6701674,Kabupaten Aceh Barat Daya,
 1215638,1215635,Kabupaten Aceh Besar,
-1215638,6705241,Kabupaten Aceh Jaya,
 1215638,1215634,Kabupaten Aceh Selatan,
 1215638,6713333,Kabupaten Aceh Singkil,
 1215638,6701575,Kabupaten Aceh Tamiang,
@@ -43,10 +42,11 @@ parent_code,code,name,aliases
 1215638,1215632,Kabupaten Aceh Tenggara,
 1215638,1215631,Kabupaten Aceh Timur,
 1215638,1215630,Kabupaten Aceh Utara,
+1215638,6705241,Kabupaten Ache Jaya,Kabupaten Aceh Jaya
 1215638,6712486,Kabupaten Bener Meriah,
 1215638,6729814,Kabupaten Bireuen,
 1215638,8224054,Kabupaten Gayo Lues,
-1215638,6703019,Kabupaten Nagan Raya,
+1215638,6703019,Kabupaten Nagan Raya,Kabupaten Nagan Rayan
 1215638,8224055,Kabupaten Pidie,
 1215638,8571637,Kabupaten Pidie Jaya,
 1215638,6704825,Kabupaten Simeulue,
@@ -88,6 +88,7 @@ parent_code,code,name,aliases
 1621176,1621175,Kota Yogyakarta,
 1626196,9165775,Kabupaten Banyu Asin,
 1626196,9821958,Kabupaten Empat Lawang,
+1626196,9166049,Kabupaten Lahat,Lahat Regency
 1626196,8521769,Kabupaten Muara Enim,
 1626196,1634644,Kabupaten Musi Banyuasin,
 1626196,1634643,Kabupaten Musi Rawas,
@@ -95,34 +96,33 @@ parent_code,code,name,aliases
 1626196,9163311,Kabupaten Ogan Ilir,
 1626196,1633659,Kabupaten Ogan Komering Ilir,
 1626196,1633658,Kabupaten Ogan Komering Ulu,
+1626196,9166051,Kabupaten Ogan Komering Ulu,Kabupaten Ogan Komering Ulu Timur
 1626196,9165989,Kabupaten Ogan Komering Ulu Selatan,
-1626196,9166051,Kabupaten Ogan Komering Ulu Timur,
 1626196,9828027,Kabupaten Penukal Abab Lematang Ilir,
 1626196,9828042,Kota Lubuklinggau,
 1626196,7932494,Kota Pagar Alam,
 1626196,1633069,Kota Palembang,
 1626196,7932496,Kota Prabumulih,
-1626196,9166049,Lahat Regency,
 1626197,1651856,Kabupaten Agam,
 1626197,9166041,Kabupaten Dharmasraya,
 1626197,8740094,Kabupaten Kepulauan Mentawai,
-1626197,8562628,Kabupaten Lima Puluh Kota,
+1626197,8562628,Kabupaten Limapuluhkota,Kabupaten Lima Puluh Kota
 1626197,1633373,Kabupaten Padang Pariaman,
 1626197,9163115,Kabupaten Pasaman,
 1626197,9163116,Kabupaten Pasaman Barat,
 1626197,1631300,Kabupaten Pesisir Selatan,
-1626197,8541932,Kabupaten Sijunjung,
+1626197,8541932,Kabupaten Sijunjung,Kabupaten Sawahlunto Sijunjung
 1626197,1626646,Kabupaten Solok,
 1626197,9165770,Kabupaten Solok Selatan,
-1626197,8594799,Kabupaten Tanah Datar,
-1626197,1647865,Kota Bukittinggi,
-1626197,1633407,Kota Padang,
+1626197,8594799,Kabupaten Tanahdatar,Kabupaten Tanah Datar
+1626197,1647865,Kota Bukittinggi,Kotamadya Bukittinggi
+1626197,1633407,Kota Padang,Kotamadya Padang
 1626197,1633374,Kota Padang Panjang,
 1626197,9843591,Kota Pariaman,
-1626197,1631904,Kota Payakumbuh,
-1626197,1628471,Kota Sawah Lunto,
-1626197,1626645,Kota Solok,
-1626229,1648339,Kabupaten Bolaang Mongondow,
+1626197,1631904,Kota Payakumbuh,Kotamadya Payakumbuh
+1626197,1628471,Kota Sawah Lunto,Kotamadya Sawahlunto
+1626197,1626645,Kota Solok,Kotamadya Solok
+1626229,1648339,Kabupaten Bolaang Mongondow,Kabupaten Bolaangmongondow
 1626229,9821949,Kabupaten Bolaang Mongondow Selatan,
 1626229,9821950,Kabupaten Bolaang Mongondow Timur,
 1626229,9821951,Kabupaten Bolaang Mongondow Utara,
@@ -133,9 +133,9 @@ parent_code,code,name,aliases
 1626229,9828962,Kabupaten Minahasa Tenggara,
 1626229,9165868,Kabupaten Minahasa Utara,
 1626229,9846670,Kabupaten Siau Tagulandang Biaro,
-1626229,1648633,Kota Bitung,
+1626229,1648633,Kota Bitung,Kotamadya Bitung
 1626229,9828036,Kota Kotamobagu,
-1626229,1636543,Kota Manado,
+1626229,1636543,Kota Manado,Kotamadya Manado
 1626229,9846655,Kota Tomohon,
 1626230,9170724,Kabupaten Bombana,
 1626230,1647498,Kabupaten Buton,
@@ -151,22 +151,22 @@ parent_code,code,name,aliases
 1626230,9828035,Kabupaten Konawe Utara,
 1626230,1634727,Kabupaten Muna,
 1626230,10929337,Kabupaten Muna Barat,
-1626230,6974096,Kota Baubau,
-1626230,1640342,Kota Kendari,
-1626230,9165996,Wakatobi Regency,
+1626230,9165996,Kabupaten Wakatobi,Wakatobi Regency
+1626230,6974096,Kota Administratip Baubau,Kota Baubau
+1626230,1640342,Kota Kendari,Kotamadya Kendari
 1626231,6983688,Kabupaten Banggai,
 1626231,9165691,Kabupaten Banggai Kepulauan,
 1626231,9846665,Kabupaten Banggai Laut,
-1626231,1647571,Kabupaten Buol,
+1626231,1647571,Kabupaten Buol,Kabupaten Buol Tolitoli
 1626231,1645322,Kabupaten Donggala,
+1626231,9165694,Kabupaten Morowali,Morowali Regency
 1626231,9827971,Kabupaten Morowali Utara,
 1626231,9165690,Kabupaten Parigi Moutong,
 1626231,1630720,Kabupaten Poso,
 1626231,9781856,Kabupaten Sigi,
+1626231,9165688,Kabupaten Tojo Una-Una,Tojo Una-Una Regency
 1626231,9846654,Kabupaten Toli-Toli,
 1626231,1633033,Kota Palu,
-1626231,9165694,Morowali Regency,
-1626231,9165688,Tojo Una-Una Regency,
 1626232,1650183,Kabupaten Bantaeng,
 1626232,1649975,Kabupaten Barru,
 1626232,1648256,Kabupaten Bone,
@@ -178,19 +178,19 @@ parent_code,code,name,aliases
 1626232,9165704,Kabupaten Luwu Timur,
 1626232,9165788,Kabupaten Luwu Utara,
 1626232,1636028,Kabupaten Maros,
-1626232,1632723,Kabupaten Pangkajene Dan Kepulauan,
+1626232,1632723,Kabupaten Pangkajene dan Kepulauan,
 1626232,1631102,Kabupaten Pinrang,
 1626232,1627258,Kabupaten Sidenreng Rappang,
 1626232,1626894,Kabupaten Sinjai,
 1626232,7063566,Kabupaten Soppeng,
 1626232,1625545,Kabupaten Takalar,
-1626232,1625123,Kabupaten Tana Toraja,
+1626232,1625123,Kabupaten Tana Toraja,Kabupaten Tana Toradja|Kabupaten Tanatoraja
 1626232,9846656,Kabupaten Toraja Utara,
 1626232,1622267,Kabupaten Wajo,
 1626232,1622785,Kota Makassar,
 1626232,9843582,Kota Palopo,
-1626232,1632352,Kota Parepare,
-1626232,1628015,Selayar Islands Regency,
+1626232,1632352,Kota Parepare,Kotamadya Parepare
+1626232,1628015,Selayar Islands Regency,Kabupaten Selayar|Kabupaten Kepulauan Selayar
 1629652,8597074,Kabupaten Bengkalis,
 1629652,1643082,Kabupaten Indragiri Hilir,
 1629652,1643081,Kabupaten Indragiri Hulu,
@@ -224,17 +224,17 @@ parent_code,code,name,aliases
 1633791,1626190,Kabupaten Sumba Timur,
 1633791,1623840,Kabupaten Timor Tengah Selatan,
 1633791,1623839,Kabupaten Timor Tengah Utara,
-1633791,2057084,Kota Kupang,
+1633791,2057084,Kota Kupang,Kotamadya Kupang
 1633792,1648758,Kabupaten Bima,
-1633792,7057508,Kabupaten Dompu,
 1633792,1637367,Kabupaten Lombok Barat,
 1633792,1637366,Kabupaten Lombok Tengah,
 1633792,1637365,Kabupaten Lombok Timur,
 1633792,8659092,Kabupaten Lombok Utara,
 1633792,8594735,Kabupaten Sumbawa,
 1633792,6984549,Kabupaten Sumbawa Barat,
-1633792,8659101,Kota Bima,
-1633792,1635881,Kota Mataram,
+1633792,7057508,Kecamatan Dompu,Kabupaten Dompu
+1633792,1635881,Kota Mataram,Kotamadya Mataram|Kota Administratip Mataram
+1633792,8659101,Kotamadya Bima,Kota Bima
 1636627,9165994,Kabupaten Buru,
 1636627,9821953,Kabupaten Buru Selatan,
 1636627,9165706,Kabupaten Kepulauan Aru,
@@ -244,23 +244,23 @@ parent_code,code,name,aliases
 1636627,9828704,Kabupaten Maluku Tenggara Barat,
 1636627,9165987,Kabupaten Seram Bagian Barat,
 1636627,9165999,Kabupaten Seram Bagian Timur,
-1636627,1651530,Kota Ambon,
+1636627,1651530,Kota Ambon,Kotamadya Ambon
 1636627,9846657,Kota Tual,
 1638535,9166059,Kabupaten Lampung Barat,
 1638535,7862296,Kabupaten Lampung Selatan,
 1638535,1638532,Kabupaten Lampung Tengah,
 1638535,9165778,Kabupaten Lampung Timur,
 1638535,1638531,Kabupaten Lampung Utara,
-1638535,8552411,Kabupaten Mesuji,
+1638535,8552411,Kabupaten Mesuji,Kecamatan Mesuji Lampung|Mesuji Lampung
 1638535,9843606,Kabupaten Pesawaran,
+1638535,9828028,Kabupaten Pesisir Barat,West Pesisir Regency
 1638535,9844898,Kabupaten Pringsewu,
 1638535,9845482,Kabupaten Tanggamus,
 1638535,9846658,Kabupaten Tulang Bawang Barat,
 1638535,9164018,Kabupaten Tulangbawang,
 1638535,9163828,Kabupaten Way Kanan,
-1638535,1624916,Kota Bandar Lampung,
+1638535,1624916,Kota Bandar Lampung,Kotamadya Bandarlampung
 1638535,9828960,Kota Metro,
-1638535,9828028,West Pesisir Regency,
 1641897,1649040,Kabupaten Berau,
 1641897,9828038,Kabupaten Kutai Barat,
 1641897,9828039,Kabupaten Kutai Kartanegara,
@@ -294,7 +294,7 @@ parent_code,code,name,aliases
 1641899,1639532,Kabupaten Kota Baru,
 1641899,1625714,Kabupaten Tabalong,
 1641899,9780988,Kabupaten Tanah Bumbu,
-1641899,1625166,Kabupaten Tanah Laut,
+1641899,1625166,Kabupaten Tanah Laut,Kabupaten Tanahlaut
 1641899,1624750,Kabupaten Tapin,
 1641899,1650216,Kota Banjar Baru,
 1641899,1650211,Kota Banjarmasin,
@@ -312,12 +312,12 @@ parent_code,code,name,aliases
 1641900,1626886,Kabupaten Sintang,
 1641900,1630787,Kota Pontianak,
 1641900,9845433,Kota Singkawang,
-1642668,6775904,Gresik Regency,
 1642668,1650297,Kabupaten Bangkalan,
 1642668,1650076,Kabupaten Banyuwangi,
 1642668,1648579,Kabupaten Blitar,
 1642668,1648450,Kabupaten Bojonegoro,
 1642668,6829652,Kabupaten Bondowoso,
+1642668,6775904,Kabupaten Gresik,Gresik Regency
 1642668,1642587,Kabupaten Jember,
 1642668,1642413,Kabupaten Jombang,
 1642668,1640657,Kabupaten Kediri,
@@ -342,13 +342,13 @@ parent_code,code,name,aliases
 1642668,1623178,Kabupaten Tuban,
 1642668,1623079,Kabupaten Tulungagung,
 1642668,9849812,Kota Batu,
-1642668,1648578,Kota Blitar,
+1642668,1648578,Kota Blitar,Kotamadya Blitar
 1642668,1640656,Kota Kediri,
-1642668,1636927,Kota Madiun,
-1642668,1636712,Kota Malang,
-1642668,1635109,Kota Mojokerto,
-1642668,1632031,Kota Pasuruan,
-1642668,1630632,Kota Probolinggo,
+1642668,1636927,Kota Madiun,Kotamadya Madiun
+1642668,1636712,Kota Malang,Kotamadya Malang
+1642668,1635109,Kota Mojokerto,Kotamadya Mojokerto
+1642668,1632031,Kota Pasuruan,Kotamadya Pasuruan
+1642668,1630632,Kota Probolinggo,Kotamadya Probolinggo
 1642668,1625820,Kota Surabaya,
 1642669,6380795,Kabupaten Banjarnegara,
 1642669,1650094,Kabupaten Banyumas,
@@ -380,13 +380,13 @@ parent_code,code,name,aliases
 1642669,1621430,Kabupaten Wonogiri,
 1642669,6405140,Kabupaten Wonosobo,
 1642669,1636882,Kota Magelang,
-1642669,1631763,Kota Pekalongan,
+1642669,1631763,Kota Pekalongan,Kotamadya Pekalongan
 1642669,6257933,Kota Salatiga,
 1642669,1627893,Kota Semarang,
 1642669,1625811,Kota Surakarta,
-1642669,6769512,Kota Tegal,
+1642669,6769512,Kotamadya Tegal,Kota Tegal
+1642672,7910336,Kab. Bandung Barat,Kabupaten Bandung Barat
 1642672,1650352,Kabupaten Bandung,
-1642672,7910336,Kabupaten Bandung Barat,
 1642672,1649377,Kabupaten Bekasi,
 1642672,1648471,Kabupaten Bogor,
 1642672,1647148,Kabupaten Ciamis,
@@ -403,18 +403,18 @@ parent_code,code,name,aliases
 1642672,1626380,Kabupaten Sukabumi,
 1642672,1626102,Kabupaten Sumedang,
 1642672,1624646,Kabupaten Tasikmalaya,
-1642672,6559695,Kota Bandung,
+1642672,6559695,Kota Bandung,Kotamadya Bandung
 1642672,9855467,Kota Banjar,
-1642672,6599302,Kota Bekasi,
-1642672,1648470,Kota Bogor,
+1642672,6599302,Kota Bekasi,Kotamadya Bekasi
+1642672,1648470,Kota Bogor,Kodya Bogor
 1642672,1646446,Kota Cimahi,
-1642672,1646168,Kota Cirebon,
-1642672,6751097,Kota Depok,
-1642672,1626379,Kota Sukabumi,
+1642672,1646168,Kota Cirebon,Kotamadya Cirebon
+1642672,6751097,Kota Depok,Kotamadya Depok
+1642672,1626379,Kota Sukabumi,Kotamadya Sukabumi
 1642672,1624645,Kota Tasikmalaya,
 1642856,1649863,Kabupaten Batang Hari,
 1642856,7910349,Kabupaten Bungo,
-1642856,1640224,Kabupaten Kerinci,
+1642856,1640224,Kabupaten Kerinci,Kabupaten Kerintji
 1642856,9828959,Kabupaten Merangin,
 1642856,9782270,Kabupaten Muaro Jambi,
 1642856,1628580,Kabupaten Sarolangun,
@@ -424,11 +424,11 @@ parent_code,code,name,aliases
 1642856,1642857,Kota Jambi,
 1642856,9845476,Kota Sungai Penuh,
 1642907,9849799,Kabupaten Administrasi Kepulauan Seribu,
-1642907,1642909,Kota Administrasi Jakarta Barat,
-1642907,1642908,Kota Administrasi Jakarta Pusat,
-1642907,1642905,Kota Administrasi Jakarta Selatan,
-1642907,1642904,Kota Administrasi Jakarta Timur,
-1642907,1642903,Kota Administrasi Jakarta Utara,
+1642907,1642909,Kota Administrasi Jakarta Barat,Kotamadya Jakarta Barat
+1642907,1642908,Kota Administrasi Jakarta Pusat,Kotamadya Jakarta Pusat
+1642907,1642905,Kota Administrasi Jakarta Selatan,Kotamadya Jakarta Selatan
+1642907,1642904,Kota Administrasi Jakarta Timur,Kotamadya Jakarta Timur
+1642907,1642903,Kota Administrasi Jakarta Utara,Kotamadya Jakarta Utara
 1643012,8530432,Kabupaten Biak Numfor,
 1643012,1642655,Kabupaten Jayapura,
 1643012,8531252,Kabupaten Keerom,
@@ -445,7 +445,7 @@ parent_code,code,name,aliases
 1649147,9828032,Kabupaten Kepahiang,
 1649147,9828041,Kabupaten Lebong,
 1649147,9828963,Kabupaten Mukomuko,
-1649147,1629764,Kabupaten Rejang Lebong,
+1649147,1629764,Kabupaten Rejang Lebong,Kabupaten Rejanglebong
 1649147,9845356,Kabupaten Seluma,
 1649147,1649148,Kota Bengkulu,
 1650535,1650818,Kabupaten Badung,
@@ -453,7 +453,7 @@ parent_code,code,name,aliases
 1650535,1647803,Kabupaten Buleleng,
 1650535,1644098,Kabupaten Gianyar,
 1650535,1642584,Kabupaten Jembrana,
-1650535,7086954,Kabupaten Karang Asem,
+1650535,7086954,Kabupaten Karangasem,Kabupaten Karang Asem
 1650535,1639849,Kabupaten Klungkung,
 1650535,1625707,Kabupaten Tabanan,
 1650535,1645527,Kota Denpasar,
@@ -461,7 +461,7 @@ parent_code,code,name,aliases
 1923045,1632822,Kabupaten Pandeglang,
 1923045,1627545,Kabupaten Serang,
 1923045,1625083,Kabupaten Tangerang,
-1923045,6758625,Kota Cilegon,
+1923045,6758625,Kota Cilegon,Kotamadya Cilegon
 1923045,9845383,Kota Serang,
 1923045,9849891,Kota Tangerang,
 1923045,9845480,Kota Tangerang Selatan,
@@ -470,7 +470,7 @@ parent_code,code,name,aliases
 1923046,6960133,Kabupaten Gorontalo,
 1923046,9165866,Kabupaten Gorontalo Utara,
 1923046,9165687,Kabupaten Pohuwato,
-1923046,1643836,Kota Gorontalo,
+1923046,1643836,Kota Gorontalo,Kotamadya Gorontalo
 1923047,1650314,Kabupaten Bangka,
 1923047,9821906,Kabupaten Bangka Barat,
 1923047,9821904,Kabupaten Bangka Selatan,
@@ -478,10 +478,10 @@ parent_code,code,name,aliases
 1923047,1649281,Kabupaten Belitung,
 1923047,9821907,Kabupaten Belitung Timur,
 1923047,1632653,Kota Pangkal Pinang,
-1958070,9165995,East Halmahera Regency,
-1958070,9165708,Kabupaten Halmahera Barat,
+1958070,9165708,Halmahera Barat,Kabupaten Halmahera Barat
 1958070,7910927,Kabupaten Halmahera Selatan,
 1958070,1643475,Kabupaten Halmahera Tengah,
+1958070,9165995,Kabupaten Halmahera Timur,East Halmahera Regency
 1958070,9165798,Kabupaten Halmahera Utara,
 1958070,9172043,Kabupaten Kepulauan Sula,
 1958070,9844899,Kabupaten Pulau Morotai,
@@ -503,12 +503,12 @@ parent_code,code,name,aliases
 1996550,1630933,Kabupaten Polewali Mandar,
 1996551,9034776,Kabupaten Bintan,
 1996551,9821909,Kabupaten Karimun,
-1996551,8740095,Kabupaten Kepulauan Anambas,
 1996551,8739779,Kabupaten Lingga,
 1996551,8740093,Kabupaten Natuna,
+1996551,8740095,Kepulauan Anambas,Kabupaten Kepulauan Anambas
 1996551,9849917,Kota Batam,
 1996551,9849940,Kota Tanjung Pinang,
-8604684,8613240,Kabupaten Bulungan,
+8604684,8613240,Kabupaten Bulungan,Bulungan|Kabupaten Bulungah
 8604684,8613353,Kabupaten Malinau,
 8604684,8613360,Kabupaten Nunukan,
 8604684,8613361,Kabupaten Tana Tidung,

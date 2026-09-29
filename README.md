@@ -39,7 +39,7 @@ Each field only offers what belongs to the selection above it, the postal code i
 | 🇸🇬 Singapore | 🇿🇦 South Africa | 🇪🇸 Spain | 🇱🇰 Sri Lanka | 🇨🇭 Switzerland |
 | 🇹🇭 Thailand | 🇹🇷 Türkiye | 🇦🇪 United Arab Emirates | 🇬🇧 United Kingdom | 🇺🇸 United States |
 
-Each country's hierarchy, record counts, source and license are in its `manifest.json`; `bench geo-extension list` prints them for your bench. Eighteen of the thirty ship postal codes.
+Each country's hierarchy, source and license are in its `manifest.json`; `bench geo-extension list` prints the hierarchy and record counts for your bench. Eighteen of the thirty ship postal codes.
 
 Your country is missing or incomplete? Datasets are plain CSV files and [contributing one](template/README.md) needs no Frappe knowledge. More countries are added with every release.
 
@@ -80,8 +80,8 @@ The selector and the API are independent of the Address integration.
 | Method | Returns |
 | ------ | ------- |
 | `geo_extension.api.get_hierarchy(country)` | levels with labels and native field mapping, postal code availability |
-| `geo_extension.api.get_options(country, level, parent=None, txt=None)` | children of `parent` at `level` |
-| `geo_extension.api.resolve(country, names)` | the chain of units matching a list of names, top level first |
+| `geo_extension.api.get_options(country, level, parent=None, txt=None, parent_level=None)` | units at `level` below `parent` (the direct parent or any ancestor) |
+| `geo_extension.api.resolve(country, names, levels=None)` | the chain of units matching a list of names, top level first (`levels` when the form skips a level) |
 | `geo_extension.api.get_postal_codes(country, level, code)` | postal codes of a unit or its nearest ancestor that has any |
 | `geo_extension.api.search(country, txt, level=None)` | units at any level matching `txt`, each with its full path |
 | `geo_extension.api.get_supported_countries()` | metadata of every installed dataset (logged-in users) |
@@ -106,7 +106,7 @@ frappe.ui.form.on("Delivery Point", {
 });
 ```
 
-**Dialogs and Web Forms:** quick-entry dialogs and standard Address web forms are wired automatically. Any other dialog or web form with those fields needs one call:
+**Dialogs and Web Forms:** quick-entry dialogs and ERPNext's standard Address web form are wired automatically. A form without the field for a middle level (ERPNext's Customer quick entry has no `county`) still lists and resolves the levels it has. Any other dialog or web form with those fields needs one call:
 
 ```js
 frappe.geo_extension.attach_to_field_group(frappe.web_form); // or a frappe.ui.Dialog

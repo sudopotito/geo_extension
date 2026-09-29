@@ -3,8 +3,8 @@ code,name,aliases
 325329,Adıyaman,
 325302,Afyonkarahisar,
 325163,Ağrı,
-443185,Aksaray,
-752014,Amasya,
+443185,Aksaray,Aksaray İli
+752014,Amasya,Amasya İli
 323784,Ankara,
 323776,Antalya,
 862470,Ardahan,
@@ -12,14 +12,14 @@ code,name,aliases
 322819,Aydın,
 322164,Balıkesir,
 862467,Bartın,
-443186,Batman,
-862471,Bayburt,
+443186,Batman,Batman İli
+862471,Bayburt,Bayburt İli
 321122,Bilecik,
 321079,Bingöl,Bingoel
-321022,Bitlis,
-750510,Bolu,
-320390,Burdur,
-750268,Bursa,
+321022,Bitlis,Bitlis İli
+750510,Bolu,Bolu İli
+320390,Burdur,Burdur İli
+750268,Bursa,Bursa İli
 749778,Çanakkale,
 749747,Çankırı,
 748877,Çorum,
@@ -27,34 +27,34 @@ code,name,aliases
 316540,Diyarbakır,
 865521,Düzce,Duezce
 747711,Edirne,
-315807,Elâzığ,
+315807,Elazığ,
 315372,Erzincan,
 315367,Erzurum,
 315201,Eskişehir,
 314829,Gaziantep,
 746878,Giresun,
 746423,Gümüşhane,Guemueshane
-312888,Hakkari,
+312888,Hakkâri,
 312394,Hatay,
 443184,Iğdır,
-311071,Isparta,
+311071,Isparta,Isparta İli
 745042,İstanbul,
 311044,İzmir,
 310858,Kahramanmaraş,
 862468,Karabük,Karabuek
-443187,Karaman,
+443187,Karaman,Karaman İli
 743942,Kars,
-743881,Kastamonu,
+743881,Kastamonu,Kastamonu İli
 308463,Kayseri,
 443213,Kilis,
 443188,Kırıkkale,
 743165,Kırklareli,
 307513,Kırşehir,
-742865,Kocaeli,
-306569,Konya,
+742865,Kocaeli,Kocaeli İli
+306569,Konya,Konya İli
 305267,Kütahya,Kuetahya
-304919,Malatya,
-304825,Manisa,
+304919,Malatya,Malatya İli
+304825,Manisa,Manisa İli
 304794,Mardin,
 311728,Mersin,
 304183,Muğla,
@@ -64,8 +64,8 @@ code,name,aliases
 741098,Ordu,
 443183,Osmaniye,
 740481,Rize,
-740352,Sakarya,
-740263,Samsun,
+740352,Sakarya,Sakarya İli
+740263,Samsun İli,Samsun
 298332,Şanlıurfa,
 300821,Siirt,
 739598,Sinop,
@@ -73,10 +73,10 @@ code,name,aliases
 300617,Sivas,
 738926,Tekirdağ,
 738742,Tokat,
-738647,Trabzon,
-298845,Tunceli,
+738647,Trabzon,Trabzon İli
+298845,Tunceli,Tunceli İli
 298298,Uşak,
-298113,Van,
-862469,Yalova,
+298113,Van,Van İli
+862469,Yalova,Yalova İli
 296560,Yozgat,
 737021,Zonguldak,

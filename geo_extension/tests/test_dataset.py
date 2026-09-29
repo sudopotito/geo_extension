@@ -187,3 +187,32 @@ class TestShippedDatasets(unittest.TestCase):
 		barangays = ph.options(3, cebu_city.code)
 		self.assertGreater(len(barangays), 50)
 		self.assertLess(len(barangays), 200)  # only one city's barangays, never the whole country
+
+
+class TestSkippedLevels(unittest.TestCase):
+	"""Forms without a field for a middle level list and resolve the level below it."""
+
+	@classmethod
+	def setUpClass(cls):
+		cls.ds = ds.load_dataset(os.path.join(TEST_ROOT, "xa"))
+
+	def test_options_accept_an_ancestor_as_parent(self):
+		via_ancestor = [u.code for u in self.ds.options(3, "R1")]
+		self.assertEqual(via_ancestor, ["D3", "D1", "D4", "D2"])  # Centre, East, Uptown, West (A→Z)
+		direct = [u.code for c in self.ds.options(2, "R1") for u in self.ds.options(3, c.code)]
+		self.assertEqual(sorted(direct), sorted(via_ancestor))
+		self.assertEqual(self.ds.options(3, "no-such-code"), [])
+		self.assertEqual(self.ds.options(3, "R3"), [])  # region without children
+		self.assertEqual([u.code for u in self.ds.options(3, "R1", txt="est")], ["D2"])  # West
+
+	def test_resolve_with_explicit_levels(self):
+		chain = self.ds.resolve(["North Region", "West"], levels=[1, 3])
+		self.assertEqual([u.code for u in chain], ["R1", "D2"])
+		# a level that is not strictly increasing ends the chain
+		self.assertEqual([u.code for u in self.ds.resolve(["North Region", "West"], levels=[1, 1])], ["R1"])
+		# default levels are 1, 2, 3
+		self.assertEqual(
+			[u.code for u in self.ds.resolve(["North Region", "Alpha City", "West"])], ["R1", "C1", "D2"]
+		)
+		# without explicit levels a skipped level cannot resolve (West is not a city)
+		self.assertEqual([u.code for u in self.ds.resolve(["North Region", "West"])], ["R1"])

@@ -1,53 +1,53 @@
 parent_code,code,name,aliases
-2513413,6355234,Murcia,
-2519582,8335119,Ceuta,
-2521383,6424360,Illes Balears,
-2593109,2521883,Almería,
-2593109,2520597,Cádiz,Provincia de Cádiz
+2513413,6355234,Murcia,Provincia de Murcia|Murtzia
+2519582,8335119,Ciudad Autónoma de Ceuta,Ceuta
+2521383,6424360,las Islas Baleares,Illes Balears|Islas Baleares|ses Illes|Província de les Illes Balears|Provincia de las Islas Baleares|Baleares
+2593109,2521883,Almería,Provincia de Almería|Província dAlmeria|Almeríako probintzia
+2593109,2520597,Cádiz,Provincia de Cádiz|Província de Cadis
+2593109,2519239,Córdoba,Province of Córdoba|Provincia de Córdoba|Província de Còrdova|Kordoba
 2593109,2517115,Granada,Provincia de Granada
 2593109,2516547,Huelva,Provincia de Huelva
 2593109,2516394,Jaén,Provincia de Jaén
 2593109,2514254,Málaga,Provincia de Málaga
-2593109,2519239,Province of Córdoba,
 2593109,2510910,Sevilla,Provincia de Sevilla
-2593110,2515271,Las Palmas,Provincia de Las Palmas
-2593110,2511173,Santa Cruz de Tenerife,Provincia de Santa Cruz de Tenerife
+2593110,2515271,Las Palmas,Provincia de Las Palmas|As Palmas
+2593110,2511173,Santa Cruz de Tenerife,Provincia de Santa Cruz de Tenerife|Tenerifeko Santa Cruz
 2593111,2522257,Albacete,Provincia de Albacete
-2593111,2519401,Ciudad Real,Provincia de Ciudad Real
-2593111,2519034,Cuenca,Provincia de Cuenca
-2593111,3121069,Guadalajara,Provincia de Guadalajara
-2593111,2510407,Province of Toledo,
+2593111,2519401,Ciudad Real,Provincia de Ciudad Real|Cidade Real
+2593111,2519034,Cuenca,Provincia de Cuenca|Conca|Província de Conca
+2593111,3121069,Guadalajara,Provincia de Guadalajara|Guadalaxara
+2593111,2510407,Toledo,Province of Toledo|Provincia de Toledo
 2593112,2521419,Badajoz,Provincia de Badajoz
 2593112,2520610,Cáceres,Provincia de Cáceres
-2593113,2521976,Alicante,Provincia de Alicante
-2593113,3125881,Castelló,Província de Castelló
-2593113,2509951,València,Província de València
-3114710,6355236,Province of Asturias,
-3115609,6355235,Navarra,Provincia de Navarra
-3117732,6355233,Madrid,Provincia de Madrid
-3336897,6355232,La Rioja,Provincia de La Rioja
+2593113,2521976,Alicante,Provincia de Alicante|Província d'Alacant|Alacante|Alacant|Província d’Alacant
+2593113,3125881,Castellón,Província de Castelló|Provincia de Castellón de la Plana|Provincia de Castellón|Castelló
+2593113,2509951,Valencia,Província de València|Valentzia
+3114710,6355236,Asturias,Province of Asturias|Provincia de Asturias|Província d'Astúries|Principado de Asturias
+3115609,6355235,Navarra,Provincia de Navarra|Nafarroa
+3117732,6355233,Madrid,Provincia de Madrid|Madril|Comunidad de Madrid
+3336897,6355232,La Rioja,Provincia de La Rioja|Errioxa|A Rioxa
 3336898,3109716,Cantabria,Provincia de Cantabria
-3336899,3120513,Huesca,Provincia de Huesca
-3336899,3108125,Teruel,Provincia de Teruel
-3336899,3104323,Zaragoza,Provincia de Zaragoza
-3336900,3129138,Ávila,Provincia de Ávila
+3336899,3120513,Huesca,Provincia de Huesca|Osca|Província d'Osca
+3336899,3108125,Teruel,Provincia de Teruel|Província de Terol
+3336899,3104323,Zaragoza,Provincia de Zaragoza|Saragossa|Província de Saragossa
+3336900,3129138,Ávila,Provincia de Ávila|Província d'Àvila
 3336900,3127460,Burgos,Provincia de Burgos
-3336900,3118528,León,Provincia de León
-3336900,3114530,Palencia,Provincia de Palencia
+3336900,3118528,León,Provincia de León|Província de Lleó
+3336900,3114530,Palencia,Provincia de Palencia|Palentzia
 3336900,3111107,Salamanca,Provincia de Salamanca
 3336900,3109254,Segovia,Provincia de Segovia
 3336900,3108680,Soria,Provincia de Soria
 3336900,3106671,Valladolid,Provincia de Valladolid
 3336900,3104341,Zamora,Provincia de Zamora
-3336901,3128759,Barcelona,Província de Barcelona
-3336901,6355230,Girona,Província de Girona
-3336901,6355231,Lleida,Província de Lleida
+3336901,3128759,Barcelona,Província de Barcelona|Bartzelona
+3336901,6355230,Gerona,Província de Girona|Provincia de Gerona|Girona|Xirona
+3336901,6355231,Lérida,Província de Lleida|Lleida|Província de Lérida
 3336901,3108287,Tarragona,Província de Tarragona
+3336902,3119840,La Coruña,Provincia da Coruña|Provincia de La Coruña|Província d'A Coruña|A Coruña
 3336902,3117813,Lugo,Provincia de Lugo
-3336902,3114964,Ourense,Provincia de Ourense
+3336902,3114964,Ourense,Provincia de Ourense|Provincia de Orense|Província d'Ourense|Orense
 3336902,3113208,Pontevedra,Provincia de Pontevedra
-3336902,3119840,Provincia da Coruña,
-3336903,3130717,Araba / Álava,
-3336903,3104469,Bizkaia,
-3336903,3120935,Gipuzkoa,
-6362988,8335120,Melilla,
+3336903,3130717,Álava,Araba / Álava|Araba|Provincia de Álava|Província d'Àlaba
+3336903,3104469,Bizkaia,Vizcaya|Província de Biscaia|Biscaia
+3336903,3120935,Guipúzcoa,Gipuzkoa|Província de Guipúscoa|Guipúscoa|Provincia de Guipúzcoa
+6362988,8335120,Ciudad Autónoma de Melilla,Melilla

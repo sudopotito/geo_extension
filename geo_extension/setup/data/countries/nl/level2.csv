@@ -1,7 +1,8 @@
 parent_code,code,name,aliases
+2743698,2747375,'s-Gravendeel,s-Gravendeel
 2743698,2747364,'s-Gravenzande,
 2743698,2759915,Alblasserdam,
-2743698,2759875,Alphen aan den Rijn,
+2743698,2759875,Alphen aan den Rijn,Alphen a/d Rijn
 2743698,2759815,Ammerstol,
 2743698,2759673,Arkel,
 2743698,2759426,Barendrecht,
@@ -17,13 +18,14 @@ parent_code,code,name,aliases
 2743698,2758547,Boskoop,
 2743698,2758500,Boven-Hardinxveld,
 2743698,2758326,Brielle,
-2743698,2758012,Capelle aan den IJssel,
-2743698,2758001,Carnisse,
+2743698,2758012,Capelle aan den IJssel,Capelle a/d IJssel|Capelle aan de IJssel|Capelle aan den Yssel|Capelle a/d Yssel|Capelle aan de Yssel
+2743698,2758001,Carnisselande,Carnisse
 2743698,2757858,Dalem,
 2743698,2757657,De Engel,
 2743698,2757449,De Kieviet,
 2743698,2757336,De Lier,
 2743698,2757345,Delft,
+2743698,2747373,Den Haag,The Hague
 2743698,2756787,Dirksland,
 2743698,2756669,Dordrecht,
 2743698,2756614,Driebruggen,
@@ -49,14 +51,14 @@ parent_code,code,name,aliases
 2743698,2753789,Hoogblokland,
 2743698,2753681,Hoogmade,
 2743698,2753666,Hoogvliet,
-2743698,2753011,Katwijk aan den Rijn,
-2743698,2753010,Katwijk aan Zee,
+2743698,2753011,Katwijk aan den Rijn,Katwijk aan de Rijn|Katwijk a/d Rijn|Katwijk
+2743698,2753010,Katwijk Aan Zee,
 2743698,2752942,Kerkehout,
 2743698,2752828,Kinderdijk,
 2743698,2752814,Klaaswaal,
 2743698,7873874,Kop van Zuid,
 2743698,2752405,Korteraar,
-2743698,2752264,Krimpen aan den IJssel,
+2743698,2752264,Krimpen aan den IJssel,Krimpen a/d IJssel|Krimpen aan de Yssel|Krimpen a/d Yssel|Krimpen aan den Yssel
 2743698,2752130,Kwintsheul,
 2743698,2751926,Langeraar,
 2743698,2751773,Leiden,
@@ -78,7 +80,7 @@ parent_code,code,name,aliases
 2743698,2750213,Nieuwe Wetering,
 2743698,2750280,Nieuwenhoorn,
 2743698,2750269,Nieuwerbrug aan den Rijn,
-2743698,2750263,Nieuwerkerk aan den IJssel,
+2743698,2750263,Nieuwerkerk aan den IJssel,Nieuwerkerk a/d IJssel|Nieuwerkerk aan de IJssel|Nieuwerkerk aan de Yssel|Nieuwerkerk a/d Yssel
 2743698,2750187,Nieuwkoop,
 2743698,2750146,Nieuwpoort,
 2743698,2750123,Nieuwveen,
@@ -95,7 +97,7 @@ parent_code,code,name,aliases
 2743698,2749182,Oud-Beijerland,
 2743698,2749164,Ouddorp,
 2743698,2748968,Oude Wetering,
-2743698,2749016,Ouderkerk aan den IJssel,
+2743698,2749016,Ouderkerk aan den IJssel,Ouderkerk a/d IJssel|Ouderkerk aan de IJssel|Ouderkerk aan de Yssel|Ouderkerk a/d Yssel|Ouderkerk aan den Yssel
 2743698,2748729,Papendrecht,
 2743698,2748725,Papenveer,
 2743698,2748647,Pernis,
@@ -114,7 +116,6 @@ parent_code,code,name,aliases
 2743698,2748006,Roelofarendsveen,
 2743698,2747891,Rotterdam,
 2743698,2747870,Rozenburg,
-2743698,2747375,s-Gravendeel,
 2743698,2747751,Sassenheim,
 2743698,2747636,Schelluinen,
 2743698,2747599,Scheveningen,
@@ -133,7 +134,6 @@ parent_code,code,name,aliases
 2743698,2746573,Stuifakker,
 2743698,2746478,Ter Aar,
 2743698,2746457,Ter Heijde,
-2743698,2747373,The Hague,
 2743698,2745872,Valkenburg,
 2743698,2745547,Vierpolders,
 2743698,2745467,Vlaardingen,
@@ -166,7 +166,7 @@ parent_code,code,name,aliases
 2744011,2759664,Arnemuiden,
 2744011,2759594,Axel,
 2744011,2758956,Biggekerke,
-2744011,2758587,Borssele,
+2744011,2758587,Borssele,Borsele
 2744011,2758341,Breskens,
 2744011,2758319,Brigdamme,
 2744011,2758213,Brouwershaven,
@@ -247,7 +247,8 @@ parent_code,code,name,aliases
 2745909,2758579,Bosch en Duin,
 2745909,2758333,Breukelen,
 2745909,2758106,Bunnik,
-2745909,2758104,Bunschoten,
+2745909,2746981,Bunschoten-Spakenburg,Spakenburg
+2745909,2758104,Bunschoten-Spakenburg,Bunschoten
 2745909,2758038,Cabauw,
 2745909,2757899,Cothen,
 2745909,2757783,De Bilt,
@@ -258,6 +259,7 @@ parent_code,code,name,aliases
 2745909,2756398,Eemdijk,
 2745909,2756394,Eemnes,
 2745909,2755976,Everdingen,
+2745909,2746380,Gooi en vechtstreek,t Goy
 2745909,2755387,Graaf,
 2745909,2755302,Groenekan,
 2745909,2754962,Hagestein,
@@ -275,7 +277,7 @@ parent_code,code,name,aliases
 2745909,2751687,Leusden,
 2745909,2751686,Leusden-Zuid,
 2745909,2751561,Linschoten,
-2745909,2751523,Loenen aan de Vecht,
+2745909,2751523,Loenen,Loenen aan de Vecht
 2745909,2751436,Lopik,
 2745909,2751433,Lopikerkapel,
 2745909,2751320,Maarn,
@@ -299,9 +301,7 @@ parent_code,code,name,aliases
 2745909,2747034,Soest,
 2745909,2747032,Soestdijk,
 2745909,2747030,Soesterberg,
-2745909,2746981,Spakenburg,
 2745909,6544897,Sterrenberg,
-2745909,2746380,t Goy,
 2745909,2745961,Uitweg,
 2745909,2745912,Utrecht,
 2745909,2745774,Veenendaal,
@@ -406,6 +406,7 @@ parent_code,code,name,aliases
 2748838,2743652,Zuidveen,
 2748838,2743518,Zwartsluis,
 2748838,2743477,Zwolle,
+2749879,2746093,'t Veld,t Veld
 2749879,2746031,'t Zand,
 2749879,2760149,Aagtdorp,
 2749879,2760134,Aalsmeer,
@@ -465,7 +466,7 @@ parent_code,code,name,aliases
 2749879,2756504,Duivendrecht,
 2749879,2756485,Durgerdam,
 2749879,2756431,Edam,
-2749879,2756302,Egmond aan den Hoef,
+2749879,2756302,Egmond aan den Hoef,Egmond a/d Hoef|Egmond aan de Hoef
 2749879,2756301,Egmond aan Zee,
 2749879,2756299,Egmond-Binnen,
 2749879,2756077,Enkhuizen,
@@ -534,7 +535,7 @@ parent_code,code,name,aliases
 2749879,2749281,Opperdoes,
 2749879,2749207,Oterleek,
 2749879,2748926,Oud-Loosdrecht,
-2749879,2749017,Ouderkerk aan de Amstel,
+2749879,2749017,Ouderkerk aan de Amstel,Ouderkerk a/d Amstel
 2749879,2749009,Oudeschild,
 2749879,2749003,Oudesluis,
 2749879,2748943,Oudkarspel,
@@ -555,12 +556,11 @@ parent_code,code,name,aliases
 2749879,2746986,Spaarndam,
 2749879,2746943,Spierdijk,
 2749879,2746661,Stompetoren,
-2749879,2746093,t Veld,
 2749879,2746121,Tuitjenhorn,
 2749879,2746048,Twisk,
 2749879,2745978,Uitgeest,
 2749879,2745973,Uithoorn,
-2749879,2745673,Velsen-Zuid,
+2749879,2745673,Velsen,Velsen-Zuid
 2749879,7118109,Velserbroek,
 2749879,2745645,Venhuizen,
 2749879,2745528,Vijfhuizen,
@@ -592,8 +592,7 @@ parent_code,code,name,aliases
 2749879,2743588,Zwaanshoek,
 2749879,2743574,Zwanenburg,
 2749990,2747371,'s Gravenmoer,
-2749990,2747351,'s-Hertogenbosch,
-2749990,2760144,Aalburg,
+2749990,2747351,'s-Hertogenbosch,Den Bosch
 2749990,6698718,Aarle-Rixtel,
 2749990,2760064,Abcoven,
 2749990,2759981,Achtmaal,
@@ -605,7 +604,7 @@ parent_code,code,name,aliases
 2749990,2759554,Baarle-Nassau,
 2749990,2759511,Bakel,
 2749990,2759349,Beek,
-2749990,2759309,Beers,
+2749990,2759309,Bèèrs,
 2749990,2759132,Bergeijk,Bergeyk
 2749990,2759145,Bergen op Zoom,
 2749990,2759126,Berghem,
@@ -631,10 +630,9 @@ parent_code,code,name,aliases
 2749990,2757993,Casteren,
 2749990,2757969,Chaam,
 2749990,2757890,Cranendonck,
-2749990,2757879,Cromvoirt,
-2749990,2757874,Cuijk,
+2749990,2757879,Cromvoirt,Crummert
+2749990,2757874,Cuijk,Kuuk
 2749990,2757281,De Moer,
-2749990,2750600,De Mortel,
 2749990,2748049,De Rips,
 2749990,2757237,Den Dungen,
 2749990,2757211,Den Hout,
@@ -752,6 +750,7 @@ parent_code,code,name,aliases
 2749990,2750769,Moerdijk,
 2749990,2750694,Molenhoek,
 2749990,2750666,Molenschot,
+2749990,2750600,Mortel,De Mortel
 2749990,2750464,Nederwetten,
 2749990,2750442,Neerkant,
 2749990,2750407,Netersel,
@@ -854,6 +853,7 @@ parent_code,code,name,aliases
 2749990,2744824,Wernhout,
 2749990,2744731,Westerhoven,
 2749990,2744516,Wijbosch,
+2749990,2760144,Wijk en Aalburg,Aalburg
 2749990,2744446,Wilbertoord,
 2749990,2744388,Willemstad,
 2749990,2744333,Wintelre,
@@ -863,7 +863,7 @@ parent_code,code,name,aliases
 2749990,2744140,Wouwse Plantage,
 2749990,2744014,Zeeland,
 2749990,2743992,Zegge,
-2749990,2743956,Zesgehuchten,
+2749990,2743956,Zesgehuchten,Zes Gehuchten
 2749990,2743944,Zevenbergschen Hoek,
 2749990,2743877,Zijtaart,
 2749990,2743843,Zondveld,
@@ -904,7 +904,7 @@ parent_code,code,name,aliases
 2751596,2758111,Bunde,
 2751596,2757994,Castenray,
 2751596,2757978,Catsop,
-2751596,6619678,Chevremont,
+2751596,6619678,Chevremont,Geitberg
 2751596,2756856,Dieteren,
 2751596,2756774,Doenrade,
 2751596,2756444,Echt,
@@ -1165,6 +1165,7 @@ parent_code,code,name,aliases
 2755249,2743694,Zuidhorn,
 2755249,2743636,Zuidwolde,
 2755634,2747357,'s-Heerenberg,
+2755634,2746371,'t Harde,t Harde
 2755634,2760131,Aalst,
 2755634,2760123,Aalten,
 2755634,2759975,Acquoy,
@@ -1172,7 +1173,7 @@ parent_code,code,name,aliases
 2755634,2759945,Afferden,
 2755634,2759906,Alem,
 2755634,2759884,Almen,
-2755634,2759876,Alphen,
+2755634,2759876,Alphen aan de Maas,Alphen
 2755634,2759858,Altforst,
 2755634,2759853,Alverna,
 2755634,2759813,Ammerzoden,
@@ -1188,7 +1189,7 @@ parent_code,code,name,aliases
 2755634,2759429,Barchem,
 2755634,2759407,Barneveld,
 2755634,2759385,Batenburg,
-2755634,2759344,Beek gem Montferland,
+2755634,2759344,Beek,Beek gem Montferland|Beek (Montferland)
 2755634,2759342,Beekbergen,
 2755634,8593867,Beemte-Broekland,
 2755634,2759288,Beesd,
@@ -1205,7 +1206,7 @@ parent_code,code,name,aliases
 2755634,2758434,Braamt,
 2755634,2758426,Brakel,
 2755634,2758393,Bredevoort,
-2755634,2758391,Bredeweg,
+2755634,2758391,Breedeweg,Bredeweg
 2755634,2758290,Broekdijk,
 2755634,2758207,Bruchem,
 2755634,2758177,Brummen,
@@ -1316,7 +1317,7 @@ parent_code,code,name,aliases
 2755634,2751385,Lunteren,
 2755634,2751304,Maasbommel,
 2755634,2751085,Maurik,
-2755634,2751076,Meddo,
+2755634,2751076,Meddo,Winterswijk Meddo
 2755634,2751004,Megchelen,
 2755634,2750921,Meteren,
 2755634,2750490,Nederasselt,
@@ -1366,7 +1367,6 @@ parent_code,code,name,aliases
 2755634,2746794,Steenderen,
 2755634,2746673,Stokkum,
 2755634,2746596,Stroe,
-2755634,2746371,t Harde,
 2755634,2746247,t Loo,
 2755634,2746468,Terborg,
 2755634,2746407,Terschuur,
@@ -1420,51 +1420,50 @@ parent_code,code,name,aliases
 2755634,2743561,Zwartebroek,
 2755812,2760053,Achlum,
 2755812,2759922,Akkrum,
-2755812,2749669,Aldeboarn,
-2755812,2748941,Aldtsjerk,
 2755812,2748886,Aldwâld,
-2755812,2759698,Appelscha,
+2755812,2759698,Appelscha,Nieuw Appelsga|Appelsga
 2755812,2759652,Arum,
 2755812,2759611,Augustinusga,
 2755812,2759496,Bakhuizen,
 2755812,2759486,Bakkeveen,
 2755812,2759472,Balk,
 2755812,2759431,Bantega,
+2755812,2759281,Beetgumermolen,Bitgummole
 2755812,2759275,Beetsterzwaag,
-2755812,2759057,Berltsum,
-2755812,2759281,Bitgummole,
+2755812,2759057,Berlikum,Berltsum
 2755812,2758851,Blauwhuis,
-2755812,2758820,Blije,
-2755812,2758748,Boelenslaan,
-2755812,2758453,Boijl,
+2755812,2758820,Blija,Blije
+2755812,2758748,Boelenslaan,Surhuisterveensterheide
+2755812,2758453,Boijl,Boyl
 2755812,2758682,Bolsward,
 2755812,2758633,Boornbergum,
 2755812,2758309,Britsum,
-2755812,2758239,Broeksterwâld,
+2755812,2758239,Broeksterwoude,Broeksterwâld
 2755812,2758131,Buitenpost,
 2755812,2758895,Burdaard,
 2755812,2758096,Buren,
 2755812,2759103,Burgum,
 2755812,2758073,Burum,
-2755812,2757838,Damwâld,
+2755812,2757838,Damwâld,Murmerwoude
 2755812,2757773,De Blesse,
-2755812,6697854,De Knipe,
+2755812,6697854,De Knijpe,De Knipe
 2755812,2743590,De Westereen,
-2755812,2756933,De Wilgen,
+2755812,2756933,De Wilgen,Wilgen
 2755812,2757475,Deinum,
 2755812,2757346,Delfstrahuizen,
 2755812,2756759,Dokkum,
 2755812,2756703,Donkerbroek,
 2755812,2756644,Drachten,
-2755812,2756642,Drachtstercompagnie,
-2755812,2756577,Driezum,
-2755812,2756567,Drogeham,
-2755812,2756561,Dronryp,
+2755812,2756642,Drachtstercompagnie,Drachster Compaghnie|De Compagnie
+2755812,2756577,Driesum,Driezum
+2755812,2756567,Drogeham,Droogeham
+2755812,2756561,Dronrijp,Dronryp
 2755812,2759757,Eanjum,
 2755812,2749430,Eastermar,
 2755812,2749427,Easternijtsjerk,
 2755812,2756438,Echtenerbrug,
 2755812,2756422,Ee,
+2755812,2756321,Eestrum,Jistrum
 2755812,2745743,Feanwâlden,
 2755812,2755920,Ferwert,
 2755812,2755845,Franeker,
@@ -1473,10 +1472,10 @@ parent_code,code,name,aliases
 2755812,2755574,Gerkesklooster,
 2755812,2755429,Gorredijk,
 2755812,2755399,Goutum,
-2755812,2755052,Grou,
+2755812,2755052,Grouw,Grou
 2755812,2755542,Gytsjerk,
 2755812,2754930,Hallum,
-2755812,2754821,Harkema,
+2755812,2754821,Harkema,Harkema-Opeinde
 2755812,2754817,Harlingen,
 2755812,2754796,Haskerhorne,
 2755812,2754758,Haulerwijk,
@@ -1487,12 +1486,12 @@ parent_code,code,name,aliases
 2755812,2753887,Hollum,
 2755812,2753852,Holwert,
 2755812,2753834,Hommerts,
-2755812,2753599,Hoornsterzwaag,
+2755812,2753599,Hoornsterzwaag,Hornsterzwaag
 2755812,2753545,Houtigehage,
 2755812,2754864,Hurdegaryp,
 2755812,2753379,IJlst,
+2755812,2753369,IJsbrechtum,Ysbrechtum
 2755812,2753307,Jirnsum,
-2755812,2756321,Jistrum,
 2755812,2753197,Joure,
 2755812,6692371,Jubbega,
 2755812,2753034,Katlijk,
@@ -1509,81 +1508,82 @@ parent_code,code,name,aliases
 2755812,2751254,Makkum,
 2755812,2751212,Mantgum,
 2755812,2751129,Marrum,
-2755812,2751122,Marsum,
-2755812,2750965,Menaam,
+2755812,2751122,Marssum,Marsum
+2755812,2750965,Menaldum,Menaam
 2755812,2750837,Midlum,
 2755812,2750835,Midsland,
 2755812,2750805,Mildam,
 2755812,2750790,Minnertsga,
 2755812,2750919,Mitselwier,
-2755812,2750706,Mûnein,
+2755812,2750706,Molenend,Mûnein|Moleneind
 2755812,2750417,Nes,
 2755812,2750310,Nieuwehorne,
 2755812,2750089,Nijemirdum,
 2755812,2750059,Nijland,
-2755812,2749992,Noardburgum,
+2755812,2749992,Noordbergum,Noardburgum
 2755812,2749807,Noordwolde,
-2755812,2749708,Oentsjerk,
+2755812,2749708,Oenkerk,Oentsjerk
 2755812,2749671,Oldeberkoop,
+2755812,2749669,Oldeboorn,Aldeboarn
 2755812,2749663,Oldeholtpade,
 2755812,2749334,Oost-Vlieland,
-2755812,2749474,Oosterend,
+2755812,2749474,Oosterend,Easterein
 2755812,2749412,Oosterstreek,
 2755812,2749391,Oosterwolde,
 2755812,2749385,Oosterzee,
 2755812,2749304,Opeinde,
 2755812,2749284,Oppenhuizen,
 2755812,2749251,Oranjewoud,
-2755812,2749155,Oude Bildtzijl,
+2755812,2749155,Oude Bildtzijl,Oude Biltzijl
 2755812,2749136,Oudega,
-2755812,2749120,Oudehaske,
+2755812,2749120,Oudehaske,Oldehaske
 2755812,2749109,Oudehorne,
 2755812,2749061,Oudemirdum,
 2755812,2749007,Oudeschoot,
+2755812,2748941,Oudkerk,Aldtsjerk
 2755812,2748314,Raerd,
-2755812,2747938,Reduzum,
-2755812,2748051,Rinsumageast,
+2755812,2748099,Rijperkerk,Ryptsjerk|Riperkerk
+2755812,2748051,Rinsumageest,Rinsumageast
+2755812,2747938,Roordahuizum,Reduzum
 2755812,2747897,Rotsterhaule,
 2755812,2747886,Rottevalle,
 2755812,2747884,Rottum,
-2755812,2748099,Ryptsjerk,
 2755812,2747671,Scharnegoutum,
 2755812,2747669,Scharsterbrug,
 2755812,2747591,Schiermonnikoog,
-2755812,2747380,Sexbierum,
-2755812,2747339,Siegerswoude,
-2755812,2747297,Sint Annaparochie,
+2755812,2747380,Sexbierum,Sixbierum
+2755812,2747339,Siegerswoude,Sigerswoude
+2755812,2747297,Sint Annaparochie,Annaparochie
 2755812,2747270,Sint Jacobiparochie,
-2755812,2747231,Sint Nicolaasga,
-2755812,2747257,Sintjohannesga,
+2755812,2747231,Sint Nicolaasga,Sint Nikolaasga
+2755812,2747257,Sintjohannesga,Sint Johannisga
 2755812,2747131,Sloten,
 2755812,2747063,Sneek,
-2755812,2746816,Stavoren,
+2755812,2746816,Stavoren,Staveren
 2755812,2746752,Steggerda,
 2755812,2746705,Stiens,
-2755812,2746565,Sumar,
+2755812,2746565,Suameer,Sumar
 2755812,2746558,Surhuisterveen,
 2755812,2746557,Surhuizum,
 2755812,2746564,Suwâld,
 2755812,2743585,Sweagerbosk,
-2755812,2746449,Terherne,
+2755812,2746449,Terherne,Terhorne
 2755812,2746424,Ternaard,
 2755812,2746398,Terwispel,
+2755812,2746311,Tietjerk,Tytsjerk
 2755812,2746304,Tijnje,
 2755812,2746274,Tjalleberd,
 2755812,2746052,Twijzel,
 2755812,2746051,Twijzelerheide,
-2755812,2746311,Tytsjerk,
-2755812,2746024,Tzum,
-2755812,2746023,Tzummarum,
+2755812,2746024,Tzum,Tjum
+2755812,2746023,Tzummarum,Tjummarum
 2755812,2745936,Ureterp,
-2755812,2745163,Vrouwenparochie,
-2755812,2744147,Wâlterswâld,
-2755812,2745018,Warga,
+2755812,2745163,Vrouwenparochie,Lieve Vrouwe Parochie|Lieve Vrouwenparochie
 2755812,2745005,Warns,
-2755812,2744998,Warten,
+2755812,2744998,Wartena,Warten
 2755812,2744995,Waskemeer,
 2755812,2744891,Weidum,
+2755812,2745018,Wergea,Warga
 2755812,2744608,West-Terschelling,
 2755812,2744744,Westergeast,
 2755812,2744510,Wijckel,
@@ -1595,7 +1595,7 @@ parent_code,code,name,aliases
 2755812,2744191,Wommels,
 2755812,2744179,Workum,
 2755812,2744153,Woudsend,
-2755812,2753369,Ysbrechtum,
+2755812,2744147,Wouterswoude,Wâlterswâld|Wouterswoud
 2756631,2760142,Aalden,
 2756631,2759863,Alteveer,
 2756631,2759729,Annen,
@@ -1609,7 +1609,7 @@ parent_code,code,name,aliases
 2756631,2757857,Dalen,
 2756631,2757853,Dalerpeel,
 2756631,2757831,Darp,
-2756631,2756936,De Wijk,
+2756631,2756936,de Wijk,
 2756631,2756855,Diever,
 2756631,2756549,Drouwenermond,
 2756631,2756451,Dwingeloo,
@@ -1678,10 +1678,10 @@ parent_code,code,name,aliases
 2756631,2744454,Wijster,
 2756631,2744418,Wilhelminaoord,
 2756631,2744130,Yde,
-2756631,2743985,Zeyen,
+2756631,2743985,Zeijen,Zeyen
 2756631,2743680,Zuidlaren,
+3319179,2759879,Almere,Almere Stad
 3319179,12746919,Almere Duin,
-3319179,2759879,Almere Stad,
 3319179,2759434,Bant,
 3319179,2758992,Biddinghuizen,
 3319179,2757886,Creil,

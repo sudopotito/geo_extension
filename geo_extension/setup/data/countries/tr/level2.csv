@@ -22,7 +22,7 @@ parent_code,code,name,aliases
 298113,8630844,Gevaş,Gevaş İlçesi
 298113,8630845,Gürpınar,Gürpınar İlçesi|Guerpinar Ilcesi
 298113,9550938,İpekyolu,
-298113,7911042,Muradiye / Berkri,
+298113,7911042,Muradiye,Muradiye / Berkri
 298113,8630847,Özalp,Özalp İlçesi|OEzalp Ilcesi
 298113,8630846,Saray,Saray İlçesi
 298113,9550890,Tuşba,
@@ -30,7 +30,7 @@ parent_code,code,name,aliases
 298298,8632462,Eşme,Eşme İlçesi
 298298,8632458,Karahallı,Karahallı İlçesi
 298298,8632460,Sivaslı,Sivaslı İlçesi
-298298,8632459,Ulubey,
+298298,8632459,Ulubey,Ulubey İlçesi
 298298,7732999,Usak,
 298332,436459,Akçakale,Akçakale İlçesi
 298332,8630793,Birecik,Birecik İlçesi
@@ -98,7 +98,7 @@ parent_code,code,name,aliases
 304041,7732944,Mus,
 304041,8630861,Varto,Varto İlçesi
 304183,7733242,Bodrum,
-304183,8631959,Dalaman,
+304183,8631959,Dalaman,Dalaman İlçesi
 304183,8631963,Datça,Datça İlçesi
 304183,7732940,Fethiye,
 304183,7732941,Kavaklıdere,
@@ -207,7 +207,7 @@ parent_code,code,name,aliases
 308463,8631788,Felahiye,Felahiye İlçesi
 308463,8631787,Hacılar,Hacılar İlçesi
 308463,7910469,Incesu,
-308463,7732929,Kocasinan,
+308463,7732929,Kocasinan,Kocasinan İlçesi
 308463,7732928,Melikgazi,
 308463,8631789,Özvatan,Özvatan İlçesi|OEzvatan Ilcesi
 308463,8631781,Pınarbaşı,Pınarbaşı İlçesi
@@ -215,8 +215,8 @@ parent_code,code,name,aliases
 308463,8631774,Sarız,Sarız İlçesi
 308463,8631784,Talas,Talas İlçesi
 308463,8631775,Tomarza,Tomarza İlçesi
-308463,7932395,Yahyali,
-308463,7910468,Yesilhisar,
+308463,7932395,Yahyalı,
+308463,7910468,Yeşilhisar,
 310858,8631480,Afşin,Afşin İlçesi
 310858,8631478,Andırın,Andırın İlçesi
 310858,8631474,Çağlayancerit,Çağlayancerit İlçesi
@@ -358,7 +358,7 @@ parent_code,code,name,aliases
 315372,8631605,Tercan,Tercan İlçesi
 315372,8631606,Üzümlü,Üzümlü İlçesi|UEzuemlue Ilcesi
 315807,7733228,Ağın,
-315807,8631566,Alacakaya,Alacakaya İlçesi
+315807,8631566,Alacakaya,Alacakaya İlçesi|Alacakayal İlçesi
 315807,8631565,Arıcak,Arıcak İlçesi
 315807,8631561,Baskil,Baskil İlçesi
 315807,7732370,Elazig,
@@ -386,11 +386,12 @@ parent_code,code,name,aliases
 316540,9565377,Sur,
 316540,9565316,Yenişehir,
 317106,8632193,Acıpayam,Acıpayam İlçesi
+317106,8632212,Akköy,Pamukkale İlçesi|Akköy İlçesi
 317106,8632205,Babadağ,Babadağ İlçesi
 317106,8632200,Baklan,Baklan İlçesi
-317106,8632197,Bekilli,
+317106,8632197,Bekilli,Bekilli İlçesi
 317106,8632192,Beyağaç,Beyağaç İlçesi
-317106,8632201,Bozkurt,
+317106,8632201,Bozkurt,Bozkurt İlçesi
 317106,8632211,Buldan,Buldan İlçesi
 317106,8632198,Çal,Çal İlçesi
 317106,8632194,Çameli,Çameli İlçesi
@@ -400,7 +401,6 @@ parent_code,code,name,aliases
 317106,7732360,Honaz,
 317106,8632207,Kale,Kale İlçesi
 317106,9538816,Merkezefendi,Merkezefendi İlçesi
-317106,8632212,Pamukkale,Pamukkale İlçesi
 317106,7732660,Sarayköy,Saraykoey
 317106,8632210,Serinhisar,Serinhisar İlçesi
 317106,8632208,Tavas,Tavas İlçesi
@@ -461,17 +461,17 @@ parent_code,code,name,aliases
 322819,8632395,Bozdoğan,Bozdoğan İlçesi
 322819,8632397,Buharkent,Buharkent İlçesi
 322819,8632393,Çine,Çine İlçesi
-322819,8632405,Didim,
+322819,8632405,Didim,Didim İlçesi
 322819,9564466,Efeler,
 322819,8632402,Germencik,Germencik İlçesi
 322819,8632403,İncirliova,İncirliova İlçesi
-322819,8632396,Karacasu,
+322819,8632396,Karacasu,Karacasu İlçesi
 322819,8632392,Karpuzlu,Karpuzlu İlçesi
 322819,8632391,Koçarlı,Koçarlı İlçesi
 322819,8632404,Köşk,Köşk İlçesi|Koesk Ilcesi
 322819,8632401,Kuşadası,Kuşadası İlçesi
 322819,8632400,Kuyucak,Kuyucak İlçesi
-322819,8632399,Nazilli,
+322819,8632399,Nazilli,Nazilli İlçesi
 322819,8632390,Söke,Söke İlçesi|Soeke Ilcesi
 322819,8632398,Sultanhisar,Sultanhisar İlçesi
 322819,8632394,Yenipazar,Yenipazar İlçesi
@@ -490,7 +490,7 @@ parent_code,code,name,aliases
 323776,9535336,Kepez,Kepez İlçesi
 323776,9535334,Konyaaltı,
 323776,8632164,Korkuteli,Korkuteli İlçesi
-323776,7911038,Kumluca,
+323776,7911038,Kumluca,Kumluca İlçesi
 323776,7732193,Manavgat,Manavgat İlçesi
 323776,9535335,Muratpaşa,Muratpaşa İlçesi
 323776,7732195,Serik,
@@ -498,7 +498,7 @@ parent_code,code,name,aliases
 323784,7732081,Altındağ,
 323784,8632061,Ayaş,Ayaş İlçesi
 323784,8632047,Bala,Bala İlçesi
-323784,7910611,Beypazari,
+323784,7910611,Beypazarı,Beypazarı İlçesi
 323784,8632062,Çamlıdere,Çamlıdere İlçesi
 323784,7732084,Çankaya,
 323784,8632045,Çubuk,Çubuk İlçesi
@@ -557,17 +557,17 @@ parent_code,code,name,aliases
 325361,8631906,Aladağ,
 325361,7732059,Ceyhan,
 325361,9552840,Çukurova,
-325361,8631905,Feke,
-325361,8631908,İmamoğlu,
-325361,8631909,Karaisalı,
-325361,8631910,Karataş,
+325361,8631905,Feke,Feke İlçesi
+325361,8631908,İmamoğlu,İmamoğlu İlçesi
+325361,8631909,Karaisalı,Karaisalı İlçesi
+325361,8631910,Karataş,Karataş İlçesi
 325361,7911055,Kozan,
-325361,8631907,Pozantı,
-325361,8631903,Saimbeyli,
+325361,8631907,Pozantı,Pozantı İlçesi
+325361,8631903,Saimbeyli,Saimbeyli İlçesi
 325361,9552711,Sarıçam,
 325361,7732063,Seyhan,
-325361,8631904,Tufanbeyli,
-325361,8631795,Yumurtalık,
+325361,8631904,Tufanbeyli,Tufanbeyli İlçesi
+325361,8631795,Yumurtalık,Yumurtalık İlçesi
 325361,7732065,Yüreğir,Yueregir
 443183,8631468,Bahçe,Bahçe İlçesi
 443183,8631467,Düziçi,Düziçi İlçesi|Duezici Ilcesi
@@ -623,13 +623,13 @@ parent_code,code,name,aliases
 737021,8632511,Alaplı,Alaplı İlçesi
 737021,8632508,Çaycuma,Çaycuma İlçesi
 737021,8632510,Devrek,Devrek İlçesi
-737021,7733006,Ereğli,
+737021,7733006,Ereğli,Ereğli İlçesi
 737021,8632509,Gökçebey,Gökçebey İlçesi|Goekcebey Ilcesi
 737021,9553975,Kilimli,
 737021,9553115,Kozlu,
 737021,13308780,Zonguldak,
 738647,9550057,Akçaabat,
-738647,7910998,Araklı,
+738647,7910998,Araklı,Araklı İlçesi
 738647,7732993,Arsin,
 738647,9549892,Beşikdüzü,Besikduezue
 738647,7732995,Çarşıbaşı,
@@ -689,7 +689,7 @@ parent_code,code,name,aliases
 740263,9549630,İlkadım,
 740263,8631689,Kavak,Kavak İlçesi
 740263,8631687,Ladik,Ladik İlçesi
-740263,8631699,Ondokuzmayıs,Ondokuzmayıs İlçesi
+740263,8631699,Ondokuzmayıs,Ondokuzmayıs İlçesi|19. Mayıs İlçesi|19 Mayıs
 740263,8631695,Salıpazarı,Salıpazarı İlçesi
 740263,7733243,Tekkeköy,Tekkekoey
 740263,8631693,Terme,Terme İlçesi
@@ -813,7 +813,7 @@ parent_code,code,name,aliases
 745042,7732471,Gaziosmanpaşa,
 745042,7732474,Güngören,Guengoeren
 745042,7732501,Kadıköy,Kadikoey
-745042,7732504,Kâğıthane,
+745042,7732504,Kağıthane,
 745042,7732506,Kartal,
 745042,7732569,Küçükçekmece,Kuecuekcekmece
 745042,7733238,Maltepe,
@@ -848,7 +848,7 @@ parent_code,code,name,aliases
 746878,8631620,Güce,Güce İlçesi|Guece Ilcesi
 746878,9541080,Keşap,
 746878,8631629,Piraziz,Piraziz İlçesi
-746878,8631626,Şebin Karahisar,Şebin Karahisar İlçesi
+746878,8631626,Şebin Karahisar,Şebin Karahisar İlçesi|Şebinkarahisar İlçesi
 746878,9540843,Tirebolu,
 746878,8631625,Yağlıdere,Yağlıdere İlçesi
 747711,13308783,Edirne,

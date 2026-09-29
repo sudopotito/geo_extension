@@ -59,10 +59,12 @@ The validator checks manifest properties, target fields, country code, CSV colum
 ## Cascade semantics (geo_selector.js)
 
 - `codes[i]` holds the selected unit code per level (`null` = unknown/manual).
-- `handle_change(field)` is serialised (a promise chain), then resolves the typed value against the options of that level (names, then aliases); a *different* resolved unit or an empty value clears the levels below; unresolved text keeps their values but drops their codes.
+- `handle_change(field)` is serialised (a promise chain; changes caused by the cascade's own `set_value` calls are flagged silent when queued), then resolves the typed value against the options of that level (names, then aliases); a *different* resolved unit or an empty value clears the levels below; unresolved text keeps their values but drops their codes.
+- Skipped levels: `levels` only contains dataset levels whose `target_field` exists on the form. `options_for` sends the previous present level's code and level as the parent (the server lists all units under any ancestor), and `resolve_existing` sends the level numbers, so ERPNext's Customer quick entry and the portal web form (no `county`) work for three-level countries.
+- Dialogs and web forms get private copies of their docfields before labels or `df.change` are touched: quick entry reuses the DocType's own docfield objects, and mutating them would leak into every later Address form.
 - Postal: exactly one code → fill `pincode` if empty or still equal to `auto_postal`; several → suggestions only; none → retract an auto-filled value. Manual values are never touched. Lookup walks up the ancestors of the deepest selected unit.
 - `teardown()` restores labels and suggestion lists; a `_generation` counter cancels superseded `setup()` calls.
-- Address form only: Country is moved below Address Type and the level fields are reordered by DOM moves (nothing persisted). Changing the country clears the level values first.
+- Address form only: Country is moved below Address Type and the level fields are reordered by DOM moves (nothing persisted). Changing the country clears the level values first. The cascade is rebuilt on `refresh` when `frm.docname` changed, because the form object is shared by every Address opened in a session and `onload_post_render` fires once per document.
 
 ## Commands
 
@@ -84,10 +86,12 @@ After editing `hooks.py` or Python modules on a bench whose gunicorn runs with `
 - No postal codes for: GB, SG (postcode identifies a street/building), BR (one generic CEP per municipality), CA (forward sortation areas only), NL (4-digit half only), MX (colonia file too large), AE, SA, EG, NG, NP, PK (no usable file).
 - Philippines: highly urbanised cities are listed under the province they lie in, Manila's barangays directly under the City of Manila, and Manila's district-level postal codes are not included (1,474 of 1,642 cities/municipalities have codes).
 - Saudi Arabia has two levels (places carry no governorate code in GeoNames). Egypt's governorates use customary English names via `names` overrides; its cities keep GeoNames transliterations.
-- Web Forms keep their own field order; only labels, suggestions and postal codes are applied. Non-standard Web Forms need the one-line client script from the README.
+- Web Forms keep their own field order; only labels, suggestions and postal codes are applied. Frappe applies `webform_include_js` only to *standard* web forms that ship a module `.js` file (ERPNext's `addresses` does); any other web form needs the one-line client script from the README.
+- The 2.0 patch removes a DocType-level `field_order` Property Setter only when it carries the 1.x signature (`state, city, county, country` contiguous); a site's own order without it is kept.
+- Suggestions rely on Frappe's bundled Awesomplete registering `window.Awesomplete` (v15 via the npm package, v16 via `ui/awesomplete.js`); without it fields stay plain inputs.
 - Datasets are shipped with the app; updating data means updating the app (or using `geo_extension_dataset_roots`).
 - A name edited by hand that matches neither a name nor an alias ends the cascade at that level, by design.
-- v15 is verified by importing the app and running the site-independent tests on a v15 bench and by CI; browser checks ran on v16.
+- v15 is covered by CI (full site tests on version-15) and by importing the app and running the site-independent tests on a local v15 bench; browser checks ran on v16.
 
 ## Decisions taken (2026-09)
 

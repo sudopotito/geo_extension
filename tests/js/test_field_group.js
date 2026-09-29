@@ -112,3 +112,28 @@ test("attaching twice returns the same state", () => {
 	const b = env.geo.attach_to_field_group(group);
 	assert.equal(a, b);
 });
+
+test("a group without the middle level field lists and resolves the level below it", async () => {
+	const env = make_env({ responses: dataset_responses() });
+	// Testland is Region > City > District; this group has no city field
+	const group = make_group(["country", "state", "county", "pincode"], {
+		country: "Testland",
+		state: "North Region",
+		county: "West",
+	});
+	const state = env.geo.attach_to_field_group(group);
+	await state.ready;
+	assert.deepEqual(state.cascade.level_fields, ["state", "county"]);
+	assert.deepEqual(state.cascade.codes, ["R1", "D2"]); // resolved with levels [1, 3]
+	assert.equal(group.fields_dict.county.df.label, "District");
+
+	const districts = await state.cascade.options_for(1);
+	assert.deepEqual(
+		districts.map((o) => o.value),
+		["D1", "D2", "D3"]
+	); // every district under the region, across both cities
+
+	await group.change("county", "Centre");
+	await tick();
+	assert.deepEqual(state.cascade.codes, ["R1", "D3"]);
+});

@@ -4,7 +4,7 @@ parent_code,code,name,aliases
 2657895,7285035,Aeugst am Albis,
 2657895,7285037,Affoltern am Albis,
 2657895,7285060,Altikon,
-2657895,7285076,Andelfingen,
+2657895,7285076,Andelfingen,Andelfingen ZH
 2657895,7285133,Bachenbülach,Bachenbuelach
 2657895,2661649,Bachs,
 2657895,7285155,Bäretswil,Baeretswil
@@ -13,7 +13,7 @@ parent_code,code,name,aliases
 2657895,7285198,Benken (ZH),
 2657895,7285202,Berg am Irchel,
 2657895,7285253,Birmensdorf (ZH),
-2657895,7285293,Bonstetten,
+2657895,7285293,Bonstetten,Bonstetten ZH
 2657895,7285295,Boppelsen,
 2657895,7285359,Brütten,Bruetten
 2657895,7285363,Bubikon,
@@ -25,14 +25,14 @@ parent_code,code,name,aliases
 2657895,7285619,Dällikon,Daellikon
 2657895,7285623,Dänikon,Daenikon
 2657895,7285627,Dättlikon,Daettlikon
-2657895,7285643,Dielsdorf,
+2657895,7285643,Dielsdorf,Dielsdorf ZH
 2657895,7285652,Dietikon,
 2657895,7285653,Dietlikon,
 2657895,2661011,Dinhard,
 2657895,7285669,Dorf,
 2657895,7285675,Dübendorf,Duebendorf
 2657895,7285681,Dürnten,Duernten
-2657895,7285702,Egg,
+2657895,7285702,Egg,Egg ZH
 2657895,7285707,Eglisau,
 2657895,7285719,Elgg,
 2657895,7285720,Ellikon an der Thur,
@@ -49,7 +49,7 @@ parent_code,code,name,aliases
 2657895,7285906,Geroldswil,
 2657895,7285927,Glattfelden,
 2657895,7285946,Gossau (ZH),
-2657895,7285971,Greifensee,
+2657895,7285971,Greifensee,Greifensee ZH
 2657895,2660466,Grüningen,Grueningen
 2657895,7286019,Hagenbuch,
 2657895,7286038,Hausen am Albis,
@@ -59,7 +59,7 @@ parent_code,code,name,aliases
 2657895,7286080,Hettlingen,
 2657895,7286087,Hinwil,
 2657895,7286089,Hittnau,
-2657895,7286092,Hochfelden,
+2657895,7286092,Hochfelden,Hochfelden ZH
 2657895,7286106,Hombrechtikon,
 2657895,7286109,Horgen,
 2657895,7286110,Höri,Hoeri
@@ -97,16 +97,16 @@ parent_code,code,name,aliases
 2657895,7286724,Obfelden,
 2657895,7286731,Oetwil am See,
 2657895,7286732,Oetwil an der Limmat,
-2657895,7286743,Opfikon,
+2657895,7286743,Opfikon,Opfikon-Glattbrugg
 2657895,7286760,Ossingen,
 2657895,7286762,Otelfingen,
-2657895,7286764,Ottenbach,
+2657895,7286764,Ottenbach,Ottenbach ZH
 2657895,7286788,Pfäffikon,Pfaeffikon
 2657895,7286792,Pfungen,
 2657895,7286848,Rafz,
 2657895,7286869,Regensberg,
 2657895,7286870,Regensdorf,
-2657895,2659063,Rheinau,
+2657895,2659063,Rheinau,Rheinau ZH
 2657895,7286894,Richterswil,
 2657895,7286899,Rickenbach (ZH),
 2657895,7286912,Rifferswil,
@@ -115,7 +115,7 @@ parent_code,code,name,aliases
 2657895,7286991,Rüschlikon,Rueschlikon
 2657895,7286992,Russikon,
 2657895,7287001,Rüti (ZH),Rueti (ZH)
-2657895,7287090,Schlatt (ZH),
+2657895,7287090,Schlatt (ZH),Schlatt b. Winterthur
 2657895,7287091,Schleinikon,
 2657895,7287094,Schlieren,
 2657895,7287105,Schöfflisdorf,Schoefflisdorf
@@ -153,20 +153,20 @@ parent_code,code,name,aliases
 2657895,7287587,Wil (ZH),
 2657895,7287573,Wila,
 2657895,7287576,Wildberg,
-2657895,7287590,Winkel,
-2657895,7287592,Winterthur,
+2657895,7287590,Winkel,Winkel ZH
+2657895,7287592,Winterthur,Winterthour
 2657895,7287629,Zell (ZH),
 2657895,7287641,Zollikon,
 2657895,7287647,Zumikon,
 2657895,7287650,Zürich,Zuerich
-2657907,7285132,Baar,
+2657907,7285132,Baar,Baar ZG
 2657907,7285462,Cham,
 2657907,7286121,Hünenberg,Huenenberg
 2657907,7286486,Menzingen,
 2657907,7286628,Neuheim,
 2657907,7286672,Oberägeri,Oberaegeri
 2657907,7286917,Risch,
-2657907,7287232,Steinhausen,
+2657907,7287232,Steinhausen,Steinhausen ZG
 2657907,7287371,Unterägeri,Unteraegeri
 2657907,7287517,Walchwil,
 2657907,7287644,Zug,
@@ -234,7 +234,7 @@ parent_code,code,name,aliases
 2658182,7285502,Chéserex,
 2658182,7285504,Chessel,
 2658182,7285505,Chevilly,
-2658182,7285506,Chevroux,
+2658182,7285506,Chevroux,Chevroux VD
 2658182,7285507,Chexbres,
 2658182,7285511,Chigny,
 2658182,7285518,Clarmont,
@@ -248,7 +248,7 @@ parent_code,code,name,aliases
 2658182,7285554,Corcelles-près-Payerne,
 2658182,7285564,Corseaux,
 2658182,7285567,Corsier-sur-Vevey,
-2658182,7285570,Cossonay,
+2658182,7285570,Cossonay,Bezirk Cossonay|District de Cossonay|Distretto di Cossonay
 2658182,7285586,Crans-près-Céligny,
 2658182,7285587,Crassier,
 2658182,7285594,Crissier,
@@ -320,7 +320,7 @@ parent_code,code,name,aliases
 2658182,7286267,La Rippe,
 2658182,7286270,La Sarraz,
 2658182,7286273,La Tour-de-Peilz,
-2658182,7286283,Lausanne,
+2658182,7286283,Lausanne,Losanna
 2658182,7286289,Lavey-Morcles,
 2658182,7286290,Lavigny,
 2658182,7286298,Le Chenit,
@@ -370,7 +370,7 @@ parent_code,code,name,aliases
 2658182,2659299,Ollon,
 2658182,7286741,Onnens (VD),
 2658182,7286744,Oppens,
-2658182,7286746,Orbe,
+2658182,7286746,Orbe,Orbe VD
 2658182,7286747,Orges,
 2658182,2659285,Ormont-Dessous,
 2658182,2659284,Ormont-Dessus,
@@ -421,7 +421,7 @@ parent_code,code,name,aliases
 2658182,7287039,Saint-Sulpice (VD),
 2658182,7287026,Sainte-Croix,
 2658182,7287061,Saubraz,
-2658182,7287065,Savigny,
+2658182,7287065,Savigny,Savigny VD
 2658182,7287150,Senarclens,
 2658182,7287155,Sergey,
 2658182,7287156,Servion,
@@ -488,7 +488,7 @@ parent_code,code,name,aliases
 2658205,7285315,Bovernier,
 2658205,7285336,Brig-Glis,
 2658205,7285385,Bürchen,Buerchen
-2658205,7285461,Chalais,
+2658205,7285461,Chalais,Chalais VS
 2658205,7285464,Chamoson,
 2658205,7285466,Champéry,
 2658205,7285512,Chippis,
@@ -565,7 +565,7 @@ parent_code,code,name,aliases
 2658205,7287165,Sierre,
 2658205,7287174,Simplon,
 2658205,7287176,Sion,
-2658205,7287246,St. Niklaus,
+2658205,7287246,St. Niklaus,Saint-Nicolas|Sankt Niklaus
 2658205,7287214,Stalden (VS),
 2658205,7287213,Staldenried,
 2658205,7287225,Steg-Hohtenn,
@@ -606,7 +606,7 @@ parent_code,code,name,aliases
 2658226,7287077,Schattdorf,
 2658226,7287133,Seedorf (UR),
 2658226,7287136,Seelisberg,
-2658226,7287171,Silenen,
+2658226,7287171,Silenen,Silenen UR
 2658226,7287179,Sisikon,
 2658226,7287205,Spiringen,
 2658226,7287384,Unterschächen,Unterschaechen
@@ -801,7 +801,7 @@ parent_code,code,name,aliases
 2658563,7285168,Bättwil,Baettwil
 2658563,7285183,Beinwil (SO),
 2658563,7285185,Bellach,
-2658563,7285225,Bettlach,
+2658563,7285225,Bettlach,Bettlach SO|Bâche
 2658563,7285235,Biberist,
 2658563,7285243,Biezwil,
 2658563,7285282,Bolken,
@@ -874,7 +874,7 @@ parent_code,code,name,aliases
 2658563,7286728,Oensingen,
 2658563,7286738,Olten,
 2658563,7286865,Recherswil,
-2658563,7286897,Rickenbach (SO),
+2658563,7286897,Rickenbach (SO),Rickenbach SO
 2658563,7286906,Riedholz,
 2658563,7286926,Rodersdorf,
 2658563,7287003,Rüttenen,Ruettenen
@@ -882,7 +882,7 @@ parent_code,code,name,aliases
 2658563,7287110,Schönenwerd,Schoenenwerd
 2658563,7287138,Seewen,
 2658563,7287144,Selzach,
-2658563,7287186,Solothurn,
+2658563,7287186,Solothurn,Soleure|Soletta
 2658563,7287221,Starrkirch-Wil,
 2658563,7287253,Stüsslingen,Stuesslingen
 2658563,7287254,Subingen,
@@ -898,7 +898,7 @@ parent_code,code,name,aliases
 2658563,7287642,Zuchwil,
 2658563,7287645,Zullwil,
 2658664,7285055,Alpthal,
-2658664,7285058,Altendorf,
+2658664,7285058,Altendorf,Altendorf SZ
 2658664,7285103,Arth,
 2658664,7285715,Einsiedeln,
 2658664,7285816,Feusisberg,
@@ -916,11 +916,11 @@ parent_code,code,name,aliases
 2658664,7286699,Oberiberg,
 2658664,7286873,Reichenburg,
 2658664,7286909,Riemenstalden,
-2658664,7286961,Rothenthurm,
+2658664,7286961,Rothenthurm,Rothenthurm SZ
 2658664,7287060,Sattel,
 2658664,7287114,Schübelbach,Schuebelbach
 2658664,7287129,Schwyz,
-2658664,7287230,Steinen,
+2658664,7287230,Steinen,Steinen SZ
 2658664,7287231,Steinerberg,
 2658664,7287350,Tuggen,
 2658664,7287379,Unteriberg,
@@ -945,7 +945,7 @@ parent_code,code,name,aliases
 2658760,7286693,Oberhallau,
 2658760,7286852,Ramsen,
 2658760,7286970,Rüdlingen,Ruedlingen
-2658760,7287070,Schaffhausen,
+2658760,7287070,Schaffhausen,Schaffhouse|Sciaffusa
 2658760,7287092,Schleitheim,
 2658760,7287164,Siblingen,
 2658760,7287228,Stein am Rhein,
@@ -960,8 +960,8 @@ parent_code,code,name,aliases
 2658821,7285136,Bad Ragaz,
 2658821,7285141,Balgach,
 2658821,7285197,Benken (SG),
-2658821,7285204,Berg (SG),
-2658821,7285213,Berneck,
+2658821,7285204,Berg (SG),Berg SG
+2658821,7285213,Berneck,Berneck SG
 2658821,7285374,Buchs (SG),
 2658821,8740937,Bütschwil-Ganterschwil,Buetschwil-Ganterschwil
 2658821,7285629,Degersheim,
@@ -1009,7 +1009,7 @@ parent_code,code,name,aliases
 2658821,7287098,Schmerikon,
 2658821,7287152,Sennwald,
 2658821,7287160,Sevelen,
-2658821,7287240,St. Gallen,
+2658821,7287240,St. Gallen,San Gallo|Saint-Gall
 2658821,7287243,St. Margrethen,
 2658821,7287226,Steinach,
 2658821,7287296,Thal,
@@ -1077,7 +1077,7 @@ parent_code,code,name,aliases
 2659810,7285061,Altishofen,
 2659810,7285145,Ballwil,
 2659810,7285216,Beromünster,Beromuenster
-2659810,7285370,Buchrain,
+2659810,7285370,Buchrain,Buchrain LU
 2659810,7285396,Büron,Bueron
 2659810,7285413,Buttisholz,
 2659810,7285616,Dagmersellen,
@@ -1086,13 +1086,13 @@ parent_code,code,name,aliases
 2659810,7285687,Ebikon,
 2659810,7285710,Egolzwil,
 2659810,7285712,Eich,
-2659810,7285725,Emmen,
-2659810,7285736,Entlebuch,
+2659810,7285725,Emmen,Emmen LU
+2659810,7285736,Entlebuch,Entlebuch LU
 2659810,7285757,Ermensee,
 2659810,7285765,Eschenbach (LU),
 2659810,8740939,Escholzmatt-Marbach,
 2659810,7285781,Ettiswil,
-2659810,7285828,Fischbach,
+2659810,7285828,Fischbach,Fischbach LU
 2659810,7285842,Flühli,Fluehli
 2659810,7285911,Geuensee,
 2659810,7285920,Gisikon,
@@ -1103,36 +1103,36 @@ parent_code,code,name,aliases
 2659810,7286066,Hergiswil bei Willisau,
 2659810,7286081,Hildisrieden,
 2659810,7286090,Hitzkirch,
-2659810,7286091,Hochdorf,
+2659810,7286091,Hochdorf,Hochdorf LU
 2659810,7286099,Hohenrain,
 2659810,7286115,Horw,
 2659810,7286145,Inwil,
 2659810,7286212,Knutwil,
 2659810,7286225,Kriens,
 2659810,7286401,Luthern,
-2659810,7286409,Luzern,
+2659810,7286409,Luzern,Lucerne|Lucerna
 2659810,7286426,Malters,
-2659810,7286463,Mauensee,
-2659810,7286468,Meggen,
+2659810,7286463,Mauensee,Mauensee LU
+2659810,7286468,Meggen,Meggen LU
 2659810,7286470,Meierskappel,
 2659810,7286487,Menznau,
 2659810,7286613,Nebikon,
 2659810,7286626,Neuenkirch,
 2659810,7286660,Nottwil,
-2659810,7286700,Oberkirch,
+2659810,7286700,Oberkirch,Oberkirch LU
 2659810,7286789,Pfaffnau,
 2659810,7286849,Rain,
 2659810,7286874,Reiden,
-2659810,7286896,Rickenbach (LU),
+2659810,7286896,Rickenbach (LU),Rickenbach LU
 2659810,7286928,Roggliswil,
 2659810,7286941,Römerswil,Roemerswil
 2659810,7286944,Romoos,
-2659810,7286947,Root,
-2659810,7286959,Rothenburg,
+2659810,7286947,Root,Root LU
+2659810,7286959,Rothenburg,Rothenburg LU
 2659810,7286995,Ruswil,
 2659810,7287080,Schenkon,
 2659810,7287093,Schlierbach,
-2659810,7287111,Schongau,
+2659810,7287111,Schongau,Schongau LU
 2659810,7287113,Schötz,Schoetz
 2659810,7287117,Schüpfheim,Schuepfheim
 2659810,7287123,Schwarzenberg,
@@ -1212,11 +1212,11 @@ parent_code,code,name,aliases
 2660522,7285357,Brusio,
 2660522,7285400,Buseno,
 2660522,11611712,Calanca,
-2660522,7285423,Cama,
+2660522,7285423,Cama,Cama GR
 2660522,7285439,Castaneda,
 2660522,7285449,Cazis,
 2660522,7285450,Celerina/Schlarigna,
-2660522,7285515,Chur,
+2660522,7285515,Chur,Coire|Coira
 2660522,7285516,Churwalden,
 2660522,7285542,Conters im Prättigau,Conters im Praettigau
 2660522,2661041,Davos,
@@ -1267,7 +1267,7 @@ parent_code,code,name,aliases
 2660522,7287015,Sagogn,
 2660522,7287048,Samedan,
 2660522,7287049,Samnaun,
-2660522,7287052,San Vittore,
+2660522,7287052,San Vittore,San Vittore GR
 2660522,7287051,Santa Maria in Calanca,
 2660522,7287076,Scharans,
 2660522,7287084,Schiers,
@@ -1276,10 +1276,10 @@ parent_code,code,name,aliases
 2660522,7287130,Scuol,
 2660522,7287139,Seewis im Prättigau,Seewis im Praettigau
 2660522,7287172,Sils im Domleschg,
-2660522,2658589,Sils im Engadin/Segl,
+2660522,2658589,Sils im Engadin/Segl,Sils im Engadin|Sils|Gemeinde Sils im Engadin
 2660522,7287173,Silvaplana,
 2660522,7287183,Soazza,
-2660522,7287245,St. Moritz,
+2660522,7287245,St. Moritz,Sankt Moritz|Saint-Moritz|San Maurizio
 2660522,7287256,Sufers,
 2660522,7287263,Sumvitg,
 2660522,11611705,Surses,
@@ -1293,7 +1293,7 @@ parent_code,code,name,aliases
 2660522,7287389,Untervaz,
 2660522,7287391,Urmein,
 2660522,7287413,Val Müstair,Val Muestair
-2660522,7287414,Vals,
+2660522,7287414,Vals,Vals GR
 2660522,8740947,Valsot,
 2660522,7287424,Vaz/Obervaz,
 2660522,7287632,Zernez,
@@ -1323,7 +1323,7 @@ parent_code,code,name,aliases
 2660645,7285540,Confignon,
 2660645,7285566,Corsier (GE),
 2660645,7285624,Dardagny,
-2660645,7285902,Genève,
+2660645,7285902,Genève,Genf
 2660645,7285904,Genthod,
 2660645,7286015,Gy,
 2660645,7286069,Hermance,
@@ -1377,20 +1377,20 @@ parent_code,code,name,aliases
 2660717,7285593,Crésuz,
 2660717,7285604,Cugy (FR),
 2660717,7285634,Delley-Portalban,
-2660717,7285676,Düdingen,Duedingen
+2660717,7285676,Düdingen,Duedingen|Guin
 2660717,7285691,Echarlens,
 2660717,11611715,Estavayer,
 2660717,7285810,Ferpicloz,
 2660717,13561752,Fétigny-Ménières,
 2660717,7285858,Fräschels,Fraeschels
-2660717,7285870,Fribourg,
+2660717,7285870,Fribourg,Freiburg im Üechtland|Friburgo
 2660717,11611707,Gibloux,
-2660717,7285914,Giffers,
-2660717,7285923,Givisiez,
+2660717,7285914,Giffers,Chevrilles
+2660717,7285923,Givisiez,Siebenzach
 2660717,7285929,Gletterens,
 2660717,7285964,Grandvillard,
 2660717,7285967,Granges (Veveyse),
-2660717,7285965,Granges-Paccot,
+2660717,7285965,Granges-Paccot,Zur Schüren
 2660717,7285968,Grangettes,
 2660717,7285974,Greng,
 2660717,13192059,Grolley-Ponthaux,
@@ -1413,7 +1413,7 @@ parent_code,code,name,aliases
 2660717,7286319,Le Pâquier (FR),
 2660717,7286331,Les Montets,
 2660717,7286386,Lully (FR),
-2660717,7286436,Marly,
+2660717,7286436,Marly,Marly FR
 2660717,7286440,Marsens,
 2660717,7286452,Massonnens,
 2660717,7286456,Matran,
@@ -1424,17 +1424,17 @@ parent_code,code,name,aliases
 2660717,7286526,Montagny (FR),
 2660717,7286558,Morlon,
 2660717,7286593,Muntelier,
-2660717,7286603,Murten/Morat,
+2660717,7286603,Murten/Morat,Murten|Morat
 2660717,7286631,Neyruz (FR),
 2660717,7286670,Nuvilly,
 2660717,7286796,Pierrafortscha,
-2660717,7286801,Plaffeien,
+2660717,7286801,Plaffeien,Planfayon
 2660717,7286804,Plasselb,
 2660717,7286814,Pont-en-Ogoz,
 2660717,7286817,Pont-la-Ville,
 2660717,7286836,Prévondavaux,
 2660717,12110842,Prez,
-2660717,7286866,Rechthalten,
+2660717,7286866,Rechthalten,Dirlaret
 2660717,7286881,Remaufens,
 2660717,7286893,Riaz,
 2660717,7286901,Ried bei Kerzers,
@@ -1448,12 +1448,12 @@ parent_code,code,name,aliases
 2660717,7287159,Sévaz,
 2660717,7287182,Siviriez,
 2660717,7287195,Sorens,
-2660717,7287249,St. Silvester,
-2660717,7287252,St. Ursen,
+2660717,7287249,St. Silvester,Saint-Sylvestre
+2660717,7287252,St. Ursen,Saint-Ours
 2660717,7287208,Staatswald Galm,
 2660717,7287267,Surpierre,
-2660717,7287273,Tafers,
-2660717,7287291,Tentlingen,
+2660717,7287273,Tafers,Tavel
+2660717,7287291,Tentlingen,Tinterin
 2660717,7287319,Torny,
 2660717,7287330,Treyvaux,
 2660717,7287358,Ueberstorf,
@@ -1491,9 +1491,9 @@ parent_code,code,name,aliases
 2661551,7285194,Belp,
 2661551,7285196,Belprahon,
 2661551,7285210,Berken,
-2661551,7285212,Bern/Berne/Berna,
+2661551,7285212,Bern/Berne/Berna,Bern|Berne|Berna
 2661551,7285222,Bettenhausen,
-2661551,7285241,Biel/Bienne,
+2661551,7285241,Biel/Bienne,Biel|Bienne
 2661551,7285244,Biglen,
 2661551,7285268,Bleienbach,
 2661551,7285273,Blumenstein,
@@ -1537,7 +1537,7 @@ parent_code,code,name,aliases
 2661551,7285752,Erlenbach im Simmental,
 2661551,7285763,Ersigen,
 2661551,7285769,Eschert,
-2661551,7285785,Evilard/Leubringen,
+2661551,7285785,Evilard/Leubringen,Evilard|Leubringen
 2661551,7285788,Fahrni,
 2661551,7285797,Farnern,
 2661551,7285807,Ferenbalm,
@@ -1580,7 +1580,7 @@ parent_code,code,name,aliases
 2661551,7286085,Hindelbank,
 2661551,7286093,Höchstetten,Hoechstetten
 2661551,7286096,Hofstetten bei Brienz,
-2661551,7286105,Homberg,
+2661551,7286105,Homberg,Homberg b. Thun
 2661551,7286113,Horrenbach-Buchen,
 2661551,7286128,Huttwil,
 2661551,7286131,Iffwil,
@@ -1594,7 +1594,7 @@ parent_code,code,name,aliases
 2661551,7286157,Jaberg,
 2661551,7286159,Jegenstorf,
 2661551,7286162,Jens,
-2661551,7286174,Kallnach,
+2661551,7286174,Kallnach,Chouchignies
 2661551,7286177,Kandergrund,
 2661551,7286178,Kandersteg,
 2661551,7286181,Kappelen,
@@ -1617,7 +1617,7 @@ parent_code,code,name,aliases
 2661551,7286259,Langenthal,
 2661551,7286261,Langnau im Emmental,
 2661551,7286274,Lauenen,
-2661551,7286280,Laupen,
+2661551,7286280,Laupen,Loyes
 2661551,7286282,Lauperswil,
 2661551,7286285,Lauterbrunnen,
 2661551,7286306,Leissigen,
@@ -1648,8 +1648,8 @@ parent_code,code,name,aliases
 2661551,7286555,Mörigen,Moerigen
 2661551,7286571,Mühleberg,Muehleberg
 2661551,7286582,Münchenbuchsee,Muenchenbuchsee
-2661551,7286584,Münchenwiler/Villars-Les-Moines,Muenchenwiler/Villars-Les-Moines
-2661551,7286590,Münsingen,Muensingen
+2661551,7286584,Münchenwiler/Villars-Les-Moines,Muenchenwiler/Villars-Les-Moines|Villars-Les-Moines|Münchenwiler
+2661551,7286590,Münsingen,Muensingen|Munisenges
 2661551,7286594,Müntschemier,Muentschemier
 2661551,7286601,Muri bei Bern,
 2661551,2659491,Neuenegg,
@@ -1720,16 +1720,16 @@ parent_code,code,name,aliases
 2661551,7287068,Saxeten,
 2661551,7287074,Schangnau,
 2661551,7287078,Schattenhalb,
-2661551,7287079,Schelten,
+2661551,7287079,Schelten,La Scheulte
 2661551,7287083,Scheuren,
 2661551,7287116,Schüpfen,Schuepfen
 2661551,7287119,Schwadernau,
 2661551,7287120,Schwanden bei Brienz,
 2661551,8260339,Schwarzenburg,
 2661551,7287124,Schwarzhäusern,Schwarzhaeusern
-2661551,7287131,Seeberg,
+2661551,7287131,Seeberg,Seeberg BE
 2661551,7287132,Seedorf (BE),
-2661551,7287135,Seehof,
+2661551,7287135,Seehof,Elay
 2661551,7287140,Seftigen,
 2661551,7287168,Signau,
 2661551,7287170,Sigriswil,
@@ -1802,7 +1802,7 @@ parent_code,code,name,aliases
 2661551,7287640,Zollikofen,
 2661551,7287652,Zuzwil (BE),
 2661551,7287654,Zweisimmen,
-2661602,7285161,Basel,
+2661602,7285161,Basel,Bâle|Basilea
 2661602,7285224,Bettingen,
 2661602,7286907,Riehen,
 2661603,7285027,Aesch (BL),
@@ -1842,7 +1842,7 @@ parent_code,code,name,aliases
 2661603,7286103,Hölstein,Hoelstein
 2661603,7286154,Itingen,
 2661603,7286179,Känerkinden,Kaenerkinden
-2661603,7286194,Kilchberg (BL),
+2661603,7286194,Kilchberg (BL),Kilchberg|Kilchberg BL
 2661603,7286254,Lampenberg,
 2661603,7286257,Langenbruck,
 2661603,7286276,Läufelfingen,Laeufelfingen
@@ -1894,7 +1894,7 @@ parent_code,code,name,aliases
 2661739,7285379,Bühler,Buehler
 2661739,7285884,Gais,
 2661739,7285994,Grub (AR),
-2661739,7286047,Heiden,
+2661739,7286047,Heiden,Heiden AR
 2661739,7286068,Herisau,
 2661739,7286120,Hundwil,
 2661739,7286406,Lutzenberg,
@@ -1905,25 +1905,25 @@ parent_code,code,name,aliases
 2661739,7287203,Speicher,
 2661739,7287229,Stein (AR),
 2661739,7287293,Teufen (AR),
-2661739,7287337,Trogen,
+2661739,7287337,Trogen,Trogen AR
 2661739,7287392,Urnäsch,Urnaesch
-2661739,7287518,Wald (AR),
+2661739,7287518,Wald (AR),Wald AR
 2661739,7287523,Waldstatt,
 2661739,7287538,Walzenhausen,
 2661739,7287604,Wolfhalden,
-2661741,7285084,Appenzell,
+2661741,7285084,Appenzell,Kanton Appenzell|Canton dAppenzell|Canton Appenzello
 2661741,7285939,Gonten,
 2661741,7286683,Oberegg,
 2661741,7287088,Schlatt-Haslen,
 2661741,12503581,Schwende-Rüte,Schwende-Ruete
 2661876,7285013,Aarau,
 2661876,7285015,Aarburg,
-2661876,7285017,Abtwil,
+2661876,7285017,Abtwil,Abtwil AG
 2661876,7285072,Ammerswil,
 2661876,7285095,Aristau,
-2661876,7285099,Arni,
-2661876,7285116,Auenstein,
-2661876,7285124,Auw,
+2661876,7285099,Arni,Arni AG
+2661876,7285116,Auenstein,Auenstein AG
+2661876,7285124,Auw,Auw AG
 2661876,7285134,Baden,
 2661876,7285182,Beinwil (Freiamt),
 2661876,7285181,Beinwil am See,
@@ -1943,19 +1943,19 @@ parent_code,code,name,aliases
 2661876,2661431,Böttstein,Boettstein
 2661876,8740949,Bözberg,Boezberg
 2661876,12402279,Böztal,Boeztal
-2661876,7285324,Bremgarten,
+2661876,7285324,Bremgarten,Bremgarten AG
 2661876,7285343,Brittnau,
 2661876,7285348,Brugg,
 2661876,7285351,Brunegg,
 2661876,7285371,Buchs,
-2661876,7285383,Bünzen,Buenzen
-2661876,7285412,Büttikon,Buettikon
+2661876,7285383,Bünzen,Buenzen|Bünzen AG
+2661876,7285412,Büttikon,Buettikon|Büttikon AG
 2661876,7285414,Buttwil,
 2661876,7285639,Densbüren,Densbueren
 2661876,7285654,Dietwil,
 2661876,7285655,Dintikon,
 2661876,7285672,Dottikon,
-2661876,2660985,Döttingen,Doettingen
+2661876,2660985,Döttingen,Doettingen|Döttingen AG
 2661876,7285682,Dürrenäsch,Duerrenaesch
 2661876,7285703,Eggenwil,
 2661876,7285708,Egliswil,
@@ -1969,7 +1969,7 @@ parent_code,code,name,aliases
 2661876,7285832,Fisibach,
 2661876,7285833,Fislisbach,
 2661876,7285866,Freienwil,
-2661876,7285871,Frick,
+2661876,7285871,Frick,Frick AG
 2661876,7285877,Full-Reuenthal,
 2661876,7285893,Gansingen,
 2661876,7285895,Gebenstorf,
@@ -1980,18 +1980,18 @@ parent_code,code,name,aliases
 2661876,7286017,Habsburg,
 2661876,7286024,Hägglingen,Haegglingen
 2661876,7286028,Hallwil,
-2661876,7286037,Hausen,
+2661876,7286037,Hausen,Hausen AG|Hausen bei Brugg
 2661876,7286054,Hellikon,
 2661876,7286059,Hendschiken,
 2661876,12503582,Herznach-Ueken,
 2661876,7286088,Hirschthal,
-2661876,7286101,Holderbank,
+2661876,7286101,Holderbank,Holderbank AG
 2661876,7286104,Holziken,
 2661876,7286124,Hunzenschwil,
 2661876,7286151,Islisberg,
 2661876,7286164,Jonen,
 2661876,7286170,Kaiseraugst,
-2661876,7286172,Kaisten,
+2661876,7286172,Kaisten,Kaisten AG
 2661876,7286173,Kallern,
 2661876,7286196,Killwangen,
 2661876,7286202,Kirchleerau,
@@ -2000,7 +2000,7 @@ parent_code,code,name,aliases
 2661876,7286214,Kölliken,Koelliken
 2661876,7286228,Künten,Kuenten
 2661876,7286231,Küttigen,Kuettigen
-2661876,7286278,Laufenburg,
+2661876,7286278,Laufenburg,Laufenburg AG
 2661876,7286303,Leibstadt,
 2661876,7286304,Leimbach,
 2661876,7286312,Lengnau,
@@ -2013,7 +2013,7 @@ parent_code,code,name,aliases
 2661876,7286429,Mandach,
 2661876,7286476,Meisterschwanden,
 2661876,7286479,Mellikon,
-2661876,7286480,Mellingen,
+2661876,7286480,Mellingen,Mellingen AG
 2661876,7286485,Menziken,
 2661876,7286488,Merenschwand,
 2661876,8260345,Mettauertal,
@@ -2022,16 +2022,16 @@ parent_code,code,name,aliases
 2661876,7286547,Moosleerau,
 2661876,7286556,Möriken-Wildegg,Moeriken-Wildegg
 2661876,7286569,Muhen,
-2661876,7286570,Mühlau,Muehlau
+2661876,7286570,Mühlau,Muehlau|Mühlau AG
 2661876,7286579,Mülligen,Muelligen
 2661876,7286581,Mumpf,
-2661876,7286586,Münchwilen,Muenchwilen
+2661876,7286586,Münchwilen,Muenchwilen|Münchwilen AG
 2661876,7286598,Murgenthal,
-2661876,7286599,Muri,
-2661876,7286625,Neuenhof,
+2661876,7286599,Muri,Muri AG
+2661876,7286625,Neuenhof,Neuenhof AG
 2661876,7286644,Niederlenz,
 2661876,7286650,Niederrohrdorf,
-2661876,7286655,Niederwil,
+2661876,7286655,Niederwil,Niederwil AG
 2661876,7286687,Oberentfelden,
 2661876,7286695,Oberhof,
 2661876,7286701,Oberkulm,
@@ -2043,13 +2043,13 @@ parent_code,code,name,aliases
 2661876,7286723,Oberwil-Lieli,
 2661876,7286730,Oeschgen,
 2661876,7286733,Oftringen,
-2661876,7286737,Olsberg,
+2661876,7286737,Olsberg,Olsberg AG
 2661876,7286763,Othmarsingen,
-2661876,7286876,Reinach,
+2661876,7286876,Reinach,Reinach AG
 2661876,7286879,Reitnau,
 2661876,7286882,Remetschwil,
 2661876,7286883,Remigen,
-2661876,7286892,Rheinfelden,
+2661876,7286892,Rheinfelden,Rheinfelden AG
 2661876,7286915,Riniken,
 2661876,7286962,Rothrist,
 2661876,7286963,Rottenschwil,
@@ -2072,35 +2072,35 @@ parent_code,code,name,aliases
 2661876,7287175,Sins,
 2661876,7287181,Sisseln,
 2661876,7287207,Spreitenbach,
-2661876,7287212,Staffelbach,
-2661876,7287222,Staufen,
-2661876,7287227,Stein,
-2661876,7287236,Stetten,
+2661876,7287212,Staffelbach,Staffelbach AG
+2661876,7287222,Staufen,Staufen AG
+2661876,7287227,Stein,Stein AG
+2661876,7287236,Stetten,Stetten AG
 2661876,7287248,Strengelbach,
-2661876,7287258,Suhr,
+2661876,7287258,Suhr,Suhr AG
 2661876,7287274,Tägerig,Taegerig
 2661876,7287286,Tegerfelden,
 2661876,7287294,Teufenthal,
-2661876,7287297,Thalheim,
+2661876,7287297,Thalheim,Thalheim AG
 2661876,7287361,Uerkheim,
 2661876,7287365,Uezwil,
 2661876,7287378,Unterentfelden,
 2661876,7287380,Unterkulm,
 2661876,7287382,Unterlunkhofen,
 2661876,7287386,Untersiggenthal,
-2661876,7287428,Veltheim,
+2661876,7287428,Veltheim,Veltheim AG
 2661876,7287478,Villigen,
 2661876,7287479,Villmergen,
 2661876,7287494,Vordemwald,
-2661876,7287527,Wallbach,
+2661876,7287527,Wallbach,Wallbach AG
 2661876,7287535,Waltenschwil,
 2661876,7287552,Wegenstetten,
 2661876,7287562,Wettingen,
 2661876,7287566,Widen,
 2661876,7287583,Wiliberg,
-2661876,7287589,Windisch,
+2661876,7287589,Windisch,Windisch AG
 2661876,7287599,Wittnau,
-2661876,7287600,Wohlen,
+2661876,7287600,Wohlen,Wohlen AG
 2661876,7287602,Wohlenschwil,
 2661876,7287606,Wölflinswil,Woelflinswil
 2661876,7287614,Würenlingen,Wuerenlingen

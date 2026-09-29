@@ -35,6 +35,11 @@ Per-country configuration (``countries.json``)::
 - ``names`` (optional, per country) maps a GeoNames id to the display name to
   use instead of the gazetteer's (for example the customary English name of an
   Egyptian governorate); the original name becomes an alias.
+- ``alias_languages`` (optional, per country) lists ISO language codes whose
+  alternate names (from ``alternatenames/<CC>.zip``) become aliases, so users
+  can type "München" or "Sevilla". ``prefer_language`` makes that language's
+  preferred alternate name the display name (GeoNames often uses English:
+  "Munich", "Seville"); the GeoNames name is kept as an alias.
 - Codes are GeoNames ids (stable across GeoNames updates).
 - ``aliases`` gets the ASCII name when it differs from the display name.
 - Postal codes are attached to the deepest unit that can be identified: a
@@ -113,6 +118,7 @@ class Builder:
 	def load(self) -> None:
 		dump = download(f"{BASE_URL}/dump/{self.CC}.zip", os.path.join(self.work, "dump", f"{self.CC}.zip"))
 		self.rows = [r for r in read_zip_tsv(dump, f"{self.CC}.txt") if len(r) >= 15]
+		self.alternates = self._load_alternate_names()
 		for r in self.rows:
 			if r[FCLASS] == "A" and r[FCODE].startswith("ADM") and r[FCODE] != "ADMD":
 				depth = {"ADM1": 1, "ADM2": 2, "ADM3": 3, "ADM4": 4, "ADM5": 5}.get(r[FCODE])
@@ -121,6 +127,42 @@ class Builder:
 				path = tuple(r[A1 : A1 + depth])
 				if all(path):
 					self.admin[r[FCODE]].setdefault(path, r)
+
+	def _load_alternate_names(self) -> dict[str, list[tuple[str, str, bool]]]:
+		"""geonameid -> [(language, name, preferred)] for the configured languages."""
+		langs = set(self.config.get("alias_languages") or [])
+		prefer = self.config.get("prefer_language")
+		if prefer:
+			langs.add(prefer)
+		if not langs:
+			return {}
+		path = download(
+			f"{BASE_URL}/dump/alternatenames/{self.CC}.zip",
+			os.path.join(self.work, "alternatenames", f"{self.CC}.zip"),
+		)
+		out: dict[str, list[tuple[str, str, bool]]] = defaultdict(list)
+		# columns: alternateNameId, geonameid, isolanguage, alternate name, isPreferredName,
+		# isShortName, isColloquial, isHistoric, from, to
+		for r in read_zip_tsv(path, f"{self.CC}.txt"):
+			if len(r) < 8 or r[2] not in langs or r[6] == "1" or r[7] == "1":
+				continue
+			name = re.sub(r"\s+", " ", r[3]).strip()
+			if name:
+				out[r[1]].append((r[2], name, r[4] == "1"))
+		return out
+
+	def _local_name(self, gid: str) -> str | None:
+		"""The preferred (or only) alternate name in ``prefer_language``."""
+		prefer = self.config.get("prefer_language")
+		if not prefer:
+			return None
+		candidates = [(name, pref) for lang, name, pref in self.alternates.get(gid, []) if lang == prefer]
+		preferred = [name for name, pref in candidates if pref]
+		if preferred:
+			return preferred[0]
+		if len(candidates) == 1:
+			return candidates[0][0]
+		return None
 
 	# -- hierarchy --------------------------------------------------------
 
@@ -192,17 +234,26 @@ class Builder:
 		return parent_paths.get(key)
 
 	def _unit(self, r: list[str], parent: str | None, strip: list[str] | None = None) -> dict:
-		aliases = []
 		original = re.sub(r"\s+", " ", r[NAME]).strip()
-		name = self.config.get("names", {}).get(r[GID]) or original
+		name = self.config.get("names", {}).get(r[GID]) or self._local_name(r[GID]) or original
 		for pattern in strip or []:
 			name = re.sub(pattern, "", name).strip()
 		if not name:
 			name = original
-		if norm(name) != norm(original):
-			aliases.append(original)
-		if r[ASCII] and norm(r[ASCII]) not in {norm(name), norm(original)}:
-			aliases.append(r[ASCII])
+		aliases: list[str] = []
+		seen = {norm(name)}
+
+		def add_alias(value: str) -> None:
+			key = norm(value)
+			if key and key not in seen and "|" not in value:
+				seen.add(key)
+				aliases.append(value)
+
+		add_alias(original)
+		if r[ASCII]:
+			add_alias(r[ASCII])
+		for _lang, alt, _pref in self.alternates.get(r[GID], []):
+			add_alias(alt)
 		return {
 			"code": r[GID],
 			"name": name,

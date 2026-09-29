@@ -12,6 +12,8 @@ identical to fresh installs. Fresh installs never run it: Frappe marks an
 app's patches as completed when the app is installed.
 """
 
+import json
+
 import frappe
 
 ADDRESS = "Address"
@@ -22,6 +24,9 @@ LEGACY_PROPERTY_SETTERS = [
 	("city", "fieldtype", "Autocomplete"),
 	("county", "fieldtype", "Autocomplete"),
 ]
+
+#: contiguous slice geo_extension <= 1.4 wrote into the Address field order
+LEGACY_FIELD_ORDER = ["state", "city", "county", "country"]
 
 #: Custom Field created by geo_extension < 1.4
 LEGACY_CUSTOM_FIELD = "village"
@@ -45,14 +50,17 @@ def remove_legacy_customizations() -> dict:
 			frappe.delete_doc("Property Setter", name, ignore_permissions=True, force=True)
 			removed["property_setters"].append(name)
 
-	# DocType-level field order written by geo_extension <= 1.4
-	for name in frappe.get_all(
+	# DocType-level field order written by geo_extension <= 1.4: it placed
+	# state, city, county, country contiguously (LEGACY_FIELD_ORDER). An order that
+	# does not carry that signature was set by the site and is left alone.
+	for ps in frappe.get_all(
 		"Property Setter",
-		filters={"doc_type": ADDRESS, "property": "field_order", "field_name": ("in", ("", None))},
-		pluck="name",
+		filters={"doc_type": ADDRESS, "property": "field_order", "field_name": ("is", "not set")},
+		fields=["name", "value"],
 	):
-		frappe.delete_doc("Property Setter", name, ignore_permissions=True, force=True)
-		removed["property_setters"].append(name)
+		if _is_legacy_field_order(ps.value):
+			frappe.delete_doc("Property Setter", ps.name, ignore_permissions=True, force=True)
+			removed["property_setters"].append(ps.name)
 
 	custom_field = frappe.db.get_value(
 		"Custom Field", {"dt": ADDRESS, "fieldname": LEGACY_CUSTOM_FIELD}, ["name", "label"], as_dict=True
@@ -65,6 +73,15 @@ def remove_legacy_customizations() -> dict:
 	if removed["property_setters"] or removed["custom_fields"]:
 		frappe.clear_cache(doctype=ADDRESS)
 	return removed
+
+
+def _is_legacy_field_order(value) -> bool:
+	try:
+		order = json.loads(value) if isinstance(value, str) else list(value or [])
+	except ValueError:
+		return False
+	n = len(LEGACY_FIELD_ORDER)
+	return any(order[i : i + n] == LEGACY_FIELD_ORDER for i in range(len(order) - n + 1))
 
 
 def _preserve_legacy_values():

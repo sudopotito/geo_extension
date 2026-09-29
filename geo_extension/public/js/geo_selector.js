@@ -7,9 +7,9 @@
  * Exposes `frappe.geo_extension`:
  *
  *   client.get_hierarchy(country)                -> {supported, levels:[{level,label,target_field}], postal_codes}
- *   client.get_options(country, level, parent)   -> [{value, label}]
+ *   client.get_options(country, level, parent, txt, parent_level) -> [{value, label}]
  *   client.get_postal_codes(country, level, code)-> {codes:[...], level}
- *   client.resolve(country, names)               -> [{level, value, label}]
+ *   client.resolve(country, names, levels)       -> [{level, value, label}]
  *   client.clear_cache()
  *
  *   GeoCascade   country-agnostic cascade engine working through an adapter
@@ -78,14 +78,15 @@
 				)
 			);
 		},
-		get_options(country, level, parent, txt) {
+		get_options(country, level, parent, txt, parent_level) {
 			if (!country || (level > 1 && !parent)) return Promise.resolve([]);
-			const key = `o:${country}:${level}:${parent || ""}:${txt || ""}`;
+			const key = `o:${country}:${level}:${parent || ""}:${parent_level || ""}:${txt || ""}`;
 			return cached(key, () =>
 				call(METHODS.options, {
 					country,
 					level,
 					parent: parent || null,
+					parent_level: parent_level || null,
 					txt: txt || null,
 				}).then((r) => r || [])
 			);
@@ -98,11 +99,11 @@
 				)
 			);
 		},
-		resolve(country, names) {
+		resolve(country, names, levels) {
 			if (!country || !(names || []).some(Boolean)) return Promise.resolve([]);
-			return call(METHODS.resolve, { country, names: JSON.stringify(names) }).then(
-				(r) => r || []
-			);
+			const args = { country, names: JSON.stringify(names) };
+			if (levels) args.levels = JSON.stringify(levels);
+			return call(METHODS.resolve, args).then((r) => r || []);
 		},
 		clear_cache() {
 			cache.clear();
@@ -116,7 +117,7 @@
 	function normalize(text) {
 		return (text || "")
 			.normalize("NFKD")
-			.replace(/[̀-ͯ]/g, "")
+			.replace(/[\u0300-\u036f]/g, "")
 			.replace(/\s+/g, " ")
 			.trim()
 			.toLowerCase()
@@ -322,6 +323,14 @@
 		if (!country_field) return null;
 		if (!LEVEL_FIELDS.some((f) => group.fields_dict[f])) return null;
 
+		// Quick-entry dialogs are built from the DocType's own docfield objects; give
+		// every control we touch a private copy so labels and change handlers never
+		// leak into frappe.meta (and from there into the full Address form).
+		for (const f of [country_field, ...LEVEL_FIELDS, "pincode"]) {
+			const ctrl = group.fields_dict[f];
+			if (ctrl && ctrl.df) ctrl.df = Object.assign({}, ctrl.df);
+		}
+
 		const adapter = new FieldGroupAdapter(group);
 		const state = { cascade: null, adapter };
 		group._geo_cascade = state;
@@ -337,14 +346,10 @@
 		on_field_change(group, country_field, async () => {
 			const old = state.cascade;
 			if (old) {
-				const fields = new Set(LEVEL_FIELDS.filter((f) => f !== "address_line2"));
-				old.level_fields.forEach((f) => fields.add(f));
-				const auto = old.auto_postal;
+				await old.clear_values(); // its levels and an auto-filled postal code
 				old.teardown();
 				state.cascade = null;
-				if (auto && group.get_value("pincode") === auto)
-					await adapter.set_value("pincode", "");
-				for (const f of fields) {
+				for (const f of ["state", "county", "city"]) {
 					if (group.fields_dict[f] && group.get_value(f)) await adapter.set_value(f, "");
 				}
 			}
@@ -437,10 +442,17 @@
 			if (!names.some(Boolean)) return;
 			let chain = [];
 			try {
-				chain = (await client.resolve(this.country, names)) || [];
+				// levels tells the server which dataset level each name belongs to,
+				// since a form may lack the field for a middle level
+				const levels = this.levels.map((l) => l.level);
+				chain = (await client.resolve(this.country, names, levels)) || [];
 			} catch (e) {
 				chain = [];
 			}
+			const current = this.levels.map((l) =>
+				(this.adapter.get_value(l.target_field) || "").trim()
+			);
+			if (current.some((v, i) => v !== names[i])) return; // edited meanwhile; handle_change owns it
 			chain.forEach((unit, i) => {
 				if (this.levels[i] && unit.level === this.levels[i].level)
 					this.codes[i] = unit.value;
@@ -460,9 +472,16 @@
 		options_for(i) {
 			const lvl = this.levels[i];
 			if (!lvl) return Promise.resolve([]);
+			// the previous *present* level's unit; the server accepts any ancestor as parent
 			const parent = i > 0 ? this.codes[i - 1] : null;
 			if (i > 0 && !parent) return Promise.resolve([]);
-			return client.get_options(this.country, lvl.level, parent);
+			return client.get_options(
+				this.country,
+				lvl.level,
+				parent,
+				null,
+				i > 0 ? this.levels[i - 1].level : null
+			);
 		}
 
 		/**
@@ -477,13 +496,18 @@
 		 * above it, even when the user types faster than the options load.
 		 */
 		handle_change(fieldname) {
-			const run = this._chain.then(() => this._handle_change(fieldname));
+			// changes triggered by our own set_value calls are ignored; the flag is
+			// read now because the queued handler runs after the silent set finished
+			const silent = this._suspended > 0;
+			const run = this._chain.then(() =>
+				silent ? undefined : this._handle_change(fieldname)
+			);
 			this._chain = run.catch(() => {});
 			return run;
 		}
 
 		async _handle_change(fieldname) {
-			if (!this.supported || this._suspended) return;
+			if (!this.supported) return;
 			const i = this.field_index(fieldname);
 			if (i === -1) return;
 

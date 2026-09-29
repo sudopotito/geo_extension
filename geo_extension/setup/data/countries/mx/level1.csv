@@ -1,6 +1,6 @@
 code,name,aliases
 4019231,Aguascalientes,Estado de Aguascalientes
-4017700,Baja California,Estado de Baja California
+4017700,Baja California,Estado de Baja California|Estado Libre y Soberano de Baja California
 4017698,Baja California Sur,Estado de Baja California Sur
 3531730,Campeche,Estado de Campeche
 3531011,Chiapas,Estado de Chiapas
@@ -14,13 +14,13 @@ code,name,aliases
 3527115,Hidalgo,Estado de Hidalgo
 4004156,Jalisco,Estado de Jalisco
 3523272,México,Estado de México
-3995955,Michoacán de Ocampo,Estado de Michoacán de Ocampo
+3995955,Michoacán de Ocampo,Estado de Michoacán de Ocampo|Michoacán
 3522961,Morelos,Estado de Morelos
 3995012,Nayarit,Estado de Nayarit
 3522542,Nuevo León,Estado de Nuevo León
 3522509,Oaxaca,Estado de Oaxaca
 3521082,Puebla,Estado de Puebla
-3520914,Querétaro,Estado de Querétaro
+3520914,Querétaro de Arteaga,Estado de Querétaro|Querétaro|Estado de Querétaro de Arteaga
 3520887,Quintana Roo,Estado de Quintana Roo
 3985605,San Luis Potosí,Estado de San Luis Potosí
 3983035,Sinaloa,Estado de Sinaloa
@@ -28,6 +28,6 @@ code,name,aliases
 3516458,Tabasco,Estado de Tabasco
 3516391,Tamaulipas,Estado de Tamaulipas
 3515359,Tlaxcala,Estado de Tlaxcala
-3514780,Veracruz-Llave,Estado de Veracruz-Llave
+3514780,Veracruz-Llave,Estado de Veracruz-Llave|Estado Libre y Soberano de Veracruz de Ignacio de la Llave
 3514211,Yucatán,Estado de Yucatán
 3979840,Zacatecas,Estado de Zacatecas

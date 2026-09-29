@@ -443,7 +443,7 @@ parent_code,code,name,aliases
 2967681,2983215,Rochesson,
 2967681,2982130,Rupt-sur-Moselle,
 2967681,2981808,Saint-Amé,
-2967681,2980827,Saint-Dié-des-Vosges,
+2967681,2980827,Saint-Dié-des-Vosges,Saint-Dié
 2967681,2980219,Saint-Étienne-lès-Remiremont,
 2967681,2978789,Saint-Léonard,
 2967681,2978112,Saint-Maurice-sur-Moselle,
@@ -470,6 +470,7 @@ parent_code,code,name,aliases
 2967681,2967269,Xertigny,
 2967681,2967263,Xonrupt-Longemer,
 2968815,12808675,Gare,
+2968815,12306362,Les Quinze-Vingts,Quinze-Vingts
 2968815,12808676,Maison Blanche,
 2968815,2988507,Paris,
 2968815,6269531,Paris 01 Louvre,
@@ -477,7 +478,7 @@ parent_code,code,name,aliases
 2968815,2973189,Paris 03 Temple,
 2968815,3013131,Paris 04 Hôtel-de-Ville,
 2968815,2988623,Paris 05 Panthéon,
-2968815,2997000,Paris 06 Luxembourg,
+2968815,2997000,Paris 06,Paris 06 Luxembourg
 2968815,2988760,Paris 07 Palais-Bourbon,
 2968815,3020270,Paris 08 Élysée,
 2968815,2989487,Paris 09 Opéra,
@@ -488,11 +489,10 @@ parent_code,code,name,aliases
 2968815,2989781,Paris 14 Observatoire,
 2968815,2970479,Paris 15 Vaugirard,
 2968815,2988394,Paris 16 Passy,
-2968815,3034610,Paris 17 Batignolles-Monceau,
+2968815,3034610,Paris 17,Paris 17 Batignolles-Monceau
 2968815,3029374,Paris 18 Buttes-Montmartre,
 2968815,3029372,Paris 19 Buttes-Chaumont,
 2968815,2994540,Paris 20 Ménilmontant,
-2968815,12306362,Quinze-Vingts,
 2968815,12808677,Salpêtrière,
 2969280,3038654,Adriers,
 2969280,3037610,Angliers,
@@ -571,7 +571,7 @@ parent_code,code,name,aliases
 2969280,3003764,Leignes-sur-Fontaine,
 2969280,3003136,Lencloître,
 2969280,3000120,Les Ormes,
-2969280,2999431,Les Trois-Moutiers,
+2969280,2999431,Les Trois-Moutiers,Les-Trois-Moutiers
 2969280,3000603,Lésigny,
 2969280,2998596,Lhommaizé,
 2969280,2998340,Ligugé,
@@ -595,10 +595,10 @@ parent_code,code,name,aliases
 2969280,2992225,Montmorillon,
 2969280,2992083,Montreuil-Bonnin,
 2969280,2991953,Monts-sur-Guesnes,
-2969280,2991389,Moussac,
+2969280,2991389,Moussac,Moussac-sur-Vienne
 2969280,2991335,Mouterre-Silly,
 2969280,2991036,Naintré,
-2969280,2990546,Neuville-de-Poitou,
+2969280,2990546,Neuville-de-Poitou,Neuville-du-Poitou
 2969280,2990012,Nouaillé-Maupertuis,
 2969280,2988887,Oyré,
 2969280,2988297,Payré,
@@ -734,7 +734,7 @@ parent_code,code,name,aliases
 2970140,3007215,La Pommeraie-sur-Sèvre,
 2970140,3007094,La Rabatelière,
 2970140,3006978,La Réorthe,
-2970140,3006767,La Roche-sur-Yon,
+2970140,3006767,La Roche-sur-Yon,Roche-sur-Yon
 2970140,3006313,La Tardière,
 2970140,3006183,La Tranche-sur-Mer,
 2970140,3005640,La Verrie,
@@ -760,7 +760,7 @@ parent_code,code,name,aliases
 2970140,3000519,Les Landes-Genusson,
 2970140,3000446,Les Lucs-sur-Boulogne,
 2970140,3000443,Les Magnils-Reigniers,
-2970140,2999683,Les Sables-d'Olonne,
+2970140,2999683,Les Sables d'Olonne,Les Sables-d'Olonne
 2970140,2997722,Longeville-sur-Mer,
 2970140,2997210,Luçon,
 2970140,2996906,Maché,
@@ -780,12 +780,12 @@ parent_code,code,name,aliases
 2970140,2991575,Mouchamps,
 2970140,2991538,Mouilleron-en-Pareds,
 2970140,2991537,Mouilleron-le-Captif,
-2970140,3000201,Moutiers-les-Mauxfaits,
+2970140,3000201,Moutiers-les-Mauxfaits,Moutiers les Mauxfaits|Les Moutiers-les-Mauxfaits
 2970140,2991314,Moutiers-sur-le-Lay,
 2970140,2991027,Nalliers,
 2970140,2990727,Nesmy,
 2970140,2990382,Nieul-le-Dolent,
-2970140,2990205,Noirmoutier-en-l'Île,
+2970140,2990205,Noirmoutier,Noirmoutier-en-l'Île
 2970140,2990045,Notre-Dame-de-Monts,
 2970140,2990043,Notre-Dame-de-Riez,
 2970140,2989572,Olonne-sur-Mer,
@@ -898,7 +898,7 @@ parent_code,code,name,aliases
 2970554,3025375,Cheval-Blanc,
 2970554,3022897,Courthézon,
 2970554,3022164,Cucuron,
-2970554,3020142,Entraigues-sur-la-Sorgue,
+2970554,3020142,Entraigues-sur-la-Sorgue,Entraigues-sur-Sorgue
 2970554,3020133,Entrechaux,
 2970554,3018066,Fontaine-de-Vaucluse,
 2970554,3016624,Gargas,
@@ -909,7 +909,7 @@ parent_code,code,name,aliases
 2970554,3014640,Grillon,
 2970554,3012282,Jonquerettes,
 2970554,3012277,Jonquières,
-2970554,2998127,L'Isle-sur-la-Sorgue,
+2970554,2998127,L'Isle-sur-la-Sorgue,L'Isle|Isle sur Sorgue|Isle sur la Sorgue
 2970554,3011268,La Bastide-des-Jourdans,
 2970554,3011243,La Bastidonne,
 2970554,3009078,Lagnes,
@@ -944,9 +944,9 @@ parent_code,code,name,aliases
 2970554,2983645,Richerenches,
 2970554,2983364,Roaix,
 2970554,2983338,Robion,
-2970554,2982456,Roussillon,
+2970554,2982456,Roussillon,Comté de Roussillon
 2970554,2982112,Rustrel,
-2970554,2982075,Sablet,
+2970554,2982075,Sablet-près-l'Ouvèze,Sablet
 2970554,2981990,Saignon,
 2970554,2981177,Saint-Christol,
 2970554,2980856,Saint-Didier,
@@ -1022,7 +1022,7 @@ parent_code,code,name,aliases
 2970749,3010541,La Celle,
 2970749,3009791,La Crau,
 2970749,3009710,La Croix-Valmer,
-2970749,3009566,La Farlède,
+2970749,3009566,La Farlède,Solliés Farlède
 2970749,3009223,La Garde,
 2970749,3009193,La Garde-Freinet,
 2970749,3008432,La Londe-les-Maures,
@@ -1061,13 +1061,13 @@ parent_code,code,name,aliases
 2970749,2986190,Pontevès,
 2970749,2985765,Pourcieux,
 2970749,2985751,Pourrières,
-2970749,2985143,Puget-sur-Argens,
+2970749,2985143,Puget-sur-Argens,Puget-sur Argens
 2970749,2985141,Puget-Ville,
 2970749,2984521,Ramatuelle,
 2970749,2984145,Régusse,
 2970749,2983732,Rians,
 2970749,2983332,Rocbaron,
-2970749,2982875,Roquebrune-sur-Argens,
+2970749,2982875,Roquebrune-sur-Argens,Roquebrune-sur Argens
 2970749,2982575,Rougiers,
 2970749,6620194,Saint-Antonin-du-Var,
 2970749,2980933,Saint-Cyr-sur-Mer,
@@ -1084,8 +1084,8 @@ parent_code,code,name,aliases
 2970749,2976258,Sanary-sur-Mer,
 2970749,2975265,Seillans,
 2970749,2974586,Signes,
-2970749,2974555,Sillans-la-Cascade,
-2970749,2974427,Six-Fours-les-Plages,
+2970749,2974555,Sillans-la-Cascade,Sillans-la Cascade
+2970749,2974427,Six-Fours-les-Plages,Six-Fours-la-Plage
 2970749,2974338,Solliès-Pont,
 2970749,2974337,Solliès-Toucas,
 2970749,2974336,Solliès-Ville,
@@ -1146,7 +1146,7 @@ parent_code,code,name,aliases
 2971071,3019175,Ézanville,
 2971071,3017922,Fontenay-en-Parisis,
 2971071,3017660,Fosses,
-2971071,3017341,Franconville,
+2971071,3017341,Franconville,Franconville-la-Garenne
 2971071,3017208,Frépillon,
 2971071,3016621,Garges-lès-Gonesse,
 2971071,3016390,Genainville,
@@ -1158,7 +1158,7 @@ parent_code,code,name,aliases
 2971071,3013477,Herblay-sur-Seine,
 2971071,3013404,Hérouville,
 2971071,3012162,Jouy-le-Moutier,
-2971071,2998140,L'Isle-Adam,
+2971071,2998140,L Ile Adam,L'Isle-Adam
 2971071,3009256,La Frette-sur-Seine,
 2971071,3006790,La Roche-Guyon,
 2971071,3011171,Labbeville,
@@ -1345,7 +1345,7 @@ parent_code,code,name,aliases
 2973357,2984953,Puylaroque,
 2973357,2984297,Réalville,
 2973357,2983784,Reyniès,
-2973357,2980246,Saint-Etienne-de-Tulmont,
+2973357,2980246,Saint-Étienne-de-Tulmont,
 2973357,2977927,Saint-Nauphary,
 2973357,2977885,Saint-Nicolas-de-la-Grave,
 2973357,2977371,Saint-Porquier,
@@ -1385,7 +1385,7 @@ parent_code,code,name,aliases
 2973362,3028347,Castelnau-de-Brassac,
 2973362,3028345,Castelnau-de-Lévis,
 2973362,3028342,Castelnau-de-Montmiral,
-2973362,3028263,Castres,
+2973362,3028263,Castres,Castres-sur-l'Agout
 2973362,3023695,Cordes-sur-Ciel,
 2973362,3023309,Coufouleux,
 2973362,3022079,Cunac,
@@ -1434,7 +1434,7 @@ parent_code,code,name,aliases
 2973362,2988292,Payrin-Augmontel,
 2973362,2988080,Penne,
 2973362,2986248,Pont-de-Larn,
-2973362,2984969,Puygouzon,
+2973362,2984969,Puygouzon,Puygouzon-et-Montsalvy
 2973362,2984952,Puylaurens,
 2973362,2984627,Rabastens,
 2973362,2984299,Réalmont,
@@ -1448,7 +1448,7 @@ parent_code,code,name,aliases
 2973362,2981402,Saint-Benoît-de-Carmaux,
 2973362,2980039,Saint-Gauzens,
 2973362,2979810,Saint-Germain-des-Prés,
-2973362,2979148,Saint-Juéry,
+2973362,2979148,Saint-Juéry,Saint-Juéry-les-Azalate
 2973362,2978764,Saint-Lieux-lès-Lavaur,
 2973362,2977686,Saint-Paul-Cap-de-Joux,
 2973362,2977478,Saint-Pierre-de-Trivisy,
@@ -1488,7 +1488,7 @@ parent_code,code,name,aliases
 2974304,3038135,Allery,
 2974304,3038081,Allonville,
 2974304,3037854,Amiens,
-2974304,3036992,Argoeuves,
+2974304,3036992,Argœuves,Argoeuves
 2974304,3036759,Arrest,
 2974304,3036616,Arvillers,
 2974304,3036466,Athies,
@@ -1701,7 +1701,7 @@ parent_code,code,name,aliases
 2975246,2988621,Pantin,
 2975246,2987271,Pierrefitte-sur-Seine,
 2975246,2983026,Romainville,
-2975246,2982757,Rosny-sous-Bois,
+2975246,2982757,Rosny-sous-Bois,Rosny
 2975246,2980916,Saint-Denis,
 2975246,2977824,Saint-Ouen,
 2975246,2974681,Sevran,
@@ -2410,10 +2410,10 @@ parent_code,code,name,aliases
 2975517,3019614,Esserts-Blay,
 2975517,3018768,Feissons-sur-Isère,
 2975517,3018202,Flumet,
-2975517,3017946,Fontcouverte-la Toussuire,
+2975517,3017946,Fontcouverte-la-Toussuire,Fontcouverte-la Toussuire
 2975517,3017505,Fourneaux,
 2975517,3017349,Francin,
-2975517,3016957,Frontenex,
+2975517,3016957,Frontenex,Frontenex-Villard-Rosset
 2975517,3016038,Gilly-sur-Isère,
 2975517,3014699,Grésy-sur-Aix,
 2975517,3014698,Grésy-sur-Isère,
@@ -2567,7 +2567,7 @@ parent_code,code,name,aliases
 2975926,3021191,Domfront-en-Champagne,
 2975926,3020696,Duneau,
 2975926,3020462,Écommoy,
-2975926,3019401,Étival-lès-le-Mans,
+2975926,3019401,Étival-lès-le-Mans,Étival-lès-Le Mans
 2975926,3018998,Fatines,
 2975926,3018699,Fercé-sur-Sarthe,
 2975926,3018492,Fillé,
@@ -2625,7 +2625,7 @@ parent_code,code,name,aliases
 2975926,2993172,Montabon,
 2975926,2993077,Montaillé,
 2975926,2992919,Montbizot,
-2975926,2992584,Montfort-le-Gesnois,
+2975926,2992584,Montfort-le-Gesnois,Montfort-le-Rotrou|Montfort-le Rotrou|Pont-de-Gennes|Pont de Gennes
 2975926,2991471,Moulins-le-Carbonnel,
 2975926,2991207,Mulsanne,
 2975926,2990679,Neufchâtel-en-Saosnois,
@@ -2645,7 +2645,7 @@ parent_code,code,name,aliases
 2975926,2983932,Requeil,
 2975926,2983141,Roézé-sur-Sarthe,
 2975926,2982643,Rouessé-Vassé,
-2975926,2982637,Rouez,
+2975926,2982637,Rouez-en-Champagne,Rouez
 2975926,2982556,Rouillon,
 2975926,2982287,Ruaudin,
 2975926,2982188,Ruillé-sur-Loir,
@@ -2655,7 +2655,7 @@ parent_code,code,name,aliases
 2975926,2981379,Saint-Biez-en-Belin,
 2975926,2981263,Saint-Calais,
 2975926,2981016,Saint-Corneille,
-2975926,2981013,Saint-Cosme-en-Vairais,
+2975926,2981013,Saint-Cosme-en-Vairais,Saint-Cosme-de-Vair|Saint Cosme-de-Vair
 2975926,2979912,Saint-Georges-du-Bois,
 2975926,2979902,Saint-Georges-le-Gaultier,
 2975926,2979701,Saint-Gervais-en-Belin,
@@ -2677,7 +2677,7 @@ parent_code,code,name,aliases
 2975926,2976598,Saint-Vincent-du-Lorouër,
 2975926,2980532,Sainte-Jamme-sur-Sarthe,
 2975926,2980336,Sainte-Sabine-sur-Longève,
-2975926,2976019,Sargé-lès-le-Mans,
+2975926,2976019,Sargé-lès-le-Mans,Sargé-lès-le Mans
 2975926,2975465,Sceaux-sur-Huisne,
 2975926,2975310,Ségrie,
 2975926,2974550,Sillé-le-Guillaume,
@@ -2914,17 +2914,18 @@ parent_code,code,name,aliases
 2976082,2967862,Vitry-en-Charollais,
 2976082,2967738,Volesvres,
 2984885,3038226,Alénya,
-2984885,3037592,Angostrina,
-2984885,3037068,Argeles,
-2984885,3036935,Arles,
+2984885,3037592,Angoustrine,Angostrina
+2984885,3037068,Argelès-sur-Mer,Argeles
+2984885,3036935,Arles-sur-Tech,Arles
 2984885,3035432,Bages,
 2984885,3035388,Baho,
 2984885,3035295,Baixas,
-2984885,3035092,Banyuls de la Marenda,
 2984885,3035093,Banyuls-dels-Aspres,
+2984885,3035092,Banyuls-sur-Mer,Banyuls de la Marenda
 2984885,3031859,Bolquère,
 2984885,3031848,Bompas,
 2984885,3031169,Bouleternère,
+2984885,3030983,Bourg-Madame,la Guingueta d'Ix
 2984885,3029883,Brouilla,
 2984885,3029302,Cabestany,
 2984885,3028832,Canet-en-Roussillon,
@@ -2932,98 +2933,97 @@ parent_code,code,name,aliases
 2984885,3028461,Cases-de-Pène,
 2984885,3028242,Catllar,
 2984885,3028207,Caudiès-de-Fenouillèdes,
-2984885,3027888,Ceret,
-2984885,3027915,Cervera de la Marenda,
+2984885,3027915,Cerbère,Cervera de la Marenda
+2984885,3027888,Céret,
 2984885,3024817,Claira,
 2984885,3024314,Collioure,
 2984885,3023754,Corbère,
 2984885,3023753,Corbère-les-Cabanes,
+2984885,3023599,Corneillà,Corneilla-la-Rivière
 2984885,3023600,Corneilla-del-Vercol,
-2984885,3023599,Corneilla-la-Rivière,
-2984885,3002955,el Pertús,
 2984885,3020281,Elne,
-2984885,3037875,els Banys d'Arles,
-2984885,3020109,Enveig,
+2984885,3037875,els Banys d'Arles,Amélie-les Bains|Amélie-les-Bains
+2984885,3020109,Enveitg,Enveig
 2984885,3019871,Err,
 2984885,3019584,Estagel,
-2984885,3017824,Font-Romeu-Odeillo-Via,
+2984885,3017824,Font-Romeu,Font-Romeu-Odeillo-Via
 2984885,3017478,Fourques,
 2984885,3012848,Ille-sur-Têt,
 2984885,3010660,La Cabanasse,
-2984885,3030983,la Guingueta d'Ix,
 2984885,3006701,Laroque-des-Albères,
 2984885,3006215,Latour-Bas-Elne,
 2984885,3006209,Latour-de-France,
 2984885,3005364,Le Barcarès,
 2984885,3005102,Le Boulou,
+2984885,3002955,Le Perthus,el Pertús
 2984885,3000139,Le Soler,
 2984885,3002160,Les Angles,
 2984885,2998018,Llupia,
 2984885,2997537,Los Masos,
 2984885,2995530,Marquixanes,
-2984885,2995054,Maureillas-las-Illas,
+2984885,2995054,Maureillas,Maureillas-las-Illas
 2984885,2995000,Maury,
 2984885,2993876,Millas,
 2984885,2992665,Montescot,
-2984885,2992661,Montesquiu d'Albera,
+2984885,2992661,Montesquieu-des-Albères,Montesquiu d'Albera
 2984885,2990819,Néfiach,
-2984885,2989485,Opoul-Périllos,
+2984885,2989485,Opoul,Opoul-Périllos
 2984885,2989193,Ortaffa,
 2984885,2989119,Osséja,
 2984885,2988744,Palau-de-Cerdagne,
 2984885,2988743,Palau-del-Vidre,
 2984885,2988416,Passa,
-2984885,2987914,Perpignan,
+2984885,2987914,Perpignan,Perpignan la Catalane
 2984885,2987500,Peyrestortes,
 2984885,2987437,Pézilla-la-Rivière,
 2984885,2987409,Pia,
 2984885,2986460,Pollestres,
 2984885,2986204,Ponteilla,
-2984885,2985925,Portvendres,
+2984885,2985925,Port-Vendres,Portvendres
 2984885,2985653,Prades,
-2984885,2985564,Prats de Molló,
+2984885,2985564,Prats-de-Mollo,Prats de Molló
 2984885,2983786,Reynès,
 2984885,2983736,Ria-Sirach,
 2984885,2983393,Rivesaltes,
 2984885,2983155,Rodès,
 2984885,2981984,Saillagouse,
+2984885,2981788,Saint-André,Sant Andreu de Sureda
 2984885,2980976,Saint-Cyprien-Plage,
 2984885,2980313,Saint-Estève,
-2984885,2980164,Saint-Féliu-d'Amont,
+2984885,2980164,Saint-Féliu,Saint-Féliu-d'Amont
 2984885,2980163,Saint-Féliu-d'Avall,
 2984885,2979993,Saint-Génis-des-Fontaines,
 2984885,2979488,Saint-Hippolyte,
 2984885,2979228,Saint-Jean-Lasseille,
+2984885,2979205,Saint-Jean-Pla-de-Corts,St. Jean-Pla-de-Corts
+2984885,2978938,Saint-Laurent-de-Cerdans,Sant Llorenç de Cerdans
 2984885,2978925,Saint-Laurent-de-la-Salanque,
 2984885,2977926,Saint-Nazaire,
 2984885,2977683,Saint-Paul-de-Fenouillet,
 2984885,2980411,Sainte-Marie-Plage,
 2984885,2976481,Saleilles,
 2984885,2976489,Salses-le-Château,
-2984885,2981788,Sant Andreu de Sureda,
-2984885,2978938,Sant Llorenç de Cerdans,
 2984885,2974203,Sorède,
-2984885,2979205,St. Jean-Pla-de-Corts,
 2984885,2973277,Tautavel,
 2984885,2973107,Terrats,
-2984885,2972908,Théza,
+2984885,2972908,Thèza,
 2984885,2972665,Thuir,
 2984885,2972412,Torreilles,
 2984885,2972317,Toulouges,
 2984885,2971775,Tresserre,
 2984885,2971568,Trouillas,
 2984885,2969817,Vernet-les-Bains,
-2984885,2968690,Vilallonga dels Monts,
-2984885,2968691,Villelongue-de-la-Salanque,
+2984885,2968691,Villelongue,Villelongue-de-la-Salanque
+2984885,2968690,Villelongue-dels-Monts,Vilallonga dels Monts
 2984885,2968654,Villemolaque,
+2984885,2968549,Villeneuve,Villeneuve-la-Rivière
 2984885,2968571,Villeneuve-de-la-Raho,
-2984885,2968549,Villeneuve-la-Rivière,
 2984885,2968062,Vinça,
 2984885,2968029,Vingrau,
 2984887,3038741,Abos,
 2984887,3038594,Agnos,
 2984887,3038565,Ahetze,
-2984887,3038558,Aïcirits-Camou-Suhast,
+2984887,3038558,Aicirits,Aïcirits-Camou-Suhast
 2984887,3038406,Ainhoa,
 2984887,3037707,Andoins,
 2984887,3037671,Angaïs,
@@ -3092,7 +3092,7 @@ parent_code,code,name,aliases
 2984887,3024525,Coarraze,
 2984887,3021592,Denguin,
 2984887,3019699,Espelette,
-2984887,3019690,Espès-Undurein,
+2984887,3019690,Espès,Espès-Undurein
 2984887,3019650,Espoey,
 2984887,3019634,Esquiule,
 2984887,3019182,Eysus,
@@ -3103,8 +3103,8 @@ parent_code,code,name,aliases
 2984887,3016406,Gelos,
 2984887,3016282,Ger,
 2984887,3015757,Goès,
-2984887,3015633,Gotein,
-2984887,3014340,Guéthary,
+2984887,3015633,Gotein,Gotein-Libarrenx
+2984887,3014340,Guethary,
 2984887,3014306,Guiche,
 2984887,3014152,Gurmençon,
 2984887,3014031,Halsou,
@@ -3161,7 +3161,7 @@ parent_code,code,name,aliases
 2984887,2989708,Ogeu-les-Bains,
 2984887,2989569,Oloron-Sainte-Marie,
 2984887,2989410,Ordiarp,
-2984887,2989401,Orègue,
+2984887,2989401,Oregue,
 2984887,2989187,Orthez,
 2984887,2989114,Ossès,
 2984887,2988956,Ousse,
@@ -3178,7 +3178,7 @@ parent_code,code,name,aliases
 2984887,2980166,Saint-Faust,
 2984887,2979399,Saint-Jammes,
 2984887,2979309,Saint-Jean-de-Luz,
-2984887,2979214,Saint-Jean-le-Vieux,
+2984887,2979214,Saint-Jean-le-Vieux,Saint-Jean
 2984887,2979207,Saint-Jean-Pied-de-Port,
 2984887,2977772,Saint-Palais,
 2984887,2977631,Saint-Pée-sur-Nivelle,
@@ -3188,18 +3188,18 @@ parent_code,code,name,aliases
 2984887,2976021,Sare,
 2984887,2975799,Sault-de-Navailles,
 2984887,2975683,Sauvagnon,
-2984887,2975663,Sauveterre-de-Béarn,
+2984887,2975663,Sauveterre-de-Béarn,Sauveterre
 2984887,2975115,Sendets,
 2984887,2974821,Serres-Castet,
 2984887,2974815,Serres-Morlaàs,
-2984887,2974689,Sévignacq,
+2984887,2974689,Sévignacq,Sévignac-Thèze|Sévignacq-Thèze
 2984887,2974690,Sévignacq-Meyracq,
 2984887,2974454,Siros,
 2984887,2973973,Soumoulou,
-2984887,2973959,Souraïde,
-2984887,2973377,Tardets,
+2984887,2973959,Souraide,
+2984887,2973377,Tardets,Tardets-Sorholus
 2984887,2972903,Thèze,
-2984887,2971392,Uhart-Cize,
+2984887,2971392,Uhart-Cize,Uhart
 2984887,2971357,Urcuit,
 2984887,2971336,Urrugne,
 2984887,2971333,Urt,
@@ -3207,18 +3207,18 @@ parent_code,code,name,aliases
 2984887,2971265,Uzein,
 2984887,2971255,Uzos,
 2984887,2968744,Villefranque,
-2984887,2968009,Viodos,
+2984887,2968009,Viodos,Viodos-Abense-de-Bas
 2984986,3038498,Aigueperse,
 2984986,3037937,Ambert,
 2984986,3037167,Arconsat,
-2984986,3037132,Ardes,
+2984986,3037132,Ardes,Ardes-sur-Couze
 2984986,3036946,Arlanc,
 2984986,3036640,Artonne,
 2984986,3036364,Aubière,
 2984986,3036199,Augerolles,
 2984986,3036154,Aulnat,
 2984986,3035952,Authezat,
-2984986,3035812,Auzat-la-Combelle,
+2984986,3035812,Auzat-la-Combelle,Auzat|Auzat-sur-Allier
 2984986,3035589,Aydat,
 2984986,3034198,Beaumont,
 2984986,3034066,Beauregard-Vendon,
@@ -3245,7 +3245,7 @@ parent_code,code,name,aliases
 2984986,3026697,Charbonnières-les-Vieilles,
 2984986,3026650,Charensat,
 2984986,3026276,Châteaugay,
-2984986,3026145,Châtel-Guyon,
+2984986,3026145,Châtel-Guyon,Châtelguyon
 2984986,3026153,Châteldon,
 2984986,3025853,Chauriat,
 2984986,3024635,Clermont-Ferrand,
@@ -3268,7 +3268,7 @@ parent_code,code,name,aliases
 2984986,3020145,Entraigues,
 2984986,3020113,Enval,
 2984986,3019755,Escoutoux,
-2984986,3017483,Fournols,
+2984986,3017483,Fournols-d'Auvergne,Fournols
 2984986,3016409,Gelles,
 2984986,3016177,Gerzat,
 2984986,3016120,Giat,
@@ -3290,8 +3290,9 @@ parent_code,code,name,aliases
 2984986,3004811,Le Cendre,
 2984986,3004666,Le Cheix,
 2984986,3004433,Le Crest,
+2984986,3003253,Le Mont-Dore,Mont-Dore
 2984986,3003163,Lempdes,
-2984986,3002175,Les Ancizes,
+2984986,3002175,Les Ancizes-Comps,Les Ancizes
 2984986,2995355,Les Martres-d'Artière,
 2984986,2998639,Lezoux,
 2984986,2998276,Limons,
@@ -3312,8 +3313,7 @@ parent_code,code,name,aliases
 2984986,2994192,Messeix,
 2984986,2994040,Mezel,
 2984986,2993727,Mirefleurs,
-2984986,2993581,Moissat Haut,
-2984986,3003253,Mont-Dore,
+2984986,2993581,Moissat Haut,Moissat
 2984986,2993084,Montaigut,
 2984986,2993080,Montaigut-le-Blanc,
 2984986,2991258,Mozac,
@@ -3349,6 +3349,7 @@ parent_code,code,name,aliases
 2984986,2983265,Rochefort-Montagne,
 2984986,2983050,Romagnat,
 2984986,2982338,Royat,
+2984986,2978175,Saint Maurice es Allier,Saint-Maurice
 2984986,2981817,Saint-Amant-Roche-Savine,
 2984986,2981816,Saint-Amant-Tallende,
 2984986,2981693,Saint-Anthème,
@@ -3366,7 +3367,6 @@ parent_code,code,name,aliases
 2984986,2979705,Saint-Gervais-d'Auvergne,
 2984986,2979447,Saint-Ignat,
 2984986,2979108,Saint-Julien-de-Coppel,
-2984986,2978175,Saint-Maurice,
 2984986,2977910,Saint-Nectaire,
 2984986,2977783,Saint-Ours,
 2984986,2977354,Saint-Priest-Bramefant,
@@ -3405,7 +3405,7 @@ parent_code,code,name,aliases
 2987410,3035749,Aveize,
 2987410,3035400,Bagnols,
 2987410,3034287,Beaujeu,
-2987410,3033636,Belleville,
+2987410,3033636,Belleville-sur-Saône,Belleville
 2987410,3033071,Bessenay,
 2987410,3032481,Blacé,
 2987410,3031017,Bourg-de-Thizy,
@@ -3418,7 +3418,7 @@ parent_code,code,name,aliases
 2987410,3029186,Cailloux-sur-Fontaines,
 2987410,3029096,Caluire-et-Cuire,
 2987410,3027906,Cercié,
-2987410,2978118,Chabanière,
+2987410,2978118,Chabanières,Chabanière
 2987410,3027356,Chambost-Allières,
 2987410,3027355,Chambost-Longessaigne,
 2987410,3027321,Chamelet,
@@ -3432,7 +3432,7 @@ parent_code,code,name,aliases
 2987410,3026419,Chassagny,
 2987410,3026400,Chasselay,
 2987410,3026374,Chassieu,
-2987410,3026075,Châtillon,
+2987410,3026075,Châtillon,Châtillon-d'Azergues
 2987410,3025850,Chaussan,
 2987410,3025398,Chessy,
 2987410,3025313,Chevinay,
@@ -3471,7 +3471,7 @@ parent_code,code,name,aliases
 2987410,3015823,Gleizé,
 2987410,3015000,Grandris,
 2987410,3014676,Grézieu-la-Varenne,
-2987410,3014715,Grézieu-le-Marché,
+2987410,3014715,Grézieu-le-Marché,Grésieu-le-Marché
 2987410,3014647,Grigny-sur-Rhône,
 2987410,3013741,Haute-Rivoire,
 2987410,3012742,Irigny,
@@ -3514,7 +3514,7 @@ parent_code,code,name,aliases
 2987410,2995620,Marnand,
 2987410,2994184,Messimy,
 2987410,2994056,Meys,
-2987410,2994048,Meyzieu,
+2987410,2994048,Meyzieux,Meyzieu
 2987410,2993864,Millery,
 2987410,2993780,Mions,
 2987410,2993194,Monsols,
@@ -3572,8 +3572,8 @@ parent_code,code,name,aliases
 2987410,2978921,Saint-Laurent-de-Mure,
 2987410,2978720,Saint-Loup,
 2987410,2978571,Saint-Marcel-l'Éclairé,
-2987410,2978276,Saint-Martin-en-Haut,
-2987410,2977862,Saint-Nizier-d'Azergues,
+2987410,2978276,Saint-Martin-d'en-Haut,Saint-Martin-en-Haut
+2987410,2977862,Saint-Nizier-d'Azergues,Saint-Nizier-d'Avergues
 2987410,2977530,Saint-Pierre-de-Chandieu,
 2987410,2977441,Saint-Pierre-la-Palud,
 2987410,2977356,Saint-Priest,
@@ -3583,10 +3583,10 @@ parent_code,code,name,aliases
 2987410,2976902,Saint-Sorlin,
 2987410,2976794,Saint-Symphorien-sur-Coise,
 2987410,2976683,Saint-Vérand,
-2987410,2980720,Sainte-Catherine,
+2987410,2980720,Sainte-Catherine,Sainte-Catherine-sous-Riverie
 2987410,2980691,Sainte-Colombe,
 2987410,2980668,Sainte-Consorce,
-2987410,2980587,Sainte-Foy-l'Argentière,
+2987410,2980587,Sainte-Foy-l'Argentière,Saint-Foy-l'Argentière
 2987410,2980586,Sainte-Foy-lès-Lyon,
 2987410,2976039,Sarcey,
 2987410,2975895,Sathonay-Camp,
@@ -3594,7 +3594,7 @@ parent_code,code,name,aliases
 2987410,2975553,Savigny,
 2987410,2974942,Sérézin-du-Rhône,
 2987410,2974524,Simandres,
-2987410,2974378,Solaize,
+2987410,2974378,Solaize,Solaise
 2987410,2974118,Soucieu-en-Jarrest,
 2987410,2973953,Sourcieux-les-Mines,
 2987410,2973886,Souzy,
@@ -3887,7 +3887,7 @@ parent_code,code,name,aliases
 2988430,2992927,Mont-Bernanchon,
 2988430,2992001,Mont-Saint-Éloi,
 2988430,2992420,Montigny-en-Gohelle,
-2988430,2992061,Montreuil,
+2988430,2992061,Montreuil,Montreuil-sur-Mer
 2988430,2991456,Moulle,
 2988430,2990733,Nesles,
 2988430,2990678,Neufchâtel-Hardelot,
@@ -4451,7 +4451,7 @@ parent_code,code,name,aliases
 2990129,3038142,Allennes-les-Marais,
 2990129,3037574,Anhiers,
 2990129,3037571,Aniche,
-2990129,3037520,Annoeullin,
+2990129,3037520,Annœullin,Annoeullin
 2990129,3037506,Anor,
 2990129,3037481,Anstaing,
 2990129,3037397,Anzin,
@@ -4563,7 +4563,7 @@ parent_code,code,name,aliases
 2990129,3021105,Don,
 2990129,3021000,Douai,
 2990129,3020980,Douchy-les-Mines,
-2990129,3020686,Dunkirk,
+2990129,3020686,Dunkerque,Dunkirk
 2990129,3020580,Ebblinghem,
 2990129,3020565,Écaillon,
 2990129,3020369,Eecke,
@@ -5056,7 +5056,7 @@ parent_code,code,name,aliases
 2991627,3028590,Carling,
 2991627,3028236,Cattenom,
 2991627,3026604,Charly-Oradour,
-2991627,3026200,Château-Salins,
+2991627,3026200,Chateau-Salins,
 2991627,3026131,Châtel-Saint-Germain,
 2991627,3025589,Cheminot,
 2991627,3024552,Clouange,
@@ -5342,11 +5342,10 @@ parent_code,code,name,aliases
 2991879,3033534,Belz,
 2991879,3033303,Berné,
 2991879,3033238,Berric,
-2991879,3032704,Bieuzy,
+2991879,3032704,Bieuzy,Bieuzy-les Eaux
 2991879,3032685,Bignan,
 2991879,3032633,Billiers,
 2991879,3032126,Bohal,
-2991879,3005202,Bono,
 2991879,3030565,Brandérion,
 2991879,3030562,Brandivy,
 2991879,3030440,Brech,
@@ -5418,6 +5417,7 @@ parent_code,code,name,aliases
 2991879,3006876,Larmor-Plage,
 2991879,3006632,Larré,
 2991879,3005930,Lauzach,
+2991879,3005202,Le Bono,Bono
 2991879,3004416,Le Croisty,
 2991879,3004304,Le Faouët,
 2991879,3003877,Le Guerno,
@@ -5492,7 +5492,7 @@ parent_code,code,name,aliases
 2991879,2986160,Pontivy,
 2991879,2986078,Porcaro,
 2991879,2985963,Port-Louis,
-2991879,2985282,Priziac ( Priziac ),
+2991879,2985282,Priziac,Priziac ( Priziac )
 2991879,2984839,Quelneuc,
 2991879,2984781,Questembert,
 2991879,2984760,Quéven,
@@ -5532,7 +5532,7 @@ parent_code,code,name,aliases
 2991879,2976954,Saint-Servant,
 2991879,2976756,Saint-Thuriau,
 2991879,2976581,Saint-Vincent-sur-Oust,
-2991879,2980762,Sainte-Anne-d'Auray,
+2991879,2980762,Sainte-Anne-d'Auray,Sainte-Anne-d'Aurey|Saint Anne-d'Auray
 2991879,2980547,Sainte-Hélène,
 2991879,2975916,Sarzeau,
 2991879,2975611,Sauzon,
@@ -5543,7 +5543,7 @@ parent_code,code,name,aliases
 2991879,2973637,Surzur,
 2991879,2973297,Taupont,
 2991879,2972989,Théhillac,
-2991879,2972979,Theix,
+2991879,2972979,Theix-Noyalo,Theix
 2991879,2972023,Tréal,
 2991879,2971986,Trédion,
 2991879,2971976,Treffléan,
@@ -5798,7 +5798,7 @@ parent_code,code,name,aliases
 2994111,2967809,Viviers-sur-Chiers,
 2994111,2967268,Xeuilley,
 2994932,3038563,Ahuillé,
-2994932,3037886,Ambrières-les-Vallées,
+2994932,3037886,Ambrières-les-Vallées,Ambrières-le Grand
 2994932,3037701,Andouillé,
 2994932,3037017,Argentré,
 2994932,3036837,Aron,
@@ -5902,7 +5902,7 @@ parent_code,code,name,aliases
 2994932,2982189,Ruillé-le-Gravelais,
 2994932,2981886,Saint-Aignan-sur-Roë,
 2994932,2981444,Saint-Baudelle,
-2994932,2981382,Saint-Berthevin,
+2994932,2981382,Saint-Berthevin,Saint-Berthevin-sur-Vicoin
 2994932,2981145,Saint-Christophe-du-Luat,
 2994932,2980941,Saint-Cyr-le-Gravelais,
 2994932,2980905,Saint-Denis-de-Gastines,
@@ -5913,7 +5913,7 @@ parent_code,code,name,aliases
 2994932,2979530,Saint-Hilaire-du-Maine,
 2994932,2979193,Saint-Jean-sur-Mayenne,
 2994932,2978516,Saint-Mars-sur-la-Futaie,
-2994932,2977810,Saint-Ouën-des-Toits,
+2994932,2977810,Saint-Ouën-des-Toits,Saint Ouen-des Toits
 2994932,2977484,Saint-Pierre-des-Landes,
 2994932,2977482,Saint-Pierre-des-Nids,
 2994932,2977446,Saint-Pierre-la-Cour,
@@ -5921,7 +5921,7 @@ parent_code,code,name,aliases
 2994932,2977064,Saint-Saturnin-du-Limet,
 2994932,2980566,Sainte-Gemmes-le-Robert,
 2994932,2980304,Sainte-Suzanne,
-2994932,2974022,Soulgé-sur-Ouette,
+2994932,2974022,Soulgé-sur-Ouette,Soulgé-le-Bruant
 2994932,2972456,Torcé-Viviers-en-Charnie,
 2994932,2971179,Vaiges,
 2994932,2970412,Vautorte,
@@ -6109,7 +6109,7 @@ parent_code,code,name,aliases
 2996268,3027868,Cerisy-la-Forêt,
 2996268,3027867,Cerisy-la-Salle,
 2996268,3025643,Chef-du-Pont,
-2996268,3025466,Cherbourg,
+2996268,3025466,Cherbourg-en-Cotentin,Cherbourg
 2996268,3023947,Condé-sur-Vire,
 2996268,3023473,Cosqueville,
 2996268,3023349,Coudeville-sur-Mer,
@@ -6266,8 +6266,8 @@ parent_code,code,name,aliases
 2996268,2980302,Sainte-Suzanne-sur-Vire,
 2996268,2980384,Sainteny,
 2996268,2975924,Sartilly,
-2996268,2975732,Saussemesnil,
 2996268,2975720,Saussey,
+2996268,2975732,Sauxemesnil,Saussemesnil
 2996268,2975534,Savigny-le-Vieux,
 2996268,2974617,Sideville,
 2996268,2974155,Sottevast,
@@ -6370,7 +6370,7 @@ parent_code,code,name,aliases
 2996663,3018906,Faveraye-Mâchelles,
 2996663,3018730,Feneu,
 2996663,3018058,Fontaine-Guérin,
-2996663,3017850,Fontevraud-l'Abbaye,
+2996663,3017850,Fontevraud-l'Abbaye,Fontevraud|Fontevrault-l'Abbaye
 2996663,3017614,Fougeré,
 2996663,3016330,Gennes,
 2996663,3016167,Gesté,
@@ -6426,7 +6426,7 @@ parent_code,code,name,aliases
 2996663,3002191,Les Alleuds,
 2996663,2999908,Les Ponts-de-Cé,
 2996663,2999825,Les Rairies,
-2996663,2999725,Les Rosiers-sur-Loire,
+2996663,2999725,Les Rosiers-sur-Loire,Les Rosiers
 2996663,2999408,Les Ulmes,
 2996663,2999362,Les Verchers-sur-Layon,
 2996663,2998642,Lézigné,
@@ -6461,7 +6461,7 @@ parent_code,code,name,aliases
 2996663,2988169,Pellouailles-les-Vignes,
 2996663,2985893,Pouancé,
 2996663,2985214,Pruillé,
-2996663,2984615,Rablay-sur-Layon,
+2996663,2984615,Rablay,Rablay-sur-Layon
 2996663,2983262,Rochefort-sur-Loire,
 2996663,2982528,Rou,
 2996663,2982492,Roussay,
@@ -6493,7 +6493,7 @@ parent_code,code,name,aliases
 2996663,2978376,Saint-Martin-de-la-Place,
 2996663,2978308,Saint-Martin-du-Bois,
 2996663,2978303,Saint-Martin-du-Fouilloux,
-2996663,2978197,Saint-Mathurin-sur-Loire,
+2996663,2978197,Saint-Mathurin-sur-Loire,Saint-Mathurin
 2996663,2978065,Saint-Melaine-sur-Aubance,
 2996663,2977668,Saint-Paul-du-Bois,
 2996663,2977600,Saint-Philbert-du-Peuple,
@@ -6528,7 +6528,7 @@ parent_code,code,name,aliases
 2996663,2970534,Vaudelnay,
 2996663,2969839,Vern-d'Anjou,
 2996663,2969850,Vernantes,
-2996663,2969776,Vernoil-le-Fourrier,
+2996663,2969776,Vernoil-le-Fourrier,Vernoil
 2996663,2969463,Vezins,
 2996663,2969073,Vihiers,
 2996663,2968873,Villebernier,
@@ -6559,7 +6559,7 @@ parent_code,code,name,aliases
 2997288,2994057,Meyrueis,
 2997288,2992035,Montrodat,
 2997288,2990905,Nasbinals,
-2997288,2983596,Rieutort-de-Randon,
+2997288,2983596,Rieutort-de-Randon,Rieutort
 2997288,2983518,Rimeize,
 2997288,2981865,Saint-Alban-sur-Limagnole,
 2997288,2981193,Saint-Chély-d'Apcher,
@@ -6646,7 +6646,7 @@ parent_code,code,name,aliases
 2997523,2994004,Mézin,
 2997523,2993753,Miramont-de-Guyenne,
 2997523,2993449,Monbahus,
-2997523,2993384,Monclar,
+2997523,2993384,Monclar,Monclar-d'Agenais
 2997523,2993373,Moncrabeau,
 2997523,2993308,Monflanquin,
 2997523,2993208,Monsempron,
@@ -6705,9 +6705,9 @@ parent_code,code,name,aliases
 2997524,3029213,Cahors,
 2997524,3029201,Caillac,
 2997524,3029168,Cajarc,
-2997524,3028723,Capdenac,
+2997524,3028723,Capdenac,Capdenac-le-Haut
 2997524,3028632,Cardaillac,
-2997524,3028341,Castelnau-Montratier,
+2997524,3028341,Castelnau-Montratier,Castelnau-de-Montratier
 2997524,3028231,Catus,
 2997524,3028079,Cazals,
 2997524,3022550,Cressensac,
@@ -6863,7 +6863,7 @@ parent_code,code,name,aliases
 2997856,2985855,Pouillé,
 2997856,2985205,Prunay-Cassereau,
 2997856,2985177,Pruniers-en-Sologne,
-2997856,2982967,Romorantin-Lanthenay,
+2997856,2982967,Romorantin,Romorantin-Lanthenay
 2997856,2981898,Saint-Aignan,
 2997856,2981845,Saint-Amand-Longpré,
 2997856,2981074,Saint-Claude-de-Diray,
@@ -7108,11 +7108,10 @@ parent_code,code,name,aliases
 2997861,3033618,Belligné,
 2997861,3033108,Besné,
 2997861,3032462,Blain,
-2997861,3031659,Bonnœuvre,
+2997861,3031659,Bonnoeuvre,Bonnœuvre
 2997861,3031403,Bouaye,
 2997861,3031313,Bouée,
 2997861,3031268,Bouguenais,
-2997861,3012217,Bourg de Joué-sur-Erdre,
 2997861,3030970,Bourgneuf-en-Retz,
 2997861,3030822,Boussay,
 2997861,3030718,Bouvron,
@@ -7154,7 +7153,8 @@ parent_code,code,name,aliases
 2997861,3034697,Indre,
 2997861,3012676,Issé,
 2997861,3012506,Jans,
-2997861,3019766,La Baule-Escoublac,
+2997861,3012217,Joué-sur-Erdre,Bourg de Joué-sur-Erdre
+2997861,3019766,La Baule-Escoublac,La Baule
 2997861,3011090,La Bernerie-en-Retz,
 2997861,3010396,La Chapelle-Basse-Mer,
 2997861,3010368,La Chapelle-des-Marais,
@@ -7217,7 +7217,7 @@ parent_code,code,name,aliases
 2997861,2989876,Nozay,
 2997861,2989170,Orvault,
 2997861,2989058,Oudon,
-2997861,2988797,Paimboeuf,
+2997861,2988797,Paimbœuf,Paimboeuf
 2997861,2988634,Pannecé,
 2997861,2988323,Paulx,
 2997861,2987658,Petit-Mars,
@@ -7304,7 +7304,7 @@ parent_code,code,name,aliases
 2997861,2967562,Vritz,
 2997861,2967549,Vue,
 2997870,3037929,Ambierle,
-2997870,3037689,Andrézieux-Bouthéon,
+2997870,3037689,Andrézieux,Andrézieux-Bouthéon
 2997870,3035748,Aveizieux,
 2997870,3035260,Balbigny,
 2997870,3034977,Bard,
@@ -7347,7 +7347,7 @@ parent_code,code,name,aliases
 2997870,3018455,Firminy,
 2997870,3017979,Fontanès,
 2997870,3017504,Fourneaux,
-2997870,3017410,Fraisses,
+2997870,3017410,Fraisses,Fraisse
 2997870,3015381,Grammond,
 2997870,3012262,Jonzieux,
 2997870,2999119,L'Étrat,
@@ -7359,7 +7359,7 @@ parent_code,code,name,aliases
 2997870,3006320,La Talaudière,
 2997870,3006292,La Terrasse-sur-Dorlay,
 2997870,3006200,La Tour-en-Jarez,
-2997870,3005820,La Valla-en-Gier,
+2997870,3005820,La Valla-en-Gier,La Valla-en Gier
 2997870,3005416,Lay,
 2997870,3004808,Le Cergne,
 2997870,3004775,Le Chambon-Feugerolles,
@@ -7371,7 +7371,7 @@ parent_code,code,name,aliases
 2997870,2996921,Mably,
 2997870,2996885,Maclas,
 2997870,2996041,Marcenod,
-2997870,2995946,Marcilly-le-Châtel,
+2997870,2995946,Marcilly-le-Châtel,Marcilly|Marcilly-le-Pavé
 2997870,2995913,Marcoux,
 2997870,2995801,Margerie-Chantagret,
 2997870,2995700,Maringes,
@@ -7400,14 +7400,14 @@ parent_code,code,name,aliases
 2997870,2985833,Pouilly-sous-Charlieu,
 2997870,2985630,Pradines,
 2997870,2985607,Pralong,
-2997870,2985375,Précieux,
+2997870,2985375,Précieux,Prétieux
 2997870,2984153,Régny,
 2997870,2984024,Renaison,
 2997870,2983482,Riorges,
 2997870,2983408,Rive-de-Gier,
 2997870,2983362,Roanne,
 2997870,2983251,Roche-la-Molière,
-2997870,2983071,Roisey,
+2997870,2983071,Roisey,Roizey
 2997870,2982305,Rozier-en-Donzy,
 2997870,2981954,Sail-sous-Couzan,
 2997870,2981867,Saint-Alban-les-Eaux,
@@ -7424,7 +7424,7 @@ parent_code,code,name,aliases
 2997870,2980938,Saint-Cyr-les-Vignes,
 2997870,2980906,Saint-Denis-de-Cabanne,
 2997870,2980872,Saint-Denis-sur-Coise,
-2997870,2980291,Saint-Étienne,
+2997870,2980291,Saint-Étienne,St Étienne
 2997870,2980221,Saint-Étienne-le-Molard,
 2997870,2980052,Saint-Galmier,
 2997870,2980012,Saint-Genest-Lerpt,
@@ -7480,7 +7480,7 @@ parent_code,code,name,aliases
 2997870,2971892,Trelins,
 2997870,2971377,Unieux,
 2997870,2971290,Usson-en-Forez,
-2997870,2971060,Valeille,
+2997870,2971060,Valeille,Valeilles
 2997870,2971003,Valfleury,
 2997870,2970275,Veauche,
 2997870,2970274,Veauchette,
@@ -7489,7 +7489,7 @@ parent_code,code,name,aliases
 2997870,2969694,Verrières-en-Forez,
 2997870,2968935,Villars,
 2997870,2968649,Villemontais,
-2997870,2968456,Villerest,
+2997870,2968456,Villerest,Villerêt
 2997870,2968439,Villers,
 2997870,2968007,Violay,
 2997870,2967654,Vougy,
@@ -7547,7 +7547,7 @@ parent_code,code,name,aliases
 3007866,3010782,Labrit,
 3007866,3009083,Laglorieuse,
 3007866,3008397,Laluque,
-3007866,3006616,Larrivière-Saint-Savin,
+3007866,3006616,Larrivière-Saint-Savin,Larrivière
 3007866,3003064,Léon,
 3007866,3000036,Lesperon,
 3007866,2998202,Linxe,
@@ -7584,7 +7584,7 @@ parent_code,code,name,aliases
 3007866,2986444,Pomarez,
 3007866,2986198,Pontenx-les-Forges,
 3007866,2986137,Pontonx-sur-l'Adour,
-3007866,2986018,Port-de-Lanne,
+3007866,2986018,Port-de-Lanne,Lanne
 3007866,2985849,Pouillon,
 3007866,2985720,Pouydesseaux,
 3007866,2985689,Poyanne,
@@ -7592,7 +7592,7 @@ parent_code,code,name,aliases
 3007866,2985074,Pujo-le-Plan,
 3007866,2983958,Renung,
 3007866,2983485,Rion-des-Landes,
-3007866,2983381,Rivière,
+3007866,2983381,Rivière-Saas-et-Gourby,Rivière
 3007866,2982863,Roquefort,
 3007866,2982063,Sabres,
 3007866,2981743,Saint-André-de-Seignanx,
@@ -7628,7 +7628,7 @@ parent_code,code,name,aliases
 3007866,2975853,Saugnacq,
 3007866,2975273,Seignosse,
 3007866,2974652,Seyresse,
-3007866,2974235,Soorts,
+3007866,2974235,Soorts-Hossegor,Soorts
 3007866,2974205,Sore,
 3007866,2974166,Sort-en-Chalosse,
 3007866,2973962,Souprosse,
@@ -7740,8 +7740,8 @@ parent_code,code,name,aliases
 3012051,2967918,Viry,
 3012051,2967742,Voiteur,
 3012715,3038596,Agnin,
-3012715,3038146,Allemond,
-3012715,3038132,Allevard,
+3012715,3038146,Allemond,Allemont
+3012715,3038132,Allevard-les-Bains,Allevard
 3012715,3038106,Allières-et-Risset,
 3012715,3037562,Anjou,
 3012715,3037516,Annoisin,
@@ -7841,14 +7841,14 @@ parent_code,code,name,aliases
 3012715,3013486,Herbeys,
 3012715,3013305,Heyrieux,
 3012715,3013297,Hières-sur-Amby,
-3012715,3013022,Huez,
 3012715,3012611,Izeaux,
 3012715,3012603,Izeron,
 3012715,3012508,Janneyrias,
 3012715,3012492,Jarcieu,
 3012715,3012487,Jardin,
 3012715,3012465,Jarrie,
-3012715,2998136,L'Isle-d'Abeau,
+3012715,3013022,L'Huez,Huez
+3012715,2998136,L'Isle-d'Abeau,Isle-d'Abeau|Ile d'Abeau
 3012715,3011384,La Balme-les-Grottes,
 3012715,3011221,La Bâtie-Divisin,
 3012715,3011220,La Bâtie-Montgascon,
@@ -7861,7 +7861,7 @@ parent_code,code,name,aliases
 3012715,3009258,La Frette,
 3012715,3008014,La Motte-d'Aveillans,
 3012715,3007999,La Motte-Saint-Martin,
-3012715,3007957,La Mure,
+3012715,3007957,La Mure-d'Isère,La Mure
 3012715,3007950,La Murette,
 3012715,3006899,La Rivière,
 3012715,3006399,La Sône,
@@ -7979,7 +7979,7 @@ parent_code,code,name,aliases
 3012715,2981087,Saint-Clair-de-la-Tour,
 3012715,2981085,Saint-Clair-du-Rhône,
 3012715,2980843,Saint-Didier-de-la-Tour,
-3012715,2980636,Saint-Égrève,
+3012715,2980636,Saint-Égrève,Sainte-Égrève
 3012715,2980270,Saint-Étienne-de-Crossey,
 3012715,2980256,Saint-Étienne-de-Saint-Geoirs,
 3012715,2979976,Saint-Geoire-en-Valdaine,
@@ -8081,7 +8081,7 @@ parent_code,code,name,aliases
 3012715,2967758,Voiron,
 3012715,2967695,Voreppe,
 3012715,2967626,Vourey,
-3012804,3038768,Abilly,
+3012804,3038768,Abilly,Abilly-sur-Claise
 3012804,3037927,Ambillou,
 3012804,3037902,Amboise,
 3012804,3036702,Artannes-sur-Indre,
@@ -8595,10 +8595,10 @@ parent_code,code,name,aliases
 3012849,2978062,Saint-Méloir-des-Ondes,
 3012849,2977839,Saint-Onen-la-Chapelle,
 3012849,2977814,Saint-Ouen-des-Alleux,
-3012849,2977616,Saint-Père-Marc-en-Poulet,
+3012849,2977616,Saint-Père-Marc-en-Poulet,Saint-Père
 3012849,2977611,Saint-Pern,
 3012849,2977497,Saint-Pierre-de-Plesguen,
-3012849,2977207,Saint-Rémy-du-Plain,
+3012849,2977207,Saint-Rémy-du-Plain,Saint-Rémy-du-Plein
 3012849,2977019,Saint-Sauveur-des-Landes,
 3012849,2976969,Saint-Senoux,
 3012849,2976880,Saint-Suliac,
@@ -8687,9 +8687,9 @@ parent_code,code,name,aliases
 3013500,3013462,Hérépian,
 3013500,3012576,Jacou,
 3013500,3012004,Juvignac,
-3013500,3008981,La Grande-Motte,
+3013500,3008981,La Grande-Motte,La Grande Motte
 3013500,3008466,La Livinière,
-3013500,3006530,La Salvetat-sur-Agout,
+3013500,3006530,La Salvetat-sur-Agout,La Salvetat
 3013500,3006188,La Tour-sur-Orb,
 3013500,3008321,Lamalou-les-Bains,
 3013500,3007541,Lansargues,
@@ -8719,7 +8719,7 @@ parent_code,code,name,aliases
 3013500,2995471,Marseillan,
 3013500,2995456,Marsillargues,
 3013500,2995121,Mauguio,
-3013500,2995055,Maureilhan,
+3013500,2995055,Maureilhan,Maureilhan-et-Raméjan
 3013500,2994043,Mèze,
 3013500,2993717,Mireval,
 3013500,2993231,Mons,
@@ -8732,7 +8732,7 @@ parent_code,code,name,aliases
 3013500,2992602,Montferrier-sur-Lez,
 3013500,2992166,Montpellier,
 3013500,2992153,Montpeyroux,
-3013500,2991246,Mudaison,
+3013500,2991246,Mudaison,Mucaison
 3013500,2991119,Murviel-lès-Béziers,
 3013500,2991118,Murviel-lès-Montpellier,
 3013500,2990831,Nébian,
@@ -8777,7 +8777,7 @@ parent_code,code,name,aliases
 3013500,2980799,Saint-Drézéry,
 3013500,2980152,Saint-Félix-de-Lodez,
 3013500,2980033,Saint-Gély-du-Fesc,
-3013500,2979998,Saint-Geniès-de-Fontedit,
+3013500,2979998,Saint-Geniès-de-Fontedit,Saint-Geniès-le-Bas
 3013500,2980001,Saint-Geniès-des-Mourgues,
 3013500,2979694,Saint-Gervais-sur-Mare,
 3013500,2979335,Saint-Jean-de-Cornies,
@@ -8820,7 +8820,7 @@ parent_code,code,name,aliases
 3013500,2969421,Vias,
 3013500,2969389,Vic-la-Gardiole,
 3013500,2968544,Villeneuve-lès-Béziers,
-3013500,2968536,Villeneuve-lès-Maguelone,
+3013500,2968536,Villeneuve-lès-Maguelone,Villeneuve-lès-Maguelonne
 3013500,2968274,Villetelle,
 3013500,2968238,Villeveyrac,
 3013500,2968001,Viols-le-Fort,
@@ -9143,7 +9143,7 @@ parent_code,code,name,aliases
 3013719,3026230,Châteauneuf-la-Forêt,
 3013719,3026217,Châteauponsac,
 3013719,3024962,Cieux,
-3013719,3024438,Cognac-la-Forêt,
+3013719,3024438,Cognac-la-Forêt,Cognac-le-Frold|Cognac-le-Froid
 3013719,3024058,Compreignac,
 3013719,3023977,Condat-sur-Vienne,
 3013719,3022846,Coussac-Bonneval,
@@ -9197,7 +9197,7 @@ parent_code,code,name,aliases
 3013719,2984314,Razès,
 3013719,2983542,Rilhac-Rancon,
 3013719,2983291,Rochechouart,
-3013719,2982325,Royères,
+3013719,2982325,Royères,Royères-Saint-Léonard
 3013719,2981977,Saillat-sur-Vienne,
 3013719,2981517,Saint-Auvent,
 3013719,2981348,Saint-Bonnet-Briance,
@@ -9218,7 +9218,7 @@ parent_code,code,name,aliases
 3013719,2978239,Saint-Martin-le-Vieux,
 3013719,2978202,Saint-Mathieu,
 3013719,2978132,Saint-Maurice-les-Brousses,
-3013719,2977696,Saint-Paul,
+3013719,2977696,Saint-Paul-d'Eyjeaux,Saint-Paul
 3013719,2977339,Saint-Priest-Ligoure,
 3013719,2977337,Saint-Priest-sous-Aixe,
 3013719,2977336,Saint-Priest-Taurion,
@@ -9237,7 +9237,7 @@ parent_code,code,name,aliases
 3013719,2969373,Vicq-sur-Breuilh,
 3013726,3038665,Adé,
 3013726,3037693,Andrest,
-3013726,3037070,Argelès-Gazost,
+3013726,3037070,Argelès-Gazost,Argelès
 3013726,3036782,Arras-en-Lavedan,
 3013726,3036770,Arreau,
 3013726,3036764,Arrens-Marsous,
@@ -9300,7 +9300,7 @@ parent_code,code,name,aliases
 3013726,2973385,Tarbes,
 3013726,2972248,Tournay,
 3013726,2972006,Trébons,
-3013726,2971693,Trie-sur-Baïse,
+3013726,2971693,Trie-sur-Baïse,Trie
 3013726,2969401,Vic-en-Bigorre,
 3013736,3038745,Abondance,
 3013736,3038236,Alby-sur-Chéran,
@@ -9329,7 +9329,7 @@ parent_code,code,name,aliases
 3013736,3032130,Bogève,
 3013736,3031729,Bonne,
 3013736,3031679,Bonneville,
-3013736,3031644,Bons-en-Chablais,
+3013736,3031644,Bons-en-Chablais,Bons
 3013736,3031445,Bossey,
 3013736,3030335,Brenthonne,
 3013736,3029543,Burdignin,
@@ -9622,7 +9622,7 @@ parent_code,code,name,aliases
 3013738,3036537,Aspres-sur-Buëch,
 3013738,3030142,Briançon,
 3013738,3027695,Chabottes,
-3013738,3026205,Châteauroux-les-Alpes,
+3013738,3026205,Châteauroux-les-Alpes,Châteauroux
 3013738,3025033,Chorges,
 3013738,3020251,Embrun,
 3013738,3019667,Espinasses,
@@ -9633,7 +9633,6 @@ parent_code,code,name,aliases
 3013738,3006795,La Roche-des-Arnauds,
 3013738,3006511,La Saulce,
 3013738,3007082,Laragne-Montéglin,
-3013738,2980230,Le Dévoluy,
 3013738,3003297,Le Monêtier-les-Bains,
 3013738,2992546,Montgenèvre,
 3013738,2990821,Neffes,
@@ -9645,9 +9644,10 @@ parent_code,code,name,aliases
 3013738,2981355,Saint-Bonnet-en-Champsaur,
 3013738,2981214,Saint-Chaffrey,
 3013738,2981002,Saint-Crépin,
+3013738,2980230,Saint-Étienne-en-Dévoluy,Le Dévoluy
 3013738,2979198,Saint-Jean,
 3013738,2978362,Saint-Martin-de-Queyrières,
-3013738,2975522,Savines-le-Lac,
+3013738,2975522,Savines,Savines-le-Lac
 3013738,2974831,Serres,
 3013738,2974567,Sigoyer,
 3013738,2973485,Tallard,
@@ -9799,7 +9799,7 @@ parent_code,code,name,aliases
 3013760,2976652,Saint-Victor-Malescours,
 3013760,2976628,Saint-Vincent,
 3013760,2980603,Sainte-Florine,
-3013760,2980328,Sainte-Sigolène,
+3013760,2980328,Sainte-Sigolène,Sigolène|Sigolaine
 3013760,2975850,Saugues,
 3013760,2974347,Solignac-sur-Loire,
 3013760,2973182,Tence,
@@ -9819,7 +9819,7 @@ parent_code,code,name,aliases
 3013767,3035970,Auterive,
 3013767,3035802,Auzeville-Tolosane,
 3013767,3035801,Auzielle,
-3013767,3035675,Avignonet-Lauragais,
+3013767,3035675,Avignonet-Lauragais,Avignonet-de-Lauragais
 3013767,3035576,Ayguesvives,
 3013767,3035416,Bagnères-de-Luchon,
 3013767,3035204,Balma,
@@ -9835,7 +9835,7 @@ parent_code,code,name,aliases
 3013767,3032433,Blajan,
 3013767,3031645,Bonrepos-sur-Aussonnelle,
 3013767,3031144,Bouloc,
-3013767,3031135,Boulogne-sur-Gesse,
+3013767,3031135,Boulogne-sur-Gesse,Boulogne-sur-Geese
 3013767,3030952,Bourg-Saint-Bernard,
 3013767,3030813,Boussens,
 3013767,3030485,Brax,
@@ -9884,7 +9884,7 @@ parent_code,code,name,aliases
 3013767,3015427,Goyrans,
 3013767,3015412,Gragnague,
 3013767,3014848,Gratentour,
-3013767,3014745,Grenade,
+3013767,3014745,Grenade,Grenade-sur-Garonne
 3013767,3014716,Grépiac,
 3013767,2998132,L'Isle-en-Dodon,
 3013767,2997104,L'Union,
@@ -9899,7 +9899,7 @@ parent_code,code,name,aliases
 3013767,3011154,Labège,
 3013767,3010580,Lacasse,
 3013767,3009731,Lacroix-Falgarde,
-3013767,3009447,Lafitte-Vigordane,
+3013767,3009447,Lafitte-Vigordane,Lafitte-Vigordanne
 3013767,3009188,Lagardelle-sur-Lèze,
 3013767,3008255,Lamasquère,
 3013767,3007838,Landorthe,
@@ -9917,7 +9917,7 @@ parent_code,code,name,aliases
 3013767,3004185,Le Fousseret,
 3013767,3003874,Léguevin,
 3013767,2999976,Lespinasse,
-3013767,2998803,Lévignac,
+3013767,2998803,Lévignac,Lévignac-sur-Save
 3013767,2998622,Lherm,
 3013767,2997775,Longages,
 3013767,2996235,Mane,
@@ -9967,7 +9967,7 @@ parent_code,code,name,aliases
 3013767,2984272,Rebigue,
 3013767,2983833,Revel,
 3013767,2983606,Rieumes,
-3013767,2983591,Rieux-Volvestre,
+3013767,2983591,Rieux-Volvestre,Rieux
 3013767,2982857,Roquefort-sur-Garonne,
 3013767,6620088,Roques,
 3013767,2982844,Roquesérière,
@@ -9985,7 +9985,7 @@ parent_code,code,name,aliases
 3013767,2979174,Saint-Jory,
 3013767,2978797,Saint-Léon,
 3013767,2978706,Saint-Loup-Cammas,
-3013767,2978661,Saint-Lys,
+3013767,2978661,Saint-Lys,St.-Lys
 3013767,2978207,Saint-Martory,
 3013767,2977832,Saint-Orens-de-Gameville,
 3013767,2977049,Saint-Sauveur,
@@ -10016,7 +10016,7 @@ parent_code,code,name,aliases
 3013767,2968542,Villeneuve-lès-Bouloc,
 3013767,2968510,Villeneuve-Tolosane,
 3013767,2968504,Villenouvelle,
-3013793,3038225,Aléria,
+3013793,3038225,Aleria,
 3013793,3037108,Aregno,
 3013793,3034640,Bastia,
 3013793,3032668,Biguglia,
@@ -10070,7 +10070,7 @@ parent_code,code,name,aliases
 3013793,2967831,Vivario,
 3015948,3038730,Abzac,
 3015948,3038448,Aillas,
-3015948,3037956,Ambarès-et-Lagrave,
+3015948,3037956,Ambarès-et-Lagrave,Ambarès-et-La Grave
 3015948,3037935,Ambès,
 3015948,3037726,Andernos-les-Bains,
 3015948,3037638,Anglade,
@@ -10102,7 +10102,7 @@ parent_code,code,name,aliases
 3015948,3032688,Biganos,
 3015948,3032340,Blanquefort,
 3015948,3032316,Blasimon,
-3015948,2967108,Blaye,
+3015948,2967108,Blaye,Blaye-et-Sainte-Luce
 3015948,3031852,Bommes,
 3015948,3031719,Bonnetan,
 3015948,3031619,Bonzac,
@@ -10120,7 +10120,7 @@ parent_code,code,name,aliases
 3015948,3029062,Camarsac,
 3015948,3029052,Cambes,
 3015948,3029044,Camblanes,
-3015948,3028838,Canéjan,
+3015948,3028838,Canéjean,Canéjan
 3015948,3028774,Cantenac,
 3015948,3028714,Capian,
 3015948,3028684,Captieux,
@@ -10160,7 +10160,7 @@ parent_code,code,name,aliases
 3015948,3016969,Fronsac,
 3015948,3016966,Frontenac,
 3015948,3016820,Gaillan-en-Médoc,
-3015948,3016764,Galgon,
+3015948,3016764,Galgon,Galgon-et-Queyrac|Galgon-et-Gueyrac
 3015948,3016497,Gauriac,
 3015948,3016496,Gauriaguet,
 3015948,3016370,Générac,
@@ -10180,7 +10180,7 @@ parent_code,code,name,aliases
 3015948,3012593,Izon,
 3015948,3008539,La Lande-de-Fronsac,
 3015948,3006979,La Réole,
-3015948,3006497,La Sauve,
+3015948,3006497,La Sauve,La Sauve-Majeure
 3015948,3006283,La Teste-de-Buch,
 3015948,3011361,Labarde,
 3015948,3010626,Lacanau,
@@ -10199,7 +10199,7 @@ parent_code,code,name,aliases
 3015948,3002836,Le Pian-Médoc,
 3015948,3002835,Le Pian-sur-Garonne,
 3015948,3002559,Le Porge,
-3015948,2999296,Le Taillan-Médoc,
+3015948,2999296,Le Taillan Medoc,Le Taillan-Médoc
 3015948,2999260,Le Teich,
 3015948,2999248,Le Temple,
 3015948,2999135,Le Tourne,
@@ -10210,7 +10210,7 @@ parent_code,code,name,aliases
 3015948,3001899,Les Billaux,
 3015948,3001176,Les Églisottes-et-Chalaures,
 3015948,3000052,Les Peintures,
-3015948,3000072,Lesparre-Médoc,
+3015948,3000072,Lesparre-Médoc,L'Sparre
 3015948,2999498,Lestiac-sur-Garonne,
 3015948,2998517,Libourne,
 3015948,2998410,Lignan-de-Bordeaux,
@@ -10218,7 +10218,7 @@ parent_code,code,name,aliases
 3015948,2997556,Lormont,
 3015948,2997472,Louchats,
 3015948,2997416,Loupes,
-3015948,2997409,Loupiac,
+3015948,2997409,Loupiac,Loupiac-de-Cadillac
 3015948,2997185,Ludon-Médoc,
 3015948,3225344,Lugon-et-l'Île-du-Carnay,
 3015948,2997160,Lugos,
@@ -10243,7 +10243,7 @@ parent_code,code,name,aliases
 3015948,2991777,Morizès,
 3015948,2991512,Mouliets-et-Villemartin,
 3015948,2991459,Moulis-en-Médoc,
-3015948,2991449,Moulon,
+3015948,2991449,Moulon,Moulon-sur-Dordogne
 3015948,2990887,Naujac-sur-Mer,
 3015948,2990886,Naujan-et-Postiac,
 3015948,2990770,Nérigean,
@@ -10293,7 +10293,7 @@ parent_code,code,name,aliases
 3015948,2979653,Saint-Girons-d'Aiguevives,
 3015948,2979256,Saint-Jean-d'Illac,
 3015948,3225388,Saint-Julien-Beychevelle,
-3015948,2978749,Saint-Loubès,
+3015948,2978749,Saint-Loubès,St Loubès
 3015948,2978726,Saint-Louis-de-Montferrand,
 3015948,2978660,Saint-Macaire,
 3015948,2978652,Saint-Magne,
@@ -10313,7 +10313,7 @@ parent_code,code,name,aliases
 3015948,2977287,Saint-Quentin-de-Baron,
 3015948,2977130,Saint-Romain-la-Virvée,
 3015948,2977043,Saint-Sauveur,
-3015948,2976997,Saint-Savin,
+3015948,2976997,Saint-Savin,Saint-Savin-de-Blay
 3015948,2976974,Saint-Selve,
 3015948,2976949,Saint-Seurin-de-Cadourne,
 3015948,2976948,Saint-Seurin-de-Cursac,
@@ -10351,7 +10351,7 @@ parent_code,code,name,aliases
 3015948,2970142,Vendays-Montalivet,
 3015948,2970023,Vérac,
 3015948,2969990,Verdelais,
-3015948,2969622,Vertheuil,
+3015948,2969622,Vertheuil,Vertheuil-en-Médoc
 3015948,2969095,Vignonet,
 3015948,2969015,Villandraut,
 3015948,2968726,Villegouge,
@@ -10374,7 +10374,7 @@ parent_code,code,name,aliases
 3016194,3023943,Condom,
 3016194,3020670,Duran,
 3016194,3020584,Eauze,
-3016194,3020209,Endoufielle,
+3016194,3020209,Endoufielle,Endouffielle
 3016194,3019778,Escornebœuf,Escorneboeuf
 3016194,3019569,Estang,
 3016194,3018323,Fleurance,
@@ -10493,7 +10493,7 @@ parent_code,code,name,aliases
 3016670,3006643,La Rouvière,
 3016670,3007715,Langlade,
 3016670,3006543,Lasalle,
-3016670,3006056,Laudun-l'Ardoise,
+3016670,3006056,Laudun-l'Ardoise,Laudun
 3016670,3005792,Laval-Pradel,
 3016670,3004891,Le Cailar,
 3016670,3003918,Le Grau-du-Roi,
@@ -10543,18 +10543,18 @@ parent_code,code,name,aliases
 3016670,2982443,Rousson,
 3016670,2982064,Sabran,
 3016670,2982002,Sagriès,
+3016670,2981173,Saint Christol les Alès,Saint-Christol-les-Alès
 3016670,2981863,Saint-Alexandre,
 3016670,2981810,Saint-Ambroix,
 3016670,2981753,Saint-André-de-Majencoules,
 3016670,2981331,Saint-Bonnet-du-Gard,
 3016670,2981204,Saint-Chaptes,
-3016670,2981173,Saint-Christol-les-Alès,
 3016670,2981025,Saint-Côme-et-Maruéjols,
-3016670,2980823,Saint-Dionisy,
+3016670,2980823,Saint-Dionisy,Saint Dionizy
 3016670,2980248,Saint-Étienne-des-Sorts,
 3016670,2980108,Saint-Florent-sur-Auzonnet,
 3016670,2980003,Saint-Geniès-de-Comolas,
-3016670,2980002,Saint-Geniès-de-Malgoirès,
+3016670,2980002,Saint-Geniès-de-Malgoirès,Saint-Géniès
 3016670,2979715,Saint-Gervais,
 3016670,2979692,Saint-Gervasy,
 3016670,2979679,Saint-Gilles,
@@ -10622,7 +10622,7 @@ parent_code,code,name,aliases
 3018471,3030381,Brélès,
 3018471,3030300,Brest,
 3018471,3030102,Briec,
-3018471,3030058,Brignogan-Plages,
+3018471,3030058,Brignogan-Plage,Brignogan-Plages
 3018471,3029068,Camaret-sur-Mer,
 3018471,3028667,Carantec,
 3018471,3028603,Carhaix-Plouguer,
@@ -10646,13 +10646,13 @@ parent_code,code,name,aliases
 3018471,3021349,Dinéault,
 3018471,3021328,Dirinon,
 3018471,3020996,Douarnenez,
-3018471,3020374,Edern,
+3018471,3020374,Edern,Guellevain
 3018471,3020283,Elliant,
 3018471,3019920,Ergué-Gabéric,
 3018471,3019638,Esquibien,
 3018471,3017624,Fouesnant,
 3018471,3016612,Garlan,
-3018471,3015602,Gouesnach,
+3018471,3015602,Gouesnach,Gouesnac'h
 3018471,3015601,Gouesnou,
 3018471,3015596,Gouézec,
 3018471,3015520,Gourlizon,
@@ -10660,7 +10660,7 @@ parent_code,code,name,aliases
 3018471,3014369,Guerlesquin,
 3018471,3014304,Guiclan,
 3018471,3014280,Guilers,
-3018471,3014239,Guilvinec,
+3018471,3014239,Guilvinec,Le Guilvinec
 3018471,3014238,Guimaëc,
 3018471,3014236,Guimiliau,
 3018471,3014213,Guipavas,
@@ -10799,7 +10799,7 @@ parent_code,code,name,aliases
 3018471,2984701,Quimper,
 3018471,2984699,Quimperlé,
 3018471,2984198,Rédené,
-3018471,2983631,Riec-sur-Belon,
+3018471,2983631,Riec-sur-Bélon,
 3018471,2982811,Roscanvel,
 3018471,2982809,Roscoff,
 3018471,2982759,Rosnoën,
@@ -10825,7 +10825,7 @@ parent_code,code,name,aliases
 3018471,2976755,Saint-Thurien,
 3018471,2976730,Saint-Urbain,
 3018471,2976566,Saint-Vougay,
-3018471,2976537,Saint-Yvi,
+3018471,2976537,Saint-Yvi,Saint-Yvy
 3018471,2980331,Sainte-Sève,
 3018471,2976117,Santec,
 3018471,2975485,Scaër,
@@ -11357,7 +11357,7 @@ parent_code,code,name,aliases
 3019599,2977458,Saint-Pierre-du-Perray,
 3019599,2976565,Saint-Vrain,
 3019599,2976549,Saint-Yon,
-3019599,2980558,Sainte-Geneviève-des-Bois,
+3019599,2980558,Sainte-Geneviève-des-Bois,Ste-Geneviève-des-Bois
 3019599,2977103,Saintry-sur-Seine,
 3019599,2975785,Saulx-les-Chartreux,
 3019599,2975525,Savigny-sur-Orge,
@@ -11428,6 +11428,7 @@ parent_code,code,name,aliases
 3020781,3022540,Crest,
 3020781,3021435,Die,
 3020781,3021397,Dieulefit,
+3020781,3021312,Divajeu,Haut Divajeu
 3020781,3021061,Donzère,
 3020781,3020002,Épinouze,
 3020781,3019885,Érôme,
@@ -11439,7 +11440,6 @@ parent_code,code,name,aliases
 3020781,3016140,Geyssans,
 3020781,3014915,Grane,
 3020781,3014661,Grignan,
-3020781,3021312,Haut Divajeu,
 3020781,3013742,Hauterives,
 3020781,3013132,Hostun,
 3020781,3012565,Jaillans,
@@ -11455,7 +11455,7 @@ parent_code,code,name,aliases
 3020781,3007326,Lapeyrouse-Mornay,
 3020781,3006871,Larnage,
 3020781,3005623,Laveyron,
-3020781,3003942,Le Grand-Serre,
+3020781,3003942,Le Grand-Serre,Le Grand Serre
 3020781,3002632,Le Poët-Laval,
 3020781,3003088,Lens-Lestang,
 3020781,3000764,Les Granges-Gontardes,
@@ -11472,7 +11472,7 @@ parent_code,code,name,aliases
 3020781,2993766,Mirabel-aux-Baronnies,
 3020781,2993765,Mirabel-et-Blacons,
 3020781,2993708,Mirmande,
-3020781,2993501,Mollans-sur-Ouvèze,
+3020781,2993501,Mollans-sur l'Ouvèze,Mollans-sur-Ouvèze
 3020781,2992905,Montboucher-sur-Jabron,
 3020781,2992706,Montéléger,
 3020781,2992704,Montélier,
@@ -11651,7 +11651,7 @@ parent_code,code,name,aliases
 3020989,2988163,Pelousey,
 3020989,2987268,Pierrefontaine-les-Varans,
 3020989,2987045,Pirey,
-3020989,2986237,Pont-de-Roide,
+3020989,2986237,Pont-de-Roide-Vermondans,Pont-de-Roide
 3020989,2986302,Pontarlier,
 3020989,2985851,Pouilley-Français,
 3020989,2985850,Pouilley-les-Vignes,
@@ -11717,7 +11717,7 @@ parent_code,code,name,aliases
 3021042,3027958,Cendrieux,
 3021042,3027275,Champagnac-de-Belair,
 3021042,3027207,Champcevinel,
-3021042,3027062,Champniers-et-Reilhac,
+3021042,3027062,Champniers-et-Reilhac,Champniers-et-Reillac
 3021042,3026969,Chancelade,
 3021042,3025423,Cherveix-Cubas,
 3021042,3023978,Condat-sur-Vézère,
@@ -11741,7 +11741,7 @@ parent_code,code,name,aliases
 3021042,3016648,Gardonne,
 3021042,3016338,Génis,
 3021042,3016007,Ginestet,
-3021042,3015326,Grand-Brassac,
+3021042,3015326,Grand-Brassac,Grand Brassac
 3021042,3014656,Grignols,
 3021042,3014577,Groléjac,
 3021042,3013769,Hautefort,
@@ -11772,7 +11772,7 @@ parent_code,code,name,aliases
 3021042,2998147,Lisle,
 3021042,2996129,Manzac-sur-Vern,
 3021042,2995972,Marcillac-Saint-Quentin,
-3021042,2995825,Mareuil,
+3021042,2995825,Mareuil,Mareuil-sur-Belle
 3021042,2995547,Marquay,
 3021042,2995493,Marsaneix,
 3021042,2995048,Maurens,
@@ -11786,17 +11786,17 @@ parent_code,code,name,aliases
 3021042,2993103,Montagrier,
 3021042,2992870,Montcaret,
 3021042,2992453,Montignac,
-3021042,2992132,Montpon-Ménestérol,
+3021042,2992132,Montpon-sur-l'Isle,Montpon-Ménestérol
 3021042,2992098,Montrem,
 3021042,2991518,Mouleydier,
 3021042,2991482,Moulin-Neuf,
 3021042,2991102,Mussidan,
 3021042,2990951,Nantheuil,
 3021042,2990802,Négrondes,
-3021042,2990576,Neuvic,
+3021042,2990576,Neuvic-sur-l'Isle,Neuvic
 3021042,2990140,Nontron,
 3021042,2990042,Notre-Dame-de-Sanilhac,
-3021042,2988284,Payzac,
+3021042,2988284,Payzac,Payzac-de-Lanouaille
 3021042,2988280,Pazayac,
 3021042,2987967,Périgueux,
 3021042,2987332,Piégut-Pluviers,
@@ -11819,7 +11819,7 @@ parent_code,code,name,aliases
 3021042,2980063,Saint-Front-la-Rivière,
 3021042,2980005,Saint-Geniès,
 3021042,2979789,Saint-Germain-du-Salembre,
-3021042,2979173,Saint-Jory-de-Chalais,
+3021042,2979173,Saint-Jory-de-Chalais,Saint-Jory-de-Chaleix|Saint-Jory-de Chalais
 3021042,2979102,Saint-Julien-de-Lampon,
 3021042,2978910,Saint-Laurent-des-Hommes,
 3021042,2978908,Saint-Laurent-des-Vignes,
@@ -11840,7 +11840,7 @@ parent_code,code,name,aliases
 3021042,2977045,Saint-Sauveur,
 3021042,2976946,Saint-Seurin-de-Prats,
 3021042,2976613,Saint-Vincent-de-Connezac,
-3021042,2981857,Sainte-Alvère,
+3021042,2981857,Sainte-Alvère,Saint-Alvère
 3021042,2980388,Sainte-Nathalène,
 3021042,2976511,Salagnac,
 3021042,2976440,Salignac-Eyvigues,
@@ -11865,7 +11865,7 @@ parent_code,code,name,aliases
 3021042,2969482,Vézac,
 3021042,2969020,Villamblard,
 3021042,2968936,Villars,
-3021042,2968757,Villefranche-de-Lonchat,
+3021042,2968757,Villefranche-de-Lonchat,Villefranche-de-Longchat
 3021042,2968753,Villefranche-du-Périgord,
 3021042,2968271,Villetoureix,
 3021042,2967892,Vitrac,
@@ -11875,7 +11875,7 @@ parent_code,code,name,aliases
 3021501,3037979,Amailloux,
 3021501,3037249,Arçais,
 3021501,3037123,Ardin,
-3021501,3037021,Argenton-les-Vallées,
+3021501,3037021,Argenton-les-Vallées,Argenton-Château
 3021501,3036527,Assais-les-Jumeaux,
 3021501,3036212,Augé,
 3021501,3035550,Azay-le-Brûlé,
@@ -11909,7 +11909,7 @@ parent_code,code,name,aliases
 3021501,3024531,Clussais,
 3021501,3024131,Combrand,
 3021501,3023238,Coulon,
-3021501,3023223,Coulonges-sur-l'Autize,
+3021501,3023223,Coulonges-sur-l'Autize,Coulonges-sur-l'Autise
 3021501,3023014,Courlay,
 3021501,3020497,Échiré,
 3021501,3020090,Épannes,
@@ -11971,6 +11971,7 @@ parent_code,code,name,aliases
 3021501,2985293,Prissé-la-Charrière,
 3021501,2983052,Rom,
 3021501,2983012,Romans,
+3021501,2976816,Saint Symphorien,Saint-Symphorien
 3021501,2981833,Saint-Amand-sur-Sèvre,
 3021501,2981713,Saint-André-sur-Sèvre,
 3021501,2981560,Saint-Aubin-du-Plain,
@@ -11993,7 +11994,6 @@ parent_code,code,name,aliases
 3021501,2977385,Saint-Pompain,
 3021501,2977231,Saint-Rémy,
 3021501,2977112,Saint-Romans-lès-Melle,
-3021501,2976816,Saint-Symphorien,
 3021501,2976693,Saint-Varent,
 3021501,2976594,Saint-Vincent-la-Châtre,
 3021501,2980737,Sainte-Blandine,
@@ -12540,7 +12540,7 @@ parent_code,code,name,aliases
 3023532,3019235,Eyburie,
 3023532,3019218,Eygurande,
 3023532,3019198,Eyrein,
-3023532,3016028,Gimel-les-Cascades,
+3023532,3016028,Gimel-les-Cascades,Gimel
 3023532,3012131,Jugeals-Nazareth,
 3023532,3012113,Juillac,
 3023532,3009472,La Feuillade,
@@ -12562,7 +12562,7 @@ parent_code,code,name,aliases
 3023532,2993420,Monceaux-sur-Dordogne,
 3023532,2990860,Naves,
 3023532,2990725,Nespouls,
-3023532,2990575,Neuvic,
+3023532,2990575,Neuvic d'Ussel,Neuvic
 3023532,2990308,Noailles,
 3023532,2989785,Objat,
 3023532,2987917,Perpezac-le-Noir,
@@ -12677,7 +12677,7 @@ parent_code,code,name,aliases
 3025480,2985348,Préveranges,
 3025480,2984684,Quincy,
 3025480,2983731,Rians,
-3025480,2981837,Saint-Amand-Montrond,
+3025480,2981837,Saint-Amand-Montrond,Saint-Amand-Mont-Rond
 3025480,2980801,Saint-Doulchard,
 3025480,2980494,Saint-Éloy-de-Gy,
 3025480,2980107,Saint-Florent-sur-Cher,
@@ -12716,7 +12716,7 @@ parent_code,code,name,aliases
 3025480,2967604,Vouzeron,
 3026644,3037715,Andilly,
 3026644,3037596,Angoulins,
-3026644,3037225,Arces,
+3026644,3037225,Arces,Arces-sur-Gironde
 3026644,3037205,Archiac,
 3026644,3037197,Archingeay,
 3026644,3037125,Ardillières,
@@ -12766,7 +12766,7 @@ parent_code,code,name,aliases
 3026644,3024586,Clion,
 3026644,3023649,Corme-Écluse,
 3026644,3023638,Corme-Royal,
-3026644,3023058,Courçon,
+3026644,3023058,Courçon-d'Aunis,Courçon
 3026644,3023055,Courcoury,
 3026644,3022733,Cozes,
 3026644,3022710,Cramchaban,
@@ -12796,7 +12796,7 @@ parent_code,code,name,aliases
 3026644,3010008,La Clotte,
 3026644,3009873,La Couarde-sur-Mer,
 3026644,3009436,La Flotte,
-3026644,3008880,La Gripperie-Saint-Symphorien,
+3026644,3008880,La Gripperie-Saint-Symphorien,La-Gripperie-Saint-Symphorien
 3026644,3008611,La Jarne,
 3026644,3008607,La Jarrie,
 3026644,3006787,La Rochelle,
@@ -12807,11 +12807,11 @@ parent_code,code,name,aliases
 3026644,3009052,Lagord,
 3026644,3007869,Landes,
 3026644,3007833,Landrais,
-3026644,3005218,Le Bois-Plage-en-Ré,
+3026644,3005218,Le Bois Plage,Le Bois-Plage-en-Ré
 3026644,3004674,Le Chay,
 3026644,3004327,Le Douhet,
 3026644,3004200,Le Fouilloux,
-3026644,3014930,Le Grand-Village-Plage,
+3026644,3014930,Le Grand-Village-Plage,Grand-Village-Plage|Grand Village
 3026644,3003893,Le Gua,
 3026644,2999178,Le Thou,
 3026644,3001139,Les Essards,
@@ -12841,7 +12841,7 @@ parent_code,code,name,aliases
 3026644,2992377,Montils,
 3026644,2992305,Montlieu-la-Garde,
 3026644,2992163,Montpellier-de-Médillan,
-3026644,2992014,Montroy,
+3026644,2992014,Montroy,Montroi
 3026644,2991746,Mornac-sur-Seudre,
 3026644,2991701,Mortagne-sur-Gironde,
 3026644,2991134,Muron,
@@ -12858,7 +12858,7 @@ parent_code,code,name,aliases
 3026644,2987034,Pisany,
 3026644,2986846,Plassay,
 3026644,2986335,Pons,
-3026644,2986155,Pont-l'Abbé-d'Arnoult,
+3026644,2986155,Pont-l'Abbé-d'Arnoult,Pont-l'Abbé
 3026644,3002552,Port-des-Barques,
 3026644,2985128,Puilboreau,
 3026644,2984288,Réaux,
@@ -12927,7 +12927,7 @@ parent_code,code,name,aliases
 3026644,2973554,Taillebourg,
 3026644,2973306,Taugon,
 3026644,2973062,Tesson,
-3026644,2973021,Thairé,
+3026644,2973021,Thairé-d'Aunis,Thairé
 3026644,2972963,Thénac,
 3026644,2972471,Tonnay-Boutonne,
 3026644,2972470,Tonnay-Charente,
@@ -13130,7 +13130,7 @@ parent_code,code,name,aliases
 3028791,2986453,Polminhac,
 3028791,2985192,Prunet,
 3028791,2984123,Reilhac,
-3028791,2983487,Riom-ès-Montagnes,
+3028791,2983487,Riom-ès-Montagnes,Riom-ès-Montagne|Riom
 3028791,2983357,Roannes-Saint-Mary,
 3028791,2983139,Roffiac,
 3028791,2981993,Saignes,
@@ -13222,7 +13222,7 @@ parent_code,code,name,aliases
 3029094,3022872,Courtonne-les-Deux-Églises,
 3029094,3022549,Cresserons,
 3029094,3022523,Creully,
-3029094,3022500,Crevecoeur-en-Auge,
+3029094,3022500,Crèvecœur-en-Auge,Crevecoeur-en-Auge
 3029094,3021965,Cuverville,
 3029094,3021668,Deauville,
 3029094,3021609,Démouville,
@@ -13414,7 +13414,7 @@ parent_code,code,name,aliases
 3031359,3027745,Ceyreste,
 3031359,3026616,Charleval,
 3031359,3026229,Châteauneuf-le-Rouge,
-3031359,3026227,Châteauneuf-les-Martigues,
+3031359,3026227,Châteauneuf-les-Martigues,Châteneuf les Martiques
 3031359,3026211,Châteaurenard,
 3031359,3023576,Cornillon-Confoux,
 3031359,3023344,Coudoux,
@@ -13448,29 +13448,29 @@ parent_code,code,name,aliases
 3031359,3002443,Le Puy-Sainte-Réparade,
 3031359,3002271,Le Rove,
 3031359,2999182,Le Tholonet,
-3031359,3000047,Les Pennes-Mirabeau,
+3031359,3000047,Les Pennes-Mirabeau,Les-Pennes-Mirabeau
 3031359,2996711,Maillane,
 3031359,2996397,Mallemort,
 3031359,2995750,Marignane,
 3031359,2995469,Marseille,
-3031359,7284882,Marseille 01,
-3031359,7284883,Marseille 02,
-3031359,7284884,Marseille 03,
-3031359,7284885,Marseille 04,
-3031359,7284886,Marseille 05,
-3031359,7284887,Marseille 06,
-3031359,7284888,Marseille 07,
-3031359,7284889,Marseille 08,
-3031359,7284891,Marseille 09,
-3031359,7284890,Marseille 10,
-3031359,7284892,Marseille 11,
-3031359,7284893,Marseille 12,
-3031359,7284894,Marseille 13,
-3031359,7284895,Marseille 14,
-3031359,7284896,Marseille 15,
-3031359,7284897,Marseille 16,
+3031359,7284890,Marseille 10eme,Marseille 10|Marseille 10e arrondissement|Marseille 10e
+3031359,7284892,Marseille 11eme,Marseille 11|Marseille 11e
+3031359,7284893,Marseille 12eme,Marseille 12|Marseille 12e
+3031359,7284894,Marseille 13eme,Marseille 13|Marseille 13e
+3031359,7284895,Marseille 14eme,Marseille 14|Marseille 14e
+3031359,7284896,Marseille 15eme,Marseille 15|Marseille 15e
+3031359,7284897,Marseille 16eme,Marseille 16|Marseille 16e
+3031359,7284882,Marseille 1er,Marseille 01|Marseille 1
+3031359,7284883,Marseille 2eme,Marseille 02|Marseille 2e|Marseille 2
+3031359,7284884,Marseille 3eme,Marseille 03|Marseille 3e|Marseille 3
+3031359,7284885,Marseille 4eme,Marseille 04|Marseille 4e|Marseille 4
+3031359,7284886,Marseille 5eme,Marseille 05|Marseille 5e|Marseille 5
+3031359,7284887,Marseille 6eme,Marseille 06|Marseille 6e|Marseille 6
+3031359,7284888,Marseille 7eme,Marseille 07|Marseille 7e arrondissement|Marseille 7e|Marseille 7
+3031359,7284889,Marseille 8eme,Marseille 08|Marseille 8e|Marseille 8
+3031359,7284891,Marseille 9eme,Marseille 09|Marseille 9e|Marseille 9
 3031359,2995387,Martigues,
-3031359,2994992,Maussane-les-Alpilles,
+3031359,2994992,Maussane,Maussane-les-Alpilles
 3031359,2994070,Meyrargues,
 3031359,2994068,Meyreuil,
 3031359,2993832,Mimet,
@@ -13501,7 +13501,7 @@ parent_code,code,name,aliases
 3031359,2978561,Saint-Marc-Jaumegarde,
 3031359,2978396,Saint-Martin-de-Crau,
 3031359,2977947,Saint-Mitre-les-Remparts,
-3031359,2977644,Saint-Paul-lès-Durance,
+3031359,2977644,Saint-Paul-lès-Durance,Saint-Paul-lez-Durance
 3031359,2977214,Saint-Rémy-de-Provence,
 3031359,2976994,Saint-Savournin,
 3031359,2976656,Saint-Victoret,
@@ -13865,9 +13865,9 @@ parent_code,code,name,aliases
 3034720,2967314,Wittersheim,
 3034720,2967312,Wittisheim,
 3034720,2967310,Wiwersheim,
-3034720,2967304,Woerth,
 3034720,2967293,Wolfisheim,
 3034720,2967289,Wolxheim,
+3034720,2967304,Wœrth,Woerth
 3034720,2967153,Zellwiller,
 3034720,2967133,Zinswiller,
 3035691,3038574,Aguessac,
@@ -13894,7 +13894,7 @@ parent_code,code,name,aliases
 3035691,3024067,Compeyre,
 3035691,3023387,Coubisou,
 3035691,3023183,Coupiac,
-3035691,3022694,Cransac-les-Thermes,
+3035691,3022694,Cransac,Cransac-les-Thermes
 3035691,3022608,Creissels,
 3035691,3021664,Decazeville,
 3035691,3020747,Druelle,
@@ -13914,7 +13914,7 @@ parent_code,code,name,aliases
 3035691,3009748,Lacroix-Barrez,
 3035691,3008825,Laguiole,
 3035691,3008636,Laissac,
-3035691,3007498,Lanuéjouls,
+3035691,3007498,Lanuéjouls,Lanuéjouls-et-Privezac
 3035691,3007442,Lapanouse,
 3035691,3003308,Le Monastère,
 3035691,3003138,Le Nayrac,
@@ -13979,7 +13979,7 @@ parent_code,code,name,aliases
 3035691,2969447,Viala-du-Tarn,
 3035691,2968756,Villefranche-de-Panat,
 3035691,2968755,Villefranche-de-Rouergue,
-3035691,2968575,Villeneuve,
+3035691,2968575,Villeneuve,Villeneuve-d'Aveyron
 3035691,2967806,Viviez,
 3036264,3038311,Alairac,
 3036264,3038220,Alet-les-Bains,
@@ -14087,7 +14087,7 @@ parent_code,code,name,aliases
 3036264,2972010,Trèbes,
 3036264,2971505,Tuchan,
 3036264,2970047,Ventenac-Cabardès,
-3036264,2970046,Ventenac-en-Minervois,
+3036264,2970046,Ventenac-en-Minervois,Ventenac-d'Aude
 3036264,2969022,Villalier,
 3036264,2968906,Villasavary,
 3036264,2968739,Villegailhenc,
@@ -14217,7 +14217,7 @@ parent_code,code,name,aliases
 3036965,2994870,Mazères,
 3036965,2994446,Mercus-Garrabet,
 3036965,2993720,Mirepoix,
-3036965,2992970,Montaut,
+3036965,2992970,Montaut,Montaut-de-Crieux
 3036965,2992603,Montferrier,
 3036965,2992571,Montgaillard,
 3036965,2992350,Montjoie-en-Couserans,
@@ -14234,7 +14234,7 @@ parent_code,code,name,aliases
 3036965,2977681,Saint-Paul-de-Jarrat,
 3036965,2977496,Saint-Pierre-de-Rivière,
 3036965,2976551,Saint-Ybars,
-3036965,2980651,Sainte-Croix-Volvestre,
+3036965,2980651,Sainte-Croix-Volvestre,Sainte-Croix-de-Volvestre
 3036965,2975748,Saurat,
 3036965,2975592,Saverdun,
 3036965,2975241,Seix,
@@ -14464,11 +14464,11 @@ parent_code,code,name,aliases
 3037147,2972670,Thueyts,
 3037147,2972342,Toulaud,
 3037147,2972214,Tournon-sur-Rhône,
-3037147,2970885,Vallon-Pont-d'Arc,
+3037147,2970885,Vallon-Pont-d'Arc,Vallons Pont d'Arc
 3037147,2970828,Vals-les-Bains,
 3037147,2970767,Vanosc,
 3037147,2969758,Vernosc-lès-Annonay,
-3037147,2969746,Vernoux-en-Vivarais,
+3037147,2969746,Vernoux-d'Ardèche,Vernoux-en-Vivarais
 3037147,2969559,Vesseaux,
 3037147,2969512,Veyras,
 3037147,2968574,Villeneuve-de-Berg,
@@ -14484,7 +14484,7 @@ parent_code,code,name,aliases
 3038049,3034041,Beausoleil,
 3038049,3033549,Belvédère,
 3038049,3033510,Bendejun,
-3038049,3033242,Berre-les-Alpes,
+3038049,3033242,Berre-les-Alpes,Berre-les Alpes|Berre-des-Alpes
 3038049,3032579,Biot,
 3038049,3032308,Blausasc,
 3038049,3031640,Bonson,
@@ -14499,13 +14499,13 @@ parent_code,code,name,aliases
 3038049,3028418,Castagniers,
 3038049,3028380,Castellar,
 3038049,3026256,Châteauneuf-Grasse,
-3038049,3026243,Châteauneuf-Villevieille,
+3038049,3026243,Châteauneuf-Villevieille,Châteauneuf|Châteauneuf-de-Contes
 3038049,3024771,Clans,
 3038049,3024526,Coaraze,
 3038049,3024276,Colomars,
 3038049,3023842,Contes,
 3038049,3020834,Drap,
-3038049,3019174,Èze,
+3038049,3019174,Èze,Mer-d'Eze|Eze-Village
 3038049,3019095,Falicon,
 3038049,3016534,Gattières,
 3038049,3016053,Gilette,
@@ -14531,7 +14531,7 @@ parent_code,code,name,aliases
 3038049,2998917,Levens,
 3038049,12319243,Libération,
 3038049,2997234,Lucéram,
-3038049,2996255,Mandelieu-la-Napoule,
+3038049,2996255,Mandelieu-La Napoule,Mandelieu-la-Napoule|Mandelieu
 3038049,2994497,Menton,
 3038049,2991579,Mouans-Sartoux,
 3038049,2991551,Mougins,
@@ -14559,13 +14559,13 @@ parent_code,code,name,aliases
 3038049,2977701,Saint-Paul-de-Vence,
 3038049,2976695,Saint-Vallier-de-Thiey,
 3038049,2980789,Sainte-Agnès,
-3038049,6640252,Sophia Antipolis,
+3038049,6640252,Sophia Antipolis,Garbejaire|Haut Sartoux
 3038049,2974162,Sospel,
 3038049,2973863,Spéracèdes,
 3038049,2973180,Tende,
 3038049,2972942,Théoule-sur-Mer,
 3038049,2972195,Tourrette-Levens,
-3038049,2972273,Tourrettes-sur-Loup,
+3038049,2972273,Tourrettes-sur-Loup,Tourrette-sur-Loup|Tourette-sur-Loup
 3038049,2971283,Utelle,
 3038049,2971117,Valbonne,
 3038049,6620019,Valdeblore,
@@ -14593,7 +14593,7 @@ parent_code,code,name,aliases
 3038050,3017798,Forcalquier,
 3038050,3014717,Gréoux-les-Bains,
 3038050,3012406,Jausiers,
-3038050,3001631,L'Escale,
+3038050,3001631,L'Escale,L'Eseale
 3038050,3010787,La Brillanne,
 3038050,3008010,La Motte-du-Caire,
 3038050,3004941,Le Brusquet,
@@ -14620,11 +14620,11 @@ parent_code,code,name,aliases
 3038050,2978648,Saint-Maime,
 3038050,2977959,Saint-Michel-l'Observatoire,
 3038050,2980205,Sainte-Tulle,
-3038050,2974661,Seyne-les-Alpes,
+3038050,2974661,Seyne,Seyne-les-Alpes
 3038050,2974518,Simiane-la-Rotonde,
 3038050,2974446,Sisteron,
 3038050,2972784,Thoard,
-3038050,2971033,Valensole,
+3038050,2971033,Valesole,Valensole
 3038050,2968614,Villeneuve,
 3038050,2967718,Volonne,
 3038050,2967708,Volx,
@@ -14713,7 +14713,7 @@ parent_code,code,name,aliases
 3038111,2990621,Neuilly-le-Réal,
 3038111,2990498,Neuvy,
 3038111,2989912,Noyant-d'Allier,
-3038111,2988590,Paray-sous-Briailles,
+3038111,2988590,Paray-sous-Briailles,Paray-sous-Brailles
 3038111,2987273,Pierrefitte-sur-Loire,
 3038111,2985455,Prémilhat,
 3038111,2984657,Quinssaines,
@@ -14864,8 +14864,8 @@ parent_code,code,name,aliases
 3038375,3010851,La Bouteille,
 3038375,3010609,La Capelle,
 3038375,3009526,La Fère,
+3038375,3009485,la ferté Milon,La Ferté-Milon
 3038375,3009493,La Ferté-Chevresis,
-3038375,3009485,La Ferté-Milon,
 3038375,3009445,La Flamengrie,
 3038375,3007835,Landouzy-la-Ville,
 3038375,3007477,Laon,

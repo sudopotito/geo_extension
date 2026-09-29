@@ -284,7 +284,6 @@ def _check_levels(report: Report, levels: list[ds.Level]) -> list[dict[str, str]
 		parents = code_maps[idx - 1] if idx > 0 else None
 		name_keys: Counter = Counter()
 		alias_keys: dict[tuple[str, str], list[str]] = defaultdict(list)
-		dup_codes: set[str] = set()
 		orphans = 0
 		for n, row in enumerate(rows, start=2):  # line 1 is the header
 			raw_code = row.get("code", "")
@@ -323,9 +322,16 @@ def _check_levels(report: Report, levels: list[ds.Level]) -> list[dict[str, str]
 						report.error(f"parent_code '{parent}' not found in {levels[idx - 1].file}", fname, n)
 					continue
 			if code in codes:
-				dup_codes.add(code)
 				report.error(f"duplicate code '{code}'", fname, n)
 				continue
+			for upper_idx, upper in enumerate(code_maps[:idx]):
+				if code in upper:
+					report.warning(
+						f"code '{code}' is also used in {levels[upper_idx].file}; codes should be unique across levels",
+						fname,
+						n,
+					)
+					break
 			codes[code] = parent
 			name_keys[(parent, ds.normalize_name(name))] += 1
 			raw_aliases = row.get(ds.ALIASES_COLUMN, "")

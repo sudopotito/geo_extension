@@ -3,7 +3,6 @@ parent_code,code,name,aliases
 2509951,6361867,Ador,
 2509951,6361869,Agullent,
 2509951,6361907,Aielo de Malferit,
-2509951,6361908,Aielo de Rugat,
 2509951,6361870,Alaquàs,
 2509951,6361871,Albaida,
 2509951,6361872,Albal,
@@ -13,13 +12,14 @@ parent_code,code,name,aliases
 2509951,6361876,Alberic,
 2509951,6361877,Alborache,
 2509951,6361878,Alboraya,
-2509951,6361879,Albuixech,
+2509951,6361879,Albuixech,Albuixec
 2509951,6361881,Alcàntera de Xúquer,
 2509951,6361880,Alcàsser,
+2509951,6361882,Alcira,Alzira
 2509951,6361883,Alcublas,
 2509951,6361885,"Alcúdia de Crespins, l'",
 2509951,6361884,"Alcúdia, l'",
-2509951,6361886,Aldaia,
+2509951,6361886,Aldaya,Aldaia
 2509951,6361887,Alfafar,
 2509951,6361889,Alfara de la Baronia,
 2509951,6361890,Alfara del Patriarca,
@@ -30,29 +30,29 @@ parent_code,code,name,aliases
 2509951,6361894,Algemesí,
 2509951,6361895,Algimia de Alfara,
 2509951,6361896,Alginet,
-2509951,6361897,Almàssera,
+2509951,6361897,Almácera,Almàssera
 2509951,6361898,Almiserà,
 2509951,6361899,Almoines,
 2509951,6361900,Almussafes,
 2509951,6361901,Alpuente,
 2509951,6361902,"Alqueria de la Comtessa, l'",
-2509951,6361882,Alzira,
 2509951,6361903,Andilla,
 2509951,6361904,Anna,
 2509951,6361905,Antella,
-2509951,6361906,Aras de los Olmos,
+2509951,6361906,Aras de los Olmos,Ares dels Oms
 2509951,6361868,Atzeneta d'Albaida,
+2509951,6361908,Ayelo de Rugat,Aielo de Rugat
 2509951,6361909,Ayora,
 2509951,6361911,Barx,
 2509951,6361910,Barxeta,
 2509951,6361912,Bèlgida,
-2509951,6361913,Bellreguard,
+2509951,6361913,Bellreguart,Bellreguard
 2509951,6361914,Bellús,
 2509951,6361915,Benagéber,
 2509951,6361916,Benaguasil,
 2509951,6361917,Benavites,
 2509951,6361918,Beneixida,
-2509951,6361919,Benetússer,
+2509951,6361919,Benetúser,Benetússer
 2509951,6361920,Beniarjó,
 2509951,6361921,Beniatjar,
 2509951,6361922,Benicolet,
@@ -61,19 +61,19 @@ parent_code,code,name,aliases
 2509951,6361924,Benifairó de la Valldigna,
 2509951,6361923,Benifairó de les Valls,
 2509951,6361926,Beniflá,
-2509951,6361927,Benigànim,
+2509951,6361927,Benigánim,
 2509951,6361928,Benimodo,
 2509951,6361929,Benimuslem,
 2509951,6361930,Beniparrell,
 2509951,6361931,Benirredrà,
 2509951,6361932,Benisanó,
-2509951,6361933,Benissoda,
+2509951,6361933,Benisoda,Benissoda
 2509951,6361934,Benisuera,
 2509951,6361935,Bétera,
 2509951,6361936,Bicorp,
-2509951,6361937,Bocairent,
+2509951,6361937,Bocairente,Bocairent
 2509951,6361938,Bolbaite,
-2509951,6361939,Bonrepòs i Mirambell,
+2509951,6361939,Bonrepós y Mirambell,Bonrepòs i Mirambell
 2509951,6361940,Bufali,
 2509951,6361941,Bugarra,
 2509951,6361942,Buñol,
@@ -81,17 +81,17 @@ parent_code,code,name,aliases
 2509951,6361944,Calles,
 2509951,6361945,Camporrobles,
 2509951,6361946,Canals,
-2509951,6361947,Canet d'En Berenguer,
-2509951,6361948,Carcaixent,
+2509951,6361947,Canet de Berenguer,Canet d'En Berenguer
+2509951,6361948,Carcagente,Carcaixent
 2509951,6361949,Càrcer,
 2509951,6361950,Carlet,
 2509951,6361951,Carrícola,
-2509951,6361952,Casas Altas,
+2509951,6361952,Casas Altas,Cases Altes
 2509951,6361953,Casas Bajas,
 2509951,6361954,Casinos,
 2509951,6361955,Castelló de Rugat,
 2509951,6361956,Castellonet de la Conquesta,
-2509951,6361957,Castielfabib,
+2509951,6361957,Castielfabib,Castellfabib
 2509951,6361958,Catadau,
 2509951,6361959,Catarroja,
 2509951,6361960,Caudete de las Fuentes,
@@ -100,15 +100,18 @@ parent_code,code,name,aliases
 2509951,6361971,Chelva,
 2509951,6361973,Chera,
 2509951,6361974,Cheste,
-2509951,6361976,Chiva,
+2509951,6361975,Chirivella,Xirivella
+2509951,6361976,Chiva,Xiva
 2509951,6361977,Chulilla,
 2509951,6361962,Cofrentes,
 2509951,6361963,Corbera,
 2509951,6361964,Cortes de Pallás,
 2509951,6361965,Cotes,
+2509951,6361967,Cuart de Poblet,Quart de Poblet
+2509951,6361968,Cuartell,Quartell
 2509951,6361970,Cullera,
 2509951,6361978,Daimús,
-2509951,6361979,Domeño,
+2509951,6361979,Domeño,Domenyo
 2509951,6361980,Dos Aguas,
 2509951,6361997,El Genovés,
 2509951,6361981,"Eliana, l'",
@@ -119,13 +122,13 @@ parent_code,code,name,aliases
 2509951,6361986,Estubeny,
 2509951,6361987,Faura,
 2509951,6361988,Favara,
-2509951,6361991,Foios,
 2509951,6361992,"Font d'En Carròs, la",
 2509951,6361993,"Font de la Figuera, la",
-2509951,6361989,Fontanars dels Alforins,
+2509951,6361989,Fontanares,Fontanars dels Alforins
 2509951,6361990,Fortaleny,
+2509951,6361991,Foyos,Foios
 2509951,6361994,Fuenterrobles,
-2509951,6361996,Gandia,
+2509951,6361996,Gandía,
 2509951,6362128,Gátova,
 2509951,6361995,Gavarda,
 2509951,6361998,Gestalgar,
@@ -133,7 +136,7 @@ parent_code,code,name,aliases
 2509951,6362000,Godella,
 2509951,6362001,Godelleta,
 2509951,6362002,"Granja de la Costera, la",
-2509951,6362003,Guadasséquies,
+2509951,6362003,Guadasequies,Guadasséquies
 2509951,6362004,Guadassuar,
 2509951,6362005,Guardamar de la Safor,
 2509951,6362006,Higueruelas,
@@ -141,36 +144,36 @@ parent_code,code,name,aliases
 2509951,6362009,Jarafuel,
 2509951,6362064,la Pobla de Farnals,
 2509951,6362126,La Yesa,
+2509951,6362012,Liria,Llíria
 2509951,6362019,Llanera de Ranes,
 2509951,6362020,Llaurí,
-2509951,6362012,Llíria,
-2509951,6362016,Llocnou d'En Fenollet,
-2509951,6362017,Llocnou de la Corona,
 2509951,6362018,Llocnou de Sant Jeroni,
 2509951,6362021,Llombai,
 2509951,6362022,"Llosa de Ranes, la",
 2509951,6362015,Llutxent,
 2509951,6362013,Loriguilla,
 2509951,6362014,Losa del Obispo,
+2509951,6362016,Lugar Nuevo de Fenollet,Llocnou d'En Fenollet
+2509951,6362017,Lugar Nuevo de la Corona,Llocnou de la Corona
 2509951,6362023,Macastre,
 2509951,6362024,Manises,
 2509951,6362025,Manuel,
 2509951,6362026,Marines,
-2509951,6362027,Massalavés,
-2509951,6362028,Massalfassar,
-2509951,6362029,Massamagrell,
-2509951,6362030,Massanassa,
+2509951,6362027,Masalavés,Massalavés
+2509951,6362028,Masalfasar,Massalfassar
+2509951,6362029,Masamagrell,Massamagrell
+2509951,6362030,Masanasa,Massanassa
 2509951,6362031,Meliana,
 2509951,6362032,Millares,
 2509951,6362033,Miramar,
 2509951,6362034,Mislata,
-2509951,6362035,Moixent,
-2509951,6362036,Moncada,
-2509951,6362038,Montaverner,
+2509951,6362035,Mogente,Moixent
+2509951,6362036,Moncada,Montcada
+2509951,6362037,Monserrat,Montserrat
+2509951,6362038,Montaberner,Montaverner
 2509951,6362039,Montesa,
 2509951,6362040,Montitxelvo/Montichelvo,
 2509951,6362041,Montroy,
-2509951,6362037,Montserrat,
 2509951,6362042,Museros,
 2509951,6362043,Náquera,
 2509951,6362044,Navarrés,
@@ -178,7 +181,7 @@ parent_code,code,name,aliases
 2509951,6362046,Oliva,
 2509951,6362048,"Olleria, l'",
 2509951,6362047,Olocau,
-2509951,6362049,Ontinyent,
+2509951,6362049,Onteniente,Ontinyent
 2509951,6362050,Otos,
 2509951,6362051,Paiporta,
 2509951,6362052,Palma de Gandía,
@@ -196,15 +199,13 @@ parent_code,code,name,aliases
 2509951,6362068,"Pobla Llarga, la",
 2509951,6362062,Polinyà de Xúquer,
 2509951,6362063,Potríes,
-2509951,6362070,Puçol,
 2509951,6362066,Puebla de San Miguel,
 2509951,6362069,"Puig de Santa Maria, el",
+2509951,6362070,Puzol,Puçol
 2509951,6361966,Quart de les Valls,
-2509951,6361967,Quart de Poblet,
-2509951,6361968,Quartell,
 2509951,6361969,Quatretonda,
 2509951,6362071,Quesa,
-2509951,6362072,Rafelbunyol/Rafelbuñol,
+2509951,6362072,Rafelbuñol,Rafelbunyol/Rafelbuñol|Rafelbunyol
 2509951,6362073,Rafelcofer,
 2509951,6362074,Rafelguaraf,
 2509951,6362075,Ráfol de Salem,
@@ -220,12 +221,12 @@ parent_code,code,name,aliases
 2509951,6362085,Sagunto/Sagunt,
 2509951,6362086,Salem,
 2509951,7577098,San Antonio de Benagéber,
-2509951,6362087,Sant Joanet,
+2509951,6362087,San Juan de Énova,Sant Joanet
 2509951,6362088,Sedaví,
 2509951,6362089,Segart,
 2509951,6362090,Sellent,
 2509951,6362091,Sempere,
-2509951,6362092,Senyera,
+2509951,6362092,Señera,Senyera
 2509951,6362093,Serra,
 2509951,6362094,Siete Aguas,
 2509951,6362095,Silla,
@@ -240,29 +241,28 @@ parent_code,code,name,aliases
 2509951,6362104,Teresa de Cofrentes,
 2509951,6362105,Terrateig,
 2509951,6362106,Titaguas,
-2509951,6362107,Torrebaja,
+2509951,6362107,Torrebaja,Torre Baixa
 2509951,6362108,Torrella,
-2509951,6362109,Torrent,
+2509951,6362109,Torrente,Torrent
 2509951,6362110,Torres Torres,
 2509951,6362111,Tous,
 2509951,6362112,Tuéjar,
 2509951,6362113,Turís,
 2509951,6362114,Utiel,
-2509951,6362115,Valencia,
+2509951,6362115,Valencia,Valentzia
 2509951,6362116,Vallada,
 2509951,6362117,Vallanca,
 2509951,6363001,Vallés,
 2509951,6362118,Venta del Moro,
-2509951,6362120,Vilamarxant,
-2509951,6362119,Villalonga,
+2509951,6362119,Villalonga,Vilallonga
+2509951,6362120,Villamarchante,Vilamarxant
 2509951,6362121,Villanueva de Castellón,
 2509951,6362122,Villar del Arzobispo,
-2509951,6362123,Villargordo del Cabriel,
+2509951,6362123,Villargordo del Cabriel,Villargordo del Cabriol
 2509951,6362124,Vinalesa,
-2509951,6362010,Xàtiva,
+2509951,6362010,Xátiva,
 2509951,6362008,Xeraco,
 2509951,6362011,Xeresa,
-2509951,6361975,Xirivella,
 2509951,6362125,Yátova,
 2509951,6362127,Zarra,
 2510407,6361662,Ajofrín,
@@ -294,7 +294,6 @@ parent_code,code,name,aliases
 2510407,6361688,Cabezamesada,
 2510407,6361689,Calera y Chozas,
 2510407,6361690,Caleruela,
-2510407,6361691,Calzada de Oropesa,
 2510407,6361692,Camarena,
 2510407,6361693,Camarenilla,
 2510407,6361694,"Campillo de la Jara, El",
@@ -345,6 +344,7 @@ parent_code,code,name,aliases
 2510407,6361739,"Iglesuela, La",
 2510407,6361740,Illán de Vacas,
 2510407,6361741,Illescas,
+2510407,6361691,La Calzada de Oropesa,Calzada de Oropesa
 2510407,6361742,Lagartera,
 2510407,6361743,Layos,
 2510407,6361744,Lillo,
@@ -562,7 +562,7 @@ parent_code,code,name,aliases
 2510910,6361042,Sanlúcar la Mayor,
 2510910,6361044,Santiponce,
 2510910,6361045,"Saucejo, El",
-2510910,6361046,Seville,
+2510910,6361046,Sevilla,Seville
 2510910,6361047,Tocina,
 2510910,6361048,Tomares,
 2510910,6361049,Umbrete,
@@ -586,6 +586,7 @@ parent_code,code,name,aliases
 2511173,6360623,Buenavista del Norte,
 2511173,6360624,Candelaria,
 2511173,7577086,El Pinar de El Hierro,
+2511173,2518134,El Rosario,"Rosario, El"
 2511173,6360625,Fasnia,
 2511173,6534185,Frontera,
 2511173,6534186,Fuencaliente de la Palma,
@@ -605,14 +606,13 @@ parent_code,code,name,aliases
 2511173,6534191,Puntagorda,
 2511173,6534192,Puntallana,
 2511173,6360635,"Realejos, Los",
-2511173,2518134,"Rosario, El",
 2511173,6534193,San Andrés y Sauces,
 2511173,2515819,San Cristóbal de La Laguna,
 2511173,6360636,San Juan de la Rambla,
 2511173,6360637,San Miguel de Abona,
 2511173,6534194,San Sebastián de la Gomera,
 2511173,6534195,Santa Cruz de la Palma,
-2511173,6360638,Santa Cruz de Tenerife,
+2511173,6360638,Santa Cruz de Tenerife,Tenerife
 2511173,6360639,Santa Úrsula,
 2511173,6360640,Santiago del Teide,
 2511173,6360641,"Sauzal, El",
@@ -626,7 +626,7 @@ parent_code,code,name,aliases
 2511173,6534200,Vallehermoso,
 2511173,6534198,Valverde,
 2511173,6360646,"Victoria de Acentejo, La",
-2511173,6360647,Vilaflor,
+2511173,6360647,Vilaflor de Chasna,Vilaflor
 2511173,6534201,Villa de Mazo,
 2514254,6359406,Alameda,
 2514254,6359407,Alcaucín,
@@ -741,9 +741,9 @@ parent_code,code,name,aliases
 2515271,6360177,Betancuria,
 2515271,6360178,Firgas,
 2515271,6360179,Gáldar,
+2515271,6360186,Gran Canaria,Las Palmas de Gran Canaria|Canarias - Gran Canaria|As Palmas de Gran Canaria|Las Palmas Kanaria Handikoa
 2515271,6360180,Haría,
 2515271,6360181,Ingenio,
-2515271,6360186,Las Palmas de Gran Canaria,
 2515271,6360182,Mogán,
 2515271,6360183,Moya,
 2515271,6360184,"Oliva, La",
@@ -812,7 +812,7 @@ parent_code,code,name,aliases
 2516394,6358497,"Iruela, La",
 2516394,6358498,Iznatoraf,
 2516394,6358499,Jabalquinto,
-2516394,6358500,Jaén,
+2516394,6358500,Jaén,Xaén
 2516394,6358501,Jamilena,
 2516394,6358502,Jimena,
 2516394,6358503,Jódar,
@@ -989,10 +989,10 @@ parent_code,code,name,aliases
 2517115,6357690,Churriana de la Vega,
 2517115,6357680,Cijuela,
 2517115,6357681,Cogollos de Guadix,
-2517115,6357682,Cogollos de la Vega,
+2517115,6357682,Cogollos de la Vega,Cogollos Vega
 2517115,6357683,Colomera,
 2517115,6357684,Cortes de Baza,
-2517115,6357685,Cortes y Graena,
+2517115,6357685,Cortes y Graena,Cortes eta Graena
 2517115,6357804,Cuevas del Campo,
 2517115,6357686,Cúllar,
 2517115,6357687,Cúllar Vega,
@@ -1248,7 +1248,7 @@ parent_code,code,name,aliases
 2519034,6357490,Palomares del Campo,
 2519034,7577089,Palomera,
 2519034,6357491,Paracuellos,
-2519034,6357492,Paredes,
+2519034,6357492,Paredes,Paredes de Melo
 2519034,6357493,"Parra de las Vegas, La",
 2519034,6357494,"Pedernoso, El",
 2519034,6357495,"Pedroñeras, Las",
@@ -1264,7 +1264,7 @@ parent_code,code,name,aliases
 2519034,7577090,Poyatos,
 2519034,6357505,Pozoamargo,
 2519034,6357592,Pozorrubielos de la Mancha,
-2519034,6357506,Pozorrubio,
+2519034,6357506,Pozorrubio de Santiago,Pozorrubio
 2519034,6357507,"Pozuelo, El",
 2519034,6357508,Priego,
 2519034,6357509,"Provencio, El",
@@ -1283,7 +1283,7 @@ parent_code,code,name,aliases
 2519034,6357523,San Lorenzo de la Parrilla,
 2519034,6357524,San Martín de Boniches,
 2519034,6357525,San Pedro Palmiches,
-2519034,6357526,Santa Cruz de Moya,
+2519034,6357526,Santa Cruz de Moya,Santa Creu de Moia
 2519034,6357528,Santa María de los Llanos,
 2519034,6357527,Santa María del Campo Rus,
 2519034,6357529,Santa María del Val,
@@ -1431,13 +1431,13 @@ parent_code,code,name,aliases
 2519401,6357097,Alamillo,
 2519401,6357098,Albaladejo,
 2519401,6357099,Alcázar de San Juan,
-2519401,6357100,Alcoba,
+2519401,6357100,Alcoba de los Montes,Alcoba
 2519401,6357101,Alcolea de Calatrava,
 2519401,6357102,Alcubillas,
 2519401,6357103,Aldea del Rey,
 2519401,6357104,Alhambra,
 2519401,6357105,Almadén,
-2519401,6357106,Almadenejos,
+2519401,6357106,Almadenejo,Almadenejos
 2519401,6357107,Almagro,
 2519401,6357108,Almedina,
 2519401,6357109,Almodóvar del Campo,
@@ -1461,11 +1461,12 @@ parent_code,code,name,aliases
 2519401,6357126,Carrizosa,
 2519401,6357127,Castellar de Santiago,
 2519401,6357132,Chillón,
-2519401,6357128,Ciudad Real,
+2519401,6357128,Ciudad Real,Cidade Real
 2519401,6357129,Corral de Calatrava,
 2519401,6357130,"Cortijos, Los",
 2519401,6357131,Cózar,
 2519401,6357133,Daimiel,
+2519401,6357192,El Robledo,"Robledo, El"
 2519401,6357134,Fernán Caballero,
 2519401,6357135,Fontanarejo,
 2519401,6357136,Fuencaliente,
@@ -1500,7 +1501,6 @@ parent_code,code,name,aliases
 2519401,6357164,Puerto Lápice,
 2519401,6357165,Puertollano,
 2519401,6357166,Retuerta del Bullaque,
-2519401,6357192,"Robledo, El",
 2519401,6357193,Ruidera,
 2519401,6357167,Saceruela,
 2519401,6357168,San Carlos del Valle,
@@ -1531,7 +1531,7 @@ parent_code,code,name,aliases
 2520597,6356916,Alcalá de los Gazules,
 2520597,6356917,Alcalá del Valle,
 2520597,6356918,Algar,
-2520597,6356919,Algeciras,
+2520597,6356919,Algeciras,Algesires|Alxeciras
 2520597,6356920,Algodonales,
 2520597,6356921,Arcos de la Frontera,
 2520597,6356922,Barbate,
@@ -1540,7 +1540,7 @@ parent_code,code,name,aliases
 2520597,6356924,Benaocaz,
 2520597,6356925,Bornos,
 2520597,6356926,"Bosque, El",
-2520597,6356927,Cádiz,
+2520597,6356927,Cádiz,Cadis
 2520597,6356928,Castellar de la Frontera,
 2520597,6356930,Chiclana de la Frontera,
 2520597,6356931,Chipiona,
@@ -1548,7 +1548,7 @@ parent_code,code,name,aliases
 2520597,6356932,Espera,
 2520597,6356933,"Gastor, El",
 2520597,6356934,Grazalema,
-2520597,6356935,Jerez de la Frontera,
+2520597,6356935,Jerez de la Frontera,Xerez da Fronteira
 2520597,6356936,Jimena de la Frontera,
 2520597,6356937,"Línea de la Concepción, La",
 2520597,6356938,Medina-Sidonia,
@@ -1644,7 +1644,7 @@ parent_code,code,name,aliases
 2520610,6356766,"Cumbre, La",
 2520610,6356767,Deleitosa,
 2520610,6356768,Descargamaría,
-2520610,6356769,Eljas,
+2520610,6356769,Eljas,As Ellas
 2520610,6356770,Escurial,
 2520610,6356771,Fresnedoso de Ibor,
 2520610,6356772,Galisteo,
@@ -1668,7 +1668,7 @@ parent_code,code,name,aliases
 2520610,6356790,Herrera de Alcántara,
 2520610,6356791,Herreruela,
 2520610,6356792,Hervás,
-2520610,6356793,Higuera,
+2520610,6356793,Higuera de Albalat,Higuera
 2520610,6356794,Hinojal,
 2520610,6356795,Holguera,
 2520610,6356796,Hoyos,
@@ -1685,7 +1685,7 @@ parent_code,code,name,aliases
 2520610,6356806,Madrigal de la Vera,
 2520610,6356807,Madrigalejo,
 2520610,6356808,Madroñera,
-2520610,6356809,Majadas,
+2520610,6356809,Majadas de Tiétar,Majadas
 2520610,6356810,Malpartida de Cáceres,
 2520610,6356811,Malpartida de Plasencia,
 2520610,6356812,Marchagaz,
@@ -1779,7 +1779,7 @@ parent_code,code,name,aliases
 2520610,6356897,Valdeobispo,
 2520610,6356898,Valencia de Alcántara,
 2520610,6356899,Valverde de la Vera,
-2520610,6356900,Valverde del Fresno,
+2520610,6356900,Valverde del Fresno,Valverde do Fresno
 2520610,7577095,Vegaviana,
 2520610,6356901,Viandar de la Vera,
 2520610,6356902,Villa del Campo,
@@ -1804,7 +1804,7 @@ parent_code,code,name,aliases
 2521419,6355873,Alconera,
 2521419,6355874,Aljucén,
 2521419,6355875,Almendral,
-2521419,6355876,Almendralejo,
+2521419,6355876,Almendralejo,Almendralexo
 2521419,6355877,Arroyo de San Serván,
 2521419,6355878,Atalaya,
 2521419,6355879,Azuaga,
@@ -1890,7 +1890,7 @@ parent_code,code,name,aliases
 2521419,6355957,Nogales,
 2521419,6355958,Oliva de la Frontera,
 2521419,6355959,Oliva de Mérida,
-2521419,6355960,Olivenza,
+2521419,6355960,Olivenza,Olivença
 2521419,6355961,Orellana de la Sierra,
 2521419,6355962,Orellana la Vieja,
 2521419,6355963,Palomas,
@@ -1918,7 +1918,7 @@ parent_code,code,name,aliases
 2521419,6355988,San Vicente de Alcántara,
 2521419,6355983,Sancti-Spíritus,
 2521419,6355985,Santa Amalia,
-2521419,6355986,Santa Marta,
+2521419,6355986,Santa Marta,Santa Marta de los Barros
 2521419,6355987,"Santos de Maimona, Los",
 2521419,6355989,Segura de León,
 2521419,6355990,Siruela,
@@ -1963,7 +1963,7 @@ parent_code,code,name,aliases
 2521883,6355518,Abla,
 2521883,6355519,Abrucena,
 2521883,6355520,Adra,
-2521883,6355521,Albanchez,
+2521883,6355521,Albánchez,
 2521883,6355522,Alboloduy,
 2521883,6355523,Albox,
 2521883,6355524,Alcolea,
@@ -2057,8 +2057,8 @@ parent_code,code,name,aliases
 2521883,6355607,Uleila del Campo,
 2521883,6355608,Urrácal,
 2521883,6355609,Velefique,
-2521883,6355610,Velez Blanco,
-2521883,6355611,Velez Rubio,
+2521883,6355610,Vélez Blanco,
+2521883,6355611,Vélez Rubio,
 2521883,6355612,Vera,
 2521883,6355613,Viator,
 2521883,6355614,Vícar,
@@ -2071,7 +2071,7 @@ parent_code,code,name,aliases
 2521976,6355382,Alcalalí,
 2521976,6355383,Alcocer de Planes,
 2521976,6355384,Alcoleja,
-2521976,6355385,Alcoy,
+2521976,6355385,Alcoy,Alcoi
 2521976,6355386,Alfafara,
 2521976,6355388,Algorfa,
 2521976,6355389,Algueña,
@@ -2080,21 +2080,21 @@ parent_code,code,name,aliases
 2521976,6355392,Almudaina,
 2521976,6355393,"Alqueria d'Asnar, l'",
 2521976,6355394,Altea,
-2521976,6355395,Aspe,
+2521976,6355395,Aspe,Asp
 2521976,6355396,Balones,
-2521976,6355397,Banyeres de Mariola,
+2521976,6355397,Bañeres,Banyeres de Mariola
 2521976,6355398,Benasau,
-2521976,6355399,Beneixama,
+2521976,6355399,Benejama,Beneixama
 2521976,6355400,Benejúzar,
 2521976,6355401,Benferri,
 2521976,6355402,Beniarbeig,
 2521976,6355403,Beniardá,
 2521976,6355404,Beniarrés,
+2521976,6355405,Benichembla,Benigembla
 2521976,6355406,Benidoleig,
 2521976,6355407,Benidorm,
 2521976,6355408,Benifallim,
 2521976,6355409,Benifato,
-2521976,6355405,Benigembla,
 2521976,6355410,Benijófar,
 2521976,6355411,Benilloba,
 2521976,6355412,Benillup,
@@ -2102,8 +2102,8 @@ parent_code,code,name,aliases
 2521976,6355414,Benimarfull,
 2521976,6355415,Benimassot,
 2521976,6355416,Benimeli,
-2521976,6355417,Benissa,
-2521976,6355418,"Benitachell/Poble Nou de Benitatxell, el",
+2521976,6355417,Benisa,Benissa
+2521976,6355418,Benitachell,"Benitachell/Poble Nou de Benitatxell, el|Poble Nou de Benitatxell, el"
 2521976,6355419,Biar,
 2521976,6355420,Bigastro,
 2521976,6355421,Bolulla,
@@ -2115,20 +2115,20 @@ parent_code,code,name,aliases
 2521976,6355428,Cañada,
 2521976,6355429,Castalla,
 2521976,6355430,Castell de Castells,
-2521976,6355451,"Castell de Guadalest, el",
+2521976,6355451,Castell de Guadalest,"Castell de Guadalest, el"
 2521976,6355431,Catral,
 2521976,6355432,Cocentaina,
 2521976,6355433,Confrides,
-2521976,6355434,Cox,
-2521976,6355435,Crevillent,
-2521976,6355437,Daya Nueva,
+2521976,6355434,Cox,Coix
+2521976,6355435,Crevillente,Crevillent
+2521976,6355437,Daya Nueva,Daia Nova
 2521976,6355438,Daya Vieja,
 2521976,6355439,Dénia,
 2521976,6355440,Dolores,
 2521976,6355426,El Campello,
-2521976,6355441,Elche,
+2521976,6355441,Elche,Elx
 2521976,6355442,Elda,
-2521976,6355514,els Poblets,
+2521976,6355514,Els Poblets,
 2521976,6355443,Facheca,
 2521976,6355444,Famorca,
 2521976,6355445,Finestrat,
@@ -2142,53 +2142,53 @@ parent_code,code,name,aliases
 2521976,6355454,Hondón de los Frailes,
 2521976,6355455,Ibi,
 2521976,6355456,Jacarilla,
-2521976,6355458,Javea,
-2521976,6355459,Jijona/Xixona,
+2521976,6355457,Jalón,Xaló
+2521976,6355458,Jávea,Xàbia
+2521976,6355459,Jijona,Jijona/Xixona
 2521976,6355387,l'Alfàs del Pi,
 2521976,6355469,La Nucia,
-2521976,6355505,la Torre de les Maçanes,
-2521976,6355510,La Vall de Laguar,
+2521976,6355488,La Romana,"Romana, la|Romana (la)"
+2521976,6355510,La Vall de Laguar,Vall de Laguart
 2521976,6355461,Llíber,
 2521976,6355460,"Lorcha/Orxa, l'",
 2521976,6355462,Millena,
 2521976,6355463,Monforte del Cid,
 2521976,6355464,Monòver/Monóvar,
 2521976,6355516,"Montesinos, Los",
+2521976,6355465,Muchamiel,Mutxamel
 2521976,6355466,Murla,
 2521976,6355467,Muro de Alcoy,
-2521976,6355465,Mutxamel,
 2521976,6355468,Novelda,
 2521976,6355470,Ondara,
 2521976,6355471,Onil,
 2521976,6355472,Orba,
+2521976,6355473,Orcheta,Orxeta
 2521976,6355474,Orihuela,
-2521976,6355473,Orxeta,
 2521976,6355475,Parcent,
 2521976,6355476,Pedreguer,
 2521976,6355477,Pego,
-2521976,6355478,Penàguila,
-2521976,6355479,Petrer,
+2521976,6355478,Penáguila,
+2521976,6355479,Petrel,Petrer
 2521976,6355515,Pilar de la Horadada,
 2521976,6355480,"Pinós, el/Pinoso",
 2521976,6355481,Planes,
 2521976,6355482,Polop de Marina,
 2521976,6355436,Quatretondeta,
 2521976,6355483,Rafal,
-2521976,6355484,"Ràfol d'Almúnia, El",
+2521976,6355484,Ráfol de Almúnia,"Ràfol d'Almúnia, El"
 2521976,6355485,Redován,
 2521976,6355486,Relleu,
 2521976,6355487,Rojales,
-2521976,6355488,"Romana, la",Romana (la)
 2521976,6355489,Sagra,
-2521976,6355490,Salinas,
-2521976,6355492,San Fulgencio,
+2521976,6355490,Salinas,Les Salines
+2521976,6355492,San Fulgencio,Sant Fulgenci
 2521976,6355517,San Isidro,
 2521976,6355494,San Miguel de Salinas,
 2521976,6355496,San Vicente del Raspeig/Sant Vicent del Raspeig,
-2521976,6355491,Sanet y Negrals,
-2521976,6355493,Sant Joan d'Alacant,
+2521976,6355491,Sanet y Negrals,Sanet i els Negrals
+2521976,6355493,Sant Joan d'Alacant,Sant Joan d'Alicant
 2521976,6355495,Santa Pola,
-2521976,6355497,Sax,
+2521976,6355497,Sax,Saix
 2521976,6355498,Sella,
 2521976,6355499,Senija,
 2521976,6355500,Tàrbena,
@@ -2196,14 +2196,14 @@ parent_code,code,name,aliases
 2521976,6355502,Tibi,
 2521976,6355503,Tollos,
 2521976,6355504,Tormos,
-2521976,6355506,Torrevieja,
+2521976,6355505,Torremanzanas,la Torre de les Maçanes
+2521976,6355506,Torrevieja,Torrevella
 2521976,6355507,"Vall d'Alcalà, la",
-2521976,6355508,"Vall d'Ebo, la",
+2521976,6355508,Vall de Ebo,"Vall d'Ebo, la"
 2521976,6355509,Vall de Gallinera,
 2521976,6355511,"Verger, el",
-2521976,6355512,Villajoyosa,
+2521976,6355512,Villajoyosa,La Vila Joiosa
 2521976,6355513,Villena,
-2521976,6355457,Xaló,
 2522257,6355293,Abengibre,
 2522257,6355294,Alatoz,
 2522257,6355295,Albacete,
@@ -2221,14 +2221,14 @@ parent_code,code,name,aliases
 2522257,6355307,Barrax,
 2522257,6355308,Bienservida,
 2522257,6355309,Bogarra,
-2522257,6355310,Bonete,
+2522257,6355310,Bonete,Bonet
 2522257,6355311,"Bonillo, El",
 2522257,6355312,Carcelén,
 2522257,6355313,Casas de Juan Núñez,
 2522257,6355314,Casas de Lázaro,
 2522257,6355315,Casas de Ves,
 2522257,6355316,Casas-Ibáñez,
-2522257,6355317,Caudete,
+2522257,6355317,Caudete,Cabdet
 2522257,6355318,Cenizate,
 2522257,6355321,Chinchilla de Monte-Aragón,
 2522257,6355319,Corral-Rubio,
@@ -2236,7 +2236,7 @@ parent_code,code,name,aliases
 2522257,6355322,Elche de la Sierra,
 2522257,6355323,Férez,
 2522257,6355324,Fuensanta,
-2522257,6355325,Fuente-Álamo,
+2522257,6355325,Fuente Álamo,Fuente-Álamo
 2522257,6355326,Fuentealbilla,
 2522257,6355327,"Gineta, La",
 2522257,6355328,Golosalvo,
@@ -2363,7 +2363,7 @@ parent_code,code,name,aliases
 3104323,6362763,Calmarza,
 3104323,6362764,Campillo de Aragón,
 3104323,6362765,Carenas,
-3104323,6362766,Cariñena,
+3104323,6362766,Cariñena,Carinyena
 3104323,6362767,Caspe,
 3104323,6362768,Castejón de Alarba,
 3104323,6362769,Castejón de las Armas,
@@ -2677,7 +2677,7 @@ parent_code,code,name,aliases
 3104341,6362539,Luelmo,
 3104341,6362540,"Maderal, El",
 3104341,6362541,Madridanos,
-3104341,6362542,Mahide,
+3104341,6362542,Mahíde,
 3104341,6362543,Maire de Castroponce,
 3104341,6362544,Malva,
 3104341,6362545,Manganeses de la Lampreana,
@@ -2699,7 +2699,7 @@ parent_code,code,name,aliases
 3104341,6362561,Moral de Sayago,
 3104341,6362563,Moraleja de Sayago,
 3104341,6362562,Moraleja del Vino,
-3104341,6362565,Morales de Rey,
+3104341,6362565,Morales de Rey,Morales del Rey
 3104341,6362566,Morales de Toro,
 3104341,6362567,Morales de Valverde,
 3104341,6362564,Morales del Vino,
@@ -2735,7 +2735,7 @@ parent_code,code,name,aliases
 3104341,6362597,Pozoantiguo,
 3104341,6362598,Pozuelo de Tábara,
 3104341,6362599,Prado,
-3104341,6362600,Puebla de Sanabria,
+3104341,6362600,Puebla de Sanabria,Pobra de Seabra
 3104341,6362601,Pueblica de Valverde,
 3104341,6362604,Quintanilla de Urz,
 3104341,6362602,Quintanilla del Monte,
@@ -2743,13 +2743,13 @@ parent_code,code,name,aliases
 3104341,6362605,Quiruelas de Vidriales,
 3104341,6362606,Rabanales,
 3104341,6362607,Rábano de Aliste,
-3104341,6362608,Requejo,
+3104341,6362608,Requejo,Requeixo de Seabra
 3104341,6362609,Revellinos,
 3104341,6362610,Riofrío de Aliste,
 3104341,6362611,Rionegro del Puente,
-3104341,6362612,Roales,
+3104341,6362612,Roales del Pan,Roales
 3104341,6362613,Robleda-Cervantes,
-3104341,6362614,Roelos de Sayago,
+3104341,6362614,Roelos de Sayago,Roelos
 3104341,6362615,Rosinos de la Requejada,
 3104341,6362616,Salce,
 3104341,6362617,Samir de los Caños,
@@ -2818,7 +2818,7 @@ parent_code,code,name,aliases
 3104341,6362679,Villanueva de Campeán,
 3104341,6362680,Villanueva de las Peras,
 3104341,6362681,Villanueva del Campo,
-3104341,6362684,Villar de Fallaves,
+3104341,6362684,Villar de Fallaves,Villardefallaves
 3104341,6362685,Villar del Buey,
 3104341,6362682,Villaralbo,
 3104341,6362683,Villardeciervos,
@@ -2832,118 +2832,118 @@ parent_code,code,name,aliases
 3104341,6362692,Villaveza del Agua,
 3104341,6362694,Viñas,
 3104341,6362695,Zamora,
-3104469,6362353,Abadiño,
-3104469,3131115,Abanto Zierbena / Abanto y Ciérvana,Abanto y Ciervana
+3104469,6362353,Abadiano,Abadiño
+3104469,3131115,Abanto y Ciérvana,Abanto Zierbena / Abanto y Ciérvana|Abanto Zierbena
 3104469,6362445,Ajangiz,
-3104469,6362446,Alonsotegi,
+3104469,6362446,Alonsótegui,Alonsotegi
 3104469,6362354,Amorebieta-Etxano,
 3104469,6362355,Amoroto,
 3104469,6362356,Arakaldo,
 3104469,6362357,Arantzazu,
+3104469,6362359,Arcentales,Artzentales
 3104469,6362432,Areatza,
-3104469,3129433,Arrankudiaga-Zollo,
+3104469,3129433,Arrancudiaga,Arrankudiaga-Zollo
 3104469,6362448,Arratzu,
 3104469,6362360,Arrieta,
 3104469,6362361,Arrigorriaga,
 3104469,6362369,Artea,
-3104469,6362359,Artzentales,
-3104469,6362430,Atxondo,
-3104469,3115877,Aulesti,
-3104469,6362362,Bakio,
-3104469,6362429,Balmaseda,
+3104469,6362430,Axpe Achondo,Atxondo
+3104469,6362362,Baquio,Bakio
 3104469,3128842,Barakaldo,
 3104469,6362363,Barrika,
 3104469,3128528,Basauri,
 3104469,6362431,Bedia,
 3104469,6362364,Berango,
-3104469,6362365,Bermeo,
+3104469,6362365,Bermeo,Bermio
 3104469,6362366,Berriatua,
-3104469,6362367,Berriz,
-3104469,6362368,Bilbao,
+3104469,6362367,Bérriz,
+3104469,6362368,Bilbao,Bilbo
 3104469,3127354,Busturia,
+3104469,7577097,Cenarruza-Puebla de Bolívar,Ziortza-Bolibar
+3104469,6362447,Ciérvana,Zierbena
 3104469,3123922,Derio,
 3104469,3123889,Dima,
 3104469,6362372,Durango,
 3104469,6362373,Ea,
+3104469,6362374,Echévarri,Etxebarri
+3104469,6362375,Echevarría,Etxebarria
 3104469,6362376,Elantxobe,
 3104469,6362377,Elorrio,
 3104469,6362436,Erandio,
 3104469,6362378,Ereño,
 3104469,6362379,Ermua,
-3104469,6362420,Errigoiti,
-3104469,6362374,Etxebarri,
-3104469,6362375,Etxebarria,
 3104469,6362440,Forua,
 3104469,6362380,Fruiz,
-3104469,6362381,Galdakao,
+3104469,6362381,Galdakao,Galdakano|Galdacano
 3104469,6362382,Galdames,
 3104469,6362383,Gamiz-Fika,
 3104469,6362384,Garai,
 3104469,6362385,Gatika,
 3104469,6362386,Gautegiz Arteaga,
 3104469,6362390,Gernika-Lumo,
-3104469,6362388,Getxo,
 3104469,6362391,Gizaburuaga,
-3104469,3121294,Gordexola,
+3104469,3121294,Gordejuela,Gordexola
 3104469,6362387,Gorliz,
+3104469,6362388,Guecho,Getxo
 3104469,6362389,Güeñes,Gueenes
 3104469,6362392,Ibarrangelu,
 3104469,6362433,Igorre,
 3104469,6362393,Ispaster,
-3104469,6362444,Iurreta,
 3104469,6362394,Izurtza,
-3104469,3126213,Karrantza Harana / Valle de Carranza,Karrantza
+3104469,3126213,Karrantza Harana / Valle de Carranza,Karrantza|Carranza|Karrantza Harana|Valle de Carranza
 3104469,6362441,Kortezubi,
 3104469,6362395,Lanestosa,
-3104469,6362396,Larrabetzu,
+3104469,6362396,Larrabezúa,Larrabetzu
 3104469,6362397,Laukiz,
 3104469,6362398,Leioa,
-3104469,6362400,Lekeitio,
-3104469,3118550,Lemoa,
-3104469,6362399,Lemoiz,
+3104469,6362399,Lemoiz,Lemóniz
+3104469,3118550,Lemona,Lemoa
+3104469,6362400,Lequeitio,Lekeitio
 3104469,6362421,Lezama,
 3104469,6362437,Loiu,
-3104469,6362401,Mallabia,
+3104469,6362401,Mallavia,Mallabia
 3104469,6362402,Mañaria,
 3104469,6362403,Markina-Xemein,
-3104469,6362404,Maruri-Jatabe,
+3104469,6362404,Maruri-Jatabe,Jatabe
 3104469,6362407,Meñaka,
 3104469,6362405,Mendata,
 3104469,6362406,Mendexa,
+3104469,6362408,Miravalles,Ugao-Miraballes|Ugao
 3104469,6362409,Morga,
-3104469,6362411,Mundaka,
+3104469,6362411,Mundaca,Mundaka
 3104469,6362412,Mungia,
 3104469,6362358,Munitibar-Arbatzegi Gerrikaitz-,Munitibar-Arbatzegi Gerrikaitz
+3104469,3115877,Murélaga,Aulesti
 3104469,6362442,Murueta,
-3104469,6362413,Muskiz,
+3104469,6362413,Musques,Muskiz
 3104469,6362410,Muxika,
 3104469,6362443,Nabarniz,
-3104469,6362415,Ondarroa,
-3104469,3114902,Orozko,
+3104469,6362415,Ondárroa,
+3104469,6362416,Orduña,Urduña / Orduña|Urduna-Orduna|Urduña
+3104469,3114902,Orozco,Orozko
 3104469,6362423,Ortuella,
 3104469,6362414,Otxandio,
-3104469,6362418,Plentzia,
+3104469,6362417,Pedernales,Sukarrieta
+3104469,6362418,Plencia,Plentzia
 3104469,6362419,Portugalete,
-3104469,6362422,Santurtzi,
+3104469,6362420,Rigoitia,Errigoiti
+3104469,6362422,Santurce,Santurtzi
 3104469,6362424,Sestao,
 3104469,6362438,Sondika,
 3104469,6362425,Sopela,
 3104469,3108691,Sopuerta,Garape
-3104469,6362417,Sukarrieta,
-3104469,3110052,Trapagaran / Valle de Trapaga,
-3104469,6362426,Turtzioz / Trucios,Trucios-Turtzioz
+3104469,6362426,Trucios,Turtzioz / Trucios|Trucios-Turtzioz|Turtzioz
 3104469,6362427,Ubide,
-3104469,6362408,Ugao-Miraballes,
 3104469,6362428,Urduliz,
-3104469,6362416,Urduña / Orduña,Urduna-Orduna
+3104469,3110052,Valle de Trapaga,Trapagaran / Valle de Trapaga|San Salvador del Valle|Trapagaran
+3104469,6362429,Valmaseda,Balmaseda
+3104469,6362444,Yurreta,Iurreta
 3104469,6362434,Zaldibar,
 3104469,3104354,Zalla,
 3104469,6362439,Zamudio,
 3104469,6362435,Zaratamo,
 3104469,6362370,Zeanuri,
 3104469,6362371,Zeberio,
-3104469,6362447,Zierbena,
-3104469,7577097,Ziortza-Bolibar,
 3106671,6362129,Adalia,
 3106671,6362130,Aguasal,
 3106671,6362131,Aguilar de Campos,
@@ -2978,7 +2978,7 @@ parent_code,code,name,aliases
 3106671,6362160,Camporredondo,
 3106671,6362161,Canalejas de Peñafiel,
 3106671,6362162,Canillas de Esgueva,
-3106671,6362163,Carpio,
+3106671,6362163,Carpio del Campo,Carpio
 3106671,6362164,Casasola de Arión,
 3106671,6362165,Castrejón de Trabancos,
 3106671,6362166,Castrillo de Duero,
@@ -2998,7 +2998,7 @@ parent_code,code,name,aliases
 3106671,6362180,Cistérniga,
 3106671,6362181,Cogeces de Íscar,
 3106671,6362182,Cogeces del Monte,
-3106671,6362183,Corcos,
+3106671,6362183,Corcos del Valle,Corcos
 3106671,6362184,Corrales de Duero,
 3106671,6362185,Cubillas de Santa Marta,
 3106671,6362186,Cuenca de Campos,
@@ -3036,7 +3036,7 @@ parent_code,code,name,aliases
 3106671,6362218,Monasterio de Vega,
 3106671,6362219,Montealegre de Campos,
 3106671,6362220,Montemayor de Pililla,
-3106671,6362221,Moral de la Reina,
+3106671,6362221,Moral de la Reina,Moral da Reina
 3106671,6362222,Moraleja de las Panaderas,
 3106671,6362223,Morales de Campos,
 3106671,6362224,Mota del Marqués,
@@ -3172,13 +3172,13 @@ parent_code,code,name,aliases
 3108125,6361427,Ababuj,
 3108125,6361428,Abejuela,
 3108125,6361429,Aguatón,
-3108125,6361430,Aguaviva,
+3108125,6361430,Aguaviva,Aiguaviva de Bergantes
 3108125,6361431,Aguilar del Alfambra,
 3108125,6361432,Alacón,
 3108125,6361433,Alba,
 3108125,6361434,Albalate del Arzobispo,
 3108125,6361435,Albarracín,
-3108125,6361436,Albentosa,
+3108125,6361436,Albentosa,Alventosa
 3108125,6361437,Alcaine,
 3108125,6361438,Alcalá de la Selva,
 3108125,6361439,Alcañiz,
@@ -3194,7 +3194,7 @@ parent_code,code,name,aliases
 3108125,6361449,Anadón,
 3108125,6361450,Andorra,
 3108125,6361451,Arcos de las Salinas,
-3108125,6361452,Arenys de Lledó / Arens de Lledó,
+3108125,6361452,Arens de Lledó,Arenys de Lledó / Arens de Lledó|Arenys de Lledó
 3108125,6361453,Argente,
 3108125,6361454,Ariño,
 3108125,6361455,Azaila,
@@ -3203,10 +3203,10 @@ parent_code,code,name,aliases
 3108125,6361458,Bañón,
 3108125,6361459,Barrachina,
 3108125,6361460,Bea,
-3108125,6361462,Bellmunt de Mesquí / Belmonte de San José,
+3108125,6361461,Beceite,Beseit / Beceite|Beseit
 3108125,6361463,Bello,
+3108125,6361462,Belmonte de San José,Bellmunt de Mesquí / Belmonte de San José|Bellmunt de Mesquí
 3108125,6361464,Berge,
-3108125,6361461,Beseit / Beceite,
 3108125,6361465,Bezas,
 3108125,6361466,Blancas,
 3108125,6361467,Blesa,
@@ -3215,7 +3215,7 @@ parent_code,code,name,aliases
 3108125,6361470,Bueña,
 3108125,6361471,Burbáguena,
 3108125,6361472,Cabra de Mora,
-3108125,6361473,Calaceite,
+3108125,6361473,Calaceite,Calaceit
 3108125,6361474,Calamocha,
 3108125,6361475,Calanda,
 3108125,6361476,Calomarde,
@@ -3224,7 +3224,7 @@ parent_code,code,name,aliases
 3108125,6361479,Camarillas,
 3108125,6361480,Caminreal,
 3108125,6361482,Cañada de Benatanduz,
-3108125,6361483,"Cañada de Verich, La",
+3108125,6361483,"Cañada de Verich, La",la Canyada de Beric
 3108125,6361484,Cañada Vellida,
 3108125,6361485,Cañizar del Olivar,
 3108125,6361481,Cantavieja,
@@ -3242,7 +3242,7 @@ parent_code,code,name,aliases
 3108125,6361498,Corbalán,
 3108125,6361499,Cortes de Aragón,
 3108125,6361500,Cosa,
-3108125,6361501,Cretas,
+3108125,6361501,Cretas,Queretes|Cretes
 3108125,6361502,Crivillén,
 3108125,6361503,"Cuba, La",
 3108125,6361504,Cubla,
@@ -3266,7 +3266,7 @@ parent_code,code,name,aliases
 3108125,6361521,Fuenferrada,
 3108125,6361522,Fuentes Calientes,
 3108125,6361523,Fuentes Claras,
-3108125,6361524,Fuentes de Rubielos,
+3108125,6361524,Fuentes de Rubielos,Fonts de Rubiols
 3108125,6361525,Fuentespalda,
 3108125,6361526,Galve,
 3108125,6361527,Gargallo,
@@ -3308,13 +3308,13 @@ parent_code,code,name,aliases
 3108125,6361562,Montalbán,
 3108125,6361563,Monteagudo del Castillo,
 3108125,6361564,Monterde de Albarracín,
-3108125,6361565,Mora de Rubielos,
+3108125,6361565,Mora de Rubielos,Móra de Rubiols
 3108125,6361566,Moscardón,
 3108125,6361567,Mosqueruela,
 3108125,6361568,Muniesa,
 3108125,6361569,Noguera de Albarracín,
 3108125,6361570,Nogueras,
-3108125,6361571,Nogueruelas,
+3108125,6361571,Nogueruelas,Nogueroles
 3108125,6361572,Obón,
 3108125,6361573,Odón,
 3108125,6361574,Ojos Negros,
@@ -3359,7 +3359,7 @@ parent_code,code,name,aliases
 3108125,6361613,Seno,
 3108125,6361614,Singra,
 3108125,6361615,Terriente,
-3108125,6361616,Teruel,
+3108125,6361616,Teruel,Terol
 3108125,6361617,Toril y Masegoso,
 3108125,6361618,Tormón,
 3108125,6361619,Tornos,
@@ -3477,7 +3477,6 @@ parent_code,code,name,aliases
 3108287,6361310,Ginestar,
 3108287,6361311,Godall,
 3108287,6361312,Gratallops,
-3108287,6361314,Horta de Sant Joan,
 3108287,6361246,l'Albiol,
 3108287,6361424,L'Aldea,
 3108287,6361250,l'Aleixar,
@@ -3491,6 +3490,7 @@ parent_code,code,name,aliases
 3108287,6361300,la Febró,
 3108287,6361301,la Figuera,
 3108287,6361306,la Galera,
+3108287,6361314,La Horta de San Juan,Horta de Sant Joan|Horta de San Juan
 3108287,6361323,la Masó,
 3108287,6361338,la Morera de Montsant,
 3108287,6361339,la Nou de Gaià,
@@ -3518,13 +3518,13 @@ parent_code,code,name,aliases
 3108287,6361322,Masllorenç,
 3108287,6361324,Maspujols,
 3108287,6361327,Miravet,
-3108287,6361333,Mont-ral,
-3108287,6361334,Mont-roig del Camp,
-3108287,6361329,Montblanc,
+3108287,6361329,Montblanch,Montblanc
 3108287,6361330,Montbrió del Camp,
 3108287,6361331,Montferri,
+3108287,6361333,Montreal,Mont-ral
+3108287,6361334,Montroig,Mont-roig del Camp
 3108287,6361335,Móra d'Ebre,
-3108287,6361336,Móra la Nova,
+3108287,6361336,Mora la Nueva,Móra la Nova
 3108287,6361340,Nulles,
 3108287,6361343,Passanant i Belltall,
 3108287,6361344,Paüls,Pauels
@@ -3552,7 +3552,7 @@ parent_code,code,name,aliases
 3108287,6361375,Roquetes,
 3108287,6361377,Salomó,
 3108287,6361425,Salou,
-3108287,6361378,Sant Carles de la Ràpita,
+3108287,6361378,San Carlos de la Rápita,Sant Carles de la Ràpita
 3108287,6361422,Sant Jaume d'Enveja,
 3108287,6361379,Sant Jaume dels Domenys,
 3108287,6361380,Santa Bàrbara,
@@ -3564,7 +3564,7 @@ parent_code,code,name,aliases
 3108287,6361389,Solivella,
 3108287,6361390,Tarragona,
 3108287,6361391,Tivenys,
-3108287,6361392,Tivissa,
+3108287,6361392,Tivisa,Tivissa
 3108287,6361395,Torredembarra,
 3108287,6361396,Torroja del Priorat,
 3108287,6361397,Tortosa,
@@ -3585,7 +3585,7 @@ parent_code,code,name,aliases
 3108287,6361410,Vilanova de Prades,
 3108287,6361411,Vilaplana,
 3108287,6361414,Vilaverd,
-3108287,6361418,Vimbodí i Poblet,
+3108287,6361418,Vimbodí,Vimbodí i Poblet
 3108287,6361419,Vinebre,
 3108287,6361420,Vinyols i els Arcs,
 3108287,6361295,Xerta,
@@ -3628,7 +3628,6 @@ parent_code,code,name,aliases
 3108680,6361097,Borobia,
 3108680,6361098,Buberos,
 3108680,6361099,Buitrago,
-3108680,6361100,Burgo de Osma-Ciudad de Osma,
 3108680,6361101,Cabrejas del Campo,
 3108680,6361102,Cabrejas del Pinar,
 3108680,6361103,Calatañazor,
@@ -3658,6 +3657,7 @@ parent_code,code,name,aliases
 3108680,6361127,Dévanos,
 3108680,6361128,Deza,
 3108680,6361129,Duruelo de la Sierra,
+3108680,6361100,El Burgo de Osma,Burgo de Osma-Ciudad de Osma|El Burgo de Osma-Ciudad de Osma
 3108680,6361130,Escobosa de Almazán,
 3108680,6361131,Espeja de San Marcelino,
 3108680,6361132,Espejón,
@@ -4076,7 +4076,7 @@ parent_code,code,name,aliases
 3109716,6360736,Valdeolea,
 3109716,6360737,Valdeprado del Río,
 3109716,6360738,Valderredible,
-3109716,6360745,Valle de Villaverde,
+3109716,6360745,Valle de Villaverde,Villaverde Turtzioz
 3109716,6360740,Vega de Liébana,
 3109716,6360741,Vega de Pas,
 3109716,6360742,Villacarriedo,
@@ -4412,7 +4412,7 @@ parent_code,code,name,aliases
 3111107,6360583,"Vellés, La",
 3111107,6360584,Ventosa del Río Almar,
 3111107,6360585,"Vídola, La",
-3111107,6360587,Villaflores,
+3111107,6360587,Villaflores,Vilaflores
 3111107,6360588,Villagonzalo de Tormes,
 3111107,6360589,Villalba de los Llanos,
 3111107,6360590,Villamayor,
@@ -4445,17 +4445,15 @@ parent_code,code,name,aliases
 3111107,6360616,Zarapicos,
 3111107,6360617,"Zarza de Pumareda, La",
 3111107,6360618,Zorita de la Frontera,
-3113208,6360225,A Guarda,
-3113208,6360222,Agolada,
 3113208,6360205,Arbo,
 3113208,6360234,As Neves,
-3113208,6360207,Baiona,
 3113208,6360206,Barro,
+3113208,6360207,Bayona,Baiona
 3113208,6360208,Bueu,
-3113208,6360209,Caldas de Reis,
+3113208,6360209,Caldas de Reyes,Caldas de Reis
 3113208,6360210,Cambados,
 3113208,3126762,Campo Lameiro,
-3113208,6360211,Cangas,
+3113208,6360211,Cangas de Morrazo,Cangas
 3113208,6360212,"Cañiza, A",
 3113208,6360213,Catoira,
 3113208,11808025,Cerdedo-Cotobade,
@@ -4463,11 +4461,14 @@ parent_code,code,name,aliases
 3113208,6360216,Crecente,
 3113208,6360217,Cuntis,
 3113208,6360218,Dozón,
+3113208,6360224,El Grove,O Grove
 3113208,6360219,"Estrada, A",
-3113208,6360220,Forcarei,
+3113208,6360220,Forcarey,Forcarei
 3113208,6360221,Fornelos de Montes,
+3113208,6360222,Golada,Agolada
 3113208,6360223,Gondomar,
 3113208,6360258,"Illa de Arousa, A",
+3113208,6360225,La Guardia,A Guarda
 3113208,3119535,Lalín,
 3113208,6360226,"Lama, A",
 3113208,6360227,Marín,
@@ -4479,36 +4480,35 @@ parent_code,code,name,aliases
 3113208,6360233,Moraña,
 3113208,3116058,Mos,
 3113208,6360235,Nigrán,
-3113208,6360224,O Grove,
-3113208,6360238,O Porriño,
 3113208,6360246,O Rosal,
 3113208,6360236,Oia,
 3113208,3114160,Pazos de Borbén,
 3113208,6360240,Poio,
 3113208,6360242,Ponte Caldelas,
 3113208,6360241,Ponteareas,
-3113208,6360243,Pontecesures,
 3113208,6360237,Pontevedra,
+3113208,6360238,Porriño,O Porriño
 3113208,6360239,Portas,
+3113208,6360243,Puentecesures,Pontecesures
 3113208,3112153,Redondela,
 3113208,6360244,Ribadumia,
 3113208,6360245,Rodeiro,
 3113208,3111078,Salceda de Caselas,
-3113208,6360247,Salvaterra de Miño,
+3113208,6360247,Salvatierra de Miño,Salvaterra de Miño
 3113208,6360248,Sanxenxo,
 3113208,6360249,Silleda,
 3113208,6360250,Soutomaior,
 3113208,6360251,Tomiño,
-3113208,6360252,Tui,
+3113208,6360252,Tuy,Tui
 3113208,6360253,Valga,
 3113208,6360254,Vigo,
 3113208,3105678,Vila de Cruces,
 3113208,6360255,Vilaboa,
-3113208,6360256,Vilagarcía de Arousa,
-3113208,6360257,Vilanova de Arousa,
+3113208,6360256,Villagarcía de Arosa,Vilagarcía de Arousa
+3113208,6360257,Villanueva de Arosa,Vilanova de Arousa
 3114530,6359980,Abarca de Campos,
 3114530,6359981,Abia de las Torres,
-3114530,6359982,Aguilar de Campoo,
+3114530,6359982,Aguilar de Campóo,
 3114530,6359983,Alar del Rey,
 3114530,6359984,Alba de Cerrato,
 3114530,6359985,Amayuelas de Arriba,
@@ -4661,7 +4661,7 @@ parent_code,code,name,aliases
 3114530,6359995,Venta de Baños,
 3114530,6360130,Vertavillo,
 3114530,6360053,"Vid de Ojeda, La",
-3114530,6360131,Villabasta de Valdavia,
+3114530,6360131,Villabasta,Villabasta de Valdavia
 3114530,6360132,Villacidaler,
 3114530,6360133,Villaconancio,
 3114530,6360134,Villada,
@@ -4697,8 +4697,6 @@ parent_code,code,name,aliases
 3114530,6360164,Villoldo,
 3114530,6360165,Villota del Páramo,
 3114530,6360166,Villovieco,
-3114964,6359866,A Mezquita,
-3114964,6359899,A Veiga,
 3114964,6362998,Allariz,
 3114964,6359820,Amoeiro,
 3114964,6359821,"Arnoia, A",
@@ -4720,19 +4718,23 @@ parent_code,code,name,aliases
 3114964,6359837,"Carballiño, O",
 3114964,6359838,Cartelle,
 3114964,6359840,Castrelo de Miño,
-3114964,6359839,Castrelo do Val,
+3114964,6359839,Castrelo del Valle,Castrelo do Val
 3114964,6359841,Castro Caldelas,
 3114964,6359842,Celanova,
 3114964,6359843,Cenlle,
-3114964,6359847,Chandrexa de Queixa,
+3114964,6359847,Chandreja de Queija,Chandrexa de Queixa
 3114964,6359844,Coles,
 3114964,6359845,Cortegada,
 3114964,6359846,Cualedro,
 3114964,6359848,Entrimo,
 3114964,6359849,Esgos,
+3114964,6359850,Ginzo de Limia,Xinzo de Limia
 3114964,6359851,Gomesende,
 3114964,6359852,"Gudiña, A",
 3114964,6359853,"Irixo, O",
+3114964,6359855,Junquera de Espadañedo,Xunqueira de Espadanedo
+3114964,6359866,La Mezquita,A Mezquita
+3114964,6359899,La Vega,A Veiga
 3114964,6359856,Larouco,
 3114964,6359857,Laza,
 3114964,6359858,Leiro,
@@ -4744,7 +4746,7 @@ parent_code,code,name,aliases
 3114964,6359864,Melón,
 3114964,6359865,"Merca, A",
 3114964,6359867,Montederramo,
-3114964,6359868,Monterrei,
+3114964,6359868,Monterrey,Monterrei
 3114964,6359869,Muíños,
 3114964,6359870,Nogueira de Ramuín,
 3114964,6359871,Oímbra,
@@ -4757,8 +4759,8 @@ parent_code,code,name,aliases
 3114964,6359877,Petín,
 3114964,6359878,Piñor,
 3114964,6359880,"Pobra de Trives, A",
-3114964,6359881,Pontedeva,
-3114964,6359879,Porqueira,
+3114964,6359879,Porquera,Porqueira
+3114964,6359881,Puentedeva,Pontedeva
 3114964,6359882,Punxín,
 3114964,6359883,Quintela de Leirado,
 3114964,6359884,Rairiz de Veiga,
@@ -4769,7 +4771,7 @@ parent_code,code,name,aliases
 3114964,6359890,Rubiá,
 3114964,6359891,San Amaro,
 3114964,6359892,San Cibrao das Viñas,
-3114964,3110731,San Cristovo de Cea,
+3114964,3110731,San Cristóbal de Cea,San Cristovo de Cea
 3114964,6359887,San Xoán de Río,
 3114964,6359893,Sandiás,
 3114964,6359894,Sarreaus,
@@ -4779,16 +4781,14 @@ parent_code,code,name,aliases
 3114964,6359898,Trasmiras,
 3114964,6359900,Verea,
 3114964,6359901,Verín,
-3114964,6359902,Viana do Bolo,
+3114964,6359902,Viana del Bollo,Viana do Bolo
 3114964,6359903,Vilamarín,
 3114964,6359904,Vilamartín de Valdeorras,
-3114964,6359905,Vilar de Barrio,
-3114964,6359906,Vilar de Santos,
 3114964,6359907,Vilardevós,
 3114964,6359908,Vilariño de Conso,
-3114964,6359850,Xinzo de Limia,
+3114964,6359905,Villar de Barrio,Vilar de Barrio
+3114964,6359906,Villar de Santos,Vilar de Santos
 3114964,6359854,Xunqueira de Ambía,
-3114964,6359855,Xunqueira de Espadanedo,
 3117813,6359165,Abadín,
 3117813,3130392,Alfoz,
 3117813,3129963,Antas de Ulla,
@@ -4800,14 +4800,14 @@ parent_code,code,name,aliases
 3117813,6359170,Bóveda,
 3117813,6359226,Burela,
 3117813,6359171,Carballedo,
-3117813,6359172,Castro de Rei,
+3117813,6359172,Castro de Rey,Castro de Rei
 3117813,6359173,Castroverde,
 3117813,6359174,Cervantes,
 3117813,6355242,Cervo,
 3117813,6359177,Chantada,
 3117813,6359175,"Corgo, O",
 3117813,6359176,Cospeito,
-3117813,6359178,Folgoso do Courel,
+3117813,6359178,Folgoso de Caurel,Folgoso do Courel
 3117813,6359179,"Fonsagrada, A",
 3117813,6359180,Foz,
 3117813,6359181,Friol,
@@ -4825,48 +4825,48 @@ parent_code,code,name,aliases
 3117813,6359195,Navia de Suarna,
 3117813,6359196,Negueira de Muñiz,
 3117813,6359197,"Nogais, As",
-3117813,3109310,O Saviñao,
-3117813,6359198,Ourol,
-3117813,6359199,Outeiro de Rei,
-3117813,6359200,Palas de Rei,
+3117813,6359198,Orol,Ourol
+3117813,6359199,Otero de Rey,Outeiro de Rei
+3117813,6359200,Palas de Rey,Palas de Rei
 3117813,6359201,Pantón,
 3117813,6359202,Paradela,
 3117813,3114318,"Páramo, O",
 3117813,6359203,"Pastoriza, A",
-3117813,6359204,Pedrafita do Cebreiro,
-3117813,6359206,"Pobra do Brollón, A",
+3117813,6359204,Piedrafita,Pedrafita do Cebreiro
 3117813,6359205,Pol,
 3117813,6359207,"Pontenova, A",
 3117813,6359208,Portomarín,
+3117813,6359206,Puebla de Brollón,"Pobra do Brollón, A"
 3117813,6359209,Quiroga,
 3117813,6359215,Rábade,
 3117813,6359210,Ribadeo,
-3117813,6359211,Ribas de Sil,
+3117813,6359211,Ribas del Sil,Ribas de Sil
 3117813,6359212,Ribeira de Piquín,
 3117813,6359213,Riotorto,
 3117813,6359214,Samos,
 3117813,6359216,Sarria,
+3117813,3109310,Saviñao,O Saviñao
 3117813,6359217,Sober,
 3117813,6359218,Taboada,
 3117813,6359219,Trabada,
 3117813,6359220,Triacastela,
 3117813,6359221,"Valadouro, O",
 3117813,6359222,"Vicedo, O",
-3117813,6359223,Vilalba,
-3117813,6359224,Viveiro,
+3117813,6359223,Villalba,Vilalba
+3117813,6359224,Vivero,Viveiro
 3117813,6359182,Xermade,
 3117813,6359186,Xove,
-3118528,6358552,Acebedo,
+3118528,6358552,Acebedo,Acebéu
 3118528,6358553,Algadefe,
 3118528,6358554,Alija del Infantado,
 3118528,6358555,Almanza,
 3118528,6358556,"Antigua, La",
 3118528,6358557,Ardón,
 3118528,6358558,Arganza,
-3118528,6358559,Astorga,
-3118528,6358560,Balboa,
+3118528,6358559,Astorga,Estorga
+3118528,6358560,Balboa,Valboa
 3118528,6358561,"Bañeza, La",
-3118528,6358562,Barjas,
+3118528,6358562,Barjas,Barxas
 3118528,6358563,"Barrios de Luna, Los",
 3118528,6358564,Bembibre,
 3118528,6358565,Benavides,
@@ -4888,14 +4888,14 @@ parent_code,code,name,aliases
 3118528,6358581,Calzada del Coto,
 3118528,6358582,Campazas,
 3118528,6358583,Campo de Villavidel,
-3118528,6358584,Camponaraya,
+3118528,6358584,Camponaraya,Camponaraia
 3118528,6358586,Cármenes,
 3118528,6358587,Carracedelo,
 3118528,6358588,Carrizo,
 3118528,6358589,Carrocera,
 3118528,6358590,Carucedo,
 3118528,6358591,Castilfalé,
-3118528,6358592,Castrillo de Cabrera,
+3118528,6358592,Castrillo de Cabrera,Castriellu
 3118528,6358593,Castrillo de la Valduerna,
 3118528,6358594,Castrocalbón,
 3118528,6358595,Castrocontrigo,
@@ -4917,10 +4917,10 @@ parent_code,code,name,aliases
 3118528,6358609,Cubillas de Rueda,
 3118528,6358610,Cubillos del Sil,
 3118528,6358612,Destriana,
-3118528,6358613,Encinedo,
+3118528,6358613,Encinedo,Encinéu
 3118528,6358614,"Ercina, La",
 3118528,6358615,Escobar de Campos,
-3118528,6358616,Fabero,
+3118528,6358616,Fabero,Fabeiro
 3118528,6358617,Folgoso de la Ribera,
 3118528,6358618,Fresno de la Vega,
 3118528,6358619,Fuentes de Carbajal,
@@ -4936,7 +4936,7 @@ parent_code,code,name,aliases
 3118528,6358629,Joarilla de las Matas,
 3118528,6358630,Laguna Dalga,
 3118528,6358631,Laguna de Negrillos,
-3118528,6362996,León,
+3118528,6362996,León,Lleó
 3118528,6358634,Llamas de la Ribera,
 3118528,6358632,Lucillo,
 3118528,6358633,Luyego,
@@ -4953,20 +4953,20 @@ parent_code,code,name,aliases
 3118528,6358645,Oencia,
 3118528,6358646,"Omañas, Las",
 3118528,6358647,Onzonilla,
-3118528,6358648,Oseja de Sajambre,
+3118528,6358648,Oseja de Sajambre,Oseya de Sayambre
 3118528,6358649,Pajares de los Oteros,
 3118528,6358650,Palacios de la Valduerna,
 3118528,6358651,Palacios del Sil,
 3118528,6358652,Páramo del Sil,
-3118528,6358653,Peranzanes,
+3118528,6358653,Peranzanes,Peranzais
 3118528,6358654,Pobladura de Pelayo García,
 3118528,6358655,"Pola de Gordón, La",
 3118528,6358656,Ponferrada,
 3118528,6358657,Posada de Valdeón,
 3118528,6358658,Pozuelo del Páramo,
 3118528,6358659,Prado de la Guzpeña,
-3118528,6358660,Priaranza del Bierzo,
-3118528,6358661,Prioro,
+3118528,6358660,Priaranza del Bierzo,Priaranza|Priaranza do Bierzo
+3118528,6358661,Prioro,Prioru
 3118528,6358662,Puebla de Lillo,
 3118528,6358663,Puente de Domingo Flórez,
 3118528,6358664,Quintana del Castillo,
@@ -4985,12 +4985,12 @@ parent_code,code,name,aliases
 3118528,6358677,San Adrián del Valle,
 3118528,6358678,San Andrés del Rabanedo,
 3118528,6358680,San Cristóbal de la Polantera,
-3118528,6358681,San Emiliano,
+3118528,6358681,San Emiliano,Santu Michanu
 3118528,6358682,San Esteban de Nogales,
 3118528,6358683,San Justo de la Vega,
 3118528,6358684,San Millán de los Caballeros,
 3118528,6358685,San Pedro Bercianos,
-3118528,6358679,Sancedo,
+3118528,6358679,Sancedo,Sancéu
 3118528,6358686,Santa Colomba de Curueño,
 3118528,6358687,Santa Colomba de Somoza,
 3118528,6358688,Santa Cristina de Valmadrigal,
@@ -5004,12 +5004,12 @@ parent_code,code,name,aliases
 3118528,6358696,Santiago Millas,
 3118528,6358697,Santovenia de la Valdoncina,
 3118528,6358698,Sariegos,
-3118528,6358699,Sena de Luna,
+3118528,6358699,Sena de Luna,Sena de Ḷḷuna
 3118528,6358700,Sobrado,
 3118528,6358701,Soto de la Vega,
 3118528,6358702,Soto y Amío,
 3118528,6358703,Toral de los Guzmanes,
-3118528,6358736,Toral de los Vados,
+3118528,6358736,Toral de los Vados,Toural dos Vaos
 3118528,6358704,Toreno,
 3118528,6358705,Torre del Bierzo,
 3118528,6358706,Trabadelo,
@@ -5026,31 +5026,31 @@ parent_code,code,name,aliases
 3118528,6358716,Valderas,
 3118528,6358717,Valderrey,
 3118528,6358718,Valderrueda,
-3118528,6358719,Valdesamario,
-3118528,6358721,Valdevimbre,
-3118528,6358722,Valencia de Don Juan,
+3118528,6358719,Valdesamario,Valdesamariu
+3118528,6358721,Valdevimbre,Valdebimbre
+3118528,6358722,Valencia de Don Juan,Coyanza
 3118528,6358585,Valle de Ancares,
 3118528,6358725,Vallecillo,
 3118528,6358723,Valverde de la Virgen,
 3118528,6358724,Valverde-Enrique,
 3118528,6358726,"Vecilla, La",
-3118528,6358728,Vega de Espinareda,
+3118528,6358728,Vega de Espinareda,A Veiga de Espiñareda
 3118528,6358729,Vega de Infanzones,
-3118528,6358730,Vega de Valcarce,
+3118528,6358730,Vega de Valcarce,A Veiga de Valcarce|A Veiga do Valcarce
 3118528,6358727,Vegacervera,
 3118528,6358731,Vegaquemada,
 3118528,6358732,Vegas del Condado,
-3118528,6358733,Villablino,
+3118528,6358733,Villablino,Viḷḷablinu
 3118528,6358734,Villabraz,
 3118528,6358735,Villadangos del Páramo,
 3118528,6358737,Villademor de la Vega,
-3118528,6358738,Villafranca del Bierzo,
+3118528,6358738,Villafranca del Bierzo,Vilafranca do Bierzo
 3118528,6358739,Villagatón,
 3118528,6358741,Villamañán,
 3118528,6358740,Villamandos,
 3118528,6358759,Villamanín,
 3118528,6358742,Villamartín de Don Sancho,
-3118528,6358743,Villamejil,
+3118528,6358743,Villamejil,Villamegil
 3118528,6358744,Villamol,
 3118528,6358745,Villamontán de la Valduerna,
 3118528,6358746,Villamoratiel de las Matas,
@@ -5072,14 +5072,14 @@ parent_code,code,name,aliases
 3119840,6357272,Ames,
 3119840,6357273,Aranga,
 3119840,6357274,Ares,
-3119840,6357275,Arteixo,
+3119840,6357275,Arteijo,Arteixo
 3119840,6357276,Arzúa,
 3119840,6357277,"Baña, A",
 3119840,6357278,Bergondo,
 3119840,6357279,Betanzos,
 3119840,6357280,Boimorto,
 3119840,6357281,Boiro,
-3119840,6357282,Boqueixón,
+3119840,6357282,Boqueijón,Boqueixón
 3119840,6357283,Brión,
 3119840,6357284,Cabana de Bergantiños,
 3119840,6357285,Cabanas,
@@ -5103,16 +5103,16 @@ parent_code,code,name,aliases
 3119840,6357304,Dumbría,
 3119840,6357305,Fene,
 3119840,6357306,Ferrol,
-3119840,6357307,Fisterra,
+3119840,6357307,Finisterre,Fisterra
 3119840,6534001,Frades,
-3119840,6357308,Irixoa,
+3119840,6357308,Irijoa,Irixoa
+3119840,6357309,Lage,Laxe
 3119840,6357310,"Laracha, A",
-3119840,6357309,Laxe,
 3119840,6357311,Lousame,
 3119840,6357312,Malpica de Bergantiños,
 3119840,6357313,Mañón,
 3119840,6357314,Mazaricos,
-3119840,6357315,Melide,
+3119840,6357315,Mellid,Melide
 3119840,6357316,Mesía,
 3119840,6357317,Miño,
 3119840,6357318,Moeche,
@@ -5123,9 +5123,9 @@ parent_code,code,name,aliases
 3119840,6357323,Narón,
 3119840,6357324,Neda,
 3119840,6357325,Negreira,
-3119840,6357326,Noia,
+3119840,6357326,Noya,Noia
 3119840,6357327,Oleiros,
-3119840,6357328,Ordes,
+3119840,6357328,Órdenes,Ordes
 3119840,6357329,Oroso,
 3119840,6357330,Ortigueira,
 3119840,6357331,Outes,
@@ -5134,17 +5134,17 @@ parent_code,code,name,aliases
 3119840,6357333,Padrón,
 3119840,6357334,"Pino, O",
 3119840,6357335,Pobra do Caramiñal,
-3119840,6357336,Ponteceso,
-3119840,6357337,Pontedeume,
 3119840,6357338,"Pontes de García Rodríguez, As",
-3119840,6357339,Porto do Son,
-3119840,6357340,Rianxo,
-3119840,6357341,Ribeira,
+3119840,6357336,Puenteceso,Ponteceso
+3119840,6357337,Puentedeume,Pontedeume
+3119840,6357339,Puerto del Son,Porto do Son
+3119840,6357340,Rianjo,Rianxo
+3119840,6357341,Riveira,Ribeira
 3119840,6357342,Rois,
 3119840,6357343,Sada,
 3119840,6357344,San Sadurniño,
 3119840,6357345,Santa Comba,
-3119840,6357346,Santiago de Compostela,
+3119840,6357346,Santiago de Compostela,Santiago de Compostel·la
 3119840,6357347,Santiso,
 3119840,6357348,Sobrado,
 3119840,6357349,"Somozas, As",
@@ -5153,11 +5153,11 @@ parent_code,code,name,aliases
 3119840,6357351,Tordoia,
 3119840,6357352,Touro,
 3119840,6357353,Trazo,
-3119840,6357355,Val do Dubra,
 3119840,6357354,Valdoviño,
+3119840,6357355,Valle del Dubra,Val do Dubra
 3119840,6357356,Vedra,
-3119840,6357358,Vilarmaior,
 3119840,6357357,Vilasantar,
+3119840,6357358,Villarmayor,Vilarmaior
 3119840,6357359,Vimianzo,
 3119840,6357360,Zas,
 3120513,6358256,Abiego,
@@ -5188,7 +5188,7 @@ parent_code,code,name,aliases
 3120513,6358280,Ansó,
 3120513,6358281,Antillón,
 3120513,6358282,Aragüés del Puerto,Araguees del Puerto
-3120513,6358283,Areny de Noguera / Arén,
+3120513,6358283,Arén,Areny de Noguera / Arén|Areny de Noguera
 3120513,6358284,Argavieso,
 3120513,6358285,Arguis,
 3120513,6358286,Ayerbe,
@@ -5198,7 +5198,7 @@ parent_code,code,name,aliases
 3120513,6358290,Baells,
 3120513,6358291,Bailo,
 3120513,6358292,Baldellou,
-3120513,6358293,Ballobar,
+3120513,6358293,Ballobar,Vallobar
 3120513,6358294,Banastás,
 3120513,6358295,Barbastro,
 3120513,6358296,Barbués,
@@ -5207,14 +5207,14 @@ parent_code,code,name,aliases
 3120513,6358299,Belver de Cinca,
 3120513,6358300,Benabarre,
 3120513,6358301,Benasque,
-3120513,6358438,Beranuy,
+3120513,6358438,Beranuy,Beranui
 3120513,6358302,Berbegal,
 3120513,6358303,Bielsa,
 3120513,6358304,Bierge,
 3120513,6358305,Biescas,
 3120513,6358306,Binaced,
 3120513,6358307,Binéfar,
-3120513,6358308,Bisaurri,
+3120513,6358308,Bisaurri,Bissaürri
 3120513,6358309,Biscarrués,
 3120513,6358310,Blecua y Torres,
 3120513,6358311,Boltaña,
@@ -5284,7 +5284,7 @@ parent_code,code,name,aliases
 3120513,6358371,Monesma y Cajigar,
 3120513,6358372,Monflorite-Lascasas,
 3120513,6358373,Montanuy,
-3120513,6358374,Monzón,
+3120513,6358374,Monzón,Montsó
 3120513,6358375,Naval,
 3120513,6358376,Novales,
 3120513,6358377,Nueno,
@@ -5322,7 +5322,7 @@ parent_code,code,name,aliases
 3120513,6358409,San Juan de Plan,
 3120513,6358449,San Miguel de Cinca,
 3120513,6358408,Sangarrén,
-3120513,6358410,Santa Cilia,
+3120513,6358410,Santa Cilia de Jaca,Santa Cilia
 3120513,6358411,Santa Cruz de la Serós,
 3120513,6358452,Santa María de Dulcis,
 3120513,6358412,Santaliestra y San Quílez,
@@ -5349,9 +5349,9 @@ parent_code,code,name,aliases
 3120513,6358432,Torres de Barbués,
 3120513,6358433,Tramaced,
 3120513,6358434,Valfarta,
+3120513,6358436,Vall de Lierp,Valle de Lierp
 3120513,6358435,Valle de Bardají,
-3120513,6358447,Valle de Echo,
-3120513,6358436,Valle de Lierp,
+3120513,6358447,Valle de Echo,Echo Ibarra
 3120513,6358437,Velilla de Cinca,
 3120513,6358455,Vencillón,
 3120513,6358439,Viacamp y Litera,
@@ -5362,26 +5362,25 @@ parent_code,code,name,aliases
 3120513,6358444,Yebra de Basa,
 3120513,6358445,Yésero,
 3120513,6358446,Zaidín,
-3120935,6358093,Abaltzisketa,
+3120935,6358093,Abalcisqueta,Abaltzisketa
 3120935,6358094,Aduna,
-3120935,6358107,Aia,
 3120935,6358095,Aizarnazabal,
 3120935,6358096,Albiztur,
-3120935,6358097,Alegia,
+3120935,6358097,Alegria de Oria,Alegia
 3120935,6358098,Alkiza,
 3120935,6358175,Altzaga,
-3120935,3130210,Altzo,Alzo
-3120935,6358099,Amezketa,
+3120935,3130210,Alzo,Altzo
+3120935,6358099,Amézqueta,Amezketa
 3120935,6358100,Andoain,
 3120935,6358101,Anoeta,
 3120935,6358102,Antzuola,
 3120935,6358103,Arama,
 3120935,6358104,Aretxabaleta,
-3120935,6358144,Arrasate / Mondragón,Arrasate/Mondragon
 3120935,6358105,Asteasu,
 3120935,6358172,Astigarraga,
 3120935,6358106,Ataun,
-3120935,6358108,Azkoitia,
+3120935,6358107,Aya,Aia
+3120935,6358108,Azcoitia,Azkoitia
 3120935,6358109,Azpeitia,
 3120935,6358173,Baliarrain,
 3120935,6358110,Beasain,
@@ -5390,64 +5389,65 @@ parent_code,code,name,aliases
 3120935,6358113,Berastegi,
 3120935,6358162,Bergara,
 3120935,6358114,Berrobi,
-3120935,6325472,Bidania-Goiatz,
-3120935,6358119,Deba,
-3120935,6358157,Donostia / San Sebastián,Donostia-San Sebastian
-3120935,6358120,Eibar,
+3120935,6325472,Bidegoyan,Bidania-Goiatz|Bidegoian
+3120935,6358115,Cegama,Zegama
+3120935,6358117,Cestona,Zestoa
+3120935,6358118,Cizúrquil,Zizurkil
+3120935,6358119,Deva,Deba
+3120935,6358120,Éibar,
 3120935,6358121,Elduain,
-3120935,6358123,Elgeta,
-3120935,6358122,Elgoibar,
-3120935,6358155,Errenteria,
-3120935,6358154,Errezil,
+3120935,6358122,Elgóibar,
+3120935,6358123,Elgueta,Elgeta
 3120935,6358124,Eskoriatza,
-3120935,6325473,Ezkio-Itsaso,Ezkio Itsaso
+3120935,6325473,Ezquioga-Ichaso,Ezkio-Itsaso|Ezkio Itsaso
+3120935,6358125,Fuenterrabía,Hondarribia
 3120935,6358127,Gabiria,
 3120935,6358126,Gaintza,
 3120935,6358176,Gaztelu,
 3120935,6358128,Getaria,
 3120935,6358129,Hernani,
 3120935,6358130,Hernialde,
-3120935,6358125,Hondarribia,
 3120935,6358131,Ibarra,
+3120935,6358133,Icazteguieta,Ikaztegieta
 3120935,6358132,Idiazabal,
-3120935,6358133,Ikaztegieta,
-3120935,6358134,Irun,
+3120935,6358134,Irún,
 3120935,6358135,Irura,
 3120935,6358136,Itsasondo,
 3120935,6358137,Larraul,
 3120935,6358171,Lasarte-Oria,
 3120935,6358138,Lazkao,
 3120935,6358139,Leaburu,
-3120935,6358140,Legazpi,
+3120935,6358140,Legazpia,Legazpi
 3120935,6358141,Legorreta,
 3120935,6358156,Leintz-Gatzaga,
 3120935,6358142,Lezo,
 3120935,6358143,Lizartza,
 3120935,6358170,Mendaro,
+3120935,6358144,Mondragón,Arrasate / Mondragón|Arrasate/Mondragon|Arrasate
+3120935,6358145,Motrico,Mutriku
 3120935,6358146,Mutiloa,
-3120935,6358145,Mutriku,
-3120935,6358152,Oiartzun,
 3120935,6358147,Olaberria,
-3120935,6358148,Oñati,
+3120935,6358148,Oñate,Oñati
 3120935,6358164,Ordizia,
+3120935,6358149,Oreja,Orexa
 3120935,6358174,Orendain,
-3120935,6358149,Orexa,
 3120935,6358150,Orio,
-3120935,6358151,Ormaiztegi,
-3120935,3114231,Pasaia,Pasajes
+3120935,6358151,Ormáiztegui,Ormaiztegi
+3120935,6358152,Oyarzun,Oiartzun
+3120935,3114231,Pasajes,Pasaia
+3120935,6358153,Placencia de las Armas,Soraluze / Placencia de las Armas|Soraluze/Placencia de las Armas|Soraluze
+3120935,6358154,Régil,Errezil
+3120935,6358155,Rentería,Errenteria
+3120935,6358157,San Sebastián,Donostia / San Sebastián|Donostia-San Sebastian|Donostia
 3120935,6358158,Segura,
-3120935,6358153,Soraluze / Placencia de las Armas,Soraluze/Placencia de las Armas
 3120935,6358159,Tolosa,
 3120935,6358160,Urnieta,
-3120935,6358165,Urretxu,
-3120935,6358161,Usurbil,
-3120935,6358163,Villabona,
-3120935,6358166,Zaldibia,
-3120935,6358167,Zarautz,
-3120935,6358115,Zegama,
+3120935,6358161,Usúrbil,
+3120935,6358163,Villabona,Villabona-Amasa
+3120935,6358165,Villarreal de Urrechua,Urretxu
+3120935,6358166,Zaldivia,Zaldibia
+3120935,6358167,Zarauz,Zarautz
 3120935,6358116,Zerain,
-3120935,6358117,Zestoa,
-3120935,6358118,Zizurkil,
 3120935,6358169,Zumaia,
 3120935,6358168,Zumarraga,
 3121069,6357806,Abánades,
@@ -5556,7 +5556,7 @@ parent_code,code,name,aliases
 3121069,6357909,Galápagos,
 3121069,6357910,Galve de Sorbe,
 3121069,6357911,Gascueña de Bornova,
-3121069,6357912,Guadalajara,
+3121069,6357912,Guadalajara,Guadalaxara
 3121069,6357913,Henche,
 3121069,6357914,Heras de Ayuso,
 3121069,6357915,Herrería,
@@ -5740,11 +5740,11 @@ parent_code,code,name,aliases
 3121069,6358091,Zorita de los Canes,
 3125881,6356961,Aín,
 3125881,6356962,Albocàsser,
-3125881,6356963,Alcalà de Xivert,
+3125881,6356963,Alcalá de Chivert,Alcalà de Xivert
 3125881,6356964,"Alcora, l'",
-3125881,6356965,Alcudia de Veo,
-3125881,6356966,Alfondeguilla,
-3125881,6356967,Algimia de Almonacid,
+3125881,6356965,Alcudia de Veo,l'Alcúdia de Veo
+3125881,6356966,Alfondeguilla,Fondeguilla
+3125881,6356967,Algimia de Almonacid,Algímia d'Almonesir
 3125881,6356968,Almazora/Almassora,
 3125881,6356969,Almedíjar,
 3125881,6356970,Almenara,
@@ -5752,16 +5752,16 @@ parent_code,code,name,aliases
 3125881,6356971,Altura,
 3125881,6356972,Arañuel,
 3125881,6356973,Ares del Maestrat,
-3125881,6356974,Argelita,
+3125881,6356974,Argelita,Argeleta
 3125881,6356975,Artana,
 3125881,6356960,Atzeneta del Maestrat,
 3125881,6356976,Ayódar,
 3125881,6356977,Azuébar,
-3125881,6356978,Barracas,
+3125881,6356978,Barracas,Barraques
 3125881,6356980,Bejís,
 3125881,6356981,Benafer,
 3125881,6356982,Benafigos,
-3125881,6356983,Benassal,
+3125881,6356983,Benasal,Benassal
 3125881,6356984,Benicarló,
 3125881,6356985,Benicasim/Benicàssim,
 3125881,6356986,Benlloch,
@@ -5773,19 +5773,19 @@ parent_code,code,name,aliases
 3125881,6356991,Canet lo Roig,
 3125881,6356992,Castell de Cabres,
 3125881,6356993,Castellfort,
-3125881,6356994,Castellnovo,
-3125881,6356995,Castellón de la Plana/Castelló de la Plana,
-3125881,6356996,Castillo de Villamalefa,
+3125881,6356994,Castellnovo,Castellnou
+3125881,6356995,Castellón de la Plana,Castellón de la Plana/Castelló de la Plana|Castellón
+3125881,6356996,Castillo de Villamalefa,el Castell de Vilamalefa
 3125881,6356997,Catí,
 3125881,6356998,Caudiel,
-3125881,6356999,Cervera del Maestre,
-3125881,6357006,Chert/Xert,
+3125881,6356999,Cervera del Maestre,Cervera del Maestrat
+3125881,6357006,Chert/Xert,Xert
 3125881,6357007,Chilches/Xilxes,
 3125881,6357008,Chodos/Xodos,
 3125881,6357009,Chóvar,
 3125881,6357000,Cinctorres,
 3125881,6357001,Cirat,
-3125881,6357002,Cortes de Arenoso,
+3125881,6357002,Cortes de Arenoso,Cortes d'Arenós
 3125881,6357003,Costur,
 3125881,6357004,"Coves de Vinromà, les",
 3125881,6357005,Culla,
@@ -5793,7 +5793,7 @@ parent_code,code,name,aliases
 3125881,6357011,Espadilla,
 3125881,6357012,Fanzara,
 3125881,6357013,Figueroles,
-3125881,6357014,Forcall,
+3125881,6357014,Forcall,El Forcall
 3125881,6357015,Fuente la Reina,
 3125881,6357016,Fuentes de Ayódar,
 3125881,6357017,Gaibiel,
@@ -5801,42 +5801,41 @@ parent_code,code,name,aliases
 3125881,6357019,Herbés,
 3125881,6357020,Higueras,
 3125881,6357022,Jérica,
-3125881,6357021,la Jana,
-3125881,6357048,la Salzadella,
+3125881,6357021,La Jana,
 3125881,6357076,la Vall d'Uixó,
-3125881,6357086,La Vilavella,
 3125881,6357025,"Llosa, la",
-3125881,6357023,Lucena del Cid,
+3125881,6357023,Lucena del Cid,Llucena
 3125881,6357024,Ludiente,
 3125881,6357026,"Mata de Morella, la",
 3125881,6357027,Matet,
-3125881,6357028,Moncofa,
+3125881,6357028,Moncófar,Moncofa
 3125881,6357029,Montán,
 3125881,6357030,Montanejos,
 3125881,6357031,Morella,
 3125881,6357032,Navajas,
 3125881,6357033,Nules,
-3125881,6357034,Olocau del Rey,
+3125881,6357034,Olocau del Rey,Olocau del Rei
 3125881,6357035,Onda,
 3125881,6357036,Oropesa del Mar/Orpesa,
 3125881,6357037,Palanques,
 3125881,6357038,Pavías,
-3125881,6357039,Peníscola/Peñíscola,
+3125881,6357039,Peníscola/Peñíscola,Peníscola
 3125881,6357040,Pina de Montalgrao,
 3125881,6357043,"Pobla de Benifassà, la",
 3125881,6357044,"Pobla Tornesa, la",
 3125881,6357041,Portell de Morella,
 3125881,6357042,Puebla de Arenoso,
 3125881,6357045,Ribesalbes,
-3125881,6357046,Rossell,
+3125881,6357046,Rosell,Rossell
 3125881,6357047,Sacañet,
+3125881,6357048,Salsadella,la Salzadella
+3125881,6357050,San Mateo,Sant Mateu
+3125881,6357051,San Rafael del Río,Sant Rafel del Maestrat|Sant Rafel del Riu
 3125881,6357094,Sant Joan de Moró,
 3125881,6357049,Sant Jordi,
-3125881,6357050,Sant Mateu,
-3125881,6357051,Sant Rafel del Maestrat,
 3125881,6357052,Santa Magdalena de Pulpis,
 3125881,6357053,Sarratella,
-3125881,6357054,Segorbe,
+3125881,6357054,Segorbe,Sogorb
 3125881,6357055,Sierra Engarcerán,
 3125881,6357056,Soneja,
 3125881,6357057,Sot de Ferrer,
@@ -5849,8 +5848,8 @@ parent_code,code,name,aliases
 3125881,6357064,Torás,
 3125881,6357065,"Toro, El",
 3125881,6357066,Torralba del Pinar,
-3125881,6357069,"Torre d'En Besora, la",
-3125881,6357070,"Torre d'en Doménec, la",
+3125881,6357069,Torre d'En Besora,"Torre d'En Besora, la"
+3125881,6357070,Torre Endoménech,"Torre d'en Doménec, la"
 3125881,6357067,Torreblanca,
 3125881,6357068,Torrechiva,
 3125881,6357071,Traiguera,
@@ -5860,18 +5859,19 @@ parent_code,code,name,aliases
 3125881,6357073,Vallat,
 3125881,6357077,Vallibona,
 3125881,6357085,Vila-real,
-3125881,6357078,Vilafamés,
-3125881,6357082,Vilanova d'Alcolea,
 3125881,6357084,Vilar de Canes,
-3125881,6357079,Villafranca del Cid/Vilafranca,
+3125881,6357078,Villafamés,Vilafamés
+3125881,6357079,Villafranca del Cid,Villafranca del Cid/Vilafranca
 3125881,6357080,Villahermosa del Río,
-3125881,6357081,Villamalur,
+3125881,6357081,Villamalur,Vilamalur
+3125881,6357082,Villanueva de Alcolea,Vilanova d'Alcolea
 3125881,6357083,Villanueva de Viver,
+3125881,6357086,Villavieja,La Vilavella
 3125881,6357087,Villores,
-3125881,6357088,Vinaròs,
+3125881,6357088,Vinaroz,Vinaròs
 3125881,6357089,Vistabella del Maestrazgo,
 3125881,6357090,Viver,
-3125881,6357091,Zorita del Maestrazgo,
+3125881,6357091,Zorita del Maestrazgo,Sorita
 3125881,6357092,Zucaina,
 3127460,6356331,Abajas,
 3127460,6356332,Adrada de Haza,
@@ -5888,7 +5888,7 @@ parent_code,code,name,aliases
 3127460,6356342,Anguix,
 3127460,6356343,Aranda de Duero,
 3127460,6356344,Arandilla,
-3127460,6356345,Arauzo de Miel,
+3127460,6356345,Araúzo de Miel,
 3127460,6356346,Arauzo de Salce,
 3127460,6356347,Arauzo de Torre,
 3127460,6356348,Arcos,
@@ -5960,7 +5960,7 @@ parent_code,code,name,aliases
 3127460,6356413,Cilleruelo de Arriba,
 3127460,6356414,Ciruelos de Cervera,
 3127460,6356415,Cogollos,
-3127460,3124696,Condado de Treviño,
+3127460,3124696,Condado de Treviño,Trebiñu|Trebiñu Konderria
 3127460,6356416,Contreras,
 3127460,6356417,Coruña del Conde,
 3127460,6356418,Covarrubias,
@@ -6036,15 +6036,15 @@ parent_code,code,name,aliases
 3127460,6356488,Mecerreyes,
 3127460,6356489,Medina de Pomar,
 3127460,6356490,Melgar de Fernamental,
-3127460,6356491,Merindad de Cuesta-Urria,
+3127460,6356491,Merindad de Cuesta Urria,Merindad de Cuesta-Urria
 3127460,6356492,Merindad de Montija,
 3127460,6356695,Merindad de Río Ubierna,
 3127460,6356493,Merindad de Sotoscueva,
 3127460,6356494,Merindad de Valdeporres,
 3127460,6356495,Merindad de Valdivielso,
 3127460,6356496,Milagros,
-3127460,6356497,Miranda de Ebro,
-3127460,6356498,Miraveche,
+3127460,6356497,Miranda de Ebro,Miranda Ebro
+3127460,6356498,Miraveche,Mirabetxe
 3127460,6356499,Modúbar de la Emparedada,
 3127460,6356500,Monasterio de la Sierra,
 3127460,6356501,Monasterio de Rodilla,
@@ -6182,9 +6182,9 @@ parent_code,code,name,aliases
 3127460,6356632,Valdorros,
 3127460,6356634,Vallarta de Bureba,
 3127460,6356694,Valle de las Navas,
-3127460,6356697,Valle de Losa,
+3127460,6356697,Valle de Losa,Lausa Harana
 3127460,6356635,Valle de Manzanedo,
-3127460,6356636,Valle de Mena,
+3127460,6356636,Valle de Mena,Mena Harana
 3127460,6356637,Valle de Oca,
 3127460,6356692,Valle de Santibáñez,
 3127460,6534000,Valle de Sedano,
@@ -6251,38 +6251,38 @@ parent_code,code,name,aliases
 3128759,6356042,Alpens,
 3128759,6533985,Arenys de Mar,
 3128759,6533986,Arenys de Munt,
-3128759,6356044,Argençola,
+3128759,6356044,Argensola,Argençola
 3128759,6356045,Argentona,
 3128759,6356046,Artés,
 3128759,6356047,Avià,
 3128759,6356048,Avinyó,
-3128759,6356049,Avinyonet del Penedès,
+3128759,6356049,Avinyonet del Penedés,
 3128759,6356051,Badalona,
 3128759,6356329,Badia del Vallès,
-3128759,6356052,Bagà,
+3128759,6356052,Bagá,
 3128759,6356053,Balenyà,
 3128759,6356054,Balsareny,
-3128759,6356273,Barberà del Vallès,
+3128759,6356273,Barberá del Vallés,
 3128759,6356055,Barcelona,
-3128759,6356056,Begues,
+3128759,6356056,Begas,Begues
 3128759,6356057,Bellprat,
 3128759,6356058,Berga,
-3128759,6356059,Bigues i Riells,
+3128759,6356059,Bigas,Bigues i Riells
 3128759,6356060,Borredà,
-3128759,6356064,Cabrera d'Anoia,
+3128759,6356064,Cabrera de Igualada,Cabrera d'Anoia
 3128759,6356065,Cabrera de Mar,
 3128759,6356066,Cabrils,
 3128759,6356067,Calaf,
+3128759,6356068,Caldas de Montbui,Caldes de Montbui
 3128759,6356069,Calders,
 3128759,6533987,Caldes d'Estrac,
-3128759,6356068,Caldes de Montbui,
 3128759,6533988,Calella,
 3128759,6356071,Calldetenes,
 3128759,6356072,Callús,
 3128759,6356070,Calonge de Segarra,
 3128759,6356073,Campins,
 3128759,6533989,Canet de Mar,
-3128759,6356074,Canovelles,
+3128759,6356074,Canovellas,Canovelles
 3128759,6356075,Cànoves i Samalús,
 3128759,6356076,Canyelles,
 3128759,6356077,Capellades,
@@ -6294,14 +6294,14 @@ parent_code,code,name,aliases
 3128759,6356089,Castell de l'Areny,
 3128759,6356084,Castellar de n'Hug,
 3128759,6356083,Castellar del Riu,
-3128759,3125908,Castellar del Vallès,
+3128759,3125908,Castellar del Vallés,
 3128759,6356085,Castellbell i el Vilar,
 3128759,6356086,Castellbisbal,
 3128759,6356087,Castellcir,
 3128759,6356088,Castelldefels,
-3128759,6356090,Castellet i la Gornal,
+3128759,6356090,Castellet y Gornal,Castellet i la Gornal
 3128759,6356092,Castellfollit de Riubregós,
-3128759,6356091,Castellfollit del Boix,
+3128759,6356091,Castellfullit del Boix,Castellfollit del Boix
 3128759,6356093,Castellgalí,
 3128759,6356094,Castellnou de Bages,
 3128759,6356095,Castellolí,
@@ -6309,15 +6309,13 @@ parent_code,code,name,aliases
 3128759,6356097,Castellví de la Marca,
 3128759,6356098,Castellví de Rosanes,
 3128759,6356099,Centelles,
-3128759,6356287,Cercs,
-3128759,6356285,Cerdanyola del Vallès,
 3128759,6356100,Cervelló,
 3128759,6356101,Collbató,
 3128759,6356102,Collsuspina,
 3128759,6356103,Copons,
 3128759,6356104,Corbera de Llobregat,
-3128759,6356105,Cornellà de Llobregat,
-3128759,6356106,Cubelles,
+3128759,6356105,Cornellá de Llobregat,
+3128759,6356106,Cubellas,Cubelles
 3128759,6356107,Dosrius,
 3128759,6356061,el Bruc,
 3128759,6356062,el Brull,
@@ -6328,24 +6326,24 @@ parent_code,code,name,aliases
 3128759,6356189,els Hostalets de Pierola,
 3128759,6356196,els Prats de Rei,
 3128759,6356108,Esparreguera,
-3128759,6356109,Esplugues de Llobregat,
-3128759,6356163,Figaró-Montmany,
+3128759,6356109,Esplugas de Llobregat,Esplugues de Llobregat
+3128759,6356163,Figaró,Figaró-Montmany|el Figueró i Montmany
 3128759,6356112,Fígols,
 3128759,6533990,Fogars de la Selva,
 3128759,6356113,Fogars de Montclús,
 3128759,6356114,Folgueroles,
 3128759,6356115,Fonollosa,
-3128759,6356116,Font-rubí,
-3128759,6356120,Gaià,
+3128759,6356116,Fontrubí,Font-rubí
 3128759,6356117,Gallifa,
 3128759,6356119,Gavà,
+3128759,6356120,Gayá,Gaià
 3128759,6356121,Gelida,
 3128759,6356122,Gironella,
 3128759,6356123,Gisclareny,
 3128759,6356125,Granera,
 3128759,6356126,Granollers,
 3128759,6356127,Gualba,
-3128759,6356129,Guardiola de Berguedà,
+3128759,6356129,Guardiola de Berga,Guardiola de Berguedà
 3128759,6356130,Gurb,
 3128759,6356132,Igualada,
 3128759,6356133,Jorba,
@@ -6371,8 +6369,8 @@ parent_code,code,name,aliases
 3128759,6356146,les Masies de Voltregà,
 3128759,6356137,Lliçà d'Amunt,
 3128759,6356138,Lliçà de Vall,
-3128759,6356136,Llinars del Vallès,
-3128759,6356139,Lluçà,
+3128759,6356136,Llinás del Vallés,Llinars del Vallès
+3128759,6356139,Llusá,Lluçà
 3128759,6533991,Malgrat de Mar,
 3128759,6356140,Malla,
 3128759,6356141,Manlleu,
@@ -6385,31 +6383,31 @@ parent_code,code,name,aliases
 3128759,6356149,Matadepera,
 3128759,6356150,Mataró,
 3128759,6356151,Mediona,
-3128759,6356167,Moià,
-3128759,6356152,Molins de Rei,
+3128759,6356152,Molins de Rey,Molins de Rei
 3128759,6356153,Mollet del Vallès,
+3128759,6356154,Moncada y Reixach,Montcada i Reixac
 3128759,6356157,Monistrol de Calders,
 3128759,6356156,Monistrol de Montserrat,
-3128759,6356154,Montcada i Reixac,
 3128759,6356159,Montclar,
 3128759,6356160,Montesquiu,
 3128759,6356155,Montgat,
 3128759,6356161,Montmajor,
 3128759,6356162,Montmaneu,
 3128759,6356164,Montmeló,
-3128759,6356165,Montornès del Vallès,
+3128759,6356165,Montornés del Vallés,
 3128759,6356166,Montseny,
+3128759,6356167,Moyá,Moià
 3128759,6356158,Muntanyola,
 3128759,6356168,Mura,
 3128759,6356169,Navarcles,
-3128759,6356170,Navàs,
-3128759,6356172,Òdena,
-3128759,3115175,Olèrdola,
+3128759,6356170,Navàs,Navars
+3128759,6356172,Ódena,
+3128759,3115175,Olérdola,
 3128759,6356174,Olesa de Bonesvalls,
 3128759,6356175,Olesa de Montserrat,
 3128759,6356176,Olivella,
 3128759,6356177,Olost,
-3128759,6356173,Olvan,
+3128759,6356173,Olván,
 3128759,6356178,Orís,
 3128759,6356179,Oristà,
 3128759,6356180,Orpí,
@@ -6417,18 +6415,18 @@ parent_code,code,name,aliases
 3128759,6356182,Pacs del Penedès,
 3128759,6533992,Palafolls,
 3128759,6356183,Palau-solità i Plegamans,
-3128759,6356184,Pallejà,
-3128759,6356186,Parets del Vallès,
+3128759,6356184,Pallejá,
+3128759,6356186,Parets,Parets del Vallès
 3128759,6356187,Perafita,
 3128759,6356188,Piera,
 3128759,6533993,Pineda de Mar,
 3128759,6356193,Polinyà,
 3128759,6356194,Pontons,
 3128759,6356197,Prats de Lluçanès,
-3128759,6356252,Premià de Dalt,
-3128759,6356198,Premià de Mar,
-3128759,6356200,Puig-reig,
+3128759,6356252,Premiá de Dalt,
+3128759,6356198,Premiá de Mar,
 3128759,6356199,Puigdàlber,
+3128759,6356200,Puigreig,Puig-reig
 3128759,6356201,Pujalt,
 3128759,6356203,Rajadell,
 3128759,6356204,Rellinars,
@@ -6438,37 +6436,45 @@ parent_code,code,name,aliases
 3128759,6356210,Rubió,
 3128759,6356326,Rupit i Pruit,
 3128759,6356211,Sabadell,
-3128759,6356212,Sagàs,
+3128759,6356212,Sagás,
 3128759,6356214,Saldes,
-3128759,6356215,Sallent,
+3128759,6356215,Sallent de Llobregat,Sallent
+3128759,6356216,Sampedor,Santpedor
+3128759,6356219,San Andrés de la Barca,Sant Andreu de la Barca
+3128759,6356220,San Andrés de Llavaneras,Sant Andreu de Llavaneres
+3128759,6356223,San Baudilio de Llobregat,Sant Boi de Llobregat
+3128759,6356225,San Celoni,Sant Celoni
+3128759,6356226,San Clemente de Llobregat,Sant Climent de Llobregat
+3128759,6356227,San Cugat del Vallés,Sant Cugat del Vallès
+3128759,6356233,San Feliú de Llobregat,Sant Feliu de Llobregat
+3128759,6356235,San Fructuoso de Bages,Sant Fruitós de Bages
+3128759,6356237,San Hipólito de Voltregá,Sant Hipòlit de Voltregà
+3128759,6356239,San Juan Despí,Sant Joan Despí
+3128759,6356243,San Justo Desvern,Sant Just Desvern
+3128759,6356251,San Mateo de Bages,Sant Mateu de Bages
+3128759,6356253,San Pedro de Ribas,Sant Pere de Ribes
+3128759,6356255,San Pedro de Torelló,Sant Pere de Torelló
+3128759,6533996,San Pol de Mar,Sant Pol de Mar
+3128759,6356259,San Quirico de Tarrasa,Sant Quirze del Vallès
+3128759,6356282,San Vicente de Castellet,Sant Vicenç de Castellet
+3128759,6356283,San Vicente dels Horts,Sant Vicenç dels Horts
 3128759,6356217,Sant Adrià de Besòs,
 3128759,6356218,Sant Agustí de Lluçanès,
-3128759,6356219,Sant Andreu de la Barca,
-3128759,6356220,Sant Andreu de Llavaneres,
 3128759,6356221,Sant Antoni de Vilamajor,
 3128759,6356222,Sant Bartomeu del Grau,
-3128759,6356223,Sant Boi de Llobregat,
 3128759,6356224,Sant Boi de Lluçanès,
 3128759,6533995,Sant Cebria de Vallalta,
-3128759,6356225,Sant Celoni,
-3128759,6356226,Sant Climent de Llobregat,
-3128759,6356227,Sant Cugat del Vallès,
 3128759,6356228,Sant Cugat Sesgarrigues,
 3128759,6356229,Sant Esteve de Palautordera,
-3128759,6356230,Sant Esteve Sesrovires,
+3128759,6356230,Sant Esteve Sesrovires,San Esteban de Sasroviras
 3128759,6356232,Sant Feliu de Codines,
-3128759,6356233,Sant Feliu de Llobregat,
 3128759,6356234,Sant Feliu Sasserra,
 3128759,6356231,Sant Fost de Campsentelles,
-3128759,6356235,Sant Fruitós de Bages,
-3128759,6356237,Sant Hipòlit de Voltregà,
 3128759,6533994,Sant Iscle de Vallalta,
 3128759,6356238,Sant Jaume de Frontanyà,
 3128759,6356240,Sant Joan de Vilatorrada,
-3128759,6356239,Sant Joan Despí,
 3128759,6356328,Sant Julià de Cerdanyola,
 3128759,6356242,Sant Julià de Vilatorta,
-3128759,6356243,Sant Just Desvern,
 3128759,6356244,Sant Llorenç d'Hortons,
 3128759,6356245,Sant Llorenç Savall,
 3128759,6356247,Sant Martí d'Albars,
@@ -6476,27 +6482,20 @@ parent_code,code,name,aliases
 3128759,6356248,Sant Martí de Tous,
 3128759,6356249,Sant Martí Sarroca,
 3128759,6356250,Sant Martí Sesgueioles,
-3128759,6356251,Sant Mateu de Bages,
-3128759,6356253,Sant Pere de Ribes,
 3128759,6356254,Sant Pere de Riudebitlles,
-3128759,6356255,Sant Pere de Torelló,
 3128759,6356256,Sant Pere de Vilamajor,
 3128759,6356213,Sant Pere Sallavinera,
-3128759,6533996,Sant Pol de Mar,
 3128759,6356257,Sant Quintí de Mediona,
 3128759,6356258,Sant Quirze de Besora,
-3128759,6356259,Sant Quirze del Vallès,
 3128759,6356260,Sant Quirze Safaja,
 3128759,6356261,Sant Sadurní d'Anoia,
 3128759,6356262,Sant Sadurní d'Osormort,
 3128759,6356128,Sant Salvador de Guardiola,
-3128759,6356282,Sant Vicenç de Castellet,
 3128759,6533998,Sant Vicenç de Montalt,
 3128759,6356284,Sant Vicenç de Torelló,
-3128759,6356283,Sant Vicenç dels Horts,
 3128759,6356264,Santa Cecília de Voltregà,
 3128759,6356265,Santa Coloma de Cervelló,
-3128759,6356266,Santa Coloma de Gramenet,
+3128759,6356266,Santa Coloma de Gramanet,Santa Coloma de Gramenet
 3128759,6356267,Santa Eugènia de Berga,
 3128759,6356268,Santa Eulàlia de Riuprimer,
 3128759,6356269,Santa Eulàlia de Ronçana,
@@ -6505,32 +6504,33 @@ parent_code,code,name,aliases
 3128759,6356272,Santa Margarida i els Monjos,
 3128759,6356279,Santa Maria d'Oló,
 3128759,6356274,Santa Maria de Besora,
+3128759,6356276,Santa María de Marlés,Santa Maria de Merlès
 3128759,6356277,Santa Maria de Martorelles,
-3128759,6356276,Santa Maria de Merlès,
 3128759,6356278,Santa Maria de Miralles,
 3128759,6356280,Santa Maria de Palautordera,
 3128759,6356281,Santa Perpètua de Mogoda,
 3128759,6533997,Santa Susanna,
-3128759,6356216,Santpedor,
+3128759,6356285,Sardañola del Vallés,Cerdanyola del Vallès
 3128759,6356286,Sentmenat,
+3128759,6356287,Serchs,Cercs
 3128759,6356288,Seva,
 3128759,6356289,Sitges,
 3128759,6356290,Sobremunt,
 3128759,6356291,Sora,
 3128759,6356292,Subirats,
-3128759,6356293,Súria,
+3128759,6356293,Suria,
 3128759,6356295,Tagamanent,
 3128759,6356296,Talamanca,
 3128759,6356297,Taradell,
+3128759,6356298,Tarrasa,Terrassa|Terrasa
 3128759,6356294,Tavèrnoles,
 3128759,6356299,Tavertet,
 3128759,6356300,Teià,
-3128759,6356298,Terrassa,
 3128759,6356301,Tiana,
 3128759,6356302,Tona,
 3128759,6533999,Tordera,
 3128759,6356303,Torelló,
-3128759,3107774,Torrelavit,
+3128759,3107774,Torrelavid,Torrelavit
 3128759,6356305,Torrelles de Foix,
 3128759,6356306,Torrelles de Llobregat,
 3128759,6356307,Ullastrell,
@@ -6541,18 +6541,18 @@ parent_code,code,name,aliases
 3128759,6356312,Vallirana,
 3128759,6356313,Vallromanes,
 3128759,6356314,Veciana,
-3128759,6356315,Vic,
+3128759,6356315,Vich,Vic
 3128759,6356316,Vilada,
+3128759,6356317,Viladecaballs,Viladecavalls
 3128759,6356318,Viladecans,
-3128759,6356317,Viladecavalls,
-3128759,6356322,Vilafranca del Penedès,
 3128759,6356323,Vilalba Sasserra,
 3128759,6356320,Vilanova de Sau,
 3128759,6356319,Vilanova del Camí,
 3128759,6356327,Vilanova del Vallès,
-3128759,6356324,Vilanova i la Geltrú,
-3128759,6356236,Vilassar de Dalt,
-3128759,6356241,Vilassar de Mar,
+3128759,6356236,Vilasar de Dalt,Vilassar de Dalt
+3128759,6356241,Vilasar de Mar,Vilassar de Mar
+3128759,6356322,Villafranca del Panadés,Vilafranca del Penedès
+3128759,6356324,Villanueva y Geltrú,Vilanova i la Geltrú
 3128759,6356321,Vilobí del Penedès,
 3128759,6356325,Viver i Serrateix,
 3129138,6355619,Adanero,
@@ -6695,7 +6695,7 @@ parent_code,code,name,aliases
 3129138,6355755,Navaescurial,
 3129138,6355756,Navahondilla,
 3129138,6355757,Navalacruz,
-3129138,6355758,Navalmoral,
+3129138,6355758,Navalmoral de la Sierra,Navalmoral
 3129138,6355759,Navalonguilla,
 3129138,6355760,Navalosa,
 3129138,6355761,Navalperal de Pinares,
@@ -6765,8 +6765,8 @@ parent_code,code,name,aliases
 3129138,6355822,Santa María del Berrocal,
 3129138,6355863,Santa María del Cubillo,
 3129138,6355824,Santa María del Tiétar,
+3129138,6355865,Santiago de Tormes,Santiago del Tormes
 3129138,6355825,Santiago del Collado,
-3129138,6355865,Santiago del Tormes,
 3129138,6355826,Santo Domingo de las Posadas,
 3129138,6355827,Santo Tomé de Zabarcos,
 3129138,6355829,"Serrada, La",
@@ -6803,106 +6803,106 @@ parent_code,code,name,aliases
 3129138,6355859,Vita,
 3129138,6355860,Zapardiel de la Cañada,
 3129138,6355861,Zapardiel de la Ribera,
-3130717,6355278,Agurain / Salvatierra,Salvatierra/Agurain
-3130717,6355250,Aiara / Ayala,Ayala/Aiara
+3130717,6355243,Alegría,Dulantzi / Alegría|Alegria-Dulantzi|Alegría de Álava|Dulantzi
 3130717,6355244,Amurrio,
 3130717,6355277,Añana,
 3130717,6355245,Aramaio,
 3130717,6355247,Armiñón,
-3130717,6355270,Arraia-Maeztu,
 3130717,6355248,Arratzua-Ubarrundia,
+3130717,6355270,Arraya-Maestu,Arraia-Maeztu
 3130717,6355246,Artziniega,
 3130717,6355249,Asparrena,
+3130717,6355250,Ayala,Aiara / Ayala|Ayala/Aiara|Aiara
+3130717,6355251,Baños de Ebro,Mañueta / Baños de Ebro|Banos de Ebro/Manueta|Mañueta
 3130717,6355252,Barrundia,
-3130717,6355263,Bastida / Labastida,Labastida
 3130717,6355253,Berantevilla,
 3130717,6355254,Bernedo,
-3130717,6355261,Bilar / Elvillar,Elvillar/Bilar
-3130717,6355259,Burgelu / Elburgo,
-3130717,6355280,Donemiliaga / San Millán,
-3130717,6355243,Dulantzi / Alegría,Alegria-Dulantzi
-3130717,6355260,Elciego,
-3130717,6355276,Erribera Beitia / Ribera Baja,
-3130717,6355275,Erriberagoitia / Ribera Alta,Ribera Alta
-3130717,6355284,Eskuernaga / Villabuena de Álava,Villabuena de Alava
-3130717,6355286,Gasteiz / Vitoria,Vitoria-Gasteiz
-3130717,6355282,Gaubea / Valdegovía,Valdegovia
-3130717,6355283,Harana / Valle de Arana,Harana/Valle de Arana
-3130717,6355287,Iekora / Yécora,Yecora/Iekora
-3130717,6355291,Iruña Oka / Iruña de Oca,Iruna Oka/Iruna de Oca
+3130717,6355255,Campezo,Kanpezu / Campezo|Campezo/Kanpezu|Kanpezu
+3130717,6355256,Cigoitia,Zigoitia
+3130717,6355259,Elburgo,Burgelu / Elburgo
+3130717,6355260,Elciego,Eltziego
+3130717,6355261,Elvillar,Bilar / Elvillar|Elvillar/Bilar|Bilar
+3130717,6355291,Iruña de Oca,Iruña Oka / Iruña de Oca|Iruna Oka/Iruna de Oca|Iruña Oka
 3130717,6355262,Iruraiz-Gauna,
-3130717,6355255,Kanpezu / Campezo,Campezo/Kanpezu
 3130717,6355257,Kripan,
 3130717,6355258,Kuartango,
+3130717,6355263,Labastida,Bastida / Labastida|Bastida
 3130717,6355264,Lagrán,
 3130717,6355265,Laguardia,
+3130717,6355266,Lanciego,Lantziego / Lanciego|Lanciego/Lantziego|Lantziego
 3130717,6355292,Lantarón,
-3130717,6355266,Lantziego / Lanciego,Lanciego/Lantziego
 3130717,6355267,Lapuebla de Labarca,
-3130717,6355269,Laudio / Llodio,Laudio/Llodio
-3130717,6355285,Legutio,Legutiano
 3130717,6355268,Leza,
-3130717,6355251,Mañueta / Baños de Ebro,Banos de Ebro/Manueta
-3130717,6355271,Moreda Araba / Moreda de Álava,Moreda de Alava
+3130717,6355269,Llodio,Laudio / Llodio|Laudio/Llodio|Laudio
+3130717,6355271,Moreda de Álava,Moreda Araba / Moreda de Álava|Moreda Araba
 3130717,6355272,Navaridas,
-3130717,6355273,Oion / Oyón,Oyon-Oion
-3130717,3115024,Okondo,
+3130717,3115024,Oquendo,Okondo
+3130717,6355273,Oyón,Oion / Oyón|Oyon-Oion|Oion
+3130717,6355274,Peñacerrada,Urizaharra / Peñacerrada|Penacerrada-Urizaharra|Urizaharra
+3130717,6355275,Ribera Alta,Erriberagoitia / Ribera Alta|Erriberagoitia
+3130717,6355276,Ribera Baja,Erribera Beitia / Ribera Baja|Erribera Beitia
+3130717,6355278,Salvatierra,Agurain / Salvatierra|Salvatierra/Agurain|Agurain
 3130717,6355279,Samaniego,
-3130717,6355274,Urizaharra / Peñacerrada,Penacerrada-Urizaharra
-3130717,6355281,Urkabustaiz,
+3130717,6355280,San Millán,Donemiliaga / San Millán|Donemiliaga
+3130717,6355281,Urcabustaiz,Urkabustaiz
+3130717,6355282,Valdegovía,Gaubea / Valdegovía|Gaubea
+3130717,6355283,Valle de Arana,Harana / Valle de Arana|Harana/Valle de Arana|Harana
+3130717,6355284,Villabuena de Álava,Eskuernaga / Villabuena de Álava|Eskuernaga
+3130717,6355285,Villarreal de Álava,Legutio|Legutiano
+3130717,6355286,Vitoria,Gasteiz / Vitoria|Vitoria-Gasteiz|Gasteiz
+3130717,6355287,Yécora,Iekora / Yécora|Yecora/Iekora|Iekora
 3130717,6355288,Zalduondo,
-3130717,6355289,Zambrana,
-3130717,6355256,Zigoitia,
+3130717,6355289,Zambrana,Zanbrana
 3130717,6355290,Zuia,
 6355230,6534002,Agullana,
 6355230,6534003,Aiguaviva,
-6355230,6534004,Albanyà,
+6355230,6534004,Albañá,Albanyà
 6355230,6534005,Albons,
 6355230,6357595,Alp,
 6355230,6534007,Amer,
 6355230,6534008,Anglès,
-6355230,6357596,Arbúcies,
+6355230,6357596,Arbucias,Arbúcies
 6355230,6534009,Argelaguer,
-6355230,6534011,Avinyonet de Puigventós,
-6355230,6534014,Banyoles,
+6355230,6534011,Aviñonet de Puig Ventós,Avinyonet de Puigventós|Avinyonet
+6355230,6534014,Bañolas,Banyoles
 6355230,6534015,Bàscara,
 6355230,6534012,Begur,
 6355230,6534016,Bellcaire d'Empordà,
 6355230,6534017,Besalú,
 6355230,6534018,Bescanó,
 6355230,6534019,Beuda,
-6355230,6534038,Biure,
 6355230,6534021,Blanes,
-6355230,6534026,Boadella i les Escaules,
 6355230,6357597,Bolvir,
 6355230,6534022,Bordils,
 6355230,6534023,Borrassà,
 6355230,6534024,Breda,
 6355230,6534025,Brunyola,
-6355230,6534028,Cabanelles,
+6355230,6534026,Buadella,Boadella i les Escaules
+6355230,6534028,Cabanellas,Cabanelles
 6355230,6534027,Cabanes,
 6355230,6534029,Cadaqués,
-6355230,6534030,Caldes de Malavella,
+6355230,6534030,Caldes de Malavella,Caldas de Malavella
 6355230,6534031,Calonge,
 6355230,6534032,Camós,
 6355230,6357598,Campdevànol,
 6355230,6357599,Campelles,
 6355230,6534033,Campllong,
-6355230,6357600,Camprodon,
+6355230,6357600,Camprodón,
 6355230,6534034,Caner d'Adri,
 6355230,6534035,Cantallops,
-6355230,6534036,Capmany,
-6355230,6534037,Cassà de la Selva,
+6355230,6534036,Capmany,Campmany
+6355230,6534037,Cassá de la Selva,
 6355230,6534041,Castell-Platja d'Aro,
-6355230,6534039,Castellfollit de la Roca,
+6355230,6534039,Castellfullit de la Roca,Castellfollit de la Roca
 6355230,6534040,Castelló d'Empúries,
 6355230,6534043,Celrà,
 6355230,6534044,Cervià de Ter,
 6355230,6534045,Cistella,
+6355230,6534149,Ciurana,Siurana
 6355230,6534046,Colera,
 6355230,6534047,Colomers,
-6355230,6534048,Corçà,
 6355230,6534049,Cornellà de Terri,
+6355230,6534048,Corsá,Corçà
 6355230,6534050,Crespià,
 6355230,6534051,"Cruïlles, Monells i Sant Sadurní de l'Heura",
 6355230,6534052,Darnius,
@@ -6912,32 +6912,32 @@ parent_code,code,name,aliases
 6355230,6357603,Espinelves,
 6355230,6534054,Espolla,
 6355230,6534055,Esponellà,
-6355230,6534056,Figueres,
+6355230,6534056,Figueras,Figueres
 6355230,6534057,Flaçà,
-6355230,6534058,Foixà,
+6355230,6534058,Foixá,
 6355230,6357604,Fontanals de Cerdanya,
-6355230,6534059,Fontanilles,
+6355230,6534059,Fontanillas,Fontanilles
 6355230,6534060,Fontcoberta,
 6355230,6534061,Forallac,
 6355230,6534062,Fornells de la Selva,
 6355230,6534063,Fortià,
-6355230,6534064,Garrigàs,
+6355230,6534064,Garrigás,
 6355230,6534065,Garrigoles,
 6355230,6534066,Garriguella,
 6355230,6357605,Ger,
-6355230,6534067,Girona,
+6355230,6534067,Girona,Xirona
 6355230,6357606,Gombrèn,
 6355230,6534068,Gualta,
-6355230,6357607,Guils de Cerdanya,
+6355230,6357607,Guils de Cerdaña,Guils de Cerdanya
 6355230,6534069,Hostalric,
 6355230,6357608,Isòvol,
 6355230,6534070,Jafre,
 6355230,6534072,Juià,
 6355230,6534010,l'Armentera,
 6355230,6534053,l'Escala,
-6355230,6534020,la Bisbal d'Empordà,
+6355230,6534020,La Bisbal dEmporda,la Bisbal d'Empordà
 6355230,6534042,la Cellera de Ter,
-6355230,6534071,la Jonquera,
+6355230,6534071,La Jonquera,
 6355230,6534101,la Pera,
 6355230,6534145,la Selva de Mar,
 6355230,6534150,la Tallada d'Empordà,
@@ -6951,16 +6951,16 @@ parent_code,code,name,aliases
 6355230,6534074,Llagostera,
 6355230,6534075,Llambilles,
 6355230,6357609,Llanars,
-6355230,6534076,Llançà,
+6355230,6534076,Llansá,Llançà
 6355230,6534077,Llers,
-6355230,6357610,Llívia,
+6355230,6357610,Llivia,
 6355230,6534078,Lloret de Mar,
-6355230,6534079,Maçanet de Cabrenys,
-6355230,6534080,Maçanet de la Selva,
 6355230,6534081,Madremanya,
 6355230,6534082,Maià de Montcal,
-6355230,6534083,Masarac,
+6355230,6534083,Masarach,Masarac
 6355230,6534084,Massanes,
+6355230,6534079,Massanet de Cabrenys,Maçanet de Cabrenys
+6355230,6534080,Massanet de la Selva,Maçanet de la Selva
 6355230,6357612,Meranges,
 6355230,6534085,Mieres,
 6355230,6534086,Mollet de Peralada,
@@ -6983,7 +6983,7 @@ parent_code,code,name,aliases
 6355230,6534098,Parlavà,
 6355230,6534099,Pau,
 6355230,6534100,Pedret i Marzà,
-6355230,6534102,Peralada,
+6355230,6534102,Perelada,Peralada
 6355230,6357618,Planoles,
 6355230,6534104,Pont de Molins,
 6355230,6534105,Pontós,
@@ -6994,42 +6994,42 @@ parent_code,code,name,aliases
 6355230,6357601,Queralbs,
 6355230,6534110,Rabós,
 6355230,6534111,Regencós,
-6355230,6357621,Ribes de Freser,
+6355230,6357621,Ribas de Freser,Ribes de Freser
 6355230,6357622,Riells i Viabrea,
 6355230,6357623,Ripoll,
 6355230,6534112,Riudarenes,
 6355230,6357624,Riudaura,
 6355230,6534113,Riudellots de la Selva,
 6355230,6534114,Riumors,
-6355230,6534115,Roses,
+6355230,6534115,Rosas,Roses
 6355230,6534116,Rupià,
 6355230,6534117,Sales de Llierca,
 6355230,6534118,Salt,
+6355230,6534121,San Clemente Sasebas,Sant Climent Sescebes
+6355230,6534123,San Feliu de Guíxols,Sant Feliu de Guíxols
+6355230,6357626,San Hilario Sacalm,Sant Hilari Sacalm
+6355230,6357627,San Juan de las Abadesas,Sant Joan de les Abadesses
+6355230,6534128,San Juan les Fonts,Sant Joan les Fonts
+6355230,6534132,San Lorenzo de la Muga,Sant Llorenç de la Muga
+6355230,6534136,San Miguel de Fluviá,Sant Miquel de Fluvià
+6355230,6534137,San Mori,Sant Mori
+6355230,6534138,San Pedro Pescador,Sant Pere Pescador
 6355230,6534119,Sant Andreu Salou,
 6355230,6534120,Sant Aniol de Finestres,
-6355230,6534121,Sant Climent Sescebes,
 6355230,6534122,Sant Feliu de Buixalleu,
-6355230,6534123,Sant Feliu de Guíxols,
 6355230,6357625,Sant Feliu de Pallerols,
 6355230,6534124,Sant Ferriol,
 6355230,6534125,Sant Gregori,
-6355230,6357626,Sant Hilari Sacalm,
 6355230,6534126,Sant Jaume de Llierca,
-6355230,6357627,Sant Joan de les Abadesses,
 6355230,6534127,Sant Joan de Mollet,
-6355230,6534128,Sant Joan les Fonts,
 6355230,6534129,Sant Jordi Desvalls,
-6355230,6534130,Sant Julià de Ramis,
+6355230,6534130,Sant Julia de Ramis,San Julián de Ramis
 6355230,6534131,Sant Julià del Llor i Bonmatí,
-6355230,6534132,Sant Llorenç de la Muga,
 6355230,6534133,Sant Martí de Llémena,
 6355230,6534134,Sant Martí Vell,
 6355230,6534135,Sant Miquel de Campmajor,
-6355230,6534136,Sant Miquel de Fluvià,
-6355230,6534137,Sant Mori,
 6355230,6357629,Sant Pau de Segúries,
-6355230,6534138,Sant Pere Pescador,
-6355230,6534139,Santa Coloma de Farners,
+6355230,6534139,Santa Coloma de Farnés,Santa Coloma de Farners
 6355230,6534140,Santa Cristina d'Aro,
 6355230,6534141,Santa Llogaia d'Àlguema,
 6355230,6534142,Santa Pau,
@@ -7039,11 +7039,10 @@ parent_code,code,name,aliases
 6355230,6534147,Serra de Daró,
 6355230,6357630,Setcases,
 6355230,6534148,Sils,
-6355230,6534149,Siurana,
 6355230,6357631,Susqueda,
-6355230,6534151,Terrades,
+6355230,6534151,Terradas,Terrades
 6355230,6534152,Torrent,
-6355230,6534153,Torroella de Fluvià,
+6355230,6534153,Torroella de Fluviá,
 6355230,6534154,Torroella de Montgrí,
 6355230,6534155,Tortellà,
 6355230,6357632,Toses,
@@ -7057,7 +7056,7 @@ parent_code,code,name,aliases
 6355230,6534161,Ventalló,
 6355230,6534162,Verges,
 6355230,6357636,Vidrà,
-6355230,6534163,Vidreres,
+6355230,6534163,Vidreras,Vidreres
 6355230,6534175,Vila-sacra,
 6355230,6534164,Vilabertran,
 6355230,6534165,Vilablareix,
@@ -7065,7 +7064,7 @@ parent_code,code,name,aliases
 6355230,6534167,Viladasens,
 6355230,6534168,Vilademuls,
 6355230,6357637,Viladrau,
-6355230,6534169,Vilafant,
+6355230,6534169,Vilafan,Vilafant
 6355230,6534170,Vilajuïga,
 6355230,6357638,Vilallonga de Ter,
 6355230,6534171,Vilamacolum,
@@ -7075,8 +7074,9 @@ parent_code,code,name,aliases
 6355230,6534176,Vilaür,Vilauer
 6355230,6534177,Vilobí d'Onyar,
 6355230,6534178,Vilopriu,
+6355230,6534038,Viure,Biure
 6355231,6358761,Abella de la Conca,
-6355231,6358762,Àger,
+6355231,6358762,Ager,
 6355231,6358763,Agramunt,
 6355231,6358795,Aitona,
 6355231,6358765,Alàs i Cerc,
@@ -7096,6 +7096,7 @@ parent_code,code,name,aliases
 6355231,6358781,Alòs de Balaguer,
 6355231,6358782,Alpicat,
 6355231,6358783,Alt Àneu,
+6355231,6358784,Alto Arán,Naut Aran
 6355231,6358785,Anglesola,
 6355231,6358786,Arbeca,
 6355231,6358788,Arres,
@@ -7106,7 +7107,7 @@ parent_code,code,name,aliases
 6355231,6358796,Baix Pallars,
 6355231,6358797,Balaguer,
 6355231,6358798,Barbens,
-6355231,6358801,Bassella,
+6355231,6358801,Basella,Bassella
 6355231,6358802,Bausen,
 6355231,6358803,Belianes,
 6355231,6358805,Bell-lloc d'Urgell,
@@ -7114,7 +7115,7 @@ parent_code,code,name,aliases
 6355231,6358804,Bellcaire d'Urgell,
 6355231,6358806,Bellmunt d'Urgell,
 6355231,6358807,Bellpuig,
-6355231,6358808,Bellver de Cerdanya,
+6355231,6358808,Bellver de Cerdaña,Bellver de Cerdanya
 6355231,6358809,Bellvís,
 6355231,6358810,Benavent de Segrià,
 6355231,6358811,Biosca,
@@ -7143,7 +7144,7 @@ parent_code,code,name,aliases
 6355231,6358898,el Palau d'Anglesola,
 6355231,6358905,el Poal,
 6355231,6358787,el Pont de Bar,
-6355231,6358910,el Pont de Suert,
+6355231,6358910,El Pont de Suert,
 6355231,6358936,el Soleràs,
 6355231,6358975,el Vilosell,
 6355231,6358764,els Alamús,
@@ -7176,7 +7177,7 @@ parent_code,code,name,aliases
 6355231,6358858,Ivars d'Urgell,
 6355231,6358857,Ivars de Noguera,
 6355231,6358859,Ivorra,
-6355231,6358987,Josa i Tuixén,
+6355231,6358987,Josá Tuixent,Josa i Tuixén
 6355231,6358861,Juncosa,
 6355231,6358862,Juneda,
 6355231,6358766,l'Albagés,
@@ -7198,28 +7199,28 @@ parent_code,code,name,aliases
 6355231,6358955,la Torre de Cabdella,
 6355231,6358800,la Vall de Boí,
 6355231,6358986,la Vansa i Fórnols,
+6355231,6358863,Lérida,Lleida
 6355231,6362989,Les,
 6355231,6358794,les Avellanes i Santa Linya,
 6355231,6358814,les Borges Blanques,
 6355231,6358892,les Oluges,
 6355231,6358983,les Valls d'Aguilar,
 6355231,6358963,les Valls de Valira,
-6355231,6358864,Linyola,
+6355231,6358864,Liñola,Linyola
 6355231,6358865,Lladorre,
 6355231,6358866,Lladurs,
 6355231,6358867,Llardecans,
 6355231,6358868,Llavorsí,
-6355231,6358863,Lleida,
 6355231,6358869,Lles de Cerdanya,
 6355231,6358870,Llimiana,
 6355231,6358871,Llobera,
-6355231,6358875,Maials,
 6355231,6358872,Maldà,
 6355231,6358873,Massalcoreig,
 6355231,6358874,Massoteres,
+6355231,6358875,Mayals,Maials
 6355231,6358876,Menàrguens,
 6355231,6358877,Miralcamp,
-6355231,6358879,Mollerussa,
+6355231,6358879,Mollerusa,Mollerussa
 6355231,6358881,Montellà i Martinet,
 6355231,6358882,Montferrer i Castellbò,
 6355231,6358880,Montgai,
@@ -7227,9 +7228,8 @@ parent_code,code,name,aliases
 6355231,6358883,Montoliu de Segarra,
 6355231,6358885,Montornès de Segarra,
 6355231,6358886,Nalec,
-6355231,6358784,Naut Aran,
 6355231,6358887,Navès,
-6355231,6358888,Odèn,
+6355231,6358888,Odén,
 6355231,6358889,Oliana,
 6355231,6358890,Oliola,
 6355231,6358891,Olius,
@@ -7265,7 +7265,7 @@ parent_code,code,name,aliases
 6355231,6358931,Sarroca de Bellera,
 6355231,6358930,Sarroca de Lleida,
 6355231,6358932,Senterada,
-6355231,6358934,Seròs,
+6355231,6358934,Serós,
 6355231,6358935,Sidamon,
 6355231,6358937,Solsona,
 6355231,6358938,Soriguera,
@@ -7275,7 +7275,7 @@ parent_code,code,name,aliases
 6355231,6358942,Sunyer,
 6355231,6358943,Talarn,
 6355231,6358944,Talavera,
-6355231,6358945,Tàrrega,
+6355231,6358945,Tárrega,
 6355231,6358946,Tarrés,
 6355231,6358947,Tarroja de Segarra,
 6355231,6358948,Térmens,
@@ -7286,7 +7286,7 @@ parent_code,code,name,aliases
 6355231,6358960,Torre-serona,
 6355231,6358954,Torrebesses,
 6355231,6358956,Torrefarrera,
-6355231,6358984,Torrefeta i Florejacs,
+6355231,6358984,Torreflor,Torrefeta i Florejacs
 6355231,6358957,Torregrossa,
 6355231,6358958,Torrelameu,
 6355231,6358959,Torres de Segre,
@@ -7295,7 +7295,7 @@ parent_code,code,name,aliases
 6355231,6358962,Vallbona de les Monges,
 6355231,6358964,Vallfogona de Balaguer,
 6355231,6358965,Verdú,
-6355231,6358966,Vielha e Mijaran,
+6355231,6358966,Viella Mitg Arán,Vielha e Mijaran
 6355231,6358974,Vila-sana,
 6355231,6358967,Vilagrassa,
 6355231,7577093,Vilaller,
@@ -7502,7 +7502,7 @@ parent_code,code,name,aliases
 6355233,6359247,"Berrueco, El",
 6355233,6359246,Berzosa del Lozoya,
 6355233,6359248,Boadilla del Monte,
-6355233,6359250,Braojos,
+6355233,6359250,Braojos de la Sierra,Braojos
 6355233,6359251,Brea de Tajo,
 6355233,6359252,Brunete,
 6355233,6359253,Buitrago del Lozoya,
@@ -7533,7 +7533,7 @@ parent_code,code,name,aliases
 6355233,6359276,Cubas de la Sagra,
 6355233,6359279,Daganzo de Arriba,
 6355233,6359249,El Boalo,
-6355233,6359280,"Escorial, El",
+6355233,6359280,El Escorial,"Escorial, El"
 6355233,6359281,Estremera,
 6355233,6359282,Fresnedillas de la Oliva,
 6355233,6359283,Fresno de Torote,
@@ -7544,12 +7544,12 @@ parent_code,code,name,aliases
 6355233,6359288,Garganta de los Montes,
 6355233,6359289,Gargantilla del Lozoya y Pinilla de Buitrago,
 6355233,6359290,Gascones,
-6355233,6359291,Getafe,
+6355233,6359291,Getafe,Xetafe
 6355233,6359292,Griñón,
 6355233,6359293,Guadalix de la Sierra,
 6355233,6359294,Guadarrama,
 6355233,6359295,"Hiruela, La",
-6355233,6359296,Horcajo de la Sierra-Aoslos,
+6355233,6359296,Horcajo de la Sierra-Aoslos,Horcajo de la Sierra
 6355233,6359297,Horcajuelo de la Sierra,
 6355233,6359298,Hoyo de Manzanares,
 6355233,6359299,Humanes de Madrid,
@@ -7659,7 +7659,7 @@ parent_code,code,name,aliases
 6355233,6359400,Villaviciosa de Odón,
 6355233,6359401,Villavieja del Lozoya,
 6355233,6359402,Zarzalejo,
-6355234,6359506,Abanilla,
+6355234,6359506,Abanilla,Favanella
 6355234,6359507,Abarán,
 6355234,6359508,Águilas,
 6355234,6359509,Albudeite,
@@ -7675,30 +7675,30 @@ parent_code,code,name,aliases
 6355234,6359518,Calasparra,
 6355234,6359519,Campos del Río,
 6355234,6359520,Caravaca de la Cruz,
-6355234,6359521,Cartagena,
+6355234,6359521,Cartagena,Cartaxena
 6355234,6359522,Cehegín,
 6355234,6359523,Ceutí,
 6355234,6359524,Cieza,
 6355234,6359525,Fortuna,
 6355234,6359526,Fuente Álamo de Murcia,
-6355234,6359527,Jumilla,
+6355234,6359527,Jumilla,Jumella
 6355234,6359542,Las Torres de Cotillas,
 6355234,6359528,Librilla,
-6355234,6359529,Lorca,
+6355234,6359529,Lorca,Llorca
 6355234,6359530,Lorquí,
 6355234,6359531,Mazarrón,
 6355234,6359532,Molina de Segura,
 6355234,6359533,Moratalla,
 6355234,6359534,Mula,
-6355234,6362997,Murcia,
+6355234,6362997,Murcia,Murtzia
 6355234,6359535,Ojós,
 6355234,6359536,Pliego,
 6355234,6359537,Puerto Lumbreras,
 6355234,6359538,Ricote,
 6355234,6359539,San Javier,
-6355234,6359540,San Pedro del Pinatar,
+6355234,6359540,San Pedro del Pinatar,Sant Pere del Pinatar
 6355234,6359548,Santomera,
-6355234,6359541,Torre-Pacheco,
+6355234,6359541,Torre-Pacheco,Torre Pacheco
 6355234,6359543,Totana,
 6355234,6359544,Ulea,
 6355234,6359545,"Unión, La",
@@ -7711,118 +7711,116 @@ parent_code,code,name,aliases
 6355235,6359554,Aberin,
 6355235,6359555,Ablitas,
 6355235,6359556,Adiós,
-6355235,6359557,Aguilar de Codés,
-6355235,6359558,Aibar/Oibar,
-6355235,6359560,Allín/Allin,
+6355235,6359557,Aguilar de Codés,Aguilar Kodes
+6355235,6359558,Aibar,Aibar/Oibar|Oibar
+6355235,6359560,Allín/Allin,Allin
 6355235,6359561,Allo,
 6355235,6359559,Altsasu/Alsasua,
-6355235,6359562,Améscoa Baja,
-6355235,6359563,Ancín / Antzin,
+6355235,6359562,Améscoa Baja,Ameskoabarrena
+6355235,6359563,Ancín / Antzin,Antzin
 6355235,6359564,Andosilla,
 6355235,6359567,Añorbe,
-6355235,6359565,Ansoáin / Antsoain,
-6355235,6359566,Anue,
-6355235,6359568,Aoiz/Agoitz,
-6355235,6359569,Araitz,
-6355235,6359574,Arakil,
-6355235,6359570,Aranarache / Aranaratxe,
+6355235,6359565,Ansoáin,Ansoáin / Antsoain|Antsoain
+6355235,6359566,Anué,
+6355235,6359568,Aoiz,Aoiz/Agoitz|Agoitz
+6355235,6359569,Araiz,Araitz
+6355235,6359570,Aranarache,Aranarache / Aranaratxe|Aranaratxe
+6355235,6359571,Aranaz,Arantza
 6355235,6359572,Aranguren,
 6355235,6359573,Arano,
-6355235,6359571,Arantza,
+6355235,6359574,Araquil,Arakil
 6355235,6359575,Aras,
 6355235,6359576,Arbizu,
-6355235,6359577,Arce/Artzi,
+6355235,6359577,Arce,Arce/Artzi|Artzi|Artzibar
 6355235,6359578,"Arcos, Los",
 6355235,6359579,Arellano,
 6355235,6359580,Areso,
 6355235,6359581,Arguedas,
 6355235,6359582,Aria,
-6355235,6359583,Aribe,
-6355235,6359584,Armañanzas,
-6355235,6359585,Arróniz,
+6355235,6359583,Arive,Aribe
+6355235,6359584,Armañanzas,Armañantzas
+6355235,6359585,Arróniz,Arroitz
 6355235,6359586,Arruazu,
-6355235,6359587,Artajona,
+6355235,6359587,Artajona,Artaxoa
 6355235,6359588,Artazu,
-6355235,6359589,Atez,
+6355235,6359589,Atez,Atetz
 6355235,6359606,Auritz/Burguete,
-6355235,6359590,Ayegui / Aiegi,
+6355235,6359590,Ayegui,Ayegui / Aiegi|Aiegi
 6355235,6359591,Azagra,
 6355235,6359592,Azuelo,
-6355235,6359593,Bakaiku,
+6355235,6359593,Bacáicoa,Bakaiku
 6355235,6359813,Barañain,
 6355235,6359594,Barásoain,
 6355235,6359595,Barbarin,
 6355235,6359596,Bargota,
 6355235,6359597,Barillas,
-6355235,6359598,Basaburua,
+6355235,6359598,Basaburúa Mayor,Basaburua
 6355235,3128449,Baztan,
-6355235,6359685,Beintza-Labaien,
+6355235,6359685,Beinza-Labayen,Beintza-Labaien|Labaien
 6355235,6359599,Beire,
 6355235,6359600,Belascoáin,
-6355235,6359797,Bera,
-6355235,6359601,Berbinzana,
+6355235,6359601,Berbinzana,Berbintzana
 6355235,6359816,Beriáin,
 6355235,6359814,Berrioplano/Berriobeiti,
 6355235,6359815,Berriozar,
 6355235,6359602,Bertizarana,
 6355235,6359603,Betelu,
-6355235,6359800,Bidaurreta,
-6355235,6359604,Biurrun-Olcoz,
+6355235,6359604,Biurrun-Olcoz,Biurrun-Olkotz
 6355235,6359605,Buñuel,
-6355235,6359607,Burgui/Burgi,
-6355235,6359608,Burlada/Burlata,
+6355235,6359607,Burgui,Burgui/Burgi|Burgi
+6355235,6359608,Burlada,Burlada/Burlata|Burlata
 6355235,6359609,"Busto, El",
 6355235,6359610,Cabanillas,
 6355235,6359611,Cabredo,
 6355235,6359612,Cadreita,
-6355235,6359613,Caparroso,
+6355235,6359613,Caparroso,Kaparrotsu
 6355235,6359614,Cárcar,
-6355235,6359615,Carcastillo,
+6355235,6359615,Carcastillo,Zarrakaztelu
 6355235,6359616,Cascante,
 6355235,6359617,Cáseda,
 6355235,6359618,Castejón,
 6355235,6359619,Castillonuevo,
+6355235,6359624,Cendea de Cizur,Cizur|Zizur|Zizur Zendea
 6355235,6359741,Cendea de Olza/Oltza Zendea,
 6355235,6359620,Cintruénigo,
+6355235,6359621,Ciordia,Ziordia
 6355235,6359622,Cirauqui/Zirauki,
 6355235,6359623,Ciriza/Ziritza,
-6355235,6359624,Cizur,
-6355235,6359625,Corella,
-6355235,6359626,Cortes,
-6355235,6359627,Desojo,
+6355235,6359625,Corella,Korella
+6355235,6359626,Cortes de Navarra,Cortes
+6355235,6359627,Desojo,Desoio
 6355235,6359628,Dicastillo,
-6355235,6359629,Donamaria,
+6355235,6359629,Donamaría,
 6355235,6359768,Doneztebe-Santesteban,
+6355235,6359630,Echalar,Etxalar
 6355235,6359631,Echarri,
-6355235,6359634,Egüés,Eguees
+6355235,6359633,Echauri,Etxauri
 6355235,6359635,Elgorriaga,
 6355235,6359637,Enériz/Eneritz,
-6355235,6359638,Eratsun,
-6355235,6359639,Ergoiena,
+6355235,6359638,Erasun,Eratsun
+6355235,6359639,Ergoyena,Ergoiena
 6355235,6359640,Erro,
-6355235,6359642,Eslava,
-6355235,6359643,Esparza de Salazar/Espartza Zaraitzu,
-6355235,6359644,Espronceda,
+6355235,6359642,Eslava,Eslaba
+6355235,6359643,Esparza de Salazar,Esparza de Salazar/Espartza Zaraitzu|Espartza-Zaraitzu|Espartza Zaraitzu|Espartza
+6355235,6359644,Espronceda,Esprontzeda
 6355235,6359645,Estella-Lizarra,
-6355235,6359646,Esteribar,
-6355235,6359647,Etayo,
-6355235,6359630,Etxalar,
+6355235,6359646,Esteríbar,
+6355235,6359647,Etayo,Etaio|Etaiu
 6355235,6359632,Etxarri-Aranatz,
-6355235,6359633,Etxauri,
 6355235,6359648,Eulate,
-6355235,6359649,Ezcabarte,
+6355235,6359649,Ezcabarte,Ezkabarte
 6355235,6359641,Ezcároz/Ezkaroze,
-6355235,6359650,Ezkurra,
-6355235,6359651,Ezprogui,
-6355235,6359652,Falces,
+6355235,6359650,Ezcurra,Ezkurra
+6355235,6359651,Ezprogui,Ezporogi
+6355235,6359652,Falces,Faltzes
 6355235,6359653,Fitero,
 6355235,6359654,Fontellas,
 6355235,6359655,Funes,
 6355235,6359656,Fustiñana,
 6355235,6359657,Galar,
-6355235,6359658,Gallipienzo/Galipentzu,
+6355235,6359658,Gallipienzo,Gallipienzo/Galipentzu|Galipentzu
 6355235,6359659,Gallués/Galoze,
-6355235,6359660,Garaioa,
+6355235,6359660,Garayoa,Garaioa
 6355235,6359661,Garde,
 6355235,6359662,Garínoain,
 6355235,6359663,Garralda,
@@ -7831,15 +7829,14 @@ parent_code,code,name,aliases
 6355235,6359666,Goñi,
 6355235,6359667,Güesa/Gorza,Gueesa/Gorza
 6355235,6359668,Guesálaz/Gesalatz,
-6355235,6359669,Guirguillano,
+6355235,6359669,Guirguillano,Girgillao
 6355235,6359803,Hiriberri/Villanueva de Aezkoa,
-6355235,6359670,Huarte/Uharte,
+6355235,6359670,Huarte,Huarte/Uharte|Uharte
 6355235,6359672,Ibargoiti,
-6355235,6359806,Igantzi,
 6355235,6359673,Igúzquiza,
-6355235,6359674,Imotz,
+6355235,6359674,Imoz,Imotz
 6355235,6359675,Irañeta,
-6355235,6534179,Irurtzun,
+6355235,6534179,Irurzun,Irurtzun
 6355235,6359676,Isaba/Izaba,
 6355235,6359677,Ituren,
 6355235,6359678,Iturmendi,
@@ -7847,20 +7844,20 @@ parent_code,code,name,aliases
 6355235,6359680,Izagaondoa,
 6355235,6359681,Izalzu/Itzaltzu,
 6355235,6359682,Jaurrieta,
-6355235,6359683,Javier,
+6355235,6359683,Javier,Xabier
 6355235,6359684,Juslapeña,
-6355235,6359686,Lakuntza,
+6355235,6359686,Lacunza,Lakuntza
 6355235,6359687,Lana,
 6355235,6359688,Lantz,
 6355235,6359689,Lapoblación,
 6355235,6359690,Larraga,
-6355235,6359691,Larraona,
-6355235,6359692,Larraun,
+6355235,6359691,Larraona,Larragoa
+6355235,6359692,Larráun,
 6355235,6359693,Lazagurría,
 6355235,6359694,Leache,
 6355235,6359695,Legarda,
 6355235,6359696,Legaria,
-6355235,6359697,Leitza,
+6355235,6359697,Leiza,Leitza
 6355235,6359819,Lekunberri,
 6355235,6359698,Leoz/Leotz,
 6355235,6359699,Lerga,
@@ -7871,20 +7868,20 @@ parent_code,code,name,aliases
 6355235,6359704,Lizoáin-Arriasgoiti,
 6355235,6359705,Lodosa,
 6355235,6359706,Lónguida/Longida,
-6355235,6359707,Lumbier,
-6355235,6359708,Luquin,
+6355235,6359707,Lumbier,Irunberri
+6355235,6359708,Luquin,Lukin
 6355235,6359795,Luzaide/Valcarlos,
 6355235,6359709,Mañeru,
 6355235,6359710,Marañón,
-6355235,6359711,Marcilla,
+6355235,6359711,Marcilla,Martzilla
 6355235,6359712,Mélida,
-6355235,6359713,Mendavia,
+6355235,6359713,Mendavia,Mendabia
 6355235,6359714,Mendaza,
 6355235,6359715,Mendigorría,
 6355235,6359716,Metauten,
 6355235,6359717,Milagro,
 6355235,6359718,Mirafuentes,
-6355235,6359719,Miranda de Arga,
+6355235,6359719,Miranda de Arga,Miranda Arga
 6355235,6359720,Monreal/Elo,
 6355235,6359721,Monteagudo,
 6355235,6359722,Morentin,
@@ -7892,31 +7889,31 @@ parent_code,code,name,aliases
 6355235,6359724,Murchante,
 6355235,6359725,Murieta,
 6355235,6359726,Murillo el Cuende,
-6355235,6359727,Murillo el Fruto,
+6355235,6359727,Murillo el Fruto,Murelu Hautsi
 6355235,6359728,Muruzábal,
 6355235,6359729,Navascués/Nabaskoze,
 6355235,6359730,Nazar,
 6355235,6359636,Noáin (Valle de Elorz)/Noain (Elortzibar),
 6355235,6359731,Obanos,
 6355235,6359733,Ochagavía/Otsagabia,
-6355235,6359732,Oco,
+6355235,6359732,Oco,Oko
 6355235,6359734,Odieta,
 6355235,6359735,Oitz,
 6355235,6359736,Olaibar,
 6355235,6359737,Olazti/Olazagutía,
-6355235,6359738,Olejua,
-6355235,6359739,Olite/Erriberri,
+6355235,6359738,Olejua,Olexoa
+6355235,6359739,Olite,Olite/Erriberri|Erriberri
 6355235,6359742,Ollo,
 6355235,6359740,Olóriz/Oloritz,
-6355235,6359743,Orbaizeta,
+6355235,6359743,Orbaiceta,Orbaizeta
 6355235,6359744,Orbara,
+6355235,6359817,Orcoyen,Orkoien
 6355235,6359745,Orísoain,
-6355235,6359817,Orkoien,
 6355235,6359746,Oronz/Orontze,
-6355235,6359747,Oroz-Betelu/Orotz-Betelu,
+6355235,6359747,Oroz-Betelu,Oroz-Betelu/Orotz-Betelu|Orotz-Betelu
 6355235,6359759,Orreaga/Roncesvalles,
-6355235,6359748,Oteiza,
-6355235,6359749,Pamplona,
+6355235,6359748,Oteiza,Oteitza
+6355235,6359749,Pamplona,Iruña|Iruñea
 6355235,6359750,Peralta/Azkoien,
 6355235,6359751,Petilla de Aragón,
 6355235,6359752,Piedramillera,
@@ -7932,28 +7929,28 @@ parent_code,code,name,aliases
 6355235,6359763,San Adrián,
 6355235,6359765,San Martín de Unx,
 6355235,6359764,Sangüesa,Sangueesa
-6355235,6359766,Sansol,
-6355235,6359767,Santacara,
+6355235,6359766,Sansol,Santsol
+6355235,6359767,Santacara,Santakara
 6355235,6359769,Sarriés/Sartze,
 6355235,6359770,Sartaguda,
 6355235,6359771,Sesma,
 6355235,6359772,Sorlada,
-6355235,6359773,Sunbilla,
+6355235,6359773,Sumbilla,Sunbilla
 6355235,6359774,Tafalla,
-6355235,6359775,Tiebas-Muruarte de Reta,
+6355235,6359775,Tiebas-Muruarte de Reta,Tiebas-Muru Artederreta|Tebas-Muru Artederreta
 6355235,6359776,Tirapu,
 6355235,6359777,Torralba del Río,
 6355235,6359778,Torres del Río,
-6355235,6359779,Tudela,
+6355235,6359779,Tudela,Tutera
 6355235,6359780,Tulebras,
 6355235,6359781,Ucar,
 6355235,6359671,Uharte-Arakil,
 6355235,6359782,Ujué,
-6355235,6359783,Ultzama,
-6355235,6359784,Unciti,
+6355235,6359783,Ulzama,Ultzama
+6355235,6359784,Unciti,Untziti|Untzitibar
 6355235,6359785,Unzué/Untzue,
 6355235,6359786,Urdazubi/Urdax,
-6355235,6359787,Urdiain,
+6355235,6359787,Urdiáin,
 6355235,6359788,Urraul Alto,
 6355235,6359789,Urraul Bajo,
 6355235,6359791,Urrotz,
@@ -7961,18 +7958,21 @@ parent_code,code,name,aliases
 6355235,6359792,Urzainqui/Urzainki,
 6355235,6359793,Uterga,
 6355235,6359794,Uztárroz/Uztarroze,
+6355235,6359634,Valle de Egüés,Egüés|Eguees|Eguesibar
 6355235,6359807,Valle de Yerri/Deierri,
 6355235,6359796,Valtierra,
+6355235,6359797,Vera de Bidasoa,Bera
 6355235,6359798,Viana,
 6355235,6359799,Vidángoz/Bidankoze,
-6355235,6359801,Villafranca,
+6355235,6359800,Vidaurreta,Bidaurreta
+6355235,6359801,Villafranca,Alesbes
 6355235,6359802,Villamayor de Monjardín,
 6355235,6359804,Villatuerta,
 6355235,6359805,Villava/Atarrabia,
-6355235,6359808,Yesa,
-6355235,6359809,Zabalza/Zabaltza,
-6355235,6359621,Ziordia,
-6355235,6359818,Zizur Mayor/Zizur Nagusia,
+6355235,6359806,Yanci,Igantzi
+6355235,6359808,Yesa,Esa
+6355235,6359809,Zabalza,Zabalza/Zabaltza|Zabaltza|Zabalza-Zabaltza
+6355235,6359818,Zizur Mayor,Zizur Mayor/Zizur Nagusia|Zizur Nagusia
 6355235,6359810,Zubieta,
 6355235,6359811,Zugarramurdi,
 6355235,6359812,Zúñiga,
@@ -7980,7 +7980,7 @@ parent_code,code,name,aliases
 6355236,6359910,Aller,
 6355236,6359911,Amieva,
 6355236,3129133,Avilés,
-6355236,6359912,Belmonte de Miranda,
+6355236,6359912,Belmonte de Miranda,Miranda
 6355236,6359913,Bimenes,
 6355236,6359914,Boal,
 6355236,3127185,Cabrales,
@@ -7995,21 +7995,21 @@ parent_code,code,name,aliases
 6355236,6359923,Castropol,
 6355236,6359924,Coaña,
 6355236,6359925,Colunga,
-6355236,3124431,Corvera de Asturias,
+6355236,3124431,Corvera de Asturias,Corvera
 6355236,6359926,Cudillero,
 6355236,6359927,Degaña,
 6355236,6359928,"Franco, El",
 6355236,6359929,Gijón/Xixón,
 6355236,6359930,Gozón,
-6355236,6359931,Grado,
+6355236,6359931,Grado,Grau
 6355236,6359932,Grandas de Salime,
 6355236,6359933,Ibias,
 6355236,6359934,Illano,
 6355236,6359935,Illas,
 6355236,6359960,La Ribera,
-6355236,6359936,Langreo,
+6355236,6359936,Langreo,Llangréu|Langreu
 6355236,3118685,Laviana,
-6355236,3118547,Lena,
+6355236,3118547,Lena,Ḷḷena
 6355236,6359938,Llanera,
 6355236,6359939,Llanes,
 6355236,6359940,Mieres,
@@ -8023,45 +8023,45 @@ parent_code,code,name,aliases
 6355236,6359948,Parres,
 6355236,6359949,Peñamellera Alta,
 6355236,6359950,Peñamellera Baja,
-6355236,6359951,Pesoz,
+6355236,6359951,Pesoz,Pezós
 6355236,6359952,Piloña,
 6355236,6359953,Ponga,
 6355236,6359954,Pravia,
 6355236,6359955,Proaza,
 6355236,6359956,Quirós,
 6355236,6359957,"Regueras, Las",
-6355236,6359958,Ribadedeva,
-6355236,6359959,Ribadesella,
+6355236,6359958,Ribadedeva,Ribadeva
+6355236,6359959,Ribadesella,Ribeseya
 6355236,6359961,Riosa,
 6355236,6359962,Salas,
 6355236,6359963,San Martín de Oscos,
 6355236,3110347,San Martín del Rey Aurelio,
 6355236,6359965,San Tirso de Abres,
-6355236,6359964,Santa Eulalia de Oscos,
+6355236,6359964,Santa Eulalia de Oscos,Santalla d'Ozcos|Santalla de Ozcos
 6355236,6359966,Santo Adriano,
 6355236,6359967,Sariego,
 6355236,3109005,Siero,
-6355236,6359968,Sobrescobio,
-6355236,6359969,Somiedo,
-6355236,6359970,Soto del Barco,
-6355236,6359971,Tapia de Casariego,
+6355236,6359968,Sobrescobio,Sobrescobiu
+6355236,6359969,Somiedo,Somiedu
+6355236,6359970,Soto del Barco,Sotu'l Barcu
+6355236,6359971,Tapia de Casariego,Tapia de Casarego
 6355236,6359972,Taramundi,
 6355236,6359973,Teverga,
 6355236,6359974,Tineo,
 6355236,6359937,Valdés,
-6355236,6359975,Vegadeo,
+6355236,6359975,Vegadeo,A Veiga
 6355236,6359976,Villanueva de Oscos,
 6355236,6359977,Villaviciosa,
-6355236,6359978,Villayón,
+6355236,6359978,Villayón,Villaión
 6355236,6359979,Yernes y Tameza,
 6424360,6533928,Alaior,
 6424360,6533927,Alaró,
 6424360,6533929,Alcúdia,
 6424360,6533930,Algaida,
-6424360,6356030,Andratx,
+6424360,6356030,Andratx,Andrach
 6424360,6533983,Ariany,
 6424360,6533931,Artà,
-6424360,6533932,Bañalbufar,
+6424360,6533932,Banyalbufar,Bañalbufar
 6424360,6533933,Binissalem,
 6424360,6533934,Búger,
 6424360,6533935,Bunyola,
@@ -8074,38 +8074,38 @@ parent_code,code,name,aliases
 6424360,6533941,Costitx,
 6424360,6533942,Deià,
 6424360,6533981,Es Castell,
-6424360,6533958,es Mercadal,
 6424360,6533984,Es Migjorn Gran,
 6424360,6533943,Escorca,
 6424360,6533944,Esporles,
 6424360,6356032,Estellencs,
-6424360,6533945,Felanitx,
-6424360,6533946,Ferreries,
+6424360,6533945,Felanitx,Felanich
+6424360,6533946,Ferrerías,Ferreries
 6424360,6356033,Formentera,
 6424360,6533947,Fornalutx,
-6424360,6356034,Ibiza,
+6424360,6356034,Ibiza,Eivissa
 6424360,6533948,Inca,
 6424360,6533949,Lloret de Vistalegre,
 6424360,6533950,Lloseta,
 6424360,6533951,Llubí,
-6424360,6533952,Llucmajor,
-6424360,6533953,Mahón,
+6424360,6533952,Llucmajor,Lluchmayor
+6424360,6533953,Mahón,Maó
 6424360,6533954,Manacor,
 6424360,6533955,Mancor de la Vall,
 6424360,6533956,Maria de la Salut,
-6424360,6533957,Marratxí,
+6424360,6533957,Marratxí,Marrachí
+6424360,6533958,Mercadal,es Mercadal
 6424360,6533959,Montuïri,
+6424360,6356035,Municipio de San Antonio,Sant Antoni de Portmany
 6424360,6533960,Muro,
-6424360,6533961,Palma de Mallorca,
+6424360,6533961,Palma de Mallorca,Palma|Palma Mallorcakoa
 6424360,6533962,Petra,
-6424360,6533963,Pollença,
+6424360,6533963,Pollensa,Pollença
 6424360,6533964,Porreres,
 6424360,6533966,Puigpunyent,
 6424360,6533965,Sa Pobla,
-6424360,6356035,Sant Antoni de Portmany,
+6424360,6356036,San José,Sant Josep de sa Talaia
+6424360,6356037,San Juan Bautista,Sant Joan de Labritja
 6424360,6533968,Sant Joan,
-6424360,6356037,Sant Joan de Labritja,
-6424360,6356036,Sant Josep de sa Talaia,
 6424360,6533969,Sant Llorenç des Cardassar,
 6424360,6533970,Sant Lluís,
 6424360,6533971,Santa Eugènia,
@@ -8115,11 +8115,11 @@ parent_code,code,name,aliases
 6424360,6533974,Santanyí,
 6424360,6533975,Selva,
 6424360,6533967,Sencelles,
-6424360,6533976,Ses Salines,
+6424360,6533976,Ses Salines,les Salines|Las Salinas
 6424360,6533977,Sineu,
 6424360,6533978,Sóller,
-6424360,6533979,Son Servera,
-6424360,6533980,Valldemossa,
-6424360,6533982,Vilafranca de Bonany,
+6424360,6533979,Son Servera,Son Cervera
+6424360,6533980,Valldemosa,Valldemossa
+6424360,6533982,Vilafranca de Bonany,Vilafranca
 8335119,7577100,Ceuta,
 8335120,7577101,Melilla,

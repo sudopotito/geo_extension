@@ -118,7 +118,7 @@ parent_code,code,name,aliases
 1733047,1735104,Daerah Timur Laut,
 1733047,12231310,S.P. Tengah,
 1733047,1735085,Seberang Perai Selatan,
-1733047,6823231,Seberang Perai Utara,
+1733047,6823231,Seberang Perai Utara,Daerah Seberang Perai Utara|SPU
 1733048,1734449,Baling,
 1733048,1734406,Bandar Baharu,
 1733048,1736342,Daerah Kota Setar,
@@ -130,7 +130,7 @@ parent_code,code,name,aliases
 1733048,1736341,Pendang,
 1733048,12231272,Pokok Sena,
 1733048,6805123,Sik,
-1733048,1735487,Yan,
+1733048,1735487,Yan,Daerah Yan
 1733049,1732686,Daerah Batu Pahat,
 1733049,1732751,Daerah Johor Baharu,
 1733049,1732810,Daerah Keluang,

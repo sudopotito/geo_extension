@@ -24,6 +24,12 @@ frappe.ui.form.on("Address", {
 		geo_setup(frm);
 	},
 
+	refresh(frm) {
+		// the form object is shared by every Address opened in the session and
+		// onload_post_render runs once per document: rebuild when the document changed
+		if (frm._geo && frm._geo.docname !== frm.docname) geo_setup(frm);
+	},
+
 	async country(frm) {
 		await geo_clear_levels(frm);
 		geo_setup(frm);
@@ -49,16 +55,14 @@ frappe.ui.form.on("Address", {
  * previous cascade torn down so the clears do not cascade again.
  */
 async function geo_clear_levels(frm) {
-	const fields = new Set(GEO_LEVEL_FIELDS.filter((f) => f !== "address_line2"));
 	const old = frm._geo && frm._geo.cascade;
 	if (old) {
-		old.level_fields.forEach((f) => fields.add(f));
-		const auto = old.auto_postal;
+		await old.clear_values(); // its levels and an auto-filled postal code
 		old.teardown();
-		if (auto && frm.doc.pincode === auto) await frm.set_value("pincode", "");
 	}
 	frm._geo = null;
-	for (const fieldname of fields) {
+	// address_line2 is street-level text in most countries: only cleared above when a cascade used it
+	for (const fieldname of ["state", "county", "city"]) {
 		if (frm.fields_dict[fieldname] && frm.doc[fieldname]) await frm.set_value(fieldname, "");
 	}
 }
@@ -72,7 +76,7 @@ async function geo_setup(frm) {
 		country: frm.doc.country,
 		adapter: new frappe.geo_extension.FormAdapter(frm),
 	});
-	frm._geo = { cascade };
+	frm._geo = { cascade, docname: frm.docname };
 
 	if (frm.doc.country) await cascade.setup();
 	if (frm._geo.cascade !== cascade) return; // superseded by a newer country change

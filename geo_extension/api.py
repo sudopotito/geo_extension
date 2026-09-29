@@ -130,11 +130,15 @@ def get_options(
 	parent: str | None = None,
 	txt: str | None = None,
 	limit: int | str | None = None,
+	parent_level: int | str | None = None,
 ) -> list[dict]:
 	"""
-	Children of ``parent`` at ``level`` as ``[{"value": code, "label": name}, ...]``,
+	Units at ``level`` below ``parent`` as ``[{"value": code, "label": name}, ...]``,
 	sorted A→Z. ``level`` is 1-based; level 1 ignores ``parent``. Levels above 1
 	require ``parent`` so the browser never receives a whole country at once.
+	``parent`` may be any ancestor (a state code for level 3) for forms that have
+	no field for the level in between; pass ``parent_level`` to say which level
+	the code belongs to.
 	"""
 	dataset = get_dataset(country)
 	if dataset is None:
@@ -146,24 +150,46 @@ def get_options(
 	txt = ds.clean_text(txt, 140) if txt else None
 	limit = cint(limit) if limit else MAX_OPTIONS
 	limit = min(max(limit, 1), MAX_OPTIONS)
-	return [u.as_option() for u in dataset.options(level, parent_code, txt, limit)]
+	parent_level = cint(parent_level) or None
+	return [u.as_option() for u in dataset.options(level, parent_code, txt, limit, parent_level)]
 
 
 @frappe.whitelist(allow_guest=True)
-def resolve(country: str | None = None, names=None) -> list[dict]:
+def resolve(country: str | None = None, names=None, levels=None) -> list[dict]:
 	"""
 	Turn already-entered names into stable codes, top level first.
 
-	``names`` is a JSON list ordered by level (``["Cebu", "Cebu City", "Lahug"]``).
-	Matching is exact but accent/case-insensitive and stops at the first level
-	that does not match, so manually entered values simply end the chain.
-	Returns ``[{"level": 1, "value": "022", "label": "Cebu"}, ...]``.
+	``names`` is a JSON list ordered by level (``["Cebu", "Cebu City", "Lahug"]``);
+	``levels`` optionally gives each name's level (``[1, 3]`` when the form has no
+	field for level 2). Matching is exact but accent/case-insensitive and stops at
+	the first name that does not match, so manually entered values simply end the
+	chain. Returns ``[{"level": 1, "value": "022", "label": "Cebu"}, ...]``.
 	"""
 	dataset = get_dataset(country)
 	if dataset is None:
 		return []
-	chain = dataset.resolve(_parse_names(names))
+	names = _parse_names(names)
+	level_list = _parse_levels(levels, len(names))
+	chain = dataset.resolve(names, level_list)
 	return [{"level": u.level, **u.as_option()} for u in chain]
+
+
+def _parse_levels(value, count: int) -> list[int] | None:
+	"""``[1, 3]`` (JSON or list) -> ints; ``None`` when absent or unusable."""
+	if value is None or value == "":
+		return None
+	if isinstance(value, str):
+		try:
+			value = json.loads(value)
+		except ValueError:
+			return None
+	if not isinstance(value, list) or len(value) != count:
+		return None
+	try:
+		levels = [int(v) for v in value]
+	except (TypeError, ValueError):
+		return None
+	return levels if all(1 <= v <= ds.MAX_LEVELS for v in levels) else None
 
 
 @frappe.whitelist(allow_guest=True)
@@ -225,7 +251,7 @@ def search(
 
 @frappe.whitelist()
 def get_supported_countries() -> list[dict]:
-	"""Metadata of every installed dataset (for documentation/settings pages)."""
+	"""Metadata of every installed dataset (name, levels, counts, source, license)."""
 	out = []
 	for code in ds.list_country_codes(_extra_roots()):
 		try:
