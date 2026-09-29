@@ -1,24 +1,16 @@
 # Contributing a Country Dataset
 
-Geo Extension grows one country at a time, and every dataset is plain files: a small JSON manifest and a few CSV files. You do not need to know Frappe to contribute.
+A country dataset is a folder with one small JSON file and a few CSV files. You do not need to know Frappe, only where to find your country's list of regions and cities.
 
 ## Before you start
 
-- Check the [supported countries](../README.md#supported-countries). If yours exists you can still improve it (more levels, better coverage, corrections, postal codes).
-- Find an official or verifiable source (statistics office, postal service, open-data portal) whose license allows redistribution.
-- Decide which administrative levels are *useful for addresses*. You do not have to model every government tier; three levels is typical, six is the maximum.
+- Check the [supported countries](../README.md#supported-countries). An existing dataset can still be improved (more levels, better coverage, corrections, postal codes).
+- Find an official or verifiable source (statistics office, postal service, open-data portal) whose license allows redistribution. GeoNames (CC BY 4.0) is fine when nothing official is downloadable.
+- Decide which administrative levels are *useful on an address*. Three levels is typical, six is the maximum. Skip tiers nobody writes on an envelope.
 
-## 1. Create the directory
+## 1. Create the folder
 
-Datasets live in `geo_extension/setup/data/countries/<cc>/` where `<cc>` is the lowercase ISO 3166-1 alpha-2 code (Frappe → *Country* list → your country → *Code*).
-
-Copy this template:
-
-```
-template/xx/  →  geo_extension/setup/data/countries/<cc>/
-```
-
-Or generate the directory: if your country is well covered by GeoNames, add it to `tools/geonames/countries.json` and run `python tools/geonames/build_dataset.py <cc> --out geo_extension/setup/data/countries`. If an official statistics office publishes a downloadable list, a small script like `tools/psgc/build_dataset.py` (Philippines) or `tools/datagovsg/build_dataset.py` (Singapore) is the preferred route because it makes future updates reproducible. Hand-maintained CSVs are fine too.
+Datasets live in `geo_extension/setup/data/countries/<cc>/` where `<cc>` is the lowercase ISO 3166-1 alpha-2 code (Frappe → *Country* → your country → *Code*).
 
 ```
 <cc>/
@@ -28,6 +20,8 @@ Or generate the directory: if your country is well covered by GeoNames, add it t
 ├── level3.csv          (optional, up to level6.csv)
 └── postal_codes.csv    (optional)
 ```
+
+Start by copying [`template/xx/`](xx). If GeoNames covers your country well, you can instead add it to `tools/geonames/countries.json` and run `python tools/geonames/build_dataset.py <cc> --out geo_extension/setup/data/countries` (see [tools/README.md](../tools/README.md)).
 
 ## 2. Describe the hierarchy in `manifest.json`
 
@@ -49,33 +43,29 @@ Or generate the directory: if your country is well covered by GeoNames, add it t
 }
 ```
 
-| Property | Required | Meaning |
-| -------- | -------- | ------- |
-| `country_code` | yes | Must equal the directory name. |
-| `levels` | yes | Ordered top-down. Each level nests inside the previous one. |
-| `levels[].file` | yes | CSV file name inside the directory. |
-| `levels[].label` | yes | What users see as the field label (`Province`, `Prefecture`, `Barangay`, …). |
-| `levels[].target_field` | yes | Native Address field that stores the value: `state`, `county`, `city` or `address_line2`. Each may be used once. |
-| `name`, `description`, `version`, `source`, `license`, `author` | recommended | Metadata shown in `bench geo-extension list` and used to credit you. |
-| `postal_codes.file` | optional | Postal code file (see step 4). |
-| `postal_codes.pattern` | optional | Regular expression every postal code must match; catches typos early. |
+| Property | Meaning |
+| -------- | ------- |
+| `country_code` | Must equal the folder name. |
+| `levels` | Ordered top-down; each level nests inside the previous one. |
+| `levels[].label` | What users see as the field label (*Province*, *Prefecture*, *Barangay*, …). |
+| `levels[].target_field` | Native Address field that stores the value: `state`, `county`, `city` or `address_line2`. Each may be used once. |
+| `postal_codes` | Optional. `pattern` is a regular expression every code must match; it catches typos early. |
+| `name`, `description`, `version`, `source`, `license`, `author` | Metadata shown by `bench geo-extension list` and used to credit you. |
 
-### Choosing the field mapping
-
-Map each level to the native field that comes closest in meaning. The label tells users what the field means, so a UK dataset can put counties in `county` while a Philippine dataset puts barangays there. Common patterns:
+**Choosing the field mapping.** Map each level to the native field closest in meaning; the label tells users what it holds. Examples:
 
 | Country | Mapping |
 | ------- | ------- |
 | Philippines | Province → `state`, City/Municipality → `city`, Barangay → `county` |
 | United States | State → `state`, County → `county`, City → `city` |
-| Japan | Prefecture → `state`, City → `city`, Ward → `county` |
+| Türkiye | Province → `state`, District → `city` |
 | Singapore | Planning Area → `city` |
 
-If a country has more useful levels than fields, use `address_line2` for the lowest one, or leave a level out (top-level regions that are implied by the province are usually not worth a field).
+If a country has more useful levels than fields, use `address_line2` for the lowest one or leave a level out.
 
 ## 3. Fill the level files
 
-**Level 1** has two columns (plus the optional `aliases`):
+Level 1 has two columns plus the optional `aliases`; every lower level adds `parent_code` in front:
 
 ```csv
 code,name,aliases
@@ -83,41 +73,31 @@ NR,Northern Region,North
 CR,Central Region,
 ```
 
-**Every lower level** has three; `parent_code` references the `code` of the level above:
-
 ```csv
 parent_code,code,name,aliases
 NR,NR01,Northport,North Port
-NR,NR02,Highfield,
 CR,CR01,Capital City,City of Capital|Capitol
 ```
 
-Rules:
-
-- `code` is the stable identifier: unique within its file, only letters, digits, `.`, `_`, `-`. Use official codes when they exist (PSGC, FIPS, INSEE, …); they survive renames.
-- `name` is what users see and what gets stored in the Address. Use the official spelling, with accents.
-- Every `parent_code` must exist in the parent file.
-- `aliases` (optional column) lists alternative spellings separated by `|`: old official names, "X City" for "City of X", local-language variants. Users who type an alias get the unit; aliases are searchable but never displayed. Do not add an alias that is also the name of a sibling.
-- Save as UTF-8 (a BOM is tolerated). Google Sheets exports are fine; if you use Excel, make sure leading zeros in codes are not stripped.
-- Extra columns are ignored, but keep files small: they are versioned in Git.
+- `code` is the stable identifier: unique within its file, letters, digits, `.`, `_`, `-`. Use official codes when they exist; they survive renames.
+- `name` is what users see and what gets stored. Use the official spelling, with accents.
+- `parent_code` must exist in the file above.
+- `aliases` (optional) lists alternative spellings separated by `|`: old names, "X City" for "City of X", local-language variants. They are matched when typed but never displayed. Do not reuse a sibling's name as an alias.
+- Save as UTF-8. Google Sheets exports are fine; in Excel make sure leading zeros in codes survive.
 
 ## 4. Add postal codes (optional)
 
-`postal_codes.csv` attaches postal codes to units at any level. One row per (unit, postal code):
+`postal_codes.csv` attaches codes to units at any level, one row per (unit, code):
 
 ```csv
 level,code,postal_code
 2,NR01,1000
-3,CR01-01,2001
 2,SR01,3000
 2,SR01,3001
+3,CR01-01,2001
 ```
 
-How the app uses it:
-
-- The deepest selected unit is looked up first; if it has no rows, its parent is used, then the grandparent.
-- One matching code fills `Postal Code` automatically. Several codes are offered as suggestions and the user picks or types. Nothing is guessed.
-- So: if postal codes depend on the city, add rows for level 2; if they depend on a smaller area, add rows for level 3; if a city has many codes, add them all. Leave out anything you are not sure about.
+The app looks at the deepest selected unit first, then its parent, and so on. One code fills *Postal Code* automatically; several are offered as suggestions; nothing is guessed. Only add codes you are sure about.
 
 ## 5. Validate
 
@@ -127,19 +107,12 @@ bench geo-extension validate <cc>
 python -m geo_extension.geo.validate --path geo_extension/setup/data/countries/<cc>
 ```
 
-Fix every `ERROR`. Warnings about "no children" are expected for partial datasets; everything else is worth a look. `--strict` treats warnings as errors.
+Fix every `ERROR`. Warnings about units with no children are expected for partial coverage.
 
-## 6. Test in Frappe
+## 6. Try it
 
-1. `bench --site <site> clear-cache`
-2. Open *Address → New*, choose your country.
-3. Check the field labels and order, that each level only lists children of the selection above, and that postal codes behave as expected.
-4. `bench --site <site> run-tests --app geo_extension` (the suite validates every shipped dataset).
+`bench --site <site> clear-cache`, open *Address → New*, choose your country, and check the labels, the cascading lists and the postal codes.
 
-## 7. Submit a pull request
+## 7. Open a pull request
 
-**Title:** `feat(data): add <Country> (<cc>)` or `fix(data): …` for improvements.
-
-**Description:** what the dataset covers (levels, counts, coverage), the source link and license, and anything you deliberately left out.
-
-We check the manifest, hierarchy integrity, encoding and that the source is verifiable. Thank you for making address entry easier for everyone using Frappe.
+Title `feat(data): add <Country> (<cc>)` (or `fix(data): …` for improvements). Say what the dataset covers, link the source, state the license and mention anything you deliberately left out. The pull request template asks for exactly these. Thank you for making address entry easier for everyone using Frappe.
