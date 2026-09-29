@@ -182,7 +182,7 @@ python3 ./easy-install.py deploy \
 
 ### Upgrading from 1.x
 
-Version 1.x changed the Address DocType (an *Autocomplete* fieldtype on `state`/`city`/`county`, a DocType-level field order and, before 1.4, a `village` Custom Field). Running `bench migrate` after updating removes all of these automatically. Values stored in the old `village` field are copied into the native `county` field where it was empty. Uninstalling the app performs the same cleanup.
+Version 1.x changed the Address DocType (an *Autocomplete* fieldtype on `state`/`city`/`county`, a DocType-level field order and, before 1.4, a `village` Custom Field). The first `bench migrate` after updating runs a one-time patch that removes all of these; values stored in the old `village` field are copied into the native `county` field where it was empty. Fresh installs never run the patch and never touch the DocType.
 
 The 1.x endpoints `geo_extension.geo_extension.locations.get_levels` / `get_level_options` were removed; use `geo_extension.api.get_hierarchy` / `get_options`.
 

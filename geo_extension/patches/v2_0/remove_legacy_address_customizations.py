@@ -2,16 +2,14 @@
 # For license information, please see license.txt
 
 """
-Installation hooks.
+One-time upgrade patch for sites that ran geo_extension <= 1.4.
 
-The current architecture makes **no schema or layout changes** to Address:
-no Custom Fields, no Property Setters. Everything happens at runtime in the
-browser and through the API.
-
-Earlier releases did modify Address (an Autocomplete fieldtype on state/city/
-county, a DocType-level field order and, before v1.4, a ``village`` Custom
-Field). The functions below remove those leftovers so upgraded sites end up
-identical to fresh installs, and so uninstalling leaves nothing behind.
+Version 2.0 makes **no schema or layout changes** to Address: no Custom Fields,
+no Property Setters. Earlier releases did (an Autocomplete fieldtype on
+state/city/county, a DocType-level field order and, before 1.4, a ``village``
+Custom Field). This patch removes those leftovers so upgraded sites end up
+identical to fresh installs. Fresh installs never run it: Frappe marks an
+app's patches as completed when the app is installed.
 """
 
 import frappe
@@ -30,15 +28,7 @@ LEGACY_CUSTOM_FIELD = "village"
 LEGACY_CUSTOM_FIELD_LABELS = {"Village/Ward/Barangay", "Barangay"}
 
 
-def after_install():
-	remove_legacy_customizations()
-
-
-def after_migrate():
-	remove_legacy_customizations()
-
-
-def before_uninstall():
+def execute():
 	remove_legacy_customizations()
 
 
@@ -78,7 +68,8 @@ def remove_legacy_customizations() -> dict:
 
 
 def _preserve_legacy_values():
-	"""Copy old ``village`` values into the native ``county`` field where it is empty."""
+	"""Copy old ``village`` values into the native ``county`` field where it is empty.
+	The database column itself is kept (Frappe never drops columns on its own)."""
 	if not frappe.db.has_column(ADDRESS, LEGACY_CUSTOM_FIELD):
 		return
 	table = frappe.qb.DocType(ADDRESS)

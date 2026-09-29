@@ -18,10 +18,6 @@ doctype_js = {"Address": "public/js/address.js"}
 # selector too. The files are inlined into the web form page, so both are listed.
 webform_include_js = {"Address": ["public/js/geo_selector.js", "public/js/address_web_form.js"]}
 
-# Install / migrate / uninstall
-# -----------------------------
-# geo_extension makes no schema or layout changes to Address. These hooks only
-# remove customizations left behind by versions <= 1.4 (see install.py).
-after_install = "geo_extension.install.after_install"
-after_migrate = "geo_extension.install.after_migrate"
-before_uninstall = "geo_extension.install.before_uninstall"
+# geo_extension makes no schema or layout changes to Address, so there are no
+# install/uninstall hooks. Sites upgrading from <= 1.4 are cleaned up once by
+# geo_extension.patches.v2_0.remove_legacy_address_customizations (patches.txt).

@@ -1,7 +1,7 @@
 # Copyright (c) 2025, sudo potito and contributors
 # For license information, please see license.txt
 
-"""Install/migrate/uninstall must leave Address untouched and clean up old versions."""
+"""The 2.0 upgrade patch removes 1.x customizations of Address and nothing else."""
 
 import frappe
 from frappe.custom.doctype.custom_field.custom_field import create_custom_fields
@@ -12,10 +12,10 @@ try:
 except ImportError:  # Frappe v15
 	from frappe.tests.utils import FrappeTestCase as IntegrationTestCase
 
-from geo_extension import install
+from geo_extension.patches.v2_0 import remove_legacy_address_customizations as patch
 
 
-class TestInstall(IntegrationTestCase):
+class TestLegacyCleanupPatch(IntegrationTestCase):
 	"""Note: recreating the legacy ``village`` Custom Field adds a column to tabAddress on the test site."""
 
 	def setUp(self):
@@ -54,11 +54,11 @@ class TestInstall(IntegrationTestCase):
 			fields=["name", "field_name", "property", "value"],
 		)
 
-	def test_fresh_install_makes_no_changes(self):
+	def test_patch_is_a_no_op_on_a_clean_site(self):
 		before = self._address_property_setters()
 		custom_before = frappe.get_all("Custom Field", filters={"dt": "Address"}, pluck="name")
-		install.after_install()
-		install.after_migrate()
+		patch.execute()
+		patch.execute()
 		self.assertEqual(self._address_property_setters(), before)
 		self.assertEqual(
 			frappe.get_all("Custom Field", filters={"dt": "Address"}, pluck="name"), custom_before
@@ -98,7 +98,7 @@ class TestInstall(IntegrationTestCase):
 		).insert(ignore_permissions=True)
 		frappe.db.set_value("Address", doc.name, "village", "Lahug", update_modified=False)
 
-		removed = install.remove_legacy_customizations()
+		removed = patch.remove_legacy_customizations()
 
 		self.assertEqual(len(removed["property_setters"]), 4)
 		self.assertEqual(removed["custom_fields"], ["Address-village"])
@@ -109,13 +109,11 @@ class TestInstall(IntegrationTestCase):
 		self.assertEqual(frappe.db.get_value("Address", doc.name, "county"), "Lahug")
 
 		# running again is a no-op
-		self.assertEqual(
-			install.remove_legacy_customizations(), {"property_setters": [], "custom_fields": []}
-		)
+		self.assertEqual(patch.remove_legacy_customizations(), {"property_setters": [], "custom_fields": []})
 
 	def test_foreign_property_setters_are_kept(self):
 		make_property_setter("Address", "fax", "hidden", "1", "Check", for_doctype=False)
-		install.remove_legacy_customizations()
+		patch.remove_legacy_customizations()
 		self.assertTrue(
 			frappe.db.exists(
 				"Property Setter", {"doc_type": "Address", "field_name": "fax", "property": "hidden"}

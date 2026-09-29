@@ -8,7 +8,7 @@ Turns the native Frappe **Address** form into a cascading, country-aware selecto
 
 ## Invariants
 
-1. **No schema or layout customisation.** `install.py` must never create Custom Fields or Property Setters. It only *removes* leftovers from versions ≤ 1.4 (`remove_legacy_customizations`, idempotent, also run on uninstall).
+1. **No schema or layout customisation.** The app must never create Custom Fields or Property Setters and has no install/uninstall hooks. Sites upgrading from ≤ 1.4 are cleaned once by the patch `patches/v2_0/remove_legacy_address_customizations.py` (idempotent; fresh installs never run it because Frappe marks an app's patches as completed on install).
 2. **Assist, never restrict.** Fields stay `Data`. Suggestions are attached at runtime (Awesomplete on the plain input). Free text must always be accepted and saved.
 3. **Country-agnostic core.** No `if country == "..."` anywhere. Country differences live in `setup/data/countries/<cc>/manifest.json` + CSV files.
 4. **Bounded responses.** `get_options` for level > 1 requires a parent; the browser never receives a whole level of a large dataset (Philippine barangays: 42k rows).
@@ -22,7 +22,7 @@ Turns the native Frappe **Address** form into a cascading, country-aware selecto
 | `geo_extension/geo/validate.py` | Validator with file/line issues; `python -m geo_extension.geo.validate` works without a site. |
 | `geo_extension/api.py` | Whitelisted endpoints: `get_hierarchy`, `get_options`, `resolve`, `get_postal_codes` (guest, read-only), `get_supported_countries`. |
 | `geo_extension/commands/__init__.py` | `bench geo-extension validate|list`. |
-| `geo_extension/install.py` | Legacy cleanup hooks only. |
+| `geo_extension/patches/v2_0/` | One-time upgrade patch for ≤ 1.4 sites (listed in `patches.txt`). |
 | `geo_extension/geo_extension/__init__.py` | Empty package for the "Geo Extension" module in `modules.txt`. `bench migrate` imports it; do not delete. |
 | `geo_extension/public/js/geo_selector.js` | `frappe.geo_extension`: cached client, `GeoCascade`, `FormAdapter`, `FieldGroupAdapter` (dialogs + Web Forms), `attach_to_field_group`, `attach_suggestions`. Loaded on every desk page (`app_include_js`) and inlined into Address Web Forms (`webform_include_js`), so it must stay free of Jinja delimiters and `.__` (guarded by a JS test). |
 | `geo_extension/public/js/quick_entry.js` | Patches `QuickEntryForm.render_dialog` to call `attach_to_field_group` on dialogs with address fields. |
