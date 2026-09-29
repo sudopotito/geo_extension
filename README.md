@@ -4,196 +4,127 @@
   </a>
 
   <h1>Geo Extension</h1>
-  <h4>Enhancing the Address Experience in Frappe</h4>
+  <h4>Fast, consistent address entry for Frappe / ERPNext</h4>
 
-  <img src=".github/hero.gif" alt="Geo Extension Hero" width="100%" />
+  <img src=".github/hero.gif" alt="Geo Extension: Iloilo > City of Iloilo > San Rafael selected step by step with the postal code filled automatically, then a United States address" width="100%" />
+  <p><sub>Also available as <a href=".github/hero.mp4">hero.mp4</a>. Screenshots in <a href=".github/screenshots">.github/screenshots</a>.</sub></p>
 
-<br><br>
+<br>
 
 </div>
 
 ---
 
-## Overview
+Geo Extension turns the native **Address** form into a cascading, country-aware selector, the way a good e-commerce checkout works:
 
-**Geo Extension** is a lightweight **Frappe app** that enhances the frappe Geo module by improving how users encode and manage address information.  
-It extends the **Address Doctype** to make primary address keys (like _State, City, and County_) filterable and interactive — turning tedious address input into a smooth, guided process.
+```
+Country → State / Province → City → Lower level → Postal code
+```
 
-With country-specific manifests and hierarchical data levels, users can select from real administrative divisions instead of typing free-form text, drastically reducing data entry errors.
+Each field only offers what belongs to the selection above it, the postal code is filled in when it can be determined reliably, and users only type the truly local part of the address.
 
----
-
-## Motivation
-
-Encoding addresses in ERPNext or any Frappe app can be repetitive and error-prone — especially for data-heavy workflows like customer registration, delivery setup, or supplier profiling.  
-**Geo Extension** simplifies this process by making address encoding filtered, intuitive, and contextual.
-
-This project was also a personal challenge: to build something useful and shareable with the **Frappe Community**, demonstrating how modular extensions can improve user experience within the framework.
-
----
-
-## Key Features
-
-🔍 **Smart Address Fields**
-- Auto-adapting fields (State/City/County) based on country
-- Turns free-text fields into searchable dropdowns
-- Uses real administrative divisions encoded and validated by the community
-
-⚙️ **Zero-Friction Setup**
-- Country configurations via simple JSON manifests
-- Works with existing Frappe Address doctype
-- Automatic fallback to standard fields if no country data
-
----
+- **Nothing changes in your DocType.** No Custom Fields, no Property Setters. The native fields (`state`, `county`, `city`, `address_line2`, `pincode`) are reused and stay plain text.
+- **Assists, never restricts.** Every field remains free text. Unknown values are accepted, auto-filled values can be edited, and unsupported countries behave exactly like stock Frappe.
+- **Works everywhere addresses are entered.** The Address form, quick-entry dialogs (including ERPNext's Customer and Supplier quick entry) and the portal's Address web form.
+- **Country-agnostic.** Hierarchies, labels and postal codes are data. Adding a country never touches code.
 
 ## Supported Countries
 
-* 🇮🇳 India
-* 🇵🇭 Philippines
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| 🇦🇺 Australia | 🇧🇩 Bangladesh | 🇧🇷 Brazil | 🇨🇦 Canada | 🇪🇬 Egypt |
+| 🇫🇷 France | 🇩🇪 Germany | 🇮🇳 India | 🇮🇩 Indonesia | 🇮🇹 Italy |
+| 🇰🇪 Kenya | 🇲🇾 Malaysia | 🇲🇽 Mexico | 🇳🇵 Nepal | 🇳🇱 Netherlands |
+| 🇳🇿 New Zealand | 🇳🇬 Nigeria | 🇵🇰 Pakistan | 🇵🇭 Philippines | 🇸🇦 Saudi Arabia |
+| 🇸🇬 Singapore | 🇿🇦 South Africa | 🇪🇸 Spain | 🇱🇰 Sri Lanka | 🇨🇭 Switzerland |
+| 🇹🇭 Thailand | 🇹🇷 Türkiye | 🇦🇪 United Arab Emirates | 🇬🇧 United Kingdom | 🇺🇸 United States |
 
-Want to add your country? See the [Contribute](#contribute) section below.
+Each country's hierarchy, source and license are in its `manifest.json`; `bench geo-extension list` prints the hierarchy and record counts for your bench. Eighteen of the thirty ship postal codes.
 
----
+Your country is missing or incomplete? Datasets are plain CSV files and [contributing one](template/README.md) needs no Frappe knowledge. More countries are added with every release.
 
-## Production Setup
+## Installation
 
-### Managed Hosting
-
-You can try **[Frappe Cloud](https://frappecloud.com)** — a simple, open-source, and developer-friendly platform to host Frappe apps with peace of mind.
-
-It handles **installation, setup, upgrades, monitoring, maintenance,** and **support** of your deployments. It’s a fully featured developer platform for managing multiple Frappe instances.
-
-<div align="left">
-	<a href="https://frappecloud.com/dashboard/signup?product=geo_extension" target="_blank">
-		<picture>
-			<source media="(prefers-color-scheme: dark)" srcset="https://frappe.io/files/try-on-fc-white.png">
-			<img src="https://frappe.io/files/try-on-fc-black.png" alt="Try on Frappe Cloud" height="28" />
-		</picture>
-	</a>
-</div>
-
----
-
-### Self-Hosting
-
-Follow these steps to set up **Geo Extension** in production:
-
-#### Step 1: Download the easy install script
+Frappe Framework v15 or v16, with or without ERPNext.
 
 ```bash
-wget https://frappe.io/easy-install.py
+bench get-app https://github.com/sudopotito/geo_extension
+bench --site your-site.localhost install-app geo_extension
 ```
 
-#### Step 2: Run the deployment command
+That is all. Open any Address, choose a supported country and the level fields turn into cascading selectors.
+
+<a href="https://frappecloud.com/dashboard/signup?product=geo_extension" target="_blank">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://frappe.io/files/try-on-fc-white.png">
+    <img src="https://frappe.io/files/try-on-fc-black.png" alt="Try on Frappe Cloud" height="28" />
+  </picture>
+</a>
+
+## How It Works
+
+1. **Country** moves directly below *Address Type* so it is chosen first. The level fields are reordered top-down and relabelled with the country's own terms (*Province*, *Bundesland*, *Barangay*). Nothing is hidden.
+2. Each level field gets a dropdown listing only the children of the unit selected above it. Typing filters the list; matching ignores case and accents and accepts known aliases ("Iloilo City" finds "City of Iloilo").
+3. Picking a **different** unit clears the levels below it. Text that matches nothing is kept as typed and lower levels are left alone, so fixing a spelling by hand never wipes the rest of the address.
+4. **Postal code:** exactly one known code for the selection fills `pincode`; several are offered as suggestions; a code typed by the user is never overwritten.
+5. Existing addresses are resolved back to dataset units when opened, so the dropdowns keep filtering correctly.
+
+## Beyond the Address Form
+
+The selector and the API are independent of the Address integration.
+
+**API** (read-only, guest accessible, `country` is a name or ISO code):
+
+| Method | Returns |
+| ------ | ------- |
+| `geo_extension.api.get_hierarchy(country)` | levels with labels and native field mapping, postal code availability |
+| `geo_extension.api.get_options(country, level, parent=None, txt=None, parent_level=None)` | units at `level` below `parent` (the direct parent or any ancestor) |
+| `geo_extension.api.resolve(country, names, levels=None)` | the chain of units matching a list of names, top level first (`levels` when the form skips a level) |
+| `geo_extension.api.get_postal_codes(country, level, code)` | postal codes of a unit or its nearest ancestor that has any |
+| `geo_extension.api.search(country, txt, level=None)` | units at any level matching `txt`, each with its full path |
+| `geo_extension.api.get_supported_countries()` | metadata of every installed dataset (logged-in users) |
 
 ```bash
-python3 ./easy-install.py deploy \
-    --project=geo_extension_prod_setup \
-    --email=your_email.example.com \
-    --image=ghcr.io/sudopotito/geo_extension\
-    --version=stable \
-    --app=geo_extension \
-    --sitename subdomain.domain.tld
+curl "https://your-site/api/method/geo_extension.api.get_options?country=ph&level=2&parent=0603000000"
 ```
 
-Replace the following parameters with your own:
+**Another DocType** with fields named like the native ones (`state`, `county`, `city`, `address_line2`, `pincode`):
 
-- `your_email.example.com`: Your email address
-- `subdomain.domain.tld`: Your target domain
+```js
+frappe.ui.form.on("Delivery Point", {
+	async onload_post_render(frm) {
+		frm.geo = new frappe.geo_extension.GeoCascade({
+			country: frm.doc.country,
+			adapter: new frappe.geo_extension.FormAdapter(frm),
+		});
+		await frm.geo.setup();
+	},
+	state: (frm) => frm.geo.handle_change("state"),
+	city: (frm) => frm.geo.handle_change("city"),
+});
+```
 
-The script will spin up a production-ready instance of Geo Extension with all configurations.
+**Dialogs and Web Forms:** quick-entry dialogs and ERPNext's standard Address web form are wired automatically. A form without the field for a middle level (ERPNext's Customer quick entry has no `county`) still lists and resolves the levels it has. Any other dialog or web form with those fields needs one call:
 
----
+```js
+frappe.geo_extension.attach_to_field_group(frappe.web_form); // or a frappe.ui.Dialog
+```
 
-## Development Setup
+On website pages load the selector first with `frappe.require("/assets/geo_extension/js/geo_selector.js")`.
 
-### Using Docker
+**Private datasets:** point `geo_extension_dataset_roots` in `site_config.json` at directories laid out like `setup/data/countries` to add or override countries without forking the app.
 
-You’ll need **Docker**, **docker-compose**, and **git** installed.  
-Refer to [Docker’s documentation](https://docs.docker.com/) if needed.
+## Contributing
 
-#### Step 1: Prepare the folder and download setup files
+- **Geographic data:** copy [template/xx](template/xx), fill the CSV files, run `bench geo-extension validate <cc>` and open a pull request. The [contributor guide](template/README.md) walks through it step by step. Shipped datasets are generated from official sources or GeoNames by the scripts in [tools/](tools/).
+- **Code:** see [AGENTS.md](AGENTS.md) for the invariants, the map of the code base and the test commands.
 
 ```bash
-mkdir geo_extension
-cd geo_extension
-
-# Download the docker-compose file
-wget -O docker-compose.yml https://raw.githubusercontent.com/sudopotito/geo_extension/develop/docker/docker-compose.yml
-
-# Download the setup script
-wget -O init.sh https://raw.githubusercontent.com/sudopotito/geo_extension/develop/docker/init.sh
+bench --site your-site.localhost run-tests --app geo_extension
+node --test "tests/js/test_*.js"
+pre-commit run --all-files
 ```
-
-#### Step 2: Run and daemonize the container
-
-```bash
-docker compose up -d
-```
-
-#### Step 3: Access your site
-
-Visit: [http://geo_extension.localhost:8000](http://geo_extension.localhost:8000)
-
-Default credentials:
-
-```
-Username: Administrator
-Password: admin
-```
-
----
-
-### Bare Metal
-
-1. Install bench and set up a `frappe-bench` directory  
-   → [Installation Steps](https://frappeframework.com/docs/user/en/installation)
-2. Start the server
-   ```bash
-   bench start
-   ```
-3. Create a new site
-   ```bash
-   bench new-site geo_extension.localhost
-   ```
-4. Map to localhost
-   ```bash
-   bench --site geo_extension.localhost add-to-hosts
-   ```
-5. Download the app
-   ```bash
-   bench get-app https://github.com/sudopotito/geo_extension
-   ```
-6. Install the app
-   ```bash
-   bench --site geo_extension.localhost install-app geo_extension
-   ```
-7. Open the app in your browser  
-   → `http://geo_extension.localhost:8000`
-
----
-
-## Contribute
-
-We welcome contributions from the community!  
-Whether you’re adding support for a new country or fixing something small — your help makes Geo Extension better for everyone.
-
-### Adding a New Country
-
-If you want to contribute support for a new country, follow this guide:  
-👉 [How to Add a New Country](https://github.com/sudopotito/geo_extension/blob/develop/template/README.md)
-
-Even if your country already exists, you can still contribute updates, corrections, or extended datasets via a Pull Request (PR).
-
-### General Fixes or Improvements
-
-For general bug fixes, optimizations, or documentation updates —  
-you can directly **open a PR**. All contributions are reviewed and appreciated!
-
-Your contribution helps make address encoding smoother and more reliable across the Frappe ecosystem.
-
----
 
 ## License
 
-This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**.
+GNU General Public License v3.0. See [LICENSE](LICENSE).

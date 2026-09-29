@@ -1,0 +1,975 @@
+parent_code,code,name,aliases
+296560,8631749,Akdağmadeni,Akdağmadeni İlçesi
+296560,8631750,Aydıncık,Aydıncık İlçesi
+296560,8631769,Boğazlıyan,Boğazlıyan İlçesi
+296560,8631753,Çandır,Çandır İlçesi
+296560,8631754,Çayıralan,Çayıralan İlçesi
+296560,8631745,Çekerek,Çekerek İlçesi
+296560,8631716,Kadışehri,Kadışehri İlçesi
+296560,8631748,Saraykent,Saraykent İlçesi
+296560,7733004,Sarıkaya,
+296560,8631752,Şefaatli,Şefaatli İlçesi
+296560,8631751,Sorgun,Sorgun İlçesi
+296560,8631755,Yenifakılı,Yenifakılı İlçesi
+296560,8631771,Yerköy,Yerköy İlçesi|Yerkoey Ilcesi
+296560,13308792,Yozgat,
+298113,8630843,Bahçesaray,Bahçesaray İlçesi
+298113,8630841,Başkale,Başkale İlçesi
+298113,8630842,Çaldıran,Çaldıran İlçesi
+298113,438700,Çatak,Çatak İlçesi
+298113,7733001,Edremit,
+298113,7733002,Erciş,
+298113,8630844,Gevaş,Gevaş İlçesi
+298113,8630845,Gürpınar,Gürpınar İlçesi|Guerpinar Ilcesi
+298113,9550938,İpekyolu,
+298113,7911042,Muradiye,Muradiye / Berkri
+298113,8630847,Özalp,Özalp İlçesi|OEzalp Ilcesi
+298113,8630846,Saray,Saray İlçesi
+298113,9550890,Tuşba,
+298298,8632461,Banaz,Banaz İlçesi
+298298,8632462,Eşme,Eşme İlçesi
+298298,8632458,Karahallı,Karahallı İlçesi
+298298,8632460,Sivaslı,Sivaslı İlçesi
+298298,8632459,Ulubey,Ulubey İlçesi
+298298,7732999,Usak,
+298332,436459,Akçakale,Akçakale İlçesi
+298332,8630793,Birecik,Birecik İlçesi
+298332,8630794,Bozova,Bozova İlçesi
+298332,439201,Ceylanpınar,Ceylanpınar İlçesi
+298332,9550246,Eyyübiye,Eyyuebiye
+298332,8630795,Halfeti,Halfeti İlçesi
+298332,9550541,Haliliye,
+298332,439166,Harran,Harran İlçesi
+298332,8630792,Hilvan,Hilvan İlçesi
+298332,9550457,Karaköprü,Karakoeprue
+298332,8630791,Siverek,Siverek İlçesi
+298332,8630789,Suruç,Suruç İlçesi
+298332,8630788,Viranşehir,Viranşehir İlçesi
+298845,8631582,Çemişgezek,Çemişgezek İlçesi
+298845,8631576,Hozat,Hozat İlçesi
+298845,8631581,Mazgirt,Mazgirt İlçesi
+298845,8631580,Nazımiye,Nazımiye İlçesi
+298845,8631575,Ovacık,Ovacık İlçesi
+298845,8631578,Pertek,Pertek İlçesi
+298845,8631579,Pülümür,Pülümür İlçesi|Pueluemuer Ilcesi
+298845,7732998,Tunceli,
+300617,8631660,Akıncılar,Akıncılar İlçesi
+300617,8631654,Altınyayla,Altınyayla İlçesi
+300617,8631663,Divriği,Divriği İlçesi
+300617,8631653,Doğanşar,Doğanşar İlçesi
+300617,8631657,Gemerek,Gemerek İlçesi
+300617,8631659,Gölova,Gölova İlçesi|Goelova Ilcesi
+300617,8631649,Gürün,Gürün İlçesi|Gueruen Ilcesi
+300617,8631665,Hafik,Hafik İlçesi
+300617,8631661,İmranlı,İmranlı İlçesi
+300617,8631662,Kangal,Kangal İlçesi
+300617,8631652,Koyulhisar,Koyulhisar İlçesi
+300617,8631656,Şarkışla,Şarkışla İlçesi
+300617,7732989,Sivas,
+300617,8631651,Suşehri,Suşehri İlçesi
+300617,8631664,Ulaş,Ulaş İlçesi
+300617,8631658,Yıldızeli,Yıldızeli İlçesi
+300617,7732990,Zara,
+300821,8630839,Baykan,Baykan İlçesi
+300821,8630838,Eruh,Eruh İlçesi
+300821,440906,Kurtalan,Kurtalan İlçesi
+300821,438624,Pervari,Pervari İlçesi
+300821,440907,Siirt Merkez,
+300821,8630840,Şirvan,Şirvan İlçesi
+300821,438519,Tillo,Tillo İlçesi
+303826,8631911,Altunhisar,Altunhisar İlçesi
+303826,7910467,Bor,
+303826,8631912,Çamardı,Çamardı İlçesi
+303826,8631913,Çiftlik,Çiftlik İlçesi
+303826,7732948,Nigde,
+303826,7910465,Ulukisla,
+303830,8631927,Acıgöl,Acıgöl İlçesi|Acigoel Ilcesi
+303830,8631930,Avanos,Avanos İlçesi
+303830,8631932,Derinkuyu,Derinkuyu İlçesi
+303830,8631929,Gülşehir,Gülşehir İlçesi|Guelsehir Ilcesi
+303830,8631934,Hacıbektaş,Hacıbektaş İlçesi
+303830,8631933,Kozaklı,Kozaklı İlçesi
+303830,7732945,Nevsehir,
+303830,7732946,Ürgüp,UErguep
+304041,8630859,Bulanık,Bulanık İlçesi
+304041,8630863,Hasköy,Hasköy İlçesi|Haskoey Ilcesi
+304041,8630862,Korkut,Korkut İlçesi
+304041,8630858,Malazgirt,Malazgirt İlçesi
+304041,7732944,Mus,
+304041,8630861,Varto,Varto İlçesi
+304183,7733242,Bodrum,
+304183,8631959,Dalaman,Dalaman İlçesi
+304183,8631963,Datça,Datça İlçesi
+304183,7732940,Fethiye,
+304183,7732941,Kavaklıdere,
+304183,8631961,Köyceğiz,Köyceğiz İlçesi|Koeycegiz Ilcesi
+304183,7732942,Marmaris,
+304183,9548851,Menteşe,
+304183,8632389,Milas,Milas İlçesi
+304183,8631960,Ortaca,Ortaca İlçesi
+304183,9548757,Seydikemer,
+304183,8631962,Ula,Ula İlçesi
+304183,7732943,Yatağan,
+304794,9552222,Artuklu,
+304794,441646,Dargeçit,Dargeçit İlçesi
+304794,8630817,Derik,Derik İlçesi
+304794,8630814,Kızıltepe,Kızıltepe İlçesi
+304794,8630815,Mazıdağı,Mazıdağı İlçesi
+304794,441469,Midyat,Midyat İlçesi
+304794,441966,Nusaybin,Nusaybin İlçesi
+304794,441188,Ömerli,Ömerli İlçesi|OEmerli Ilcesi
+304794,441186,Savur,Savur İlçesi
+304794,441187,Yeşilli,Yeşilli İlçesi
+304825,8632414,Ahmetli,Ahmetli İlçesi
+304825,8632412,Akhisar,Akhisar İlçesi
+304825,8632416,Alaşehir,Alaşehir İlçesi
+304825,8632406,Demirci,Demirci İlçesi
+304825,8632413,Gölmarmara,Gölmarmara İlçesi|Goelmarmara Ilcesi
+304825,8632411,Gördes,Gördes İlçesi|Goerdes Ilcesi
+304825,8632410,Kırkağaç,Kırkağaç İlçesi
+304825,8632408,Köprübaşı,Köprübaşı İlçesi|Koepruebasi Ilcesi
+304825,7910589,Kula,
+304825,8632415,Salihli,Salihli İlçesi
+304825,8632417,Sarıgöl,Sarıgöl İlçesi|Sarigoel Ilcesi
+304825,7732938,Saruhanlı,
+304825,9548503,Şehzadeler,
+304825,8632407,Selendi,Selendi İlçesi
+304825,8632409,Soma,Soma İlçesi
+304825,8632418,Turgutlu,Turgutlu İlçesi
+304825,9548477,Yunusemre,
+304919,8631672,Akçadağ,Akçadağ İlçesi
+304919,8631668,Arapgir,Arapgir İlçesi
+304919,9548365,Arguvan,
+304919,7732936,Battalgazi,
+304919,8631674,Darende,Darende İlçesi
+304919,8631673,Doğanşehir,Doğanşehir İlçesi
+304919,9548308,Doğanyol,
+304919,8631670,Hekimhan,Hekimhan İlçesi
+304919,8631667,Kale,Kale İlçesi
+304919,8631676,Kuluncak,Kuluncak İlçesi
+304919,9548267,Pütürge,Puetuerge
+304919,8631669,Yazıhan,Yazıhan İlçesi
+304919,8631666,Yeşilyurt,Yeşilyurt İlçesi
+305267,8632450,Altıntaş,Altıntaş İlçesi
+305267,8632448,Aslanapa,Aslanapa İlçesi
+305267,8632447,Çavdarhisar,Çavdarhisar İlçesi
+305267,8632451,Domaniç,Domaniç İlçesi
+305267,8632449,Dumlupınar,Dumlupınar İlçesi
+305267,8632457,Emet,Emet İlçesi
+305267,8632446,Gediz,Gediz İlçesi
+305267,8632456,Hisarcık,Hisarcık İlçesi
+305267,13308789,Kutahya,
+305267,8632453,Pazarlar,Pazarlar İlçesi
+305267,8632454,Şaphane,Şaphane İlçesi
+305267,8632455,Simav,Simav İlçesi
+305267,8632452,Tavşanlı,Tavşanlı İlçesi
+306569,8632103,Ahırlı,Ahırlı İlçesi
+306569,8632104,Akören,Akören İlçesi|Akoeren Ilcesi
+306569,8632118,Akşehir,Akşehir İlçesi
+306569,8632095,Altınekin,Altınekin İlçesi
+306569,8632099,Beyşehir,Beyşehir İlçesi
+306569,8632105,Bozkır,Bozkır İlçesi
+306569,8632111,Çeltik,Çeltik İlçesi
+306569,7932392,Cihanbeyli District,
+306569,8632116,Çumra,Çumra İlçesi
+306569,8632098,Derbent,Derbent İlçesi
+306569,8632108,Derebucak,Derebucak İlçesi
+306569,8632112,Doğanhisar,Doğanhisar İlçesi
+306569,8632069,Emirgazi,Emirgazi İlçesi
+306569,8632066,Ereğli,Ereğli İlçesi
+306569,8632113,Güneysınır,Güneysınır İlçesi|Gueneysinir Ilcesi
+306569,8632065,Hadim,Hadim İlçesi
+306569,8632068,Halkapınar,Halkapınar İlçesi
+306569,8632117,Hüyük,Hüyük İlçesi|Hueyuek Ilcesi
+306569,8632107,Ilgın,Ilgın İlçesi
+306569,8632096,Kadınhanı,Kadınhanı İlçesi
+306569,8632070,Karapınar,Karapınar İlçesi
+306569,7732935,Karatay,
+306569,8632092,Kulu,Kulu İlçesi
+306569,8632115,Meram,Meram İlçesi
+306569,8632094,Sarayönü,Sarayönü İlçesi|Sarayoenue Ilcesi
+306569,7732933,Selcuklu,
+306569,8632100,Seydişehir,Seydişehir İlçesi
+306569,8632106,Taşkent,Taşkent İlçesi
+306569,8632109,Tuzlukçu,Tuzlukçu İlçesi
+306569,8632102,Yalıhüyük,Yalıhüyük İlçesi|Yalihueyuek Ilcesi
+306569,8632110,Yunak,Yunak İlçesi
+307513,8631935,Akçakent,Akçakent İlçesi
+307513,8631937,Akpınar,Akpınar İlçesi
+307513,8631939,Boztepe,Boztepe İlçesi
+307513,8631936,Çiçekdağı,Çiçekdağı İlçesi
+307513,8631938,Kaman,Kaman İlçesi
+307513,13308775,Kirsehir,
+307513,8631940,Mucur,Mucur İlçesi
+308463,8631773,Akkışla,Akkışla İlçesi
+308463,8631782,Bünyan,Bünyan İlçesi|Buenyan Ilcesi
+308463,7732925,Develi,
+308463,8631788,Felahiye,Felahiye İlçesi
+308463,8631787,Hacılar,Hacılar İlçesi
+308463,7910469,Incesu,
+308463,7732929,Kocasinan,Kocasinan İlçesi
+308463,7732928,Melikgazi,
+308463,8631789,Özvatan,Özvatan İlçesi|OEzvatan Ilcesi
+308463,8631781,Pınarbaşı,Pınarbaşı İlçesi
+308463,8631783,Sarıoğlan,Sarıoğlan İlçesi
+308463,8631774,Sarız,Sarız İlçesi
+308463,8631784,Talas,Talas İlçesi
+308463,8631775,Tomarza,Tomarza İlçesi
+308463,7932395,Yahyalı,
+308463,7910468,Yeşilhisar,
+310858,8631480,Afşin,Afşin İlçesi
+310858,8631478,Andırın,Andırın İlçesi
+310858,8631474,Çağlayancerit,Çağlayancerit İlçesi
+310858,9548545,Dulkadiroğlu,
+310858,8631477,Ekinözü,Ekinözü İlçesi|Ekinoezue Ilcesi
+310858,8631476,Elbistan,Elbistan İlçesi
+310858,8631479,Göksun,Göksun İlçesi|Goeksun Ilcesi
+310858,8631473,Nurhak,Nurhak İlçesi
+310858,9548652,Onikişubat,
+310858,8631472,Pazarcık,Pazarcık İlçesi
+310858,8631475,Türkoğlu,Türkoğlu İlçesi|Tuerkoglu Ilcesi
+311044,7732712,Aliağa,
+311044,9543301,Balçova,
+311044,8632420,Bayındır,Bayındır İlçesi
+311044,7732715,Bayraklı,
+311044,7732716,Bergama,
+311044,7733239,Beydağ,
+311044,7732711,Bornova,
+311044,7732718,Buca,
+311044,8632427,Çeşme,Çeşme İlçesi
+311044,7732714,Çiğli,
+311044,8632430,Dikili,Dikili İlçesi
+311044,8632429,Foça,Foça İlçesi
+311044,7732720,Gaziemir,
+311044,9544174,Güzelbahçe,Guezelbahce
+311044,9543231,Karabağlar,
+311044,8632428,Karaburun,Karaburun İlçesi
+311044,8632424,Karşıyaka,Karşıyaka İlçesi
+311044,7732724,Kemalpaşa,
+311044,8632419,Kınık,Kınık İlçesi
+311044,8632422,Kiraz,Kiraz İlçesi
+311044,7732725,Konak,
+311044,7732726,Menderes,
+311044,7732727,Menemen,
+311044,9543771,Narlıdere,
+311044,8632421,Ödemiş,Ödemiş İlçesi|OEdemis Ilcesi
+311044,7732732,Seferihisar,
+311044,8632426,Selçuk,Selçuk İlçesi
+311044,7732733,Tire,
+311044,7732734,Torbalı,
+311044,8632423,Urla,Urla İlçesi
+311071,8632173,Aksu,Aksu İlçesi
+311071,8632181,Atabey,Atabey İlçesi
+311071,8632180,Eğirdir,Eğirdir İlçesi
+311071,8632182,Gelendost,Gelendost İlçesi
+311071,8632179,Gönen,Gönen İlçesi|Goenen Ilcesi
+311071,13308770,Isparta,
+311071,8632175,Keçiborlu,Keçiborlu İlçesi
+311071,8632171,Şarkîkaraağaç,Şarkîkaraağaç İlçesi
+311071,8632178,Senirkent,Senirkent İlçesi
+311071,8632172,Sütçüler,Sütçüler İlçesi|Suetcueler Ilcesi
+311071,8632176,Uluborlu,Uluborlu İlçesi
+311071,8632184,Yalvaç,Yalvaç İlçesi
+311071,8632170,Yenişarbademli,Yenişarbademli İlçesi
+311728,9542422,Akdeniz,
+311728,8632146,Anamur,Anamur İlçesi
+311728,8632145,Aydıncık,Aydıncık İlçesi
+311728,8632138,Bozyazı,Bozyazı İlçesi
+311728,8632141,Çamlıyayla,Çamlıyayla İlçesi
+311728,8632149,Erdemli,Erdemli İlçesi
+311728,8632144,Gülnar,Gülnar İlçesi|Guelnar Ilcesi
+311728,8632142,Mezitli,Mezitli İlçesi
+311728,7910604,Mut,
+311728,8632148,Silifke,Silifke İlçesi
+311728,7732939,Tarsus,
+311728,9542263,Toroslar,
+311728,9542118,Yenişehir,
+312394,438418,Altınözü,Altınözü İlçesi|Altinoezue Ilcesi
+312394,438417,Antakya,Antakya İlçesi
+312394,9541531,Arsuz,
+312394,437930,Belen,Belen İlçesi
+312394,9541389,Defne,
+312394,436927,Dörtyol,Dörtyol İlçesi|Doertyol Ilcesi
+312394,436926,Erzin,Erzin İlçesi
+312394,436928,Hassa,Hassa İlçesi
+312394,437928,İskenderun,İskenderun İlçesi
+312394,437929,Kırıkhan,Kırıkhan İlçesi
+312394,437215,Kumlu,Kumlu İlçesi
+312394,9541486,Payas,
+312394,438432,Reyhanlı,Reyhanlı İlçesi
+312394,9541203,Samandağ,
+312394,438427,Yayladağı,Yayladağı İlçesi
+312888,8630851,Çukurca,Çukurca İlçesi
+312888,13308781,Derecik,
+312888,8694443,Doski Aşireti Bölgesi,Doski Asireti Boelgesi
+312888,13308785,Hakkari,
+312888,8630849,Şemdinni,Şemdinni İlçesi
+312888,7733232,Yüksekova,Yueksekova
+314829,7733230,Araban,
+314829,437252,İslahiye,İslahiye İlçesi
+314829,436186,Karkamış,Karkamış İlçesi
+314829,8630759,Nizip,Nizip İlçesi
+314829,8630785,Nurdağı,Nurdağı İlçesi
+314829,436187,Oğuzeli,Oğuzeli İlçesi
+314829,437630,Şahinbey,Şahinbey İlçesi
+314829,7732373,Şehitkamil,
+314829,8630760,Yavuzeli,Yavuzeli İlçesi
+315201,8632484,Alpu,Alpu İlçesi
+315201,8632483,Beylikova,Beylikova İlçesi
+315201,8632491,Çifteler,Çifteler İlçesi
+315201,8632480,Günyüzü,Günyüzü İlçesi|Guenyuezue Ilcesi
+315201,8632488,Han,Han İlçesi
+315201,8632487,İnönü,İnönü İlçesi|Inoenue Ilcesi
+315201,8632490,Mahmudiye,Mahmudiye İlçesi
+315201,8632486,Mihalgazi,Mihalgazi İlçesi
+315201,8632482,Mihalıçcık,Mihalıçcık İlçesi
+315201,9540749,Odunpazarı,
+315201,8632485,Sarıcakaya,Sarıcakaya İlçesi
+315201,8632489,Seyitgazi,Seyitgazi İlçesi
+315201,8632481,Sivrihisar,Sivrihisar İlçesi
+315201,9538820,Tepebaşı,
+315367,8631390,Aşkale,Aşkale İlçesi
+315367,9538817,Aziziye,
+315367,8631389,Çat,Çat İlçesi
+315367,8631387,Hınıs,Hınıs İlçesi
+315367,8631376,Horasan,Horasan İlçesi
+315367,8631392,İspir,İspir İlçesi
+315367,8631388,Karaçoban,Karaçoban İlçesi
+315367,8631386,Karayazı,Karayazı İlçesi
+315367,8631379,Köprüköy,Köprüköy İlçesi|Koepruekoey Ilcesi
+315367,8631377,Narman,Narman İlçesi
+315367,8631381,Oltu,Oltu İlçesi
+315367,8631375,Olur,Olur İlçesi
+315367,9565016,Palandöken,Palandoeken
+315367,8631382,Pasinler,Pasinler İlçesi
+315367,8631391,Pazaryolu,Pazaryolu İlçesi
+315367,8631373,Şenkaya,Şenkaya İlçesi
+315367,8631384,Tekman,Tekman İlçesi
+315367,8631380,Tortum,Tortum İlçesi
+315367,8631378,Uzundere,Uzundere İlçesi
+315367,9538819,Yakutiye,
+315372,8631583,Çayırlı,Çayırlı İlçesi
+315372,13308784,Erzincan,
+315372,8631608,İliç,İliç İlçesi
+315372,8631610,Kemah,Kemah İlçesi
+315372,8631607,Kemaliye,Kemaliye İlçesi
+315372,8631584,Otlukbeli,Otlukbeli İlçesi
+315372,8631609,Refahiye,Refahiye İlçesi
+315372,8631605,Tercan,Tercan İlçesi
+315372,8631606,Üzümlü,Üzümlü İlçesi|UEzuemlue Ilcesi
+315807,7733228,Ağın,
+315807,8631566,Alacakaya,Alacakaya İlçesi|Alacakayal İlçesi
+315807,8631565,Arıcak,Arıcak İlçesi
+315807,8631561,Baskil,Baskil İlçesi
+315807,7732370,Elazig,
+315807,6544214,Karakoçan,
+315807,8631574,Keban,Keban İlçesi
+315807,8631562,Kovancılar,Kovancılar İlçesi
+315807,8631564,Maden,Maden İlçesi
+315807,8631570,Palu,Palu İlçesi
+315807,8631563,Sivrice,Sivrice İlçesi
+316540,9565135,Bağlar,
+316540,439825,Bismil,Bismil İlçesi
+316540,8630829,Çermik,Çermik İlçesi
+316540,8630826,Çınar,Çınar İlçesi
+316540,8630836,Çüngüş,Çüngüş İlçesi|Cuengues Ilcesi
+316540,8630828,Dicle,Dicle İlçesi
+316540,8630835,Eğil,Eğil İlçesi
+316540,8630830,Ergani,Ergani İlçesi
+316540,8630834,Hani,Hani İlçesi
+316540,8630827,Hazro,Hazro İlçesi
+316540,9565090,Kayapınar,
+316540,8630833,Kocaköy,Kocaköy İlçesi|Kocakoey Ilcesi
+316540,8630837,Kulp,Kulp İlçesi
+316540,8630832,Lice,Lice İlçesi
+316540,8630831,Silvan,Silvan İlçesi
+316540,9565377,Sur,
+316540,9565316,Yenişehir,
+317106,8632193,Acıpayam,Acıpayam İlçesi
+317106,8632212,Akköy,Pamukkale İlçesi|Akköy İlçesi
+317106,8632205,Babadağ,Babadağ İlçesi
+317106,8632200,Baklan,Baklan İlçesi
+317106,8632197,Bekilli,Bekilli İlçesi
+317106,8632192,Beyağaç,Beyağaç İlçesi
+317106,8632201,Bozkurt,Bozkurt İlçesi
+317106,8632211,Buldan,Buldan İlçesi
+317106,8632198,Çal,Çal İlçesi
+317106,8632194,Çameli,Çameli İlçesi
+317106,7732353,Çardak,
+317106,8632190,Çivril,Çivril İlçesi
+317106,8632195,Güney,Güney İlçesi|Gueney Ilcesi
+317106,7732360,Honaz,
+317106,8632207,Kale,Kale İlçesi
+317106,9538816,Merkezefendi,Merkezefendi İlçesi
+317106,7732660,Sarayköy,Saraykoey
+317106,8632210,Serinhisar,Serinhisar İlçesi
+317106,8632208,Tavas,Tavas İlçesi
+320390,8631951,Ağlasun,Ağlasun İlçesi
+320390,8631957,Altınyayla,Altınyayla İlçesi
+320390,8631949,Bucak,Bucak İlçesi
+320390,7732207,Burdur,
+320390,8631953,Çavdır,Çavdır İlçesi
+320390,8631950,Çeltikçi,Çeltikçi İlçesi
+320390,8631956,Gölhisar,Gölhisar İlçesi|Goelhisar Ilcesi
+320390,8631955,Karamanlı,Karamanlı İlçesi
+320390,8631952,Kemer,Kemer İlçesi
+320390,8631954,Tefenni,Tefenni İlçesi
+320390,8631958,Yeşilova,Yeşilova İlçesi
+321022,8630856,Adilcevaz,Adilcevaz İlçesi
+321022,8630855,Ahlat,Ahlat İlçesi
+321022,7732206,Bitlis,
+321022,8630852,Güroymak,Güroymak İlçesi|Gueroymak Ilcesi
+321022,8630853,Hizan,Hizan İlçesi
+321022,8630857,Mutki,Mutki İlçesi
+321022,8630854,Tatvan,Tatvan İlçesi
+321079,8631556,Adaklı,Adaklı İlçesi
+321079,7732205,Bingol,
+321079,8631559,Genç,Genç İlçesi
+321079,8631558,Karlıova,Karlıova İlçesi
+321079,8631560,Kiğı,Kiğı İlçesi
+321079,8631557,Solhan,Solhan İlçesi
+321079,8631554,Yayladere,Yayladere İlçesi
+321079,8631555,Yedisu,Yedisu İlçesi
+321122,13308771,Bilecik,
+321122,8632588,Bozüyük,Bozüyük İlçesi|Bozueyuek Ilcesi
+321122,8632586,Gölpazarı,Gölpazarı İlçesi|Goelpazari Ilcesi
+321122,9538526,İnhisar,İnhisar İlçesi
+321122,8632587,Osmaneli,Osmaneli İlçesi
+321122,8632589,Pazaryeri,Pazaryeri İlçesi
+321122,8632584,Söğüt,Söğüt İlçesi|Soeguet Ilcesi
+321122,8632583,Yenipazar,Yenipazar İlçesi
+322164,9538520,Altıeylül,Altıeylül İlçesi|Altieyluel Ilcesi
+322164,8632435,Ayvalık,Ayvalık İlçesi
+322164,8632440,Balya,Balya İlçesi
+322164,7732201,Bandırma,Bandırma İlçesi
+322164,8632433,Bigadiç,Bigadiç İlçesi
+322164,8632443,Burhaniye,Burhaniye İlçesi
+322164,7910603,Dursunbey,Dursunbey İlçesi
+322164,8632444,Edremit,Edremit İlçesi
+322164,8632441,Erdek,Erdek İlçesi
+322164,8632436,Gömeç,Gömeç İlçesi
+322164,8632442,Gönen,Gönen İlçesi|Goenen Ilcesi
+322164,8632445,Havran,Havran İlçesi
+322164,8632437,İvrindi,İvrindi İlçesi
+322164,10910316,Karesi,Karesi İlçesi
+322164,8632431,Kepsut,Kepsut İlçesi
+322164,8632438,Manyas,Manyas İlçesi
+322164,7733225,Marmara,Marmara İlçesi
+322164,8632434,Savaştepe,Savaştepe İlçesi
+322164,8632432,Sındırgı,Sındırgı İlçesi
+322164,8632439,Susurluk,Susurluk İlçesi
+322819,8632395,Bozdoğan,Bozdoğan İlçesi
+322819,8632397,Buharkent,Buharkent İlçesi
+322819,8632393,Çine,Çine İlçesi
+322819,8632405,Didim,Didim İlçesi
+322819,9564466,Efeler,
+322819,8632402,Germencik,Germencik İlçesi
+322819,8632403,İncirliova,İncirliova İlçesi
+322819,8632396,Karacasu,Karacasu İlçesi
+322819,8632392,Karpuzlu,Karpuzlu İlçesi
+322819,8632391,Koçarlı,Koçarlı İlçesi
+322819,8632404,Köşk,Köşk İlçesi|Koesk Ilcesi
+322819,8632401,Kuşadası,Kuşadası İlçesi
+322819,8632400,Kuyucak,Kuyucak İlçesi
+322819,8632399,Nazilli,Nazilli İlçesi
+322819,8632390,Söke,Söke İlçesi|Soeke Ilcesi
+322819,8632398,Sultanhisar,Sultanhisar İlçesi
+322819,8632394,Yenipazar,Yenipazar İlçesi
+323776,8632154,Akseki,Akseki İlçesi
+323776,9535333,Aksu,
+323776,7732185,Alanya,
+323776,8632162,Demre,Demre İlçesi
+323776,9535332,Döşemealtı,Döşemealtı İlçesi|Doesemealti Ilcesi
+323776,8632165,Elmalı,Elmalı İlçesi
+323776,7732189,Finike,
+323776,8632151,Gazipaşa,Gazipaşa İlçesi
+323776,8632153,Gündoğmuş,Gündoğmuş İlçesi|Guendogmus Ilcesi
+323776,8632156,İbradı,İbradı İlçesi
+323776,8632166,Kaş,Kaş İlçesi
+323776,7732191,Kemer,Kemer İlçesi
+323776,9535336,Kepez,Kepez İlçesi
+323776,9535334,Konyaaltı,
+323776,8632164,Korkuteli,Korkuteli İlçesi
+323776,7911038,Kumluca,Kumluca İlçesi
+323776,7732193,Manavgat,Manavgat İlçesi
+323776,9535335,Muratpaşa,Muratpaşa İlçesi
+323776,7732195,Serik,
+323784,8632043,Akyurt,Akyurt İlçesi
+323784,7732081,Altındağ,
+323784,8632061,Ayaş,Ayaş İlçesi
+323784,8632047,Bala,Bala İlçesi
+323784,7910611,Beypazarı,Beypazarı İlçesi
+323784,8632062,Çamlıdere,Çamlıdere İlçesi
+323784,7732084,Çankaya,
+323784,8632045,Çubuk,Çubuk İlçesi
+323784,8632039,Elmadağ,Elmadağ İlçesi
+323784,8632058,Etimesgut,Etimesgut İlçesi
+323784,8632037,Evren,Evren İlçesi
+323784,7732107,Gölbaşı,Goelbasi
+323784,8632056,Güdül,Güdül İlçesi|Gueduel Ilcesi
+323784,8632057,Haymana,Haymana İlçesi
+323784,7732167,Kahramankazan,
+323784,8632041,Kalecik,Kalecik İlçesi
+323784,7733221,Keçiören,Kecioeren
+323784,8632063,Kızılcahamam,Kızılcahamam İlçesi
+323784,8632046,Mamak,Mamak İlçesi
+323784,8632052,Nallıhan,Nallıhan İlçesi
+323784,7732180,Polatlı,
+323784,9551354,Pursaklar,
+323784,8632050,Şereflikoçhisar,Şereflikoçhisar İlçesi
+323784,7732181,Sincan,Sincan İlçesi
+323784,7732184,Yenimahalle,
+325163,11778423,Ağrı,
+325163,8630865,Diyadin,Diyadin İlçesi
+325163,8630864,Doğubayazıt,Doğubayazıt İlçesi
+325163,8630866,Eleşkirt,Eleşkirt İlçesi
+325163,8630870,Hamur,Hamur İlçesi
+325163,8630868,Patnos,Patnos İlçesi
+325163,8630867,Taşlıçay,Taşlıçay İlçesi
+325163,8630869,Tutak,Tutak İlçesi
+325302,7732070,Afyonkarahisar,
+325302,8632464,Başmakçı,Başmakçı İlçesi
+325302,8632476,Bayat,Bayat İlçesi
+325302,8632473,Bolvadin,Bolvadin İlçesi
+325302,8632474,Çay,Çay İlçesi
+325302,8632470,Çobanlar,Çobanlar İlçesi
+325302,8632478,Dazkırı,Dazkırı İlçesi
+325302,8632465,Dinar,Dinar İlçesi
+325302,8632477,Emirdağ,Emirdağ İlçesi
+325302,8632463,Evciler,Evciler İlçesi
+325302,8632466,Hocalar,Hocalar İlçesi
+325302,8632472,İhsaniye,İhsaniye İlçesi
+325302,7732071,İscehisar,
+325302,8632467,Kızılören,Kızılören İlçesi|Kiziloeren Ilcesi
+325302,8632468,Sandıklı,Sandıklı İlçesi
+325302,8632471,Sinanpaşa,Sinanpaşa İlçesi
+325302,8632469,Şuhut,Şuhut İlçesi
+325302,8632475,Sultandağı,Sultandağı İlçesi
+325329,7732069,Adıyaman,
+325329,8631681,Besni,Besni İlçesi
+325329,8631680,Çelikhan,Çelikhan İlçesi
+325329,8631677,Gerger,Gerger İlçesi
+325329,8631684,Gölbaşı,Gölbaşı İlçesi|Goelbasi Ilcesi
+325329,8631679,Kâhta,Kâhta İlçesi
+325329,8631678,Samsat,Samsat İlçesi
+325329,8631683,Sincik,Sincik İlçesi
+325329,8631682,Tut,Tut İlçesi
+325361,8631906,Aladağ,
+325361,7732059,Ceyhan,
+325361,9552840,Çukurova,
+325361,8631905,Feke,Feke İlçesi
+325361,8631908,İmamoğlu,İmamoğlu İlçesi
+325361,8631909,Karaisalı,Karaisalı İlçesi
+325361,8631910,Karataş,Karataş İlçesi
+325361,7911055,Kozan,
+325361,8631907,Pozantı,Pozantı İlçesi
+325361,8631903,Saimbeyli,Saimbeyli İlçesi
+325361,9552711,Sarıçam,
+325361,7732063,Seyhan,
+325361,8631904,Tufanbeyli,Tufanbeyli İlçesi
+325361,8631795,Yumurtalık,Yumurtalık İlçesi
+325361,7732065,Yüreğir,Yueregir
+443183,8631468,Bahçe,Bahçe İlçesi
+443183,8631467,Düziçi,Düziçi İlçesi|Duezici Ilcesi
+443183,8631469,Hasanbeyli,Hasanbeyli İlçesi
+443183,8631470,Kadirli,Kadirli İlçesi
+443183,13308790,Osmaniye,
+443183,8631471,Sumbas,Sumbas İlçesi
+443183,7910463,Toprakkale,
+443184,8630872,Aralık,Aralık İlçesi
+443184,13308774,Iğdır,Iğdır İlçesi
+443184,8630874,Karakoyunlu,Karakoyunlu İlçesi
+443184,8630873,Tuzluca,Tuzluca İlçesi
+443185,8631920,Ağaçören,Ağaçören İlçesi|Agacoeren Ilcesi
+443185,7732073,Aksaray,
+443185,8631917,Eskil,Eskil İlçesi
+443185,8631923,Gülağaç,Gülağaç İlçesi|Guelagac Ilcesi
+443185,8631925,Güzelyurt,Güzelyurt İlçesi|Guezelyurt Ilcesi
+443185,8631922,Ortaköy,Ortaköy İlçesi|Ortakoey Ilcesi
+443185,8631919,Sarıyahşi,Sarıyahşi İlçesi
+443185,11789076,Sultanhanı,
+443186,7732202,Batman,
+443186,440476,Beşiri,Beşiri İlçesi
+443186,441468,Gercüş,Gercüş İlçesi|Gercues Ilcesi
+443186,440905,Hasankeyf,Hasankeyf İlçesi
+443186,8630820,Kozluk,Kozluk İlçesi
+443186,8630819,Sason,Sason İlçesi
+443187,8632134,Ayrancı,Ayrancı İlçesi
+443187,8632132,Başyayla,Başyayla İlçesi
+443187,8632136,Ermenek,Ermenek İlçesi
+443187,13308786,Karaman,
+443187,8632133,Kazımkarabekir,Kazımkarabekir İlçesi
+443187,8632131,Sarıveliler,Sarıveliler İlçesi
+443188,8631942,Bahşılı,Bahşılı İlçesi
+443188,8631943,Balışeyh,Balışeyh İlçesi
+443188,8631965,Çelebi,Çelebi İlçesi
+443188,8631944,Delice,Delice İlçesi
+443188,8631964,Karakeçili,Karakeçili İlçesi
+443188,8631946,Keskin,Keskin İlçesi
+443188,13308772,Kirikkale,
+443188,8631945,Sulakyurt,Sulakyurt İlçesi
+443188,8631941,Yahşihan,Yahşihan İlçesi
+443189,438958,Beytüşşebap,Beytuessebap
+443189,438774,Cizre,Cizre İlçesi
+443189,441645,Güçlükonak,Güçlükonak İlçesi|Guecluekonak Ilcesi
+443189,442034,İdil,İdil İlçesi
+443189,438989,Silopi,Silopi İlçesi
+443189,438773,Şırnak,Şırnak İlçesi
+443189,438878,Uludere,Uludere İlçesi
+443213,437629,Elbeyli,Elbeyli İlçesi
+443213,437628,Kilis Merkez,
+443213,437251,Musabeyli,Musabeyli İlçesi
+443213,437627,Polateli,Polateli İlçesi
+737021,8632511,Alaplı,Alaplı İlçesi
+737021,8632508,Çaycuma,Çaycuma İlçesi
+737021,8632510,Devrek,Devrek İlçesi
+737021,7733006,Ereğli,Ereğli İlçesi
+737021,8632509,Gökçebey,Gökçebey İlçesi|Goekcebey Ilcesi
+737021,9553975,Kilimli,
+737021,9553115,Kozlu,
+737021,13308780,Zonguldak,
+738647,9550057,Akçaabat,
+738647,7910998,Araklı,Araklı İlçesi
+738647,7732993,Arsin,
+738647,9549892,Beşikdüzü,Besikduezue
+738647,7732995,Çarşıbaşı,
+738647,8631456,Çaykara,Çaykara İlçesi
+738647,8631459,Dernekpazarı,Dernekpazarı İlçesi
+738647,8631465,Düzköy,Düzköy İlçesi|Duezkoey Ilcesi
+738647,8631457,Hayrat,Hayrat İlçesi
+738647,8631460,Köprübaşı,Köprübaşı İlçesi|Koepruebasi Ilcesi
+738647,7911030,Maçka,
+738647,8631458,Of,Of İlçesi
+738647,9549891,Ortahisar,
+738647,8631463,Şalpazarı,Şalpazarı İlçesi
+738647,8631461,Sürmene,Sürmene İlçesi|Suermene Ilcesi
+738647,8631464,Tonya,Tonya İlçesi
+738647,7732997,Vakfıkebir,
+738647,8631466,Yomra,Yomra İlçesi
+738742,8631743,Almus,Almus İlçesi
+738742,8631740,Artova,Artova İlçesi
+738742,8631714,Başçiftlik,Başçiftlik İlçesi
+738742,7732992,Erbaa,
+738742,7911035,Niksar,
+738742,8631741,Pazar,Pazar İlçesi
+738742,7911036,Reşadiye,
+738742,8631717,Sulusaray,Sulusaray İlçesi
+738742,13308791,Tokat,
+738742,8631742,Turhal,Turhal İlçesi
+738742,8631738,Yeşilyurt,Yeşilyurt İlçesi
+738742,8631744,Zile,Zile İlçesi
+738926,7732991,Çerkezköy,Cerkezkoey
+738926,7732607,Çorlu,
+738926,9564781,Ergene,
+738926,8632556,Hayrabolu,Hayrabolu İlçesi
+738926,9549876,Kapaklı,
+738926,8632559,Malkara,Malkara İlçesi
+738926,8632555,Marmara Ereğlisi,Marmara Ereğlisi İlçesi
+738926,8632557,Muratlı,Muratlı İlçesi
+738926,8632558,Saray,Saray İlçesi
+738926,8632560,Şarköy,Şarköy İlçesi|Sarkoey Ilcesi
+738926,9549878,Süleymanpaşa,Sueleymanpasa
+739598,7911054,Ayancık,
+739598,8632034,Boyabat,Boyabat İlçesi
+739598,8632030,Dikmen,Dikmen İlçesi
+739598,8632031,Durağan,Durağan İlçesi
+739598,8632033,Erfelek,Erfelek İlçesi
+739598,8632029,Gerze,Gerze İlçesi
+739598,8632032,Saraydüzü,Saraydüzü İlçesi|Sarayduezue Ilcesi
+739598,7733028,Sinop,
+739598,8632035,Türkeli,Türkeli İlçesi|Tuerkeli Ilcesi
+740263,8631691,Alaçam,Alaçam İlçesi
+740263,8631690,Asarcık,Asarcık İlçesi
+740263,9549747,Atakum,
+740263,8631696,Ayvacık,Ayvacık İlçesi
+740263,7732956,Bafra,
+740263,9549574,Canik,
+740263,8631698,Çarşamba,Çarşamba İlçesi
+740263,8631686,Havza,Havza İlçesi
+740263,9549630,İlkadım,
+740263,8631689,Kavak,Kavak İlçesi
+740263,8631687,Ladik,Ladik İlçesi
+740263,8631699,Ondokuzmayıs,Ondokuzmayıs İlçesi|19. Mayıs İlçesi|19 Mayıs
+740263,8631695,Salıpazarı,Salıpazarı İlçesi
+740263,7733243,Tekkeköy,Tekkekoey
+740263,8631693,Terme,Terme İlçesi
+740263,8631685,Vezirköprü,Vezirköprü İlçesi|Vezirkoeprue Ilcesi
+740263,8631692,Yakakent,Yakakent İlçesi
+740352,9549335,Adapazarı,
+740352,8632520,Akyazı,Akyazı İlçesi
+740352,9549457,Arifiye,
+740352,9549424,Erenler,
+740352,8632529,Ferizli,Ferizli İlçesi
+740352,8632523,Geyve,Geyve İlçesi
+740352,8632526,Hendek,Hendek İlçesi
+740352,8632522,Karapürçek,Karapürçek İlçesi|Karapuercek Ilcesi
+740352,8632527,Karasu,Karasu İlçesi
+740352,8632531,Kaynarca,Kaynarca İlçesi
+740352,8632528,Kocaali,Kocaali İlçesi
+740352,8632524,Pamukova,Pamukova İlçesi
+740352,8632525,Sapanca,Sapanca İlçesi
+740352,9549384,Serdivan,
+740352,8632530,Söğütlü,Söğütlü İlçesi|Soeguetlue Ilcesi
+740352,8632521,Taraklı,Taraklı İlçesi
+740481,9549101,Ardeşen,
+740481,8631454,Çamlıhemşin,Çamlıhemşin İlçesi
+740481,9549145,Çayeli,
+740481,8631455,Derepazarı,Derepazarı İlçesi
+740481,9549311,Fındıklı,
+740481,8631451,Güneysu,Güneysu İlçesi|Gueneysu Ilcesi
+740481,8631452,Hemşin,Hemşin İlçesi
+740481,8631450,İkizdere,İkizdere İlçesi
+740481,9549009,İyidere,
+740481,7911029,Kalkandere,
+740481,8631453,Pazar,Pazar İlçesi
+740481,13308777,Rize,
+741098,7911034,Akkuş,
+741098,9548904,Altınordu,
+741098,8631644,Aybastı,Aybastı İlçesi
+741098,8631638,Çamaş,Çamaş İlçesi
+741098,8631640,Çatalpınar,Çatalpınar İlçesi
+741098,8631648,Çaybaşı,Çaybaşı İlçesi
+741098,8631639,Fatsa,Fatsa İlçesi
+741098,8631634,Gölköy,Gölköy İlçesi|Goelkoey Ilcesi
+741098,8631633,Gülyalı,Gülyalı İlçesi|Guelyali Ilcesi
+741098,8631636,Gürgentepe,Gürgentepe İlçesi|Guergentepe Ilcesi
+741098,8631647,İkizce,İkizce İlçesi
+741098,8631632,Kabadüz,Kabadüz İlçesi|Kabaduez Ilcesi
+741098,8631645,Kabataş,Kabataş İlçesi
+741098,8631643,Korgan,Korgan İlçesi
+741098,8631641,Kumru,Kumru İlçesi
+741098,8631642,Mesudiye,Mesudiye İlçesi
+741098,8631637,Perşembe,Perşembe İlçesi
+741098,8631635,Ulubey,Ulubey İlçesi
+741098,8631646,Ünye,Ünye İlçesi|UEnye Ilcesi
+742865,9548074,Başiskele,
+742865,9548231,Çayırova,
+742865,9548124,Darıca,
+742865,8632549,Derince,Derince İlçesi
+742865,7732931,Dilovası,
+742865,7732636,Gebze,
+742865,8632548,Gölcük,Gölcük İlçesi|Goelcuek Ilcesi
+742865,9544571,İzmit,
+742865,8632547,Kandıra,Kandıra İlçesi
+742865,8632551,Karamürsel,Karamürsel İlçesi|Karamuersel Ilcesi
+742865,9547999,Kartepe,
+742865,8632550,Körfez,Körfez İlçesi|Koerfez Ilcesi
+743165,8632562,Babaeski,Babaeski İlçesi
+743165,8632566,Demirköy,Demirköy İlçesi|Demirkoey Ilcesi
+743165,13308788,Kirklareli,
+743165,8632564,Kofçaz,Kofçaz İlçesi
+743165,8632563,Lüleburgaz,Lüleburgaz İlçesi
+743165,8632561,Pehlivanköy,Pehlivanköy İlçesi|Pehlivankoey Ilcesi
+743165,8632565,Pınarhisar,Pınarhisar İlçesi
+743165,8632567,Vize,Vize İlçesi
+743881,8631995,Abana,Abana İlçesi
+743881,8631992,Ağlı,Ağlı İlçesi
+743881,8631981,Araç,Araç İlçesi
+743881,8631987,Azdavay,Azdavay İlçesi
+743881,8631996,Bozkurt,Bozkurt İlçesi
+743881,8631997,Çatalzeytin,Çatalzeytin İlçesi
+743881,7732736,Cide,
+743881,8631986,Daday,Daday İlçesi
+743881,8631990,Devrekani,Devrekani İlçesi
+743881,8631989,Doğanyurt,Doğanyurt İlçesi
+743881,8631979,Hanönü,Hanönü İlçesi|Hanoenue Ilcesi
+743881,8631983,İhsangazi,İhsangazi İlçesi
+743881,8631993,İnebolu,İnebolu İlçesi
+743881,13308787,Kastamonu,
+743881,8631994,Küre,Küre İlçesi|Kuere Ilcesi
+743881,8631984,Pınarbaşı,Pınarbaşı İlçesi
+743881,8631988,Şenpazar,Şenpazar İlçesi
+743881,8631991,Seydiler,Seydiler İlçesi
+743881,8631978,Taşköprü,Taşköprü İlçesi|Taskoeprue Ilcesi
+743881,8631980,Tosya,Tosya İlçesi
+743942,8631366,Akyaka,Akyaka İlçesi
+743942,8631367,Arpaçay,Arpaçay İlçesi
+743942,8631364,Digor,Digor İlçesi
+743942,8631365,Kağızman,Kağızman İlçesi
+743942,13308773,Kars,
+743942,8631370,Sarıkamış,Sarıkamış İlçesi
+743942,8631369,Selim,Selim İlçesi
+743942,8631368,Susuz,Susuz İlçesi
+745042,8521527,Adalar,
+745042,8521528,Arnavutköy,Arnavutkoey
+745042,8521529,Ataşehir,
+745042,7732454,Avcılar,
+745042,7732460,Bağcılar,
+745042,7732457,Bahçelievler,
+745042,7732461,Bakırköy,Bakirkoey
+745042,8521530,Başakşehir,
+745042,7732459,Bayrampaşa,
+745042,7733234,Beşiktaş,
+745042,7733235,Beykoz,
+745042,8521531,Beylikdüzü,Beylikduezue
+745042,7732462,Beyoğlu,
+745042,7732455,Büyükçekmece,Bueyuekcekmece
+745042,7732464,Çatalca,
+745042,8521532,Çekmeköy,Cekmekoey
+745042,7732467,Esenler,
+745042,8521533,Esenyurt,
+745042,7732469,Eyüpsultan,Eyuepsultan
+745042,7733237,Fatih,
+745042,7732471,Gaziosmanpaşa,
+745042,7732474,Güngören,Guengoeren
+745042,7732501,Kadıköy,Kadikoey
+745042,7732504,Kağıthane,
+745042,7732506,Kartal,
+745042,7732569,Küçükçekmece,Kuecuekcekmece
+745042,7733238,Maltepe,
+745042,7732579,Pendik,
+745042,8521534,Sancaktepe,
+745042,8521535,Sarıyer,
+745042,8521537,Şile,
+745042,7732582,Silivri,
+745042,8521538,Şişli,
+745042,7732583,Sultanbeyli,
+745042,8521536,Sultangazi,
+745042,7732587,Tuzla,
+745042,7732588,Ümraniye,UEmraniye
+745042,7732589,Üsküdar,UEskuedar
+745042,7732593,Zeytinburnu,
+746423,7732375,Gumushane,
+746423,8631619,Kelkit,Kelkit İlçesi
+746423,8631615,Köse,Köse İlçesi|Koese Ilcesi
+746423,8631617,Kürtün,Kürtün İlçesi|Kuertuen Ilcesi
+746423,8631618,Şiran,Şiran İlçesi
+746423,8631616,Torul,Torul İlçesi
+746878,8631630,Alucra,Alucra İlçesi
+746878,8631628,Bulancak,Bulancak İlçesi
+746878,8631631,Çamoluk,Çamoluk İlçesi
+746878,7911018,Çanakçı,
+746878,7911037,Dereli,
+746878,8631621,Doğankent,Doğankent İlçesi
+746878,8631624,Espiye,Espiye İlçesi
+746878,8631623,Eynesil,Eynesil İlçesi
+746878,7732374,Giresun,
+746878,8631622,Görele,Görele İlçesi|Goerele Ilcesi
+746878,8631620,Güce,Güce İlçesi|Guece Ilcesi
+746878,9541080,Keşap,
+746878,8631629,Piraziz,Piraziz İlçesi
+746878,8631626,Şebin Karahisar,Şebin Karahisar İlçesi|Şebinkarahisar İlçesi
+746878,9540843,Tirebolu,
+746878,8631625,Yağlıdere,Yağlıdere İlçesi
+747711,13308783,Edirne,
+747711,8632575,Enez,Enez İlçesi
+747711,8632571,Havsa,Havsa İlçesi
+747711,8632573,İpsala,İpsala İlçesi
+747711,8632574,Keşan,Keşan İlçesi
+747711,8632569,Lâlapaşa,Lâlapaşa İlçesi
+747711,8632572,Meriç,Meriç İlçesi
+747711,8632570,Süloğlu,Süloğlu İlçesi|Sueloglu Ilcesi
+747711,8632568,Uzunköprü,Uzunköprü İlçesi|Uzunkoeprue Ilcesi
+748877,8632025,Alaca,Alaca İlçesi
+748877,8632027,Bayat,Bayat İlçesi
+748877,8632024,Boğazkale,Boğazkale İlçesi
+748877,7732348,Corum,
+748877,8631998,Dodurga,Dodurga İlçesi
+748877,8632028,İskilip,İskilip İlçesi
+748877,8632023,Kargı,Kargı İlçesi
+748877,8632021,Laçin,Laçin İlçesi
+748877,8632000,Mecitözü,Mecitözü İlçesi|Mecitoezue Ilcesi
+748877,8632022,Oğuzlar,Oğuzlar İlçesi
+748877,8631999,Ortaköy,Ortaköy İlçesi|Ortakoey Ilcesi
+748877,7732349,Osmancık,
+748877,7732351,Sungurlu,
+748877,8632026,Uğurludağ,Uğurludağ İlçesi
+749747,8631971,Atkaracalar,Atkaracalar İlçesi
+749747,8631974,Bayramören,Bayramören İlçesi|Bayramoeren Ilcesi
+749747,13308782,Cankiri,
+749747,8631969,Çerkeş,Çerkeş İlçesi
+749747,8631966,Eldivan,Eldivan İlçesi
+749747,8631975,Ilgaz,Ilgaz İlçesi
+749747,8631967,Kızılırmak,Kızılırmak İlçesi
+749747,8631973,Korgun,Korgun İlçesi
+749747,8631976,Kurşunlu,Kurşunlu İlçesi
+749747,8631972,Orta,Orta İlçesi
+749747,7733226,Şabanözü,Sabanoezue
+749747,8631977,Yapraklı,Yapraklı İlçesi
+749778,8632577,Ayvacık,Ayvacık İlçesi
+749778,8632579,Bayramiç,Bayramiç İlçesi
+749778,7732343,Biga,
+749778,7910944,Bozcaada,
+749778,8632580,Çan,Çan İlçesi
+749778,7732344,Canakkale,
+749778,9538547,Eceabat,
+749778,8632578,Ezine,Ezine İlçesi
+749778,8632582,Gelibolu,Gelibolu İlçesi
+749778,7910945,Gökçeada,Goekceada
+749778,8632581,Lâpseki,Lâpseki İlçesi
+749778,8632576,Yenice,Yenice İlçesi
+750268,8632540,Büyükorhan,Büyükorhan İlçesi|Bueyuekorhan Ilcesi
+750268,7732330,Gemlik,
+750268,7732331,Gürsu,Guersu
+750268,8632541,Harmancık,Harmancık İlçesi
+750268,7732332,İnegöl,Inegoel
+750268,8632533,İznik,İznik İlçesi
+750268,8632537,Karacabey,Karacabey İlçesi
+750268,8632538,Keles,Keles İlçesi
+750268,7732333,Kestel,Kestel İlçesi
+750268,7732334,Mudanya,
+750268,8632536,Mustafakemalpaşa,Mustafakemalpaşa İlçesi
+750268,7732336,Nilüfer,Niluefer
+750268,8632539,Orhaneli,Orhaneli İlçesi
+750268,8632532,Orhangazi,Orhangazi İlçesi
+750268,7732338,Osmangazi,
+750268,8632534,Yenişehir,Yenişehir İlçesi
+750268,7732341,Yıldırım,Yıldırım İlçesi
+750510,13308778,Bolu,
+750510,8632495,Dörtdivan,Dörtdivan İlçesi|Doertdivan Ilcesi
+750510,7732652,Gerede,
+750510,8632496,Göynük,Göynük İlçesi|Goeynuek Ilcesi
+750510,8632497,Kıbrıscık,Kıbrıscık İlçesi
+750510,8632492,Mengen,Mengen İlçesi
+750510,8632499,Mudurnu,Mudurnu İlçesi
+750510,8632498,Seben,Seben İlçesi
+750510,8632493,Yeniçağa,Yeniçağa İlçesi
+751816,8631401,Ardanuç,Ardanuç İlçesi
+751816,8631449,Arhavi,Arhavi İlçesi
+751816,13308779,Artvin,
+751816,8631448,Borçka,Borçka İlçesi
+751816,7732198,Hopa,Hopa İlçesi
+751816,11789075,Kemalpaşa,
+751816,8631447,Murgul,Murgul İlçesi
+751816,8631400,Şavşat,Şavşat İlçesi
+751816,8631402,Yusufeli,Yusufeli İlçesi
+752014,7732078,Amasya,
+752014,8631704,Göynücek,Göynücek İlçesi|Goeynuecek Ilcesi
+752014,8631705,Gümüşhacıköy,Gümüşhacıköy İlçesi|Guemueshacikoey Ilcesi
+752014,8631708,Hamamözü,Hamamözü İlçesi|Hamamoezue Ilcesi
+752014,8631707,Merzifon,Merzifon İlçesi
+752014,8631706,Suluova,Suluova İlçesi
+752014,8631703,Taşova,Taşova İlçesi
+862467,8632505,Amasra,Amasra İlçesi
+862467,13308767,Bartin,
+862467,8632507,Kurucaşile,Kurucaşile İlçesi
+862467,8632506,Ulus,Ulus İlçesi
+862468,8632500,Eflani,Eflani İlçesi
+862468,8632504,Eskipazar,Eskipazar İlçesi
+862468,13308776,Karabuk,
+862468,8632501,Ovacık,Ovacık İlçesi
+862468,8632502,Safranbolu,Safranbolu İlçesi
+862468,8632503,Yenice,Yenice İlçesi
+862469,8632542,Altınova,Altınova İlçesi
+862469,8632545,Armutlu,Armutlu İlçesi
+862469,8632544,Çiftlikköy,Çiftlikköy İlçesi|Ciftlikkoey Ilcesi
+862469,8632546,Çınarcık,Çınarcık İlçesi
+862469,8632543,Termal,Termal İlçesi
+862469,7732689,Yalova,
+862470,13308766,Ardahan,
+862470,8631395,Çıldır,Çıldır İlçesi
+862470,8631397,Damal,Damal İlçesi
+862470,8631396,Göle,Göle İlçesi|Goele Ilcesi
+862470,8631398,Hanak,Hanak İlçesi
+862470,8631399,Posof,Posof İlçesi
+862471,8631614,Aydıntepe,Aydıntepe İlçesi
+862471,13308768,Bayburt,
+862471,8631613,Demirözü,Demirözü İlçesi|Demiroezue Ilcesi
+865521,8632517,Akçakoca,Akçakoca İlçesi
+865521,8632515,Çilimli,Çilimli İlçesi
+865521,8632518,Cumayeri,Cumayeri İlçesi
+865521,13308769,Duzce,
+865521,8632516,Gölyaka,Gölyaka İlçesi|Goelyaka Ilcesi
+865521,8632519,Gümüşova,Gümüşova İlçesi|Guemuesova Ilcesi
+865521,8632514,Kaynaşlı,Kaynaşlı İlçesi
+865521,8632513,Yığılca,Yığılca İlçesi

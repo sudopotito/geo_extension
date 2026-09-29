@@ -1,0 +1,4 @@
+# Maintainer-only dataset builders and the contributor template are not installed
+# with the app; they read and write local files by design.
+tools/
+template/

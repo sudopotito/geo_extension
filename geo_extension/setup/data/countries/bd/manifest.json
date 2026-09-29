@@ -1,0 +1,32 @@
+{
+  "country_code": "bd",
+  "name": "Bangladesh",
+  "description": "Bangladesh: Division > District > City/Town from GeoNames (8, 64, 151 records). Populated places with population >= 500 plus administrative seats.",
+  "version": "2026.09.30",
+  "source": "https://www.geonames.org/ (GeoNames gazetteer and postal code dumps)",
+  "source_url": "https://download.geonames.org/export/dump/BD.zip",
+  "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/) - data (c) GeoNames.org",
+  "author": "geo_extension maintainers (generated with tools/geonames/build_dataset.py)",
+  "updated": "2026-09-30",
+  "levels": [
+    {
+      "file": "level1.csv",
+      "label": "Division",
+      "target_field": "state"
+    },
+    {
+      "file": "level2.csv",
+      "label": "District",
+      "target_field": "county"
+    },
+    {
+      "file": "level3.csv",
+      "label": "City/Town",
+      "target_field": "city"
+    }
+  ],
+  "postal_codes": {
+    "file": "postal_codes.csv",
+    "pattern": "^[0-9]{4}$"
+  }
+}

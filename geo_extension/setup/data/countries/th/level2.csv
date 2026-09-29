@@ -1,0 +1,929 @@
+parent_code,code,name,aliases
+1149965,1155055,Ban Rai,Amphoe Ban Rai|อำเภอบ้านไร่|บ้านไร่
+1149965,7510660,Huai Khot,Amphoe Huai Khot|อำเภอห้วยคต|ห้วยคต
+1149965,7510661,Lan Sak,Amphoe Lan Sak|อำเภอลานสัก|ลานสัก
+1149965,1608607,Mueang Uthai Thani,Amphoe Mueang Uthai Thani|อำเภอเมืองอุทัยธานี|เมืองอุทัยธานี
+1149965,1151729,Nong Chang,Amphoe Nong Chang|อำเภอหนองฉาง|หนองฉาง
+1149965,1151709,Nong Khayang,Amphoe Nong Khayang|อำเภอหนองขาหย่าง|หนองขาหย่าง
+1149965,1150682,Sawang Arom,Amphoe Sawang Arom|อำเภอสว่างอารมณ์|สว่างอารมณ์
+1149965,1150209,Thap Than,Amphoe Thap Than|อำเภอทัพทัน|ทัพทัน
+1150006,7603494,Hat Samran,Amphoe Hat Samran|อำเภอหาดสำราญ|หาดสำราญ
+1150006,1153240,Huai Yot,Amphoe Huai Yot|อำเภอห้วยยอด|ห้วยยอด
+1150006,1153071,Kantang,Amphoe Kantang|อำเภอกันตัง|กันตัง
+1150006,1151973,Mueang Trang,Amphoe Mueang Trang|อำเภอเมืองตรัง|เมืองตรัง
+1150006,7510641,Na Yong,Amphoe Na Yong|อำเภอนาโยง|นาโยง
+1150006,1151556,Palian,Amphoe Palian|อำเภอปะเหลียน|ปะเหลียน
+1150006,7510642,Ratsada,Amphoe Ratsada|อำเภอรัษฎา|รัษฎา
+1150006,11496468,Sikao,Amphoe Sikao|อำเภอสิเกา|สิเกา
+1150006,1150650,Wang Wiset,Amphoe Wang Wiset|อำเภอวังวิเศษ|วังวิเศษ
+1150006,1149756,Yan Ta Khao,Amphoe Yan Ta Khao|อำเภอย่านตาขาว|ย่านตาขาว
+1150489,1154675,Ban Tak,Amphoe Ban Tak|อำเภอบ้านตาก|บ้านตาก
+1150489,1152200,Mae Ramat,Amphoe Mae Ramat|อำเภอแม่ระมาด|แม่ระมาด
+1150489,1152187,Mae Sot,Amphoe Mae Sot|อำเภอแม่สอด|แม่สอด
+1150489,1151976,Mueang Tak,Amphoe Mueang Tak|อำเภอเมืองตาก|เมืองตาก
+1150489,7510614,Phop Phra,Amphoe Phop Phra|อำเภอพบพระ|พบพระ
+1150489,1150785,Sam Ngao,Amphoe Sam Ngao|อำเภอสามเงา|สามเงา
+1150489,1150195,Tha Song Yang,Amphoe Tha Song Yang|อำเภอท่าสองยาง|ท่าสองยาง
+1150489,1149974,Umphang,Amphoe Umphang|อำเภออุ้มผาง|อุ้มผาง
+1150489,7510633,Wang Chao,Amphoe Wang Chao|อำเภอวังเจ้า|วังเจ้า
+1150514,7510622,Ban Na Doem,Amphoe Ban Na Doem|อำเภอบ้านนาเดิม|บ้านนาเดิม
+1150514,1156045,Ban Na San,Amphoe Ban Na San|อำเภอบ้านนาสาร|บ้านนาสาร
+1150514,7510611,Ban Ta Khun,Amphoe Ban Ta Khun|อำเภอบ้านตาขุน|บ้านตาขุน
+1150514,7510621,Chai Buri,Amphoe Chai Buri|อำเภอชัยบุรี|ชัยบุรี
+1150514,1153782,Chaiya,Amphoe Chaiya|ไชยา|อำเภอไชยา
+1150514,7510650,Don Sak,Amphoe Don Sak|อำเภอดอนสัก|ดอนสัก
+1150514,1153078,Kanchanadit,Amphoe Kanchanadit|อำเภอกาญจนดิษฐ์|กาญจนดิษฐ์
+1150514,7511047,Khian Sa,Amphoe Khian Sa|อำเภอเคียนซา|เคียนซา
+1150514,1152874,Khiri Rat Nikhom,Amphoe Khiri Rat Nikhom|อำเภอคีรีรัฐนิคม|คีรีรัฐนิคม
+1150514,7603493,Ko Pha-ngan,Amphoe Ko Pha-ngan|อำเภอเกาะพะงัน|เกาะพะงัน
+1150514,1152646,Ko Samui,Amphoe Ko Samui|อำเภอเกาะสมุย|เกาะสมุย
+1150514,1151977,Mueang Surat Thani,Amphoe Mueang Surat Thani|อำเภอเมืองสุราษฎร์ธานี|เมืองสุราษฎร์ธานี
+1150514,1151448,Phanom,Amphoe Phanom|อำเภอพนม|พนม
+1150514,1151295,Phrasaeng,Amphoe Phrasaeng|อำเภอพระแสง|พระแสง
+1150514,1151210,Phunphin,Amphoe Phunphin|อำเภอพุนพิน|พุนพิน
+1150514,1150339,Tha Chana,Amphoe Tha Chana|อำเภอท่าชนะ|ท่าชนะ
+1150514,1150337,Tha Chang,Amphoe Tha Chang|อำเภอท่าฉาง|ท่าฉาง
+1150514,7510613,Vibhavadi,Amphoe Vibhavadi|อำเภอวิภาวดี|วิภาวดี
+1150514,7511035,Wiang Sa,Amphoe Wiang Sa|อำเภอเวียงสระ|เวียงสระ
+1150532,1157968,Ban Dan Lan Hoi,Amphoe Ban Dan Lan Hoi|อำเภอบ้านด่านลานหอย|บ้านด่านลานหอย
+1150532,1152875,Khiri Mat,Amphoe Khiri Mat|อำเภอคีรีมาศ|คีรีมาศ
+1150532,1609501,Kong Krailat,Amphoe Kong Krailat|อำเภอกงไกรลาศ|กงไกรลาศ
+1150532,1151979,Mueang Sukhothai,Amphoe Mueang Sukhothai|อำเภอเมืองสุโขทัย|เมืองสุโขทัย
+1150532,1150680,Sawankhalok,Amphoe Sawankhalok|อำเภอสวรรคโลก|สวรรคโลก
+1150532,7510667,Si Nakhon,Amphoe Si Nakhon|อำเภอศรีนคร|ศรีนคร
+1150532,1150625,Si Samrong,Amphoe Si Samrong|อำเภอศรีสำโรง|ศรีสำโรง
+1150532,1150623,Si Satchanalai,Amphoe Si Satchanalai|อำเภอศรีสัชนาลัย|ศรีสัชนาลัย
+1150532,1150088,Thung Saliam,Amphoe Thung Saliam|อำเภอทุ่งเสลี่ยม|ทุ่งเสลี่ยม
+1150953,7510625,Ban Kha,Amphoe Ban Kha|อำเภอบ้านคา|บ้านคา
+1150953,1155127,Ban Pong,Amphoe Ban Pong|อำเภอบ้านโป่ง|บ้านโป่ง
+1150953,1157682,Bang Phae,Amphoe Bang Phae|อำเภอบางแพ|บางแพ
+1150953,1153645,Chom Bueng,Amphoe Chom Bueng|อำเภอจอมบึง|จอมบึง
+1150953,1610974,Damnoen Saduak,Amphoe Damnoen Saduak|อำเภอดำเนินสะดวก|ดำเนินสะดวก
+1150953,1151981,Mueang Ratchaburi,Amphoe Mueang Ratchaburi|อำเภอเมืองราชบุรี|เมืองราชบุรี
+1150953,1151566,Pak Tho,Amphoe Pak Tho|อำเภอปากท่อ|ปากท่อ
+1150953,1151339,Photharam,Amphoe Photharam|อำเภอโพธาราม|โพธาราม
+1150953,7510627,Suan Phueng,Amphoe Suan Phueng|อำเภอสวนผึ้ง|สวนผึ้ง
+1150953,1149891,Wat Phleng,Amphoe Wat Phleng|อำเภอวัดเพลง|วัดเพลง
+1150964,1153060,Kapoe,Amphoe Kapoe|อำเภอกะเปอร์|กะเปอร์
+1150964,1152624,Kra Buri,Amphoe Kra Buri|กระบุรี|อำเภอกระบุรี
+1150964,1152373,La-un,Amphoe La-un|อำเภอละอุ่น|ละอุ่น
+1150964,1151982,Mueang Ranong,Amphoe Mueang Ranong|อำเภอเมืองระนอง|เมืองระนอง
+1150964,7510608,Suk Samran,Amphoe Suk Samran|อำเภอสุขสำราญ|สุขสำราญ
+1151073,1157661,Bang Saphan,Amphoe Bang Saphan|อำเภอบางสะพาน|บางสะพาน
+1151073,8534572,Bang Saphan Noi,Amphoe Bang Saphan Noi|อำเภอบางสะพานน้อย|บางสะพานน้อย
+1151073,1153268,Hua Hin,Amphoe Hua Hin|อำเภอหัวหิน|หัวหิน
+1151073,1152561,Kui Buri,Amphoe Kui Buri|อำเภอกุยบุรี|กุยบุรี
+1151073,1151983,Mueang Prachuap Khiri Khan,Amphoe Mueang Prachuap Khiri Khan|อำเภอเมืองประจวบคีรีขันธ์|เมืองประจวบคีรีขันธ์
+1151073,1151062,Pran Buri,Amphoe Pran Buri|อำเภอปราณบุรี|ปราณบุรี
+1151073,7510651,Sam Roi Yot,Amphoe Sam Roi Yot|อำเภอสามร้อยยอด|สามร้อยยอด
+1151073,1150217,Thap Sakae,Amphoe Thap Sakae|อำเภอทับสะแก|ทับสะแก
+1151253,1153034,Kathu,Amphoe Kathu|อำเภอกะทู้|กะทู้
+1151253,1151984,Mueang Phuket,Amphoe Mueang Phuket|อำเภอเมืองภูเก็ต|เมืองภูเก็ต
+1151253,1150295,Thalang,Amphoe Thalang|อำเภอถลาง|ถลาง
+1151416,1617236,Ban Laem,Amphoe Ban Laem|อำเภอบ้านแหลม|บ้านแหลม
+1151416,1156647,Ban Lat,Amphoe Ban Lat|อำเภอบ้านลาด|บ้านลาด
+1151416,1153806,Cha-am,Amphoe Cha-am|อำเภอชะอำ|ชะอำ
+1151416,7510652,Kaeng Krachan,Amphoe Kaeng Krachan|อำเภอแก่งกระจาน|แก่งกระจาน
+1151416,1152918,Khao Yoi,Amphoe Khao Yoi|อำเภอเขาย้อย|เขาย้อย
+1151416,1151985,Mueang Phetchaburi,Amphoe Mueang Phetchaburi|อำเภอเมืองเพชรบุรี|เมืองเพชรบุรี
+1151416,7510653,Nong Ya Plong,Amphoe Nong Ya Plong|อำเภอหนองหญ้าปล้อง|หนองหญ้าปล้อง
+1151416,1150182,Tha Yang,Amphoe Tha Yang|อำเภอท่ายาง|ท่ายาง
+1151462,1153058,Kapong,Amphoe Kapong|อำเภอกะปง|กะปง
+1151462,11496465,Khura Buri,Amphoe Khura Buri|อำเภอคุระบุรี|คุระบุรี
+1151462,1152639,Ko Yao,Amphoe Ko Yao|อำเภอเกาะยาว|เกาะยาว
+1151462,1151986,Mueang Phangnga,Amphoe Mueang Phangnga|อำเภอเมืองพังงา|เมืองพังงา
+1151462,11496464,Takua Pa,Amphoe Takua Pa|อำเภอตะกั่วป่า|ตะกั่วป่า
+1151462,1150446,Takua Thung,Amphoe Takua Thung|อำเภอตะกั่วทุ่ง|ตะกั่วทุ่ง
+1151462,1150316,Thai Mueang,Amphoe Thai Mueang|อำเภอท้ายเหมือง|ท้ายเหมือง
+1151462,1150220,Thap Put,Amphoe Thap Put|อำเภอทับปุด|ทับปุด
+1152221,1152764,Khun Yuam,Amphoe Khun Yuam|อำเภอขุนยวม|ขุนยวม
+1152221,8308746,Mae La Noi,Amphoe Mae La Noi|อำเภอแม่ลาน้อย|แม่ลาน้อย
+1152221,1152189,Mae Sariang,Amphoe Mae Sariang|อำเภอแม่สะเรียง|แม่สะเรียง
+1152221,1151989,Mueang Mae Hong Son,Amphoe Mueang Mae Hong Son|อำเภอเมืองแม่ฮ่องสอน|เมืองแม่ฮ่องสอน
+1152221,1151600,Pai,Amphoe Pai|อำเภอปาย|ปาย
+1152221,8304597,Pang Mapha,Amphoe Pang Mapha|อำเภอปางมะผ้า|ปางมะผ้า
+1152221,1150609,Sop Moei,Amphoe Sop Moei|อำเภอสบเมย|สบเมย
+1152467,1157549,Ban Hong,Amphoe Ban Hong|อำเภอบ้านโฮ่ง|บ้านโฮ่ง
+1152467,7510636,Ban Thi,Amphoe Ban Thi|อำเภอบ้านธิ|บ้านธิ
+1152467,1152356,Li,Amphoe Li|อำเภอลี้|ลี้
+1152467,1152178,Mae Tha,Amphoe Mae Tha|อำเภอแม่ทา|แม่ทา
+1152467,1151990,Mueang Lamphun,Amphoe Mueang Lamphun|อำเภอเมืองลำพูน|เมืองลำพูน
+1152467,1151527,Pa Sang,Amphoe Pa Sang|อำเภอป่าซาง|ป่าซาง
+1152467,7510634,Thung Hua Chang,Amphoe Thung Hua Chang|อำเภอทุ่งหัวช้าง|ทุ่งหัวช้าง
+1152467,7510617,Wiang Nong Long,Amphoe Wiang Nong Long|อำเภอเวียงหนองล่อง|เวียงหนองล่อง
+1152472,1153799,Chae Hom,Amphoe Chae Hom|อำเภอแจ้ห่ม|แจ้ห่ม
+1152472,1153388,Hang Chat,Amphoe Hang Chat|อำเภอห้างฉัตร|ห้างฉัตร
+1152472,1152678,Ko Kha,Amphoe Ko Kha|อำเภอเกาะคา|เกาะคา
+1152472,7510668,Mae Mo,Amphoe Mae Mo|อำเภอแม่เมาะ|แม่เมาะ
+1152472,1152203,Mae Phrik,Amphoe Mae Phrik|อำเภอแม่พริก|แม่พริก
+1152472,1152179,Mae Tha,Amphoe Mae Tha|อำเภอแม่ทะ|แม่ทะ
+1152472,1151991,Mueang Lampang,Amphoe Mueang Lampang|อำเภอเมืองลำปาง|เมืองลำปาง
+1152472,7524369,Mueang Pan,Amphoe Mueang Pan|อำเภอเมืองปาน|เมืองปาน
+1152472,1151847,Ngao,Amphoe Ngao|อำเภองาว|งาว
+1152472,7511041,Soem Ngam,Amphoe Soem Ngam|อำเภอแม่เมาะ|อำเภอเสริมงาม|เสริมงาม
+1152472,1150561,Sop Prap,Amphoe Sop Prap|อำเภอสบปราบ|สบปราบ
+1152472,1150153,Thoen,Amphoe Thoen|อำเภอเถิน|เถิน
+1152472,1149914,Wang Nuea,Amphoe Wang Nuea|อำเภอวังเหนือ|วังเหนือ
+1152631,6957696,Ao Luek,Amphoe Ao Luek|อำเภออ่าวลึก|อ่าวลึก
+1152631,7511032,Khao Phanom,Amphoe Khao Phanom|อำเภอเขาพนม|เขาพนม
+1152631,1152842,Khlong Thom,Amphoe Khlong Thom|อำเภอคลองท่อม|คลองท่อม
+1152631,1152669,Ko Lanta,Amphoe Ko Lanta|อำเภอเกาะลันตา|เกาะลันตา
+1152631,7510620,Lam Thap,Amphoe Lam Thap|อำเภอลำทับ|ลำทับ
+1152631,1151992,Mueang Krabi,Amphoe Mueang Krabi|อำเภอเมืองกระบี่|เมืองกระบี่
+1152631,7511034,Nuea Khlong,Amphoe Nuea Khlong|อำเภอเหนือคลอง|เหนือคลอง
+1152631,7510612,Plai Phraya,Amphoe Plai Phraya|อำเภอปลายพระยา|ปลายพระยา
+1153080,1153849,Bo Phloi,Amphoe Bo Phloi|อำเภอบ่อพลอย|บ่อพลอย
+1153080,7510626,Dan Makham Tia,Amphoe Dan Makham Tia|อำเภอด่านมะขามเตี้ย|ด่านมะขามเตี้ย
+1153080,7510654,Huai Krachao,Amphoe Huai Krachao|อำเภอห้วยกระเจา|ห้วยกระเจา
+1153080,7510657,Lao Khwan,Amphoe Lao Khwan|อำเภอเลาขวัญ|เลาขวัญ
+1153080,1151996,Mueang Kanchanaburi,Amphoe Mueang Kanchanaburi|อำเภอเมืองกาญจนบุรี|เมืองกาญจนบุรี
+1153080,7510628,Nong Prue,Amphoe Nong Prue|อำเภอหนองปรือ|หนองปรือ
+1153080,1151445,Phanom Thuan,Amphoe Phanom Thuan|อำเภอพนมทวน|พนมทวน
+1153080,1150843,Sai Yok,Amphoe Sai Yok|อำเภอไทรโยค|ไทรโยค
+1153080,1150734,Sangkhla Buri,Amphoe Sangkhla Buri|อำเภอสังขละบุรี|สังขละบุรี
+1153080,1150620,Si Sawat,Amphoe Si Sawat|อำเภอศรีสวัสดิ์|ศรีสวัสดิ์
+1153080,1150274,Tha Maka,Amphoe Tha Maka|อำเภอท่ามะกา|ท่ามะกา
+1153080,1150245,Tha Muang,Amphoe Tha Muang|อำเภอท่าม่วง|ท่าม่วง
+1153080,1150132,Thong Pha Phum,Amphoe Thong Pha Phum|อำเภอทองผาภูมิ|ทองผาภูมิ
+1153089,7510665,Bueng Samakkhi,Amphoe Bueng Samakkhi|อำเภอบึงสามัคคี|บึงสามัคคี
+1153089,1152952,Khanu Woralaksaburi,Amphoe Khanu Woralaksaburi|อำเภอขาณุวรลักษบุรี|ขาณุวรลักษบุรี
+1153089,1152853,Khlong Khlung,Amphoe Khlong Khlung|อำเภอคลองขลุง|คลองขลุง
+1153089,7510630,Khlong Lan,Amphoe Khlong Lan|อำเภอคลองลาน|คลองลาน
+1153089,7510632,Kosamphi Nakhon,Amphoe Kosamphi Nakhon|อำเภอโกสัมพีนคร|โกสัมพีนคร
+1153089,7510666,Lan Krabue,Amphoe Lan Krabue|อำเภอลานกระบือ|ลานกระบือ
+1153089,1151997,Mueang Kamphaeng Phet,Amphoe Mueang Kamphaeng Phet|อำเภอเมืองกำแพงเพชร|เมืองกำแพงเพชร
+1153089,7510631,Pang Sila Thong,Amphoe Pang Sila Thong|อำเภอปางศิลาทอง|ปางศิลาทอง
+1153089,1151307,Phran Kratai,Amphoe Phran Kratai|อำเภอพรานกระต่าย|พรานกระต่าย
+1153089,8534567,Sai Ngam,Amphoe Sai Ngam|อำเภอไทรงาม|ไทรงาม
+1153089,7510664,Sai Thong Watthana,Amphoe Sai Thong Watthana|อำเภอทุ่งทราย|อำเภอทรายทองวัฒนา|ทรายทองวัฒนา
+1153555,7510623,Lamae,Amphoe Lamae|อำเภอละแม|ละแม
+1153555,1152431,Lang Suan,Amphoe Lang Suan|อำเภอหลังสวน|หลังสวน
+1153555,1151998,Mueang Chumphon,Amphoe Mueang Chumphon|อำเภอเมืองชุมพร|เมืองชุมพร
+1153555,1151522,Pathio,Amphoe Pathio|อำเภอปะทิว|ปะทิว
+1153555,1151428,Phato,Amphoe Phato|อำเภอพะโต๊ะ|พะโต๊ะ
+1153555,1150677,Sawi,Amphoe Sawi|อำเภอสวี|สวี
+1153555,1150202,Tha Sae,Amphoe Tha Sae|อำเภอท่าแซะ|ท่าแซะ
+1153555,7510624,Thung Tako,Amphoe Thung Tako|อำเภอทุ่งตะโก|ทุ่งตะโก
+1153668,1611196,Chiang Khong,Amphoe Chiang Khong|อำเภอเชียงของ|เชียงของ
+1153668,1611186,Chiang Saen,Amphoe Chiang Saen|อำเภอเชียงแสน|เชียงแสน
+1153668,7325690,Doi Luang,Amphoe Doi Luang|กิ่งอำเภอดอยหลวง|อำเภอดอยหลวง|ดอยหลวง
+1153668,7382204,Khun Tan,Amphoe Khun Tan|อำเภอขุนตาล|ขุนตาล
+1153668,1152226,Mae Chan,Amphoe Mae Chan|อำเภอแม่จัน|แม่จัน
+1153668,7322940,Mae Fa Luang,Amphoe Mae Fa Luang|อำเภอแม่ฟ้าหลวง|แม่ฟ้าหลวง
+1153668,7421325,Mae Lao,Amphoe Mae Lao|อำเภอแม่ลาว|แม่ลาว
+1153668,1152193,Mae Sai,Amphoe Mae Sai|อำเภอแม่สาย|แม่สาย
+1153668,1152185,Mae Suai,Amphoe Mae Suai|อำเภอแม่สรวย|แม่สรวย
+1153668,1151999,Mueang Chiang Rai,Amphoe Mueang Chiang Rai|อำเภอเมืองเชียงราย|เมืองเชียงราย
+1153668,1116329,Pa Daet,Amphoe Pa Daet|อำเภอป่าแดด|ป่าแดด
+1153668,1151476,Phan,Amphoe Phan|อำเภอพาน|พาน
+1153668,7382782,Phaya Mengrai,Amphoe Phaya Mengrai|อำเภอพญาเม็งราย|พญาเม็งราย
+1153668,1605408,Thoeng,Amphoe Thoeng|อำเภอเทิง|เทิง
+1153668,7420283,Wiang Chai,Amphoe Wiang Chai|อำเภอเวียงชัย|เวียงชัย
+1153668,7325689,Wiang Chiang Rung,Amphoe Wiang Chiang Rung|กิ่งอำเภอเวียงเชียงรุ้ง|อำเภอเวียงเชียงรุ้ง|เวียงเชียงรุ้ง
+1153668,7325780,Wiang Kaen,Amphoe Wiang Kaen|อำเภอเวียงแก่น|เวียงแก่น
+1153668,1149880,Wiang Pa Pao,Amphoe Wiang Pa Pao|อำเภอเวียงป่าเป้า|เวียงป่าเป้า
+1153670,7505711,Chai Prakan,Amphoe Chai Prakan|อำเภอไชยปราการ|ไชยปราการ
+1153670,1153672,Chiang Dao,Amphoe Chiang Dao|อำเภอเชียงดาว|เชียงดาว
+1153670,1153633,Chom Thong,Amphoe Chom Thong|อำเภอจอมทอง|จอมทอง
+1153670,7510616,Doi Lo,Amphoe Doi Lo|กิ่งอำเภอดอยหล่อ|อำเภอดอยหล่อ|ดอยหล่อ
+1153670,1153468,Doi Saket,Amphoe Doi Saket|อำเภอดอยสะเก็ด|ดอยสะเก็ด
+1153670,7510615,Doi Tao,Amphoe Doi Tao|อำเภอดอยเต่า|ดอยเต่า
+1153670,1153426,Fang,Amphoe Fang|อำเภอฝาง|ฝาง
+1153670,7524616,Galyani Vadhana,Amphoe Galyani Vadhana|อำเภอกัลยาณิวัฒนา|กัลยาณิวัฒนา
+1153670,1153385,Hang Dong,Amphoe Hang Dong|อำเภอหางดง|หางดง
+1153670,1153277,Hot,Amphoe Hot|อำเภอฮอด|ฮอด
+1153670,1152233,Mae Ai,Amphoe Mae Ai|อำเภอแม่อาย|แม่อาย
+1153670,1152229,Mae Chaem,Amphoe Mae Chaem|อำเภอแม่แจ่ม|แม่แจ่ม
+1153670,7420875,Mae On,Amphoe Mae On|อำเภอแม่ออน|แม่ออน
+1153670,1152195,Mae Rim,Amphoe Mae Rim|อำเภอแม่ริม|แม่ริม
+1153670,1152182,Mae Taeng,Amphoe Mae Taeng|อำเภอแม่แตง|แม่แตง
+1153670,7510635,Mae Wang,Amphoe Mae Wang|อำเภอแม่วาง|แม่วาง
+1153670,1152000,Mueang Chiang Mai,Amphoe Mueang Chiang Mai|อำเภอเมืองเชียงใหม่|เมืองเชียงใหม่
+1153670,1151633,Om Koi,Amphoe Om Koi|อำเภออมก๋อย|อมก๋อย
+1153670,1151302,Phrao,Amphoe Phrao|อำเภอพร้าว|พร้าว
+1153670,1150782,Samoeng,Amphoe Samoeng|อำเภอสะเมิง|สะเมิง
+1153670,1150731,San Kamphaeng,Amphoe San Kamphaeng|อำเภอสันกำแพง|สันกำแพง
+1153670,1150727,San Pa Tong,Amphoe San Pa Tong|อำเภอสันป่าตอง|สันป่าตอง
+1153670,1150725,San Sai,Amphoe San Sai|อำเภอสันทราย|สันทราย
+1153670,1150699,Saraphi,Amphoe Saraphi|อำเภอสารภี|สารภี
+1153670,7509793,Wiang Haeng,Amphoe Wiang Haeng|อำเภอเวียงแหง|เวียงแหง
+1604767,1610085,Kham Khuan Kaeo,Amphoe Kham Khuan Kaeo|อำเภอคำเขื่อนแก้ว|คำเขื่อนแก้ว
+1604767,8304643,Kho Wang,Amphoe Kho Wang|อำเภอค้อวัง|ค้อวัง
+1604767,1609320,Kut Chum,Amphoe Kut Chum|อำเภอกุดชุม|กุดชุม
+1604767,1609067,Loeng Nok Tha,Amphoe Loeng Nok Tha|อำเภอเลิงนกทา|เลิงนกทา
+1604767,1608908,Maha Chana Chai,Amphoe Maha Chana Chai|อำเภอมหาชนะชัย|มหาชนะชัย
+1604767,1604768,Mueang Yasothon,Amphoe Mueang Yasothon|อำเภอเมืองยโสธร|เมืองยโสธร
+1604767,7510833,Pa Tio,Amphoe Pa Tio|อำเภอป่าติ้ว|ป่าติ้ว
+1604767,8304645,Sai Mun,Amphoe Sai Mun|อำเภอทรายมูล|ทรายมูล
+1604767,7510836,Thai Charoen,Amphoe Thai Charoen|อำเภอไทยเจริญ|ไทยเจริญ
+1604869,1616197,Bannang Sata,Amphoe Bannang Sata|อำเภอบันนังสตา|บันนังสตา
+1604869,8305286,Betong,Amphoe Betong|อำเภอเบตง|เบตง
+1604869,6976014,Kabang,Amphoe Kabang|กิ่งอำเภอกาบัง|อำเภอกาบัง|กาบัง
+1604869,7013560,Krong Pinang,Amphoe Krong Pinang|กิ่งอำเภอกรงปีนัง|อำเภอกรงปีนัง|อำเภอกรงปินัง|กรงปินัง
+1604869,1608605,Mueang Yala,Amphoe Mueang Yala|อำเภอเมืองยะลา|เมืองยะลา
+1604869,1607096,Raman,Amphoe Raman|อำเภอรามัน|รามัน
+1604869,6975772,Than To,Amphoe Than To|อำเภอธารโต|ธารโต
+1604869,1604978,Yaha,Amphoe Yaha|อำเภอยะหา|ยะหา
+1605214,7510718,Ban Khok,Amphoe Ban Khok|อำเภอบ้านโคก|บ้านโคก
+1605214,1610840,Fak Tha,Amphoe Fak Tha|อำเภอฟากท่า|ฟากท่า
+1605214,1609162,Lap Lae,Amphoe Lap Lae|อำเภอลับแล|ลับแล
+1605214,1608606,Mueang Uttaradit,Amphoe Mueang Uttaradit|อำเภอเมืองอุตรดิตถ์|เมืองอุตรดิตถ์
+1605214,1608482,Nam Pat,Amphoe Nam Pat|อำเภอน้ำปาด|น้ำปาด
+1605214,1607727,Phichai,Amphoe Phichai|อำเภอพิชัย|พิชัย
+1605214,1605528,Tha Pla,Amphoe Tha Pla|อำเภอท่าปลา|ท่าปลา
+1605214,7510682,Thong Saen Khan,Amphoe Thong Saen Khan|อำเภอทองแสนขัน|ทองแสนขัน
+1605214,1605267,Tron,Amphoe Tron|อำเภอตรอน|ตรอน
+1605277,1949480,Bo Rai,Amphoe Bo Rai|อำเภอบ่อไร่|บ่อไร่
+1605277,1609996,Khao Saming,Amphoe Khao Saming|อำเภอเขาสมิง|เขาสมิง
+1605277,1609862,Khlong Yai,Amphoe Khlong Yai|อำเภอคลองใหญ่|คลองใหญ่
+1605277,6692475,Ko Chang,Amphoe Ko Chang|เกาะช้าง|อำเภอเกาะช้าง
+1605277,7603492,Ko Kut,Amphoe Ko Kut|อำเภอเกาะกูด|เกาะกูด
+1605277,1609282,Laem Ngop,Amphoe Laem Ngop|อำเภอแหลมงอบ|แหลมงอบ
+1605277,1608610,Mueang Trat,Amphoe Mueang Trat|อำเภอเมืองตราด|เมืองตราด
+1606029,7443916,Bua Chet,Amphoe Bua Chet|อำเภอบัวเชด|บัวเชด
+1606029,1611124,Chom Phra,Amphoe Chom Phra|อำเภอจอมพระ|จอมพระ
+1606029,1611021,Chumphon Buri,Amphoe Chumphon Buri|อำเภอชุมพลบุรี|ชุมพลบุรี
+1606029,1610206,Kap Choeng,Amphoe Kap Choeng|อำเภอกาบเชิง|กาบเชิง
+1606029,7510808,Khwao Sin Rin,Amphoe Khwao Sin Rin|อำเภอเขวาสินรินทร์|เขวาสินรินทร์
+1606029,7510805,Lamduan,Amphoe Lamduan|อำเภอลำดวน|ลำดวน
+1606029,1608612,Mueang Surin,Amphoe Mueang Surin|อำเภอเมืองสุรินทร์|เมืองสุรินทร์
+1606029,7510807,Non Narai,Amphoe Non Narai|อำเภอโนนนารายณ์|โนนนารายณ์
+1606029,7443565,Phanom Dong Rak,Amphoe Phanom Dong Rak|กิ่งอำเภอพนมดงรัก|อำเภอพนมดงรัก|พนมดงรัก
+1606029,1607243,Prasat,Amphoe Prasat|อำเภอปราสาท|ปราสาท
+1606029,1607029,Rattanaburi,Amphoe Rattanaburi|อำเภอรัตนบุรี|รัตนบุรี
+1606029,1606614,Samrong Thap,Amphoe Samrong Thap|อำเภอสำโรงทาบ|สำโรงทาบ
+1606029,1606542,Sangkha,Amphoe Sangkha|อำเภอสังขะ|สังขะ
+1606029,8304641,Sanom,Amphoe Sanom|อำเภอสนม|สนม
+1606029,7510804,Si Narong,Amphoe Si Narong|อำเภอศรีณรงค์|ศรีณรงค์
+1606029,1606301,Sikhoraphum,Amphoe Sikhoraphum|อำเภอศีขรภูมิ|ศีขรภูมิ
+1606029,1605480,Tha Tum,Amphoe Tha Tum|อำเภอท่าตูม|ท่าตูม
+1606032,1619297,Bang Pla Ma,Amphoe Bang Pla Ma|อำเภอบางปลาม้า|บางปลาม้า
+1606032,7510658,Dan Chang,Amphoe Dan Chang|อำเภอด่านช้าง|ด่านช้าง
+1606032,1610910,Doembang Nangbuat,Amphoe Doembang Nangbuat|อำเภอเดิมบางนางบวช|เดิมบางนางบวช
+1606032,1610899,Don Chedi,Amphoe Don Chedi|อำเภอดอนเจดีย์|ดอนเจดีย์
+1606032,1608613,Mueang Suphan Buri,Amphoe Mueang Suphan Buri|อำเภอเมืองสุพรรณบุรี|เมืองสุพรรณบุรี
+1606032,7510655,Nong Yasai,Amphoe Nong Yasai|อำเภอหนองหญ้าไซ|หนองหญ้าไซ
+1606032,1150807,Sam Chuk,Amphoe Sam Chuk|อำเภอสามชุก|สามชุก
+1606032,1606256,Si Prachan,Amphoe Si Prachan|อำเภอศรีประจันต์|ศรีประจันต์
+1606032,1606138,Song Phi Nong,Amphoe Song Phi Nong|อำเภอสองพี่น้อง|สองพี่น้อง
+1606032,1149963,U Thong,Amphoe U Thong|อำเภออู่ทอง|อู่ทอง
+1606146,7510672,Bang Klam,Amphoe Bang Klam|อำเภอบางกล่ำ|บางกล่ำ
+1606146,1611323,Chana,Amphoe Chana|อำเภอจะนะ|จะนะ
+1606146,1610779,Hat Yai,Amphoe Hat Yai|อำเภอหาดใหญ่|หาดใหญ่
+1606146,7465824,Khlong Hoi Khong,Amphoe Khlong Hoi Khong|อำเภอคลองหอยโข่ง|คลองหอยโข่ง
+1606146,7510671,Khuan Niang,Amphoe Khuan Niang|อำเภอควนเนียง|ควนเนียง
+1606146,7603496,Krasae Sin,Amphoe Krasae Sin|อำเภอกระแสสินธุ์|กระแสสินธุ์
+1606146,1608615,Mueang Songkhla,Amphoe Mueang Songkhla|อำเภอเมืองสงขลา|เมืองสงขลา
+1606146,7095964,Na Mom,Amphoe Na Mom|อำเภอนาหม่อม|นาหม่อม
+1606146,1608401,Na Thawi,Amphoe Na Thawi|อำเภอนาทวี|นาทวี
+1606146,1607067,Ranot,Amphoe Ranot|อำเภอระโนด|ระโนด
+1606146,1607027,Rattaphum,Amphoe Rattaphum|อำเภอรัตภูมิ|รัตภูมิ
+1606146,1606943,Saba Yoi,Amphoe Saba Yoi|อำเภอสะบ้าย้อย|สะบ้าย้อย
+1606146,1606938,Sadao,Amphoe Sadao|อำเภอสะเดา|สะเดา
+1606146,1606393,Sathing Phra,Amphoe Sathing Phra|อำเภอสทิงพระ|สทิงพระ
+1606146,6791114,Singhanakhon,Amphoe Singhanakhon|อำเภอสิงหนคร|สิงหนคร
+1606146,1605460,Thepha,Amphoe Thepha|อำเภอเทพา|เทพา
+1606238,7510850,Benchalak,Amphoe Benchalak|อำเภอเบญจลักษ์|เบญจลักษ์
+1606238,7510831,Bueng Bun,Amphoe Bueng Bun|อำเภอบึงบูรณ์|อำเภอบึงบูรพ์|บึงบูรพ์
+1606238,7510828,Huai Thap Than,Amphoe Huai Thap Than|อำเภอห้วยทับทัน|ห้วยทับทัน
+1606238,1610226,Kantharalak,Amphoe Kantharalak|อำเภอกันทรลักษณ์|อำเภอกันทรลักษ์|กันทรลักษ์
+1606238,1610224,Kanthararom,Amphoe Kanthararom|อำเภอกันทรารมย์|กันทรารมย์
+1606238,1609707,Khukhan,Amphoe Khukhan|อำเภอขุขันธ์|ขุขันธ์
+1606238,1609687,Khun Han,Amphoe Khun Han|อำเภอขุนหาญ|ขุนหาญ
+1606238,7510829,Mueang Chan,Amphoe Mueang Chan|อำเภอเมืองจันทร์|เมืองจันทร์
+1606238,1608616,Mueang Si Sa Ket,Amphoe Mueang Si Sa Ket|อำเภอเมืองศรีสะเกษ|เมืองศรีสะเกษ
+1606238,7510851,Nam Kliang,Amphoe Nam Kliang|อำเภอน้ำเกลี้ยง|น้ำเกลี้ยง
+1606238,7510849,Non Khun,Amphoe Non Khun|อำเภอโนนคูณ|โนนคูณ
+1606238,7510823,Phayu,Amphoe Phayu|อำเภอพยุห์|พยุห์
+1606238,7510830,Pho Si Suwan,Amphoe Pho Si Suwan|อำเภอโพธิ์ศรีสุวรรณ|โพธิ์ศรีสุวรรณ
+1606238,7510825,Phrai Bueng,Amphoe Phrai Bueng|อำเภอไพรบึง|ไพรบึง
+1606238,7510826,Phu Sing,Amphoe Phu Sing|อำเภอภูสิงห์|ภูสิงห์
+1606238,1607250,Prang Ku,Amphoe Prang Ku|อำเภอปรางค์กู่|ปรางค์กู่
+1606238,1607061,Rasi Salai,Amphoe Rasi Salai|อำเภอราษีไศล|ราษีไศล
+1606238,7510824,Si Rattana,Amphoe Si Rattana|อำเภอศรีรัตนะ|ศรีรัตนะ
+1606238,7510832,Sila Lat,Amphoe Sila Lat|อำเภอศิลาลาด|ศิลาลาด
+1606238,1605218,Uthumphon Phisai,Amphoe Uthumphon Phisai|อำเภออุทุมพรพิสัย|อุทุมพรพิสัย
+1606238,7510827,Wang Hin,Amphoe Wang Hin|อำเภอวังหิน|วังหิน
+1606238,8304644,Yang Chum Noi,Amphoe Yang Chum Noi|อำเภอยางชุมน้อย|ยางชุมน้อย
+1606269,1619280,Bang Rachan,Amphoe Bang Rachan|อำเภอบางระจัน|บางระจัน
+1606269,1610570,In Buri,Amphoe In Buri|อำเภออินทร์บุรี|อินทร์บุรี
+1606269,11496462,Khai Bang Rachan,Amphoe Khai Bang Rachan|อำเภอค่ายบางระจัน|ค่ายบางระจัน
+1606269,1608617,Mueang Sing Buri,Amphoe Mueang Sing Buri|อำเภอเมืองสิงห์บุรี|เมืองสิงห์บุรี
+1606269,1607472,Phrom Buri,Amphoe Phrom Buri|อำเภอพรหมบุรี|พรหมบุรี
+1606269,1605670,Tha Chang,Amphoe Tha Chang|อำเภอท่าช้าง|ท่าช้าง
+1606375,7466921,Khuan Don,Amphoe Khuan Don|อำเภอควนโดน|ควนโดน
+1606375,7466923,Khuan Kalong,Amphoe Khuan Kalong|อำเภอควนกาหลง|ควนกาหลง
+1606375,1152425,La-Ngu,Amphoe La-Ngu|อำเภอละงู|ละงู
+1606375,7510639,Manang,Amphoe Manang|อำเภอมะนัง|มะนัง
+1606375,6965199,Mueang Satun,Amphoe Mueang Satun|อำเภอเมืองสตูล|เมืองสตูล
+1606375,7510638,Tha Phae,Amphoe Tha Phae|อำเภอท่าแพ|ท่าแพ
+1606375,1150079,Thung Wa,Amphoe Thung Wa|อำเภอทุ่งหว้า|ทุ่งหว้า
+1606417,1616653,Ban Mo,Amphoe Ban Mo|อำเภอบ้านหมอ|บ้านหมอ
+1606417,7510685,Chaloem Phra Kiat,Amphoe Chaloem Phra Kiat|อำเภอเฉลิมพระเกียรติ|เฉลิมพระเกียรติ
+1606417,7510687,Don Phut,Amphoe Don Phut|อำเภอดอนพุด|ดอนพุด
+1606417,1610502,Kaeng Khoi,Amphoe Kaeng Khoi|อำเภอแก่งคอย|แก่งคอย
+1606417,7510710,Muak Lek,Amphoe Muak Lek|อำเภอมวกเหล็ก|มวกเหล็ก
+1606417,1608620,Mueang Saraburi,Amphoe Mueang Saraburi|อำเภอเมืองสระบุรี|เมืองสระบุรี
+1606417,7510686,Nong Don,Amphoe Nong Don|อำเภอหนองโดน|หนองโดน
+1606417,1608238,Nong Khae,Amphoe Nong Khae|อำเภอหนองแค|หนองแค
+1606417,1608172,Nong Saeng,Amphoe Nong Saeng|อำเภอหนองแซง|หนองแซง
+1606417,1607511,Phra Phutthabat,Amphoe Phra Phutthabat|อำเภอพระพุทธบาท|พระพุทธบาท
+1606417,1606488,Sao Hai,Amphoe Sao Hai|อำเภอเสาไห้|เสาไห้
+1606417,7510711,Wang Muang,Amphoe Wang Muang|อำเภอวังม่วง|วังม่วง
+1606417,1605021,Wihan Daeng,Amphoe Wihan Daeng|อำเภอวิหารแดง|วิหารแดง
+1606585,1158431,Amphawa,Amphoe Amphawa|อำเภออัมพวา|อัมพวา
+1606585,1157724,Bang Khonthi,Amphoe Bang Khonthi|อำเภอบางคนที|บางคนที
+1606585,1608621,Mueang Samut Songkhram,Amphoe Mueang Samut Songkhram|อำเภอเมืองสมุทรสงคราม|เมืองสมุทรสงคราม
+1606587,1614464,Ban Phaeo,Amphoe Ban Phaeo|อำเภอบ้านแพ้ว|บ้านแพ้ว
+1606587,1609394,Krathum Baen,Amphoe Krathum Baen|อำเภอกระทุ่มแบน|กระทุ่มแบน
+1606587,1608622,Mueang Samut Sakhon,Amphoe Mueang Samut Sakhon|อำเภอเมืองสมุทรสาคร|เมืองสมุทรสาคร
+1606589,1619610,Bang Bo,Amphoe Bang Bo|อำเภอบางบ่อ|บางบ่อ
+1606589,1619346,Bang Phli,Amphoe Bang Phli|บางพลี|อำเภอบางพลี
+1606589,7099857,Bang Sao Thong,Amphoe Bang Sao Thong|กิ่งอำเภอบางเสาธง|อำเภอบางเสาธง|บางเสาธง
+1606589,1608623,Mueang Samut Prakan,Amphoe Mueang Samut Prakan|อำเภอเมืองสมุทรปราการ|อ. เมือง จ. สมุทรปราการ|เมืองสมุทรปราการ
+1606589,1607507,Phra Pradaeng,Amphoe Phra Pradaeng|อำเภอพระประแดง|พระประแดง
+1606589,6907984,Phra Samut Chedi,Amphoe Phra Samut Chedi|อำเภอพระสมุทรเจดีย์|พระสมุทรเจดีย์
+1606789,1621065,Akat Amnuai,Amphoe Akat Amnuai|อำเภออากาศอำนวย|อากาศอำนวย
+1606789,8534570,Ban Muang,Amphoe Ban Muang|อำเภอบ้านม่วง|บ้านม่วง
+1606789,7510820,Charoen Sin,Amphoe Charoen Sin|อำเภอเจริญศิลป์|เจริญศิลป์
+1606789,7510819,Kham Ta Kla,Amphoe Kham Ta Kla|อำเภอคำตากล้า|คำตากล้า
+1606789,7510843,Khok Si Suphan,Amphoe Khok Si Suphan|อำเภอโคกศรีสุพรรณ|โคกศรีสุพรรณ
+1606789,1609331,Kusuman,Amphoe Kusuman|อำเภอกุสุมาลย์|กุสุมาลย์
+1606789,1609326,Kut Bak,Amphoe Kut Bak|อำเภอกุดบาก|กุดบาก
+1606789,1608626,Mueang Sakon Nakhon,Amphoe Mueang Sakon Nakhon|อำเภอเมืองสกลนคร|เมืองสกลนคร
+1606789,7510818,Nikhom Nam Un,Amphoe Nikhom Nam Un|อำเภอนิคมน้ำอูน|นิคมน้ำอูน
+1606789,8304642,Phang Khon,Amphoe Phang Khon|อำเภอพังโคน|พังโคน
+1606789,1607811,Phanna Nikhom,Amphoe Phanna Nikhom|อำเภอพรรณานิคม|พรรณานิคม
+1606789,7510842,Phon Na Kaeo,Amphoe Phon Na Kaeo|อำเภอโพนนาแก้ว|โพนนาแก้ว
+1606789,7510816,Phu Phan,Amphoe Phu Phan|อำเภอภูพาน|ภูพาน
+1606789,1606349,Sawang Daen Din,Amphoe Sawang Daen Din|อำเภอสว่างแดนดิน|สว่างแดนดิน
+1606789,8304640,Song Dao,Amphoe Song Dao|อำเภอส่องดาว|ส่องดาว
+1606789,7510839,Tao Ngoi,Amphoe Tao Ngoi|อำเภอเต่างอย|เต่างอย
+1606789,1605075,Wanon Niwat,Amphoe Wanon Niwat|อำเภอวานรนิวาส|วานรนิวาส
+1606789,1605066,Waritchaphum,Amphoe Waritchaphum|อำเภอวาริชภูมิ|วาริชภูมิ
+1607000,1621007,At Samat,Amphoe At Samat|อำเภออาจสามารถ|อาจสามารถ
+1607000,7510813,Changhan,Amphoe Changhan|อำเภอจังหาร|จังหาร
+1607000,1611232,Chaturaphak Phiman,Amphoe Chaturaphak Phiman|อำเภอจตุรพักตรพิมาน|จตุรพักตรพิมาน
+1607000,7510812,Chiang Khwan,Amphoe Chiang Khwan|อำเภอเชียงขวัญ|เชียงขวัญ
+1607000,1610184,Kaset Wisai,Amphoe Kaset Wisai|อำเภอเกษตรวิสัย|เกษตรวิสัย
+1607000,7510837,Moeiwadi,Amphoe Moeiwadi|อำเภอเมยวดี|เมยวดี
+1607000,1608627,Mueang Roi Et,Amphoe Mueang Roi Et|อำเภอเมืองร้อยเอ็ด|เมืองร้อยเอ็ด
+1607000,8534569,Mueang Suang,Amphoe Mueang Suang|อำเภอเมืองสรวง|เมืองสรวง
+1607000,7510810,Nong Hi,Amphoe Nong Hi|อำเภอหนองฮี|หนองฮี
+1607000,1608187,Nong Phok,Amphoe Nong Phok|อำเภอหนองพอก|หนองพอก
+1607000,1607291,Pathum Rat,Amphoe Pathum Rat|อำเภอปทุมรัตต์|ปทุมรัตต์
+1607000,1607803,Phanom Phrai,Amphoe Phanom Phrai|อำเภอพนมไพร|พนมไพร
+1607000,7510811,Pho Chai,Amphoe Pho Chai|อำเภอโพธิ์ชัย|โพธิ์ชัย
+1607000,7510806,Phon Sai,Amphoe Phon Sai|อำเภอโพนทราย|โพนทราย
+1607000,1607599,Phon Thong,Amphoe Phon Thong|อำเภอโพนทอง|โพนทอง
+1607000,1606339,Selaphum,Amphoe Selaphum|อำเภอเสลภูมิ|เสลภูมิ
+1607000,7510785,Si Somdet,Amphoe Si Somdet|อำเภอศรีสมเด็จ|ศรีสมเด็จ
+1607000,1606016,Suwannaphum,Amphoe Suwannaphum|อำเภอสุวรรณภูมิ|สุวรรณภูมิ
+1607000,1605472,Thawatchaburi,Amphoe Thawatchaburi|อำเภอธวัชบุรี|ธวัชบุรี
+1607000,7510809,Thung Khao Luang,Amphoe Thung Khao Luang|อำเภอทุ่งเขาหลวง|ทุ่งเขาหลวง
+1607016,7510700,Ban Chang,Amphoe Ban Chang|อำเภอบ้านฉาง|บ้านฉาง
+1607016,1618570,Ban Khai,Amphoe Ban Khai|อำเภอบ้านค่าย|บ้านค่าย
+1607016,7510722,Khao Chamao,Amphoe Khao Chamao|อำเภอเขาชะเมา|เขาชะเมา
+1607016,1609609,Klaeng,Amphoe Klaeng|อำเภอแกลง|แกลง
+1607016,1608628,Mueang Rayong,Amphoe Mueang Rayong|อำเภอเมืองระยอง|เมืองระยอง
+1607016,7510702,Nikhom Phattana,Amphoe Nikhom Phattana|อำเภอนิคมพัฒนา|นิคมพัฒนา
+1607016,7510701,Pluak Daeng,Amphoe Pluak Daeng|อำเภอปลวกแดง|ปลวกแดง
+1607016,7510721,Wang Chan,Amphoe Wang Chan|อำเภอวังจันทร์|วังจันทร์
+1607530,1614107,Ban Phraek,Amphoe Ban Phraek|อำเภอบ้านแพรก|บ้านแพรก
+1607530,1619615,Bang Ban,Amphoe Bang Ban|อำเภอบางบาล|บางบาล
+1607530,1619368,Bang Pa-in,Amphoe Bang Pa-in|อำเภอบางปะอิน|บางปะอิน
+1607530,1619370,Bang Pahan,Amphoe Bang Pahan|อำเภอบางปะหัน|บางปะหัน
+1607530,11496463,Bang Sai,Amphoe Bang Sai|อำเภอบางไทร|บางไทร
+1607530,1619260,Bang Sai,Amphoe Bang Sai|อำเภอบางซ้าย|บางซ้าย
+1607530,1609140,Lat Bua Luang,Amphoe Lat Bua Luang|อำเภอลาดบัวหลวง|ลาดบัวหลวง
+1607530,1608901,Maha Rat,Amphoe Maha Rat|อำเภอมหาราช|มหาราช
+1607530,1608540,Nakhon Luang,Amphoe Nakhon Luang|อำเภอนครหลวง|นครหลวง
+1607530,1607957,Phachi,Amphoe Phachi|อำเภอภาชี|ภาชี
+1607530,1607864,Phak Hai,Amphoe Phak Hai|อำเภอผักไห่|ผักไห่
+1607530,1607531,Phra Nakhon Si Ayutthaya,Amphoe Phra Nakhon Si Ayutthaya|อำเภอพระนครศรีอยุธยา|พระนครศรีอยุธยา
+1607530,1606335,Sena,Amphoe Sena|อำเภอเสนา|เสนา
+1607530,1605508,Tha Ruea,Amphoe Tha Ruea|อำเภอท่าเรือ|ท่าเรือ
+1607530,1605222,Uthai,Amphoe Uthai|อำเภออุทัย|อุทัย
+1607530,1605117,Wang Noi,Amphoe Wang Noi|อำเภอวังน้อย|วังน้อย
+1607551,1610942,Den Chai,Amphoe Den Chai|อำเภอเด่นชัย|เด่นชัย
+1607551,1152321,Long,Amphoe Long|อำเภอลอง|ลอง
+1607551,1608631,Mueang Phrae,Amphoe Mueang Phrae|อำเภอเมืองแพร่|เมืองแพร่
+1607551,7510683,Nong Muang Khai,Amphoe Nong Muang Khai|อำเภอหนองม่วงไข่|หนองม่วงไข่
+1607551,1606982,Rong Kwang,Amphoe Rong Kwang|อำเภอร้องกวาง|ร้องกวาง
+1607551,1606166,Song,Amphoe Song|อำเภอสอง|สอง
+1607551,1606042,Sung Men,Amphoe Sung Men|อำเภอสูงเม่น|สูงเม่น
+1607551,1149936,Wang Chin,Amphoe Wang Chin|อำเภอวังชิ้น|วังชิ้น
+1607707,1619436,Bang Krathum,Amphoe Bang Krathum|อำเภอบางกระทุ่ม|บางกระทุ่ม
+1607707,1619275,Bang Rakam,Amphoe Bang Rakam|อำเภอบางระกำ|บางระกำ
+1607707,7510694,Chat Trakan,Amphoe Chat Trakan|อำเภอชาติตระการ|ชาติตระการ
+1607707,1608633,Mueang Phitsanulok,Amphoe Mueang Phitsanulok|อำเภอเมืองพิษณุโลก|เมืองพิษณุโลก
+1607707,1608523,Nakhon Thai,Amphoe Nakhon Thai|อำเภอนครไทย|นครไทย
+1607707,7510693,Noen Maprang,Amphoe Noen Maprang|อำเภอเนินมะปราง|เนินมะปราง
+1607707,1607467,Phrom Phiram,Amphoe Phrom Phiram|อำเภอพรหมพิราม|พรหมพิราม
+1607707,1605091,Wang Thong,Amphoe Wang Thong|อำเภอวังทอง|วังทอง
+1607707,1605061,Wat Bot,Amphoe Wat Bot|อำเภอวัดโบสถ์|วัดโบสถ์
+1607724,1619399,Bang Mun Nak,Amphoe Bang Mun Nak|อำเภอบางมูลนาก|บางมูลนาก
+1607724,7510679,Bueng Na Rang,Amphoe Bueng Na Rang|อำเภอบึงนาราง|บึงนาราง
+1607724,7511052,Dong Charoen,Amphoe Dong Charoen|อำเภอดงเจริญ|ดงเจริญ
+1607724,1608634,Mueang Phichit,Amphoe Mueang Phichit|อำเภอเมืองพิจิตร|เมืองพิจิตร
+1607724,8304647,Pho Prathap Chang,Amphoe Pho Prathap Chang|อำเภอโพธิ์ประทับช้าง|โพธิ์ประทับช้าง
+1607724,1607583,Pho Thale,Amphoe Pho Thale|อำเภอโพทะเล|โพทะเล
+1607724,7510680,Sak Lek,Amphoe Sak Lek|อำเภอสากเหล็ก|สากเหล็ก
+1607724,1606666,Sam Ngam,Amphoe Sam Ngam|อำเภอสามง่าม|สามง่าม
+1607724,1605753,Taphan Hin,Amphoe Taphan Hin|อำเภอตะพานหิน|ตะพานหิน
+1607724,7510692,Thap Khlo,Amphoe Thap Khlo|อำเภอทับคล้อ|ทับคล้อ
+1607724,7510681,Wachirabarami,Amphoe Wachirabarami|อำเภอวชิรบารมี|วชิรบารมี
+1607724,7511055,Wang Sai Phun,Amphoe Wang Sai Phun|อำเภอวังทรายพูน|วังทรายพูน
+1607736,7510716,Bueng Sam Phan,Amphoe Bueng Sam Phan|อำเภอบึงสามพัน|บึงสามพัน
+1607736,1611105,Chon Daen,Amphoe Chon Daen|อำเภอชนแดน|ชนแดน
+1607736,7511031,Khao Kho,Amphoe Khao Kho|อำเภอเขาค้อ|เขาค้อ
+1607736,1609047,Lom Kao,Amphoe Lom Kao|อำเภอหล่มเก่า|หล่มเก่า
+1607736,1609042,Lom Sak,Amphoe Lom Sak|อำเภอหล่มสัก|หล่มสัก
+1607736,1608635,Mueang Phetchabun,Amphoe Mueang Phetchabun|อำเภอเมืองเพชรบูรณ์|เมืองเพชรบูรณ์
+1607736,7510730,Nam Nao,Amphoe Nam Nao|อำเภอน้ำหนาว|น้ำหนาว
+1607736,1608190,Nong Phai,Amphoe Nong Phai|อำเภอหนองไผ่|หนองไผ่
+1607736,8304632,Si Thep,Amphoe Si Thep|อำเภอศรีเทพ|ศรีเทพ
+1607736,7510691,Wang Pong,Amphoe Wang Pong|อำเภอวังโป่ง|วังโป่ง
+1607736,1605023,Wichian Buri,Amphoe Wichian Buri|อำเภอวิเชียรบุรี|วิเชียรบุรี
+1607758,1611201,Chiang Kham,Amphoe Chiang Kham|อำเภอเชียงคำ|เชียงคำ
+1607758,7910433,Chiang Muan,Amphoe Chiang Muan|อำเภอเชียงม่วน|เชียงม่วน
+1607758,1611000,Chun,Amphoe Chun|อำเภอจุน|จุน
+1607758,1610908,Dok Kham Tai,Amphoe Dok Kham Tai|อำเภอดอกคำใต้|ดอกคำใต้
+1607758,1152228,Mae Chai,Amphoe Mae Chai|อำเภอแม่ใจ|แม่ใจ
+1607758,1151425,Mueang Phayao,Amphoe Mueang Phayao|อำเภอเมืองพะเยา|เมืองพะเยา|อำเภอพะเยา
+1607758,7510669,Phu Kam Yao,Amphoe Phu Kam Yao|อำเภอภูกามยาว|ภูกามยาว
+1607758,7382461,Phu Sang,Amphoe Phu Sang|กิ่งอำเภอภูซาง|อำเภอภูซาง|ภูซาง
+1607758,1607323,Pong,Amphoe Pong|อำเภอปง|ปง
+1607778,7510674,Bang Kaeo,Amphoe Bang Kaeo|อำเภอบางแก้ว|บางแก้ว
+1607778,1610017,Khao Chaison,Amphoe Khao Chaison|อำเภอเขาชัยสน|เขาชัยสน
+1607778,1609714,Khuan Khanun,Amphoe Khuan Khanun|อำเภอควนขนุน|ควนขนุน
+1607778,7511038,Kong Ra,Amphoe Kong Ra|อำเภอกงหรา|กงหรา
+1607778,1608636,Mueang Phatthalung,Amphoe Mueang Phatthalung|อำเภอเมืองพัทลุง|เมืองพัทลุง
+1607778,7510675,Pa Bon,Amphoe Pa Bon|อำเภอป่าบอน|ป่าบอน
+1607778,7510640,Pa Phayom,Amphoe Pa Phayom|อำเภอป่าพยอม|อำเภอป่าพะยอม|ป่าพะยอม
+1607778,1608027,Pak Phayun,Amphoe Pak Phayun|อำเภอปากพะยูน|ปากพะยูน
+1607778,7511050,Si Banphot,Amphoe Si Banphot|อำเภอศรีบรรพต|ศรีบรรพต
+1607778,7511037,Srinagarindra,Amphoe Srinagarindra|อำเภอศรีนครินทร์|ศรีนครินทร์
+1607778,7510673,Tamot,Amphoe Tamot|อำเภอตะโหมด|ตะโหมด
+1607976,7510719,Kapho,Amphoe Kapho|อำเภอกะพ้อ|กะพ้อ
+1607976,1609819,Khok Pho,Amphoe Khok Pho|อำเภอโคกโพธิ์|โคกโพธิ์
+1607976,8304631,Mae Lan,Amphoe Mae Lan|อำเภอแม่ลาน|แม่ลาน
+1607976,8304634,Mai Kaen,Amphoe Mai Kaen|อำเภอไม้แก่น|ไม้แก่น
+1607976,1608732,Mayo,Amphoe Mayo|อำเภอมายอ|มายอ
+1607976,1608638,Mueang Pattani,Amphoe Mueang Pattani|อำเภอเมืองปัตตานี|เมืองปัตตานี
+1607976,1608262,Nong Chik,Amphoe Nong Chik|อำเภอหนองจิก|หนองจิก
+1607976,1608006,Panare,Amphoe Panare|อำเภอปะนาเระ|ปะนาเระ
+1607976,1606850,Sai Buri,Amphoe Sai Buri|อำเภอสายบุรี|สายบุรี
+1607976,8304630,Thung Yang Daeng,Amphoe Thung Yang Daeng|อำเภอทุ่งยางแดง|ทุ่งยางแดง
+1607976,1604772,Yarang,Amphoe Yarang|อำเภอยะรัง|ยะรัง
+1607976,1604770,Yaring,Amphoe Yaring|อำเภอยะหริ่ง|ยะหริ่ง
+1607982,1609898,Khlong Luang,Amphoe Khlong Luang|อำเภอคลองหลวง|คลองหลวง
+1607982,1609218,Lam Luk Ka,Amphoe Lam Luk Ka|อำเภอลำลูกกา|ลำลูกกา
+1607982,1609120,Lat Lum Kaeo,Amphoe Lat Lum Kaeo|อำเภอลาดหลุมแก้ว|ลาดหลุมแก้ว
+1607982,1608639,Mueang Pathum Thani,Amphoe Mueang Pathum Thani|อำเภอเมืองปทุมธานี|เมืองปทุมธานี
+1607982,1608162,Nong Suea,Amphoe Nong Suea|อำเภอหนองเสือ|หนองเสือ
+1607982,1606686,Sam Khok,Amphoe Sam Khok|อำเภอสามโคก|สามโคก
+1607982,1605548,Thanyaburi,Amphoe Thanyaburi|อำเภอธัญบุรี|ธัญบุรี
+1608132,1619601,Bang Bua Thong,Amphoe Bang Bua Thong|อำเภอบางบัวทอง|บางบัวทอง
+1608132,1619433,Bang Kruai,Amphoe Bang Kruai|อำเภอบางกรวย|บางกรวย
+1608132,1619197,Bang Yai,Amphoe Bang Yai|อำเภอบางใหญ่|บางใหญ่
+1608132,1608640,Mueang Nonthaburi,Amphoe Mueang Nonthaburi|อำเภอเมืองนนทบุรี|เมืองนนทบุรี
+1608132,1608047,Pak Kret,Amphoe Pak Kret|อำเภอปากเกร็ด|ปากเกร็ด
+1608132,1606836,Sai Noi,Amphoe Sai Noi|อำเภอไทรน้อย|ไทรน้อย
+1608231,7510802,Fao Rai,Amphoe Fao Rai|อำเภอเฝ้าไร่|เฝ้าไร่
+1608231,1608641,Mueang Nong Khai,Amphoe Mueang Nong Khai|อำเภอเมืองหนองคาย|เมืองหนองคาย
+1608231,7510752,Pho Tak,Amphoe Pho Tak|อำเภอโพธิ์ตาก|โพธิ์ตาก
+1608231,1607605,Phon Phisai,Amphoe Phon Phisai|อำเภอโพนพิสัย|โพนพิสัย
+1608231,7510803,Rattana Wapi,Amphoe Rattana Wapi|อำเภอรัตนวาปี|รัตนวาปี
+1608231,7510780,Sa Khrai,Amphoe Sa Khrai|อำเภอสระใคร|สระใคร
+1608231,1606535,Sangkhom,Amphoe Sangkhom|อำเภอสังคม|สังคม
+1608231,1606315,Si Chiang Mai,Amphoe Si Chiang Mai|อำเภอศรีเชียงใหม่|ศรีเชียงใหม่
+1608231,1605676,Tha Bo,Amphoe Tha Bo|อำเภอท่าบ่อ|ท่าบ่อ
+1608408,1621004,Bacho,Amphoe Bacho|อำเภอบาเจาะ|บาเจาะ
+1608408,7000625,Chanae,Amphoe Chanae|อำเภอจะแนะ|จะแนะ
+1608408,7001132,Cho-airong,Amphoe Cho-airong|อำเภอเจาะไอร้อง|เจาะไอร้อง
+1608408,1608642,Mueang Narathiwat,Amphoe Mueang Narathiwat|อำเภอนราธิวาส|อำเภอเมืองนราธิวาส|เมืองนราธิวาส
+1608408,1607082,Ra-ngae,Amphoe Ra-ngae|อำเภอระแงะ|ระแงะ
+1608408,1606960,Rueso,Amphoe Rueso|อำเภอรือเสาะ|รือเสาะ
+1608408,7001159,Si Sakhon,Amphoe Si Sakhon|อำเภอศรีสาคร|ศรีสาคร
+1608408,1606049,Su-ngai Kolok,Amphoe Su-ngai Kolok|อำเภอสุงไหงโก-ลก|อำเภอสุไหงโก-ลก|สุไหงโก-ลก
+1608408,1606046,Su-ngai Padi,Amphoe Su-ngai Padi|อำเภอสุไหงปาดี|สุไหงปาดี
+1608408,6987551,Sukhirin,Amphoe Sukhirin|อำเภอสุคิริน|สุคิริน
+1608408,1605956,Tak Bai,Amphoe Tak Bai|อำเภอตากใบ|ตากใบ
+1608408,1605185,Waeng,Amphoe Waeng|อำเภอแว้ง|แว้ง
+1608408,1604760,Yi-ngo,Amphoe Yi-ngo|อำเภอยี่งอ|ยี่งอ
+1608451,7510684,Ban Luang,Amphoe Ban Luang|อำเภอบ้านหลวง|บ้านหลวง
+1608451,7524366,Bo Kluea,Amphoe Bo Kluea|อำเภอบ่อเกลือ|บ่อเกลือ
+1608451,7382968,Chaloem Phra Kiat,Amphoe Chaloem Phra Kiat|อำเภอเฉลิมพระเกียรติ|เฉลิมพระเกียรติ
+1608451,7510698,Chiang Klang,Amphoe Chiang Klang|อำเภอเชียงกลาง|เชียงกลาง
+1608451,1596293,Mae Charim,Amphoe Mae Charim|อำเภอแม่จริม|แม่จริม
+1608451,1608643,Mueang Nan,Amphoe Mueang Nan|อำเภอเมืองน่าน|เมืองน่าน
+1608451,7510695,Na Muen,Amphoe Na Muen|อำเภอนาหมื่น|นาหมื่น
+1608451,1608417,Na Noi,Amphoe Na Noi|อำเภอนาน้อย|นาน้อย
+1608451,7510697,Phu Phiang,Amphoe Phu Phiang|อำเภอภูเพียง|ภูเพียง
+1608451,1607163,Pua,Amphoe Pua|อำเภอปัว|ปัว
+1608451,7510696,Santi Suk,Amphoe Santi Suk|อำเภอสันติสุข|สันติสุข
+1608451,7510699,Song Khwae,Amphoe Song Khwae|อำเภอสองแคว|สองแคว
+1608451,1605474,Tha Wang Pha,Amphoe Tha Wang Pha|อำเภอท่าวังผา|ท่าวังผา
+1608451,1605358,Thung Chang,Amphoe Thung Chang|อำเภอทุ่งช้าง|ทุ่งช้าง
+1608451,1606958,Wiang Sa,Amphoe Wiang Sa|อำเภอเวียงสา|เวียงสา
+1608525,7510619,Bang Khan,Amphoe Bang Khan|อำเภอบางขัน|บางขัน
+1608525,1611230,Cha-uat,Amphoe Cha-uat|อำเภอชะอวด|ชะอวด
+1608525,7510676,Chaloem Phra Kiat,Amphoe Chaloem Phra Kiat|อำเภอเฉลิมพระเกียรติ|เฉลิมพระเกียรติ
+1608525,7510646,Chang Klang,Amphoe Chang Klang|อำเภอช้างกลาง|กิ่งอำเภอช้างกลาง|ช้างกลาง
+1608525,1153685,Chawang,Amphoe Chawang|อำเภอฉวาง|ฉวาง
+1608525,1611182,Chian Yai,Amphoe Chian Yai|อำเภอเชียรใหญ่|เชียรใหญ่
+1608525,7510644,Chulabhorn,Amphoe Chulabhorn|อำเภอจุฬาภรณ์|จุฬาภรณ์
+1608525,1610621,Hua Sai,Amphoe Hua Sai|อำเภอหัวไทร|หัวไทร
+1608525,1152964,Khanom,Amphoe Khanom|อำเภอขนอม|ขนอม
+1608525,1152419,Lan Saka,Amphoe Lan Saka|อำเภอลานสกา|ลานสกา
+1608525,1608644,Mueang Nakhon Si Thammarat,Amphoe Mueang Nakhon Si Thammarat|อำเภอเมืองนครศรีธรรมราช|เมืองนครศรีธรรมราช
+1608525,7510645,Na Bon,Amphoe Na Bon|อำเภอนาบอน|นาบอน
+1608525,7510648,Nopphitam,Amphoe Nopphitam|อำเภอนบพิตำ|กิ่งอำเภอนบพิตำ|นบพิตำ
+1608525,1608032,Pak Phanang,Amphoe Pak Phanang|อำเภอปากพนัง|ปากพนัง
+1608525,7510649,Phipun,Amphoe Phipun|อำเภอพิปูน|พิปูน
+1608525,7510643,Phra Phrom,Amphoe Phra Phrom|อำเภอพระพรหม|พระพรหม
+1608525,7510647,Phrom Khiri,Amphoe Phrom Khiri|อำเภอพรหมคีรี|พรหมคีรี
+1608525,1150919,Ron Phibun,Amphoe Ron Phibun|อำเภอร่อนพิบูลย์|ร่อนพิบูลย์
+1608525,1150654,Sichon,Amphoe Sichon|อำเภอสิชล|สิชล
+1608525,1150199,Tha Sala,Amphoe Tha Sala|อำเภอท่าศาลา|ท่าศาลา
+1608525,7510618,Tham Phannara,Amphoe Tham Phannara|อำเภอถ้ำพรรณรา|ถ้ำพรรณรา
+1608525,1150084,Thung Song,Amphoe Thung Song|อำเภอทุ่งสง|ทุ่งสง
+1608525,1150075,Thung Yai,Amphoe Thung Yai|อำเภอทุ่งใหญ่|ทุ่งใหญ่
+1608526,1614121,Banphot Phisai,Amphoe Banphot Phisai|อำเภอบรรพตพิสัย|บรรพตพิสัย
+1608526,7510662,Chum Ta Bong,Amphoe Chum Ta Bong|อำเภอชุมตาบง|ชุมตาบง
+1608526,1611016,Chumsaeng,Amphoe Chumsaeng|อำเภอชุมแสง|ชุมแสง
+1608526,7510678,Kao Liao,Amphoe Kao Liao|อำเภอเก้าเลี้ยว|เก้าเลี้ยว
+1608526,1609378,Krok Phra,Amphoe Krok Phra|อำเภอโกรกพระ|โกรกพระ
+1608526,1152376,Lat Yao,Amphoe Lat Yao|อำเภอลาดยาว|ลาดยาว
+1608526,7510629,Mae Poen,Amphoe Mae Poen|อำเภอแม่เปิน|แม่เปิน
+1608526,7510663,Mae Wong,Amphoe Mae Wong|อำเภอแม่วงก์|แม่วงก์
+1608526,1608645,Mueang Nakhon Sawan,Amphoe Mueang Nakhon Sawan|อำเภอเมืองนครสวรรค์|เมืองนครสวรรค์
+1608526,1608285,Nong Bua,Amphoe Nong Bua|อำเภอหนองบัว|หนองบัว
+1608526,1607880,Phai Sali,Amphoe Phai Sali|อำเภอไพศาลี|ไพศาลี
+1608526,1607751,Phayuha Khiri,Amphoe Phayuha Khiri|อำเภอพยุหะคีรี|พยุหะคีรี
+1608526,7510677,Tak Fa,Amphoe Tak Fa|อำเภอตากฟ้า|ตากฟ้า
+1608526,1605911,Takhli,Amphoe Takhli|อำเภอตาคลี|ตาคลี
+1608526,1605489,Tha Tako,Amphoe Tha Tako|อำเภอท่าตะโก|ท่าตะโก
+1608528,7510744,Ban Lueam,Amphoe Ban Lueam|อำเภอบ้านเหลื่อม|บ้านเหลื่อม
+1608528,8534573,Bua Lai,Amphoe Bua Lai|อำเภอบัวลาย|บัวลาย
+1608528,1611491,Bua Yai,Amphoe Bua Yai|อำเภอบัวใหญ่|บัวใหญ่
+1608528,1611393,Chakkarat,Amphoe Chakkarat|อำเภอจักราช|จักราช
+1608528,7510741,Chaloem Phra Kiat,Amphoe Chaloem Phra Kiat|อำเภอเฉลิมพระเกียรติ|เฉลิมพระเกียรติ
+1608528,1611134,Chok Chai,Amphoe Chok Chai|อำเภอโชคชัย|โชคชัย
+1608528,1611019,Chum Phuang,Amphoe Chum Phuang|อำเภอชุมพวง|ชุมพวง
+1608528,1610962,Dan Khun Thot,Amphoe Dan Khun Thot|อำเภอด่านขุนทด|ด่านขุนทด
+1608528,1610651,Huai Thalaeng,Amphoe Huai Thalaeng|อำเภอห้วยแถลง|ห้วยแถลง
+1608528,7510743,Kaeng Sanam Nang,Amphoe Kaeng Sanam Nang|อำเภอแก้งสนามนาง|แก้งสนามนาง
+1608528,8304636,Kham Sakae Saeng,Amphoe Kham Sakae Saeng|อำเภอขามสะแกแสง|ขามสะแกแสง
+1608528,1610067,Kham Thale So,Amphoe Kham Thale So|อำเภอขามทะเลสอ|ขามทะเลสอ
+1608528,1609794,Khon Buri,Amphoe Khon Buri|อำเภอครบุรี|ครบุรี
+1608528,1609792,Khong,Amphoe Khong|อำเภอคง|คง
+1608528,7510763,Lam Thamen Chai,Amphoe Lam Thamen Chai|อำเภอลำทะเมนชัย|ลำทะเมนชัย
+1608528,1608646,Mueang Nakhon Ratchasima,Amphoe Mueang Nakhon Ratchasima|อำเภอเมืองนครราชสีมา|เมืองนครราชสีมา
+1608528,7510764,Mueang Yang,Amphoe Mueang Yang|อำเภอเมืองยาง|เมืองยาง
+1608528,8304638,Non Daeng,Amphoe Non Daeng|อำเภอโนนแดง|โนนแดง
+1608528,1608135,Non Sung,Amphoe Non Sung|อำเภอโนนสูง|โนนสูง
+1608528,1608130,Non Thai,Amphoe Non Thai|อำเภอโนนไทย|โนนไทย
+1608528,7510740,Nong Bunmak,Amphoe Nong Bunmak|อำเภอหนองบุนนาก|อำเภอหนองบุญมาก|หนองบุญมาก
+1608528,1608056,Pak Chong,Amphoe Pak Chong|อำเภอปากช่อง|ปากช่อง
+1608528,1608018,Pak Thong Chai,Amphoe Pak Thong Chai|อำเภอปักธงชัย|ปักธงชัย
+1608528,1607715,Phimai,Amphoe Phimai|อำเภอพิมาย|พิมาย
+1608528,7511036,Phra Thong Kham,Amphoe Phra Thong Kham|อำเภอพระทองคำ|พระทองคำ
+1608528,1607235,Prathai,Amphoe Prathai|อำเภอประทาย|ประทาย
+1608528,7511046,Sida,Amphoe Sida|อำเภอสีดา|สีดา
+1608528,1606305,Sikhio,Amphoe Sikhio|อำเภอสี่คิ้ว|สีคิ้ว
+1608528,7510739,Soeng Sang,Amphoe Soeng Sang|อำเภอเสิงสาง|เสิงสาง
+1608528,1606039,Sung Noen,Amphoe Sung Noen|อำเภอสูงเนิน|สูงเนิน
+1608528,7511030,Thepharak,Amphoe Thepharak|อำเภอเทพารักษ์|เทพารักษ์
+1608528,7510725,Wang Nam Khiao,Amphoe Wang Nam Khiao|อำเภอวังน้ำเขียว|วังน้ำเขียว
+1608530,1614468,Ban Phaeng,Amphoe Ban Phaeng|อำเภอบ้านแพง|บ้านแพง
+1608530,1608647,Mueang Nakhon Phanom,Amphoe Mueang Nakhon Phanom|อำเภอเมืองนครพนม|เมืองนครพนม
+1608530,1608550,Na Kae,Amphoe Na Kae|อำเภอนาแก|นาแก
+1608530,7510846,Na Thom,Amphoe Na Thom|อำเภอนาทม|นาทม
+1608530,8534571,Na Wa,Amphoe Na Wa|อำเภอนาหว้า|นาหว้า
+1608530,7510841,Phon Sawan,Amphoe Phon Sawan|อำเภอโพนสวรรค์|โพนสวรรค์
+1608530,1607362,Pla Pak,Amphoe Pla Pak|อำเภอปลาปาก|ปลาปาก
+1608530,7510860,Renu Nakhon,Amphoe Renu Nakhon|อำเภอเรณูนคร|เรณูนคร
+1608530,1606231,Si Songkhram,Amphoe Si Songkhram|อำเภอศรีสงคราม|ศรีสงคราม
+1608530,1605478,Tha Uthen,Amphoe Tha Uthen|อำเภอท่าอุเทน|ท่าอุเทน
+1608530,1605482,That Phanom,Amphoe That Phanom|อำเภอธาตุพนม|ธาตุพนม
+1608530,7510844,Wang Yang,Amphoe Wang Yang|อำเภอวังยาง|วังยาง
+1608533,1619414,Bang Len,Amphoe Bang Len|อำเภอบางเลน|บางเลน
+1608533,1610874,Don Tum,Amphoe Don Tum|อำเภอดอนตูม|ดอนตูม
+1608533,1610444,Kamphaeng Saen District,Amphoe Kamphaeng Saen|อำเภอกำแพงแสน|กำแพงแสน
+1608533,1608648,Mueang Nakhon Pathom,Amphoe Mueang Nakhon Pathom|อำเภอเมืองนครปฐม|เมืองนครปฐม
+1608533,1608544,Nakhon Chai Si,Amphoe Nakhon Chai Si|อำเภอนครชัยศรี|นครชัยศรี
+1608533,6865782,Phutthamonthon,Amphoe Phutthamonthon|อำเภอพุทธมณฑล|พุทธมณฑล
+1608533,1606637,Sam Phran,Amphoe Sam Phran|อำเภอสามพราน|สามพราน
+1608538,1616494,Ban Na,Amphoe Ban Na|อำเภอบ้านนา|บ้านนา
+1608538,1608649,Mueang Nakhon Nayok,Amphoe Mueang Nakhon Nayok|อำเภอเมืองนครนายก|เมืองนครนายก
+1608538,1608079,Ongkharak,Amphoe Ongkharak|อำเภอองครักษ์|องครักษ์
+1608538,1608025,Pak Phli,Amphoe Pak Phli|อำเภอปากพลี|ปากพลี
+1608595,1610875,Don Tan,Amphoe Don Tan|อำเภอดอนตาล|ดอนตาล
+1608595,7510859,Dong Luang,Amphoe Dong Luang|อำเภอดงหลวง|ดงหลวง
+1608595,1610092,Khamcha-i,Amphoe Khamcha-i|อำเภอคำชะอี|คำชะอี
+1608595,1608596,Mueang Mukdahan,Amphoe Mueang Mukdahan|อำเภอเมืองมุกดาหาร|เมืองมุกดาหาร
+1608595,7510858,Nikhom Kham Soi,Amphoe Nikhom Kham Soi|อำเภอนิคมคำสร้อย|นิคมคำสร้อย
+1608595,7510835,Nong Sung,Amphoe Nong Sung|อำเภอหนองสูง|หนองสูง
+1608595,7603497,Wan Yai,Amphoe Wan Yai|อำเภอหว้านใหญ่|หว้านใหญ่
+1608899,1611579,Borabue,Amphoe Borabue|อำเภอบรบือ|บรบือ
+1608899,1611184,Chiang Yuen,Amphoe Chiang Yuen|อำเภอเชียงยืน|เชียงยืน
+1608899,7510793,Chuen Chom,Amphoe Chuen Chom|อำเภอชื่นชม|ชื่นชม
+1608899,7510789,Kae Dam,Amphoe Kae Dam|อำเภอแกดำ|แกดำ
+1608899,1610222,Kantharawichai,Amphoe Kantharawichai|อำเภอกันทรวิชัย|กันทรวิชัย
+1608899,1609475,Kosum Phisai,Amphoe Kosum Phisai|อำเภอโกสุมพิสัย|โกสุมพิสัย
+1608899,7510771,Kut Rang,Amphoe Kut Rang|อำเภอกุดรัง|กุดรัง
+1608899,1608651,Mueang Maha Sarakham,Amphoe Mueang Maha Sarakham|อำเภอเมืองมหาสารคาม|เมืองมหาสารคาม
+1608899,1608567,Na Chueak,Amphoe Na Chueak|อำเภอนาเชือก|นาเชือก
+1608899,7510787,Na Dun,Amphoe Na Dun|อำเภอนาดูน|นาดูน
+1608899,1607762,Phayakkhaphum Phisai,Amphoe Phayakkhaphum Phisai|อำเภอพยัคฆภูมิพิสัย|พยัคฆภูมิพิสัย
+1608899,1605071,Wapi Pathum,Amphoe Wapi Pathum|อำเภอวาปีปทุม|วาปีปทุม
+1608899,7510786,Yang Si Surat,Amphoe Yang Si Surat|อำเภอยางสีสุราช|ยางสีสุราช
+1609031,1616664,Ban Mi,Amphoe Ban Mi|อำเภอบ้านหมี่|บ้านหมี่
+1609031,1611423,Chai Badan,Amphoe Chai Badan|อำเภอชัยบาดาล|ชัยบาดาล
+1609031,7510688,Khok Charoen,Amphoe Khok Charoen|อำเภอโคกเจริญ|โคกเจริญ
+1609031,1609811,Khok Samrong,Amphoe Khok Samrong|อำเภอโคกสำโรง|โคกสำโรง
+1609031,7510713,Lam Sonthi,Amphoe Lam Sonthi|อำเภอลำสนธิ|ลำสนธิ|กิ่งอำเภอลำสนธิ
+1609031,1608652,Muang Lop Buri District,อำเภอเมืองลพบุรี|เมืองลพบุรี
+1609031,7510690,Nong Muang,Amphoe Nong Muang|อำเภอหนองม่วง|หนองม่วง
+1609031,1607777,Phatthana Nikhom,Amphoe Phatthana Nikhom|อำเภอพัฒนานิคม|พัฒนานิคม
+1609031,7510689,Sa Bot,Amphoe Sa Bot|อำเภอสระโบสถ์|สระโบสถ์
+1609031,7510714,Tha Luang,Amphoe Tha Luang|อำเภอท่าหลวง|ท่าหลวง
+1609031,1605468,Tha Wung,Amphoe Tha Wung|อำเภอท่าวุ้ง|ท่าวุ้ง
+1609070,1611199,Chiang Khan,Amphoe Chiang Khan|อำเภอเชียงคาน|เชียงคาน
+1609070,1610957,Dan Sai,Amphoe Dan Sai|อำเภอด่านซ้าย|ด่านซ้าย
+1609070,7510750,Erawan,Amphoe Erawan|อำเภอเอราวัณ|เอราวัณ
+1609070,1608653,Mueang Loei,Amphoe Mueang Loei|อำเภอเมืองเลย|เมืองเลย
+1609070,7510731,Na Duang,Amphoe Na Duang|อำเภอนาด้วง|นาด้วง
+1609070,7510717,Na Haeo,Amphoe Na Haeo|อำเภอนาแห้ว|นาแห้ว
+1609070,7510732,Nong Hin,Amphoe Nong Hin|อำเภอหนองหิน|หนองหิน
+1609070,8304635,Pak Chom,Amphoe Pak Chom|อำเภอปากชม|ปากชม
+1609070,7510749,Pha Khao,Amphoe Pha Khao|อำเภอผาขาว|ผาขาว
+1609070,1607434,Phu Kradueng,Amphoe Phu Kradueng|อำเภอภูกระดึง|ภูกระดึง
+1609070,7510733,Phu Luang,Amphoe Phu Luang|อำเภอภูหลวง|ภูหลวง
+1609070,8304633,Phu Ruea,Amphoe Phu Ruea|อำเภอภูเรือ|ภูเรือ
+1609070,1605612,Tha Li,Amphoe Tha Li|อำเภอท่าลี่|ท่าลี่
+1609070,1605101,Wang Saphung,Amphoe Wang Saphung|อำเภอวังสะพุง|วังสะพุง
+1609348,7025981,Bang Bon,เขตบางบอน|บางบอน
+1609348,1619530,Bang Kapi,เขตบางกะปิ|บางกะปิ
+1609348,1612947,Bang Khae,เขตบางแค|บางแค
+1609348,1619505,Bang Khen,เขตบางเขน|บางเขน
+1609348,6908544,Bang Kho laen,เขตบางคอแหลม|บางคอแหลม
+1609348,1619484,Bang Khun thain,เขตบางขุนเทียน|บางขุนเทียน
+1609348,6908403,Bang Na,เขตบางนา|บางนา
+1609348,6845259,Bang Phlat,เขตบางพลัด|บางพลัด
+1609348,1619277,Bang Rak,เขตบางรัก|บางรัก
+1609348,1619230,Bang Sue,เขตบางซื่อ|บางซื่อ
+1609348,1619459,Bangkok Noi,เขตบางกอกน้อย|บางกอกน้อย
+1609348,1619456,Bangkok Yai,เขตบางกอกใหญ่|บางกอกใหญ่
+1609348,6845216,Bueng Kum,เขตบึงกุ่ม|บึงกุ่ม
+1609348,6845605,Chatu Chak,เขตจตุจักร|จตุจักร
+1609348,6958161,Chom Thong,เขตจอมทอง|จอมทอง
+1609348,6845107,Din Daeng,เขตดินแดง|ดินแดง
+1609348,1619792,Don Mueang,เขตดอนเมือง|ดอนเมือง
+1609348,1610857,Dusit,เขตดุสิต|ดุสิต
+1609348,6845149,Huai Khwang,เขตห้วยขวาง|ห้วยขวาง
+1609348,6845386,Khan Na Yao,เขตคันนายาว|คันนายาว
+1609348,6845423,Khlong Sam Wa,เขตคลองสามวา|คลองสามวา
+1609348,1609878,Khlong San,เขตคลองสาน|คลองสาน
+1609348,1609867,Khlong Toei,เขตคลองเตย|คลองเตย
+1609348,6845541,Lak Si,เขตหลักสี่|หลักสี่
+1609348,1609127,Lat Krabang,เขตลาดกระบัง|ลาดกระบัง
+1609348,6845305,Lat Phrao,เขตลาดพร้าว|ลาดพร้าว
+1609348,1608717,Min Buri,เขตมีนบุรี|มีนบุรี
+1609348,1608257,Nong Chok,เขตหนองจอก|หนองจอก
+1609348,1608235,Nong Khaem,เขตหนองแขม|หนองแขม
+1609348,1607981,Parthum Wan,เขตปทุมวัน|ปทุมวัน
+1609348,1607781,Phasi Charoen,เขตภาษีเจริญ|ภาษีเจริญ
+1609348,1607755,Phaya Thai,เขตพญาไท|พญาไท
+1609348,1607541,Phra Khanong,เขตพระโขนง|พระโขนง
+1609348,1607533,Phra Nakhon,เขตพระนคร|พระนคร
+1609348,1607326,Pom Prap Sattru Phai,เขตป้อมปราบศัตรูพ่าย|ป้อมปราบศัตรูพ่าย
+1609348,6908736,Pra Wet,ประเวศ|เขตประเวศ
+1609348,1607054,Rat Burana,เขตราษฎร์บูรณะ|ราษฎร์บูรณะ
+1609348,6845022,Ratchathewi,เขตราชเทวี|ราชเทวี
+1609348,6845608,Sai Mai,เขตสายไหม|สายไหม
+1609348,1606639,Samphanthawong,เขตสัมพันธวงศ์|สัมพันธวงศ์
+1609348,6845108,Saphan Sung,เขตสะพานสูง|สะพานสูง
+1609348,6908643,Sathon,สาทร|เขตสาทร
+1609348,6908863,Suanluang,เขตสวนหลวง|สวนหลวง
+1609348,1605842,Taling Chan,เขตตลิ่งชัน|ตลิ่งชัน
+1609348,6865728,Thawi Watthana,เขตทวีวัฒนา|ทวีวัฒนา
+1609348,1605401,Thon buri,เขตธนบุรี|ธนบุรี
+1609348,6908219,Thung khru,เขตทุ่งครุ|ทุ่งครุ
+1609348,6908860,Vadhana,เขตวัฒนา|วัฒนา
+1609348,6845218,Wang Thong Lang,เขตวังทองหลาง|วังทองหลาง
+1609348,6698709,Yan na wa,เขตยานนาวา|ยานนาวา
+1609775,7510773,Ban Fang,Amphoe Ban Fang|อำเภอบ้านฝาง|บ้านฝาง
+1609775,7510770,Ban Haet,Amphoe Ban Haet|อำเภอบ้านแฮด|บ้านแฮด
+1609775,1614452,Ban Phai,Amphoe Ban Phai|อำเภอบ้านไผ่|บ้านไผ่
+1609775,1611077,Chonnabot,Amphoe Chonnabot|อำเภอชนบท|ชนบท
+1609775,1611025,Chum Phae,Amphoe Chum Phae|อำเภอชุมแพ|ชุมแพ
+1609775,7510775,Khao Suan Kwang,Amphoe Khao Suan Kwang|อำเภอเขาสวนกวาง|เขาสวนกวาง
+1609775,7510746,Khok Pho Chai,Amphoe Khok Pho Chai|อำเภอโคกโพธิ์ชัย|อำเภอโคกโพธิ์ไชย|โคกโพธิ์ไชย
+1609775,1609429,Kranuan,Amphoe Kranuan|อำเภอกระนวน|กระนวน
+1609775,1608773,Mancha Khiri,Amphoe Mancha Khiri|อำเภอมัญจาคีรี|มัญจาคีรี
+1609775,1608654,Mueang Khon Kaen,Amphoe Mueang Khon Kaen|อำเภอเมืองขอนแก่น|เมืองขอนแก่น
+1609775,1608479,Nam Phong,Amphoe Nam Phong|อำเภอน้ำพอง|น้ำพอง
+1609775,7510769,Non Sila,Amphoe Non Sila|อำเภอโนนศิลา|โนนศิลา
+1609775,7510747,Nong Na Kham,Amphoe Nong Na Kham|อำเภอหนองนาคำ|หนองนาคำ
+1609775,1608176,Nong Ruea,Amphoe Nong Ruea|อำเภอหนองเรือ|หนองเรือ
+1609775,1608164,Nong Song Hong,Amphoe Nong Song Hong|อำเภอหนองสองห้อง|หนองสองห้อง
+1609775,1607616,Phon,Amphoe Phon|อำเภอพล|พล
+1609775,7510772,Phra Yuen,Amphoe Phra Yuen|อำเภอพระยืน|พระยืน
+1609775,7510729,Phu Pha Man,Amphoe Phu Pha Man|อำเภอภูผาม่าน|ภูผาม่าน
+1609775,1607417,Phu Wiang,Amphoe Phu Wiang|อำเภอภูเวียง|ภูเวียง
+1609775,7510765,Pueai Noi,Amphoe Pueai Noi|อำเภอเปือยน้อย|เปือยน้อย
+1609775,7510794,Sam Sung,Amphoe Sam Sung|อำเภอซำสูง|ซำสูง
+1609775,7510748,Si Chom Phu,Amphoe Si Chom Phu|อำเภอสีชมพู|สีชมพู
+1609775,7510776,Ubolratana,Amphoe Ubolratana|อำเภออุบลรัตน์|อุบลรัตน์
+1609775,7510742,Waeng Noi,Amphoe Waeng Noi|อำเภอแวงน้อย|แวงน้อย
+1609775,7510768,Waeng Yai,Amphoe Waeng Yai|อำเภอแวงใหญ่|แวงใหญ่
+1609775,7511039,Wiang Kao,Amphoe Wiang Kao|อำเภอเวียงเก่า|เวียงเก่า
+1610468,7510815,Don Chan,Amphoe Don Chan|อำเภอดอนจาน|ดอนจาน
+1610468,7510792,Huai Mek,Amphoe Huai Mek|อำเภอห้วยเม็ก|ห้วยเม็ก
+1610468,7510817,Huai Phueng,Amphoe Huai Phueng|อำเภอห้วยผึ้ง|ห้วยผึ้ง
+1610468,1610458,Kamalasai,Amphoe Kamalasai|อำเภอกมลาไสย|กมลาไสย
+1610468,7511044,Kham Muang,Amphoe Kham Muang|อำเภอคำม่วง|คำม่วง
+1610468,7510838,Khao Wong,Amphoe Khao Wong|อำเภอเขาวง|เขาวง
+1610468,7510788,Khong Chai,Amphoe Khong Chai|อำเภอฆ้องชัย|ฆ้องชัย
+1610468,1609344,Kuchinarai,Amphoe Kuchinarai|อำเภอกุฉินารายณ์|กุฉินารายณ์
+1610468,1608657,Mueang Kalasin,Amphoe Mueang Kalasin|อำเภอเมืองกาฬสินธุ์|เมืองกาฬสินธุ์
+1610468,7510840,Na Khu,Amphoe Na Khu|อำเภอนาคู|นาคู
+1610468,7511042,Na Mon,Amphoe Na Mon|อำเภอนามน|นามน
+1610468,7510791,Nong Kung Si,Amphoe Nong Kung Si|อำเภอหนองกุงศรี|หนองกุงศรี
+1610468,7510814,Rong Kham,Amphoe Rong Kham|อำเภอร่องคำ|ร่องคำ
+1610468,1606912,Sahatsakhan,Amphoe Sahatsakhan|อำเภอสหัสขันธ์|สหัสขันธ์
+1610468,7511048,Sam Chai,Amphoe Sam Chai|อำเภอสามชัย|สามชัย
+1610468,1606187,Somdet,Amphoe Somdet|อำเภอสมเด็จ|สมเด็จ
+1610468,1605637,Tha Khantho,Amphoe Tha Khantho|อำเภอท่าคันโท|ท่าคันโท
+1610468,1604796,Yang Talat,Amphoe Yang Talat|อำเภอยางตลาด|ยางตลาด
+1611108,1620432,Ban Bueng,Amphoe Ban Bueng|อำเภอบ้านบึง|บ้านบึง
+1611108,1619422,Bang Lamung District,Amphoe Bang Lamung|อำเภอบางละมุง|บางละมุง
+1611108,7510703,Bo Thong,Amphoe Bo Thong|อำเภอบ่อทอง|บ่อทอง
+1611108,7510704,Ko Chan,Amphoe Ko Chan|อำเภอเกาะจันทร์|เกาะจันทร์
+1611108,1609478,Ko Si Chang,Amphoe Ko Si Chang|อำเภอเกาะสีชัง|เกาะสีชัง
+1611108,1608659,Mueang Chonburi District,Amphoe Muang Chon Buri|อำเภอเมืองชลบุรี|Amphoe Mueang Chon Buri|เมืองชลบุรี
+1611108,7510705,Nong Yai,Amphoe Nong Yai|อำเภอหนองใหญ่|หนองใหญ่
+1611108,1607792,Phan Thong,Amphoe Phan Thong|อำเภอพานทอง|พานทอง
+1611108,1607837,Phanat Nikhom,Amphoe Phanat Nikhom|อำเภอพนัสนิคม|พนัสนิคม
+1611108,1606385,Sattahip,Amphoe Sattahip|อำเภอสัตหีบ|สัตหีบ
+1611108,1606249,Si Racha,Amphoe Si Racha|อำเภอศรีราชา|ศรีราชา
+1611268,7510723,Kaeng Hang Maeo,Amphoe Kaeng Hang Maeo|อำเภอแก่งหางแมว|แก่งหางแมว
+1611268,7510734,Khao Khitchakut,Amphoe Khao Khitchakut|อำเภอเขาคิชฌกูฎ|อำเภอเขาคิชฌกูฏ|เขาคิชฌกูฏ
+1611268,1609857,Khlung,Amphoe Khlung|อำเภอขลุง|ขลุง
+1611268,1609277,Laem Sing,Amphoe Laem Sing|อำเภอแหลมสิงห์|แหลมสิงห์
+1611268,1608807,Makham,Amphoe Makham|อำเภอมะขาม|มะขาม
+1611268,1608660,Mueang Chanthaburi,Amphoe Mueang Chanthaburi|อำเภอเมืองจันทบุรี|เมืองจันทบุรี
+1611268,7510720,Na Yai Am,Amphoe Na Yai Am|อำเภอนายายอาม|นายายอาม
+1611268,1607305,Pong Nam Ron,Amphoe Pong Nam Ron|อำเภอโป่งน้ำร้อน|โป่งน้ำร้อน
+1611268,7510735,Soi Dao,Amphoe Soi Dao|อำเภอสอยดาว|สอยดาว
+1611268,1605600,Tha Mai,Amphoe Tha Mai|อำเภอท่าใหม่|ท่าใหม่
+1611406,1620988,Bamnet Narong,Amphoe Bamnet Narong|อำเภอบำเหน็จณรงค์|บำเหน็จณรงค์
+1611406,1617623,Ban Khwao,Amphoe Ban Khwao|อำเภอบ้านเขว้า|บ้านเขว้า
+1611406,1612771,Ban Thaen,Amphoe Ban Thaen|อำเภอบ้านแท่น|บ้านแท่น
+1611406,7910464,Chatturat,Amphoe Chatturat|อำเภอจัตุรัส|จัตุรัส
+1611406,1610504,Kaeng Khro,Amphoe Kaeng Khro|อำเภอแก้งคร้อ|แก้งคร้อ
+1611406,1610186,Kaset Sombun,Amphoe Kaset Sombun|อำเภอเกษตรสมบูรณ์|เกษตรสมบูรณ์
+1611406,1609766,Khon San,Amphoe Khon San|อำเภอคอนสาร|คอนสาร
+1611406,1609764,Khon Sawan,Amphoe Khon Sawan|อำเภอคอนสวรรค์|คอนสวรรค์
+1611406,1608661,Mueang Chaiyaphum,Amphoe Mueang Chaiyaphum|อำเภอเมืองชัยภูมิ|เมืองชัยภูมิ
+1611406,7510745,Noen Sa-nga,Amphoe Noen Sa-nga|อำเภอเนินสง่า|เนินสง่า
+1611406,1608272,Nong Bua Daeng,Amphoe Nong Bua Daeng|อำเภอหนองบัวแดง|หนองบัวแดง
+1611406,7510727,Nong Bua Rawe,Amphoe Nong Bua Rawe|อำเภอหนองบัวระเหว|หนองบัวระเหว
+1611406,7510715,Phakdi Chumphon,Amphoe Phakdi Chumphon|อำเภอภักดีชุมพล|ภักดีชุมพล
+1611406,1607438,Phu Khiao,Amphoe Phu Khiao|อำเภอภูเขียว|ภูเขียว
+1611406,7510728,Sap Yai,Amphoe Sap Yai|อำเภอซับใหญ่|ซับใหญ่
+1611406,7510712,Thep Sathit,Amphoe Thep Sathit|อำเภอเทพสถิต|เทพสถิต
+1611415,1153379,Hankha,Amphoe Hankha|อำเภอหันคา|หันคา
+1611415,1608761,Manorom,Amphoe Manorom|อำเภอมโนรมย์|มโนรมย์
+1611415,1608662,Mueang Chai Nat,Amphoe Mueang Chai Nat|อำเภอเมืองชัยนาท|เมืองชัยนาท
+1611415,7510656,Noen Kham,Amphoe Noen Kham|อำเภอเนินขาม|เนินขาม
+1611415,7510659,Nong Mamong,Amphoe Nong Mamong|อำเภอหนองมะโมง|หนองมะโมง
+1611415,1606529,Sankhaburi,Amphoe Sankhaburi|อำเภอสรรคบุรี|สรรคบุรี
+1611415,1606511,Sapphaya,Amphoe Sapphaya|อำเภอสรรพยา|สรรพยา
+1611415,1605047,Wat Sing,Amphoe Wat Sing|อำเภอวัดสิงห์|วัดสิงห์
+1611438,1614231,Ban Pho,Amphoe Ban Pho|อำเภอบ้านโพธิ์|บ้านโพธิ์
+1611438,1619497,Bang Khla,Amphoe Bang Khla|อำเภอบางคล้า|บางคล้า
+1611438,1619390,Bang Nam Priao,Amphoe Bang Nam Priao|อำเภอบางน้ำเปรี้ยว|บางน้ำเปรี้ยว
+1611438,1619362,Bang Pakong,Amphoe Bang Pakong|อำเภอบางปะกง|บางปะกง
+1611438,7510709,Khlong Khuean,Amphoe Khlong Khuean|อำเภอคลองเขื่อน|คลองเขื่อน
+1611438,1608663,Mueang Chachoengsao,Amphoe Mueang Chachoengsao|อำเภอเมืองฉะเชิงเทรา|เมืองฉะเชิงเทรา
+1611438,1607800,Phanom Sarakham,Amphoe Phanom Sarakham|อำเภอพนมสารคาม|พนมสารคาม
+1611438,7510708,Plaeng Yao,Amphoe Plaeng Yao|อำเภอแปลงยาว|แปลงยาว
+1611438,7510707,Ratchasan,Amphoe Ratchasan|อำเภอราชสาส์น|ราชสาส์น
+1611438,1606569,Sanam Chai Khet,Amphoe Sanam Chai Khet|อำเภอสนามชัยเขต|สนามชัยเขต
+1611438,7510724,Tha Takiap,Amphoe Tha Takiap|อำเภอท่าตะเกียบ|ท่าตะเกียบ
+1611452,7510783,Ban Dan,Amphoe Ban Dan|อำเภอบ้านด่าน|บ้านด่าน
+1611452,1617329,Ban Kruat,Amphoe Ban Kruat|อำเภอบ้านกรววด|อำเภอบ้านกรวด|บ้านกรวด
+1611452,7510767,Ban Mai Chaiyaphot,Amphoe Ban Mai Chaiyaphot|อำเภอบ้านใหม่ไชยพจน์|บ้านใหม่ไชยพจน์
+1611452,7510759,Chaloem Phra Kiat,Amphoe Chaloem Phra Kiat|อำเภอเฉลิมพระเกียรติ|เฉลิมพระเกียรติ
+1611452,7510758,Chamni,Amphoe Chamni|อำเภอชำนิ|ชำนิ
+1611452,7510782,Huai Rat,Amphoe Huai Rat|อำเภอห้วยราช|ห้วยราช
+1611452,7511040,Khaen Dong,Amphoe Khaen Dong|อำเภอแคนดง|แคนดง
+1611452,7510784,Khu Mueang,Amphoe Khu Mueang|อำเภอคูเมือง|คูเมือง
+1611452,1609420,Krasang,Amphoe Krasang|อำเภอกระสัง|กระสัง
+1611452,1609257,Lahan Sai,Amphoe Lahan Sai|อำเภอละหานทราย|ละหานทราย
+1611452,1609203,Lam Plai Mat,Amphoe Lam Plai Mat|อำเภอลำปลายมาศ|ลำปลายมาศ
+1611452,1608664,Mueang Buri Ram,Amphoe Mueang Buri Ram|อำเภอเมืองบุรีรัมย์|เมืองบุรีรัมย์
+1611452,7510766,Na Pho,Amphoe Na Pho|อำเภอนาโพธิ์|นาโพธิ์
+1611452,1608423,Nang Rong,Amphoe Nang Rong|อำเภอนางรอง|นางรอง
+1611452,7510756,Non Din Daeng,Amphoe Non Din Daeng|อำเภอโนนดินแดง|โนนดินแดง
+1611452,7510761,Non Suwan,Amphoe Non Suwan|อำเภอโนนสุวรรณ|โนนสุวรรณ
+1611452,7510762,Nong Hong,Amphoe Nong Hong|อำเภอหนองหงส์|หนองหงส์
+1611452,7510760,Nong Ki,Amphoe Nong Ki|อำเภอหนองกี่|หนองกี่
+1611452,7510757,Pa Kham,Amphoe Pa Kham|อำเภอปะคำ|ปะคำ
+1611452,7510781,Phlapphla Chai,Amphoe Phlapphla Chai|อำเภอพลับพลาชัย|พลับพลาชัย
+1611452,1607420,Phutthaisong,Amphoe Phutthaisong|อำเภอพุทไธสง|พุทไธสง
+1611452,1607256,Prakhon Chai,Amphoe Prakhon Chai|อำเภอประโคนชัย|ประโคนชัย
+1611452,1606377,Satuek,Amphoe Satuek|อำเภอสตึก|สตึก
+1621034,1611404,Chaiyo,Amphoe Chaiyo|อำเภอไชโย|ไชโย
+1621034,1608665,Mueang Ang Thong,Amphoe Mueang Ang Thong|อำเภออ่างทอง|อำเภอเมืองอ่างทอง|เมืองอ่างทอง
+1621034,1608010,Pa Mok,Amphoe Pa Mok|อำเภอป่าโมก|ป่าโมก
+1621034,1607578,Pho Thong,Amphoe Pho Thong|อำเภอโพธิ์ทอง|โพธิ์ทอง
+1621034,1606683,Samko,Amphoe Samko|อำเภอสามโก้|สามโก้
+1621034,1606373,Sawaengha,Amphoe Sawaengha|อำเภอแสวงหา|แสวงหา
+1621034,1605017,Wiset Chaichan,Amphoe Wiset Chaichan|อำเภอวิเศษชัยชาญ|วิเศษชัยชาญ
+1906686,1619649,Ban Dung,Amphoe Ban Dung|อำเภอบ้านดุง|บ้านดุง
+1906686,1614048,Ban Phue,Amphoe Ban Phue|อำเภอบ้านผือ|บ้านผือ
+1906686,7510798,Chaiwan,Amphoe Chaiwan|อำเภอไชยวาน|ไชยวาน
+1906686,7510797,Ku Kaeo,Amphoe Ku Kaeo|อำเภอกู่แก้ว|กู่แก้ว
+1906686,1609335,Kumphawapi,Amphoe Kumphawapi|อำเภอกุมภวาปี|กุมภวาปี
+1906686,8304639,Kut Chap,Amphoe Kut Chap|อำเภอกุดจับ|กุดจับ
+1906686,1608608,Mueang Udon Thani,Amphoe Mueang Udon Thani|อำเภอเมืองอุดรธานี|เมืองอุดรธานี
+1906686,7510754,Na Yung,Amphoe Na Yung|อำเภอนายูง|นายูง
+1906686,8304637,Nam Som,Amphoe Nam Som|อำเภอน้ำโสม|น้ำโสม
+1906686,7510774,Non Sa-at,Amphoe Non Sa-at|อำเภอโนนสะอาด|โนนสะอาด
+1906686,1608250,Nong Han,Amphoe Nong Han|อำเภอหนองหาน|หนองหาน
+1906686,7510778,Nong Saeng,Amphoe Nong Saeng|อำเภอหนองแสง|หนองแสง
+1906686,7510779,Nong Wua So,Amphoe Nong Wua So|อำเภอหนองวัวซอ|หนองวัวซอ
+1906686,1607740,Phen,Amphoe Phen|อำเภอเพ็ญ|เพ็ญ
+1906686,7510799,Phibun Rak,Amphoe Phibun Rak|อำเภอพิบูลย์รักษ์|พิบูลย์รักษ์
+1906686,7510777,Prachak Sinlapakhom,Amphoe Prachak Sinlapakhom|อำเภอประจักษ์ศิลปาคม|ประจักษ์ศิลปาคม
+1906686,8534568,Sang Khom,Amphoe Sang Khom|อำเภอสร้างคอม|สร้างคอม
+1906686,7510795,Si That,Amphoe Si That|อำเภอศรีธาตุ|ศรีธาตุ
+1906686,7510796,Thung Fon,Amphoe Thung Fon|อำเภอทุ่งฝน|ทุ่งฝน
+1906686,7510790,Wang Sam Mo,Amphoe Wang Sam Mo|อำเภอวังสามหมอ|วังสามหมอ
+1906687,1613406,Ban Sang,Amphoe Ban Sang|อำเภอบ้านสร้าง|บ้านสร้าง
+1906687,1610537,Kabin Buri,Amphoe Kabin Buri|อำเภอกบินทร์บุรี|กบินทร์บุรี
+1906687,1608629,Mueang Prachin Buri,Amphoe Mueang Prachin Buri|อำเภอเมืองปราจีนบุรี|เมืองปราจีนบุรี
+1906687,7510726,Na Di,Amphoe Na Di|อำเภอนาดี|นาดี
+1906687,1607282,Prachantakham,Amphoe Prachantakham|อำเภอประจันตคาม|ประจันตคาม
+1906687,1606290,Si Maha Phot,Amphoe Si Maha Phot|อำเภอศรีมหาโพธิ|ศรีมหาโพธิ
+1906687,7510706,Si Mahosot,Amphoe Si Mahosot|อำเภอศรีมโหสถ|ศรีมโหสถ
+1906688,1611460,Buntharik,Amphoe Buntharik|อำเภอบุณฑริก|บุณฑริก
+1906688,1610939,Det Udom,Amphoe Det Udom|อำเภอเดชอุดม|เดชอุดม
+1906688,7510863,Don Mot Daeng,Amphoe Don Mot Daeng|อำเภอดอนมดแดง|ดอนมดแดง
+1906688,1609969,Khemmarat,Amphoe Khemmarat|อำเภอเขมราฐ|เขมราฐ
+1906688,1620052,Khong Chiam,Amphoe Khong Chiam|อำเภอโขงเจียม|โขงเจียม
+1906688,1609719,Khueang Nai,Amphoe Khueang Nai|อำเภอเขื่องใน|เขื่องใน
+1906688,7510855,Kut Khaopun,Amphoe Kut Khaopun|อำเภอกุดข้าวปุ้น|กุดข้าวปุ้น
+1906688,7510852,Lao Suea Kok,Amphoe Lao Suea Kok|อำเภอเหล่าเสือโก้ก|เหล่าเสือโก้ก
+1906688,1608624,Muang Samsip,Amphoe Muang Samsip|อำเภอม่วงสามสิบ|ม่วงสามสิบ
+1906688,1608609,Mueang Ubonratchathani,Amphoe Mueang Ubonratchathani|อำเภอเมืองอุบลราชธานี|เมืองอุบลราชธานี
+1906688,8304650,Na Chaluai,Amphoe Na Chaluai|อำเภอนาจะหลวย|นาจะหลวย
+1906688,7510866,Na Tan,Amphoe Na Tan|อำเภอนาตาล|นาตาล
+1906688,7510862,Na Yia,Amphoe Na Yia|อำเภอนาเยีย|นาเยีย
+1906688,7510848,Nam Khun,Amphoe Nam Khun|อำเภอน้ำขุ่น|น้ำขุ่น
+1906688,11496467,Nam Yuen,Amphoe Nam Yuen|อำเภอน้ำยืน|น้ำยืน
+1906688,1607729,Phibun Mangsahan,Amphoe Phibun Mangsahan|อำเภอพิบูลมังสาหาร|พิบูลมังสาหาร
+1906688,7510865,Pho Sai,Amphoe Pho Sai|อำเภอโพธิ์ไทร|โพธิ์ไทร
+1906688,7510853,Samrong,Amphoe Samrong|อำเภอสำโรง|สำโรง
+1906688,7510861,Sawang Wirawong,Amphoe Sawang Wirawong|อำเภอสว่างวีระวงศ์|สว่างวีระวงศ์
+1906688,1609782,Si Mueang Mai,Amphoe Si Mueang Mai|อำเภอศรีเมืองใหม่|ศรีเมืองใหม่
+1906688,7511043,Sirindhorn,Amphoe Sirindhorn|อำเภอสิรินธร|สิรินธร
+1906688,7510864,Tan Sum,Amphoe Tan Sum|อำเภอตาลสุม|ตาลสุม
+1906688,7510847,Thung Si Udom,Amphoe Thung Si Udom|อำเภอทุ่งศรีอุดม|ทุ่งศรีอุดม
+1906688,1605280,Trakan Phuetphon,Amphoe Trakan Phuetphon|อำเภอตระการพืชผล|ตระการพืชผล
+1906688,1605068,Warin Chamrap,Amphoe Warin Chamrap|อำเภอวารินชำราบ|วารินชำราบ
+1906689,1611260,Chanuman,Amphoe Chanuman|อำเภอชานุมาน|ชานุมาน
+1906689,7510834,Hua Taphan,Amphoe Hua Taphan|อำเภอหัวตะพาน|หัวตะพาน
+1906689,7510856,Lue Amnat,Amphoe Lue Amnat|อำเภอลืออำนาจ|ลืออำนาจ
+1906689,1621059,Mueang Amnat Charoen,Amphoe Mueang Amnat Charoen|อำเภอเมืองอำนาจเจริญ|เมืองอำนาจเจริญ
+1906689,7510854,Pathum Ratchawongsa,Amphoe Pathum Ratchawongsa|อำเภอปทุมราชวงศา|ปทุมราชวงศา
+1906689,1607839,Phana,Amphoe Phana|อำเภอพนา|พนา
+1906689,7510857,Senangkhanikhom,Amphoe Senangkhanikhom|อำเภอเสนางคนิคม|เสนางคนิคม
+1906690,1608268,Mueang Nong Bua Lam Phu,Amphoe Mueang Nong Bua Lam Phu|อำเภอเมืองหนองบัวลำภู|เมืองหนองบัวลำภู
+1906690,1608520,Na Klang,Amphoe Na Klang|อำเภอนากลาง|นากลาง
+1906690,7510751,Na Wang,Amphoe Na Wang|อำเภอนาวัง|นาวัง
+1906690,1608138,Non Sang,Amphoe Non Sang|อำเภอโนนสัง|โนนสัง
+1906690,1606322,Si Bun Rueang,Amphoe Si Bun Rueang|อำเภอศรีบุญเรือง|ศรีบุญเรือง
+1906690,7510753,Suwanna Khuha,Amphoe Suwanna Khuha|อำเภอสุวรรณคูหา|สุวรรณคูหา
+1906691,1621019,Aranyaprathet,Amphoe Aranyaprathet|อำเภออรัญประเทศ|อรัญประเทศ
+1906691,7510738,Khao Chakan,Amphoe Khao Chakan|อำเภอเขาฉกรรจ์|เขาฉกรรจ์
+1906691,7603498,Khlong Hat,Amphoe Khlong Hat|อำเภอคลองหาด|คลองหาด
+1906691,7510755,Khok Sung,Amphoe Khok Sung|อำเภอโคกสูง|โคกสูง
+1906691,1606806,Mueang Sa Kaeo,Amphoe Mueang Sa Kaeo|อำเภอเมืองสระแก้ว|เมืองสระแก้ว
+1906691,1605741,Ta Phraya,Amphoe Ta Phraya|อำเภอตาพระยา|ตาพระยา
+1906691,7510736,Wang Nam Yen,Amphoe Wang Nam Yen|อำเภอวังน้ำเย็น|วังน้ำเย็น
+1906691,7510737,Wang Sombun,Amphoe Wang Sombun|อำเภอวังสมบูรณ์|วังสมบูรณ์
+1906691,1605042,Watthana Nakhon,Amphoe Watthana Nakhon|อำเภอวัฒนานคร|วัฒนานคร
+8133594,7510845,Bueng Khong Long,Amphoe Bueng Khong Long|อำเภอบึงโขงหลง|บึงโขงหลง
+8133594,7510821,Bung Khla,Amphoe Bung Khla|อำเภอบุ่งคล้า|บุ่งคล้า
+8133594,1611474,Mueang Bueng Kan,Amphoe Mueang Bueng Kan|อำเภอบึงกาฬ|อำเภอเมืองบึงกาฬ|บึงกาฬ
+8133594,7510800,Pak Khat,Amphoe Pak Khat|อำเภอปากคาด|ปากคาด
+8133594,8181808,Phon Charoen,Amphoe Phon Charoen|อำเภอพรเจริญ|พรเจริญ
+8133594,1606342,Seka,Amphoe Seka|อำเภอเซกา|เซกา
+8133594,7510822,Si Wilai,Amphoe Si Wilai|อำเภอศรีวิไล|ศรีวิไล
+8133594,7510801,So Phisai,Amphoe So Phisai|อำเภอโซ่พิสัย|โซ่พิสัย

@@ -1,0 +1,9 @@
+{
+  "country_code": "xd",
+  "name": "Brokenland",
+  "levels": [
+    { "file": "level1.csv", "label": "Region", "target_field": "state", "parent_level": 0 },
+    { "file": "level2.csv", "label": "City", "target_field": "city" }
+  ],
+  "postal_codes": { "file": "postal_codes.csv", "pattern": "^[0-9]{3}$" }
+}

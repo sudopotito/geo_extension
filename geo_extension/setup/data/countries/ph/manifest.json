@@ -1,22 +1,32 @@
 {
   "country_code": "ph",
+  "name": "Philippines",
+  "description": "Philippines: 84 provinces (incl. Metro Manila), 1,642 cities and municipalities and 42,010 barangays from the official PSGC publication (30 June 2026). Codes are 10-digit PSGC codes. City of Isabela is listed under Basilan; barangays of Manila's sub-municipalities are listed under the City of Manila. Postal codes (1,490 for 1,474 cities/municipalities) from the GeoNames postal-code dump (CC BY 4.0), matched by place and province name.",
+  "version": "2026.09.29",
+  "source": "Philippine Statistics Authority - Philippine Standard Geographic Code (PSGC), psgc.xlsx",
+  "source_url": "https://psa.gov.ph/classification/psgc",
+  "license": "Free to use with acknowledgement of the Philippine Statistics Authority (PSA) as the source (PSGC use constraints)",
   "author": "David Webb Espiritu <davidwebbespiritu@gmail.com> | https://www.linkedin.com/in/davidwebbespiritu",
-  "version": "1.0.0",
-  "description": "Cities and Municipalities of the Philippines - 146 Cities & 1,488 Municipalities",
-  "source": "https://psa.gov.ph/classification/psgc",
+  "updated": "2026-09-29",
   "levels": [
-    { "file": "level1.csv", "label": "Province", "target_field": "state" },
+    {
+      "file": "level1.csv",
+      "label": "Province",
+      "target_field": "state"
+    },
     {
       "file": "level2.csv",
       "label": "City/Municipality",
-      "target_field": "city",
-      "parent_level": 1
+      "target_field": "city"
     },
     {
       "file": "level3.csv",
       "label": "Barangay",
-      "target_field": "county",
-      "parent_level": 2
+      "target_field": "county"
     }
-  ]
+  ],
+  "postal_codes": {
+    "file": "postal_codes.csv",
+    "pattern": "^[0-9]{4}$"
+  }
 }

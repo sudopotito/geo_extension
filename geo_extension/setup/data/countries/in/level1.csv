@@ -1,38 +1,37 @@
-code,name
-WB,West Bengal
-AP,Andra Pradesh
-AR,Arunachal Pradesh
-AS,Assam
-BR,Bihar
-CT,Chhattisgarh
-GA,Goa
-GJ,Gujarat
-HR,Haryana
-HP,Himachal Pradesh
-JK,Jammu and Kashmir
-JH,Jharkhand
-KA,Karnataka
-KL,Kerala
-MP,Madhya Pradesh
-MH,Maharashtra
-MN,Manipur
-ML,Meghalaya
-MZ,Mizoram
-NL,Nagaland
-OR,Orissa
-PB,Punjab
-RJ,Rajasthan
-SK,Sikkim
-TN,Tamil Nadu
-TL,Telangana
-TR,Tripura
-UK,Uttarakhand
-UP,Uttar Pradesh
-AN,Andaman and Nicobar Islands
-CH,Chandigarh
-DN,Dadar and Nagar Haveli
-DD,Daman and Diu
-DL,Delhi
-LK,Ladakh
-LD,Lakshadeep
-PY,Pondicherry (Puducherry)
+code,name,aliases
+1278253,Assam,असम
+12165662,Dadra and Nagar Haveli and Daman and Diu,
+1271157,Goa,गोवा
+12096464,Ladakh,लद्दाख़
+1264542,Madhya Pradesh,मध्य प्रदेश
+1263706,Manipur,मणिपुर
+1263207,Meghālaya,मेघालय
+1262963,Mizoram,मिज़ोरम
+1273293,National Capital Territory of Delhi,दिल्ली
+1256312,Sikkim,सिक्किम
+1278629,State of Andhra Pradesh,आन्ध्र प्रदेश
+1278341,State of Arunāchal Pradesh,अरुणाचल प्रदेश
+1275715,State of Bihar,बिहार
+1444364,State of Chhattīsgarh,छत्तीसगढ़
+1270770,State of Gujarāt,गुजरात
+1270260,State of Haryāna,हरियाणा
+1270101,State of Himāchal Pradesh,हिमाचल प्रदेश
+1269320,State of Jammu and Kashmīr,जम्मू और कश्मीर
+1444365,State of Jhārkhand,झारखण्ड
+1267701,State of Karnataka,कर्नाटक
+1267254,State of Kerala,केरल
+1264418,State of Mahārāshtra,महाराष्ट्र
+1262271,State of Nāgāland,नागालैण्ड
+1261029,State of Odisha,
+1259223,State of Punjab,पंजाब
+1258899,State of Rājasthān,राजस्थान
+1255053,State of Tamil Nādu,तमिल नाडु
+1254788,State of Telangāna,तेलंगाना
+1444366,State of Uttarākhand,उत्तराखंड
+1254169,Tripura,त्रिपुरा
+1278647,Union Territory of Andaman and Nicobar Islands,अण्डमान और निकोबार द्वीपसमूह
+1274744,Union Territory of Chandigarh,चण्डीगढ़
+1265206,Union Territory of Lakshadweep,
+1259424,Union Territory of Puducherry,पुदुच्चेरी
+1253626,Uttar Pradesh,उत्तर प्रदेश
+1252881,West Bengal,पश्चिम बंगाल
