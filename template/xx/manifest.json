@@ -1,26 +1,15 @@
 {
-  "country_code": "ph",
-  "author": "sudo potito <sudopotito@gmail.com> | https://github.com/sudopotito/geo_extension",
+  "country_code": "xx",
+  "name": "Exampleland",
+  "description": "Exampleland: 3 regions, 6 cities and 8 districts. Replace with a one-line summary of what the dataset covers.",
   "version": "1.0.0",
-  "description": "Philippine Standard Geographic Hierarchy - 81 Provinces, 146 Cities & 1,488 Municipalities and 42,004 Barangay",
-  "source": "https://psa.gov.ph/classification/psgc",
+  "source": "https://statistics.example.gov/administrative-divisions",
+  "license": "CC BY 4.0",
+  "author": "Your Name <you@example.com> | https://github.com/you",
   "levels": [
-    {
-      "file": "level1.csv",
-      "label": "Province",
-      "target_field": "state"
-    },
-    {
-      "file": "level2.csv",
-      "label": "City/Municipality",
-      "target_field": "city",
-      "parent_level": 1
-    },
-    {
-      "file": "level3.csv",
-      "label": "Barangay",
-      "target_field": "county",
-      "parent_level": 2
-    }
-  ]
+    { "file": "level1.csv", "label": "Region", "target_field": "state" },
+    { "file": "level2.csv", "label": "City", "target_field": "city" },
+    { "file": "level3.csv", "label": "District", "target_field": "county" }
+  ],
+  "postal_codes": { "file": "postal_codes.csv", "pattern": "^[0-9]{4}$" }
 }

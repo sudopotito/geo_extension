@@ -1,0 +1,23 @@
+{
+  "country_code": "ae",
+  "name": "United Arab Emirates",
+  "description": "United Arab Emirates: Emirate > City/Area from GeoNames (7, 50 records). Populated places with population >= 500 plus administrative seats.",
+  "version": "2026.09.30",
+  "source": "https://www.geonames.org/ (GeoNames gazetteer and postal code dumps)",
+  "source_url": "https://download.geonames.org/export/dump/AE.zip",
+  "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/) - data (c) GeoNames.org",
+  "author": "geo_extension maintainers (generated with tools/geonames/build_dataset.py)",
+  "updated": "2026-09-30",
+  "levels": [
+    {
+      "file": "level1.csv",
+      "label": "Emirate",
+      "target_field": "state"
+    },
+    {
+      "file": "level2.csv",
+      "label": "City/Area",
+      "target_field": "city"
+    }
+  ]
+}

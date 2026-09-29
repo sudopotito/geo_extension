@@ -1,0 +1,401 @@
+parent_code,code,name,aliases
+2822542,2957763,Altenburger Land,
+2822542,6547391,Ilm-Kreis,
+2822542,2929668,Kreisfreie Stadt Erfurt,
+2822542,2921230,Kreisfreie Stadt Gera,
+2822542,2895042,Kreisfreie Stadt Jena,
+2822542,2824945,Kreisfreie Stadt Suhl,
+2822542,2812479,Kreisfreie Stadt Weimar,
+2822542,6547390,Kyffhäuserkreis,Kyffhaeuserkreis
+2822542,6547387,Landkreis Eichsfeld,Eichsfeld
+2822542,2918750,Landkreis Gotha,
+2822542,2917735,Landkreis Greiz,
+2822542,2904803,Landkreis Hildburghausen,
+2822542,2861979,Landkreis Nordhausen,
+2822542,6547392,Landkreis Saalfeld-Rudolstadt,Saalfeld-Rudolstadt
+2822542,3302169,Landkreis Schmalkalden-Meiningen,
+2822542,2831402,Landkreis Sömmerda,Landkreis Soemmerda
+2822542,2831245,Landkreis Sonneberg,
+2822542,2812480,Landkreis Weimarer Land,Weimarer Land
+2822542,6547393,Saale-Holzland-Kreis,
+2822542,6547394,Saale-Orla-Kreis,
+2822542,6547389,Unstrut-Hainich-Kreis,
+2822542,6547388,Wartburgkreis,Bad Salzungen
+2838632,3249069,Kreis Dithmarschen,
+2838632,2905434,Kreis Herzogtum Lauenburg,
+2838632,3249073,Kreis Nordfriesland,
+2838632,3249074,Kreis Ostholstein,
+2838632,2853657,Kreis Pinneberg,
+2838632,2853161,Kreis Plön,Kreis Ploen
+2838632,3249075,Kreis Rendsburg-Eckernförde,Kreis Rendsburg-Eckernfoerde
+2838632,2838633,Kreis Schleswig-Flensburg,
+2838632,3249076,Kreis Segeberg,
+2838632,3249077,Kreis Steinburg,
+2838632,3249078,Kreis Stormarn,
+2838632,2926272,Kreisfreie Stadt Flensburg,
+2838632,3249070,Kreisfreie Stadt Kiel,
+2838632,3249071,Kreisfreie Stadt Lübeck,Kreisfreie Stadt Luebeck
+2838632,3249072,Kreisfreie Stadt Neumünster,Kreisfreie Stadt Neumuenster
+2842565,2842111,Altmarkkreis Salzwedel,
+2842565,3302156,Burgenlandkreis,
+2842565,2937956,Dessau-Roßlau,
+2842565,2911516,Kreisfreie Stadt Halle,
+2842565,2948163,Landkreis Anhalt-Bitterfeld,Anhalt-Bitterfeld|Kreis Anhalt-Bitterfeld
+2842565,3302159,Landkreis Börde,Börde|Boerde
+2842565,2911664,Landkreis Harz,
+2842565,3302158,Landkreis Jerichower Land,Jerichower Land
+2842565,3302155,Landkreis Mansfeld-Südharz,Mansfeld-Südharz|Mansfeld-Suedharz|Kreis Mansfeld-Südharz
+2842565,2827478,Landkreis Stendal,
+2842565,2807345,Landkreis Wittenberg,
+2842565,2874544,Magdeburg,Landeshauptstadt Magdeburg
+2842565,2842671,Saalekreis,
+2842565,2950072,Salzlandkreis,
+2842566,3305808,Erzgebirgskreis,
+2842566,2892916,Kreisfreie Stadt Chemnitz,
+2842566,2935020,Kreisfreie Stadt Dresden,
+2842566,2879137,Kreisfreie Stadt Leipzig,
+2842566,2951880,Landkreis Bautzen,
+2842566,2918985,Landkreis Görlitz,Landkreis Goerlitz
+2842566,2879138,Landkreis Leipzig,
+2842566,2872153,Landkreis Meißen,
+2842566,2925190,Landkreis Mittelsachsen,
+2842566,2821806,Landkreis Nordsachsen,
+2842566,3305812,Landkreis Sächsische Schweiz-Osterzgebirge,Landkreis Sächsische Schweiz|Landkreis Saechsische Schweiz
+2842566,6547384,Vogtlandkreis,
+2842566,2803558,Zwickau,
+2842635,2871673,Landkreis Merzig-Wadern,
+2842635,3249066,Landkreis Neunkirchen,
+2842635,3249065,Landkreis Saarlouis,
+2842635,2841464,Landkreis Sankt Wendel,
+2842635,3249068,Regionalverband Saarbrücken,Regionalverband Saarbruecken
+2842635,3249067,Saarpfalz-Kreis,
+2847618,2936213,Donnersbergkreis,
+2847618,3247913,Eifelkreis Bitburg-Prüm,Eifelkreis Bitburg-Pruem
+2847618,2925546,Kreisfreie Stadt Frankenthal (Pfalz),
+2847618,3247900,Kreisfreie Stadt Kaiserslautern,
+2847618,3247459,Kreisfreie Stadt Koblenz,
+2847618,3247905,Kreisfreie Stadt Landau in der Pfalz,
+2847618,3247910,Kreisfreie Stadt Ludwigshafen am Rhein,
+2847618,3247465,Kreisfreie Stadt Mainz,
+2847618,3247906,Kreisfreie Stadt Neustadt an der Weinstraße,
+2847618,3247903,Kreisfreie Stadt Pirmasens,
+2847618,3247908,Kreisfreie Stadt Speyer,
+2847618,3247911,Kreisfreie Stadt Trier,
+2847618,3247467,Kreisfreie Stadt Worms,
+2847618,3247902,Kreisfreie Stadt Zweibrücken,Kreisfreie Stadt Zweibruecken
+2847618,3247460,Landkreis Ahrweiler,
+2847618,3247456,Landkreis Altenkirchen,
+2847618,2956708,Landkreis Alzey-Worms,
+2847618,2953523,Landkreis Bad Dürkheim,Landkreis Bad Duerkheim
+2847618,2953415,Landkreis Bad Kreuznach,
+2847618,3247912,Landkreis Bernkastel-Wittlich,
+2847618,2948589,Landkreis Birkenfeld,
+2847618,3247464,Landkreis Cochem-Zell,
+2847618,3247907,Landkreis Germersheim,
+2847618,2894002,Landkreis Kaiserslautern,
+2847618,3247901,Landkreis Kusel,
+2847618,3247466,Landkreis Mainz-Bingen,
+2847618,3247461,Landkreis Mayen-Koblenz,
+2847618,3247458,Landkreis Neuwied,
+2847618,2825001,Landkreis Südliche Weinstraße,Landkreis Suedliche Weinstrasse
+2847618,2821160,Landkreis Trier-Saarburg,
+2847618,3247914,Landkreis Vulkaneifel,Vulkaneifel
+2847618,3247463,Rhein-Hunsrück-Kreis,Rhein-Hunsrueck-Kreis
+2847618,3247462,Rhein-Lahn-Kreis,
+2847618,3247909,Rhein-Pfalz-Kreis,
+2847618,3247904,Südwestpfalz,Suedwestpfalz
+2847618,3247457,Westerwaldkreis,
+2861876,2930044,Ennepe-Ruhr-Kreis,
+2861876,3221121,Hochsauerlandkreis,
+2861876,3247441,Kreis Borken,
+2861876,2939944,Kreis Coesfeld,
+2861876,3247453,Kreis Düren,Kreis Dueren
+2861876,3247452,Kreis Euskirchen,
+2861876,3221127,Kreis Gütersloh,Kreis Guetersloh
+2861876,3247455,Kreis Heinsberg,
+2861876,3221129,Kreis Herford,
+2861876,3231882,Kreis Höxter,Kreis Hoexter
+2861876,3231905,Kreis Kleve,
+2861876,2876922,Kreis Lippe,
+2861876,3247430,Kreis Mettmann,
+2861876,2871034,Kreis Minden-Lübbecke,Kreis Minden-Luebbecke
+2861876,3221122,Kreis Olpe,
+2861876,3231898,Kreis Paderborn,
+2861876,2849645,Kreis Recklinghausen,
+2861876,3221123,Kreis Siegen-Wittgenstein,
+2861876,3221124,Kreis Soest,
+2861876,3247443,Kreis Steinfurt,
+2861876,2820086,Kreis Unna,
+2861876,3247436,Kreis Viersen,
+2861876,3247444,Kreis Warendorf,
+2861876,2810674,Kreis Wesel,
+2861876,3221125,Kreisfreie Stadt Bielefeld,
+2861876,3221109,Kreisfreie Stadt Bochum,
+2861876,3247450,Kreisfreie Stadt Bonn,
+2861876,3247440,Kreisfreie Stadt Bottrop,
+2861876,2935516,Kreisfreie Stadt Dortmund,
+2861876,3231901,Kreisfreie Stadt Duisburg,
+2861876,3231903,Kreisfreie Stadt Düsseldorf,Kreisfreie Stadt Duesseldorf
+2861876,3231904,Kreisfreie Stadt Essen,
+2861876,3247439,Kreisfreie Stadt Gelsenkirchen,
+2861876,3221110,Kreisfreie Stadt Hagen,
+2861876,3221111,Kreisfreie Stadt Hamm,
+2861876,3221114,Kreisfreie Stadt Herne,
+2861876,3247451,Kreisfreie Stadt Köln,Kreisfreie Stadt Koeln
+2861876,3231906,Kreisfreie Stadt Krefeld,
+2861876,3247447,Kreisfreie Stadt Leverkusen,
+2861876,3247435,Kreisfreie Stadt Mönchengladbach,Kreisfreie Stadt Moenchengladbach
+2861876,3247438,Kreisfreie Stadt Mülheim an der Ruhr,Kreisfreie Stadt Muelheim an der Ruhr
+2861876,3247442,Kreisfreie Stadt Münster,Kreisfreie Stadt Muenster
+2861876,3247437,Kreisfreie Stadt Oberhausen,
+2861876,3247432,Kreisfreie Stadt Remscheid,
+2861876,3247433,Kreisfreie Stadt Solingen,
+2861876,3247431,Kreisfreie Stadt Wuppertal,
+2861876,2803460,Märkischer Kreis,Maerkischer Kreis
+2861876,3247445,Oberbergischer Kreis,
+2861876,3247454,Rhein-Erft-Kreis,
+2861876,3247434,Rhein-Kreis Neuss,
+2861876,2847604,Rhein-Sieg-Kreis,
+2861876,3247446,Rheinisch-Bergischer Kreis,
+2861876,3247448,Städteregion Aachen,Staedteregion Aachen
+2862926,3221066,Delmenhorst,
+2862926,3221011,Kreisfreie Stadt Braunschweig,
+2862926,3221070,Kreisfreie Stadt Emden,
+2862926,3221095,Kreisfreie Stadt Oldenburg (Oldenburg),Kreisfreie Stadt Oldenburg
+2862926,3221096,Kreisfreie Stadt Osnabrück,Kreisfreie Stadt Osnabrueck
+2862926,3221018,Kreisfreie Stadt Salzgitter,
+2862926,3221100,Kreisfreie Stadt Wilhelmshaven,
+2862926,3221058,Landkreis Ammerland,
+2862926,3221059,Landkreis Aurich,
+2862926,2940212,Landkreis Celle,
+2862926,3221064,Landkreis Cloppenburg,
+2862926,2939657,Landkreis Cuxhaven,
+2862926,3221024,Landkreis Diepholz,
+2862926,3221073,Landkreis Emsland,
+2862926,2924362,Landkreis Friesland,
+2862926,2920479,Landkreis Gifhorn,
+2862926,3221012,Landkreis Goslar,
+2862926,3221013,Landkreis Göttingen,Landkreis Goettingen
+2862926,3221075,Landkreis Grafschaft Bentheim,
+2862926,3221027,Landkreis Hameln-Pyrmont,
+2862926,2910684,Landkreis Harburg,
+2862926,2831482,Landkreis Heidekreis,
+2862926,3221014,Landkreis Helmstedt,
+2862926,2803461,Landkreis Hildesheim,
+2862926,3221036,Landkreis Holzminden,
+2862926,3221094,Landkreis Leer,
+2862926,3221038,Landkreis Lüchow-Dannenberg,Landkreis Luechow-Dannenberg
+2862926,3221040,Landkreis Lüneburg,Landkreis Lueneburg
+2862926,2862622,Landkreis Nienburg/Weser,
+2862926,3221015,Landkreis Northeim,
+2862926,2857455,Landkreis Oldenburg,
+2862926,3221098,Landkreis Osnabrück,Landkreis Osnabrueck
+2862926,3221042,Landkreis Osterholz,
+2862926,3221017,Landkreis Peine,
+2862926,2840133,Landkreis Schaumburg,
+2862926,3221046,Landkreis Stade,
+2862926,3221049,Landkreis Uelzen,
+2862926,3221097,Landkreis Vechta,
+2862926,2817598,Landkreis Verden,
+2862926,3221099,Landkreis Wesermarsch,
+2862926,3221101,Landkreis Wittmund,
+2862926,3221020,Landkreis Wolfenbüttel,Landkreis Wolfenbuettel
+2862926,3221033,Region Hannover,
+2862926,3221044,Rotenburg (Wümme),Rotenburg (Wuemme)
+2862926,3221023,Stadt Wolfsburg,Kreisfreie Stadt Wolfsburg
+2872567,2844587,Hanse- und Universitätsstadt Rostock,Kreisfreie Stadt Rostock
+2872567,2834281,Kreisfreie Stadt Schwerin,
+2872567,8648342,Landkreis Rostock,
+2872567,8648412,Ludwigslust-Parchim,
+2872567,8648413,Mecklenburgische Seenplatte,
+2872567,3302143,Nordwestmecklenburg,
+2872567,8648415,Vorpommern-Greifswald,
+2872567,2843324,Vorpommern-Rügen,Vorpommern-Ruegen|Landkreis Vorpommern-Rügen
+2905330,3220968,Frankfurt am Main,Kreisfreie Stadt Frankfurt am Main|Frankfurt
+2905330,3220970,Hochtaunuskreis,
+2905330,3220969,Kreis Groß-Gerau,Landkreis Groß-Gerau
+2905330,3220962,Kreisfreie Stadt Darmstadt,
+2905330,3220995,Kreisfreie Stadt Kassel,
+2905330,3220990,Kreisfreie Stadt Wiesbaden,
+2905330,3220991,Lahn-Dill-Kreis,
+2905330,2950257,Landkreis Bergstraße,Kreis Bergstraße
+2905330,3220966,Landkreis Darmstadt-Dieburg,
+2905330,3220993,Landkreis Fulda,
+2905330,3305827,Landkreis Gießen,
+2905330,3220994,Landkreis Hersfeld-Rotenburg,
+2905330,2892514,Landkreis Kassel,
+2905330,3220992,Landkreis Limburg-Weilburg,
+2905330,2873758,Landkreis Marburg-Biedenkopf,
+2905330,3220975,Landkreis Offenbach,Kreisfreie Stadt Offenbach am Main
+2905330,3220978,Landkreis Offenbach,
+2905330,3220997,Landkreis Waldeck-Frankenberg,
+2905330,2874242,Main-Kinzig-Kreis,
+2905330,2874229,Main-Taunus-Kreis,
+2905330,3220971,Odenwaldkreis,
+2905330,3220989,Rheingau-Taunus-Kreis,
+2905330,3220996,Schwalm-Eder-Kreis,
+2905330,2816883,Vogelsbergkreis,
+2905330,3220999,Werra-Meißner-Kreis,
+2905330,2809976,Wetteraukreis,
+2911297,6547395,"Hamburg, Freie und Hansestadt",
+2944387,3220906,Kreisfreie Stadt Bremerhaven,
+2944387,3220905,Stadtgemeinde Bremen,Kreisfreie Stadt Bremen
+2945356,2925534,Frankfurt (Oder),
+2945356,2945354,Kreisfreie Stadt Brandenburg an der Havel,
+2945356,2939810,Kreisfreie Stadt Cottbus,
+2945356,2852455,Kreisfreie Stadt Potsdam,
+2945356,3249079,Landkreis Barnim,
+2945356,3249080,Landkreis Dahme-Spreewald,
+2945356,3249081,Landkreis Elbe-Elster,
+2945356,3249082,Landkreis Havelland,
+2945356,3249083,Landkreis Märkisch-Oderland,Landkreis Maerkisch-Oderland
+2945356,3249085,Landkreis Oberspreewald-Lausitz,
+2945356,3249086,Landkreis Oder-Spree,
+2945356,3249087,Landkreis Ostprignitz-Ruppin,
+2945356,2852456,Landkreis Potsdam-Mittelmark,Potsdam-Mittelmark|PM
+2945356,3249088,Landkreis Prignitz,
+2945356,3249089,Landkreis Spree-Neiße,Wokrejs Sprjewja-Nysa
+2945356,3249090,Landkreis Teltow-Fläming,Landkreis Teltow-Flaeming
+2945356,3249091,Landkreis Uckermark,
+2945356,3249084,Oberhavel,Landkreis Oberhavel
+2950157,6547383,"Berlin, Stadt",
+2951839,3220847,Coburg,Kreisfreie Stadt Coburg
+2951839,3220884,Kempten,Kreisfreie Stadt Kempten
+2951839,3220854,Kreisfreie Stadt Amberg,
+2951839,3220795,Kreisfreie Stadt Ansbach,
+2951839,3220890,Kreisfreie Stadt Aschaffenburg,
+2951839,3220868,Kreisfreie Stadt Augsburg,
+2951839,3220843,Kreisfreie Stadt Bamberg,
+2951839,3220845,Kreisfreie Stadt Bayreuth,
+2951839,3220798,Kreisfreie Stadt Erlangen,
+2951839,3220800,Kreisfreie Stadt Fürth,Kreisfreie Stadt Fuerth
+2951839,3220849,Kreisfreie Stadt Hof,
+2951839,3220833,Kreisfreie Stadt Ingolstadt,
+2951839,3220883,Kreisfreie Stadt Kaufbeuren,
+2951839,3220810,Kreisfreie Stadt Landshut,
+2951839,3220886,Kreisfreie Stadt Memmingen,
+2951839,3220837,Kreisfreie Stadt München,Kreisfreie Stadt Muenchen|München
+2951839,3220803,Kreisfreie Stadt Nürnberg,Kreisfreie Stadt Nuernberg
+2951839,3220812,Kreisfreie Stadt Passau,
+2951839,3220839,Kreisfreie Stadt Rosenheim,
+2951839,3220806,Kreisfreie Stadt Schwabach,
+2951839,3220895,Kreisfreie Stadt Schweinfurt,
+2951839,3220815,Kreisfreie Stadt Straubing,
+2951839,3220860,Kreisfreie Stadt Weiden in der Oberpfalz,
+2951839,2803463,Landkreis Aichach-Friedberg,
+2951839,3220817,Landkreis Altötting,Landkreis Altoetting
+2951839,3220855,Landkreis Amberg-Sulzbach,
+2951839,3220796,Landkreis Ansbach,
+2951839,2955273,Landkreis Aschaffenburg,
+2951839,3220871,Landkreis Augsburg,
+2951839,2953423,Landkreis Bad Kissingen,
+2951839,2953323,Landkreis Bad Tölz-Wolfratshausen,Landkreis Bad Toelz-Wolfratshausen
+2951839,3220844,Landkreis Bamberg,
+2951839,3220846,Landkreis Bayreuth,
+2951839,2950877,Landkreis Berchtesgadener Land,Berchtesgadener Land
+2951839,2940202,Landkreis Cham,
+2951839,2939950,Landkreis Coburg,
+2951839,3220818,Landkreis Dachau,
+2951839,3220807,Landkreis Deggendorf,
+2951839,2936975,Landkreis Dillingen an der Donau,
+2951839,3220808,Landkreis Dingolfing-Landau,
+2951839,2936260,Landkreis Donau-Ries,
+2951839,2933937,Landkreis Ebersberg,
+2951839,3220830,Landkreis Eichstätt,Landkreis Eichstaett
+2951839,2929716,Landkreis Erding,
+2951839,3220799,Landkreis Erlangen-Höchstadt,Landkreis Erlangen-Hoechstadt
+2951839,3220848,Landkreis Forchheim,
+2951839,3220832,Landkreis Freising,
+2951839,2918364,Landkreis Freyung-Grafenau,
+2951839,2923624,Landkreis Fürstenfeldbruck,Landkreis Fuerstenfeldbruck
+2951839,3220801,Landkreis Fürth,Landkreis Fuerth
+2951839,2922531,Landkreis Garmisch-Partenkirchen,
+2951839,3220874,Landkreis Günzburg,Landkreis Guenzburg
+2951839,2909461,Landkreis Haßberge,
+2951839,3220850,Landkreis Hof,
+2951839,3220809,Landkreis Kelheim,
+2951839,3220892,Landkreis Kitzingen,
+2951839,2883782,Landkreis Kronach,
+2951839,3220851,Landkreis Kulmbach,
+2951839,3220834,Landkreis Landsberg am Lech,
+2951839,3220811,Landkreis Landshut,
+2951839,3220852,Landkreis Lichtenfels,
+2951839,3220885,Landkreis Lindau,
+2951839,3220893,Landkreis Main-Spessart,
+2951839,3220835,Landkreis Miesbach,
+2951839,3220894,Landkreis Miltenberg,
+2951839,3220836,Landkreis Mühldorf am Inn,Landkreis Muehldorf am Inn
+2951839,3220838,Landkreis München,Landkreis Muenchen|München
+2951839,3220887,Landkreis Neu-Ulm,
+2951839,2866064,Landkreis Neuburg-Schrobenhausen,
+2951839,2864548,Landkreis Neumarkt in der Oberpfalz,
+2951839,3220802,Landkreis Neustadt an der Aisch-Bad Windsheim,
+2951839,3220856,Landkreis Neustadt an der Waldnaab,
+2951839,2861443,Landkreis Oberallgäu,Landkreis Oberallgaeu
+2951839,3220888,Landkreis Ostallgäu,Landkreis Ostallgaeu
+2951839,3220813,Landkreis Passau,
+2951839,2854385,Landkreis Pfaffenhofen an der Ilm,
+2951839,3220814,Landkreis Regen,
+2951839,3220858,Landkreis Regensburg,
+2951839,2847553,Landkreis Rhön-Grabfeld,Landkreis Rhoen-Grabfeld
+2951839,3220840,Landkreis Rosenheim,
+2951839,3220805,Landkreis Roth,
+2951839,2843774,Landkreis Rottal-Inn,
+2951839,3220859,Landkreis Schwandorf,
+2951839,3220896,Landkreis Schweinfurt,
+2951839,2829456,Landkreis Starnberg,
+2951839,3220816,Landkreis Straubing-Bogen,
+2951839,2822099,Landkreis Tirschenreuth,
+2951839,3220841,Landkreis Traunstein,
+2951839,3220889,Landkreis Unterallgäu,Landkreis Unterallgaeu
+2951839,3220842,Landkreis Weilheim-Schongau,
+2951839,3220797,Landkreis Weißenburg-Gunzenhausen,
+2951839,3220853,Landkreis Wunsiedel im Fichtelgebirge,
+2951839,3220898,Landkreis Würzburg,Landkreis Wuerzburg
+2951839,3220804,Nürnberger Land,Nuernberger Land
+2951839,3220857,Regensburg,Kreisfreie Stadt Regensburg
+2951839,3220897,Würzburg,Kreisfreie Stadt Würzburg|Kreisfreie Stadt Wuerzburg
+2953481,3220786,Alb-Donau-Kreis,
+2953481,2947109,Bodenseekreis,
+2953481,2929889,Enzkreis,
+2953481,3214107,Freiburg im Breisgau,Stadtkreis Freiburg im Breisgau|Freiburg
+2953481,3220748,Hohenlohekreis,
+2953481,3220790,Landkreis Biberach,
+2953481,2947443,Landkreis Böblingen,Landkreis Boeblingen
+2953481,2944796,Landkreis Breisgau-Hochschwarzwald,
+2953481,2940384,Landkreis Calw,
+2953481,2930522,Landkreis Emmendingen,
+2953481,2928748,Landkreis Esslingen,
+2953481,2924895,Landkreis Freudenstadt,
+2953481,2919053,Landkreis Göppingen,Landkreis Goeppingen
+2953481,3220738,Landkreis Heidenheim,
+2953481,3220743,Landkreis Heilbronn,
+2953481,2892791,Landkreis Karlsruhe,
+2953481,2885678,Landkreis Konstanz,
+2953481,3214108,Landkreis Lörrach,Landkreis Loerrach
+2953481,3220752,Landkreis Ludwigsburg,
+2953481,3220725,Landkreis Rastatt,
+2953481,3220791,Landkreis Ravensburg,
+2953481,3220792,Landkreis Reutlingen,
+2953481,3214110,Landkreis Rottweil,
+2953481,3220784,Landkreis Schwäbisch Hall,Landkreis Schwaebisch Hall
+2953481,3220793,Landkreis Sigmaringen,
+2953481,2820859,Landkreis Tübingen,Landkreis Tuebingen
+2953481,3214111,Landkreis Tuttlingen,
+2953481,3214112,Landkreis Waldshut,
+2953481,3220782,Main-Tauber-Kreis,
+2953481,3220723,Neckar-Odenwald-Kreis,
+2953481,3214109,Ortenaukreis,
+2953481,2856827,Ostalbkreis,
+2953481,3220783,Rems-Murr-Kreis,
+2953481,2847614,Rhein-Neckar-Kreis,
+2953481,2834685,Schwarzwald-Baar-Kreis,
+2953481,3214113,Stadtkreis Baden-Baden,
+2953481,3220720,Stadtkreis Heidelberg,
+2953481,3220740,Stadtkreis Heilbronn,
+2953481,3220721,Stadtkreis Karlsruhe,
+2953481,3220722,Stadtkreis Mannheim,
+2953481,3220724,Stadtkreis Pforzheim,
+2953481,3220785,Stadtkreis Stuttgart,
+2953481,3220787,Stadtkreis Ulm,
+2953481,3220794,Zollernalbkreis,

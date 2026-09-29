@@ -1,294 +1,122 @@
 // Copyright (c) 2025, sudo potito and contributors
 // For license information, please see license.txt
 
-const LEVEL_FIELDS = ["state", "county", "city"];
-
 /**
- * Behavior:
- * - Guided mode (manifest exists):
- *   * Show only fields listed in manifest, in that order
- *   * Autocomplete shows labels only
- *   * Cascading uses label→code mapping
- * - Freeform mode (no manifest or no country):
- *   * Show all LEVEL_FIELDS
- *   * No suggestions (free typing)
+ * Geo Extension - Address DocType integration.
  *
- * Lifecycle:
- * - onload_post_render / refresh:
- *   * Rebuild autocomplete for existing doc without clearing values
- * - country handler:
- *   * React only to actual user changes to country
+ * All geographic logic lives in geo_selector.js (frappe.geo_extension). This
+ * file only wires it to the native Address form:
+ *
+ * - Country is moved right below Address Type so it is chosen first, and the
+ *   level fields are ordered top-down per the country's hierarchy (pure DOM
+ *   reordering; nothing is persisted, nothing is hidden).
+ * - Level fields get country-specific labels and suggestion dropdowns.
+ * - Changing Country clears the level values and rebuilds the cascade.
+ * - Everything stays editable: unsupported countries and free text behave
+ *   exactly like native Frappe.
  */
 
+const GEO_LEVEL_FIELDS = ["state", "county", "city", "address_line2"];
+const GEO_NATIVE_ORDER = ["address_line2", "city", "county", "state"];
+
 frappe.ui.form.on("Address", {
-	async onload_post_render(frm) {
-		frm._geo = frm._geo || { mode: "freeform", levels: [], map: {} };
-		await setup_geo_for_existing_doc(frm);
+	onload_post_render(frm) {
+		geo_setup(frm);
 	},
 
-	async refresh(frm) {
-		frm._geo = frm._geo || { mode: "freeform", levels: [], map: {} };
-		await setup_geo_for_existing_doc(frm);
+	refresh(frm) {
+		// the form object is shared by every Address opened in the session and
+		// onload_post_render runs once per document: rebuild when the document changed
+		if (frm._geo && frm._geo.docname !== frm.docname) geo_setup(frm);
 	},
 
-	// Only treat this as a *user* change of country.
-	// We do NOT call this from our init logic.
 	async country(frm) {
-		// User cleared country → go full freeform
-		if (!frm.doc.country) {
-			clear_levels(frm, { clear_values: true });
-			await set_mode_freeform(frm);
-			frm._geo.mode = "freeform";
-			frm._geo.levels = [];
-			return;
-		}
-
-		// New country selected → nuke existing hierarchy (values + options)
-		clear_levels(frm, { clear_values: true });
-
-		let levels = [];
-		try {
-			levels =
-				(await call("geo_extension.geo_extension.locations.get_levels", {
-					country: frm.doc.country,
-				})) || [];
-		} catch {
-			await set_mode_freeform(frm);
-			frm._geo.mode = "freeform";
-			frm._geo.levels = [];
-			return;
-		}
-
-		if (!levels.length) {
-			await set_mode_freeform(frm);
-			frm._geo.mode = "freeform";
-			frm._geo.levels = [];
-			return;
-		}
-
-		// Enter guided mode
-		frm._geo.mode = "guided";
-		frm._geo.levels = levels;
-		frm._geo.map = {};
-
-		// Show only manifest fields
-		const used = new Set(levels.map((l) => l.target_field));
-		for (const f of LEVEL_FIELDS) {
-			if (!frm.fields_dict[f]) continue;
-			frm.toggle_display(f, used.has(f));
-			if (used.has(f)) set_ac_options(frm, f, []);
-		}
-
-		// Populate level 1 options
-		const firstField = levels[0].target_field;
-		const root = await call("geo_extension.geo_extension.locations.get_level_options", {
-			country: frm.doc.country,
-			level_index: 1,
-		});
-		set_ac_options(frm, firstField, root);
+		await geo_clear_levels(frm);
+		geo_setup(frm);
 	},
 
-	async state(frm) {
-		if (frm._geo?.mode === "guided") await next_level(frm, "state");
+	state(frm) {
+		geo_level_changed(frm, "state");
 	},
-	async county(frm) {
-		if (frm._geo?.mode === "guided") await next_level(frm, "county");
+	county(frm) {
+		geo_level_changed(frm, "county");
 	},
-	async city(frm) {
-		if (frm._geo?.mode === "guided") await next_level(frm, "city");
+	city(frm) {
+		geo_level_changed(frm, "city");
+	},
+	address_line2(frm) {
+		geo_level_changed(frm, "address_line2");
 	},
 });
 
-// -------- init helpers (load / refresh) --------
-
 /**
- * Runs on load + refresh.
- * Goal: rebuild autocomplete + visibility WITHOUT clearing stored values.
+ * A different country means a different hierarchy: clear the level values
+ * (and a postal code the app filled in) before rebuilding. Runs with the
+ * previous cascade torn down so the clears do not cascade again.
  */
-async function setup_geo_for_existing_doc(frm) {
-	const country = frm.doc.country;
-
-	// No country selected → just freeform everything.
-	if (!country) {
-		await set_mode_freeform(frm);
-		frm._geo.mode = "freeform";
-		frm._geo.levels = [];
-		return;
+async function geo_clear_levels(frm) {
+	const old = frm._geo && frm._geo.cascade;
+	if (old) {
+		await old.clear_values(); // its levels and an auto-filled postal code
+		old.teardown();
 	}
-
-	let levels = [];
-	try {
-		levels =
-			(await call("geo_extension.geo_extension.locations.get_levels", {
-				country,
-			})) || [];
-	} catch {
-		levels = [];
-	}
-
-	// No manifest → freeform
-	if (!levels.length) {
-		await set_mode_freeform(frm);
-		frm._geo.mode = "freeform";
-		frm._geo.levels = [];
-		return;
-	}
-
-	// Guided mode for this doc
-	frm._geo.mode = "guided";
-	frm._geo.levels = levels;
-	frm._geo.map = {};
-
-	// Show only manifest fields
-	const used = new Set(levels.map((l) => l.target_field));
-	for (const f of LEVEL_FIELDS) {
-		if (!frm.fields_dict[f]) continue;
-		frm.toggle_display(f, used.has(f));
-		if (used.has(f)) {
-			// We'll set real options below per level
-			set_ac_options(frm, f, []);
-		}
-	}
-
-	// Rebuild suggestions chain based on existing values.
-	// This avoids clearing values and avoids visual "jumping".
-	let parent_code = null;
-
-	for (let i = 0; i < levels.length; i++) {
-		const lvl = levels[i];
-		const fieldname = lvl.target_field;
-
-		// if there's no field (customization mismatch), skip
-		if (!frm.fields_dict[fieldname]) continue;
-
-		const args = {
-			country,
-			level_index: i + 1, // API is 1-based
-		};
-
-		if (i > 0) {
-			// for levels beyond 1, we can only fetch filtered options
-			// if we know the parent_code; otherwise stop here.
-			if (!parent_code) {
-				set_ac_options(frm, fieldname, []);
-				break;
-			}
-			args.parent_code = parent_code;
-		}
-
-		const rows = await call("geo_extension.geo_extension.locations.get_level_options", args);
-		set_ac_options(frm, fieldname, rows);
-
-		// Try to align parent_code with current saved value
-		const current_label = frm.doc[fieldname];
-		if (current_label) {
-			const match = (rows || []).find((r) => r.label === current_label);
-			parent_code = match ? match.value : null;
-		} else {
-			parent_code = null;
-		}
+	frm._geo = null;
+	// address_line2 is street-level text in most countries: only cleared above when a cascade used it
+	for (const fieldname of ["state", "county", "city"]) {
+		if (frm.fields_dict[fieldname] && frm.doc[fieldname]) await frm.set_value(fieldname, "");
 	}
 }
 
-// -------- cascading helpers --------
+async function geo_setup(frm) {
+	if (!frappe.geo_extension || !frappe.geo_extension.GeoCascade) return;
 
-async function next_level(frm, changed_field) {
-	const levels = frm._geo.levels || [];
-	const idx = levels.findIndex((l) => l.target_field === changed_field);
-	if (idx === -1) return;
+	if (frm._geo && frm._geo.cascade) frm._geo.cascade.teardown();
 
-	// Clear downstream values/options
-	for (let i = idx + 1; i < levels.length; i++) {
-		const f = levels[i].target_field;
-		if (!frm.fields_dict[f]) continue;
-		frm.set_value(f, "");
-		set_ac_options(frm, f, []);
-	}
-
-	const nxt = levels[idx + 1];
-	if (!nxt) return;
-
-	// Find the code for the chosen label from our per-field map
-	const label = frm.doc[changed_field] || "";
-	const parent_code = lookup_code(frm, changed_field, label);
-	if (!parent_code) return;
-
-	const rows = await call("geo_extension.geo_extension.locations.get_level_options", {
+	const cascade = new frappe.geo_extension.GeoCascade({
 		country: frm.doc.country,
-		level_index: idx + 2, // API is 1-based
-		parent_code,
+		adapter: new frappe.geo_extension.FormAdapter(frm),
 	});
-	set_ac_options(frm, nxt.target_field, rows);
+	frm._geo = { cascade, docname: frm.docname };
+
+	if (frm.doc.country) await cascade.setup();
+	if (frm._geo.cascade !== cascade) return; // superseded by a newer country change
+
+	geo_arrange_fields(frm, cascade.supported ? cascade.level_fields : []);
 }
 
-// -------- mode + utility helpers --------
-
-/** Show all fields and clear suggestions (free typing still allowed). */
-async function set_mode_freeform(frm) {
-	frm._geo = { ...(frm._geo || {}), mode: "freeform", map: {} };
-	for (const f of LEVEL_FIELDS) {
-		if (!frm.fields_dict[f]) continue;
-		frm.toggle_display(f, true);
-		set_ac_options(frm, f, []); // empty autocomplete
-	}
+function geo_level_changed(frm, fieldname) {
+	const cascade = frm._geo && frm._geo.cascade;
+	if (cascade && cascade.handles(fieldname)) cascade.handle_change(fieldname);
 }
 
 /**
- * Clear suggestions for all levels.
- * If clear_values = true → also clear doc fields.
+ * Order the address fields as: address_type, country, address_line1, then the
+ * level fields top-down (unused native fields keep their native order), then pincode.
+ * Fields are only moved when they share the same column; customized layouts are left alone.
  */
-function clear_levels(frm, { clear_values = true } = {}) {
-	if (frm._geo) frm._geo.map = {};
-	for (const f of LEVEL_FIELDS) {
-		if (!frm.fields_dict[f]) continue;
-		if (clear_values) {
-			frm.set_value(f, "");
-		}
-		set_ac_options(frm, f, []);
+function geo_arrange_fields(frm, level_fields) {
+	geo_move_after(frm, "country", "address_type");
+
+	const chain = [];
+	if (!level_fields.includes("address_line2")) chain.push("address_line2");
+	chain.push(...level_fields.filter((f) => GEO_LEVEL_FIELDS.includes(f)));
+	chain.push(...GEO_NATIVE_ORDER.filter((f) => !chain.includes(f)));
+	chain.push("pincode");
+
+	let anchor = "address_line1";
+	for (const fieldname of chain) {
+		if (geo_move_after(frm, fieldname, anchor)) anchor = fieldname;
 	}
 }
 
-/**
- * Feed Autocomplete with LABELS ONLY and cache label->code per field.
- * rows: [{label, value}] from the server.
- */
-function set_ac_options(frm, fieldname, rows) {
-	const ctrl = frm.fields_dict[fieldname];
-	if (!ctrl) return;
-
-	const list = (rows || []).map((r) => r.label);
-	const map = Object.create(null);
-	for (const r of rows || []) map[r.label] = r.value;
-
-	if (!frm._geo) frm._geo = {};
-	if (!frm._geo.map) frm._geo.map = {};
-	frm._geo.map[fieldname] = map;
-
-	if (typeof ctrl.set_data === "function") {
-		ctrl.set_data(list);
-	} else if (ctrl.$input && ctrl.$input[0] && ctrl.$input[0].awesomplete) {
-		ctrl.$input[0].awesomplete.list = list;
-	} else {
-		ctrl.df.options = list;
-		frm.set_df_property(fieldname, "options", list);
-	}
-
-	frm.refresh_field(fieldname);
-}
-
-/** Map label -> code for the given fieldname; fallback to raw label if unknown. */
-function lookup_code(frm, fieldname, label) {
-	const map = frm._geo?.map?.[fieldname] || {};
-	return map[label] || (label || "").trim();
-}
-
-function call(method, args) {
-	return new Promise((resolve, reject) => {
-		frappe.call({
-			method,
-			args,
-			callback: (r) => resolve(r.message || []),
-			error: (e) => reject(e),
-		});
-	});
+function geo_move_after(frm, fieldname, anchor) {
+	const field = frm.fields_dict[fieldname];
+	const target = frm.fields_dict[anchor];
+	if (!field || !target || !field.$wrapper || !target.$wrapper) return false;
+	const $a = field.$wrapper;
+	const $b = target.$wrapper;
+	if (!$a.length || !$b.length || $a.get(0) === $b.get(0)) return false;
+	if ($a.parent().get(0) !== $b.parent().get(0)) return false;
+	if ($b.next().get(0) !== $a.get(0)) $a.insertAfter($b);
+	return true;
 }

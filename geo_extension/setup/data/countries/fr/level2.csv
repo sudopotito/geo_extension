@@ -1,0 +1,97 @@
+parent_code,code,name,aliases
+11071619,3023423,Côte-d'Or,Cote d'Or
+11071619,3020989,Département du Doubs,Doubs
+11071619,3012051,Département du Jura,Jura
+11071619,3013737,Haute-Saône,
+11071619,2990371,Nièvre,
+11071619,2976082,Saône-et-Loire,
+11071619,3033789,Territoire de Belfort,
+11071619,2967222,Yonne,
+11071620,3023532,Corrèze,Département de la Corrèze
+11071620,3026646,Département de la Charente,Charente
+11071620,3026644,Département de la Charente-Maritime,Charente-Maritime
+11071620,3022516,Département de la Creuse,Creuse
+11071620,3021042,Département de la Dordogne,Dordogne
+11071620,3015948,Département de la Gironde,Gironde
+11071620,3013719,Département de la Haute-Vienne,Haute-Vienne
+11071620,3007866,Département des Landes,Landes
+11071620,3021501,Deux-Sèvres,Deux Sèvres
+11071620,2997523,Lot-et-Garonne,
+11071620,2984887,Pyrénées-Atlantiques,Département des Basses-Pyrénées
+11071620,2969280,Vienne,
+11071621,2996268,Département de la Manche,Manche
+11071621,2975248,Département de la Seine-Maritime,Seine-Maritime
+11071621,3029094,Département du Calvados,Calvados
+11071621,3019317,Eure,
+11071621,2989247,Orne,
+11071622,3036420,Aube,
+11071622,3013757,Département de la Haute-Marne,Haute-Marne
+11071622,2994106,Département de la Meuse,Meuse
+11071622,2994111,Département de Meurthe-et-Moselle,Meurthe et Moselle|Meurthe-et-Moselle
+11071622,3037136,Département des Ardennes,Ardennes
+11071622,2967681,Département des Vosges,Vosges
+11071622,3034720,Département du Bas-Rhin,Bas-Rhin
+11071622,3013663,Département du Haut-Rhin,Haut-Rhin
+11071622,2995603,Marne,
+11071622,2991627,Moselle,Département de la Moselle
+11071623,3036965,Ariège,
+11071623,3036264,Aude,
+11071623,3035691,Aveyron,
+11071623,3016670,Département du Gard,Gard
+11071623,2973362,Département du Tarn,Tarn
+11071623,3016194,Gers,
+11071623,3013767,Haute-Garonne,Upper Garonne|Département de la Haute-Garonne
+11071623,3013726,Hautes-Pyrénées,
+11071623,3013500,Hérault,
+11071623,2997524,Lot,
+11071623,2997288,Lozère,
+11071623,2984885,Pyrénées-Orientales,
+11071623,2973357,Tarn-et-Garonne,
+11071624,3038375,Aisne,
+11071624,2974304,Département de la Somme,Somme
+11071624,2990129,Département du Nord,Nord
+11071624,2988430,Département du Pas-de-Calais,Pas-de-Calais
+11071624,2989663,Oise,
+11071625,3038422,Ain,
+11071625,3038111,Allier,
+11071625,3037147,Ardèche,Département de l'Ardèche
+11071625,3013760,Département de la Haute-Loire,Haute-Loire
+11071625,2997870,Département de la Loire,Loire
+11071625,3028791,Département du Cantal,Cantal
+11071625,2987410,Département du Rhône,Rhône|Nouveau-Rhône
+11071625,3020781,Drôme,
+11071625,3013736,Haute-Savoie,Département de la Haute-Vienne
+11071625,3012715,Isère,
+11071625,2984986,Puy-de-Dôme,
+11071625,2975517,Savoie,
+2985244,3031359,Bouches-du-Rhône,
+2985244,3038050,Département des Alpes-de-Haute-Provence,Alpes-de-Haute-Provence
+2985244,3038049,Département des Alpes-Maritimes,Alpes-Maritimes
+2985244,3013738,Département des Hautes-Alpes,Hautes-Alpes
+2985244,2970749,Département du Var,Var
+2985244,2970554,Vaucluse,Département du Vaucluse
+2988289,2997861,Département de la Loire-Atlantique,Loire-Atlantique
+2988289,2994932,Département de la Mayenne,Mayenne
+2988289,2975926,Département de la Sarthe,Sarthe
+2988289,2996663,Maine-et-Loire,Mayenne-et-Loire|Département du Maine-et-Loire
+2988289,2970140,Vendée,
+3012874,3019599,Département de l'Essonne,Essonne
+3012874,2968815,Département de Paris,Paris
+3012874,2975249,Département de Seine-et-Marne,Seine-et-Marne
+3012874,2975246,Département de Seine-Saint-Denis,Seine-Saint-Denis|Seine st denis|Département de la Seine-Saint-Denis
+3012874,3013657,Département des Hauts-de-Seine,Hauts-de-Seine
+3012874,2967196,Département des Yvelines,Yvelines
+3012874,2971071,Département du Val-d'Oise,Val d'Oise|Val-d'Oise|Val-d’Oise
+3012874,2971090,Département du Val-de-Marne,Val-de-Marne
+3023519,3023514,Département de la Corse-du-Sud,South Corsica|Corse-du-Sud
+3023519,3013793,Département de la Haute-Corse,Upper Corsica|Haute-Corse
+3027939,3012804,Département d'Indre-et-Loire,Indre-et-Loire
+3027939,3025480,Département du Cher,Cher
+3027939,2997857,Département du Loiret,Loiret
+3027939,3019316,Eure-et-Loir,Département d'Eure-et-Loir
+3027939,3012805,Indre,
+3027939,2997856,Loir-et-Cher,Loire-et-Cher
+3030293,3023414,Côtes-d'Armor,Côtes-d’Armor
+3030293,3012849,Département d'Ille-et-Vilaine,Ille-et-Vilaine
+3030293,2991879,Département du Morbihan,Morbihan
+3030293,3018471,Finistère,

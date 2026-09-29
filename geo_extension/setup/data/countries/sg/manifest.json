@@ -1,0 +1,18 @@
+{
+  "country_code": "sg",
+  "name": "Singapore",
+  "description": "Singapore: 55 URA Master Plan 2025 planning areas. Codes are URA planning-area codes.",
+  "version": "2026.09.29",
+  "source": "Urban Redevelopment Authority via data.gov.sg - Master Plan 2025 Planning Area Boundary (No Sea)",
+  "source_url": "https://data.gov.sg/datasets/d_2cc750190544007400b2cfd5d7f53209/view",
+  "license": "Singapore Open Data Licence v1.0 (https://data.gov.sg/open-data-licence)",
+  "author": "geo_extension maintainers (generated with tools/datagovsg/build_dataset.py)",
+  "updated": "2026-09-29",
+  "levels": [
+    {
+      "file": "level1.csv",
+      "label": "Planning Area",
+      "target_field": "city"
+    }
+  ]
+}

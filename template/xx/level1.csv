@@ -1,5 +1,4 @@
-code,name
-ILO,Iloilo Province
-CEB,Cebu Province
-BTG,Batangas Province
-NCR,Metro Manila
+code,name,aliases
+NR,Northern Region,North
+CR,Central Region,
+SR,Southern Region,South
