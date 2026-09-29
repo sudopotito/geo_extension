@@ -1,11 +1,13 @@
 {
   "country_code": "in",
   "name": "India",
-  "description": "India: states and union territories with their districts/cities. Codes are internal, not official.",
-  "version": "1.0.0",
-  "source": "",
-  "license": "",
-  "author": "sudo potito <sudopotito@gmail.com> | https://github.com/sudopotito/geo_extension",
+  "description": "India: State/Union Territory > District > City/Town from GeoNames (36, 763, 6,941 records). Populated places with population >= 500 plus administrative seats.",
+  "version": "2026.09.29",
+  "source": "https://www.geonames.org/ (GeoNames gazetteer and postal code dumps)",
+  "source_url": "https://download.geonames.org/export/dump/IN.zip",
+  "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/) - data (c) GeoNames.org",
+  "author": "geo_extension maintainers (generated with tools/geonames/build_dataset.py)",
+  "updated": "2026-09-29",
   "levels": [
     {
       "file": "level1.csv",
@@ -14,8 +16,17 @@
     },
     {
       "file": "level2.csv",
-      "label": "District/City",
+      "label": "District",
+      "target_field": "county"
+    },
+    {
+      "file": "level3.csv",
+      "label": "City/Town",
       "target_field": "city"
     }
-  ]
+  ],
+  "postal_codes": {
+    "file": "postal_codes.csv",
+    "pattern": "^[0-9]{6}$"
+  }
 }

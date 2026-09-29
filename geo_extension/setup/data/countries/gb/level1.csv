@@ -1,131 +1,186 @@
-code,name
-ENG01,Bedfordshire
-ENG02,Berkshire
-ENG03,Bristol
-ENG04,Buckinghamshire
-ENG05,Cambridgeshire
-ENG06,Cheshire
-ENG07,Cornwall
-ENG08,Cumbria
-ENG09,Derbyshire
-ENG10,Devon
-ENG11,Dorset
-ENG12,Durham
-ENG13,East Riding of Yorkshire
-ENG14,East Sussex
-ENG15,Essex
-ENG16,Gloucestershire
-ENG17,Greater London
-ENG18,Greater Manchester
-ENG19,Hampshire
-ENG20,Herefordshire
-ENG21,Hertfordshire
-ENG22,Isle of Wight
-ENG23,Kent
-ENG24,Lancashire
-ENG25,Leicestershire
-ENG47,Lincolnshire
-ENG26,Merseyside
-ENG27,Norfolk
-ENG28,North Yorkshire
-ENG29,Northamptonshire
-ENG30,Northumberland
-ENG31,Nottinghamshire
-ENG32,Oxfordshire
-ENG33,Rutland
-ENG34,Shropshire
-ENG35,Somerset
-ENG36,South Yorkshire
-ENG37,Staffordshire
-ENG38,Suffolk
-ENG39,Surrey
-ENG40,Tyne and Wear
-ENG41,Warwickshire
-ENG42,West Midlands
-ENG43,West Sussex
-ENG44,West Yorkshire
-ENG45,Wiltshire
-ENG46,Worcestershire
-SCT01,Aberdeenshire
-SCT02,Angus
-SCT03,Argyll and Bute
-SCT04,Ayrshire
-SCT05,Banffshire
-SCT06,Berwickshire
-SCT07,Caithness
-SCT08,Clackmannanshire
-SCT09,Dumfries and Galloway
-SCT10,Dundee
-SCT11,East Ayrshire
-SCT12,East Dunbartonshire
-SCT13,East Lothian
-SCT14,East Renfrewshire
-SCT15,Edinburgh
-SCT16,Falkirk
-SCT17,Fife
-SCT18,Glasgow
-SCT19,Highland
-SCT20,Inverclyde
-SCT21,Midlothian
-SCT22,Moray
-SCT23,Na h-Eileanan Siar
-SCT24,North Ayrshire
-SCT25,North Lanarkshire
-SCT26,Orkney Islands
-SCT27,Perth and Kinross
-SCT28,Renfrewshire
-SCT29,Scottish Borders
-SCT30,Shetland Islands
-SCT31,South Ayrshire
-SCT32,South Lanarkshire
-SCT33,Stirling
-SCT34,West Dunbartonshire
-SCT35,West Lothian
-WAL01,Blaenau Gwent
-WAL02,Bridgend
-WAL03,Caerphilly
-WAL04,Cardiff
-WAL05,Carmarthenshire
-WAL06,Ceredigion
-WAL07,Conwy
-WAL08,Denbighshire
-WAL09,Flintshire
-WAL10,Gwynedd
-WAL11,Isle of Anglesey
-WAL12,Merthyr Tydfil
-WAL13,Monmouthshire
-WAL14,Neath Port Talbot
-WAL15,Newport
-WAL16,Pembrokeshire
-WAL17,Powys
-WAL18,Rhondda Cynon Taf
-WAL19,Swansea
-WAL20,Torfaen
-WAL21,Vale of Glamorgan
-WAL22,Wrexham
-NIR01,Antrim
-NIR02,Ards
-NIR03,Armagh
-NIR04,Ballymena
-NIR05,Ballymoney
-NIR06,Banbridge
-NIR07,Belfast
-NIR08,Carrickfergus
-NIR09,Castlereagh
-NIR10,Coleraine
-NIR11,Cookstown
-NIR12,Craigavon
-NIR13,Derry
-NIR14,Down
-NIR15,Dungannon
-NIR16,Fermanagh
-NIR17,Larne
-NIR18,Limavady
-NIR19,Lisburn
-NIR20,Magherafelt
-NIR21,Moyle
-NIR22,Newry and Mourne
-NIR23,Newtownabbey
-NIR24,North Down
-NIR25,Omagh
-NIR26,Strabane
+code,name,aliases
+3333224,Aberdeen City,
+2657830,Aberdeenshire,
+2657311,Anglesey,
+2657306,Angus,
+11353069,Antrim and Newtownabbey,
+11353074,Ards and North Down,
+6457407,Argyll and Bute,
+11353076,Armagh City Banbridge and Craigavon,
+3333122,Barnsley,
+3333123,Bath and North East Somerset,
+7290534,Bedford,
+3333126,Blackburn with Darwen,
+3333127,Blackpool,
+3333238,Blaenau Gwent,
+3333128,Borough of Bolton,
+3333136,Borough of Bury,
+2647601,Borough of Halton,
+3333179,Borough of Oldham,
+3333188,Borough of Rochdale,
+3333202,Borough of Stockport,
+3333207,Borough of Swindon,
+3333208,Borough of Tameside,
+2635885,Borough of Thurrock,
+3333210,Borough of Torbay,
+3333219,Borough of Wigan,
+12165737,"Bournemouth, Christchurch and Poole Council",
+3333130,Bracknell Forest,
+3333131,Bradford,
+3333239,Bridgend county borough,
+3333133,Brighton and Hove,
+2654408,Buckinghamshire,
+3333240,Caerphilly County Borough,
+3333137,Calderdale,
+2653940,Cambridgeshire,
+3333241,Cardiff,
+2653753,Carmarthenshire,
+11353070,Causeway Coast and Glens,
+7290535,Central Bedfordshire,
+7290536,Cheshire East,
+7290537,Cheshire West and Chester,
+3333125,City and Borough of Birmingham,
+3333164,City and Borough of Leeds,
+3333190,City and Borough of Salford,
+3333212,City and Borough of Wakefield,
+3333248,City and County of Swansea,
+3333223,City of Belfast,
+3333134,City of Bristol,
+3333229,City of Edinburgh,
+3333159,City of Kingston upon Hull,
+3333165,City of Leicester,
+2633351,City of York,
+2652975,Clackmannanshire,
+3333242,Conwy,
+2652355,Cornwall,
+2650629,County Durham,
+2653814,County of Ceredigion,
+2649298,County of Flintshire,
+3333139,Coventry,
+2651712,Cumbria,
+3333141,Darlington,
+2651385,Denbighshire,
+3333142,Derby,
+2651346,Derbyshire,
+11353073,Derry City and Strabane,
+2651292,Devon,
+2638918,District of Rutland,
+3333143,Doncaster,
+2651079,Dorset,
+3333144,Dudley,
+2650797,Dumfries and Galloway,
+3333225,Dundee City,
+3333226,East Ayrshire,
+3333227,East Dunbartonshire,
+2650386,East Lothian,
+3333228,East Renfrewshire,
+2650345,East Riding of Yorkshire,
+2650328,East Sussex,
+2634428,Eilean Siar,
+2649889,Essex,
+3333230,Falkirk,
+11353071,Fermanagh and Omagh,
+2649469,Fife,
+2648772,Gateshead,
+3333231,Glasgow City,
+2648402,Gloucestershire,
+2648110,Greater London,
+2647716,Gwynedd,
+2647554,Hampshire,
+3333152,Hartlepool,
+2647071,Herefordshire,
+2647043,Hertfordshire,
+2646944,Highland,
+2646127,Inverclyde,
+2646007,Isle of Wight,
+2638384,Isles of Scilly,
+3333158,Kent,
+3333161,Kirklees,
+3333162,Knowsley,
+2644974,Lancashire,
+2644667,Leicestershire,
+2644486,Lincolnshire,
+11353072,Lisburn and Castlereagh,
+3333167,Liverpool,
+3333168,Luton,
+3333169,Manchester,
+3333170,Medway,
+3333243,Merthyr Tydfil County Borough,
+3333220,Metropolitan Borough of Wirral,
+11353078,Mid and East Antrim,
+11353068,Mid Ulster,
+3333172,Middlesbrough,
+2642559,Midlothian,
+3333173,Milton Keynes,
+3333244,Monmouthshire,
+2642240,Moray,
+3333245,Neath Port Talbot,
+3333174,Newcastle upon Tyne,
+3333246,Newport,
+11353077,Newry Mourne and Down,
+2641455,Norfolk,
+3333232,North Ayrshire,
+3333175,North East Lincolnshire,
+3333233,North Lanarkshire,
+3333176,North Lincolnshire,
+13192429,North Northamptonshire,
+3333177,North Somerset,
+2641238,North Tyneside,
+2641209,North Yorkshire,
+2641235,Northumberland,
+3333178,Nottingham,
+2641169,Nottinghamshire,
+2640923,Orkney Islands,
+2640726,Oxfordshire,
+2640500,Pembrokeshire,
+3333234,Perth and Kinross,
+3333180,Peterborough,
+3333181,Plymouth,
+3333183,Portsmouth,
+3333184,Reading,
+3333186,Redcar and Cleveland,
+2639494,Renfrewshire,
+3333247,Rhondda Cynon Taf,
+3333189,Rotherham,
+2633840,Royal Borough of Windsor and Maidenhead,
+3333191,Sandwell,
+3333192,Sefton,
+3333193,Sheffield,
+2638010,Shetland Islands,
+2638655,Shropshire,
+2639944,Sir Powys,
+3333194,Slough,
+3333195,Solihull,
+2637532,Somerset,
+3333235,South Ayrshire,
+3333198,South Gloucestershire,
+3333236,South Lanarkshire,
+3333199,South Tyneside,
+3333196,Southampton,
+3333197,Southend-on-Sea,
+3333201,St. Helens,
+2637141,Staffordshire,
+2636909,Stirling,
+3333203,Stockton-on-Tees,
+3333204,Stoke-on-Trent,
+2636561,Suffolk,
+3333205,Sunderland,
+2636512,Surrey,
+3333209,Telford and Wrekin,
+2655192,The Scottish Borders,
+3333249,Torfaen County Borough,
+3333211,Trafford,
+2635028,Vale of Glamorgan,
+3333213,Walsall,
+3333216,Warrington,
+2634723,Warwickshire,
+3333217,West Berkshire,
+3333237,West Dunbartonshire,
+2634354,West Lothian,
+13192427,West Northamptonshire,
+2634258,West Sussex,
+2633868,Wiltshire,
+3333221,Wokingham,
+3333222,Wolverhampton,
+2633560,Worcestershire,
+2633484,Wrexham,

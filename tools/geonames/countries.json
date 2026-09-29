@@ -1,0 +1,138 @@
+{
+  "us": {
+    "name": "United States",
+    "levels": [
+      {
+        "source": "ADM1",
+        "label": "State",
+        "target_field": "state"
+      },
+      {
+        "source": "ADM2",
+        "label": "County",
+        "target_field": "county"
+      },
+      {
+        "source": "P",
+        "label": "City",
+        "target_field": "city"
+      }
+    ],
+    "places": {
+      "min_population": 500
+    },
+    "postal_codes": {
+      "enabled": true,
+      "pattern": "^[0-9]{5}$",
+      "attach_to": [
+        "P",
+        "ADM2"
+      ]
+    }
+  },
+  "gb": {
+    "name": "United Kingdom",
+    "levels": [
+      {
+        "source": "ADM2",
+        "label": "County/Region",
+        "target_field": "county"
+      },
+      {
+        "source": "P",
+        "label": "City/Town",
+        "target_field": "city"
+      }
+    ],
+    "places": {
+      "min_population": 500
+    },
+    "postal_codes": {
+      "enabled": false
+    }
+  },
+  "de": {
+    "name": "Germany",
+    "levels": [
+      {
+        "source": "ADM1",
+        "label": "Bundesland",
+        "target_field": "state"
+      },
+      {
+        "source": "ADM3",
+        "label": "Landkreis/Kreisfreie Stadt",
+        "target_field": "county"
+      },
+      {
+        "source": "P",
+        "label": "City/Town",
+        "target_field": "city"
+      }
+    ],
+    "places": {
+      "min_population": 500
+    },
+    "postal_codes": {
+      "enabled": true,
+      "pattern": "^[0-9]{5}$",
+      "attach_to": [
+        "P",
+        "ADM3"
+      ]
+    }
+  },
+  "id": {
+    "name": "Indonesia",
+    "levels": [
+      {
+        "source": "ADM1",
+        "label": "Province",
+        "target_field": "state"
+      },
+      {
+        "source": "ADM2",
+        "label": "City/Regency",
+        "target_field": "city"
+      }
+    ],
+    "postal_codes": {
+      "enabled": true,
+      "pattern": "^[0-9]{5}$",
+      "attach_to": [
+        "ADM2"
+      ]
+    }
+  },
+  "in": {
+    "name": "India",
+    "levels": [
+      {
+        "source": "ADM1",
+        "label": "State/Union Territory",
+        "target_field": "state"
+      },
+      {
+        "source": "ADM2",
+        "label": "District",
+        "target_field": "county"
+      },
+      {
+        "source": "P",
+        "label": "City/Town",
+        "target_field": "city"
+      }
+    ],
+    "places": {
+      "min_population": 500
+    },
+    "postal_codes": {
+      "enabled": true,
+      "pattern": "^[0-9]{6}$",
+      "attach_to": [
+        "P",
+        "ADM2"
+      ]
+    }
+  }
+}

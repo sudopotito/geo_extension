@@ -67,27 +67,36 @@
 		get_hierarchy(country) {
 			if (!country) return Promise.resolve({ supported: false, levels: [] });
 			return cached(`h:${country}`, () =>
-				call(METHODS.hierarchy, { country }).then((r) => r || { supported: false, levels: [] })
+				call(METHODS.hierarchy, { country }).then(
+					(r) => r || { supported: false, levels: [] }
+				)
 			);
 		},
 		get_options(country, level, parent, txt) {
 			if (!country || (level > 1 && !parent)) return Promise.resolve([]);
 			const key = `o:${country}:${level}:${parent || ""}:${txt || ""}`;
 			return cached(key, () =>
-				call(METHODS.options, { country, level, parent: parent || null, txt: txt || null }).then(
-					(r) => r || []
-				)
+				call(METHODS.options, {
+					country,
+					level,
+					parent: parent || null,
+					txt: txt || null,
+				}).then((r) => r || [])
 			);
 		},
 		get_postal_codes(country, level, code) {
 			if (!country || !code) return Promise.resolve({ codes: [], level: null });
 			return cached(`p:${country}:${level}:${code}`, () =>
-				call(METHODS.postal, { country, level, code }).then((r) => r || { codes: [], level: null })
+				call(METHODS.postal, { country, level, code }).then(
+					(r) => r || { codes: [], level: null }
+				)
 			);
 		},
 		resolve(country, names) {
 			if (!country || !(names || []).some(Boolean)) return Promise.resolve([]);
-			return call(METHODS.resolve, { country, names: JSON.stringify(names) }).then((r) => r || []);
+			return call(METHODS.resolve, { country, names: JSON.stringify(names) }).then(
+				(r) => r || []
+			);
 		},
 		clear_cache() {
 			cache.clear();
@@ -110,7 +119,12 @@
 	function find_option(options, label) {
 		const key = normalize(label);
 		if (!key) return null;
-		return (options || []).find((o) => normalize(o.label) === key) || null;
+		const list = options || [];
+		return (
+			list.find((o) => normalize(o.label) === key) ||
+			list.find((o) => (o.aliases || []).some((a) => normalize(a) === key)) ||
+			null
+		);
 	}
 
 	async function refresh_list(input) {
@@ -299,7 +313,9 @@
 			}
 
 			this.supported = true;
-			this.levels = (hierarchy.levels || []).filter((l) => this.adapter.has_field(l.target_field));
+			this.levels = (hierarchy.levels || []).filter((l) =>
+				this.adapter.has_field(l.target_field)
+			);
 			this.postal = hierarchy.postal_codes || { available: false };
 			this.codes = this.levels.map(() => null);
 
@@ -308,7 +324,10 @@
 				this.adapter.attach_suggestions(lvl.target_field, () => this.options_for(i));
 			});
 			if (this.postal.available && this.adapter.has_field(this.postal_field)) {
-				this.adapter.attach_suggestions(this.postal_field, async () => this.postal_options);
+				this.adapter.attach_suggestions(
+					this.postal_field,
+					async () => this.postal_options
+				);
 			}
 
 			await this.resolve_existing();
@@ -317,7 +336,9 @@
 
 		/** Map values already in the fields to stable codes (no values are changed). */
 		async resolve_existing() {
-			const names = this.levels.map((l) => (this.adapter.get_value(l.target_field) || "").trim());
+			const names = this.levels.map((l) =>
+				(this.adapter.get_value(l.target_field) || "").trim()
+			);
 			this.codes = this.levels.map(() => null);
 			if (!names.some(Boolean)) return;
 			let chain = [];
@@ -327,7 +348,8 @@
 				chain = [];
 			}
 			chain.forEach((unit, i) => {
-				if (this.levels[i] && unit.level === this.levels[i].level) this.codes[i] = unit.value;
+				if (this.levels[i] && unit.level === this.levels[i].level)
+					this.codes[i] = unit.value;
 			});
 			await this.refresh_postal({ apply: false });
 		}
@@ -378,7 +400,12 @@
 
 			this.codes[i] = code;
 			const deliberate = !value || (code && code !== previous);
-			if (deliberate) await this.clear_below(i);
+			if (deliberate) {
+				await this.clear_below(i);
+			} else if (code !== previous) {
+				// parent is now free text: lower values stay, but they no longer identify units
+				for (let j = i + 1; j < this.codes.length; j++) this.codes[j] = null;
+			}
 			if (code && i + 1 < this.levels.length) this.options_for(i + 1).catch(() => {});
 			if (code !== previous) await this.refresh_postal({ apply: true });
 		}
@@ -408,12 +435,21 @@
 		 * - none: leave the field alone (an earlier auto-filled value is retracted)
 		 */
 		async refresh_postal({ apply }) {
-			if (!this.postal || !this.postal.available || !this.adapter.has_field(this.postal_field)) return;
+			if (
+				!this.postal ||
+				!this.postal.available ||
+				!this.adapter.has_field(this.postal_field)
+			)
+				return;
 			const i = this.deepest_selected();
 			let codes = [];
 			if (i >= 0) {
 				try {
-					const r = await client.get_postal_codes(this.country, this.levels[i].level, this.codes[i]);
+					const r = await client.get_postal_codes(
+						this.country,
+						this.levels[i].level,
+						this.codes[i]
+					);
 					codes = (r && r.codes) || [];
 				} catch (e) {
 					codes = [];
@@ -451,10 +487,12 @@
 			this._suspended++;
 			try {
 				for (const lvl of this.levels) {
-					if (this.adapter.get_value(lvl.target_field)) await this.adapter.set_value(lvl.target_field, "");
+					if (this.adapter.get_value(lvl.target_field))
+						await this.adapter.set_value(lvl.target_field, "");
 				}
 				const current = (this.adapter.get_value(this.postal_field) || "").trim();
-				if (current && current === this.auto_postal) await this.adapter.set_value(this.postal_field, "");
+				if (current && current === this.auto_postal)
+					await this.adapter.set_value(this.postal_field, "");
 			} finally {
 				this._suspended--;
 			}
@@ -470,7 +508,8 @@
 				this.adapter.restore_label(lvl.target_field);
 				this.adapter.detach_suggestions(lvl.target_field);
 			}
-			if (this.adapter.has_field(this.postal_field)) this.adapter.detach_suggestions(this.postal_field);
+			if (this.adapter.has_field(this.postal_field))
+				this.adapter.detach_suggestions(this.postal_field);
 			this.supported = false;
 			this.levels = [];
 			this.codes = [];

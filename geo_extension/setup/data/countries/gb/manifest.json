@@ -1,11 +1,13 @@
 {
   "country_code": "gb",
   "name": "United Kingdom",
-  "description": "United Kingdom: counties/regions and major cities and towns. Partial coverage (major cities only); codes are internal, not official.",
-  "version": "1.0.0",
-  "source": "https://www.ons.gov.uk",
-  "license": "",
-  "author": "CLU Assistant <clu@sudopotito.com>",
+  "description": "United Kingdom: County/Region > City/Town from GeoNames (185, 5,707 records). Populated places with population >= 500 plus administrative seats.",
+  "version": "2026.09.29",
+  "source": "https://www.geonames.org/ (GeoNames gazetteer and postal code dumps)",
+  "source_url": "https://download.geonames.org/export/dump/GB.zip",
+  "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/) - data (c) GeoNames.org",
+  "author": "geo_extension maintainers (generated with tools/geonames/build_dataset.py)",
+  "updated": "2026-09-29",
   "levels": [
     {
       "file": "level1.csv",

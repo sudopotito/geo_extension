@@ -1,38 +1,37 @@
-code,name
-WB,West Bengal
-AP,Andhra Pradesh
-AR,Arunachal Pradesh
-AS,Assam
-BR,Bihar
-CT,Chhattisgarh
-GA,Goa
-GJ,Gujarat
-HR,Haryana
-HP,Himachal Pradesh
-JK,Jammu and Kashmir
-JH,Jharkhand
-KA,Karnataka
-KL,Kerala
-MP,Madhya Pradesh
-MH,Maharashtra
-MN,Manipur
-ML,Meghalaya
-MZ,Mizoram
-NL,Nagaland
-OR,Odisha
-PB,Punjab
-RJ,Rajasthan
-SK,Sikkim
-TN,Tamil Nadu
-TL,Telangana
-TR,Tripura
-UK,Uttarakhand
-UP,Uttar Pradesh
-AN,Andaman and Nicobar Islands
-CH,Chandigarh
-DN,Dadra and Nagar Haveli
-DD,Daman and Diu
-DL,Delhi
-LK,Ladakh
-LD,Lakshadweep
-PY,Pondicherry (Puducherry)
+code,name,aliases
+1278253,Assam,
+12165662,Dadra and Nagar Haveli and Daman and Diu,
+1271157,Goa,
+12096464,Ladakh,
+1264542,Madhya Pradesh,
+1263706,Manipur,
+1263207,Meghālaya,
+1262963,Mizoram,
+1273293,National Capital Territory of Delhi,
+1256312,Sikkim,
+1278629,State of Andhra Pradesh,
+1278341,State of Arunāchal Pradesh,
+1275715,State of Bihar,
+1444364,State of Chhattīsgarh,
+1270770,State of Gujarāt,
+1270260,State of Haryāna,
+1270101,State of Himāchal Pradesh,
+1269320,State of Jammu and Kashmīr,
+1444365,State of Jhārkhand,
+1267701,State of Karnataka,
+1267254,State of Kerala,
+1264418,State of Mahārāshtra,
+1262271,State of Nāgāland,
+1261029,State of Odisha,
+1259223,State of Punjab,
+1258899,State of Rājasthān,
+1255053,State of Tamil Nādu,
+1254788,State of Telangāna,
+1444366,State of Uttarākhand,
+1254169,Tripura,
+1278647,Union Territory of Andaman and Nicobar Islands,
+1274744,Union Territory of Chandigarh,
+1265206,Union Territory of Lakshadweep,
+1259424,Union Territory of Puducherry,
+1253626,Uttar Pradesh,
+1252881,West Bengal,

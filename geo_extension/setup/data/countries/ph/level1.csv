@@ -1,85 +1,85 @@
-code,name
-001,Abra
-002,Agusan del Norte
-003,Agusan del Sur
-004,Aklan
-005,Albay
-006,Antique
-007,Basilan
-008,Bataan
-009,Batanes
-010,Batangas
-011,Benguet
-012,Bohol
-013,Bukidnon
-014,Bulacan
-015,Cagayan
-016,Camarines Norte
-017,Camarines Sur
-018,Camiguin
-019,Capiz
-020,Catanduanes
-021,Cavite
-022,Cebu
-023,Davao del Norte
-024,Davao del Sur
-025,Davao Oriental
-026,Eastern Samar
-027,Ifugao
-028,Ilocos Norte
-029,Ilocos Sur
-030,Iloilo
-031,Isabela
-032,Kalinga
-033,La Union
-034,Laguna
-035,Lanao del Norte
-036,Lanao del Sur
-037,Leyte
-040,Marinduque
-041,Masbate
-042,Misamis Occidental
-043,Misamis Oriental
-044,Mountain Province
-045,Negros Occidental
-046,Negros Oriental
-047,Cotabato
-048,Northern Samar
-049,Nueva Ecija
-050,Nueva Vizcaya
-051,Occidental Mindoro
-052,Oriental Mindoro
-053,Palawan
-054,Pampanga
-055,Pangasinan
-056,Quezon
-057,Quirino
-058,Rizal
-059,Romblon
-060,Samar
-061,Siquijor
-062,Sorsogon
-063,South Cotabato
-064,Southern Leyte
-065,Sultan Kudarat
-066,Sulu
-067,Surigao del Norte
-068,Surigao del Sur
-069,Tarlac
-070,Tawi-Tawi
-071,Zambales
-072,Zamboanga del Norte
-073,Zamboanga del Sur
-077,Aurora
-078,Biliran
-079,Guimaras
-080,Sarangani
-081,Apayao
-082,Davao de Oro
-083,Zamboanga Sibugay
-085,Dinagat Islands
-086,Davao Occidental
-087,Maguindanao del Norte
-088,Maguindanao del Sur
-999,Special Geographic Area
-NCR,Metro Manila
+code,name,aliases
+1400100000,Abra,
+1600200000,Agusan del Norte,
+1600300000,Agusan del Sur,
+0600400000,Aklan,
+0500500000,Albay,
+0600600000,Antique,
+1408100000,Apayao,
+0307700000,Aurora,
+1900700000,Basilan,
+0300800000,Bataan,
+0200900000,Batanes,
+0401000000,Batangas,
+1401100000,Benguet,
+0807800000,Biliran,
+0701200000,Bohol,
+1001300000,Bukidnon,
+0301400000,Bulacan,
+0201500000,Cagayan,
+0501600000,Camarines Norte,
+0501700000,Camarines Sur,
+1001800000,Camiguin,
+0601900000,Capiz,
+0502000000,Catanduanes,
+0402100000,Cavite,
+0702200000,Cebu,
+1204700000,Cotabato,North Cotabato
+1108200000,Davao de Oro,Compostela Valley
+1102300000,Davao del Norte,
+1102400000,Davao del Sur,
+1108600000,Davao Occidental,
+1102500000,Davao Oriental,
+1608500000,Dinagat Islands,
+0802600000,Eastern Samar,
+0607900000,Guimaras,
+1402700000,Ifugao,
+0102800000,Ilocos Norte,
+0102900000,Ilocos Sur,
+0603000000,Iloilo,
+0203100000,Isabela,
+1403200000,Kalinga,
+0103300000,La Union,
+0403400000,Laguna,
+1003500000,Lanao del Norte,
+1903600000,Lanao del Sur,
+0803700000,Leyte,
+1908700000,Maguindanao del Norte,
+1908800000,Maguindanao del Sur,
+1704000000,Marinduque,
+0504100000,Masbate,
+1300000000,Metro Manila,National Capital Region|NCR
+1004200000,Misamis Occidental,
+1004300000,Misamis Oriental,
+1404400000,Mountain Province,
+1804500000,Negros Occidental,
+1804600000,Negros Oriental,
+0804800000,Northern Samar,
+0304900000,Nueva Ecija,
+0205000000,Nueva Vizcaya,
+1705100000,Occidental Mindoro,
+1705200000,Oriental Mindoro,
+1705300000,Palawan,
+0305400000,Pampanga,
+0105500000,Pangasinan,
+0405600000,Quezon,
+0205700000,Quirino,
+0405800000,Rizal,
+1705900000,Romblon,
+0806000000,Samar,Western Samar
+1208000000,Sarangani,
+1806100000,Siquijor,
+0506200000,Sorsogon,
+1206300000,South Cotabato,
+0806400000,Southern Leyte,
+1999900000,Special Geographic Area,SGA|Bangsamoro Special Geographic Area
+1206500000,Sultan Kudarat,
+0906600000,Sulu,
+1606700000,Surigao del Norte,
+1606800000,Surigao del Sur,
+0306900000,Tarlac,
+1907000000,Tawi-Tawi,
+0307100000,Zambales,
+0907200000,Zamboanga del Norte,
+0907300000,Zamboanga del Sur,
+0908300000,Zamboanga Sibugay,

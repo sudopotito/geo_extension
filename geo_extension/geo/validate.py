@@ -19,7 +19,7 @@ import argparse
 import os
 import re
 import sys
-from collections import Counter
+from collections import Counter, defaultdict
 from dataclasses import dataclass, field
 
 from geo_extension.geo import dataset as ds
@@ -29,7 +29,9 @@ WARNING = "warning"
 
 MANIFEST_REQUIRED = ("country_code", "levels")
 MANIFEST_RECOMMENDED = ("name", "description", "version", "source", "license", "author")
-MANIFEST_KNOWN = set(MANIFEST_REQUIRED) | set(MANIFEST_RECOMMENDED) | {"source_url", "updated", "postal_codes"}
+MANIFEST_KNOWN = (
+	set(MANIFEST_REQUIRED) | set(MANIFEST_RECOMMENDED) | {"source_url", "updated", "postal_codes"}
+)
 LEVEL_KNOWN = {"file", "label", "target_field"}
 LEVEL_OBSOLETE = {"parent_level"}
 POSTAL_KNOWN = {"file", "pattern"}
@@ -156,7 +158,9 @@ def _check_manifest(
 			continue
 		for key in entry:
 			if key in LEVEL_OBSOLETE:
-				report.warning(f"level {i}: '{key}' is obsolete (levels always nest in order) and is ignored", mf)
+				report.warning(
+					f"level {i}: '{key}' is obsolete (levels always nest in order) and is ignored", mf
+				)
 			elif key not in LEVEL_KNOWN:
 				report.warning(f"level {i}: unknown property '{key}' is ignored", mf)
 
@@ -176,7 +180,9 @@ def _check_manifest(
 			)
 			valid = False
 		elif target in seen_fields:
-			report.error(f"level {i}: target_field '{target}' already used by level {seen_fields[target]}", mf)
+			report.error(
+				f"level {i}: target_field '{target}' already used by level {seen_fields[target]}", mf
+			)
 			valid = False
 		else:
 			seen_fields[target] = i
@@ -186,13 +192,17 @@ def _check_manifest(
 		else:
 			path = ds.safe_join(report.path, file_name)
 			if path is None:
-				report.error(f"level {i}: file '{file_name}' must be a relative path inside the dataset directory", mf)
+				report.error(
+					f"level {i}: file '{file_name}' must be a relative path inside the dataset directory", mf
+				)
 				valid = False
 			elif not os.path.isfile(path):
 				report.error(f"level {i}: file '{file_name}' does not exist", mf)
 				valid = False
 			elif file_name in seen_files:
-				report.error(f"level {i}: file '{file_name}' already used by level {seen_files[file_name]}", mf)
+				report.error(
+					f"level {i}: file '{file_name}' already used by level {seen_files[file_name]}", mf
+				)
 				valid = False
 			else:
 				seen_files[file_name] = i
@@ -221,7 +231,9 @@ def _check_manifest(
 			else:
 				path = ds.safe_join(report.path, postal_file)
 				if path is None:
-					report.error(f"postal_codes: file '{postal_file}' must be a relative path inside the dataset", mf)
+					report.error(
+						f"postal_codes: file '{postal_file}' must be a relative path inside the dataset", mf
+					)
 					postal_file = None
 				elif not os.path.isfile(path):
 					report.error(f"postal_codes: file '{postal_file}' does not exist", mf)
@@ -257,9 +269,12 @@ def _check_levels(report: Report, levels: list[ds.Level]) -> list[dict[str, str]
 		required = ds.LEVEL1_HEADERS if idx == 0 else ds.LEVELN_HEADERS
 		missing = [h for h in required if h not in headers]
 		if missing:
-			report.error(f"missing required column(s): {', '.join(missing)} (found: {', '.join(headers) or 'none'})", fname)
+			report.error(
+				f"missing required column(s): {', '.join(missing)} (found: {', '.join(headers) or 'none'})",
+				fname,
+			)
 			continue
-		extra = [h for h in headers if h and h not in required]
+		extra = [h for h in headers if h and h not in required and h != ds.ALIASES_COLUMN]
 		if extra:
 			report.warning(f"extra column(s) ignored: {', '.join(extra)}", fname)
 		if not rows:
@@ -268,6 +283,7 @@ def _check_levels(report: Report, levels: list[ds.Level]) -> list[dict[str, str]
 
 		parents = code_maps[idx - 1] if idx > 0 else None
 		name_keys: Counter = Counter()
+		alias_keys: dict[tuple[str, str], list[str]] = defaultdict(list)
 		dup_codes: set[str] = set()
 		orphans = 0
 		for n, row in enumerate(rows, start=2):  # line 1 is the header
@@ -285,7 +301,9 @@ def _check_levels(report: Report, levels: list[ds.Level]) -> list[dict[str, str]
 				report.error(f"missing name for code '{code}'", fname, n)
 				continue
 			if name != raw_name:
-				report.warning(f"name '{raw_name}' contains unusual characters and will be shown as '{name}'", fname, n)
+				report.warning(
+					f"name '{raw_name}' contains unusual characters and will be shown as '{name}'", fname, n
+				)
 			parent = ""
 			if idx > 0:
 				raw_parent = row.get("parent_code", "")
@@ -310,6 +328,16 @@ def _check_levels(report: Report, levels: list[ds.Level]) -> list[dict[str, str]
 				continue
 			codes[code] = parent
 			name_keys[(parent, ds.normalize_name(name))] += 1
+			raw_aliases = row.get(ds.ALIASES_COLUMN, "")
+			if raw_aliases:
+				aliases = ds.parse_aliases(raw_aliases)
+				if not aliases:
+					report.warning(f"aliases for '{name}' are empty after cleaning", fname, n)
+				for alias in aliases:
+					if ds.normalize_name(alias) == ds.normalize_name(name):
+						report.warning(f"alias '{alias}' is the same as the name", fname, n)
+					else:
+						alias_keys[(parent, ds.normalize_name(alias))].append(name)
 
 		if orphans > 10:
 			report.error(f"... {orphans - 10} more row(s) with unknown parent_code", fname)
@@ -317,6 +345,16 @@ def _check_levels(report: Report, levels: list[ds.Level]) -> list[dict[str, str]
 			if count > 1:
 				scope = f" under parent '{parent}'" if parent else ""
 				report.warning(f"name '{key}' appears {count} times{scope}", fname)
+		for (parent, key), owners in alias_keys.items():
+			scope = f" under parent '{parent}'" if parent else ""
+			if (parent, key) in name_keys:
+				report.warning(
+					f"alias '{key}' of '{owners[0]}' is also the name of another unit{scope}", fname
+				)
+			elif len(owners) > 1:
+				report.warning(
+					f"alias '{key}' is used by {len(owners)} units{scope}: {', '.join(owners[:3])}", fname
+				)
 
 		if idx > 0 and parents:
 			used = {p for p in codes.values()}

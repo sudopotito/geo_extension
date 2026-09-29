@@ -1,17 +1,17 @@
-code,name
-BW,Baden-Württemberg
-BY,Bavaria
-BE,Berlin
-BB,Brandenburg
-HB,Bremen
-HH,Hamburg
-HE,Hesse
-MV,Mecklenburg-Vorpommern
-NI,Lower Saxony
-NW,North Rhine-Westphalia
-RP,Rhineland-Palatinate
-SL,Saarland
-SN,Saxony
-ST,Saxony-Anhalt
-SH,Schleswig-Holstein
-TH,Thuringia
+code,name,aliases
+2953481,Baden-Württemberg,Baden-Wuerttemberg
+2951839,Bavaria,
+2945356,Brandenburg,
+2944387,Bremen,
+2911297,Free and Hanseatic City of Hamburg,
+2905330,Hessen,
+2950157,Land Berlin,
+2862926,Lower Saxony,
+2872567,Mecklenburg-Western Pomerania,
+2861876,Nordrhein-Westfalen,
+2847618,Rheinland-Pfalz,
+2842635,Saarland,
+2842566,Saxony,
+2842565,Saxony-Anhalt,
+2838632,Schleswig-Holstein,
+2822542,Thuringia,

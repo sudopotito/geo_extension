@@ -1,35 +1,39 @@
-code,name
-ID11,Aceh
-ID12,North Sumatra
-ID13,West Sumatra
-ID14,Riau
-ID15,Jambi
-ID16,South Sumatra
-ID17,Bengkulu
-ID18,Lampung
-ID19,Bangka Belitung Islands
-ID21,Riau Islands
-ID31,Jakarta
-ID32,West Java
-ID33,Central Java
-ID34,Yogyakarta
-ID35,East Java
-ID36,Banten
-ID51,Bali
-ID52,West Nusa Tenggara
-ID53,East Nusa Tenggara
-ID61,West Kalimantan
-ID62,Central Kalimantan
-ID63,South Kalimantan
-ID64,East Kalimantan
-ID65,North Kalimantan
-ID71,North Sulawesi
-ID72,Central Sulawesi
-ID73,South Sulawesi
-ID74,Southeast Sulawesi
-ID75,Gorontalo
-ID76,West Sulawesi
-ID81,Maluku
-ID82,North Maluku
-ID91,West Papua
-ID94,Papua
+code,name,aliases
+1923045,Banten,
+12503511,Central Papua,
+1621176,Daerah Istimewa Yogyakarta,
+1642907,Daerah Khusus Ibukota Jakarta,
+1633791,East Nusa Tenggara,
+12503512,Highland Papua,
+1642672,Jawa Barat,
+1642668,Jawa Timur,
+1923047,Kepulauan Bangka Belitung,
+1215638,Nanggroe Aceh Darussalam Province,
+8604684,North Kalimantan,
+1958070,North Maluku,
+1213642,North Sumatra,
+1649147,Propinsi Bengkulu,
+1650535,Provinsi Bali,
+1923046,Provinsi Gorontalo,
+1642856,Provinsi Jambi,
+1642669,Provinsi Jawa Tengah,
+1641900,Provinsi Kalimantan Barat,
+1641899,Provinsi Kalimantan Selatan,
+1641898,Provinsi Kalimantan Tengah,
+1641897,Provinsi Kalimantan Timur,
+1996551,Provinsi Kepulauan Riau,
+1638535,Provinsi Lampung,
+1636627,Provinsi Maluku,
+1643012,Provinsi Papua,
+1996549,Provinsi Papua Barat,
+1629652,Provinsi Riau,
+1996550,Provinsi Sulawesi Barat,
+1626232,Provinsi Sulawesi Selatan,
+1626197,Provinsi Sumatera Barat,
+12503513,South Papua,
+12503510,Southwest Papua,
+1626231,Sulawesi Tengah,
+1626230,Sulawesi Tenggara,
+1626229,Sulawesi Utara,
+1626196,Sumatera Selatan,
+1633792,West Nusa Tenggara,

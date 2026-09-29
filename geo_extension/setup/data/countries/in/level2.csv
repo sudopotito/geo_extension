@@ -1,700 +1,764 @@
-parent_code,code,name
-WB,WB-001,Alipurduar
-WB,WB-002,Bankura
-WB,WB-003,Birbhum
-WB,WB-004,Cooch Behar
-WB,WB-005,Dakshin Dinajpur
-WB,WB-006,Darjeeling
-WB,WB-007,Hooghly
-WB,WB-008,Howrah
-WB,WB-009,Jalpaiguri
-WB,WB-010,Jhargram
-WB,WB-011,Kalimpong
-WB,WB-012,Kolkata
-WB,WB-013,Maldah
-WB,WB-014,Murshidabad
-WB,WB-015,Nadia
-WB,WB-016,North 24 Parganas
-WB,WB-017,Paschim Bardhaman
-WB,WB-018,Purba Bardhaman
-WB,WB-019,Paschim Medinipur
-WB,WB-020,Purba Medinipur
-WB,WB-021,Purulia
-WB,WB-022,South 24 Parganas
-WB,WB-023,Uttar Dinajpur
-AP,AP-001,Anantapur
-AP,AP-002,Chittoor
-AP,AP-003,East Godavari
-AP,AP-004,Guntur
-AP,AP-005,Krishna
-AP,AP-006,Kurnool
-AP,AP-007,Prakasam
-AP,AP-008,Srikakulam
-AP,AP-009,Sri Potti Sriramulu Nellore
-AP,AP-010,Visakhapatnam
-AP,AP-011,Vizianagaram
-AP,AP-012,West Godavari
-AP,AP-013,"YSR District, Kadapa"
-AR,AR-001,Anjaw
-AR,AR-002,Changlang
-AR,AR-003,Dibang Valley
-AR,AR-004,East Kameng
-AR,AR-005,East Siang
-AR,AR-006,Kamle
-AR,AR-007,Kra Daadi
-AR,AR-008,Kurung Kumey
-AR,AR-009,Lepa Rada
-AR,AR-010,Lohit
-AR,AR-011,Lower Dibang Valley
-AR,AR-012,Lower Siang
-AR,AR-013,Lower Subansiri
-AR,AR-014,Namsai
-AR,AR-015,Pakke Kessang
-AR,AR-016,Papum Pare
-AR,AR-017,Shi Yomi
-AR,AR-018,Siang
-AR,AR-019,Tawang
-AR,AR-020,Tirap
-AR,AR-021,Upper Siang
-AR,AR-022,Upper Subansiri
-AR,AR-023,West Kameng
-AR,AR-024,West Siang
-AS,AS-001,Baksa
-AS,AS-002,Barpeta
-AS,AS-003,Biswanath
-AS,AS-004,Bongaigaon
-AS,AS-005,Cachar
-AS,AS-006,Charaideo
-AS,AS-007,Chirang
-AS,AS-008,Darrang
-AS,AS-009,Dhemaji
-AS,AS-010,Dhubri
-AS,AS-011,Dibrugarh
-AS,AS-012,"Dima Hasao (North Cachar Hills)"
-AS,AS-013,Goalpara
-AS,AS-014,Golaghat
-AS,AS-015,Hailakandi
-AS,AS-016,Hojai
-AS,AS-017,Jorhat
-AS,AS-018,Kamrup
-AS,AS-019,Kamrup Metropolitan
-AS,AS-020,Karbi Anglong
-AS,AS-021,Karimganj
-AS,AS-022,Kokrajhar
-AS,AS-023,Lakhimpur
-AS,AS-024,Majuli
-AS,AS-025,Morigaon
-AS,AS-026,Nagaon
-AS,AS-027,Nalbari
-AS,AS-028,Sivasagar
-AS,AS-029,Sonitpur
-AS,AS-030,South Salamara-Mankachar
-AS,AS-031,Tinsukia
-AS,AS-032,Udalguri
-AS,AS-033,West Karbi Anglong
-BR,BR-001,Araria
-BR,BR-002,Arwal
-BR,BR-003,Aurangabad
-BR,BR-004,Banka
-BR,BR-005,Begusarai
-BR,BR-006,Bhagalpur
-BR,BR-007,Bhojpur
-BR,BR-008,Buxar
-BR,BR-009,Darbhanga
-BR,BR-010,"East Champaran (Motihari)"
-BR,BR-011,Gaya
-BR,BR-012,Gopalganj
-BR,BR-013,Jamui
-BR,BR-014,Jehanabad
-BR,BR-015,"Kaimur (Bhabua)"
-BR,BR-016,Katihar
-BR,BR-017,Khagaria
-BR,BR-018,Kishanganj
-BR,BR-019,Lakhisarai
-BR,BR-020,Madhepura
-BR,BR-021,Madhubani
-BR,BR-022,"Munger (Monghyr)"
-BR,BR-023,Muzaffarpur
-BR,BR-024,Nalanda
-BR,BR-025,Nawada
-BR,BR-026,Patna
-BR,BR-027,"Purnia (Purnea)"
-BR,BR-028,Rohtas
-BR,BR-029,Saharsa
-BR,BR-030,Samastipur
-BR,BR-031,Saran
-BR,BR-032,Sheikhpura
-BR,BR-033,Sheohar
-BR,BR-034,Sitamarhi
-BR,BR-035,Siwan
-BR,BR-036,Supaul
-BR,BR-037,Vaishali
-BR,BR-038,West Champaran
-CT,CT-001,Chandigarh
-GA,GA-001,North Goa
-GA,GA-002,South Goa
-GJ,GJ-001,Ahmedabad
-GJ,GJ-002,Amreli
-GJ,GJ-003,Anand
-GJ,GJ-004,Aravalli
-GJ,GJ-005,"Banaskantha (Palanpur)"
-GJ,GJ-006,Bharuch
-GJ,GJ-007,Bhavnagar
-GJ,GJ-008,Botad
-GJ,GJ-009,Chhota Udepur
-GJ,GJ-010,Dahod
-GJ,GJ-011,"Dangs (Ahwa)"
-GJ,GJ-012,Devbhoomi Dwarka
-GJ,GJ-013,Gandhinagar
-GJ,GJ-014,Gir Somnath
-GJ,GJ-015,Jamnagar
-GJ,GJ-016,Junagadh
-GJ,GJ-017,Kachchh
-GJ,GJ-018,"Kheda (Nadiad)"
-GJ,GJ-019,Mahisagar
-GJ,GJ-020,Mehsana
-GJ,GJ-021,Morbi
-GJ,GJ-022,"Narmada (Rajpipla)"
-GJ,GJ-023,Navsari
-GJ,GJ-024,"Panchmahal (Godhra)"
-GJ,GJ-025,Patan
-GJ,GJ-026,Porbandar
-GJ,GJ-027,Rajkot
-GJ,GJ-028,"Sabarkantha (Himmatnagar)"
-GJ,GJ-029,Surat
-GJ,GJ-030,Surendranagar
-GJ,GJ-031,"Tapi (Vyara)"
-GJ,GJ-032,Vadodara
-GJ,GJ-033,Valsad
-HR,HR-001,Ambala
-HR,HR-002,Bhiwani
-HR,HR-003,Charkhi Dadri
-HR,HR-004,Faridabad
-HR,HR-005,Fatehabad
-HR,HR-006,"Gurugram (Gurgaon)"
-HR,HR-007,Hisar
-HR,HR-008,Jhajjar
-HR,HR-009,Jind
-HR,HR-010,Kaithal
-HR,HR-011,Karnal
-HR,HR-012,Kurukshetra
-HR,HR-013,Mahendragarh
-HR,HR-014,Nuh
-HR,HR-015,Palwal
-HR,HR-016,Panchkula
-HR,HR-017,Panipat
-HR,HR-018,Rewari
-HR,HR-019,Rohtak
-HR,HR-020,Sirsa
-HR,HR-021,Sonipat
-HR,HR-022,Yamunanagar
-HP,HP-001,Bilaspur
-HP,HP-002,Chamba
-HP,HP-003,Hamirpur
-HP,HP-004,Kangra
-HP,HP-005,Kinnaur
-HP,HP-006,Kullu
-HP,HP-007,Lahaul & Spiti
-HP,HP-008,Mandi
-HP,HP-009,Shimla
-HP,HP-010,"Sirmaur (Sirmour)"
-HP,HP-011,Solan
-HP,HP-012,Una
-JK,JK-001,Anantnag
-JK,JK-002,Bandipore
-JK,JK-003,Baramulla
-JK,JK-004,Budgam
-JK,JK-005,Doda
-JK,JK-006,Ganderbal
-JK,JK-007,Jammu
-JK,JK-008,Kathua
-JK,JK-009,Kishtwar
-JK,JK-010,Kulgam
-JK,JK-011,Kupwara
-JK,JK-012,Poonch
-JK,JK-013,Pulwama
-JK,JK-014,Rajouri
-JK,JK-015,Ramban
-JK,JK-016,Reasi
-JK,JK-017,Samba
-JK,JK-018,Shopian
-JK,JK-019,Srinagar
-JK,JK-020,Udhampur
-JH,JH-001,Bokaro
-JH,JH-002,Chatra
-JH,JH-003,Deoghar
-JH,JH-004,Dhanbad
-JH,JH-005,Dumka
-JH,JH-006,East Singhbhum
-JH,JH-007,Garhwa
-JH,JH-008,Giridih
-JH,JH-009,Godda
-JH,JH-010,Gumla
-JH,JH-011,Hazaribag
-JH,JH-012,Jamtara
-JH,JH-013,Khunti
-JH,JH-014,Koderma
-JH,JH-015,Latehar
-JH,JH-016,Lohardaga
-JH,JH-017,Pakur
-JH,JH-018,Palamu
-JH,JH-019,Ramgarh
-JH,JH-020,Ranchi
-JH,JH-021,Sahibganj
-JH,JH-022,Seraikela-Kharsawan
-JH,JH-023,Simdega
-JH,JH-024,West Singhbhum
-KA,KA-001,Bagalkot
-KA,KA-002,Ballari
-KA,KA-003,Belagavi
-KA,KA-004,Bangalore
-KA,KA-005,Bidar
-KA,KA-006,Chamarajanagar
-KA,KA-007,Chikballapur
-KA,KA-008,Chikkamagaluru
-KA,KA-009,Chitradurga
-KA,KA-010,Dakshina Kannada
-KA,KA-011,Davangere
-KA,KA-012,Dharwad
-KA,KA-013,Gadag
-KA,KA-014,Hassan
-KA,KA-015,Haveri
-KA,KA-016,"Kalaburagi (Gulbarga)"
-KA,KA-017,Kodagu
-KA,KA-018,Kolar
-KA,KA-019,Koppal
-KA,KA-020,Mandya
-KA,KA-021,"Mysuru (Mysore)"
-KA,KA-022,Raichur
-KA,KA-023,Ramanagara
-KA,KA-024,Shivpogga
-KA,KA-025,"Tumakuru (Tumkur)"
-KA,KA-026,Udupi
-KA,KA-027,"Uttara Kannada (Karwar)"
-KA,KA-028,"Vijayapura (Bijapur)"
-KA,KA-029,Yadgir
-KL,KL-001,Alappuzha
-KL,KL-002,Ernakulam
-KL,KL-003,Idukki
-KL,KL-004,Kannur
-KL,KL-005,Kasaragod
-KL,KL-006,Kollam
-KL,KL-007,Kottayam
-KL,KL-008,Kozhikode
-KL,KL-009,Malappuram
-KL,KL-010,Palakkad
-KL,KL-011,Pathanamthitta
-KL,KL-012,Thiruvananthapuram
-KL,KL-013,Thrissur
-KL,KL-014,Wayanad
-MP,MP-001,Agar Malwa
-MP,MP-002,Alirajpur
-MP,MP-003,Anuppur
-MP,MP-004,Ashoknagar
-MP,MP-005,Balaghat
-MP,MP-006,Barwani
-MP,MP-007,Betul
-MP,MP-008,Bhind
-MP,MP-009,Bhopal
-MP,MP-010,Burhanpur
-MP,MP-011,Chhatarpur
-MP,MP-012,Chhindwara
-MP,MP-013,Damoh
-MP,MP-014,Datia
-MP,MP-015,Dewas
-MP,MP-016,Dhar
-MP,MP-017,Dindori
-MP,MP-018,Guna
-MP,MP-019,Gwalior
-MP,MP-020,Harda
-MP,MP-021,Hoshangabad
-MP,MP-022,Indore
-MP,MP-023,Jabalpur
-MP,MP-024,Jhabua
-MP,MP-025,Katni
-MP,MP-026,Khandwa
-MP,MP-027,Khargone
-MP,MP-028,Mandla
-MP,MP-029,Mandsaur
-MP,MP-030,Morena
-MP,MP-031,Narsinghpur
-MP,MP-032,Neemuch
-MP,MP-033,Panna
-MP,MP-034,Raisen
-MP,MP-035,Rajgarh
-MP,MP-036,Ratlam
-MP,MP-037,Rewa
-MP,MP-038,Sagar
-MP,MP-039,Satna
-MP,MP-040,Sehore
-MP,MP-041,Seoni
-MP,MP-042,Shahdol
-MP,MP-043,Shajapur
-MP,MP-044,Sheopur
-MP,MP-045,Shivpuri
-MP,MP-046,Sidhi
-MP,MP-047,Singrauli
-MP,MP-048,Tikamgarh
-MP,MP-049,Ujjain
-MP,MP-050,Umaria
-MP,MP-051,Vidisha
-MH,MH-001,Ahmednagar
-MH,MH-002,Akola
-MH,MH-003,Amravati
-MH,MH-004,Aurangabad
-MH,MH-005,Beed
-MH,MH-006,Bhandara
-MH,MH-007,Buldhana
-MH,MH-008,Chandrapur
-MH,MH-009,Dhule
-MH,MH-010,Gadchiroli
-MH,MH-011,Gondia
-MH,MH-012,Hingoli
-MH,MH-013,Jalgaon
-MH,MH-014,Jalna
-MH,MH-015,Kolhapur
-MH,MH-016,Latur
-MH,MH-017,Mumbai City
-MH,MH-018,Mumbai Suburban
-MH,MH-019,Nagpur
-MH,MH-020,Nanded
-MH,MH-021,Nandurbar
-MH,MH-022,Nashik
-MH,MH-023,Osmanabad
-MH,MH-024,Palghar
-MH,MH-025,Parbhani
-MH,MH-026,Pune
-MH,MH-027,Raigad
-MH,MH-028,Ratnagiri
-MH,MH-029,Sangli
-MH,MH-030,Satara
-MH,MH-031,Sindhudurg
-MH,MH-032,Solapur
-MH,MH-033,Thane
-MH,MH-034,Wardha
-MH,MH-035,Washim
-MH,MH-036,Yavatmal
-MN,MN-001,Bishnupur
-MN,MN-002,Chandel
-MN,MN-003,Churachandpur
-MN,MN-004,Imphal East
-MN,MN-005,Imphal West
-MN,MN-006,Jiribam
-MN,MN-007,Kakching
-MN,MN-008,Kamjong
-MN,MN-009,Kangpokpi
-MN,MN-010,Noney
-MN,MN-011,Pherzawl
-MN,MN-012,Senapati
-MN,MN-013,Tamenglong
-MN,MN-014,Tengnoupal
-MN,MN-015,Thoubal
-MN,MN-016,Ukhrul
-ML,ML-001,East Garo Hills
-ML,ML-002,East Jaintia Hills
-ML,ML-003,East Khasi Hills
-ML,ML-004,North Garo Hills
-ML,ML-005,Ri Bhoi
-ML,ML-006,South Garo Hills
-ML,ML-007,South West Garo Hills
-ML,ML-008,South West Khasi Hills
-ML,ML-009,West Garo Hills
-ML,ML-010,West Jaintia Hills
-ML,ML-011,West Khasi Hills
-MZ,MZ-001,Aizawl
-MZ,MZ-002,Champhai
-MZ,MZ-003,Kolasib
-MZ,MZ-004,Lawngtlai
-MZ,MZ-005,Lunglei
-MZ,MZ-006,Mamit
-MZ,MZ-007,Saiha
-MZ,MZ-008,Serchhip
-NL,NL-001,Dimapur
-NL,NL-002,Kiphire
-NL,NL-003,Kohima
-NL,NL-004,Longleng
-NL,NL-005,Mokokchung
-NL,NL-006,Mon
-NL,NL-007,Peren
-NL,NL-008,Phek
-NL,NL-009,Tuensang
-NL,NL-010,Wokha
-NL,NL-011,Zunheboto
-OR,OR-001,Angul
-OR,OR-002,Balangir
-OR,OR-003,Balasore
-OR,OR-004,Bargarh
-OR,OR-005,Bhadrak
-OR,OR-006,Boudh
-OR,OR-007,Cuttack
-OR,OR-008,Deogarh
-OR,OR-009,Dhenkanal
-OR,OR-010,Gajapati
-OR,OR-011,Ganjam
-OR,OR-012,Jagatsinghapur
-OR,OR-013,Jajpur
-OR,OR-014,Jharsuguda
-OR,OR-015,Kalahandi
-OR,OR-016,Kandhamal
-OR,OR-017,Kendrapara
-OR,OR-018,"Kendujhar (Keonjhar)"
-OR,OR-019,Khordha
-OR,OR-020,Koraput
-OR,OR-021,Malkangiri
-OR,OR-022,Mayurbhanj
-OR,OR-023,Nabarangpur
-OR,OR-024,Nayagarh
-OR,OR-025,Nuapada
-OR,OR-026,Puri
-OR,OR-027,Rayagada
-OR,OR-028,Sambalpur
-OR,OR-029,Sonepur
-OR,OR-030,Sundargarh
-PB,PB-001,Amritsar
-PB,PB-002,Barnala
-PB,PB-003,Bathinda
-PB,PB-004,Faridkot
-PB,PB-005,Fatehgarh Sahib
-PB,PB-006,Fazilka
-PB,PB-007,Ferozepur
-PB,PB-008,Gurdaspur
-PB,PB-009,Hoshiarpur
-PB,PB-010,Jalandhar
-PB,PB-011,Kapurthala
-PB,PB-012,Ludhiana
-PB,PB-013,Mansa
-PB,PB-014,Moga
-PB,PB-015,Muktsar
-PB,PB-016,Nawanshahr
-PB,PB-017,Pathankot
-PB,PB-018,Patiala
-PB,PB-019,Rupnagar
-PB,PB-020,"Sahibzada Ajit Singh Nagar (Mohali)"
-PB,PB-021,Sangrur
-PB,PB-022,Tarn Taran
-RJ,RJ-001,Ajmer
-RJ,RJ-002,Alwar
-RJ,RJ-003,Banswara
-RJ,RJ-004,Baran
-RJ,RJ-005,Barmer
-RJ,RJ-006,Bharatpur
-RJ,RJ-007,Bhilwara
-RJ,RJ-008,Bikaner
-RJ,RJ-009,Bundi
-RJ,RJ-010,Chittorgarh
-RJ,RJ-011,Churu
-RJ,RJ-012,Dausa
-RJ,RJ-013,Dholpur
-RJ,RJ-014,Dungarpur
-RJ,RJ-015,Hanumangarh
-RJ,RJ-016,Jaipur
-RJ,RJ-017,Jaisalmer
-RJ,RJ-018,Jalore
-RJ,RJ-019,Jhalawar
-RJ,RJ-020,Jhunjhunu
-RJ,RJ-021,Jodhpur
-RJ,RJ-022,Karauli
-RJ,RJ-023,Kota
-RJ,RJ-024,Nagaur
-RJ,RJ-025,Pali
-RJ,RJ-026,Pratapgarh
-RJ,RJ-027,Rajsamand
-RJ,RJ-028,"Sawai Madhopur"
-RJ,RJ-029,Sikar
-RJ,RJ-030,Sirohi
-RJ,RJ-031,"Sri Ganganagar"
-RJ,RJ-032,Tonk
-RJ,RJ-033,Udaipur
-SK,SK-001,East Sikkim
-SK,SK-002,North Sikkim
-SK,SK-003,South Sikkim
-SK,SK-004,West Sikkim
-TN,TN-001,Ariyalur
-TN,TN-002,Chengalpattu
-TN,TN-003,Chennai
-TN,TN-004,Coimbatore
-TN,TN-005,Cuddalore
-TN,TN-006,Dharmapuri
-TN,TN-007,Dindigul
-TN,TN-008,Erode
-TN,TN-009,Kallakurichi
-TN,TN-010,Kanchipuram
-TN,TN-011,Kanyakumari
-TN,TN-012,Karur
-TN,TN-013,Krishnagiri
-TN,TN-014,Madurai
-TN,TN-015,Nagapattinam
-TN,TN-016,Namakkal
-TN,TN-017,Nilgiris
-TN,TN-018,Perambalur
-TN,TN-019,Pudukkottai
-TN,TN-020,Ramanathapuram
-TN,TN-021,Ranipet
-TN,TN-022,Salem
-TN,TN-023,Sivaganga
-TN,TN-024,Tenkasi
-TN,TN-025,Thanjavur
-TN,TN-026,Theni
-TN,TN-027,"Thoothukudi (Tuticorin)"
-TN,TN-028,Tiruchirappalli
-TN,TN-029,Tirunelveli
-TN,TN-030,Tirupathur
-TN,TN-031,Tiruppur
-TN,TN-032,Tiruvallur
-TN,TN-033,Tiruvannamalai
-TN,TN-034,Tiruvarur
-TN,TN-035,Vellore
-TN,TN-036,Viluppuram
-TN,TN-037,Virudhunagar
-TL,TL-001,Adilabad
-TL,TL-002,Bhadradri Kothagudem
-TL,TL-003,Hyderabad
-TL,TL-004,Jagtial
-TL,TL-005,Jangaon
-TL,TL-006,Jayashankar Bhoopalpally
-TL,TL-007,Jogulamba Gadwal
-TL,TL-008,Kamareddy
-TL,TL-009,Karimnagar
-TL,TL-010,Khammam
-TL,TL-011,Komaram Bheem Asifabad
-TL,TL-012,Mahabubabad
-TL,TL-013,Mahabubnagar
-TL,TL-014,Mancherial
-TL,TL-015,Medak
-TL,TL-016,Medchal
-TL,TL-017,Nagarkurnool
-TL,TL-018,Nalgonda
-TL,TL-019,Nirmal
-TL,TL-020,Nizamabad
-TL,TL-021,Peddapalli
-TL,TL-022,Rajanna Sircilla
-TL,TL-023,Rangareddy
-TL,TL-024,Sangareddy
-TL,TL-025,Siddipet
-TL,TL-026,Suryapet
-TL,TL-027,Vikarabad
-TL,TL-028,Wanaparthy
-TL,TL-029,"Warangal (Rural)"
-TL,TL-030,"Warangal (Urban)"
-TL,TL-031,Yadadri Bhuvanagiri
-TR,TR-001,Dhalai
-TR,TR-002,Gomati
-TR,TR-003,Khowai
-TR,TR-004,North Tripura
-TR,TR-005,Sepahijala
-TR,TR-006,South Tripura
-TR,TR-007,Unakoti
-TR,TR-008,West Tripura
-UK,UK-001,Almora
-UK,UK-002,Bageshwar
-UK,UK-003,Chamoli
-UK,UK-004,Champawat
-UK,UK-005,Dehradun
-UK,UK-006,Haridwar
-UK,UK-007,Nainital
-UK,UK-008,Pauri Garhwal
-UK,UK-009,Pithoragarh
-UK,UK-010,Rudraprayag
-UK,UK-011,Tehri Garhwal
-UK,UK-012,Udham Singh Nagar
-UK,UK-013,Uttarkashi
-UP,UP-001,Agra
-UP,UP-002,Aligarh
-UP,UP-003,Allahabad
-UP,UP-004,Ambedkar Nagar
-UP,UP-005,"Amethi (Chatrapati Sahuji Mahraj Nagar)"
-UP,UP-006,"Amroha (J.P. Nagar)"
-UP,UP-007,Auraiya
-UP,UP-008,Azamgarh
-UP,UP-009,Baghpat
-UP,UP-010,Bahraich
-UP,UP-011,Ballia
-UP,UP-012,Balrampur
-UP,UP-013,Banda
-UP,UP-014,Barabanki
-UP,UP-015,Bareilly
-UP,UP-016,Basti
-UP,UP-017,Bhadohi
-UP,UP-018,Bijnor
-UP,UP-019,Budaun
-UP,UP-020,Bulandshahr
-UP,UP-021,Chandauli
-UP,UP-022,Chitrakoot
-UP,UP-023,Deoria
-UP,UP-024,Etah
-UP,UP-025,Etawah
-UP,UP-026,Faizabad
-UP,UP-027,Farrukhabad
-UP,UP-028,Fatehpur
-UP,UP-029,Firozabad
-UP,UP-030,Gautam Buddha Nagar
-UP,UP-031,Ghaziabad
-UP,UP-032,Ghazipur
-UP,UP-033,Gonda
-UP,UP-034,Gorakhpur
-UP,UP-035,Hamirpur
-UP,UP-036,"Hapur (Panchsheel Nagar)"
-UP,UP-037,Hardoi
-UP,UP-038,Hathras
-UP,UP-039,Jalaun
-UP,UP-040,Jaunpur
-UP,UP-041,Jhansi
-UP,UP-042,Kannauj
-UP,UP-043,Kanpur Dehat
-UP,UP-044,Kanpur Nagar
-UP,UP-045,"Kanshiram Nagar (Kasganj)"
-UP,UP-046,Kaushambi
-UP,UP-047,"Kushinagar (Padrauna)"
-UP,UP-048,"Lakhimpur - Kheri"
-UP,UP-049,Lalitpur
-UP,UP-050,Lucknow
-UP,UP-051,Maharajganj
-UP,UP-052,Mahoba
-UP,UP-053,Mainpuri
-UP,UP-054,Mathura
-UP,UP-055,Mau
-UP,UP-056,Meerut
-UP,UP-057,Mirzapur
-UP,UP-058,Moradabad
-UP,UP-059,Muzaffarnagar
-UP,UP-060,Pilibhit
-UP,UP-061,Pratapgarh
-UP,UP-062,RaeBareli
-UP,UP-063,Rampur
-UP,UP-064,Saharanpur
-UP,UP-065,"Sambhal (Bhim Nagar)"
-UP,UP-066,"Sant Kabir Nagar"
-UP,UP-067,Shahjahanpur
-UP,UP-068,"Shamali (Prabuddh Nagar)"
-UP,UP-069,Shravasti
-UP,UP-070,"Siddharth Nagar"
-UP,UP-071,Sitapur
-UP,UP-072,Sonbhadra
-UP,UP-073,Sultanpur
-UP,UP-074,Unnao
-UP,UP-075,Varanasi
-AN,AN-001,Nicobar
-AN,AN-002,North and Middle Andaman
-AN,AN-003,South Andaman
-CH,CH-001,Chandigarh
-DN,DN-001,Dadra & Nagar Haveli
-DD,DD-001,Daman
-DD,DD-002,Diu
-DL,DL-001,Central Delhi
-DL,DL-002,East Delhi
-DL,DL-003,New Delhi
-DL,DL-004,North Delhi
-DL,DL-005,North East Delhi
-DL,DL-006,North West Delhi
-DL,DL-007,Shahdara
-DL,DL-008,South Delhi
-DL,DL-009,South East Delhi
-DL,DL-010,South West Delhi
-DL,DL-011,West Delhi
-LK,LK-001,Kargil
-LK,LK-002,Leh
-LD,LD-001,Lakshadweep
-PY,PY-001,Karaikal
-PY,PY-002,Mahe
-PY,PY-003,Puducherry
-PY,PY-004,Yanam
+parent_code,code,name,aliases
+12096464,9748001,Kargil,
+12096464,1265343,Leh,
+12165662,9747961,Dadra & Nagar Haveli,
+12165662,1273616,Daman District,
+12165662,1272504,Diu,
+1252881,11875573,Alipurduar,
+1252881,1277265,Bankura,
+1252881,1275525,Birbhum,
+1252881,1266437,Cooch Behar District,
+1252881,8299687,Dakshin Dinajpur,
+1252881,1273468,Darjeeling,
+1252881,1270397,Hāora,
+1252881,1269911,Hugli,
+1252881,1269389,Jalpāiguri,
+1252881,11875572,Jhargram,
+1252881,11875570,Kalimpong,
+1252881,1275005,Kolkata,
+1252881,1264122,Malda District,
+1252881,7627237,Murshidabad,
+1252881,1262293,Nadia,
+1252881,8335144,North 24 Parganas,
+1252881,11875580,Paschim Bardhaman,
+1252881,8335137,Paschim Medinipur,
+1252881,1277030,Purba Bardhaman,
+1252881,8335139,Purba Medinipur,
+1252881,1259164,Puruliya,
+1252881,8335041,South 24 Parganas,
+1252881,8335142,Uttar Dinajpur,
+1253626,1279262,Āgra,
+1253626,1279020,Alīgarh,
+1253626,7729743,Ambedkar Nagar,
+1253626,11875567,Amethi,
+1253626,9072783,Amroha,
+1253626,7729744,Auraiya,
+1253626,1271977,Ayodhya,
+1253626,1278084,Āzamgarh,
+1253626,9072781,Baghpat,
+1253626,1277800,Bahraich,
+1253626,1277553,Ballia,
+1253626,7729745,Balrampur,
+1253626,1277159,Bāra Banki,
+1253626,1277014,Bareilly,
+1253626,1276737,Basti,
+1253626,7729751,Bhadohi,
+1253626,1275680,Bijnor,
+1253626,1275164,Budaun,
+1253626,1275121,Bulandshahr,
+1253626,9072811,Chandauli District,
+1253626,9072788,Chitrakoot,
+1253626,1273196,Deoria,
+1253626,1277400,District Banda,
+1253626,1271989,District Etawah,
+1253626,1270457,District Hamirpur,
+1253626,1269423,District Jalaun,
+1253626,1259687,District Pilibhit,
+1253626,1259339,District Pratapgarh,
+1253626,1259065,District Raebareli,
+1253626,1258622,District Rampur,
+1253626,1257807,District Saharanpur,
+1253626,1255497,District Sultanpur,
+1253626,1253748,District Unnao,
+1253626,1271993,Etah District,
+1253626,1271920,Fatehpur,
+1253626,1271943,Ferrukhabad,
+1253626,7874389,Firozabad,
+1253626,9072784,Gautam Buddha Nagar,
+1253626,1271310,Ghāziābād,
+1253626,1271307,Ghazipur,
+1253626,1270997,Gonda,
+1253626,1270930,Gorakhpur,
+1253626,11875568,Hapur,
+1253626,1270371,Hardoi,
+1253626,9747974,Hathras,
+1253626,1269136,Jaunpur,
+1253626,1269007,Jhānsi,
+1253626,7902634,Kannauj,
+1253626,1267997,Kānpur,
+1253626,7729747,Kanpur Dehat,
+1253626,9747992,Kasganj,
+1253626,9072745,Kaushambi District,
+1253626,1266768,Kheri,
+1253626,7626229,Kushinagar,
+1253626,1265158,Lalitpur,
+1253626,1264734,Lucknow District,
+1253626,7729749,Maharajganj,
+1253626,9072787,Mahoba,
+1253626,1264293,Mainpuri,
+1253626,1263366,Mathura,
+1253626,7729750,Mau,
+1253626,1263215,Meerut,
+1253626,1262997,Mirzāpur,
+1253626,1262802,Morādābād,
+1253626,1262333,Muzaffarnagar,
+1253626,1278995,Prayagraj,
+1253626,11875569,Sambhal,
+1253626,9748030,Sant Kabir Nagar,
+1253626,1256729,Shājahānpur,
+1253626,11875566,Shamli,
+1253626,7626227,Shrawasti,
+1253626,7626228,Siddharthnagar,
+1253626,1255971,Sitapur,
+1253626,9748013,Sonbhadra,
+1253626,1253407,Varanasi,
+1254169,9747971,Dhalai,
+1254169,11875562,Gomati,
+1254169,11875565,Khowai,
+1254169,1261174,North Tripura,
+1254169,11875564,Sepahijala,
+1254169,1255671,South Tripura,
+1254169,11875563,Unakoti,
+1254169,1252864,West Tripura,
+1254788,1279345,Adilabad,
+1254788,11875556,Bhadradri Kothagudem,
+1254788,11875560,Hanamkonda,
+1254788,1269844,Hyderābād,
+1254788,11875557,Jagitial,
+1254788,11875555,Jangoan,
+1254788,11875554,Jayashankar Bhupalapally,
+1254788,11875553,Jogulamba Gadwal,
+1254788,11875552,Kamareddy,
+1254788,1267756,Karīmnagar,
+1254788,1267077,Khammam,
+1254788,11875577,Kumuram Bheem Asifabad,
+1254788,11875551,Mahabubabad,
+1254788,1264408,Mahbūbnagar,
+1254788,11875550,Mancherial,
+1254788,1263231,Medak,
+1254788,11875548,Medchal Malkajgiri,
+1254788,12572551,Mulugu,
+1254788,11875547,Nagarkurnool,
+1254788,1262068,Nalgonda District,
+1254788,12572550,Narayanpet,
+1254788,11875558,Nirmal,
+1254788,1261260,Nizamabad,
+1254788,11875546,Peddapalli,
+1254788,11875545,Rajanna Sircilla,
+1254788,7626856,Rangareddi,
+1254788,11875544,Sangareddy,
+1254788,11875543,Siddipet,
+1254788,11875541,Suryapet,
+1254788,11875542,Vikarabad,
+1254788,11875559,Wanaparthy,
+1254788,1252949,Warangal Rural,
+1254788,11875561,Yadadri Bhuvanagiri,
+1255053,8199441,Ariyalur,
+1255053,12212751,Chengalpattu district,
+1255053,7646145,Chennai,
+1255053,1273866,Coimbatore,
+1255053,7646153,Cuddalore,
+1255053,1272848,Dharmapuri,
+1255053,8223994,Dindigul,
+1255053,8223995,Erode,
+1255053,12212752,Kallakurichi district,
+1255053,7646149,Kancheepuram,
+1255053,1268009,Kanniyakumari,
+1255053,8223996,Karur,
+1255053,8223993,Krishnagiri,
+1255053,1264522,Madurai,
+1255053,12212768,Mayiladuthurai district,
+1255053,7627073,Nagapattinam,
+1255053,6640313,Namakkal,
+1255053,1261391,Nilgiris,
+1255053,7627071,Perambalur,
+1255053,1259298,Pudukkottai,
+1255053,1258741,Rāmanāthapuram,
+1255053,12212753,Ranipet district,
+1255053,1257630,Salem,
+1255053,7646154,Sivaganga,
+1255053,12212754,Tenkasi district,
+1255053,1254650,Thanjavur,
+1255053,7646155,Theni,
+1255053,7627241,Thiruvallur,
+1255053,7646980,Thiruvarur,
+1255053,7627069,Thoothukkudi,
+1255053,1254389,Tiruchirappalli,
+1255053,7874380,Tirunelveli Kattabo,
+1255053,12212767,Tirupattur district,
+1255053,9748021,Tiruppur,
+1255053,7646147,Tiruvannamalai,
+1255053,7646146,Vellore,
+1255053,7646150,Villupuram,
+1255053,7646157,Virudhunagar,
+1256312,1272129,Gangtok,
+1256312,1252877,Gyalshing,
+1256312,1261190,Mangan,
+1256312,1255681,Namchi,
+1256312,12680256,Pakyong,
+1256312,12680262,Soreng,
+1258899,1279160,Ajmer,
+1258899,1278947,Alwar,
+1258899,1277215,Banswara District,
+1258899,7701212,Baran,
+1258899,1276902,Barmer District,
+1258899,1276130,Bharatpur,
+1258899,1275961,Bhilwara District,
+1258899,1275666,Bikaner District,
+1258899,1275104,Bundi District,
+1258899,1274041,Chittaurgarh,
+1258899,1273894,Churu District,
+1258899,7701203,Dausa,
+1258899,7701204,Dhaulpur,
+1258899,1272203,Dūngarpur,
+1258899,1271686,Gangānagar,
+1258899,7729742,Hanumangarh,
+1258899,1269519,Jaipur,
+1258899,1269508,Jaisalmer,
+1258899,1269393,Jalore,
+1258899,1269028,Jhalawar District,
+1258899,1268937,Jhunjhunu District,
+1258899,1268867,Jodhpur,
+1258899,7701209,Karauli,
+1258899,1266054,Kota,
+1258899,1262217,Nagaur District,
+1258899,1260724,Pali District,
+1258899,8224619,Pratapgarh,
+1258899,7701213,Rajsamand,
+1258899,1256950,Sawāi Mādhopur,
+1258899,1256321,Sikar District,
+1258899,1256068,Sirohi,
+1258899,1254242,Tonk,
+1258899,1253989,Udaipur,
+1259223,8407426,Ajitgarh,
+1259223,1278711,Amritsar,
+1259223,8407165,Barnala,
+1259223,1276071,Bathinda,
+1259223,1271950,Faridkot,
+1259223,7909874,Fatehgarh Sahib,
+1259223,8407166,Fazilka,
+1259223,1271884,Firozpur,
+1259223,1270648,Gurdaspur,
+1259223,1269938,Hoshiarpur,
+1259223,1268783,Jalandhar,
+1259223,1267912,Kapurthala,
+1259223,1264729,Ludhiāna,
+1259223,12680250,Malerkotla,
+1259223,8407027,Mansa,
+1259223,8407028,Moga,
+1259223,7909875,Muktsar,
+1259223,8408318,Pathankot,
+1259223,1260108,Patiala,
+1259223,1257953,Rupnagar,
+1259223,1257403,Sangrur,
+1259223,8407479,Shahid Bhagat Singh Nagar,
+1259223,8408319,Tarn Taran,
+1259424,1267888,Kāraikāl,
+1259424,1264404,Mahe,
+1259424,1259426,Puducherry,
+1259424,1252796,Yanam,
+1261029,8986057,Angul District,
+1261029,1277644,Balāngīr,
+1261029,1277600,Bāleshwar,
+1261029,8740091,Baragarh,
+1261029,8996923,Baudh,
+1261029,7644924,Bhadrak,
+1261029,1273781,Cuttack,
+1261029,9747968,Debagarh,
+1261029,1272781,Dhenkānāl,
+1261029,8533699,Gajapati,
+1261029,1271622,Ganjām,
+1261029,7644925,Jagatsinghpur,
+1261029,9645384,Jajpur,
+1261029,7627179,Jharsuguda District,
+1261029,1268508,Kālāhandi,
+1261029,7627181,Kandhamal,
+1261029,7644926,Kendrapara,
+1261029,1267268,Kendujhar,
+1261029,7644927,Khordha,
+1261029,1266129,Koraput,
+1261029,7627182,Malkangiri,
+1261029,1263245,Mayūrbhanj,
+1261029,8908677,Nabarangpur,
+1261029,8986741,Nayagarh District,
+1261029,8533697,Nuapada,
+1261029,7644928,Puri,
+1261029,7627183,Rayagada,
+1261029,1257544,Sambalpur,
+1261029,9748032,Subarnapur,
+1261029,1255438,Sundargarh,
+1262271,12680244,Chumoukedima,
+1262271,9747972,Dimapur,
+1262271,9748005,Kiphire,
+1262271,1266367,Kohīma,
+1262271,9747979,Longleng,
+1262271,1262844,Mokokchūng,
+1262271,1262825,Mon,
+1262271,12680254,Noklak,
+1262271,8335032,Peren,
+1262271,1259785,Phek,
+1262271,12680265,Tseminyu,
+1262271,1254132,Tuensang District,
+1262271,1252841,Wokha,
+1262271,1252654,Zunheboto,
+1262963,7626588,Aizawl,
+1262963,9166019,Champhai,
+1262963,12572557,Hnahthial,
+1262963,12572556,Khawzawl,
+1262963,8261085,Kolasib district,
+1262963,9166022,Lawngtlai,
+1262963,7626589,Lunglei,
+1262963,7909838,Mamit,
+1262963,9748029,Saiha,
+1262963,12572555,Saitual,
+1262963,8740316,Serchhip,
+1263207,1271512,East Gāro Hills,
+1263207,11875537,East Jaintia Hills,
+1263207,1266857,East Khāsi Hills,
+1263207,12680245,Eastern West Khasi Hills,
+1263207,11875538,North Garo Hills,
+1263207,7701507,Ri-Bhoi,
+1263207,9748015,South Garo Hills,
+1263207,11875540,South West Garo Hills,
+1263207,11875539,South West Khasi Hills,
+1263207,8986228,West Garo Hills,
+1263207,1269523,West Jaintia Hills,
+1263207,7701511,West Khasi Hills,
+1263706,8740329,Bishnupur,
+1263706,9747955,Chandel,
+1263706,9166020,Churachandpur,
+1263706,9747976,Imphal East,
+1263706,9747977,Imphal West,
+1263706,11875583,Jiribam,
+1263706,11875586,Kakching,
+1263706,11875587,Kamjong,
+1263706,11875584,Kangpokpi,
+1263706,11875585,Noney,
+1263706,11875590,Pherzawl,
+1263706,8740334,Senapati,
+1263706,8740332,Tamenglong,
+1263706,11875595,Tengnoupal,
+1263706,8740335,Thoubal,
+1263706,8740338,Ukhrul,
+1264418,7626534,Ahmadnagar,
+1264418,1279109,Akola,
+1264418,8131497,Amravati Division,
+1264418,8131498,Aurangabad,
+1264418,1276192,Bhandara,
+1264418,1275540,Bid,
+1264418,1275118,Buldhana,
+1264418,9747944,Chandrapur,
+1264418,1272692,Dhule,
+1264418,7626536,Gadchiroli,
+1264418,7626535,Gondiya,
+1264418,7626533,Hingoli,
+1264418,1269411,Jalgaon,
+1264418,7626532,Jalna,
+1264418,1266287,Kolhapur,
+1264418,7626537,Latur,
+1264418,9747998,Mumbai,
+1264418,1270836,Mumbai Suburban,
+1264418,8131500,Nagpur Division,
+1264418,1261978,Nanded,
+1264418,7626542,Nandurbar,
+1264418,8131501,Nashik Division,
+1264418,1261013,Osmanabad,
+1264418,11875536,Palghar,
+1264418,1260342,Parbhani,
+1264418,8133375,Pune Division,
+1264418,7626540,Raigarh,
+1264418,1258340,Ratnagiri,
+1264418,9747967,Sangli,
+1264418,8131502,Satara Division,
+1264418,7626539,Sindhudurg,
+1264418,1255847,Solapur,
+1264418,1254662,Thane,
+1264418,1252944,Wardha,
+1264418,7626531,Washim,
+1264418,1252771,Yavatmal,
+1264542,11875535,Agar Malwa,
+1264542,9747929,Alirajpur,
+1264542,9747933,Anuppur,
+1264542,8740785,Ashoknagar,
+1264542,1277662,Bālāghāt,
+1264542,8740088,Barwani,
+1264542,1276391,Betūl,
+1264542,1275927,Bhind,
+1264542,1275842,Bhopāl,
+1264542,8740089,Burhanpur,
+1264542,1274339,Chhatarpur,
+1264542,1274305,Chhindwāra,
+1264542,1273589,Damoh,
+1264542,1273404,Datia,
+1264542,1273067,Dewas,
+1264542,1272895,Dhār,
+1264542,7627178,Dindori,
+1264542,1270712,Guna,
+1264542,1270585,Gwalior,
+1264542,8740099,Harda,
+1264542,1269744,Indore,
+1264542,1269634,Jabalpur,
+1264542,1269054,Jhābua,
+1264542,8740806,Katni,
+1264542,1272117,Khandwa district,
+1264542,8739996,Khargone,
+1264542,1263853,Mandla,
+1264542,1263835,Mandsaur,
+1264542,1262772,Morena,
+1264542,1269940,Narmadapuram district,
+1264542,1261755,Narsimhapur,
+1264542,8739995,Neemuch,
+1264542,12572552,Niwari,
+1264542,1260455,Panna,
+1264542,1258953,Raisen,
+1264542,1258878,Rājgarh,
+1264542,1258343,Ratlām,
+1264542,1258183,Rewa,
+1264542,1257852,Sāgar,
+1264542,1257023,Satna,
+1264542,1256914,Sehore,
+1264542,1256827,Seonī,
+1264542,1256740,Shahdol,
+1264542,1256694,Shājāpur,
+1264542,7627240,Sheopur,
+1264542,1256452,Shivpurī,
+1264542,1256370,Sidhi,
+1264542,9748010,Singrauli,
+1264542,1254535,Tīkamgarh,
+1264542,1253915,Ujjain,
+1264542,9072769,Umaria District,
+1264542,1253201,Vidisha,
+1265206,9748019,Lakshadweep,
+1267254,1278986,Alappuzha,
+1267254,1272019,Ernākulam,
+1267254,1269812,Idukki,
+1267254,1274988,Kannur,
+1267254,8347665,Kāsaragod District,
+1267254,7909821,Kollam,
+1267254,1265912,Kottayam,
+1267254,1265874,Kozhikode,
+1267254,1264155,Malappuram,
+1267254,7289568,Palakkad district,
+1267254,7874372,Pattanamtitta,
+1267254,7909823,Thiruvananthapuram,
+1267254,8133543,Thrissur District,
+1267254,6951502,Wayanad,
+1267701,8224037,Bagalkot,
+1267701,1276510,Ballari,
+1267701,1277332,Bangalore Rural,
+1267701,1277331,Bangalore Urban,
+1267701,1276534,Belgaum,
+1267701,1275739,Bīdar,
+1267701,1275702,Bijāpur,
+1267701,8224050,Chamrajnagar,
+1267701,8224036,Chikkaballapur,
+1267701,1274221,Chikmagalur,
+1267701,1274057,Chitradurga,
+1267701,1273664,Dakshina Kannada,
+1267701,7646984,Davanagere,
+1267701,1272797,Dharwad,
+1267701,7909847,Gadag,
+1267701,1270753,Gulbarga,
+1267701,1270240,Hassan,
+1267701,7909842,Haveri,
+1267701,1266426,Kodagu,
+1267701,1266306,Kolar,
+1267701,7627234,Koppal,
+1267701,1263815,Mandya,
+1267701,1262322,Mysore,
+1267701,1259013,Raichur,
+1267701,8224306,Ramanagara,
+1267701,1256516,Shimoga,
+1267701,1254090,Tumkur,
+1267701,8224051,Udupi,
+1267701,1253630,Uttar Kannada,
+1267701,12680266,Vijayanagar,
+1267701,8224605,Yadgir,
+1269320,1278668,Anantnāg,
+1269320,9747938,Badgam,
+1269320,9747936,Bandipore,
+1269320,1277086,Bāramūla,
+1269320,9747931,Doda,
+1269320,9748040,Ganderbal,
+1269320,1269322,Jammu,
+1269320,1267487,Kathua,
+1269320,9747940,Kishtwar,
+1269320,9747963,Kulgam,
+1269320,9748042,Kupwara,
+1269320,9747988,Pulwama,
+1269320,9747990,Punch,
+1269320,1258892,Rājauri,
+1269320,9747994,Ramban,
+1269320,9747996,Reasi,
+1269320,9747965,Samba,
+1269320,9748009,Shupiyan,
+1269320,1255639,Srīnagar,
+1269320,1253957,Udhampur,
+1270101,1275638,Bilāspur,
+1270101,1274849,Chamba,
+1270101,1270456,Hamīrpur,
+1270101,1268085,Kāngra,
+1270101,1266519,Kinnaur,
+1270101,1265710,Kulu,
+1270101,1265292,Lāhul and Spiti,
+1270101,1263863,Mandi,
+1270101,1256238,Shimla,
+1270101,1256073,Sirmaur,
+1270101,1255851,Solan,
+1270101,7701379,Una,
+1270260,1278861,Ambāla,
+1270260,1275900,Bhiwani,
+1270260,11875534,Charki Dadri,
+1270260,9148988,Faridabad District,
+1270260,9159091,Fatehabad District,
+1270260,1270644,Gurugram district,
+1270260,1270023,Hisār,
+1270260,9747981,Jhajjar,
+1270260,1268908,Jīnd,
+1270260,9747983,Kaithal,
+1270260,1267709,Karnāl,
+1270260,1265468,Kurukshetra,
+1270260,1264396,Mahendragarh,
+1270260,9748016,Nuh,
+1270260,9747986,Palwal,
+1270260,8402825,Panchkula,
+1270260,9747999,Panipat,
+1270260,9157653,Rewari District,
+1270260,1258077,Rohtak,
+1270260,1256056,Sirsa,
+1270260,1255745,Sonīpat,
+1270260,9748037,Yamunanagar,
+1270770,1279234,Ahmadābād,
+1270770,1278716,Amreli,
+1270770,7627221,Anand,
+1270770,11875529,Arvalli,
+1270770,1277417,Banās Kāntha,
+1270770,1276101,Bharūch,
+1270770,1276033,Bhāvnagar,
+1270770,11875532,Botad,
+1270770,11875533,Chhotaudepur,
+1270770,11875527,Devbhumi Dwarka,
+1270770,7627226,Dohad,
+1270770,1271716,Gāndhīnagar,
+1270770,11875531,Gir Somnath,
+1270770,1269318,Jāmnagar,
+1270770,1268774,Jūnāgadh,
+1270770,1266810,Kheda,
+1270770,1268731,Kutch,
+1270770,1264390,Mahesāna,
+1270770,11875528,Mahisagar,
+1270770,11875530,Morbi,
+1270770,9165869,Narmada,
+1270770,9072825,Navsari,
+1270770,1260571,Pānch Mahāls,
+1270770,7627238,Patan,
+1270770,9072780,Porbandar,
+1270770,1258849,Rājkot,
+1270770,1257922,Sabarkantha,
+1270770,1255365,Sūrat,
+1270770,1255350,Surendranagar,
+1270770,9072813,Tapi,
+1270770,1254616,The Dāngs,
+1270770,1253574,Vadodara,
+1270770,1253469,Valsād,
+1271157,9255562,North Goa,
+1271157,9255567,South Goa,
+1273293,8335421,Central Delhi,
+1273293,8335424,East Delhi,
+1273293,8347332,New Delhi,
+1273293,8335422,North Delhi,
+1273293,8335425,North East Delhi,
+1273293,8335427,North West Delhi,
+1273293,11875526,Shahdara,
+1273293,8335423,South Delhi,
+1273293,11875525,South East,
+1273293,8335426,South West Delhi,
+1273293,8335458,West Delhi,
+1274744,9747956,Chandigarh,
+1275715,7626569,Araria,
+1275715,9748038,Arwal,
+1275715,1278150,Aurangābād,
+1275715,8858072,Banka,
+1275715,1276610,Begusarāi,
+1275715,1276301,Bhāgalpur,
+1275715,1275871,Bhojpur,
+1275715,7627223,Buxar,
+1275715,1273492,Darbhanga,
+1275715,1271440,Gayā,
+1275715,1270967,Gopālganj,
+1275715,8858071,Jamui,
+1275715,7627222,Jehanabad,
+1275715,8740934,Kaimur District,
+1275715,7627229,Katihar,
+1275715,7627231,Khagaria,
+1275715,7627233,Kishanganj,
+1275715,7627235,Lakhisarai,
+1275715,7626568,Madhepura,
+1275715,1264556,Madhubani,
+1275715,1262483,Munger,
+1275715,1262331,Muzaffarpur,
+1275715,1262081,Nālanda,
+1275715,1261632,Nawāda,
+1275715,1260208,Pashchim Champāran,
+1275715,1260091,Patna,
+1275715,1259186,Pūrba Champāran,
+1275715,1259168,Purnia,
+1275715,1258074,Rohtās,
+1275715,1257805,Saharsa,
+1275715,1257552,Samastīpur,
+1275715,1257248,Sāran,
+1275715,7701609,Sheikhpura,
+1275715,7627239,Sheohar,
+1275715,1255984,Sītāmarhi,
+1275715,1255930,Siwān,
+1275715,7626567,Supaul,
+1275715,1253533,Vaishāli,
+1278253,12680242,Bajali,
+1278253,8985782,Baksa,
+1278253,7627074,Barpeta,
+1278253,11875508,Biswanath,
+1278253,7627076,Bongaigaon,
+1278253,1275009,Cāchār,
+1278253,11875512,Charaideo,
+1278253,8805933,Chirang,
+1278253,1273451,Darrang,
+1278253,7627077,Dhemaji,
+1278253,7627078,Dhubri,
+1278253,1272649,Dibrugarh,
+1278253,1261192,Dima Hasao District,
+1278253,1271152,Goālpāra,
+1278253,7627079,Golaghat,
+1278253,7627080,Hailakandi,
+1278253,11875513,Hojai,
+1278253,7627081,Jorhat,
+1278253,1268209,Kāmrūp,
+1278253,9747984,Kamrup Metropolitan,
+1278253,1267812,Kārbi Ānglong,
+1278253,7627082,Karimganj,
+1278253,7627083,Kokrajhar,
+1278253,1265243,Lakhimpur,
+1278253,11875578,Majuli,
+1278253,8805932,Morigaon,
+1278253,8849144,Nagaon,
+1278253,7627084,Nalbari,
+1278253,1256389,Sibsāgar,
+1278253,8739997,Sonitpur,
+1278253,11875515,South Salmara Mancachar,
+1278253,12680267,Tamulpur,
+1278253,7627085,Tinsukia,
+1278253,8805934,Udalguri,
+1278253,11875514,West Karbi Anglong,
+1278341,9747950,Anjaw,
+1278341,9747946,Changlang,
+1278341,1272651,Dibāng Valley,
+1278341,1272120,East Kameng,
+1278341,1272115,East Siang,
+1278341,12572553,Kamle,
+1278341,11875510,Kra Daadi,
+1278341,9748007,Kurung Kumey,
+1278341,12572554,Lepa Rada,
+1278341,1264818,Lohit District,
+1278341,11875575,Longding,
+1278341,9748012,Lower Dibang Valley,
+1278341,11902898,Lower Siang,
+1278341,1264739,Lower Subansiri,
+1278341,11875509,Namsai,
+1278341,12572547,Pakke Kessang,
+1278341,9748025,Papum Pare,
+1278341,12572546,Shi Yomi,
+1278341,11875511,Siang,
+1278341,9748034,Tawang,
+1278341,1254418,Tirāp,
+1278341,9748035,Upper Siang,
+1278341,1253720,Upper Subansiri,
+1278341,1252869,West Kameng,
+1278341,1252865,West Siang,
+1278629,12680239,Alluri Sitharama Raju,
+1278629,12680240,Anakapalli,
+1278629,1278673,Anantapur,
+1278629,12680241,Annamayya,
+1278629,12680243,Bapatla,
+1278629,1274034,Chittoor,
+1278629,1272123,East Godāvari,
+1278629,12680246,Eluru,
+1278629,1270669,Guntūr,
+1278629,12680261,Kakinada,
+1278629,12680249,Konaseema,
+1278629,1265869,Krishna,
+1278629,1265492,Kurnool,
+1278629,12680253,Nandyal,
+1278629,1261530,Nellore,
+1278629,12680255,NTR,
+1278629,12680257,Palnadu,
+1278629,12680258,Parvathipuram Manyam,
+1278629,1259346,Prakasam,
+1278629,12680263,Sri Sathya Sai,
+1278629,1255649,Srīkākulam,
+1278629,12680264,Tirupati,
+1278629,1253103,Visākhapatnam,
+1278629,7626859,Vizianagaram District,
+1278629,1252873,West Godāvari,
+1278629,1273801,YSR district,
+1278647,1261448,Nicobar,
+1278647,9748018,North & Middle Andaman,
+1278647,1278648,South Andaman,
+1444364,11875519,Balod,
+1444364,11875518,Baloda Bazar,
+1444364,11875517,Balrampur,
+1444364,1276739,Bastar,
+1444364,11875521,Bemetara,
+1444364,9747942,Bijapur,
+1444364,1275639,Bilāspur,
+1444364,9747953,Dakshin Bastar Dantewada,
+1444364,7627170,Dhamtari,
+1444364,1272182,Durg,
+1444364,11875522,Gariyaband,
+1444364,12680247,Gaurella Pendra Marwahi,
+1444364,7627225,Janjgir-Champa,
+1444364,7701599,Jashpur,
+1444364,7627230,Kabeerdham,
+1444364,12680248,Khairgarh Chhuikhadan Gandai,
+1444364,11875520,Kondagaon,
+1444364,7627169,Korba,
+1444364,7701598,Koriya,
+1444364,7627236,Mahasamund,
+1444364,12680251,Manendragarh Chirimiri Bharatpur,
+1444364,12680252,Mohla Manpur Ambagarh Chouki,
+1444364,11875523,Mungeli,
+1444364,9748023,Narayanpur,
+1444364,1259006,Raigarh,
+1444364,1258984,Raipur,
+1444364,1258832,Rāj Nāndgaon,
+1444364,12680259,Sakti,
+1444364,12680260,Sarangarh Bilaigarh,
+1444364,11875524,Sukma,
+1444364,11875516,Surajpur,
+1444364,1255347,Surguja,
+1444364,7627172,Uttar Bastar Kanker,
+1444365,7701427,Bokaro,
+1444365,9747948,Chatra,
+1444365,9035761,Deogarh,
+1444365,1272980,Dhānbād,
+1444365,7627175,Dumka,
+1444365,7701605,Garhwa,
+1444365,1271176,Girīdīh,
+1444365,7627174,Godda,
+1444365,7701429,Gumla,
+1444365,1270165,Hazārībāg,
+1444365,7627228,Jamtara,
+1444365,9748003,Khunti,
+1444365,9747958,Kodarma,
+1444365,7627176,Latehar,
+1444365,7627177,Lohardaga,
+1444365,7701604,Pakur,
+1444365,1260783,Palāmu,
+1444365,1256163,Pashchim Singhbhūm,
+1444365,7701426,Purba Singhbhum,
+1444365,9748026,Ramgarh,
+1444365,1258527,Rānchī,
+1444365,7701603,Sahibganj,
+1444365,7701601,Saraikela,
+1444365,7627173,Simdega,
+1444366,1278975,Almora,
+1444366,7701513,Bageshwar,
+1444366,1274839,Chamoli,
+1444366,7701515,Champawat,
+1444366,9072830,Dehradun,
+1444366,1271535,Garhwāl,
+1444366,8740057,Haridwar,
+1444366,1262118,Nainital,
+1444366,1259504,Pithoragarh,
+1444366,8739870,Rudraprayag,
+1444366,1254807,Tehri Garhwal,
+1444366,7701516,Udham Singh Nagar,
+1444366,1253629,Uttarkashi,

@@ -56,6 +56,23 @@ jobs:
       - name: Validate the contributor template
         run: python -m geo_extension.geo.validate --path template/xx
 
+      - name: Unit tests that need no site (dataset engine, validator)
+        run: python -m unittest geo_extension.tests.test_dataset geo_extension.tests.test_validate
+
+  js-tests:
+    name: "Selector JS Tests"
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Run cascade tests
+        run: node --test "tests/js/test_*.js"
+
   deps-vulnerable-check:
     name: "Vulnerable Dependency Check"
     runs-on: ubuntu-latest

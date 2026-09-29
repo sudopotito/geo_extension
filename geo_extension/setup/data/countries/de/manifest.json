@@ -1,11 +1,13 @@
 {
   "country_code": "de",
   "name": "Germany",
-  "description": "Germany: federal states (Bundesländer) and major cities. Partial coverage (major cities only); city codes are internal, not official.",
-  "version": "1.0.0",
-  "source": "https://www.destatis.de",
-  "license": "",
-  "author": "CLU Assistant <clu@sudopotito.com>",
+  "description": "Germany: Bundesland > Landkreis/Kreisfreie Stadt > City/Town from GeoNames (16, 400, 11,419 records). Populated places with population >= 500 plus administrative seats.",
+  "version": "2026.09.29",
+  "source": "https://www.geonames.org/ (GeoNames gazetteer and postal code dumps)",
+  "source_url": "https://download.geonames.org/export/dump/DE.zip",
+  "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/) - data (c) GeoNames.org",
+  "author": "geo_extension maintainers (generated with tools/geonames/build_dataset.py)",
+  "updated": "2026-09-29",
   "levels": [
     {
       "file": "level1.csv",
@@ -14,8 +16,17 @@
     },
     {
       "file": "level2.csv",
-      "label": "City",
+      "label": "Landkreis/Kreisfreie Stadt",
+      "target_field": "county"
+    },
+    {
+      "file": "level3.csv",
+      "label": "City/Town",
       "target_field": "city"
     }
-  ]
+  ],
+  "postal_codes": {
+    "file": "postal_codes.csv",
+    "pattern": "^[0-9]{5}$"
+  }
 }

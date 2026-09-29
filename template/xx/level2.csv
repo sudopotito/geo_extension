@@ -1,7 +1,7 @@
-parent_code,code,name
-NR,NR01,Northport
-NR,NR02,Highfield
-CR,CR01,Capital City
-CR,CR02,Riverside
-SR,SR01,Southbay
-SR,SR02,Sandhill
+parent_code,code,name,aliases
+NR,NR01,Northport,North Port
+NR,NR02,Highfield,
+CR,CR01,Capital City,City of Capital|Capitol
+CR,CR02,Riverside,
+SR,SR01,Southbay,
+SR,SR02,Sandhill,

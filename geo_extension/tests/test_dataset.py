@@ -44,7 +44,9 @@ class TestDatasetLoading(unittest.TestCase):
 		self.assertEqual(self.xa.depth, 3)
 		self.assertEqual([lvl.target_field for lvl in self.xa.levels], ["state", "city", "county"])
 		self.assertEqual([lvl.label for lvl in self.xa.levels], ["Region", "City", "District"])
-		self.assertEqual(self.xa.get_level(2).as_dict(), {"level": 2, "label": "City", "target_field": "city"})
+		self.assertEqual(
+			self.xa.get_level(2).as_dict(), {"level": 2, "label": "City", "target_field": "city"}
+		)
 		self.assertIsNone(self.xa.get_level(4))
 
 	def test_roots_are_sorted_accent_insensitively(self):
@@ -69,12 +71,38 @@ class TestDatasetLoading(unittest.TestCase):
 		self.assertIsNone(self.xa.find_by_name(2, "Alpha City", "R3"))
 		self.assertEqual(self.xa.find_by_name(1, "north region").code, "R1")
 
+	def test_aliases_match_but_names_win(self):
+		alpha = self.xa.get_unit(2, "C1")
+		self.assertEqual(alpha.aliases, ("Alfa", "Alpha"))
+		self.assertEqual(alpha.as_option()["aliases"], ["Alfa", "Alpha"])
+		self.assertEqual(self.xa.find_by_name(2, "ALFA", "R1").code, "C1")
+		self.assertEqual(self.xa.find_by_name(2, "alpha", "R1").code, "C1")
+		self.assertIsNone(self.xa.find_by_name(2, "Alfa", "R2"))
+		self.assertNotIn("aliases", self.xa.get_unit(2, "C2").as_option())
+		self.assertEqual(
+			[u.code for u in self.xa.resolve(["north region", "alfa", "west"])], ["R1", "C1", "D2"]
+		)
+
+	def test_search_across_levels_with_path(self):
+		hits = self.xa.search("alp")
+		self.assertEqual([u.code for u in hits], ["C1", "C3"])  # prefix matches, then by level/name
+		self.assertEqual([u.code for u in self.xa.get_path(hits[0])], ["R1", "C1"])
+		self.assertEqual(
+			[u.code for u in self.xa.search("region")], ["R3", "R1", "R2"]
+		)  # contains, sorted by name
+		self.assertEqual([u.code for u in self.xa.search("east", level=3)], ["D1"])
+		self.assertEqual(self.xa.search("alfa"), [self.xa.get_unit(2, "C1")])  # aliases are searchable
+		self.assertEqual(self.xa.search("  "), [])
+		self.assertEqual(len(self.xa.search("a", limit=2)), 2)
+
 	def test_resolve_stops_at_first_mismatch(self):
 		chain = self.xa.resolve(["South Region", "Alpha City", "Nowhere"])
 		self.assertEqual([u.code for u in chain], ["R2", "C3"])
 		self.assertEqual(self.xa.resolve(["Unknown", "Alpha City"]), [])
 		self.assertEqual(self.xa.resolve([]), [])
-		self.assertEqual([u.code for u in self.xa.resolve(["Ñorth Region", "beta city", "centre"])], ["R1", "C2", "D3"])
+		self.assertEqual(
+			[u.code for u in self.xa.resolve(["Ñorth Region", "beta city", "centre"])], ["R1", "C2", "D3"]
+		)
 
 	def test_ancestors(self):
 		unit = self.xa.get_unit(3, "D3")

@@ -1,57 +1,52 @@
-code,name
-AL,Alabama
-AK,Alaska
-AZ,Arizona
-AR,Arkansas
-CA,California
-CO,Colorado
-CT,Connecticut
-DE,Delaware
-FL,Florida
-GA,Georgia
-HI,Hawaii
-ID,Idaho
-IL,Illinois
-IN,Indiana
-IA,Iowa
-KS,Kansas
-KY,Kentucky
-LA,Louisiana
-ME,Maine
-MD,Maryland
-MA,Massachusetts
-MI,Michigan
-MN,Minnesota
-MS,Mississippi
-MO,Missouri
-MT,Montana
-NE,Nebraska
-NV,Nevada
-NH,New Hampshire
-NJ,New Jersey
-NM,New Mexico
-NY,New York
-NC,North Carolina
-ND,North Dakota
-OH,Ohio
-OK,Oklahoma
-OR,Oregon
-PA,Pennsylvania
-RI,Rhode Island
-SC,South Carolina
-SD,South Dakota
-TN,Tennessee
-TX,Texas
-UT,Utah
-VT,Vermont
-VA,Virginia
-WA,Washington
-WV,West Virginia
-WI,Wisconsin
-WY,Wyoming
-DC,District of Columbia
-PR,Puerto Rico
-GU,Guam
-VI,Virgin Islands
-AS,American Samoa
-MP,Northern Mariana Islands
+code,name,aliases
+4829764,Alabama,
+5879092,Alaska,
+5551752,Arizona,
+4099753,Arkansas,
+5332921,California,
+5417618,Colorado,
+4831725,Connecticut,
+4142224,Delaware,
+4138106,District of Columbia,
+4155751,Florida,
+4197000,Georgia,
+5855797,Hawaii,
+5596512,Idaho,
+4896861,Illinois,
+4921868,Indiana,
+4862182,Iowa,
+4273857,Kansas,
+6254925,Kentucky,
+4331987,Louisiana,
+4971068,Maine,
+4361885,Maryland,
+6254926,Massachusetts,
+5001836,Michigan,
+5037779,Minnesota,
+4436296,Mississippi,
+4398678,Missouri,
+5667009,Montana,
+5073708,Nebraska,
+5509151,Nevada,
+5090174,New Hampshire,
+5101760,New Jersey,
+5481136,New Mexico,
+5128638,New York,
+4482348,North Carolina,
+5690763,North Dakota,
+5165418,Ohio,
+4544379,Oklahoma,
+5744337,Oregon,
+6254927,Pennsylvania,
+5224323,Rhode Island,
+4597040,South Carolina,
+5769223,South Dakota,
+4662168,Tennessee,
+4736286,Texas,
+5549030,Utah,
+5242283,Vermont,
+6254928,Virginia,
+5815135,Washington,
+4826850,West Virginia,
+5279468,Wisconsin,
+5843591,Wyoming,

@@ -18,6 +18,8 @@ Copy this template:
 template/xx/  →  geo_extension/setup/data/countries/<cc>/
 ```
 
+Or generate the directory: if your country is well covered by GeoNames, add it to `tools/geonames/countries.json` and run `python tools/geonames/build_dataset.py <cc> --out geo_extension/setup/data/countries`. If an official statistics office publishes a downloadable list, a small script like `tools/psgc/build_dataset.py` (Philippines) or `tools/datagovsg/build_dataset.py` (Singapore) is the preferred route because it makes future updates reproducible. Hand-maintained CSVs are fine too.
+
 ```
 <cc>/
 ├── manifest.json
@@ -73,21 +75,21 @@ If a country has more useful levels than fields, use `address_line2` for the low
 
 ## 3. Fill the level files
 
-**Level 1** has two columns:
+**Level 1** has two columns (plus the optional `aliases`):
 
 ```csv
-code,name
-NR,Northern Region
-CR,Central Region
+code,name,aliases
+NR,Northern Region,North
+CR,Central Region,
 ```
 
 **Every lower level** has three; `parent_code` references the `code` of the level above:
 
 ```csv
-parent_code,code,name
-NR,NR01,Northport
-NR,NR02,Highfield
-CR,CR01,Capital City
+parent_code,code,name,aliases
+NR,NR01,Northport,North Port
+NR,NR02,Highfield,
+CR,CR01,Capital City,City of Capital|Capitol
 ```
 
 Rules:
@@ -95,6 +97,7 @@ Rules:
 - `code` is the stable identifier: unique within its file, only letters, digits, `.`, `_`, `-`. Use official codes when they exist (PSGC, FIPS, INSEE, …); they survive renames.
 - `name` is what users see and what gets stored in the Address. Use the official spelling, with accents.
 - Every `parent_code` must exist in the parent file.
+- `aliases` (optional column) lists alternative spellings separated by `|`: old official names, "X City" for "City of X", local-language variants. Users who type an alias get the unit; aliases are searchable but never displayed. Do not add an alias that is also the name of a sibling.
 - Save as UTF-8 (a BOM is tolerated). Google Sheets exports are fine; if you use Excel, make sure leading zeros in codes are not stripped.
 - Extra columns are ignored, but keep files small: they are versioned in Git.
 

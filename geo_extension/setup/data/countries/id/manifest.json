@@ -1,11 +1,13 @@
 {
   "country_code": "id",
   "name": "Indonesia",
-  "description": "Indonesia: provinces and major cities/regencies. Partial coverage (major cities only); codes are internal, not official.",
-  "version": "1.0.0",
-  "source": "https://www.bps.go.id",
-  "license": "",
-  "author": "CLU Assistant <clu@sudopotito.com>",
+  "description": "Indonesia: Province > City/Regency from GeoNames (38, 514 records). Populated places with population >= 500 plus administrative seats.",
+  "version": "2026.09.29",
+  "source": "https://www.geonames.org/ (GeoNames gazetteer and postal code dumps)",
+  "source_url": "https://download.geonames.org/export/dump/ID.zip",
+  "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/) - data (c) GeoNames.org",
+  "author": "geo_extension maintainers (generated with tools/geonames/build_dataset.py)",
+  "updated": "2026-09-29",
   "levels": [
     {
       "file": "level1.csv",
@@ -17,5 +19,9 @@
       "label": "City/Regency",
       "target_field": "city"
     }
-  ]
+  ],
+  "postal_codes": {
+    "file": "postal_codes.csv",
+    "pattern": "^[0-9]{5}$"
+  }
 }

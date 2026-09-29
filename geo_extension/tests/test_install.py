@@ -6,7 +6,11 @@
 import frappe
 from frappe.custom.doctype.custom_field.custom_field import create_custom_fields
 from frappe.custom.doctype.property_setter.property_setter import make_property_setter
-from frappe.tests import IntegrationTestCase
+
+try:
+	from frappe.tests import IntegrationTestCase
+except ImportError:  # Frappe v15
+	from frappe.tests.utils import FrappeTestCase as IntegrationTestCase
 
 from geo_extension import install
 
@@ -22,12 +26,17 @@ class TestInstall(IntegrationTestCase):
 	def _cleanup(self):
 		for name in frappe.get_all(
 			"Property Setter",
-			filters={"doc_type": "Address", "name": ("in", ("Address-fax-hidden", "Address-main-field_order"))},
+			filters={
+				"doc_type": "Address",
+				"name": ("in", ("Address-fax-hidden", "Address-main-field_order")),
+			},
 			pluck="name",
 		):
 			frappe.delete_doc("Property Setter", name, ignore_permissions=True, force=True)
 		for name in frappe.get_all(
-			"Property Setter", filters={"doc_type": "Address", "property": "fieldtype", "value": "Autocomplete"}, pluck="name"
+			"Property Setter",
+			filters={"doc_type": "Address", "property": "fieldtype", "value": "Autocomplete"},
+			pluck="name",
 		):
 			frappe.delete_doc("Property Setter", name, ignore_permissions=True, force=True)
 		if frappe.db.exists("Custom Field", "Address-village"):
@@ -51,7 +60,9 @@ class TestInstall(IntegrationTestCase):
 		install.after_install()
 		install.after_migrate()
 		self.assertEqual(self._address_property_setters(), before)
-		self.assertEqual(frappe.get_all("Custom Field", filters={"dt": "Address"}, pluck="name"), custom_before)
+		self.assertEqual(
+			frappe.get_all("Custom Field", filters={"dt": "Address"}, pluck="name"), custom_before
+		)
 		self.assertNotIn("village", [df.fieldname for df in frappe.get_meta("Address").fields])
 
 	def test_legacy_customizations_are_removed(self):
@@ -60,7 +71,16 @@ class TestInstall(IntegrationTestCase):
 			make_property_setter("Address", fieldname, "fieldtype", "Autocomplete", "Data", for_doctype=False)
 		make_property_setter("Address", None, "field_order", '["address_title"]', "Text", for_doctype=True)
 		create_custom_fields(
-			{"Address": [{"fieldname": "village", "label": "Village/Ward/Barangay", "fieldtype": "Autocomplete", "insert_after": "city"}]},
+			{
+				"Address": [
+					{
+						"fieldname": "village",
+						"label": "Village/Ward/Barangay",
+						"fieldtype": "Autocomplete",
+						"insert_after": "city",
+					}
+				]
+			},
 			ignore_validate=True,
 		)
 		self.assertTrue(frappe.db.exists("Custom Field", "Address-village"))
@@ -89,9 +109,15 @@ class TestInstall(IntegrationTestCase):
 		self.assertEqual(frappe.db.get_value("Address", doc.name, "county"), "Lahug")
 
 		# running again is a no-op
-		self.assertEqual(install.remove_legacy_customizations(), {"property_setters": [], "custom_fields": []})
+		self.assertEqual(
+			install.remove_legacy_customizations(), {"property_setters": [], "custom_fields": []}
+		)
 
 	def test_foreign_property_setters_are_kept(self):
 		make_property_setter("Address", "fax", "hidden", "1", "Check", for_doctype=False)
 		install.remove_legacy_customizations()
-		self.assertTrue(frappe.db.exists("Property Setter", {"doc_type": "Address", "field_name": "fax", "property": "hidden"}))
+		self.assertTrue(
+			frappe.db.exists(
+				"Property Setter", {"doc_type": "Address", "field_name": "fax", "property": "hidden"}
+			)
+		)

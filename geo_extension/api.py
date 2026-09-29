@@ -16,6 +16,7 @@ Geographic data is public information, so the endpoints allow guest access
 	get_options(country, level, parent, txt)    -> children of a unit
 	resolve(country, names)                     -> names -> stable codes
 	get_postal_codes(country, level, code)      -> postal codes for a unit
+	search(country, txt, level, limit)          -> units matching text, with their path
 """
 
 from __future__ import annotations
@@ -103,9 +104,9 @@ def get_hierarchy(country: str | None = None) -> dict:
 	        "levels": [
 	            {"level": 1, "label": "Province", "target_field": "state"},
 	            {"level": 2, "label": "City/Municipality", "target_field": "city"},
-	            {"level": 3, "label": "Barangay", "target_field": "county"}
+	            {"level": 3, "label": "Barangay", "target_field": "county"},
 	        ],
-	        "postal_codes": {"available": false, "target_field": "pincode"}
+	        "postal_codes": {"available": false, "target_field": "pincode"},
 	    }
 	"""
 	dataset = get_dataset(country)
@@ -178,6 +179,48 @@ def get_postal_codes(country: str | None = None, level: int | str = 1, code: str
 		return {"codes": [], "level": None}
 	codes, found_level = dataset.postal_codes_for(cint(level), code_clean)
 	return {"codes": codes, "level": found_level}
+
+
+@frappe.whitelist(allow_guest=True)
+def search(
+	country: str | None = None,
+	txt: str | None = None,
+	level: int | str | None = None,
+	limit: int | str | None = None,
+) -> list[dict]:
+	"""
+	Find units at any level (or one ``level``) whose name or alias contains ``txt``.
+	Each hit carries its full ``path`` (top level first, ending with the hit itself),
+	so a single search box can fill every level of a form at once::
+
+	    [
+	        {
+	            "level": 2,
+	            "value": "1380100000",
+	            "label": "City of Caloocan",
+	            "path": [
+	                {"level": 1, "value": "1300000000", "label": "Metro Manila"},
+	                {"level": 2, "value": "1380100000", "label": "City of Caloocan"},
+	            ],
+	        }
+	    ]
+	"""
+	dataset = get_dataset(country)
+	txt = ds.clean_text(txt, 140) if txt else ""
+	if dataset is None or len(txt) < 2:
+		return []
+	limit = min(max(cint(limit) or ds.MAX_SEARCH_RESULTS, 1), ds.MAX_SEARCH_RESULTS)
+	level_int = cint(level) or None
+	out = []
+	for unit in dataset.search(txt, limit, level_int):
+		out.append(
+			{
+				"level": unit.level,
+				**unit.as_option(),
+				"path": [{"level": u.level, **u.as_option()} for u in dataset.get_path(unit)],
+			}
+		)
+	return out
 
 
 @frappe.whitelist()

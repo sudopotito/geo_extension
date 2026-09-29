@@ -59,8 +59,16 @@ LEVEL1_HEADERS = ("code", "name")
 LEVELN_HEADERS = ("parent_code", "code", "name")
 POSTAL_HEADERS = ("level", "code", "postal_code")
 
+#: Optional column on every level file: alternative spellings, ``|``-separated.
+ALIASES_COLUMN = "aliases"
+ALIAS_SEP = "|"
+MAX_ALIASES = 20
+MAX_SEARCH_RESULTS = 50
+
 #: Directory that ships with the app.
-BUILTIN_ROOT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "setup", "data", "countries")
+BUILTIN_ROOT = os.path.join(
+	os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "setup", "data", "countries"
+)
 
 
 class DatasetError(Exception):
@@ -173,9 +181,42 @@ class Unit:
 	code: str
 	name: str
 	parent: str | None = None
+	aliases: tuple[str, ...] = ()
+	#: normalized name and aliases, precomputed for matching
+	keys: tuple[str, ...] = ()
 
 	def as_option(self) -> dict:
-		return {"value": self.code, "label": self.name}
+		option = {"value": self.code, "label": self.name}
+		if self.aliases:
+			option["aliases"] = list(self.aliases)
+		return option
+
+	def matches(self, key: str) -> bool:
+		"""Exact match of a normalized string against the name or any alias."""
+		return bool(key) and key in self.keys
+
+
+def make_unit(level: int, code: str, name: str, parent: str | None = None, aliases=()) -> Unit:
+	name_key = normalize_name(name)
+	clean_aliases: list[str] = []
+	keys = [name_key]
+	for alias in aliases:
+		key = normalize_name(alias)
+		if key and key not in keys:
+			clean_aliases.append(alias)
+			keys.append(key)
+	return Unit(
+		level=level, code=code, name=name, parent=parent, aliases=tuple(clean_aliases), keys=tuple(keys)
+	)
+
+
+def parse_aliases(value: str | None) -> list[str]:
+	out: list[str] = []
+	for raw in (value or "").split(ALIAS_SEP):
+		alias = clean_text(raw, 140)
+		if alias and alias not in out:
+			out.append(alias)
+	return out[:MAX_ALIASES]
 
 
 @dataclass
@@ -251,14 +292,51 @@ class CountryDataset:
 		return list(rows)
 
 	def find_by_name(self, level: int, name: str, parent: str | None = None) -> Unit | None:
-		"""Exact (accent/case-insensitive) name match among the candidates of ``level``."""
+		"""
+		Exact (accent/case-insensitive) match of ``name`` against the names and aliases
+		of the candidates at ``level``. A name match wins over an alias match.
+		"""
 		key = normalize_name(name)
 		if not key:
 			return None
-		for unit in self.options(level, parent):
-			if normalize_name(unit.name) == key:
+		candidates = self.options(level, parent)
+		for unit in candidates:
+			if unit.keys and unit.keys[0] == key:
+				return unit
+		for unit in candidates:
+			if unit.matches(key):
 				return unit
 		return None
+
+	def get_path(self, unit: Unit) -> list[Unit]:
+		"""Return ``[top, ..., parent, unit]``."""
+		return list(reversed(self.ancestors(unit)))
+
+	def search(self, txt: str, limit: int = MAX_SEARCH_RESULTS, level: int | None = None) -> list[Unit]:
+		"""
+		Substring search across every level (or one ``level``) by name or alias.
+		Results whose name starts with the text come first, then by level and name.
+		"""
+		needle = normalize_name(txt)
+		if not needle:
+			return []
+		levels = [level] if level else range(1, len(self.levels) + 1)
+		scored: list[tuple[int, int, str, Unit]] = []
+		for lvl in levels:
+			if not (1 <= lvl <= len(self.levels)):
+				continue
+			for unit in self.units[lvl - 1].values():
+				rank = None
+				for key in unit.keys:
+					if key.startswith(needle):
+						rank = 0
+						break
+					if needle in key:
+						rank = 1
+				if rank is not None:
+					scored.append((rank, unit.level, unit.keys[0], unit))
+		scored.sort(key=lambda t: t[:3])
+		return [t[3] for t in scored[: max(limit, 0)]]
 
 	def resolve(self, names: list[str | None]) -> list[Unit]:
 		"""
@@ -407,7 +485,7 @@ def _load_level_units(ds: CountryDataset, level: Level) -> None:
 		if idx > 0 and parent not in parents:
 			skipped += 1
 			continue
-		unit = Unit(level=level.index, code=code, name=name, parent=parent)
+		unit = make_unit(level.index, code, name, parent, parse_aliases(row.get(ALIASES_COLUMN)))
 		by_code[code] = unit
 		children.setdefault(parent, []).append(unit)
 

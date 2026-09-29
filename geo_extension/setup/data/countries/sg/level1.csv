@@ -1,54 +1,56 @@
-code,name
-SG01,Ang Mo Kio
-SG02,Bedok
-SG03,Bishan
-SG04,Boon Lay
-SG05,Bukit Batok
-SG06,Bukit Merah
-SG07,Bukit Panjang
-SG08,Bukit Timah
-SG09,Central Water Catchment
-SG10,Changi
-SG11,Choa Chu Kang
-SG12,Clementi
-SG13,Downtown Core
-SG14,Geylang
-SG15,Hougang
-SG16,Jurong East
-SG17,Jurong West
-SG18,Kallang
-SG19,Lim Chu Kang
-SG20,Mandai
-SG21,Marina East
-SG22,Marina South
-SG23,Marine Parade
-SG24,Museum
-SG25,Newton
-SG26,North-Eastern Islands
-SG27,Novena
-SG28,Orchard
-SG29,Outram
-SG30,Pasir Ris
-SG31,Paya Lebar
-SG32,Pioneer
-SG33,Punggol
-SG34,Queenstown
-SG35,River Valley
-SG36,Rochor
-SG37,Seletar
-SG38,Sembawang
-SG39,Sengkang
-SG40,Serangoon
-SG41,Simpang
-SG42,Singapore River
-SG43,Southern Islands
-SG44,Straits View
-SG45,Sungei Kadut
-SG46,Tampines
-SG47,Tanglin
-SG48,Tengah
-SG49,Toa Payoh
-SG50,Tuas
-SG51,Western Water Catchment
-SG52,Woodlands
-SG53,Yishun
+code,name,aliases
+AM,Ang Mo Kio,
+BD,Bedok,
+BS,Bishan,
+BL,Boon Lay,
+BK,Bukit Batok,
+BM,Bukit Merah,
+BP,Bukit Panjang,
+BT,Bukit Timah,
+CC,Central Water Catchment,
+CH,Changi,
+CB,Changi Bay,
+CK,Choa Chu Kang,
+CL,Clementi,
+DT,Downtown Core,
+GL,Geylang,
+HG,Hougang,
+JE,Jurong East,
+JW,Jurong West,
+KL,Kallang,
+LK,Lim Chu Kang,
+MD,Mandai,
+ME,Marina East,
+MS,Marina South,
+MP,Marine Parade,
+MU,Museum,
+NT,Newton,
+NE,North-Eastern Islands,
+NV,Novena,
+OR,Orchard,
+OT,Outram,
+PR,Pasir Ris,
+PL,Paya Lebar,
+PN,Pioneer,
+PG,Punggol,
+QT,Queenstown,
+RV,River Valley,
+RC,Rochor,
+SL,Seletar,
+SB,Sembawang,
+SE,Sengkang,
+SG,Serangoon,
+SM,Simpang,
+SR,Singapore River,
+SI,Southern Islands,
+SV,Straits View,
+SK,Sungei Kadut,
+TM,Tampines,
+TN,Tanglin,
+TH,Tengah,
+TP,Toa Payoh,
+TS,Tuas,
+WI,Western Islands,
+WC,Western Water Catchment,
+WD,Woodlands,
+YS,Yishun,

@@ -26,7 +26,9 @@ app_license = "GPL-3.0"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/geo_extension/css/geo_extension.css"
-# app_include_js = "/assets/geo_extension/js/geo_extension.js"
+# geo_selector.js: reusable cascading selector (frappe.geo_extension)
+# quick_entry.js: adds it to quick-entry dialogs that contain address fields
+app_include_js = ["/assets/geo_extension/js/geo_selector.js", "/assets/geo_extension/js/quick_entry.js"]
 
 # include js, css files in header of web template
 # web_include_css = "/assets/geo_extension/css/geo_extension.css"
@@ -43,8 +45,8 @@ app_license = "GPL-3.0"
 # page_js = {"page" : "public/js/file.js"}
 
 # include js in doctype views
-# geo_selector.js is the reusable cascading-selector library; address.js wires it to Address.
-doctype_js = {"Address": ["public/js/geo_selector.js", "public/js/address.js"]}
+# address.js wires the selector (loaded globally via app_include_js) to the Address form
+doctype_js = {"Address": "public/js/address.js"}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}

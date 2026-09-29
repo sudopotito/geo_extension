@@ -6,7 +6,11 @@
 import os
 
 import frappe
-from frappe.tests import IntegrationTestCase
+
+try:
+	from frappe.tests import IntegrationTestCase
+except ImportError:  # Frappe v15
+	from frappe.tests.utils import FrappeTestCase as IntegrationTestCase
 
 from geo_extension import api
 from geo_extension.geo import dataset as ds
@@ -79,11 +83,41 @@ class TestAPI(GeoTestCase):
 
 	def test_resolve(self):
 		chain = api.resolve("xa", '["south region", "Alpha City", "Nope"]')
-		self.assertEqual(chain, [{"level": 1, "value": "R2", "label": "South Region"}, {"level": 2, "value": "C3", "label": "Alpha City"}])
+		self.assertEqual(
+			chain,
+			[
+				{"level": 1, "value": "R2", "label": "South Region"},
+				{"level": 2, "value": "C3", "label": "Alpha City"},
+			],
+		)
 		self.assertEqual(api.resolve("xa", ["Nowhere"]), [])
 		self.assertEqual(api.resolve("xa", "not json"), [])
 		self.assertEqual(api.resolve("xa", {"1": "Ñorth Region", "2": "Beta City"})[-1]["value"], "C2")
 		self.assertEqual(api.resolve("Atlantis", ["x"]), [])
+
+	def test_search(self):
+		hits = api.search("xa", "alp")
+		self.assertEqual([h["value"] for h in hits], ["C1", "C3"])
+		self.assertEqual(
+			hits[0]["path"],
+			[
+				{"level": 1, "value": "R1", "label": "Ñorth Region"},
+				{"level": 2, "value": "C1", "label": "Alpha City", "aliases": ["Alfa", "Alpha"]},
+			],
+		)
+		self.assertEqual([h["value"] for h in api.search("xa", "alfa")], ["C1"])
+		self.assertEqual(api.search("xa", "a"), [])  # at least two characters
+		self.assertEqual(api.search("xa", "east", level=3)[0]["value"], "D1")
+		self.assertEqual(len(api.search("xa", "a", limit=1)), 0)
+		self.assertEqual(len(api.search("xa", "re", limit=1)), 1)
+		self.assertEqual(api.search("Atlantis", "alp"), [])
+		self.assertEqual(api.search("xb", "alp"), [])
+		self.assertIn(api.search, frappe.guest_methods)
+
+	def test_options_carry_aliases(self):
+		alpha = next(o for o in api.get_options("xa", 2, "R1") if o["value"] == "C1")
+		self.assertEqual(alpha["aliases"], ["Alfa", "Alpha"])
+		self.assertEqual(api.resolve("xa", ["north region", "ALFA"])[-1]["value"], "C1")
 
 	def test_postal_codes(self):
 		self.assertEqual(api.get_postal_codes("xa", 2, "C1"), {"codes": ["1000"], "level": 2})
@@ -94,7 +128,7 @@ class TestAPI(GeoTestCase):
 		self.assertEqual(api.get_postal_codes("xa", 2, "C1; drop"), {"codes": [], "level": None})
 
 	def test_endpoints_are_guest_accessible_and_read_only(self):
-		for fn in (api.get_hierarchy, api.get_options, api.resolve, api.get_postal_codes):
+		for fn in (api.get_hierarchy, api.get_options, api.resolve, api.get_postal_codes, api.search):
 			self.assertIn(fn, frappe.whitelisted, fn.__name__)
 			self.assertIn(fn, frappe.guest_methods, fn.__name__)
 		self.assertIn(api.get_supported_countries, frappe.whitelisted)
@@ -144,14 +178,28 @@ class TestAddressStaysNative(GeoTestCase):
 		for fieldname in ("state", "city", "county", "address_line2", "pincode"):
 			self.assertEqual(meta.get_field(fieldname).fieldtype, "Data", fieldname)
 		self.assertFalse(
-			frappe.get_all("Custom Field", filters={"dt": "Address", "fieldname": ("in", ("village", "barangay", "province", "municipality", "region", "district"))})
+			frappe.get_all(
+				"Custom Field",
+				filters={
+					"dt": "Address",
+					"fieldname": (
+						"in",
+						("village", "barangay", "province", "municipality", "region", "district"),
+					),
+				},
+			)
 		)
 		self.assertFalse(
-			frappe.get_all("Property Setter", filters={"doc_type": "Address", "property": ("in", ("fieldtype", "field_order"))})
+			frappe.get_all(
+				"Property Setter",
+				filters={"doc_type": "Address", "property": ("in", ("fieldtype", "field_order"))},
+			)
 		)
 
 	def test_manual_values_not_in_dataset_are_accepted(self):
-		doc = self._make(state="Made Up Province", city="Made Up City", county="Made Up Barangay", pincode="ABC-123")
+		doc = self._make(
+			state="Made Up Province", city="Made Up City", county="Made Up Barangay", pincode="ABC-123"
+		)
 		self.assertEqual(doc.state, "Made Up Province")
 		self.assertEqual(doc.county, "Made Up Barangay")
 
