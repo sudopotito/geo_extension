@@ -71,6 +71,8 @@ class TestValidator(unittest.TestCase):
 		self.assertEqual((dup.file, dup.line), ("level1.csv", 3))
 
 	def test_unknown_country_code_is_error_only_for_shipped_datasets(self):
+		if v._known_country_codes() is None:
+			self.skipTest("Frappe's country list is not available (no frappe package)")
 		lenient = v.validate_path(os.path.join(TEST_ROOT, "xa"))
 		self.assertTrue(any("not a country code known" in m for m in messages(lenient, v.WARNING)))
 		strict = v.validate_path(os.path.join(TEST_ROOT, "xa"), require_known_country=True)
