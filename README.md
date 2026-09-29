@@ -61,8 +61,6 @@ That is all. Open any Address, choose a supported country and the level fields t
   </picture>
 </a>
 
-**Upgrading from 1.x:** version 1.x customised the Address DocType. The first `bench migrate` after updating runs a one-time patch that removes those customisations and copies values from the old `village` field into `county` where it was empty. The 1.x endpoints under `geo_extension.geo_extension.locations` were replaced by `geo_extension.api`.
-
 ## How It Works
 
 1. **Country** moves directly below *Address Type* so it is chosen first. The level fields are reordered top-down and relabelled with the country's own terms (*Province*, *Bundesland*, *Barangay*). Nothing is hidden.
