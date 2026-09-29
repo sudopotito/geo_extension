@@ -1,9 +1,11 @@
 {
   "country_code": "sg",
-  "author": "CLU Assistant <clu@sudopotito.com>",
+  "name": "Singapore",
+  "description": "Singapore: URA planning areas. Codes are internal, not official.",
   "version": "1.0.0",
-  "description": "Singapore Planning Areas and Major Districts",
   "source": "https://www.ura.gov.sg",
+  "license": "",
+  "author": "CLU Assistant <clu@sudopotito.com>",
   "levels": [
     {
       "file": "level1.csv",

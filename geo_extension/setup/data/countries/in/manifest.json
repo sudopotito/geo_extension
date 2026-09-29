@@ -1,20 +1,21 @@
 {
   "country_code": "in",
-  "author": "sudo potito <sudopotito@gmail.com> | https://github.com/sudopotito/geo_extension",
+  "name": "India",
+  "description": "India: states and union territories with their districts/cities. Codes are internal, not official.",
   "version": "1.0.0",
-  "description": "",
   "source": "",
+  "license": "",
+  "author": "sudo potito <sudopotito@gmail.com> | https://github.com/sudopotito/geo_extension",
   "levels": [
     {
       "file": "level1.csv",
-      "label": "Province",
+      "label": "State/Union Territory",
       "target_field": "state"
     },
     {
       "file": "level2.csv",
-      "label": "City/Municipality",
-      "target_field": "city",
-      "parent_level": 1
+      "label": "District/City",
+      "target_field": "city"
     }
   ]
 }

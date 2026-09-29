@@ -3,7 +3,7 @@ app_title = "Geo Extension"
 app_publisher = "sudo potito"
 app_description = "Enhancing the Address Experience in Frappe"
 app_email = "sudopotito@gmail.com"
-app_license = "AGPLv3"
+app_license = "GPL-3.0"
 
 # Apps
 # ------------------
@@ -43,7 +43,8 @@ app_license = "AGPLv3"
 # page_js = {"page" : "public/js/file.js"}
 
 # include js in doctype views
-doctype_js = {"Address": "public/js/address.js"}
+# geo_selector.js is the reusable cascading-selector library; address.js wires it to Address.
+doctype_js = {"Address": ["public/js/geo_selector.js", "public/js/address.js"]}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
@@ -82,20 +83,21 @@ doctype_js = {"Address": "public/js/address.js"}
 # Installation
 # ------------
 
-before_install = "geo_extension.install.before_install"
+# geo_extension makes no schema/layout changes to Address. These hooks only
+# remove customizations left behind by versions <= 1.4 (see install.py).
 after_install = "geo_extension.install.after_install"
 
 
 # Migration
 # ------------
 
-after_migrate = "geo_extension.install.after_install"
+after_migrate = "geo_extension.install.after_migrate"
 
 
 # Uninstallation
 # ------------
 
-# before_uninstall = "geo_extension.uninstall.before_uninstall"
+before_uninstall = "geo_extension.install.before_uninstall"
 # after_uninstall = "geo_extension.uninstall.after_uninstall"
 
 # Integration Setup

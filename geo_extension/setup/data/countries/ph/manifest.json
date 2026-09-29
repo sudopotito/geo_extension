@@ -1,22 +1,26 @@
 {
   "country_code": "ph",
-  "author": "David Webb Espiritu <davidwebbespiritu@gmail.com> | https://www.linkedin.com/in/davidwebbespiritu",
+  "name": "Philippines",
+  "description": "Philippines: 84 provinces (incl. Metro Manila), 1,656 cities and municipalities and 42,011 barangays based on the Philippine Standard Geographic Code (PSGC). Codes are internal, not PSGC codes.",
   "version": "1.0.0",
-  "description": "Cities and Municipalities of the Philippines - 146 Cities & 1,488 Municipalities",
   "source": "https://psa.gov.ph/classification/psgc",
+  "license": "",
+  "author": "David Webb Espiritu <davidwebbespiritu@gmail.com> | https://www.linkedin.com/in/davidwebbespiritu",
   "levels": [
-    { "file": "level1.csv", "label": "Province", "target_field": "state" },
+    {
+      "file": "level1.csv",
+      "label": "Province",
+      "target_field": "state"
+    },
     {
       "file": "level2.csv",
       "label": "City/Municipality",
-      "target_field": "city",
-      "parent_level": 1
+      "target_field": "city"
     },
     {
       "file": "level3.csv",
       "label": "Barangay",
-      "target_field": "county",
-      "parent_level": 2
+      "target_field": "county"
     }
   ]
 }

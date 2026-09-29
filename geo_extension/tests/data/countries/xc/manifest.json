@@ -1,0 +1,4 @@
+{
+  "country_code": "xc",
+  "levels": [ { "file": "level1.csv", "label": "Region", "target_field": "region" } ]
+}

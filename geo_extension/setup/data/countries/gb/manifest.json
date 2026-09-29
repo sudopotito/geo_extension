@@ -1,9 +1,11 @@
 {
   "country_code": "gb",
-  "author": "CLU Assistant <clu@sudopotito.com>",
+  "name": "United Kingdom",
+  "description": "United Kingdom: counties/regions and major cities and towns. Partial coverage (major cities only); codes are internal, not official.",
   "version": "1.0.0",
-  "description": "United Kingdom Counties and Major Cities - England, Scotland, Wales, Northern Ireland",
   "source": "https://www.ons.gov.uk",
+  "license": "",
+  "author": "CLU Assistant <clu@sudopotito.com>",
   "levels": [
     {
       "file": "level1.csv",
@@ -13,8 +15,7 @@
     {
       "file": "level2.csv",
       "label": "City/Town",
-      "target_field": "city",
-      "parent_level": 1
+      "target_field": "city"
     }
   ]
 }
