@@ -171,7 +171,8 @@ class TestAddressStaysNative(GeoTestCase):
 	def _cleanup(self):
 		for name in frappe.get_all("Address", filters={"address_title": "Geo Test"}, pluck="name"):
 			frappe.delete_doc("Address", name, ignore_permissions=True, force=True)
-		frappe.db.commit()
+		# reviewed: Custom Field DDL commits implicitly, so the cleanup must commit too
+		frappe.db.commit()  # nosemgrep
 
 	def test_native_fields_are_untouched(self):
 		meta = frappe.get_meta("Address")

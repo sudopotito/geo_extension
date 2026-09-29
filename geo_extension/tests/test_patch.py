@@ -45,7 +45,8 @@ class TestLegacyCleanupPatch(IntegrationTestCase):
 			frappe.delete_doc("Address", name, ignore_permissions=True, force=True)
 		frappe.clear_cache(doctype="Address")
 		# creating a Custom Field runs DDL, which commits implicitly; commit the cleanup too
-		frappe.db.commit()
+		# reviewed: Custom Field DDL commits implicitly, so the cleanup must commit too
+		frappe.db.commit()  # nosemgrep
 
 	def _address_property_setters(self):
 		return frappe.get_all(

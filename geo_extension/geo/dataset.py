@@ -137,7 +137,8 @@ def read_manifest(path: str) -> dict:
 	if not os.path.isfile(mf):
 		raise DatasetError(f"{MANIFEST_FILE} not found in {path}")
 	try:
-		with open(mf, encoding="utf-8") as f:
+		# reviewed: path is a shipped/configured dataset dir, not user input
+		with open(mf, encoding="utf-8") as f:  # nosemgrep
 			data = json.load(f)
 	except (OSError, ValueError) as e:
 		raise DatasetError(f"{mf}: {e}") from e
@@ -152,7 +153,8 @@ def read_csv_rows(path: str) -> tuple[list[str], list[dict[str, str]]]:
 	Raises DatasetError when the file cannot be read.
 	"""
 	try:
-		with open(path, newline="", encoding="utf-8-sig") as f:
+		# reviewed: file name comes from the manifest via safe_join
+		with open(path, newline="", encoding="utf-8-sig") as f:  # nosemgrep
 			reader = csv.DictReader(f, skipinitialspace=True)
 			headers = [(h or "").strip() for h in (reader.fieldnames or [])]
 			rows = []

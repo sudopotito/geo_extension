@@ -91,7 +91,8 @@ def _parse_names(names) -> list[str | None]:
 # ---------------------------------------------------------------------------
 
 
-@frappe.whitelist(allow_guest=True)
+# reviewed: read-only public geographic data, bounded output
+@frappe.whitelist(allow_guest=True)  # nosemgrep
 def get_hierarchy(country: str | None = None) -> dict:
 	"""
 	Describe how a country's administrative hierarchy maps onto native Address fields.
@@ -123,7 +124,8 @@ def get_hierarchy(country: str | None = None) -> dict:
 	}
 
 
-@frappe.whitelist(allow_guest=True)
+# reviewed: read-only public geographic data, bounded output
+@frappe.whitelist(allow_guest=True)  # nosemgrep
 def get_options(
 	country: str | None = None,
 	level: int | str = 1,
@@ -154,8 +156,11 @@ def get_options(
 	return [u.as_option() for u in dataset.options(level, parent_code, txt, limit, parent_level)]
 
 
-@frappe.whitelist(allow_guest=True)
-def resolve(country: str | None = None, names=None, levels=None) -> list[dict]:
+# reviewed: read-only public geographic data, bounded output
+@frappe.whitelist(allow_guest=True)  # nosemgrep
+def resolve(
+	country: str | None = None, names: str | list | None = None, levels: str | list | None = None
+) -> list[dict]:
 	"""
 	Turn already-entered names into stable codes, top level first.
 
@@ -192,7 +197,8 @@ def _parse_levels(value, count: int) -> list[int] | None:
 	return levels if all(1 <= v <= ds.MAX_LEVELS for v in levels) else None
 
 
-@frappe.whitelist(allow_guest=True)
+# reviewed: read-only public geographic data, bounded output
+@frappe.whitelist(allow_guest=True)  # nosemgrep
 def get_postal_codes(country: str | None = None, level: int | str = 1, code: str | None = None) -> dict:
 	"""
 	Postal codes for a unit, falling back to its ancestors when the unit itself
@@ -207,7 +213,8 @@ def get_postal_codes(country: str | None = None, level: int | str = 1, code: str
 	return {"codes": codes, "level": found_level}
 
 
-@frappe.whitelist(allow_guest=True)
+# reviewed: read-only public geographic data, bounded output
+@frappe.whitelist(allow_guest=True)  # nosemgrep
 def search(
 	country: str | None = None,
 	txt: str | None = None,

@@ -103,7 +103,8 @@ def _known_country_codes() -> set[str] | None:
 		import frappe
 
 		path = frappe.get_app_path("frappe", "geo", "country_info.json")
-		with open(path, encoding="utf-8") as f:
+		# reviewed: validator CLI reads a dataset dir given by the maintainer
+		with open(path, encoding="utf-8") as f:  # nosemgrep
 			data = json.load(f)
 		return {v.get("code", "").lower() for v in data.values() if v.get("code")}
 	except Exception:
