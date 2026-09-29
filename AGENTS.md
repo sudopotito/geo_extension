@@ -23,6 +23,7 @@ Turns the native Frappe **Address** form into a cascading, country-aware selecto
 | `geo_extension/api.py` | Whitelisted endpoints: `get_hierarchy`, `get_options`, `resolve`, `get_postal_codes` (guest, read-only), `get_supported_countries`. |
 | `geo_extension/commands/__init__.py` | `bench geo-extension validate|list`. |
 | `geo_extension/install.py` | Legacy cleanup hooks only. |
+| `geo_extension/geo_extension/__init__.py` | Empty package for the "Geo Extension" module in `modules.txt`. `bench migrate` imports it; do not delete. |
 | `geo_extension/public/js/geo_selector.js` | `frappe.geo_extension`: cached client, `GeoCascade`, `FormAdapter`, `WebFormAdapter`, `attach_suggestions`. Loaded on every desk page (`app_include_js`). |
 | `geo_extension/public/js/quick_entry.js` | Patches `QuickEntryForm.render_dialog` to attach the cascade to dialogs with address fields (`DialogAdapter`). |
 | `geo_extension/public/js/address.js` | Address form wiring: build cascade on load / country change, DOM reordering of fields, level change events. |
@@ -30,6 +31,7 @@ Turns the native Frappe **Address** form into a cascading, country-aware selecto
 | `geo_extension/tests/` | Python tests: unit (dataset, validator; no site) and integration (API, install, Address). Fixtures in `tests/data/countries/x?`. |
 | `tests/js/` | `node --test` suite for the cascade with a fake adapter and stubbed API. |
 | `tools/psgc/`, `tools/geonames/`, `tools/datagovsg/` | Dataset builders (official PSGC xlsx, GeoNames dumps + postal files, data.gov.sg). Not installed with the app. |
+| `.github/workflows/` | `linters.yml` (pre-commit, dataset validation, site-independent unit tests, JS tests), `ci.yml` (full site tests on Frappe v15 and v16 + uninstall leaves Address untouched), release workflows. |
 | `template/` | Contributor template dataset + guide. |
 
 ## Cascade semantics (geo_selector.js)
