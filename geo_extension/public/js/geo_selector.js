@@ -139,6 +139,11 @@
 		}
 		if (input._geo_provider !== provider) return; // superseded meanwhile
 		if (items.length) {
+			// aliases are not part of Awesomplete's suggestion text; keep them for the filter
+			const alias_map = Object.create(null);
+			for (const item of items)
+				if (item.aliases && item.aliases.length) alias_map[item.value] = item.aliases;
+			input._geo_aliases = alias_map;
 			aw.list = items; // the setter re-evaluates while the input is focused
 		} else {
 			aw.list = [];
@@ -159,6 +164,13 @@
 				maxItems: 50,
 				autoFirst: false,
 				sort: false,
+				filter(suggestion, text) {
+					if (window.Awesomplete.FILTER_CONTAINS(suggestion.label, text)) return true;
+					const aliases = (input._geo_aliases || {})[suggestion.value] || [];
+					return aliases.some((alias) =>
+						window.Awesomplete.FILTER_CONTAINS(alias, text)
+					);
+				},
 				replace(suggestion) {
 					this.input.value = suggestion.label;
 				},

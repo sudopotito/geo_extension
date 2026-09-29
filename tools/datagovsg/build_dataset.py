@@ -33,9 +33,9 @@ POLL_URL = f"https://api-open.data.gov.sg/v1/public/api/datasets/{DATASET_ID}/po
 
 
 def fetch_geojson() -> dict:
-	with urllib.request.urlopen(POLL_URL, timeout=60) as r:  # noqa: S310
+	with urllib.request.urlopen(POLL_URL, timeout=60) as r:
 		url = json.load(r)["data"]["url"]
-	with urllib.request.urlopen(url, timeout=120) as r:  # noqa: S310
+	with urllib.request.urlopen(url, timeout=120) as r:
 		return json.load(r)
 
 

@@ -41,7 +41,10 @@ function make_env({ responses = {} } = {}) {
 	Object.assign(globalThis, { window: globalThis, frappe, $, __: (s) => s });
 	delete globalThis.Awesomplete; // suggestions are optional; tests use a fake adapter
 	delete frappe.geo_extension;
-	const src = fs.readFileSync(path.join(__dirname, "..", "..", "geo_extension", "public", "js", "geo_selector.js"), "utf8");
+	const src = fs.readFileSync(
+		path.join(__dirname, "..", "..", "geo_extension", "public", "js", "geo_selector.js"),
+		"utf8"
+	);
 	vm.runInThisContext(src, { filename: "geo_selector.js" });
 	env.geo = frappe.geo_extension;
 	return env;
@@ -111,18 +114,30 @@ function dataset_responses() {
 		],
 		"3:C2": [{ value: "D3", label: "Centre" }],
 	};
-	const postal = { "2:C1": ["1000"], "3:D1": ["1000"], "3:D2": ["1000"], "2:C2": ["2000", "2001"] };
+	const postal = {
+		"2:C1": ["1000"],
+		"3:D1": ["1000"],
+		"3:D2": ["1000"],
+		"2:C2": ["2000", "2001"],
+	};
 	return {
-		"geo_extension.api.get_hierarchy": ({ country }) => (country === "Testland" ? hierarchy : { supported: false, levels: [] }),
-		"geo_extension.api.get_options": ({ level, parent }) => options[`${level}:${parent || ""}`] || [],
-		"geo_extension.api.get_postal_codes": ({ level, code }) => ({ codes: postal[`${level}:${code}`] || [], level }),
+		"geo_extension.api.get_hierarchy": ({ country }) =>
+			country === "Testland" ? hierarchy : { supported: false, levels: [] },
+		"geo_extension.api.get_options": ({ level, parent }) =>
+			options[`${level}:${parent || ""}`] || [],
+		"geo_extension.api.get_postal_codes": ({ level, code }) => ({
+			codes: postal[`${level}:${code}`] || [],
+			level,
+		}),
 		"geo_extension.api.resolve": ({ names }) => {
 			const list = JSON.parse(names);
 			const chain = [];
 			let parent = "";
 			for (let i = 0; i < list.length; i++) {
 				if (!list[i]) break;
-				const hit = (options[`${i + 1}:${parent}`] || []).find((o) => o.label.toLowerCase() === list[i].toLowerCase());
+				const hit = (options[`${i + 1}:${parent}`] || []).find(
+					(o) => o.label.toLowerCase() === list[i].toLowerCase()
+				);
 				if (!hit) break;
 				chain.push({ level: i + 1, value: hit.value, label: hit.label });
 				parent = hit.value;

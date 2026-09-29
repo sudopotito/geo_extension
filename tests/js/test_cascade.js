@@ -26,7 +26,12 @@ test("setup relabels fields and attaches suggestions", async () => {
 	const { adapter, cascade } = await make_cascade();
 	assert.deepEqual(cascade.level_fields, ["state", "city", "county"]);
 	assert.deepEqual(adapter.labels, { state: "Region", city: "City", county: "District" });
-	assert.deepEqual(Object.keys(adapter.providers).sort(), ["city", "county", "pincode", "state"]);
+	assert.deepEqual(Object.keys(adapter.providers).sort(), [
+		"city",
+		"county",
+		"pincode",
+		"state",
+	]);
 	assert.deepEqual(await adapter.providers.state(), [
 		{ value: "R1", label: "North Region" },
 		{ value: "R2", label: "South Region" },
@@ -39,7 +44,10 @@ test("selecting a parent filters children and a different parent clears them", a
 	adapter.values.state = "North Region";
 	await cascade.handle_change("state");
 	assert.deepEqual(cascade.codes, ["R1", null, null]);
-	assert.deepEqual((await adapter.providers.city()).map((o) => o.value), ["C1", "C2"]);
+	assert.deepEqual(
+		(await adapter.providers.city()).map((o) => o.value),
+		["C1", "C2"]
+	);
 
 	adapter.values.city = "Beta City";
 	await cascade.handle_change("city");
@@ -52,7 +60,10 @@ test("selecting a parent filters children and a different parent clears them", a
 	assert.deepEqual(cascade.codes, ["R2", null, null]);
 	assert.equal(adapter.values.city, "");
 	assert.equal(adapter.values.county, "");
-	assert.deepEqual((await adapter.providers.city()).map((o) => o.value), ["C3"]);
+	assert.deepEqual(
+		(await adapter.providers.city()).map((o) => o.value),
+		["C3"]
+	);
 });
 
 test("free text keeps lower levels; clearing a level clears below", async () => {
@@ -67,7 +78,11 @@ test("free text keeps lower levels; clearing a level clears below", async () => 
 	adapter.values.city = "Alpha Cty"; // typo: not in the dataset
 	await cascade.handle_change("city");
 	assert.deepEqual(cascade.codes, ["R1", null, null]);
-	assert.equal(adapter.values.county, "East", "manual edits never wipe what the user entered below");
+	assert.equal(
+		adapter.values.county,
+		"East",
+		"manual edits never wipe what the user entered below"
+	);
 
 	adapter.values.city = "";
 	await cascade.handle_change("city");
@@ -85,7 +100,11 @@ test("aliases and case/accents resolve to the same unit", async () => {
 });
 
 test("existing values are resolved on setup without changing them", async () => {
-	const { adapter, cascade } = await make_cascade("Testland", { state: "South Region", city: "Alpha City", county: "Nowhere" });
+	const { adapter, cascade } = await make_cascade("Testland", {
+		state: "South Region",
+		city: "Alpha City",
+		county: "Nowhere",
+	});
 	assert.deepEqual(cascade.codes, ["R2", "C3", null]);
 	assert.deepEqual(adapter.log, []);
 	assert.equal(adapter.values.county, "Nowhere");
@@ -107,7 +126,10 @@ test("postal code: unique fills, ambiguous suggests, manual is kept, stale auto 
 	adapter.values.city = "Beta City"; // two codes: never guess
 	await cascade.handle_change("city");
 	assert.equal(adapter.values.pincode, "");
-	assert.deepEqual(cascade.postal_options.map((o) => o.value), ["2000", "2001"]);
+	assert.deepEqual(
+		cascade.postal_options.map((o) => o.value),
+		["2000", "2001"]
+	);
 	assert.deepEqual(await adapter.providers.pincode(), cascade.postal_options);
 
 	adapter.values.pincode = "9999"; // typed by the user
@@ -128,7 +150,10 @@ test("clear_values resets levels and auto postal but not a manual postal code", 
 	await cascade.handle_change("city");
 	assert.equal(adapter.values.pincode, "1000");
 	await cascade.clear_values();
-	assert.deepEqual([adapter.values.state, adapter.values.city, adapter.values.pincode], ["", "", ""]);
+	assert.deepEqual(
+		[adapter.values.state, adapter.values.city, adapter.values.pincode],
+		["", "", ""]
+	);
 	assert.deepEqual(cascade.codes, [null, null, null]);
 
 	adapter.values.pincode = "4321";

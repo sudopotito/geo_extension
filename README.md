@@ -6,7 +6,8 @@
   <h1>Geo Extension</h1>
   <h4>Fast, consistent address entry for Frappe / ERPNext</h4>
 
-  <img src=".github/hero.gif" alt="Geo Extension Hero" width="100%" />
+  <img src=".github/hero.gif" alt="Geo Extension: Iloilo > City of Iloilo > San Rafael selected step by step with the postal code filled automatically, then a United States address" width="100%" />
+  <p><sub>Also available as <a href=".github/hero.mp4">hero.mp4</a>. Screenshots in <a href=".github/screenshots">.github/screenshots</a>.</sub></p>
 
 <br><br>
 
@@ -60,7 +61,7 @@ Cities and towns from GeoNames are populated places with a population of at leas
 2. The level fields are reordered top-down according to the country's hierarchy and relabelled with the country's own terms (e.g. *Province*, *Bundesland*, *Barangay*). Nothing is hidden.
 3. Each level field gets a suggestion dropdown. Level 1 lists the top-level units; every lower level lists only the children of the unit selected above it.
 4. Selecting a **different** unit at any level (or clearing the field) clears the levels below it. Free text that matches nothing is kept as typed and lower levels are left alone, so fixing a spelling by hand never wipes the rest of the address.
-5. When an existing Address is opened, the stored names are resolved back to dataset units so the dropdowns continue to filter correctly. Matching ignores case and accents and also accepts a unit's **aliases** (old names and common variants such as "Cebu City" for "City of Cebu").
+5. When an existing Address is opened, the stored names are resolved back to dataset units so the dropdowns continue to filter correctly. Matching ignores case and accents and also accepts a unit's **aliases** (old names and common variants such as "Iloilo City" for "City of Iloilo").
 6. Changing the Country clears the level values and rebuilds the cascade for the new country.
 7. The same behaviour is available in **quick-entry dialogs** (Address quick entry, ERPNext's Customer/Supplier quick entry) whenever the dialog has a country field and at least one level field.
 
@@ -179,14 +180,14 @@ All endpoints are read-only, country-agnostic and allow guest access (geographic
 `value` is the dataset's stable code, `label` the display name, and `aliases` (when present) the accepted alternative spellings. Names are what gets stored in Address; codes only live in the cascade.
 
 ```bash
-curl "https://your-site/api/method/geo_extension.api.get_options?country=ph&level=2&parent=0702200000"
+curl "https://your-site/api/method/geo_extension.api.get_options?country=ph&level=2&parent=0603000000"
 ```
 
 ```python
 from geo_extension import api
 api.get_hierarchy("Philippines")["levels"]
-api.get_options("ph", 2, parent="0702200000")      # cities and municipalities of Cebu
-api.search("ph", "lahug")                          # -> path Cebu > City of Cebu > Lahug
+api.get_options("ph", 2, parent="0603000000")      # cities and municipalities of Iloilo
+api.search("ph", "san rafael")                     # -> e.g. Iloilo > City of Iloilo > San Rafael
 ```
 
 Site-specific or private datasets can be added without forking the app by pointing `geo_extension_dataset_roots` in `site_config.json` at one or more directories laid out like `setup/data/countries`.

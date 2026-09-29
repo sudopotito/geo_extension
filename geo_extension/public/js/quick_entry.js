@@ -46,12 +46,14 @@
 		set_label(fieldname, label) {
 			const ctrl = this.field(fieldname);
 			if (!ctrl || typeof ctrl.set_label !== "function") return;
-			if (!(fieldname in this.original_labels)) this.original_labels[fieldname] = ctrl.df.label;
+			if (!(fieldname in this.original_labels))
+				this.original_labels[fieldname] = ctrl.df.label;
 			ctrl.set_label(label);
 		}
 		restore_label(fieldname) {
 			const ctrl = this.field(fieldname);
-			if (ctrl && fieldname in this.original_labels) ctrl.set_label(this.original_labels[fieldname]);
+			if (ctrl && fieldname in this.original_labels)
+				ctrl.set_label(this.original_labels[fieldname]);
 		}
 		attach_suggestions(fieldname, provider) {
 			frappe.geo_extension.attach_suggestions(this.get_input(fieldname), provider);
@@ -74,8 +76,11 @@
 	}
 
 	function attach(dialog) {
-		if (!frappe.geo_extension || !frappe.geo_extension.GeoCascade || dialog.__geo_cascade) return;
-		const country_field = COUNTRY_FIELDS.find((f) => dialog.fields_dict && dialog.fields_dict[f]);
+		if (!frappe.geo_extension || !frappe.geo_extension.GeoCascade || dialog.__geo_cascade)
+			return;
+		const country_field = COUNTRY_FIELDS.find(
+			(f) => dialog.fields_dict && dialog.fields_dict[f]
+		);
 		if (!country_field) return;
 		if (!LEVEL_FIELDS.some((f) => dialog.fields_dict[f])) return;
 
@@ -101,9 +106,11 @@
 				const auto = old.auto_postal;
 				old.teardown();
 				state.cascade = null;
-				if (auto && dialog.get_value("pincode") === auto) await adapter.set_value("pincode", "");
+				if (auto && dialog.get_value("pincode") === auto)
+					await adapter.set_value("pincode", "");
 				for (const f of fields) {
-					if (dialog.fields_dict[f] && dialog.get_value(f)) await adapter.set_value(f, "");
+					if (dialog.fields_dict[f] && dialog.get_value(f))
+						await adapter.set_value(f, "");
 				}
 			}
 			await setup();

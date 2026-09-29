@@ -88,7 +88,14 @@ SYNTHETIC_PROVINCES = {
 	"19999": ("1999900000", "Special Geographic Area", ["SGA", "Bangsamoro Special Geographic Area"]),
 }
 
-ABBREVIATIONS = {"sta.": "santa", "sto.": "santo", "gen.": "general", "sn.": "san", "mt.": "mount", "ft.": "fort"}
+ABBREVIATIONS = {
+	"sta.": "santa",
+	"sto.": "santo",
+	"gen.": "general",
+	"sn.": "san",
+	"mt.": "mount",
+	"ft.": "fort",
+}
 
 
 def norm(text: str) -> str:
@@ -180,7 +187,9 @@ def build(rows: list[dict]) -> tuple[list[dict], list[dict], list[dict], list[st
 		elif r["name"] in INDEPENDENT_CITIES:
 			parent = province_by_name.get(norm(INDEPENDENT_CITIES[r["name"]]))
 			if parent is None:
-				notes.append(f"skipped {r['name']} ({code}): province '{INDEPENDENT_CITIES[r['name']]}' not found")
+				notes.append(
+					f"skipped {r['name']} ({code}): province '{INDEPENDENT_CITIES[r['name']]}' not found"
+				)
 				continue
 			notes.append(f"{r['name']} ({code}) listed under {INDEPENDENT_CITIES[r['name']]}")
 		else:
@@ -203,7 +212,9 @@ def build(rows: list[dict]) -> tuple[list[dict], list[dict], list[dict], list[st
 		if parent not in level2_codes:
 			skipped_bgy += 1
 			continue
-		level3.append({"code": code, "parent": parent, "name": r["name"], "aliases": [a for a in [r["old"]] if a]})
+		level3.append(
+			{"code": code, "parent": parent, "name": r["name"], "aliases": [a for a in [r["old"]] if a]}
+		)
 	if skipped_bgy:
 		notes.append(f"skipped {skipped_bgy} barangays without a city/municipality")
 	assert all(u["parent"] in level1_codes for u in level2)
@@ -228,9 +239,15 @@ def drop_ambiguous_aliases(units: list[dict]) -> None:
 		]
 
 
-def match_postal(zip_path: str, level1: list[dict], level2: list[dict]) -> tuple[list[tuple[int, str, str]], int]:
+def match_postal(
+	zip_path: str, level1: list[dict], level2: list[dict]
+) -> tuple[list[tuple[int, str, str]], int]:
 	with zipfile.ZipFile(zip_path) as z, z.open("PH.txt") as f:
-		rows = list(csv.reader(io.TextIOWrapper(f, encoding="utf-8", newline=""), delimiter="\t", quoting=csv.QUOTE_NONE))
+		rows = list(
+			csv.reader(
+				io.TextIOWrapper(f, encoding="utf-8", newline=""), delimiter="\t", quoting=csv.QUOTE_NONE
+			)
+		)
 	prov_by_key: dict[str, str] = {}
 	for u in level1:
 		for key in [u["name"], *u["aliases"]]:
@@ -284,7 +301,9 @@ def write(out_dir: str, level1, level2, level3, postal, meta, notes, source_file
 			w = csv.writer(f, lineterminator="\n")
 			w.writerow((["parent_code"] if with_parent else []) + ["code", "name", "aliases"])
 			for u in sorted(units, key=lambda u: (u.get("parent", ""), norm(u["name"]), u["code"])):
-				w.writerow(([u["parent"]] if with_parent else []) + [u["code"], u["name"], "|".join(u["aliases"])])
+				w.writerow(
+					([u["parent"]] if with_parent else []) + [u["code"], u["name"], "|".join(u["aliases"])]
+				)
 
 	dump("level1.csv", level1, False)
 	dump("level2.csv", level2, True)
@@ -299,7 +318,8 @@ def write(out_dir: str, level1, level2, level3, postal, meta, notes, source_file
 			"City of Isabela is listed under Basilan; barangays of Manila's sub-municipalities are listed under the City of Manila."
 		),
 		"version": date.today().strftime("%Y.%m.%d"),
-		"source": "Philippine Statistics Authority - Philippine Standard Geographic Code (PSGC), " + os.path.basename(source_file),
+		"source": "Philippine Statistics Authority - Philippine Standard Geographic Code (PSGC), "
+		+ os.path.basename(source_file),
 		"source_url": "https://psa.gov.ph/classification/psgc",
 		"license": "Free to use with acknowledgement of the Philippine Statistics Authority (PSA) as the source (PSGC use constraints)",
 		"author": "David Webb Espiritu <davidwebbespiritu@gmail.com> | https://www.linkedin.com/in/davidwebbespiritu",
@@ -325,7 +345,9 @@ def write(out_dir: str, level1, level2, level3, postal, meta, notes, source_file
 		f.write("\n")
 	for n in notes:
 		print("  note:", n)
-	print(f"  wrote {out_dir}: {len(level1)} / {len(level2)} / {len(level3)} records, {len(postal)} postal rows")
+	print(
+		f"  wrote {out_dir}: {len(level1)} / {len(level2)} / {len(level3)} records, {len(postal)} postal rows"
+	)
 
 
 def main(argv=None) -> int:

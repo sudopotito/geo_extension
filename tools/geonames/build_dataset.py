@@ -73,7 +73,7 @@ def download(url: str, dest: str) -> str:
 		return dest
 	os.makedirs(os.path.dirname(dest), exist_ok=True)
 	print(f"downloading {url}")
-	with urllib.request.urlopen(url, timeout=600) as r, open(dest, "wb") as f:  # noqa: S310
+	with urllib.request.urlopen(url, timeout=600) as r, open(dest, "wb") as f:
 		while True:
 			chunk = r.read(1 << 20)
 			if not chunk:
@@ -154,7 +154,9 @@ class Builder:
 						continue
 					parent_code = None
 					if i > 0:
-						parent_code = self._find_parent(tuple(r[A1 : A1 + (max_place_depth or 1)]), levels[:i], parent_paths)
+						parent_code = self._find_parent(
+							tuple(r[A1 : A1 + (max_place_depth or 1)]), levels[:i], parent_paths
+						)
 						if parent_code is None:
 							continue
 					key = (parent_code, norm(r[NAME]))
@@ -187,7 +189,14 @@ class Builder:
 		if r[ASCII] and norm(r[ASCII]) != norm(r[NAME]):
 			aliases.append(r[ASCII])
 		name = re.sub(r"\s+", " ", r[NAME]).strip()
-		return {"code": r[GID], "name": name, "parent": parent, "aliases": aliases, "path": tuple(r[A1 : A4 + 1]), "pop": int(r[POP] or 0)}
+		return {
+			"code": r[GID],
+			"name": name,
+			"parent": parent,
+			"aliases": aliases,
+			"path": tuple(r[A1 : A4 + 1]),
+			"pop": int(r[POP] or 0),
+		}
 
 	# -- postal codes -------------------------------------------------------
 
@@ -244,7 +253,9 @@ class Builder:
 			target = None
 			for source in attach_to:
 				if source == "P" and "P" in source_to_level:
-					parent_source = levels[source_to_level["P"] - 1]["source"] if source_to_level["P"] > 0 else None
+					parent_source = (
+						levels[source_to_level["P"] - 1]["source"] if source_to_level["P"] > 0 else None
+					)
 					parent_code = None
 					if parent_source:
 						parent_code = find_admin(parent_source, path)
@@ -272,14 +283,16 @@ class Builder:
 		os.makedirs(out_dir, exist_ok=True)
 		levels = self.config["levels"]
 		counts = []
-		for i, lvl in enumerate(levels):
+		for i in range(len(levels)):
 			units = self.level_units[i]
 			fname = f"level{i + 1}.csv"
 			with open(os.path.join(out_dir, fname), "w", newline="", encoding="utf-8") as f:
 				w = csv.writer(f, lineterminator="\n")
 				headers = (["parent_code"] if i > 0 else []) + ["code", "name", "aliases"]
 				w.writerow(headers)
-				ordered = sorted(units.values(), key=lambda u: (u["parent"] or "", norm(u["name"]), u["code"]))
+				ordered = sorted(
+					units.values(), key=lambda u: (u["parent"] or "", norm(u["name"]), u["code"])
+				)
 				for u in ordered:
 					row = ([u["parent"]] if i > 0 else []) + [u["code"], u["name"], "|".join(u["aliases"])]
 					w.writerow(row)
@@ -293,9 +306,14 @@ class Builder:
 			"source": "https://www.geonames.org/ (GeoNames gazetteer and postal code dumps)",
 			"source_url": f"{BASE_URL}/dump/{self.CC}.zip",
 			"license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/) - data (c) GeoNames.org",
-			"author": self.config.get("author", "geo_extension maintainers (generated with tools/geonames/build_dataset.py)"),
+			"author": self.config.get(
+				"author", "geo_extension maintainers (generated with tools/geonames/build_dataset.py)"
+			),
 			"updated": date.today().isoformat(),
-			"levels": [{"file": f"level{i + 1}.csv", "label": l["label"], "target_field": l["target_field"]} for i, l in enumerate(levels)],
+			"levels": [
+				{"file": f"level{i + 1}.csv", "label": l["label"], "target_field": l["target_field"]}
+				for i, l in enumerate(levels)
+			],
 		}
 		if postal:
 			with open(os.path.join(out_dir, "postal_codes.csv"), "w", newline="", encoding="utf-8") as f:
@@ -313,7 +331,9 @@ class Builder:
 
 
 def main(argv=None) -> int:
-	parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+	parser = argparse.ArgumentParser(
+		description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
+	)
 	parser.add_argument("countries", nargs="+", help="country codes present in countries.json")
 	parser.add_argument("--config", default=os.path.join(HERE, "countries.json"))
 	parser.add_argument("--work", default=os.path.join(HERE, ".work"), help="download cache directory")
