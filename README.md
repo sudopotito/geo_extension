@@ -63,7 +63,7 @@ Cities and towns from GeoNames are populated places with a population of at leas
 4. Selecting a **different** unit at any level (or clearing the field) clears the levels below it. Free text that matches nothing is kept as typed and lower levels are left alone, so fixing a spelling by hand never wipes the rest of the address.
 5. When an existing Address is opened, the stored names are resolved back to dataset units so the dropdowns continue to filter correctly. Matching ignores case and accents and also accepts a unit's **aliases** (old names and common variants such as "Iloilo City" for "City of Iloilo").
 6. Changing the Country clears the level values and rebuilds the cascade for the new country.
-7. The same behaviour is available in **quick-entry dialogs** (Address quick entry, ERPNext's Customer/Supplier quick entry) whenever the dialog has a country field and at least one level field.
+7. The same behaviour is available in **quick-entry dialogs** (Address quick entry, ERPNext's Customer/Supplier quick entry) whenever the dialog has a country field and at least one level field, and in **Address Web Forms** on the website, such as ERPNext's portal address form at `/address` (field order is not changed there).
 
 ### Native field mapping
 
@@ -104,11 +104,12 @@ A postal code typed by the user is never overwritten.
                 │  HTTP (guest accessible, read only)
  ┌──────────────▼───────────────────────────────────────────────┐
  │  public/js/geo_selector.js   frappe.geo_extension            │  3. reusable selector
- │      client (cached) · GeoCascade · FormAdapter · WebFormAdapter │
+ │      client (cached) · GeoCascade · FormAdapter · FieldGroupAdapter │
  └──────────────┬───────────────────────────────────────────────┘
                 │
  ┌──────────────▼───────────────────────────────────────────────┐
  │  public/js/address.js   wires GeoCascade to the Address form │  4. Address integration
+ │  quick_entry.js · address_web_form.js   dialogs and Web Forms │
  └──────────────────────────────────────────────────────────────┘
 ```
 
@@ -202,7 +203,7 @@ Site-specific or private datasets can be added without forking the app by pointi
 frappe.require("/assets/geo_extension/js/geo_selector.js");
 ```
 
-Quick-entry dialogs are handled automatically by `quick_entry.js`, which attaches the cascade to any `QuickEntryForm` that has a `country` (or ERPNext's `country_address`) field plus at least one of `state`, `county`, `city`, `address_line2`. Other dialogs can call `frappe.geo_extension.attach_to_dialog(dialog)` or use `frappe.geo_extension.DialogAdapter`.
+Quick-entry dialogs are handled automatically by `quick_entry.js`, which attaches the cascade to any `QuickEntryForm` that has a `country` (or ERPNext's `country_address`) field plus at least one of `state`, `county`, `city`, `address_line2`. Any other `frappe.ui.Dialog` or `FieldGroup` with such fields can call `frappe.geo_extension.attach_to_field_group(dialog)`.
 
 ### In another desk DocType
 
@@ -229,9 +230,21 @@ frappe.ui.form.on("Delivery Point", {
 
 The DocType must have fields named like the dataset's `target_field`s (`state`, `city`, `county`, `address_line2`) plus optionally `pincode`. Levels whose target field does not exist on the form are skipped.
 
-### In a Web Form or custom page
+### In a Web Form
 
-`WebFormAdapter` wraps `frappe.web_form`. Any other UI can supply its own adapter object implementing `has_field`, `get_value`, `set_value`, `get_input`, `set_label`, `restore_label`, `attach_suggestions` and `detach_suggestions`, or just use the `client` methods (`get_hierarchy`, `get_options`, `resolve`, `get_postal_codes`) directly. Responses are cached in the browser per country/level/parent.
+Standard Web Forms on Address (for example ERPNext's portal form at `/address`) are wired automatically through `hooks.webform_include_js` ([screenshot](.github/screenshots/screenshot4.png)). A custom Web Form on Address or on another DocType with the same field names can do the same from its client script:
+
+```js
+frappe.ready(() => {
+	frappe.require("/assets/geo_extension/js/geo_selector.js", () =>
+		frappe.geo_extension.attach_to_field_group(frappe.web_form)
+	);
+});
+```
+
+### In a custom page
+
+Any other UI can supply its own adapter object implementing `has_field`, `get_value`, `set_value`, `get_input`, `set_label`, `restore_label`, `attach_suggestions` and `detach_suggestions` (see `FormAdapter` and `FieldGroupAdapter` in `geo_selector.js`), or just use the `client` methods (`get_hierarchy`, `get_options`, `resolve`, `get_postal_codes`) directly. Responses are cached in the browser per country/level/parent.
 
 ---
 
@@ -365,7 +378,7 @@ The dataset engine and validator tests run without a site (`python -m unittest g
 - No postal codes for the United Kingdom and Singapore, where a postcode identifies a street or building rather than an area.
 - Datasets are shipped with the app; updating data means updating the app (or using `geo_extension_dataset_roots`).
 - A name edited by hand that matches neither a name nor an alias ends the cascade at that level, by design.
-- `WebFormAdapter` follows the Web Form client API but has not been exercised by automated tests.
+- Web Forms keep their own field order; only labels, suggestions and postal codes are applied there. Non-standard Web Forms need the one-line client script shown above.
 - Frappe v15 support is verified by importing the app and running the site-independent tests against v15; the full suite and browser checks ran on v16.
 
 ---

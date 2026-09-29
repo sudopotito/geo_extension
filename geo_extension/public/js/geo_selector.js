@@ -14,7 +14,8 @@
  *
  *   GeoCascade   country-agnostic cascade engine working through an adapter
  *   FormAdapter  adapter for desk forms (frappe.ui.form.Form)
- *   WebFormAdapter adapter for website Web Forms (frappe.web_form)
+ *   FieldGroupAdapter adapter for dialogs and website Web Forms (any frappe.ui.FieldGroup)
+ *   attach_to_field_group(group) wires a dialog/Web Form with address fields automatically
  *   attach_suggestions(input, provider) / detach_suggestions(input)
  *
  * The engine never restricts input: suggestions are attached to plain Data
@@ -22,6 +23,11 @@
  * deliberate selection (or clearing) of a level cascades to lower levels.
  *
  * Load in another app/page with: frappe.require("/assets/geo_extension/js/geo_selector.js")
+ *
+ * This file is also inlined into Address Web Forms (hooks.webform_include_js),
+ * where Frappe renders it as a Jinja template: it must never contain Jinja
+ * delimiters (double braces, brace-percent, brace-hash) or a dot followed by
+ * two underscores (see tests/js/test_field_group.js).
  */
 
 (function () {
@@ -241,35 +247,42 @@
 		}
 	}
 
-	class WebFormAdapter {
-		constructor(web_form) {
-			this.web_form = web_form || frappe.web_form;
+	/**
+	 * Adapter for any frappe.ui.FieldGroup: dialogs (quick entry) and website
+	 * Web Forms (frappe.web_form). Both expose fields_dict/get_value/set_value.
+	 */
+	class FieldGroupAdapter {
+		constructor(group) {
+			this.group = group;
+			this.original_labels = {};
+		}
+		field(fieldname) {
+			return this.group.fields_dict && this.group.fields_dict[fieldname];
 		}
 		has_field(fieldname) {
-			return !!(this.web_form.fields_dict && this.web_form.fields_dict[fieldname]);
+			return !!this.field(fieldname);
 		}
 		get_value(fieldname) {
-			return this.web_form.get_value(fieldname);
+			return this.group.get_value(fieldname);
 		}
 		set_value(fieldname, value) {
-			return Promise.resolve(this.web_form.set_value(fieldname, value));
+			return Promise.resolve(this.group.set_value(fieldname, value));
 		}
 		get_input(fieldname) {
-			const ctrl = this.web_form.fields_dict[fieldname];
+			const ctrl = this.field(fieldname);
 			return ctrl && ctrl.$input ? ctrl.$input.get(0) : null;
 		}
 		set_label(fieldname, label) {
-			const ctrl = this.web_form.fields_dict[fieldname];
-			if (!ctrl) return;
-			const key = `webform:${fieldname}`;
-			if (!original_labels.has(key)) original_labels.set(key, ctrl.df.label);
-			this.web_form.set_df_property(fieldname, "label", label);
+			const ctrl = this.field(fieldname);
+			if (!ctrl || typeof ctrl.set_label !== "function") return;
+			if (!(fieldname in this.original_labels))
+				this.original_labels[fieldname] = ctrl.df.label;
+			ctrl.set_label(label);
 		}
 		restore_label(fieldname) {
-			const key = `webform:${fieldname}`;
-			if (original_labels.has(key)) {
-				this.web_form.set_df_property(fieldname, "label", original_labels.get(key));
-			}
+			const ctrl = this.field(fieldname);
+			if (ctrl && fieldname in this.original_labels)
+				ctrl.set_label(this.original_labels[fieldname]);
 		}
 		attach_suggestions(fieldname, provider) {
 			attach_suggestions(this.get_input(fieldname), provider);
@@ -277,6 +290,73 @@
 		detach_suggestions(fieldname) {
 			detach_suggestions(this.get_input(fieldname));
 		}
+	}
+
+	// ERPNext's contact/address quick entry names the country field "country_address"
+	const COUNTRY_FIELDS = ["country", "country_address"];
+	const LEVEL_FIELDS = ["state", "county", "city", "address_line2"];
+
+	/** Run `handler` after the field's existing df.change (FieldGroup controls call df.change). */
+	function on_field_change(group, fieldname, handler) {
+		const ctrl = group.fields_dict[fieldname];
+		if (!ctrl) return;
+		const df = ctrl.df;
+		const previous = df.change || df.onchange;
+		df.change = function () {
+			const result = previous ? previous.apply(this, arguments) : undefined;
+			handler();
+			return result;
+		};
+	}
+
+	/**
+	 * Attach the cascade to a dialog or Web Form that has a country field and at
+	 * least one address level field. Returns the state object ({cascade}) or null
+	 * when the group has no address fields. Safe to call more than once.
+	 */
+	function attach_to_field_group(group, { country_fields = COUNTRY_FIELDS } = {}) {
+		if (!group || !group.fields_dict) return null;
+		if (group._geo_cascade) return group._geo_cascade;
+		const country_field = country_fields.find((f) => group.fields_dict[f]);
+		if (!country_field) return null;
+		if (!LEVEL_FIELDS.some((f) => group.fields_dict[f])) return null;
+
+		const adapter = new FieldGroupAdapter(group);
+		const state = { cascade: null, adapter };
+		group._geo_cascade = state;
+
+		const setup = async () => {
+			if (state.cascade) state.cascade.teardown();
+			const cascade = new GeoCascade({ country: group.get_value(country_field), adapter });
+			state.cascade = cascade;
+			if (group.get_value(country_field)) await cascade.setup();
+			return cascade;
+		};
+
+		on_field_change(group, country_field, async () => {
+			const old = state.cascade;
+			if (old) {
+				const fields = new Set(LEVEL_FIELDS.filter((f) => f !== "address_line2"));
+				old.level_fields.forEach((f) => fields.add(f));
+				const auto = old.auto_postal;
+				old.teardown();
+				state.cascade = null;
+				if (auto && group.get_value("pincode") === auto)
+					await adapter.set_value("pincode", "");
+				for (const f of fields) {
+					if (group.fields_dict[f] && group.get_value(f)) await adapter.set_value(f, "");
+				}
+			}
+			state.ready = setup();
+		});
+		for (const f of LEVEL_FIELDS) {
+			if (!group.fields_dict[f]) continue;
+			on_field_change(group, f, () => {
+				if (state.cascade && state.cascade.handles(f)) state.cascade.handle_change(f);
+			});
+		}
+		state.ready = setup();
+		return state;
 	}
 
 	// ------------------------------------------------------------------
@@ -291,6 +371,7 @@
 		 * @param {string} [opts.postal_field="pincode"]
 		 */
 		constructor({ country, adapter, postal_field = "pincode" }) {
+			this._chain = Promise.resolve();
 			this.country = country;
 			this.adapter = adapter;
 			this.postal_field = postal_field;
@@ -389,7 +470,18 @@
 		 * - a different selection (or clearing the field) clears the lower levels
 		 * - free text that matches nothing is kept as typed; lower levels are left alone
 		 */
-		async handle_change(fieldname) {
+		/**
+		 * React to a value change in one of the level fields. Calls are serialised
+		 * so a change in a lower level always sees the resolved code of the level
+		 * above it, even when the user types faster than the options load.
+		 */
+		handle_change(fieldname) {
+			const run = this._chain.then(() => this._handle_change(fieldname));
+			this._chain = run.catch(() => {});
+			return run;
+		}
+
+		async _handle_change(fieldname) {
 			if (!this.supported || this._suspended) return;
 			const i = this.field_index(fieldname);
 			if (i === -1) return;
@@ -533,7 +625,8 @@
 		client,
 		GeoCascade,
 		FormAdapter,
-		WebFormAdapter,
+		FieldGroupAdapter,
+		attach_to_field_group,
 		attach_suggestions,
 		detach_suggestions,
 		normalize,

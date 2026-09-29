@@ -14,6 +14,10 @@ app_include_js = ["/assets/geo_extension/js/geo_selector.js", "/assets/geo_exten
 # address.js wires the selector (loaded globally above) to the Address form
 doctype_js = {"Address": "public/js/address.js"}
 
+# Website: standard Web Forms on Address (e.g. ERPNext's portal /address) get the
+# selector too. The files are inlined into the web form page, so both are listed.
+webform_include_js = {"Address": ["public/js/geo_selector.js", "public/js/address_web_form.js"]}
+
 # Install / migrate / uninstall
 # -----------------------------
 # geo_extension makes no schema or layout changes to Address. These hooks only
