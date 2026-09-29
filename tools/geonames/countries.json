@@ -134,5 +134,701 @@
         "ADM2"
       ]
     }
+  },
+  "pk": {
+    "name": "Pakistan",
+    "levels": [
+      {
+        "source": "ADM1",
+        "label": "Province/Territory",
+        "target_field": "state",
+        "strip": [
+          " Province$"
+        ]
+      },
+      {
+        "source": "ADM2",
+        "label": "District",
+        "target_field": "county",
+        "strip": [
+          " District$"
+        ]
+      },
+      {
+        "source": "P",
+        "label": "City/Town",
+        "target_field": "city"
+      }
+    ],
+    "places": {
+      "min_population": 500
+    },
+    "postal_codes": {
+      "enabled": false
+    }
+  },
+  "bd": {
+    "name": "Bangladesh",
+    "levels": [
+      {
+        "source": "ADM1",
+        "label": "Division",
+        "target_field": "state",
+        "strip": [
+          " Division$"
+        ]
+      },
+      {
+        "source": "ADM2",
+        "label": "District",
+        "target_field": "county"
+      },
+      {
+        "source": "P",
+        "label": "City/Town",
+        "target_field": "city"
+      }
+    ],
+    "places": {
+      "min_population": 500
+    },
+    "postal_codes": {
+      "enabled": true,
+      "pattern": "^[0-9]{4}$",
+      "attach_to": [
+        "P",
+        "ADM2"
+      ]
+    }
+  },
+  "ae": {
+    "name": "United Arab Emirates",
+    "levels": [
+      {
+        "source": "ADM1",
+        "label": "Emirate",
+        "target_field": "state",
+        "strip": [
+          "^Emirate of "
+        ]
+      },
+      {
+        "source": "P",
+        "label": "City/Area",
+        "target_field": "city"
+      }
+    ],
+    "places": {
+      "min_population": 500
+    },
+    "postal_codes": {
+      "enabled": false
+    }
+  },
+  "sa": {
+    "name": "Saudi Arabia",
+    "levels": [
+      {
+        "source": "ADM1",
+        "label": "Region",
+        "target_field": "state",
+        "strip": [
+          " Region$"
+        ]
+      },
+      {
+        "source": "P",
+        "label": "City",
+        "target_field": "city"
+      }
+    ],
+    "places": {
+      "min_population": 500
+    },
+    "postal_codes": {
+      "enabled": false
+    }
+  },
+  "eg": {
+    "name": "Egypt",
+    "levels": [
+      {
+        "source": "ADM1",
+        "label": "Governorate",
+        "target_field": "state",
+        "strip": [
+          "^Muḩāfaz̧at ",
+          " Governorate$"
+        ]
+      },
+      {
+        "source": "P",
+        "label": "City",
+        "target_field": "city"
+      }
+    ],
+    "places": {
+      "min_population": 500
+    },
+    "postal_codes": {
+      "enabled": false
+    },
+    "names": {
+      "361849": "Dakahlia",
+      "361323": "Faiyum",
+      "361294": "Gharbia",
+      "360997": "Giza",
+      "360689": "Monufia",
+      "360688": "Minya",
+      "360621": "Qalyubia",
+      "360016": "Sharqia",
+      "359787": "Aswan",
+      "359781": "Asyut",
+      "359171": "Beni Suef",
+      "354500": "Kafr El Sheikh",
+      "352603": "Matrouh",
+      "350546": "Qena",
+      "347794": "Sohag"
+    }
+  },
+  "ng": {
+    "name": "Nigeria",
+    "levels": [
+      {
+        "source": "ADM1",
+        "label": "State",
+        "target_field": "state",
+        "strip": [
+          " State$"
+        ]
+      },
+      {
+        "source": "ADM2",
+        "label": "Local Government Area",
+        "target_field": "county"
+      },
+      {
+        "source": "P",
+        "label": "City/Town",
+        "target_field": "city"
+      }
+    ],
+    "places": {
+      "min_population": 500
+    },
+    "postal_codes": {
+      "enabled": false
+    }
+  },
+  "ke": {
+    "name": "Kenya",
+    "levels": [
+      {
+        "source": "ADM1",
+        "label": "County",
+        "target_field": "state"
+      },
+      {
+        "source": "P",
+        "label": "Town",
+        "target_field": "city"
+      }
+    ],
+    "places": {
+      "min_population": 500
+    },
+    "postal_codes": {
+      "enabled": true,
+      "pattern": "^[0-9]{5}$",
+      "attach_to": [
+        "P"
+      ]
+    }
+  },
+  "za": {
+    "name": "South Africa",
+    "levels": [
+      {
+        "source": "ADM1",
+        "label": "Province",
+        "target_field": "state"
+      },
+      {
+        "source": "ADM2",
+        "label": "District/Metropolitan Municipality",
+        "target_field": "county",
+        "strip": [
+          " District Municipality$",
+          " Metropolitan Municipality$"
+        ]
+      },
+      {
+        "source": "P",
+        "label": "City/Town",
+        "target_field": "city"
+      }
+    ],
+    "places": {
+      "min_population": 500
+    },
+    "postal_codes": {
+      "enabled": true,
+      "pattern": "^[0-9]{4}$",
+      "attach_to": [
+        "P"
+      ]
+    }
+  },
+  "my": {
+    "name": "Malaysia",
+    "levels": [
+      {
+        "source": "ADM1",
+        "label": "State/Federal Territory",
+        "target_field": "state"
+      },
+      {
+        "source": "ADM2",
+        "label": "District",
+        "target_field": "county",
+        "strip": [
+          "^Bahagian "
+        ]
+      },
+      {
+        "source": "P",
+        "label": "City/Town",
+        "target_field": "city"
+      }
+    ],
+    "places": {
+      "min_population": 500
+    },
+    "postal_codes": {
+      "enabled": true,
+      "pattern": "^[0-9]{5}$",
+      "attach_to": [
+        "P"
+      ]
+    }
+  },
+  "br": {
+    "name": "Brazil",
+    "levels": [
+      {
+        "source": "ADM1",
+        "label": "State",
+        "target_field": "state"
+      },
+      {
+        "source": "ADM2",
+        "label": "Municipality",
+        "target_field": "city"
+      }
+    ],
+    "postal_codes": {
+      "enabled": false
+    }
+  },
+  "ca": {
+    "name": "Canada",
+    "levels": [
+      {
+        "source": "ADM1",
+        "label": "Province/Territory",
+        "target_field": "state"
+      },
+      {
+        "source": "P",
+        "label": "City/Town",
+        "target_field": "city"
+      }
+    ],
+    "places": {
+      "min_population": 500
+    },
+    "postal_codes": {
+      "enabled": false
+    }
+  },
+  "au": {
+    "name": "Australia",
+    "levels": [
+      {
+        "source": "ADM1",
+        "label": "State/Territory",
+        "target_field": "state",
+        "strip": [
+          "^State of "
+        ]
+      },
+      {
+        "source": "P",
+        "label": "Suburb/Town",
+        "target_field": "city"
+      }
+    ],
+    "places": {
+      "min_population": 500,
+      "feature_codes": [
+        "PPL",
+        "PPLA",
+        "PPLA2",
+        "PPLA3",
+        "PPLA4",
+        "PPLA5",
+        "PPLC",
+        "PPLCH",
+        "PPLG",
+        "PPLS",
+        "PPLX"
+      ]
+    },
+    "postal_codes": {
+      "enabled": true,
+      "pattern": "^[0-9]{4}$",
+      "attach_to": [
+        "P"
+      ]
+    }
+  },
+  "tr": {
+    "name": "Türkiye",
+    "levels": [
+      {
+        "source": "ADM1",
+        "label": "Province (İl)",
+        "target_field": "state"
+      },
+      {
+        "source": "ADM2",
+        "label": "District (İlçe)",
+        "target_field": "city",
+        "strip": [
+          " İlçesi$"
+        ]
+      }
+    ],
+    "postal_codes": {
+      "enabled": true,
+      "pattern": "^[0-9]{5}$",
+      "attach_to": [
+        "ADM2"
+      ]
+    }
+  },
+  "mx": {
+    "name": "Mexico",
+    "levels": [
+      {
+        "source": "ADM1",
+        "label": "State",
+        "target_field": "state",
+        "strip": [
+          "^Estado de "
+        ]
+      },
+      {
+        "source": "ADM2",
+        "label": "Municipality",
+        "target_field": "county"
+      },
+      {
+        "source": "P",
+        "label": "City/Town",
+        "target_field": "city"
+      }
+    ],
+    "places": {
+      "min_population": 1000
+    },
+    "postal_codes": {
+      "enabled": false
+    }
+  },
+  "th": {
+    "name": "Thailand",
+    "levels": [
+      {
+        "source": "ADM1",
+        "label": "Province",
+        "target_field": "state",
+        "strip": [
+          "^Changwat ",
+          " Province$"
+        ]
+      },
+      {
+        "source": "ADM2",
+        "label": "District (Amphoe)",
+        "target_field": "city",
+        "strip": [
+          "^Amphoe ",
+          "^Khet "
+        ]
+      },
+      {
+        "source": "ADM3",
+        "label": "Subdistrict (Tambon)",
+        "target_field": "county",
+        "strip": [
+          "^Tambon "
+        ]
+      }
+    ],
+    "postal_codes": {
+      "enabled": true,
+      "pattern": "^[0-9]{5}$",
+      "attach_to": [
+        "ADM3",
+        "ADM2"
+      ]
+    }
+  },
+  "fr": {
+    "name": "France",
+    "levels": [
+      {
+        "source": "ADM1",
+        "label": "Region",
+        "target_field": "state"
+      },
+      {
+        "source": "ADM2",
+        "label": "Département",
+        "target_field": "county"
+      },
+      {
+        "source": "P",
+        "label": "City/Commune",
+        "target_field": "city"
+      }
+    ],
+    "places": {
+      "min_population": 500
+    },
+    "postal_codes": {
+      "enabled": true,
+      "pattern": "^[0-9]{5}$",
+      "attach_to": [
+        "P"
+      ]
+    }
+  },
+  "it": {
+    "name": "Italy",
+    "levels": [
+      {
+        "source": "ADM1",
+        "label": "Region",
+        "target_field": "state"
+      },
+      {
+        "source": "ADM2",
+        "label": "Province",
+        "target_field": "county",
+        "strip": [
+          "^Città metropolitana di ",
+          "^Provincia di "
+        ]
+      },
+      {
+        "source": "ADM3",
+        "label": "Comune",
+        "target_field": "city"
+      }
+    ],
+    "postal_codes": {
+      "enabled": true,
+      "pattern": "^[0-9]{5}$",
+      "attach_to": [
+        "ADM3"
+      ]
+    }
+  },
+  "es": {
+    "name": "Spain",
+    "levels": [
+      {
+        "source": "ADM1",
+        "label": "Autonomous Community",
+        "target_field": "state"
+      },
+      {
+        "source": "ADM2",
+        "label": "Province",
+        "target_field": "county",
+        "strip": [
+          "^Província de ",
+          "^Provincia de "
+        ]
+      },
+      {
+        "source": "ADM3",
+        "label": "Municipality",
+        "target_field": "city"
+      }
+    ],
+    "postal_codes": {
+      "enabled": true,
+      "pattern": "^[0-9]{5}$",
+      "attach_to": [
+        "ADM3"
+      ]
+    }
+  },
+  "nl": {
+    "name": "Netherlands",
+    "levels": [
+      {
+        "source": "ADM1",
+        "label": "Province",
+        "target_field": "state",
+        "strip": [
+          "^Provincie "
+        ]
+      },
+      {
+        "source": "P",
+        "label": "City/Town",
+        "target_field": "city"
+      }
+    ],
+    "places": {
+      "min_population": 500
+    },
+    "postal_codes": {
+      "enabled": false
+    }
+  },
+  "ch": {
+    "name": "Switzerland",
+    "levels": [
+      {
+        "source": "ADM1",
+        "label": "Canton",
+        "target_field": "state",
+        "strip": [
+          "^Kanton ",
+          "^Canton de ",
+          "^Canton du ",
+          "^Cantone "
+        ]
+      },
+      {
+        "source": "ADM3",
+        "label": "Municipality",
+        "target_field": "city"
+      }
+    ],
+    "postal_codes": {
+      "enabled": true,
+      "pattern": "^[0-9]{4}$",
+      "attach_to": [
+        "ADM3"
+      ]
+    }
+  },
+  "np": {
+    "name": "Nepal",
+    "levels": [
+      {
+        "source": "ADM1",
+        "label": "Province",
+        "target_field": "state"
+      },
+      {
+        "source": "ADM2",
+        "label": "District",
+        "target_field": "county"
+      },
+      {
+        "source": "P",
+        "label": "City/Town",
+        "target_field": "city"
+      }
+    ],
+    "places": {
+      "min_population": 500
+    },
+    "postal_codes": {
+      "enabled": false
+    }
+  },
+  "lk": {
+    "name": "Sri Lanka",
+    "levels": [
+      {
+        "source": "ADM1",
+        "label": "Province",
+        "target_field": "state",
+        "strip": [
+          " Province$",
+          "^Province of "
+        ]
+      },
+      {
+        "source": "ADM2",
+        "label": "District",
+        "target_field": "county",
+        "strip": [
+          " District$"
+        ]
+      },
+      {
+        "source": "P",
+        "label": "City/Town",
+        "target_field": "city"
+      }
+    ],
+    "places": {
+      "min_population": 500
+    },
+    "postal_codes": {
+      "enabled": true,
+      "pattern": "^[0-9]{5}$",
+      "attach_to": [
+        "P",
+        "ADM2"
+      ]
+    }
+  },
+  "nz": {
+    "name": "New Zealand",
+    "levels": [
+      {
+        "source": "ADM1",
+        "label": "Region",
+        "target_field": "state"
+      },
+      {
+        "source": "P",
+        "label": "City/Town",
+        "target_field": "city"
+      }
+    ],
+    "places": {
+      "min_population": 500,
+      "feature_codes": [
+        "PPL",
+        "PPLA",
+        "PPLA2",
+        "PPLA3",
+        "PPLA4",
+        "PPLA5",
+        "PPLC",
+        "PPLCH",
+        "PPLG",
+        "PPLS",
+        "PPLX"
+      ]
+    },
+    "postal_codes": {
+      "enabled": true,
+      "pattern": "^[0-9]{4}$",
+      "attach_to": [
+        "P"
+      ]
+    }
   }
 }

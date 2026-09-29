@@ -40,14 +40,37 @@ It works **with** the native Address DocType, not instead of it:
 | Country | Code | Hierarchy (→ native field) | Records | Postal codes | Source |
 | ------- | ---- | -------------------------- | ------- | ------------ | ------ |
 | 🇵🇭 Philippines | `ph` | Province → `state`, City/Municipality → `city`, Barangay → `county` | 84 / 1,642 / 42,010 | 1,490 codes for 1,474 cities/municipalities | Official PSGC publication (PSA), 10-digit PSGC codes |
-| 🇺🇸 United States | `us` | State → `state`, County → `county`, City → `city` | 51 / 3,143 / 20,987 | 40,690 ZIP codes | GeoNames (CC BY 4.0) |
-| 🇮🇳 India | `in` | State/UT → `state`, District → `county`, City/Town → `city` | 36 / 763 / 6,941 | 18,987 PIN codes | GeoNames (CC BY 4.0) |
-| 🇩🇪 Germany | `de` | Bundesland → `state`, Landkreis → `county`, City/Town → `city` | 16 / 400 / 11,419 | 10,812 codes | GeoNames (CC BY 4.0) |
-| 🇮🇩 Indonesia | `id` | Province → `state`, City/Regency → `city` | 38 / 514 | 8,083 codes (per regency) | GeoNames (CC BY 4.0) |
+| 🇺🇸 United States | `us` | State → `state`, County → `county`, City → `city` | 51 / 3,143 / 20,987 | 40,690 codes | GeoNames (CC BY 4.0) |
+| 🇮🇳 India | `in` | State/Union Territory → `state`, District → `county`, City/Town → `city` | 36 / 763 / 6,941 | 22,667 codes | GeoNames (CC BY 4.0) |
+| 🇩🇪 Germany | `de` | Bundesland → `state`, Landkreis/Kreisfreie Stadt → `county`, City/Town → `city` | 16 / 400 / 11,419 | 16,226 codes | GeoNames (CC BY 4.0) |
 | 🇬🇧 United Kingdom | `gb` | County/Region → `county`, City/Town → `city` | 185 / 5,707 | none (UK postcodes identify streets) | GeoNames (CC BY 4.0) |
+| 🇮🇩 Indonesia | `id` | Province → `state`, City/Regency → `city` | 38 / 514 | 8,173 codes | GeoNames (CC BY 4.0) |
 | 🇸🇬 Singapore | `sg` | Planning Area → `city` | 55 | none (postal codes identify buildings) | URA via data.gov.sg (Open Data Licence) |
+| 🇵🇰 Pakistan | `pk` | Province/Territory → `state`, District → `county`, City/Town → `city` | 7 / 157 / 560 | none usable in GeoNames | GeoNames (CC BY 4.0) |
+| 🇧🇩 Bangladesh | `bd` | Division → `state`, District → `county`, City/Town → `city` | 8 / 64 / 151 | 1,349 codes | GeoNames (CC BY 4.0) |
+| 🇦🇪 United Arab Emirates | `ae` | Emirate → `state`, City/Area → `city` | 7 / 50 | none (no postal codes in use) | GeoNames (CC BY 4.0) |
+| 🇸🇦 Saudi Arabia | `sa` | Region → `state`, City → `city` | 13 / 152 | none in GeoNames | GeoNames (CC BY 4.0) |
+| 🇪🇬 Egypt | `eg` | Governorate → `state`, City → `city` | 27 / 253 | none in GeoNames | GeoNames (CC BY 4.0) |
+| 🇳🇬 Nigeria | `ng` | State → `state`, Local Government Area → `county`, City/Town → `city` | 37 / 785 / 906 | none in GeoNames | GeoNames (CC BY 4.0) |
+| 🇰🇪 Kenya | `ke` | County → `state`, Town → `city` | 47 / 329 | 204 codes | GeoNames (CC BY 4.0) |
+| 🇿🇦 South Africa | `za` | Province → `state`, District/Metropolitan Municipality → `county`, City/Town → `city` | 9 / 52 / 929 | 2,277 codes | GeoNames (CC BY 4.0) |
+| 🇲🇾 Malaysia | `my` | State/Federal Territory → `state`, District → `county`, City/Town → `city` | 16 / 144 / 710 | 2,224 codes | GeoNames (CC BY 4.0) |
+| 🇧🇷 Brazil | `br` | State → `state`, Municipality → `city` | 27 / 5,570 | none (GeoNames lists one generic CEP per municipality) | GeoNames (CC BY 4.0) |
+| 🇨🇦 Canada | `ca` | Province/Territory → `state`, City/Town → `city` | 13 / 1,916 | none (GeoNames has forward sortation areas only) | GeoNames (CC BY 4.0) |
+| 🇦🇺 Australia | `au` | State/Territory → `state`, Suburb/Town → `city` | 8 / 4,874 | 5,841 codes | GeoNames (CC BY 4.0) |
+| 🇹🇷 Türkiye | `tr` | Province (İl) → `state`, District (İlçe) → `city` | 81 / 974 | 2,864 codes | GeoNames (CC BY 4.0) |
+| 🇲🇽 Mexico | `mx` | State → `state`, Municipality → `county`, City/Town → `city` | 32 / 2,471 / 8,718 | none (GeoNames colonia-level file is too large to ship) | GeoNames (CC BY 4.0) |
+| 🇹🇭 Thailand | `th` | Province → `state`, District (Amphoe) → `city`, Subdistrict (Tambon) → `county` | 77 / 928 / 7,436 | 607 codes | GeoNames (CC BY 4.0) |
+| 🇫🇷 France | `fr` | Region → `state`, Département → `county`, City/Commune → `city` | 13 / 96 / 15,204 | 16,277 codes | GeoNames (CC BY 4.0) |
+| 🇮🇹 Italy | `it` | Region → `state`, Province → `county`, Comune → `city` | 20 / 107 / 7,896 | 8,424 codes | GeoNames (CC BY 4.0) |
+| 🇪🇸 Spain | `es` | Autonomous Community → `state`, Province → `county`, Municipality → `city` | 19 / 52 / 8,124 | 10,922 codes | GeoNames (CC BY 4.0) |
+| 🇳🇱 Netherlands | `nl` | Province → `state`, City/Town → `city` | 12 / 1,701 | none (GeoNames has the 4-digit half only) | GeoNames (CC BY 4.0) |
+| 🇨🇭 Switzerland | `ch` | Canton → `state`, Municipality → `city` | 26 / 2,113 | 3,574 codes | GeoNames (CC BY 4.0) |
+| 🇳🇵 Nepal | `np` | Province → `state`, District → `county`, City/Town → `city` | 7 / 77 / 79 | none in GeoNames | GeoNames (CC BY 4.0) |
+| 🇱🇰 Sri Lanka | `lk` | Province → `state`, District → `county`, City/Town → `city` | 9 / 25 / 80 | 1,834 codes | GeoNames (CC BY 4.0) |
+| 🇳🇿 New Zealand | `nz` | Region → `state`, City/Town → `city` | 17 / 730 | 804 codes | GeoNames (CC BY 4.0) |
 
-Cities and towns from GeoNames are populated places with a population of at least 500 plus every administrative seat, so small villages may be missing. Users can always type anything else. Every dataset is regenerated from its source with a script under [tools/](tools/), so refreshing data is a one-line command, not a hand edit. See [Contributing geographic data](#contributing-geographic-data).
+Thirty countries ship with the app, chosen by where Frappe and ERPNext are most used. Cities and towns from GeoNames are populated places with a population of at least 500 plus every administrative seat (suburbs for Australia and New Zealand), so small villages may be missing. Users can always type anything else. Every dataset is regenerated from its source with a script under [tools/](tools/), so refreshing data is a one-line command, not a hand edit. See [Contributing geographic data](#contributing-geographic-data).
 
 `bench geo-extension list` prints this table for the datasets installed on your bench.
 
@@ -375,7 +398,7 @@ The dataset engine and validator tests run without a site (`python -m unittest g
 
 - GeoNames-based datasets list populated places with at least 500 inhabitants plus administrative seats; smaller villages are missing and their names follow GeoNames conventions. Postal codes from GeoNames are attached to a city only when the postal place name matches; otherwise to the county/district, where they appear as suggestions.
 - The Philippines lists highly urbanised cities under the province they lie in (PSA codes them without a province) and Manila's barangays directly under the City of Manila. Postal codes cover 1,474 of 1,642 cities/municipalities; Manila's district-level codes are not included.
-- No postal codes for the United Kingdom and Singapore, where a postcode identifies a street or building rather than an area.
+- Some countries ship without postal codes (see the table): either the postcode identifies a street or building (United Kingdom, Singapore), GeoNames only has a partial form (Canada, Netherlands) or a single generic code per municipality (Brazil), or no usable file exists. Users type the code by hand there, as in stock Frappe.
 - Datasets are shipped with the app; updating data means updating the app (or using `geo_extension_dataset_roots`).
 - A name edited by hand that matches neither a name nor an alias ends the cascade at that level, by design.
 - Web Forms keep their own field order; only labels, suggestions and postal codes are applied there. Non-standard Web Forms need the one-line client script shown above.

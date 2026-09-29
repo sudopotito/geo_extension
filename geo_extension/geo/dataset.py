@@ -99,10 +99,14 @@ def clean_code(value: str | None) -> str:
 
 
 def normalize_name(value: str | None) -> str:
-	"""Accent- and case-insensitive key used for matching and sorting ('Ñuñoa' ~ 'nunoa')."""
+	"""
+	Accent- and case-insensitive key used for matching and sorting ('Ñuñoa' ~ 'nunoa').
+	The Turkish dotless i (U+0131) folds to a plain i as well, since it has no
+	combining decomposition.
+	"""
 	nfkd = unicodedata.normalize("NFKD", value or "")
 	no_marks = "".join(ch for ch in nfkd if not unicodedata.combining(ch))
-	return re.sub(r"\s+", " ", no_marks).strip().casefold()
+	return re.sub(r"\s+", " ", no_marks).strip().casefold().replace("\u0131", "i")
 
 
 def normalize_country_code(value: str | None) -> str:

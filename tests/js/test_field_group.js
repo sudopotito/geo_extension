@@ -43,6 +43,13 @@ test("files inlined into Web Forms are safe for Frappe's Jinja rendering", () =>
 	}
 });
 
+test("normalize folds accents and the Turkish dotless i", () => {
+	const env = make_env();
+	assert.equal(env.geo.normalize("Ñuñoa"), "nunoa");
+	assert.equal(env.geo.normalize("Karşıyaka"), env.geo.normalize("Karsiyaka"));
+	assert.equal(env.geo.normalize("İzmir"), "izmir");
+});
+
 test("dialog without address fields is left alone", () => {
 	const env = make_env({ responses: dataset_responses() });
 	const group = make_group(["subject", "country"]);

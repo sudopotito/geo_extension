@@ -119,7 +119,8 @@
 			.replace(/[̀-ͯ]/g, "")
 			.replace(/\s+/g, " ")
 			.trim()
-			.toLowerCase();
+			.toLowerCase()
+			.replace(/ı/g, "i"); // Turkish dotless i has no decomposition
 	}
 
 	function find_option(options, label) {

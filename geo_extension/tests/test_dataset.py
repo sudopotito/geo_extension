@@ -13,6 +13,14 @@ from geo_extension.geo import dataset as ds
 TEST_ROOT = os.path.join(os.path.dirname(__file__), "data", "countries")
 
 
+class TestNormalizeName(unittest.TestCase):
+	def test_accents_case_and_turkish_dotless_i_fold(self):
+		self.assertEqual(ds.normalize_name("Ñuñoa"), "nunoa")
+		self.assertEqual(ds.normalize_name("  City   of  Iloilo "), "city of iloilo")
+		self.assertEqual(ds.normalize_name("Kar\u015f\u0131yaka"), ds.normalize_name("Karsiyaka"))
+		self.assertEqual(ds.normalize_name("İzmir"), "izmir")
+
+
 class TestDatasetLoading(unittest.TestCase):
 	@classmethod
 	def setUpClass(cls):
